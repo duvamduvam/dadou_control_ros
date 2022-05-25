@@ -1,0 +1,579 @@
+2022-05-23 14:54:32,811 - kivy - INFO - main.py - <module> : 13 - Starting didier
+2022-05-23 14:54:32,812 - kivy - DEBUG - app.py - load_kv : 691 - App: Loading kv </home/dadou/Nextcloud/Didier/python/DadouControl/test.kv>
+2022-05-23 14:54:32,812 - kivy - DEBUG - app.py - load_kv : 694 - App: kv </home/dadou/Nextcloud/Didier/python/DadouControl/test.kv> not found
+2022-05-23 14:54:32,813 - kivy - DEBUG - base.py - _runTouchApp_prepare : 493 - Base: Create provider from mouse
+2022-05-23 14:54:32,813 - kivy - DEBUG - base.py - _runTouchApp_prepare : 493 - Base: Create provider from probesysfs
+2022-05-23 14:54:32,816 - kivy - DEBUG - probesysfs.py - probe : 210 - ProbeSysfs: using probesysfs!
+2022-05-23 14:54:32,817 - kivy - DEBUG - probesysfs.py - probe : 219 - ProbeSysfs: found device: DELL0918:00 0488:121F Touchpad at /dev/input/event6
+2022-05-23 14:54:32,817 - kivy - INFO - probesysfs.py - probe : 233 - ProbeSysfs: device match: /dev/input/event6
+2022-05-23 14:54:32,818 - kivy - INFO - mtdev.py - __init__ : 130 - MTD: Read event from </dev/input/event6>
+2022-05-23 14:54:32,818 - kivy - INFO - base.py - _runTouchApp_prepare : 520 - Base: Start application main loop
+2022-05-23 14:54:32,819 - kivy - INFO - __init__.py - refresh : 780 - GL: NPOT texture support is available
+2022-05-23 14:54:32,820 - kivy - DEBUG - atlas.py - _load : 204 - Atlas: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme.atlas>
+2022-05-23 14:54:32,820 - kivy - DEBUG - atlas.py - _load : 208 - Atlas: Need to load 1 images
+2022-05-23 14:54:32,820 - kivy - DEBUG - atlas.py - _load : 213 - Atlas: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme-0.png>
+2022-05-23 14:54:32,820 - kivy - DEBUG - __init__.py - load : 458 - ImageSDL2: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme-0.png>
+2022-05-23 14:54:35,819 - kivy - WARNING - mtdev.py - _thread_run : 246 - MTD: Unable to open device "/dev/input/event6". Please ensure you have the appropriate permissions.
+2022-05-23 14:57:20,955 - kivy - INFO - base.py - stopTouchApp : 616 - Base: Leaving application in progress...
+2022-05-23 14:57:20,956 - kivy - WARNING - logger.py - write : 338 - stderr: Traceback (most recent call last):
+2022-05-23 14:57:20,956 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/main.py", line 24, in <module>
+2022-05-23 14:57:20,957 - kivy - WARNING - logger.py - write : 338 - stderr:     TestApp().run()
+2022-05-23 14:57:20,957 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/app.py", line 955, in run
+2022-05-23 14:57:20,958 - kivy - WARNING - logger.py - write : 338 - stderr:     runTouchApp()
+2022-05-23 14:57:20,958 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/base.py", line 574, in runTouchApp
+2022-05-23 14:57:20,959 - kivy - WARNING - logger.py - write : 338 - stderr:     EventLoop.mainloop()
+2022-05-23 14:57:20,959 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/base.py", line 339, in mainloop
+2022-05-23 14:57:20,959 - kivy - WARNING - logger.py - write : 338 - stderr:     self.idle()
+2022-05-23 14:57:20,960 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/base.py", line 379, in idle
+2022-05-23 14:57:20,960 - kivy - WARNING - logger.py - write : 338 - stderr:     Clock.tick()
+2022-05-23 14:57:20,960 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 733, in tick
+2022-05-23 14:57:20,961 - kivy - WARNING - logger.py - write : 338 - stderr:     self.post_idle(ts, self.idle())
+2022-05-23 14:57:20,961 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 689, in idle
+2022-05-23 14:57:20,962 - kivy - WARNING - logger.py - write : 338 - stderr:     usleep(1000000 * sleeptime)
+2022-05-23 14:57:20,962 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 965, in usleep
+2022-05-23 14:57:20,963 - kivy - WARNING - logger.py - write : 338 - stderr:     _usleep(microseconds, self._sleep_obj)
+2022-05-23 14:57:20,963 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 556, in _usleep
+2022-05-23 14:57:20,964 - kivy - WARNING - logger.py - write : 338 - stderr:     _libc_usleep(int(microseconds))
+2022-05-23 14:57:20,964 - kivy - WARNING - logger.py - write : 338 - stderr: KeyboardInterrupt
+2022-05-23 14:57:21,358 - kivy - INFO - main.py - <module> : 13 - Starting didier
+2022-05-23 14:57:32,648 - kivy - WARNING - logger.py - write : 338 - stderr: Traceback (most recent call last):
+2022-05-23 14:57:32,648 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/main.py", line 26, in <module>
+2022-05-23 14:57:32,648 - kivy - WARNING - logger.py - write : 338 - stderr:     msg = com.get_msg()
+2022-05-23 14:57:32,648 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/com.py", line 28, in get_msg
+2022-05-23 14:57:32,649 - kivy - WARNING - logger.py - write : 338 - stderr:     if self.device.inWaiting() > 0:
+2022-05-23 14:57:32,649 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/serial/serialutil.py", line 594, in inWaiting
+2022-05-23 14:57:32,649 - kivy - WARNING - logger.py - write : 338 - stderr:     return self.in_waiting
+2022-05-23 14:57:32,649 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/serial/serialposix.py", line 549, in in_waiting
+2022-05-23 14:57:32,649 - kivy - WARNING - logger.py - write : 338 - stderr:     s = fcntl.ioctl(self.fd, TIOCINQ, TIOCM_zero_str)
+2022-05-23 14:57:32,649 - kivy - WARNING - logger.py - write : 338 - stderr: KeyboardInterrupt
+2022-05-23 14:57:33,021 - kivy - INFO - main.py - <module> : 13 - Starting didier
+2022-05-23 14:57:56,360 - kivy - WARNING - logger.py - write : 338 - stderr: Traceback (most recent call last):
+2022-05-23 14:57:56,360 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/main.py", line 26, in <module>
+2022-05-23 14:57:56,360 - kivy - WARNING - logger.py - write : 338 - stderr:     msg = com.get_msg()
+2022-05-23 14:57:56,360 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/com.py", line 28, in get_msg
+2022-05-23 14:57:56,360 - kivy - WARNING - logger.py - write : 338 - stderr:     if self.device.inWaiting() > 0:
+2022-05-23 14:57:56,360 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/serial/serialutil.py", line 594, in inWaiting
+2022-05-23 14:57:56,360 - kivy - WARNING - logger.py - write : 338 - stderr:     return self.in_waiting
+2022-05-23 14:57:56,361 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/serial/serialposix.py", line 549, in in_waiting
+2022-05-23 14:57:56,361 - kivy - WARNING - logger.py - write : 338 - stderr:     s = fcntl.ioctl(self.fd, TIOCINQ, TIOCM_zero_str)
+2022-05-23 14:57:56,361 - kivy - WARNING - logger.py - write : 338 - stderr: KeyboardInterrupt
+2022-05-23 14:57:56,738 - kivy - INFO - main.py - <module> : 13 - Starting didier
+2022-05-23 14:58:05,802 - kivy - INFO - com.py - get_msg : 31 - received from arduinog
+2022-05-23 14:58:06,563 - kivy - INFO - com.py - get_msg : 31 - received from arduinoh
+2022-05-23 14:58:06,763 - kivy - INFO - com.py - get_msg : 31 - received from arduinoh
+2022-05-23 14:58:07,191 - kivy - INFO - com.py - get_msg : 31 - received from arduinoi
+2022-05-23 14:58:07,997 - kivy - INFO - com.py - get_msg : 31 - received from arduinoh
+2022-05-23 14:58:08,863 - kivy - INFO - com.py - get_msg : 31 - received from arduinoh
+2022-05-23 14:58:09,478 - kivy - INFO - com.py - get_msg : 31 - received from arduinog
+2022-05-23 14:58:09,680 - kivy - INFO - com.py - get_msg : 31 - received from arduinog
+2022-05-23 14:58:10,022 - kivy - INFO - com.py - get_msg : 31 - received from arduinoh
+2022-05-23 14:58:10,457 - kivy - INFO - com.py - get_msg : 31 - received from arduinoi
+2022-05-23 14:58:11,216 - kivy - INFO - com.py - get_msg : 31 - received from arduinoh
+2022-05-23 14:58:11,699 - kivy - INFO - com.py - get_msg : 31 - received from arduinog
+2022-05-23 14:58:12,072 - kivy - INFO - com.py - get_msg : 31 - received from arduinoh
+2022-05-23 14:58:12,389 - kivy - INFO - com.py - get_msg : 31 - received from arduinoi
+2022-05-23 14:59:08,079 - kivy - WARNING - logger.py - write : 338 - stderr: Traceback (most recent call last):
+2022-05-23 14:59:08,080 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/main.py", line 26, in <module>
+2022-05-23 14:59:08,080 - kivy - WARNING - logger.py - write : 338 - stderr:     msg = com.get_msg()
+2022-05-23 14:59:08,080 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/com.py", line 28, in get_msg
+2022-05-23 14:59:08,080 - kivy - WARNING - logger.py - write : 338 - stderr:     if self.device.inWaiting() > 0:
+2022-05-23 14:59:08,080 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/serial/serialutil.py", line 594, in inWaiting
+2022-05-23 14:59:08,081 - kivy - WARNING - logger.py - write : 338 - stderr:     return self.in_waiting
+2022-05-23 14:59:08,081 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/serial/serialposix.py", line 549, in in_waiting
+2022-05-23 14:59:08,081 - kivy - WARNING - logger.py - write : 338 - stderr:     s = fcntl.ioctl(self.fd, TIOCINQ, TIOCM_zero_str)
+2022-05-23 14:59:08,081 - kivy - WARNING - logger.py - write : 338 - stderr: KeyboardInterrupt
+2022-05-23 14:59:08,501 - kivy - INFO - main.py - <module> : 13 - Starting didier
+2022-05-23 14:59:11,503 - kivy - INFO - com.py - get_msg : 31 - received from arduino : g
+2022-05-23 14:59:12,148 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 14:59:13,106 - kivy - INFO - com.py - get_msg : 31 - received from arduino : i
+2022-05-23 14:59:13,306 - kivy - INFO - com.py - get_msg : 31 - received from arduino : i
+2022-05-23 14:59:13,895 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 14:59:14,396 - kivy - INFO - com.py - get_msg : 31 - received from arduino : g
+2022-05-23 14:59:14,837 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 14:59:15,372 - kivy - INFO - com.py - get_msg : 31 - received from arduino : i
+2022-05-23 14:59:16,731 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 14:59:17,287 - kivy - INFO - com.py - get_msg : 31 - received from arduino : g
+2022-05-23 14:59:17,804 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 14:59:18,334 - kivy - INFO - com.py - get_msg : 31 - received from arduino : i
+2022-05-23 14:59:18,535 - kivy - INFO - com.py - get_msg : 31 - received from arduino : i
+2022-05-23 14:59:19,221 - kivy - INFO - com.py - get_msg : 31 - received from arduino : g
+2022-05-23 14:59:19,776 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 14:59:20,311 - kivy - INFO - com.py - get_msg : 31 - received from arduino : i
+2022-05-23 14:59:20,954 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 14:59:21,491 - kivy - INFO - com.py - get_msg : 31 - received from arduino : g
+2022-05-23 14:59:22,002 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 14:59:22,556 - kivy - INFO - com.py - get_msg : 31 - received from arduino : i
+2022-05-23 14:59:23,141 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 14:59:23,719 - kivy - INFO - com.py - get_msg : 31 - received from arduino : g
+2022-05-23 15:00:20,416 - kivy - WARNING - logger.py - write : 338 - stderr: Traceback (most recent call last):
+2022-05-23 15:00:20,416 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/main.py", line 26, in <module>
+2022-05-23 15:00:20,417 - kivy - WARNING - logger.py - write : 338 - stderr:     msg = com.get_msg()
+2022-05-23 15:00:20,417 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/com.py", line 26, in get_msg
+2022-05-23 15:00:20,417 - kivy - WARNING - logger.py - write : 338 - stderr:     if self.arduino_enable & self.device.isOpen():
+2022-05-23 15:00:20,417 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/serial/serialutil.py", line 643, in isOpen
+2022-05-23 15:00:20,417 - kivy - WARNING - logger.py - write : 338 - stderr:     return self.is_open
+2022-05-23 15:00:20,417 - kivy - WARNING - logger.py - write : 338 - stderr: KeyboardInterrupt
+2022-05-23 15:00:20,828 - kivy - INFO - main.py - <module> : 13 - Starting didier
+2022-05-23 15:00:31,986 - kivy - INFO - com.py - get_msg : 31 - received from arduino : g
+2022-05-23 15:00:32,681 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 15:00:33,305 - kivy - INFO - com.py - get_msg : 31 - received from arduino : i
+2022-05-23 15:00:33,505 - kivy - INFO - com.py - get_msg : 31 - received from arduino : i
+2022-05-23 15:00:34,135 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 15:00:34,627 - kivy - INFO - com.py - get_msg : 31 - received from arduino : g
+2022-05-23 15:00:34,931 - kivy - INFO - com.py - get_msg : 31 - received from arduino : g
+2022-05-23 15:00:49,840 - kivy - INFO - com.py - get_msg : 31 - received from arduino : g
+2022-05-23 15:00:50,402 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 15:00:51,081 - kivy - INFO - com.py - get_msg : 31 - received from arduino : i
+2022-05-23 15:00:51,389 - kivy - INFO - com.py - get_msg : 31 - received from arduino : i
+2022-05-23 15:00:51,641 - kivy - INFO - com.py - get_msg : 31 - received from arduino : i
+2022-05-23 15:00:51,886 - kivy - INFO - com.py - get_msg : 31 - received from arduino : i
+2022-05-23 15:00:52,108 - kivy - INFO - com.py - get_msg : 31 - received from arduino : i
+2022-05-23 15:01:07,915 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 15:01:08,226 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 15:01:08,523 - kivy - INFO - com.py - get_msg : 31 - received from arduino : g
+2022-05-23 15:01:08,769 - kivy - INFO - com.py - get_msg : 31 - received from arduino : g
+2022-05-23 15:01:14,344 - kivy - INFO - com.py - get_msg : 31 - received from arduino : i
+2022-05-23 15:01:14,721 - kivy - INFO - com.py - get_msg : 31 - received from arduino : i
+2022-05-23 15:01:15,156 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 15:01:15,621 - kivy - INFO - com.py - get_msg : 31 - received from arduino : g
+2022-05-23 15:04:14,633 - kivy - WARNING - logger.py - write : 338 - stderr: Traceback (most recent call last):
+2022-05-23 15:04:14,634 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/main.py", line 26, in <module>
+2022-05-23 15:04:14,634 - kivy - WARNING - logger.py - write : 338 - stderr:     msg = com.get_msg()
+2022-05-23 15:04:14,634 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/com.py", line 28, in get_msg
+2022-05-23 15:04:14,634 - kivy - WARNING - logger.py - write : 338 - stderr:     if self.device.inWaiting() > 0:
+2022-05-23 15:04:14,634 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/serial/serialutil.py", line 594, in inWaiting
+2022-05-23 15:04:14,634 - kivy - WARNING - logger.py - write : 338 - stderr:     return self.in_waiting
+2022-05-23 15:04:14,634 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/serial/serialposix.py", line 545, in in_waiting
+2022-05-23 15:04:14,635 - kivy - WARNING - logger.py - write : 338 - stderr:     @property
+2022-05-23 15:04:14,635 - kivy - WARNING - logger.py - write : 338 - stderr: KeyboardInterrupt
+2022-05-23 15:04:15,056 - kivy - INFO - main.py - <module> : 13 - Starting didier
+2022-05-23 15:04:15,057 - kivy - WARNING - logger.py - write : 338 - stderr: Traceback (most recent call last):
+2022-05-23 15:04:15,057 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/main.py", line 19, in <module>
+2022-05-23 15:04:15,057 - kivy - WARNING - logger.py - write : 338 - stderr:     class TestApp(App):
+2022-05-23 15:04:15,058 - kivy - WARNING - logger.py - write : 338 - stderr: NameError: name 'App' is not defined
+2022-05-23 15:04:43,056 - kivy - INFO - main.py - <module> : 13 - Starting didier
+2022-05-23 15:04:47,851 - kivy - INFO - com.py - get_msg : 31 - received from arduino : g
+2022-05-23 15:04:48,437 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 15:04:49,196 - kivy - INFO - com.py - get_msg : 31 - received from arduino : i
+2022-05-23 15:04:49,397 - kivy - INFO - com.py - get_msg : 31 - received from arduino : i
+2022-05-23 15:04:49,846 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 15:04:50,360 - kivy - INFO - com.py - get_msg : 31 - received from arduino : g
+2022-05-23 15:05:00,275 - kivy - WARNING - logger.py - write : 338 - stderr: Traceback (most recent call last):
+2022-05-23 15:05:00,275 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/main.py", line 26, in <module>
+2022-05-23 15:05:00,275 - kivy - WARNING - logger.py - write : 338 - stderr:     msg = com.get_msg()
+2022-05-23 15:05:00,275 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/com.py", line 28, in get_msg
+2022-05-23 15:05:00,275 - kivy - WARNING - logger.py - write : 338 - stderr:     if self.device.inWaiting() > 0:
+2022-05-23 15:05:00,275 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/serial/serialutil.py", line 594, in inWaiting
+2022-05-23 15:05:00,276 - kivy - WARNING - logger.py - write : 338 - stderr:     return self.in_waiting
+2022-05-23 15:05:00,276 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/serial/serialposix.py", line 549, in in_waiting
+2022-05-23 15:05:00,276 - kivy - WARNING - logger.py - write : 338 - stderr:     s = fcntl.ioctl(self.fd, TIOCINQ, TIOCM_zero_str)
+2022-05-23 15:05:00,276 - kivy - WARNING - logger.py - write : 338 - stderr: KeyboardInterrupt
+2022-05-23 15:05:00,689 - kivy - INFO - main.py - <module> : 13 - Starting didier
+2022-05-23 15:05:00,689 - kivy - DEBUG - app.py - load_kv : 691 - App: Loading kv </home/dadou/Nextcloud/Didier/python/DadouControl/test.kv>
+2022-05-23 15:05:00,690 - kivy - DEBUG - app.py - load_kv : 694 - App: kv </home/dadou/Nextcloud/Didier/python/DadouControl/test.kv> not found
+2022-05-23 15:05:00,690 - kivy - DEBUG - base.py - _runTouchApp_prepare : 493 - Base: Create provider from mouse
+2022-05-23 15:05:00,690 - kivy - DEBUG - base.py - _runTouchApp_prepare : 493 - Base: Create provider from probesysfs
+2022-05-23 15:05:00,693 - kivy - DEBUG - probesysfs.py - probe : 210 - ProbeSysfs: using probesysfs!
+2022-05-23 15:05:00,695 - kivy - DEBUG - probesysfs.py - probe : 219 - ProbeSysfs: found device: DELL0918:00 0488:121F Touchpad at /dev/input/event6
+2022-05-23 15:05:00,695 - kivy - INFO - probesysfs.py - probe : 233 - ProbeSysfs: device match: /dev/input/event6
+2022-05-23 15:05:00,696 - kivy - INFO - mtdev.py - __init__ : 130 - MTD: Read event from </dev/input/event6>
+2022-05-23 15:05:00,696 - kivy - INFO - base.py - _runTouchApp_prepare : 520 - Base: Start application main loop
+2022-05-23 15:05:00,697 - kivy - INFO - __init__.py - refresh : 780 - GL: NPOT texture support is available
+2022-05-23 15:05:00,698 - kivy - DEBUG - atlas.py - _load : 204 - Atlas: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme.atlas>
+2022-05-23 15:05:00,699 - kivy - DEBUG - atlas.py - _load : 208 - Atlas: Need to load 1 images
+2022-05-23 15:05:00,699 - kivy - DEBUG - atlas.py - _load : 213 - Atlas: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme-0.png>
+2022-05-23 15:05:00,699 - kivy - DEBUG - __init__.py - load : 458 - ImageSDL2: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme-0.png>
+2022-05-23 15:05:03,696 - kivy - WARNING - mtdev.py - _thread_run : 246 - MTD: Unable to open device "/dev/input/event6". Please ensure you have the appropriate permissions.
+2022-05-23 15:05:16,896 - kivy - INFO - base.py - stopTouchApp : 616 - Base: Leaving application in progress...
+2022-05-23 15:05:16,897 - kivy - WARNING - logger.py - write : 338 - stderr: Traceback (most recent call last):
+2022-05-23 15:05:16,897 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/main.py", line 24, in <module>
+2022-05-23 15:05:16,897 - kivy - WARNING - logger.py - write : 338 - stderr:     TestApp().run()
+2022-05-23 15:05:16,897 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/app.py", line 955, in run
+2022-05-23 15:05:16,898 - kivy - WARNING - logger.py - write : 338 - stderr:     runTouchApp()
+2022-05-23 15:05:16,898 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/base.py", line 574, in runTouchApp
+2022-05-23 15:05:16,898 - kivy - WARNING - logger.py - write : 338 - stderr:     EventLoop.mainloop()
+2022-05-23 15:05:16,899 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/base.py", line 339, in mainloop
+2022-05-23 15:05:16,899 - kivy - WARNING - logger.py - write : 338 - stderr:     self.idle()
+2022-05-23 15:05:16,899 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/base.py", line 379, in idle
+2022-05-23 15:05:16,899 - kivy - WARNING - logger.py - write : 338 - stderr:     Clock.tick()
+2022-05-23 15:05:16,899 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 733, in tick
+2022-05-23 15:05:16,900 - kivy - WARNING - logger.py - write : 338 - stderr:     self.post_idle(ts, self.idle())
+2022-05-23 15:05:16,900 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 689, in idle
+2022-05-23 15:05:16,901 - kivy - WARNING - logger.py - write : 338 - stderr:     usleep(1000000 * sleeptime)
+2022-05-23 15:05:16,901 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 965, in usleep
+2022-05-23 15:05:16,901 - kivy - WARNING - logger.py - write : 338 - stderr:     _usleep(microseconds, self._sleep_obj)
+2022-05-23 15:05:16,902 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 556, in _usleep
+2022-05-23 15:05:16,902 - kivy - WARNING - logger.py - write : 338 - stderr:     _libc_usleep(int(microseconds))
+2022-05-23 15:05:16,902 - kivy - WARNING - logger.py - write : 338 - stderr: KeyboardInterrupt
+2022-05-23 15:05:17,285 - kivy - INFO - main.py - <module> : 13 - Starting didier
+2022-05-23 15:05:27,623 - kivy - WARNING - logger.py - write : 338 - stderr: Traceback (most recent call last):
+2022-05-23 15:05:27,623 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/main.py", line 26, in <module>
+2022-05-23 15:05:27,624 - kivy - WARNING - logger.py - write : 338 - stderr:     msg = com.get_msg()
+2022-05-23 15:05:27,624 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/com.py", line 28, in get_msg
+2022-05-23 15:05:27,624 - kivy - WARNING - logger.py - write : 338 - stderr:     if self.device.inWaiting() > 0:
+2022-05-23 15:05:27,624 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/serial/serialutil.py", line 594, in inWaiting
+2022-05-23 15:05:27,624 - kivy - WARNING - logger.py - write : 338 - stderr:     return self.in_waiting
+2022-05-23 15:05:27,624 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/serial/serialposix.py", line 549, in in_waiting
+2022-05-23 15:05:27,625 - kivy - WARNING - logger.py - write : 338 - stderr:     s = fcntl.ioctl(self.fd, TIOCINQ, TIOCM_zero_str)
+2022-05-23 15:05:27,625 - kivy - WARNING - logger.py - write : 338 - stderr: KeyboardInterrupt
+2022-05-23 15:07:45,886 - kivy - INFO - main.py - <module> : 13 - Starting didier
+2022-05-23 15:07:45,887 - kivy - DEBUG - app.py - load_kv : 691 - App: Loading kv </home/dadou/Nextcloud/Didier/python/DadouControl/test.kv>
+2022-05-23 15:07:45,887 - kivy - DEBUG - app.py - load_kv : 694 - App: kv </home/dadou/Nextcloud/Didier/python/DadouControl/test.kv> not found
+2022-05-23 15:07:45,888 - kivy - DEBUG - base.py - _runTouchApp_prepare : 493 - Base: Create provider from mouse
+2022-05-23 15:07:45,888 - kivy - DEBUG - base.py - _runTouchApp_prepare : 493 - Base: Create provider from probesysfs
+2022-05-23 15:07:45,891 - kivy - DEBUG - probesysfs.py - probe : 210 - ProbeSysfs: using probesysfs!
+2022-05-23 15:07:45,892 - kivy - DEBUG - probesysfs.py - probe : 219 - ProbeSysfs: found device: DELL0918:00 0488:121F Touchpad at /dev/input/event6
+2022-05-23 15:07:45,892 - kivy - INFO - probesysfs.py - probe : 233 - ProbeSysfs: device match: /dev/input/event6
+2022-05-23 15:07:45,892 - kivy - INFO - mtdev.py - __init__ : 130 - MTD: Read event from </dev/input/event6>
+2022-05-23 15:07:45,892 - kivy - INFO - base.py - _runTouchApp_prepare : 520 - Base: Start application main loop
+2022-05-23 15:07:45,893 - kivy - INFO - __init__.py - refresh : 780 - GL: NPOT texture support is available
+2022-05-23 15:07:45,894 - kivy - DEBUG - atlas.py - _load : 204 - Atlas: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme.atlas>
+2022-05-23 15:07:45,894 - kivy - DEBUG - atlas.py - _load : 208 - Atlas: Need to load 1 images
+2022-05-23 15:07:45,894 - kivy - DEBUG - atlas.py - _load : 213 - Atlas: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme-0.png>
+2022-05-23 15:07:45,894 - kivy - DEBUG - __init__.py - load : 458 - ImageSDL2: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme-0.png>
+2022-05-23 15:07:48,893 - kivy - WARNING - mtdev.py - _thread_run : 246 - MTD: Unable to open device "/dev/input/event6". Please ensure you have the appropriate permissions.
+2022-05-23 15:07:54,639 - kivy - INFO - base.py - stopTouchApp : 616 - Base: Leaving application in progress...
+2022-05-23 15:07:54,640 - kivy - WARNING - logger.py - write : 338 - stderr: Traceback (most recent call last):
+2022-05-23 15:07:54,640 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/main.py", line 25, in <module>
+2022-05-23 15:07:54,640 - kivy - WARNING - logger.py - write : 338 - stderr:     TestApp().run()
+2022-05-23 15:07:54,640 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/app.py", line 955, in run
+2022-05-23 15:07:54,641 - kivy - WARNING - logger.py - write : 338 - stderr:     runTouchApp()
+2022-05-23 15:07:54,641 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/base.py", line 574, in runTouchApp
+2022-05-23 15:07:54,641 - kivy - WARNING - logger.py - write : 338 - stderr:     EventLoop.mainloop()
+2022-05-23 15:07:54,641 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/base.py", line 339, in mainloop
+2022-05-23 15:07:54,641 - kivy - WARNING - logger.py - write : 338 - stderr:     self.idle()
+2022-05-23 15:07:54,642 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/base.py", line 379, in idle
+2022-05-23 15:07:54,642 - kivy - WARNING - logger.py - write : 338 - stderr:     Clock.tick()
+2022-05-23 15:07:54,642 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 733, in tick
+2022-05-23 15:07:54,642 - kivy - WARNING - logger.py - write : 338 - stderr:     self.post_idle(ts, self.idle())
+2022-05-23 15:07:54,642 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 689, in idle
+2022-05-23 15:07:54,642 - kivy - WARNING - logger.py - write : 338 - stderr:     usleep(1000000 * sleeptime)
+2022-05-23 15:07:54,643 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 965, in usleep
+2022-05-23 15:07:54,643 - kivy - WARNING - logger.py - write : 338 - stderr:     _usleep(microseconds, self._sleep_obj)
+2022-05-23 15:07:54,643 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 556, in _usleep
+2022-05-23 15:07:54,643 - kivy - WARNING - logger.py - write : 338 - stderr:     _libc_usleep(int(microseconds))
+2022-05-23 15:07:54,644 - kivy - WARNING - logger.py - write : 338 - stderr: KeyboardInterrupt
+2022-05-23 15:10:47,103 - kivy - INFO - main.py - <module> : 15 - Starting didier
+2022-05-23 15:10:47,103 - kivy - DEBUG - app.py - load_kv : 691 - App: Loading kv </home/dadou/Nextcloud/Didier/python/DadouControl/test.kv>
+2022-05-23 15:10:47,104 - kivy - DEBUG - app.py - load_kv : 694 - App: kv </home/dadou/Nextcloud/Didier/python/DadouControl/test.kv> not found
+2022-05-23 15:10:47,104 - kivy - WARNING - logger.py - write : 338 - stderr: Traceback (most recent call last):
+2022-05-23 15:10:47,104 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/main.py", line 28, in <module>
+2022-05-23 15:10:47,104 - kivy - WARNING - logger.py - write : 338 - stderr:     TestApp().run()
+2022-05-23 15:10:47,104 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/app.py", line 954, in run
+2022-05-23 15:10:47,104 - kivy - WARNING - logger.py - write : 338 - stderr:     self._run_prepare()
+2022-05-23 15:10:47,104 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/app.py", line 924, in _run_prepare
+2022-05-23 15:10:47,105 - kivy - WARNING - logger.py - write : 338 - stderr:     root = self.build()
+2022-05-23 15:10:47,105 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/main.py", line 23, in build
+2022-05-23 15:10:47,105 - kivy - WARNING - logger.py - write : 338 - stderr:     Clock.schedule_interval(com.get_msg(), 1.0 / 60.0)
+2022-05-23 15:10:47,105 - kivy - WARNING - logger.py - write : 338 - stderr:   File "kivy/_clock.pyx", line 508, in kivy._clock.CyClockBase.schedule_interval
+2022-05-23 15:10:47,105 - kivy - WARNING - logger.py - write : 338 - stderr:   File "kivy/_clock.pyx", line 525, in kivy._clock.CyClockBase.schedule_interval
+2022-05-23 15:10:47,105 - kivy - WARNING - logger.py - write : 338 - stderr: ValueError: callback must be a callable, got None
+2022-05-23 15:15:39,673 - kivy - INFO - main.py - <module> : 15 - Starting didier
+2022-05-23 15:15:39,674 - kivy - DEBUG - app.py - load_kv : 691 - App: Loading kv </home/dadou/Nextcloud/Didier/python/DadouControl/test.kv>
+2022-05-23 15:15:39,674 - kivy - DEBUG - app.py - load_kv : 694 - App: kv </home/dadou/Nextcloud/Didier/python/DadouControl/test.kv> not found
+2022-05-23 15:15:39,674 - kivy - WARNING - logger.py - write : 338 - stderr: Traceback (most recent call last):
+2022-05-23 15:15:39,674 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/main.py", line 29, in <module>
+2022-05-23 15:15:39,675 - kivy - WARNING - logger.py - write : 338 - stderr:     TestApp().run()
+2022-05-23 15:15:39,675 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/app.py", line 954, in run
+2022-05-23 15:15:39,675 - kivy - WARNING - logger.py - write : 338 - stderr:     self._run_prepare()
+2022-05-23 15:15:39,675 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/app.py", line 924, in _run_prepare
+2022-05-23 15:15:39,675 - kivy - WARNING - logger.py - write : 338 - stderr:     root = self.build()
+2022-05-23 15:15:39,675 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/main.py", line 24, in build
+2022-05-23 15:15:39,675 - kivy - WARNING - logger.py - write : 338 - stderr:     Clock.schedule_interval(gui.update(), 1.0 / 60.0)
+2022-05-23 15:15:39,676 - kivy - WARNING - logger.py - write : 338 - stderr: TypeError: update() missing 1 required positional argument: 'dt'
+2022-05-23 15:17:19,761 - kivy - INFO - main.py - <module> : 15 - Starting didier
+2022-05-23 15:17:19,762 - kivy - DEBUG - app.py - load_kv : 691 - App: Loading kv </home/dadou/Nextcloud/Didier/python/DadouControl/test.kv>
+2022-05-23 15:17:19,762 - kivy - DEBUG - app.py - load_kv : 694 - App: kv </home/dadou/Nextcloud/Didier/python/DadouControl/test.kv> not found
+2022-05-23 15:17:19,763 - kivy - DEBUG - base.py - _runTouchApp_prepare : 493 - Base: Create provider from mouse
+2022-05-23 15:17:19,763 - kivy - DEBUG - base.py - _runTouchApp_prepare : 493 - Base: Create provider from probesysfs
+2022-05-23 15:17:19,766 - kivy - DEBUG - probesysfs.py - probe : 210 - ProbeSysfs: using probesysfs!
+2022-05-23 15:17:19,767 - kivy - DEBUG - probesysfs.py - probe : 219 - ProbeSysfs: found device: DELL0918:00 0488:121F Touchpad at /dev/input/event6
+2022-05-23 15:17:19,767 - kivy - INFO - probesysfs.py - probe : 233 - ProbeSysfs: device match: /dev/input/event6
+2022-05-23 15:17:19,767 - kivy - INFO - mtdev.py - __init__ : 130 - MTD: Read event from </dev/input/event6>
+2022-05-23 15:17:19,768 - kivy - INFO - base.py - _runTouchApp_prepare : 520 - Base: Start application main loop
+2022-05-23 15:17:19,769 - kivy - INFO - __init__.py - refresh : 780 - GL: NPOT texture support is available
+2022-05-23 15:17:19,770 - kivy - DEBUG - atlas.py - _load : 204 - Atlas: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme.atlas>
+2022-05-23 15:17:19,770 - kivy - DEBUG - atlas.py - _load : 208 - Atlas: Need to load 1 images
+2022-05-23 15:17:19,770 - kivy - DEBUG - atlas.py - _load : 213 - Atlas: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme-0.png>
+2022-05-23 15:17:19,770 - kivy - DEBUG - __init__.py - load : 458 - ImageSDL2: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme-0.png>
+2022-05-23 15:17:22,768 - kivy - WARNING - mtdev.py - _thread_run : 246 - MTD: Unable to open device "/dev/input/event6". Please ensure you have the appropriate permissions.
+2022-05-23 15:17:23,939 - kivy - INFO - com.py - get_msg : 31 - received from arduino : g
+2022-05-23 15:17:24,138 - kivy - INFO - com.py - get_msg : 31 - received from arduino : g
+2022-05-23 15:17:24,835 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 15:17:25,671 - kivy - INFO - com.py - get_msg : 31 - received from arduino : i
+2022-05-23 15:17:25,883 - kivy - INFO - com.py - get_msg : 31 - received from arduino : i
+2022-05-23 15:17:26,357 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 15:17:26,881 - kivy - INFO - com.py - get_msg : 31 - received from arduino : g
+2022-05-23 15:17:27,387 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 15:17:27,831 - kivy - INFO - com.py - get_msg : 31 - received from arduino : i
+2022-05-23 15:17:28,312 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 15:17:28,732 - kivy - INFO - com.py - get_msg : 31 - received from arduino : g
+2022-05-23 15:17:29,168 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 15:17:29,641 - kivy - INFO - com.py - get_msg : 31 - received from arduino : i
+2022-05-23 15:17:31,635 - kivy - INFO - com.py - get_msg : 31 - received from arduino : j
+2022-05-23 15:17:31,847 - kivy - INFO - com.py - get_msg : 31 - received from arduino : j
+2022-05-23 15:17:35,700 - kivy - INFO - com.py - get_msg : 31 - received from arduino : a
+2022-05-23 15:17:35,900 - kivy - INFO - com.py - get_msg : 31 - received from arduino : a
+2022-05-23 15:17:36,423 - kivy - INFO - com.py - get_msg : 31 - received from arduino : b
+2022-05-23 15:17:37,071 - kivy - INFO - com.py - get_msg : 31 - received from arduino : c
+2022-05-23 15:17:37,743 - kivy - INFO - com.py - get_msg : 31 - received from arduino : b
+2022-05-23 15:17:38,454 - kivy - INFO - com.py - get_msg : 31 - received from arduino : a
+2022-05-23 15:17:38,691 - kivy - INFO - com.py - get_msg : 31 - received from arduino : a
+2022-05-23 15:17:40,636 - kivy - INFO - com.py - get_msg : 31 - received from arduino : a
+2022-05-23 15:17:40,835 - kivy - INFO - com.py - get_msg : 31 - received from arduino : a
+2022-05-23 15:17:41,466 - kivy - INFO - com.py - get_msg : 31 - received from arduino : a
+2022-05-23 15:17:42,203 - kivy - INFO - com.py - get_msg : 31 - received from arduino : b
+2022-05-23 15:17:42,551 - kivy - INFO - com.py - get_msg : 31 - received from arduino : b
+2022-05-23 15:17:43,050 - kivy - INFO - com.py - get_msg : 31 - received from arduino : c
+2022-05-23 15:17:43,549 - kivy - INFO - com.py - get_msg : 31 - received from arduino : c
+2022-05-23 15:17:43,960 - kivy - INFO - com.py - get_msg : 31 - received from arduino : c
+2022-05-23 15:17:44,471 - kivy - INFO - com.py - get_msg : 31 - received from arduino : a
+2022-05-23 15:17:44,670 - kivy - INFO - com.py - get_msg : 31 - received from arduino : a
+2022-05-23 15:18:40,587 - kivy - INFO - base.py - stopTouchApp : 616 - Base: Leaving application in progress...
+2022-05-23 15:18:40,587 - kivy - WARNING - logger.py - write : 338 - stderr: Traceback (most recent call last):
+2022-05-23 15:18:40,588 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/main.py", line 29, in <module>
+2022-05-23 15:18:40,588 - kivy - WARNING - logger.py - write : 338 - stderr:     TestApp().run()
+2022-05-23 15:18:40,588 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/app.py", line 955, in run
+2022-05-23 15:18:40,589 - kivy - WARNING - logger.py - write : 338 - stderr:     runTouchApp()
+2022-05-23 15:18:40,589 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/base.py", line 574, in runTouchApp
+2022-05-23 15:18:40,589 - kivy - WARNING - logger.py - write : 338 - stderr:     EventLoop.mainloop()
+2022-05-23 15:18:40,590 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/base.py", line 339, in mainloop
+2022-05-23 15:18:40,590 - kivy - WARNING - logger.py - write : 338 - stderr:     self.idle()
+2022-05-23 15:18:40,590 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/base.py", line 379, in idle
+2022-05-23 15:18:40,590 - kivy - WARNING - logger.py - write : 338 - stderr:     Clock.tick()
+2022-05-23 15:18:40,591 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 733, in tick
+2022-05-23 15:18:40,591 - kivy - WARNING - logger.py - write : 338 - stderr:     self.post_idle(ts, self.idle())
+2022-05-23 15:18:40,591 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 689, in idle
+2022-05-23 15:18:40,592 - kivy - WARNING - logger.py - write : 338 - stderr:     usleep(1000000 * sleeptime)
+2022-05-23 15:18:40,592 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 965, in usleep
+2022-05-23 15:18:40,593 - kivy - WARNING - logger.py - write : 338 - stderr:     _usleep(microseconds, self._sleep_obj)
+2022-05-23 15:18:40,593 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 556, in _usleep
+2022-05-23 15:18:40,593 - kivy - WARNING - logger.py - write : 338 - stderr:     _libc_usleep(int(microseconds))
+2022-05-23 15:18:40,594 - kivy - WARNING - logger.py - write : 338 - stderr: KeyboardInterrupt
+2022-05-23 15:18:40,988 - kivy - INFO - main.py - <module> : 15 - Starting didier
+2022-05-23 15:18:40,989 - kivy - DEBUG - app.py - load_kv : 691 - App: Loading kv </home/dadou/Nextcloud/Didier/python/DadouControl/control.kv>
+2022-05-23 15:18:40,989 - kivy - DEBUG - app.py - load_kv : 694 - App: kv </home/dadou/Nextcloud/Didier/python/DadouControl/control.kv> not found
+2022-05-23 15:18:40,990 - kivy - DEBUG - base.py - _runTouchApp_prepare : 493 - Base: Create provider from mouse
+2022-05-23 15:18:40,990 - kivy - DEBUG - base.py - _runTouchApp_prepare : 493 - Base: Create provider from probesysfs
+2022-05-23 15:18:40,995 - kivy - DEBUG - probesysfs.py - probe : 210 - ProbeSysfs: using probesysfs!
+2022-05-23 15:18:40,997 - kivy - DEBUG - probesysfs.py - probe : 219 - ProbeSysfs: found device: DELL0918:00 0488:121F Touchpad at /dev/input/event6
+2022-05-23 15:18:40,998 - kivy - INFO - probesysfs.py - probe : 233 - ProbeSysfs: device match: /dev/input/event6
+2022-05-23 15:18:40,998 - kivy - INFO - mtdev.py - __init__ : 130 - MTD: Read event from </dev/input/event6>
+2022-05-23 15:18:40,998 - kivy - INFO - base.py - _runTouchApp_prepare : 520 - Base: Start application main loop
+2022-05-23 15:18:40,999 - kivy - INFO - __init__.py - refresh : 780 - GL: NPOT texture support is available
+2022-05-23 15:18:41,000 - kivy - DEBUG - atlas.py - _load : 204 - Atlas: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme.atlas>
+2022-05-23 15:18:41,000 - kivy - DEBUG - atlas.py - _load : 208 - Atlas: Need to load 1 images
+2022-05-23 15:18:41,000 - kivy - DEBUG - atlas.py - _load : 213 - Atlas: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme-0.png>
+2022-05-23 15:18:41,001 - kivy - DEBUG - __init__.py - load : 458 - ImageSDL2: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme-0.png>
+2022-05-23 15:18:43,998 - kivy - WARNING - mtdev.py - _thread_run : 246 - MTD: Unable to open device "/dev/input/event6". Please ensure you have the appropriate permissions.
+2022-05-23 15:18:59,722 - kivy - INFO - com.py - get_msg : 31 - received from arduino : d
+2022-05-23 15:18:59,922 - kivy - INFO - com.py - get_msg : 31 - received from arduino : d
+2022-05-23 15:19:00,221 - kivy - INFO - com.py - get_msg : 31 - received from arduino : e
+2022-05-23 15:19:00,832 - kivy - INFO - com.py - get_msg : 31 - received from arduino : f
+2022-05-23 15:19:01,031 - kivy - INFO - com.py - get_msg : 31 - received from arduino : f
+2022-05-23 15:19:01,554 - kivy - INFO - com.py - get_msg : 31 - received from arduino : e
+2022-05-23 15:19:02,289 - kivy - INFO - com.py - get_msg : 31 - received from arduino : d
+2022-05-23 15:19:02,934 - kivy - INFO - com.py - get_msg : 31 - received from arduino : e
+2022-05-23 15:19:03,544 - kivy - INFO - com.py - get_msg : 31 - received from arduino : f
+2022-05-23 15:19:04,205 - kivy - INFO - com.py - get_msg : 31 - received from arduino : e
+2022-05-23 15:19:04,803 - kivy - INFO - com.py - get_msg : 31 - received from arduino : d
+2022-05-23 15:19:05,514 - kivy - INFO - com.py - get_msg : 31 - received from arduino : e
+2022-05-23 15:19:06,237 - kivy - INFO - com.py - get_msg : 31 - received from arduino : f
+2022-05-23 15:19:06,860 - kivy - INFO - com.py - get_msg : 31 - received from arduino : e
+2022-05-23 15:19:07,395 - kivy - INFO - com.py - get_msg : 31 - received from arduino : d
+2022-05-23 15:19:07,906 - kivy - INFO - com.py - get_msg : 31 - received from arduino : e
+2022-05-23 15:19:34,859 - kivy - INFO - com.py - get_msg : 31 - received from arduino : c
+2022-05-23 15:19:35,059 - kivy - INFO - com.py - get_msg : 31 - received from arduino : c
+2022-05-23 15:19:35,868 - kivy - INFO - com.py - get_msg : 31 - received from arduino : b
+2022-05-23 15:19:36,329 - kivy - INFO - com.py - get_msg : 31 - received from arduino : a
+2022-05-23 15:19:36,728 - kivy - INFO - com.py - get_msg : 31 - received from arduino : b
+2022-05-23 15:19:37,078 - kivy - INFO - com.py - get_msg : 31 - received from arduino : c
+2022-05-23 15:19:37,465 - kivy - INFO - com.py - get_msg : 31 - received from arduino : b
+2022-05-23 15:19:37,839 - kivy - INFO - com.py - get_msg : 31 - received from arduino : a
+2022-05-23 15:19:38,250 - kivy - INFO - com.py - get_msg : 31 - received from arduino : b
+2022-05-23 15:19:38,674 - kivy - INFO - com.py - get_msg : 31 - received from arduino : c
+2022-05-23 15:19:39,121 - kivy - INFO - com.py - get_msg : 31 - received from arduino : b
+2022-05-23 15:19:39,570 - kivy - INFO - com.py - get_msg : 31 - received from arduino : a
+2022-05-23 15:19:39,994 - kivy - INFO - com.py - get_msg : 31 - received from arduino : b
+2022-05-23 15:19:40,405 - kivy - INFO - com.py - get_msg : 31 - received from arduino : c
+2022-05-23 15:19:43,446 - kivy - INFO - com.py - get_msg : 31 - received from arduino : d
+2022-05-23 15:19:43,646 - kivy - INFO - com.py - get_msg : 31 - received from arduino : d
+2022-05-23 15:19:43,845 - kivy - INFO - com.py - get_msg : 31 - received from arduino : d
+2022-05-23 15:19:44,045 - kivy - INFO - com.py - get_msg : 31 - received from arduino : d
+2022-05-23 15:19:44,369 - kivy - INFO - com.py - get_msg : 31 - received from arduino : d
+2022-05-23 15:19:44,979 - kivy - INFO - com.py - get_msg : 31 - received from arduino : e
+2022-05-23 15:19:45,415 - kivy - INFO - com.py - get_msg : 31 - received from arduino : f
+2022-05-23 15:21:21,023 - kivy - INFO - base.py - stopTouchApp : 616 - Base: Leaving application in progress...
+2022-05-23 15:21:21,024 - kivy - WARNING - logger.py - write : 338 - stderr: Traceback (most recent call last):
+2022-05-23 15:21:21,024 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/main.py", line 29, in <module>
+2022-05-23 15:21:21,024 - kivy - WARNING - logger.py - write : 338 - stderr:     ControlApp().run()
+2022-05-23 15:21:21,024 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/app.py", line 955, in run
+2022-05-23 15:21:21,025 - kivy - WARNING - logger.py - write : 338 - stderr:     runTouchApp()
+2022-05-23 15:21:21,025 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/base.py", line 574, in runTouchApp
+2022-05-23 15:21:21,026 - kivy - WARNING - logger.py - write : 338 - stderr:     EventLoop.mainloop()
+2022-05-23 15:21:21,026 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/base.py", line 339, in mainloop
+2022-05-23 15:21:21,026 - kivy - WARNING - logger.py - write : 338 - stderr:     self.idle()
+2022-05-23 15:21:21,027 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/base.py", line 379, in idle
+2022-05-23 15:21:21,027 - kivy - WARNING - logger.py - write : 338 - stderr:     Clock.tick()
+2022-05-23 15:21:21,027 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 733, in tick
+2022-05-23 15:21:21,028 - kivy - WARNING - logger.py - write : 338 - stderr:     self.post_idle(ts, self.idle())
+2022-05-23 15:21:21,028 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 689, in idle
+2022-05-23 15:21:21,029 - kivy - WARNING - logger.py - write : 338 - stderr:     usleep(1000000 * sleeptime)
+2022-05-23 15:21:21,029 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 965, in usleep
+2022-05-23 15:21:21,030 - kivy - WARNING - logger.py - write : 338 - stderr:     _usleep(microseconds, self._sleep_obj)
+2022-05-23 15:21:21,030 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 556, in _usleep
+2022-05-23 15:21:21,030 - kivy - WARNING - logger.py - write : 338 - stderr:     _libc_usleep(int(microseconds))
+2022-05-23 15:21:21,031 - kivy - WARNING - logger.py - write : 338 - stderr: KeyboardInterrupt
+2022-05-23 15:21:21,561 - kivy - INFO - main.py - <module> : 15 - Starting didier
+2022-05-23 15:21:21,562 - kivy - DEBUG - app.py - load_kv : 691 - App: Loading kv </home/dadou/Nextcloud/Didier/python/DadouControl/control.kv>
+2022-05-23 15:21:21,562 - kivy - DEBUG - app.py - load_kv : 694 - App: kv </home/dadou/Nextcloud/Didier/python/DadouControl/control.kv> not found
+2022-05-23 15:21:21,563 - kivy - DEBUG - base.py - _runTouchApp_prepare : 493 - Base: Create provider from mouse
+2022-05-23 15:21:21,563 - kivy - DEBUG - base.py - _runTouchApp_prepare : 493 - Base: Create provider from probesysfs
+2022-05-23 15:21:21,566 - kivy - DEBUG - probesysfs.py - probe : 210 - ProbeSysfs: using probesysfs!
+2022-05-23 15:21:21,567 - kivy - DEBUG - probesysfs.py - probe : 219 - ProbeSysfs: found device: DELL0918:00 0488:121F Touchpad at /dev/input/event6
+2022-05-23 15:21:21,567 - kivy - INFO - probesysfs.py - probe : 233 - ProbeSysfs: device match: /dev/input/event6
+2022-05-23 15:21:21,567 - kivy - INFO - mtdev.py - __init__ : 130 - MTD: Read event from </dev/input/event6>
+2022-05-23 15:21:21,567 - kivy - INFO - base.py - _runTouchApp_prepare : 520 - Base: Start application main loop
+2022-05-23 15:21:21,568 - kivy - INFO - __init__.py - refresh : 780 - GL: NPOT texture support is available
+2022-05-23 15:21:21,569 - kivy - DEBUG - atlas.py - _load : 204 - Atlas: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme.atlas>
+2022-05-23 15:21:21,569 - kivy - DEBUG - atlas.py - _load : 208 - Atlas: Need to load 1 images
+2022-05-23 15:21:21,569 - kivy - DEBUG - atlas.py - _load : 213 - Atlas: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme-0.png>
+2022-05-23 15:21:21,570 - kivy - DEBUG - __init__.py - load : 458 - ImageSDL2: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme-0.png>
+2022-05-23 15:21:24,568 - kivy - WARNING - mtdev.py - _thread_run : 246 - MTD: Unable to open device "/dev/input/event6". Please ensure you have the appropriate permissions.
+2022-05-23 15:24:58,008 - kivy - INFO - base.py - stopTouchApp : 616 - Base: Leaving application in progress...
+2022-05-23 15:24:58,008 - kivy - WARNING - logger.py - write : 338 - stderr: Traceback (most recent call last):
+2022-05-23 15:24:58,009 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/main.py", line 29, in <module>
+2022-05-23 15:24:58,009 - kivy - WARNING - logger.py - write : 338 - stderr:     ControlApp().run()
+2022-05-23 15:24:58,009 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/app.py", line 955, in run
+2022-05-23 15:24:58,010 - kivy - WARNING - logger.py - write : 338 - stderr:     runTouchApp()
+2022-05-23 15:24:58,010 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/base.py", line 574, in runTouchApp
+2022-05-23 15:24:58,011 - kivy - WARNING - logger.py - write : 338 - stderr:     EventLoop.mainloop()
+2022-05-23 15:24:58,011 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/base.py", line 339, in mainloop
+2022-05-23 15:24:58,011 - kivy - WARNING - logger.py - write : 338 - stderr:     self.idle()
+2022-05-23 15:24:58,011 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/base.py", line 379, in idle
+2022-05-23 15:24:58,012 - kivy - WARNING - logger.py - write : 338 - stderr:     Clock.tick()
+2022-05-23 15:24:58,012 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 733, in tick
+2022-05-23 15:24:58,013 - kivy - WARNING - logger.py - write : 338 - stderr:     self.post_idle(ts, self.idle())
+2022-05-23 15:24:58,013 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 689, in idle
+2022-05-23 15:24:58,013 - kivy - WARNING - logger.py - write : 338 - stderr:     usleep(1000000 * sleeptime)
+2022-05-23 15:24:58,014 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 965, in usleep
+2022-05-23 15:24:58,014 - kivy - WARNING - logger.py - write : 338 - stderr:     _usleep(microseconds, self._sleep_obj)
+2022-05-23 15:24:58,014 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 556, in _usleep
+2022-05-23 15:24:58,015 - kivy - WARNING - logger.py - write : 338 - stderr:     _libc_usleep(int(microseconds))
+2022-05-23 15:24:58,015 - kivy - WARNING - logger.py - write : 338 - stderr: KeyboardInterrupt
+2022-05-23 15:24:58,470 - kivy - INFO - main.py - <module> : 15 - Starting didier
+2022-05-23 15:24:58,471 - kivy - DEBUG - app.py - load_kv : 691 - App: Loading kv </home/dadou/Nextcloud/Didier/python/DadouControl/control.kv>
+2022-05-23 15:24:58,471 - kivy - DEBUG - app.py - load_kv : 694 - App: kv </home/dadou/Nextcloud/Didier/python/DadouControl/control.kv> not found
+2022-05-23 15:24:58,471 - kivy - DEBUG - base.py - _runTouchApp_prepare : 493 - Base: Create provider from mouse
+2022-05-23 15:24:58,471 - kivy - DEBUG - base.py - _runTouchApp_prepare : 493 - Base: Create provider from probesysfs
+2022-05-23 15:24:58,475 - kivy - DEBUG - probesysfs.py - probe : 210 - ProbeSysfs: using probesysfs!
+2022-05-23 15:24:58,476 - kivy - DEBUG - probesysfs.py - probe : 219 - ProbeSysfs: found device: DELL0918:00 0488:121F Touchpad at /dev/input/event6
+2022-05-23 15:24:58,476 - kivy - INFO - probesysfs.py - probe : 233 - ProbeSysfs: device match: /dev/input/event6
+2022-05-23 15:24:58,477 - kivy - INFO - mtdev.py - __init__ : 130 - MTD: Read event from </dev/input/event6>
+2022-05-23 15:24:58,477 - kivy - INFO - base.py - _runTouchApp_prepare : 520 - Base: Start application main loop
+2022-05-23 15:24:58,478 - kivy - INFO - __init__.py - refresh : 780 - GL: NPOT texture support is available
+2022-05-23 15:24:58,479 - kivy - DEBUG - atlas.py - _load : 204 - Atlas: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme.atlas>
+2022-05-23 15:24:58,479 - kivy - DEBUG - atlas.py - _load : 208 - Atlas: Need to load 1 images
+2022-05-23 15:24:58,479 - kivy - DEBUG - atlas.py - _load : 213 - Atlas: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme-0.png>
+2022-05-23 15:24:58,479 - kivy - DEBUG - __init__.py - load : 458 - ImageSDL2: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme-0.png>
+2022-05-23 15:25:01,477 - kivy - WARNING - mtdev.py - _thread_run : 246 - MTD: Unable to open device "/dev/input/event6". Please ensure you have the appropriate permissions.
+2022-05-23 15:28:33,641 - kivy - INFO - com.py - get_msg : 31 - received from arduino : g
+2022-05-23 15:28:33,840 - kivy - INFO - com.py - get_msg : 31 - received from arduino : g
+2022-05-23 15:28:34,288 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 15:28:35,037 - kivy - INFO - com.py - get_msg : 31 - received from arduino : i
+2022-05-23 15:28:35,748 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 15:28:36,344 - kivy - INFO - com.py - get_msg : 31 - received from arduino : g
+2022-05-23 15:28:37,542 - kivy - INFO - com.py - get_msg : 31 - received from arduino : i
+2022-05-23 15:28:38,852 - kivy - INFO - com.py - get_msg : 31 - received from arduino : d
+2022-05-23 15:28:40,722 - kivy - INFO - com.py - get_msg : 31 - received from arduino : e
+2022-05-23 15:28:41,557 - kivy - INFO - com.py - get_msg : 31 - received from arduino : f
+2022-05-23 15:28:41,757 - kivy - INFO - com.py - get_msg : 31 - received from arduino : f
+2022-05-23 15:28:46,508 - kivy - INFO - com.py - get_msg : 31 - received from arduino : a
+2022-05-23 15:28:46,719 - kivy - INFO - com.py - get_msg : 31 - received from arduino : a
+2022-05-23 15:28:47,542 - kivy - INFO - com.py - get_msg : 31 - received from arduino : b
+2022-05-23 15:28:47,754 - kivy - INFO - com.py - get_msg : 31 - received from arduino : b
+2022-05-23 15:28:48,366 - kivy - INFO - com.py - get_msg : 31 - received from arduino : c
+2022-05-23 15:33:56,612 - kivy - INFO - base.py - stopTouchApp : 616 - Base: Leaving application in progress...
+2022-05-23 15:33:56,613 - kivy - WARNING - logger.py - write : 338 - stderr: Traceback (most recent call last):
+2022-05-23 15:33:56,614 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/main.py", line 29, in <module>
+2022-05-23 15:33:56,614 - kivy - WARNING - logger.py - write : 338 - stderr:     ControlApp().run()
+2022-05-23 15:33:56,614 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/app.py", line 955, in run
+2022-05-23 15:33:56,616 - kivy - WARNING - logger.py - write : 338 - stderr:     runTouchApp()
+2022-05-23 15:33:56,616 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/base.py", line 574, in runTouchApp
+2022-05-23 15:33:56,616 - kivy - WARNING - logger.py - write : 338 - stderr:     EventLoop.mainloop()
+2022-05-23 15:33:56,617 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/base.py", line 339, in mainloop
+2022-05-23 15:33:56,617 - kivy - WARNING - logger.py - write : 338 - stderr:     self.idle()
+2022-05-23 15:33:56,617 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/base.py", line 379, in idle
+2022-05-23 15:33:56,618 - kivy - WARNING - logger.py - write : 338 - stderr:     Clock.tick()
+2022-05-23 15:33:56,618 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 733, in tick
+2022-05-23 15:33:56,619 - kivy - WARNING - logger.py - write : 338 - stderr:     self.post_idle(ts, self.idle())
+2022-05-23 15:33:56,620 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 689, in idle
+2022-05-23 15:33:56,620 - kivy - WARNING - logger.py - write : 338 - stderr:     usleep(1000000 * sleeptime)
+2022-05-23 15:33:56,621 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 965, in usleep
+2022-05-23 15:33:56,622 - kivy - WARNING - logger.py - write : 338 - stderr:     _usleep(microseconds, self._sleep_obj)
+2022-05-23 15:33:56,622 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 556, in _usleep
+2022-05-23 15:33:56,623 - kivy - WARNING - logger.py - write : 338 - stderr:     _libc_usleep(int(microseconds))
+2022-05-23 15:33:56,623 - kivy - WARNING - logger.py - write : 338 - stderr: KeyboardInterrupt
+2022-05-23 15:33:57,020 - kivy - INFO - main.py - <module> : 16 - Starting didier
+2022-05-23 15:33:57,021 - kivy - DEBUG - app.py - load_kv : 691 - App: Loading kv </home/dadou/Nextcloud/Didier/python/DadouControl/control.kv>
+2022-05-23 15:33:57,021 - kivy - DEBUG - app.py - load_kv : 694 - App: kv </home/dadou/Nextcloud/Didier/python/DadouControl/control.kv> not found
+2022-05-23 15:33:57,022 - kivy - DEBUG - base.py - _runTouchApp_prepare : 493 - Base: Create provider from mouse
+2022-05-23 15:33:57,022 - kivy - DEBUG - base.py - _runTouchApp_prepare : 493 - Base: Create provider from probesysfs
+2022-05-23 15:33:57,028 - kivy - DEBUG - probesysfs.py - probe : 210 - ProbeSysfs: using probesysfs!
+2022-05-23 15:33:57,030 - kivy - DEBUG - probesysfs.py - probe : 219 - ProbeSysfs: found device: DELL0918:00 0488:121F Touchpad at /dev/input/event6
+2022-05-23 15:33:57,030 - kivy - INFO - probesysfs.py - probe : 233 - ProbeSysfs: device match: /dev/input/event6
+2022-05-23 15:33:57,030 - kivy - INFO - mtdev.py - __init__ : 130 - MTD: Read event from </dev/input/event6>
+2022-05-23 15:33:57,031 - kivy - INFO - base.py - _runTouchApp_prepare : 520 - Base: Start application main loop
+2022-05-23 15:33:57,032 - kivy - INFO - __init__.py - refresh : 780 - GL: NPOT texture support is available
+2022-05-23 15:33:57,033 - kivy - DEBUG - atlas.py - _load : 204 - Atlas: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme.atlas>
+2022-05-23 15:33:57,033 - kivy - DEBUG - atlas.py - _load : 208 - Atlas: Need to load 1 images
+2022-05-23 15:33:57,033 - kivy - DEBUG - atlas.py - _load : 213 - Atlas: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme-0.png>
+2022-05-23 15:33:57,034 - kivy - DEBUG - __init__.py - load : 458 - ImageSDL2: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme-0.png>
+2022-05-23 15:34:00,031 - kivy - WARNING - mtdev.py - _thread_run : 246 - MTD: Unable to open device "/dev/input/event6". Please ensure you have the appropriate permissions.
+2022-05-23 15:34:00,746 - kivy - INFO - com.py - get_msg : 31 - received from arduino : g
+2022-05-23 15:34:01,407 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 15:34:01,606 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 15:34:02,202 - kivy - INFO - com.py - get_msg : 31 - received from arduino : i
+2022-05-23 15:34:02,550 - kivy - INFO - com.py - get_msg : 31 - received from arduino : i
+2022-05-23 15:34:02,861 - kivy - INFO - com.py - get_msg : 31 - received from arduino : h
+2022-05-23 15:34:03,323 - kivy - INFO - com.py - get_msg : 31 - received from arduino : g
+2022-05-23 15:34:04,457 - kivy - INFO - com.py - get_msg : 31 - received from arduino : d
+2022-05-23 15:34:04,669 - kivy - INFO - com.py - get_msg : 31 - received from arduino : d
+2022-05-23 15:35:14,108 - kivy - INFO - base.py - stopTouchApp : 616 - Base: Leaving application in progress...
+2022-05-23 15:35:14,109 - kivy - WARNING - logger.py - write : 338 - stderr: Traceback (most recent call last):
+2022-05-23 15:35:14,109 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/main.py", line 30, in <module>
+2022-05-23 15:35:14,110 - kivy - WARNING - logger.py - write : 338 - stderr:     ControlApp().run()
+2022-05-23 15:35:14,110 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/app.py", line 955, in run
+2022-05-23 15:35:14,111 - kivy - WARNING - logger.py - write : 338 - stderr:     runTouchApp()
+2022-05-23 15:35:14,112 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/base.py", line 574, in runTouchApp
+2022-05-23 15:35:14,112 - kivy - WARNING - logger.py - write : 338 - stderr:     EventLoop.mainloop()
+2022-05-23 15:35:14,113 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/base.py", line 339, in mainloop
+2022-05-23 15:35:14,113 - kivy - WARNING - logger.py - write : 338 - stderr:     self.idle()
+2022-05-23 15:35:14,113 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/base.py", line 379, in idle
+2022-05-23 15:35:14,114 - kivy - WARNING - logger.py - write : 338 - stderr:     Clock.tick()
+2022-05-23 15:35:14,114 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 733, in tick
+2022-05-23 15:35:14,115 - kivy - WARNING - logger.py - write : 338 - stderr:     self.post_idle(ts, self.idle())
+2022-05-23 15:35:14,115 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 689, in idle
+2022-05-23 15:35:14,116 - kivy - WARNING - logger.py - write : 338 - stderr:     usleep(1000000 * sleeptime)
+2022-05-23 15:35:14,116 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 965, in usleep
+2022-05-23 15:35:14,116 - kivy - WARNING - logger.py - write : 338 - stderr:     _usleep(microseconds, self._sleep_obj)
+2022-05-23 15:35:14,117 - kivy - WARNING - logger.py - write : 338 - stderr:   File "/home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/clock.py", line 556, in _usleep
+2022-05-23 15:35:14,117 - kivy - WARNING - logger.py - write : 338 - stderr:     _libc_usleep(int(microseconds))
+2022-05-23 15:35:14,118 - kivy - WARNING - logger.py - write : 338 - stderr: KeyboardInterrupt
+2022-05-23 15:35:45,722 - kivy - INFO - main.py - <module> : 17 - Starting didier
+2022-05-23 15:35:45,723 - kivy - DEBUG - app.py - load_kv : 691 - App: Loading kv </home/dadou/Nextcloud/Didier/python/DadouControl/control.kv>
+2022-05-23 15:35:45,723 - kivy - DEBUG - app.py - load_kv : 694 - App: kv </home/dadou/Nextcloud/Didier/python/DadouControl/control.kv> not found
+2022-05-23 15:35:45,724 - kivy - DEBUG - base.py - _runTouchApp_prepare : 493 - Base: Create provider from mouse
+2022-05-23 15:35:45,724 - kivy - DEBUG - base.py - _runTouchApp_prepare : 493 - Base: Create provider from probesysfs
+2022-05-23 15:35:45,729 - kivy - DEBUG - probesysfs.py - probe : 210 - ProbeSysfs: using probesysfs!
+2022-05-23 15:35:45,730 - kivy - DEBUG - probesysfs.py - probe : 219 - ProbeSysfs: found device: DELL0918:00 0488:121F Touchpad at /dev/input/event6
+2022-05-23 15:35:45,730 - kivy - INFO - probesysfs.py - probe : 233 - ProbeSysfs: device match: /dev/input/event6
+2022-05-23 15:35:45,730 - kivy - INFO - mtdev.py - __init__ : 130 - MTD: Read event from </dev/input/event6>
+2022-05-23 15:35:45,731 - kivy - INFO - base.py - _runTouchApp_prepare : 520 - Base: Start application main loop
+2022-05-23 15:35:45,734 - kivy - INFO - __init__.py - refresh : 780 - GL: NPOT texture support is available
+2022-05-23 15:35:45,735 - kivy - DEBUG - atlas.py - _load : 204 - Atlas: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme.atlas>
+2022-05-23 15:35:45,735 - kivy - DEBUG - atlas.py - _load : 208 - Atlas: Need to load 1 images
+2022-05-23 15:35:45,735 - kivy - DEBUG - atlas.py - _load : 213 - Atlas: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme-0.png>
+2022-05-23 15:35:45,735 - kivy - DEBUG - __init__.py - load : 458 - ImageSDL2: Load </home/dadou/Nextcloud/Didier/python/DadouControl/venv/lib/python3.9/site-packages/kivy/data/images/defaulttheme-0.png>
+2022-05-23 15:35:48,731 - kivy - WARNING - mtdev.py - _thread_run : 246 - MTD: Unable to open device "/dev/input/event6". Please ensure you have the appropriate permissions.
+2022-05-23 15:35:50,159 - kivy - INFO - base.py - stopTouchApp : 616 - Base: Leaving application in progress...

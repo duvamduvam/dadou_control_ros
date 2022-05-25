@@ -1,0 +1,73 @@
+2022-05-25 00:44:14,949 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 00:46:11,707 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 00:48:31,036 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 00:51:49,456 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 00:52:03,601 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 00:52:28,517 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 00:52:28,686 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:52:28,686 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:52:29,686 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:52:29,686 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:52:30,686 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:52:30,687 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:52:31,687 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:52:31,688 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:52:32,687 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:52:32,688 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:52:33,687 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:52:33,688 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:52:34,687 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:52:34,688 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:52:35,687 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:52:35,688 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:52:36,688 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:52:36,688 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:54:00,610 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 00:54:00,782 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:54:01,782 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:54:02,782 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:54:03,782 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:54:04,783 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:55:32,741 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 00:55:32,913 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:55:33,914 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:55:34,914 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:55:35,914 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:55:36,914 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
+2022-05-25 00:55:47,558 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 00:57:10,797 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 00:57:46,109 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:01:06,116 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:01:23,941 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:01:49,441 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:02:53,882 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:03:03,689 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:06:36,481 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:06:54,286 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:07:19,151 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:09:49,340 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:13:14,692 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:13:20,917 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:14:41,987 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:15:54,935 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:17:34,060 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:18:30,515 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:18:47,442 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:18:55,836 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:19:07,974 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:19:17,155 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:19:26,062 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:19:58,213 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:20:05,452 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:20:56,569 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:21:29,092 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:24:38,377 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:25:52,033 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:29:06,242 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:30:59,781 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:31:27,054 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:31:41,433 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:33:04,616 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:33:23,727 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:34:18,963 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-25 01:38:27,409 - root - INFO - main.py - <module> : 12 - Starting didier
