@@ -1,73 +1,1447 @@
-2022-05-25 00:44:14,949 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 00:46:11,707 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 00:48:31,036 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 00:51:49,456 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 00:52:03,601 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 00:52:28,517 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 00:52:28,686 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:52:28,686 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:52:29,686 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:52:29,686 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:52:30,686 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:52:30,687 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:52:31,687 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:52:31,688 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:52:32,687 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:52:32,688 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:52:33,687 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:52:33,688 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:52:34,687 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:52:34,688 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:52:35,687 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:52:35,688 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:52:36,688 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:52:36,688 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:54:00,610 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 00:54:00,782 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:54:01,782 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:54:02,782 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:54:03,782 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:54:04,783 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:55:32,741 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 00:55:32,913 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:55:33,914 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:55:34,914 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:55:35,914 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:55:36,914 - root - INFO - serial_device_manager.py - checkNewDevice : 21 - check glove left plugged in False
-2022-05-25 00:55:47,558 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 00:57:10,797 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 00:57:46,109 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:01:06,116 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:01:23,941 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:01:49,441 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:02:53,882 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:03:03,689 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:06:36,481 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:06:54,286 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:07:19,151 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:09:49,340 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:13:14,692 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:13:20,917 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:14:41,987 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:15:54,935 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:17:34,060 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:18:30,515 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:18:47,442 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:18:55,836 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:19:07,974 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:19:17,155 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:19:26,062 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:19:58,213 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:20:05,452 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:20:56,569 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:21:29,092 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:24:38,377 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:25:52,033 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:29:06,242 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:30:59,781 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:31:27,054 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:31:41,433 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:33:04,616 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:33:23,727 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:34:18,963 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-05-25 01:38:27,409 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-26 23:28:29,523 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-26 23:28:29,524 - root - INFO - serial_device.py - __init__ : 25 - serial connected  : usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:28:34,707 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:28:34,708 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:28:34,710 - root - INFO - serial_device.py - __init__ : 25 - serial connected  : usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:28:35,708 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:28:35,708 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:28:35,710 - root - INFO - serial_device.py - __init__ : 25 - serial connected  : usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:28:36,708 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:28:36,709 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:28:36,710 - root - INFO - serial_device.py - __init__ : 25 - serial connected  : usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:28:37,708 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:28:37,709 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:28:37,710 - root - INFO - serial_device.py - __init__ : 25 - serial connected  : usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:28:38,122 - root - INFO - serial_device.py - get_msg : 38 - received from arduino : d
+2022-05-26 23:28:38,323 - root - INFO - serial_device.py - get_msg : 38 - received from arduino : d
+2022-05-26 23:28:38,708 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:28:38,709 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:28:38,710 - root - INFO - serial_device.py - __init__ : 25 - serial connected  : usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:28:38,925 - root - INFO - serial_device.py - get_msg : 38 - received from arduino : e
+2022-05-26 23:28:39,126 - root - INFO - serial_device.py - get_msg : 38 - received from arduino : e
+2022-05-26 23:28:39,527 - root - INFO - serial_device.py - get_msg : 38 - received from arduino : d
+2022-05-26 23:28:39,709 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:28:39,710 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:28:39,711 - root - INFO - serial_device.py - __init__ : 25 - serial connected  : usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:28:40,028 - root - INFO - serial_device.py - get_msg : 38 - received from arduino : d
+2022-05-26 23:28:40,229 - root - INFO - serial_device.py - get_msg : 38 - received from arduino : d
+2022-05-26 23:28:40,709 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:28:40,710 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:28:40,711 - root - INFO - serial_device.py - __init__ : 25 - serial connected  : usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:28:41,710 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:28:41,711 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:28:41,712 - root - INFO - serial_device.py - __init__ : 25 - serial connected  : usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:28:42,710 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:28:42,711 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:28:42,713 - root - INFO - serial_device.py - __init__ : 25 - serial connected  : usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:28:43,711 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:28:43,712 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:28:43,713 - root - INFO - serial_device.py - __init__ : 25 - serial connected  : usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:28:44,711 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:28:45,712 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:28:46,712 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:28:47,712 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:29:30,876 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-26 23:29:41,971 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:29:51,743 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:29:52,743 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:29:53,743 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:29:54,744 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:29:55,744 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:29:56,744 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:29:57,745 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:29:58,746 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:29:59,746 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:30:00,747 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:30:01,747 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:30:02,747 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:30:03,748 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:30:04,748 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:30:05,748 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:30:06,749 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:30:07,749 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:30:08,749 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:30:09,750 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:33:33,156 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-26 23:33:35,781 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:33:36,781 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:33:37,781 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:33:38,781 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:33:39,782 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:33:40,782 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:33:41,783 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:33:42,783 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:33:43,783 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:33:44,783 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:33:44,784 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:33:45,784 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:33:45,784 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:33:46,784 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:33:46,785 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:33:47,784 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:33:47,785 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:33:48,784 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:33:49,785 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:33:50,785 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:33:51,785 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:33:52,786 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:33:53,786 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:33:54,786 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:33:55,787 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:33:56,787 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:33:57,787 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:33:57,788 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:33:58,787 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:33:58,788 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:33:59,788 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:33:59,789 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:00,788 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:00,789 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:01,789 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:01,789 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:02,789 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:02,790 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:03,789 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:03,790 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:04,790 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:04,791 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:05,790 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:05,791 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:06,791 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:06,792 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:07,791 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:07,792 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:08,791 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:08,792 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:09,792 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:09,792 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:10,792 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:10,793 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:11,792 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:11,793 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:12,793 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:12,793 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:13,793 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:13,794 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:14,794 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:14,794 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:15,794 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:15,795 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:16,794 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:16,795 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:17,794 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:17,795 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:18,795 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:18,796 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:19,795 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:19,796 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:20,795 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:20,796 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:21,796 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:21,796 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:22,796 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:22,797 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:23,796 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:23,797 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:24,796 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:24,797 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:25,797 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:25,797 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:26,797 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:26,798 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:27,798 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:27,798 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:28,798 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:28,799 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:29,798 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:29,799 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:30,798 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:30,799 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:34:31,799 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:34:31,800 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:35:23,528 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-26 23:35:27,141 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:35:27,142 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:35:47,712 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:35:47,714 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:35:48,712 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:35:48,713 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:35:49,713 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:35:49,714 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:35:50,713 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:35:50,714 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:35:51,714 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:35:51,715 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:35:52,714 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:35:52,715 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:35:53,715 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:35:53,716 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:35:54,715 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:35:54,716 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:35:55,715 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:35:55,716 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:35:56,716 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:35:56,717 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:35:57,716 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:35:57,717 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:35:58,716 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:35:58,717 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:35:59,717 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:35:59,718 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:36:00,717 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:36:00,718 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:36:01,718 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:36:01,719 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:36:02,718 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:36:02,719 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:36:03,718 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:36:03,719 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:36:04,719 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:36:04,720 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:36:05,719 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:36:05,720 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:36:12,437 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-26 23:36:16,639 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:36:16,642 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:36:17,640 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:36:17,641 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:36:18,640 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:36:18,641 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:36:19,641 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:36:19,642 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:36:20,641 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:36:20,642 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:36:21,642 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:36:21,643 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:36:22,642 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:36:22,643 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:36:23,643 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:36:23,644 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:36:24,643 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:36:24,644 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:36:25,643 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:36:25,644 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:36:26,644 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:36:26,645 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:36:27,644 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:36:27,645 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:36:28,644 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:36:28,645 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:36:29,645 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:36:29,646 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:36:30,645 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:36:30,646 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:36:49,150 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-26 23:36:50,982 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:37:08,115 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:37:08,117 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:38:35,238 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:38:35,238 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:38:36,238 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:38:36,239 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:38:37,239 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:38:37,240 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:38:38,239 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:38:38,240 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:38:39,240 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:38:39,240 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:38:40,240 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:38:40,241 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:38:41,240 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:38:41,241 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:38:42,241 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:38:42,242 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:38:43,241 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:38:43,241 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:38:44,241 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:38:44,242 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:38:45,242 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:38:45,243 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:38:46,242 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:38:46,243 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:38:47,243 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:38:47,244 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:38:48,243 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:38:48,244 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:38:49,243 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:38:49,244 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:38:50,244 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:38:50,245 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:38:51,244 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:38:51,245 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:38:52,245 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:38:52,245 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:38:53,245 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:38:53,246 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:38:54,245 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:38:54,245 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:38:55,245 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:38:55,246 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:38:56,246 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:38:56,247 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:38:59,221 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-26 23:39:09,343 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-26 23:39:12,838 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:39:12,840 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:39:12,840 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:39:13,838 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:39:14,839 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:39:14,840 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:39:14,841 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:39:15,839 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:39:16,840 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:39:16,841 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:39:16,841 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:39:17,840 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:39:18,840 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:39:18,841 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:39:18,842 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:39:19,840 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:39:20,841 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:39:20,842 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:39:20,843 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:39:21,841 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:39:22,841 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:39:22,843 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:39:22,843 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:39:23,842 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:39:24,842 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:39:24,843 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:39:24,843 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:39:25,842 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:39:26,843 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:39:26,849 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:39:26,850 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:39:27,843 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:39:28,843 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:39:28,844 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:39:28,845 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:39:29,843 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:39:30,844 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:39:30,845 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:39:30,846 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:39:31,844 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:39:32,844 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:39:32,846 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:39:32,846 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:39:33,844 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:39:34,845 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:39:34,846 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:39:34,847 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:39:35,845 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:39:36,845 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:39:36,847 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:39:36,848 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:39:37,846 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:39:38,846 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:39:38,847 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:39:38,848 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:39:39,846 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:39:40,847 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:39:40,848 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:39:40,848 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:39:41,847 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:39:42,847 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:39:42,849 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:39:42,849 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:39:43,848 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:39:44,848 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:39:44,849 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:39:44,850 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:39:45,848 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:39:46,849 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:39:46,850 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:39:46,851 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:39:47,849 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:39:48,849 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:39:48,851 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:39:48,851 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:39:49,850 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:39:50,850 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:39:50,851 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:39:50,852 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:39:51,851 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:39:52,851 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:39:52,853 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:39:52,853 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:39:53,851 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:39:54,852 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:39:54,853 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:39:54,853 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:39:55,852 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:39:56,852 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:39:56,854 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:39:56,854 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:39:57,853 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:39:58,853 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:39:58,854 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:39:58,864 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:39:59,853 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:40:00,853 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:40:00,855 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:40:00,855 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:40:01,854 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:40:02,854 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:40:02,856 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:40:02,856 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:40:03,855 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:40:04,855 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:40:04,857 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:40:04,857 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:40:07,313 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-26 23:40:09,040 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:40:19,383 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:40:24,789 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:40:28,654 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:40:33,777 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:40:38,263 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:40:38,263 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:40:38,265 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:40:58,139 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:40:59,140 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:40:59,141 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:40:59,142 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:00,140 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:01,140 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:01,141 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:01,141 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:02,140 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:03,141 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:03,143 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:03,143 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:04,141 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:05,142 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:05,143 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:05,144 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:06,142 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:07,142 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:07,144 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:07,145 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:08,143 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:09,143 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:09,145 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:09,155 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:10,144 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:11,144 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:11,148 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:11,148 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:12,145 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:13,145 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:13,147 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:13,147 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:14,146 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:15,146 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:15,148 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:15,149 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:16,146 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:17,147 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:17,149 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:17,149 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:18,147 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:19,148 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:19,149 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:19,150 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:20,148 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:21,148 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:21,150 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:21,150 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:22,149 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:23,149 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:23,151 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:23,152 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:24,150 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:25,150 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:25,152 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:25,153 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:26,151 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:27,151 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:27,153 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:27,153 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:28,152 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:29,152 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:29,154 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:29,155 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:30,152 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:31,153 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:31,155 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:31,155 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:32,153 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:33,154 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:33,155 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:33,156 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:34,154 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:35,155 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:35,156 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:35,157 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:36,155 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:37,155 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:37,157 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:37,157 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:38,155 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:39,156 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:39,157 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:39,158 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:40,156 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:41,156 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:41,158 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:41,158 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:42,157 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:43,157 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:43,159 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:43,159 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:44,157 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:45,158 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:45,159 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:45,160 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:46,158 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:47,158 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:47,160 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:47,160 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:48,158 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:49,159 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:49,160 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:49,160 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:50,159 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:51,159 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:51,161 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:51,162 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:52,160 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:53,160 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:53,162 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:53,162 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:54,161 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:55,161 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:55,163 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:55,163 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:56,162 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:57,162 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:57,164 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:57,164 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:41:58,162 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:41:59,162 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:41:59,163 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:41:59,163 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:42:00,162 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:01,163 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:42:01,165 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:42:01,165 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:42:02,163 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:03,163 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:42:03,165 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:42:03,166 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:42:04,163 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:05,164 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:42:05,164 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:42:05,165 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:42:06,164 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:07,164 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:42:07,167 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:42:07,168 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:42:08,165 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:09,165 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:42:09,166 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:42:09,167 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:42:10,165 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:11,165 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:42:11,167 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:42:11,168 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:42:12,166 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:13,166 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:42:13,168 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:42:13,168 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:42:14,166 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:15,167 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:42:15,168 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:42:15,169 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:42:16,167 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:17,167 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:42:17,169 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:42:17,170 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:42:18,168 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:19,168 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:42:19,170 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:42:19,170 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:42:20,168 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:21,169 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:42:21,170 - root - INFO - serial_device.py - connect : 22 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:42:21,171 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:42:22,169 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:33,869 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-26 23:42:38,862 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:42:38,863 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:42:38,864 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:42:39,862 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:40,862 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:41,863 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:42,863 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:43,864 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:44,864 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:45,864 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:46,865 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:47,865 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:48,865 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:49,866 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:50,866 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:51,866 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:52,867 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:53,867 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:54,868 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:55,868 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:56,868 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:57,869 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:58,869 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:42:59,869 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:00,870 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:01,870 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:02,870 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:03,871 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:04,871 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:05,872 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:06,872 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:07,872 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:08,872 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:09,873 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:10,873 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:11,873 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:12,874 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:13,874 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:14,875 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:15,875 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:16,875 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:17,876 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:18,876 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:19,876 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:22,938 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-26 23:43:27,606 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:43:27,608 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:43:27,609 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:43:28,606 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:29,607 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:30,607 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:31,608 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:32,608 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:33,608 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:34,609 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:35,609 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:36,609 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:37,610 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:38,610 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:39,611 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:40,611 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:41,611 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:42,612 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:43,612 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:44,612 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:45,613 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:46,613 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:47,614 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:48,614 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:49,615 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:50,615 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:51,615 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:52,615 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:53,616 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:54,616 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:55,617 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:56,617 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:57,618 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:58,618 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:43:59,618 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:00,619 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:01,619 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:02,620 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:03,620 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:04,620 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:05,620 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:06,621 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:07,621 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:08,622 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:09,622 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:10,622 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:11,623 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:12,623 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:13,623 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:14,624 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:15,624 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:16,624 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:17,625 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:18,625 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:19,625 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:20,626 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:21,626 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:22,626 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:23,627 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:24,627 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:25,627 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:26,627 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:27,628 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:28,628 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:29,628 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:30,628 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:31,629 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:32,629 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:33,629 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:34,630 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:35,630 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:36,630 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:37,630 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:38,631 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:39,631 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:40,631 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:41,631 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:42,632 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:44:50,736 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-26 23:45:05,574 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-26 23:45:10,205 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:45:31,657 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:45:39,336 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:45:59,702 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:46:03,340 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-26 23:46:06,695 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:46:06,697 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:46:06,697 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:46:07,696 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:46:08,696 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:46:09,696 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:46:10,697 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:46:11,697 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:46:12,698 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:46:13,698 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:46:14,698 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:46:15,698 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:46:16,699 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:46:17,699 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:46:21,981 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-26 23:46:30,044 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:46:36,878 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:46:36,880 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:46:41,107 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:47:17,671 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:48:12,110 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:48:13,111 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:48:14,111 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:12,030 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-26 23:49:15,505 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:49:15,506 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:49:15,507 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:49:16,505 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:17,505 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:18,506 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:19,506 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:20,506 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:21,507 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:22,507 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:23,507 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:24,507 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:25,508 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:26,508 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:27,508 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:28,509 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:29,509 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:30,509 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:31,509 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:32,510 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:33,510 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:34,511 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:35,511 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:36,511 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:37,512 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:38,512 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:39,512 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:40,513 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:41,513 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:42,514 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:43,514 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:44,514 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:45,515 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:46,515 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:47,515 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:48,516 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:49,516 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:50,516 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:51,516 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:52,517 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:53,517 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:54,518 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:55,518 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:56,519 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:57,519 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:58,519 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:49:59,519 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:50:00,520 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:50:01,520 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:50:02,520 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:50:03,521 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:50:04,521 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:50:05,521 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:50:09,424 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-26 23:50:23,352 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:50:36,973 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:50:38,983 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:50:39,896 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:50:40,912 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:50:41,997 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:50:52,836 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-26 23:50:52,837 - root - INFO - serial_device_manager.py - checkNewDevice : 23 - /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00 connected
+2022-05-26 23:50:53,726 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:50:54,850 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:50:55,908 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:50:57,425 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:51:00,116 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:51:01,442 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:51:02,646 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:51:03,845 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:51:13,384 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:51:48,740 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:55:15,005 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:55:17,098 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-26 23:55:20,929 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:55:21,929 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:55:22,929 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:55:23,930 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:55:24,930 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:55:25,931 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:55:26,931 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:55:27,932 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:55:28,932 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:55:29,932 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:55:30,932 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:55:31,933 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:55:32,933 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:55:33,933 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:55:34,933 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:55:35,934 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:55:36,934 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:55:37,934 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:55:38,934 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:55:39,935 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:55:40,935 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:55:41,935 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:55:42,936 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:55:43,936 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:55:44,936 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:55:45,936 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:55:46,937 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:55:47,937 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:55:48,938 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:55:49,938 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:55:50,939 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:55:51,939 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:55:52,939 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:55:53,940 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:55:54,940 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:55:55,941 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:55:56,941 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:55:57,941 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:55:58,942 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:55:59,942 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-26 23:56:00,943 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:56:01,943 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:56:02,943 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:56:03,944 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:56:04,944 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:56:05,945 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:56:06,945 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:56:07,945 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:56:08,946 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:56:09,946 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:56:10,946 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:56:11,947 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-26 23:57:30,512 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:01:08,253 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:01:14,265 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:01:15,265 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:01:16,266 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:01:17,266 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:01:18,267 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:01:19,267 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:01:20,267 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:01:21,268 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:01:22,268 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:01:23,268 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:01:24,268 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:01:25,269 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:02:56,925 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:03:01,995 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:03:01,997 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:03:02,995 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:03:03,996 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:03:04,996 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:03:05,996 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:03:06,997 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:03:07,997 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:03:08,998 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:03:09,998 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:03:10,998 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:03:11,999 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:03:12,999 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:03:13,999 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:03:15,000 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:03:16,000 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:03:17,000 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:03:17,001 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:03:18,000 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:03:19,001 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:03:20,001 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:03:21,002 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:03:22,002 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:03:23,002 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:03:55,467 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:04:01,088 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:04:01,089 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:04:02,089 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:03,089 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:04,090 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:05,090 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:06,091 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:07,091 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:08,091 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:09,091 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:10,092 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:11,092 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:12,092 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:13,093 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:14,093 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:15,093 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:16,093 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:18,759 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:04:30,168 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:04:30,169 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:04:30,170 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:31,170 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:32,171 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:33,171 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:34,172 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:35,172 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:36,172 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:37,173 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:38,173 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:39,173 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:40,174 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:41,175 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:42,175 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:43,175 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:47,704 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:48,705 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:49,705 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:04:53,417 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:04:59,961 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:04:59,962 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:05:41,006 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:06:28,630 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:06:35,137 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:06:35,138 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:07:03,812 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:07:05,751 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:07:07,357 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:07:09,910 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:07:11,632 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:07:13,746 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:07:16,020 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:07:18,292 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:07:23,212 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:16:07,453 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:17:07,602 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:23:07,918 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:23:15,684 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:23:16,685 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:23:17,685 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:23:18,686 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:23:19,686 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:23:55,380 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:24:00,196 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:00,197 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:24:01,196 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:24:02,197 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:24:26,853 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:24:32,716 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:32,717 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:24:33,717 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:34,717 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:35,717 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:36,717 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:37,718 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:38,718 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:39,719 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:40,719 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:41,720 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:42,720 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:43,720 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:44,721 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:45,721 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:46,721 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:47,721 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:48,722 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:49,722 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:50,722 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:51,723 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:52,723 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:53,723 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:54,724 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:55,724 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:56,724 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:57,725 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:58,725 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:24:59,725 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:25:00,726 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:25:01,726 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:25:02,727 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:25:03,727 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:25:04,728 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:25:05,728 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:25:06,728 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:25:07,728 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:25:08,729 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:25:09,729 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:25:10,730 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:25:11,730 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:25:18,966 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:25:23,877 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:25:42,322 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:26:00,771 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:26:02,153 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:26:03,154 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:26:04,155 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:26:05,155 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:26:06,155 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:26:07,172 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:26:08,172 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:28:02,337 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:28:03,337 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:28:06,193 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:28:42,056 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:28:48,109 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:28:55,526 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:28:58,361 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:29:05,763 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:29:08,229 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:29:12,581 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:29:12,582 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:29:13,582 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:29:14,582 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:29:15,582 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:29:16,582 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:29:17,583 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:29:18,583 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:29:19,583 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:30:23,876 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:30:28,681 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:30:28,682 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:30:29,682 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:30:30,682 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:30:31,682 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:30:57,746 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:31:03,789 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:31:39,131 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:31:39,132 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:31:42,465 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:31:48,081 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:31:51,865 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:31:56,527 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:31:57,528 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:31:58,528 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:31:59,529 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:32:00,529 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:32:01,530 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:32:02,530 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:32:03,530 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:32:04,531 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:32:07,133 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:32:12,711 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:32:12,711 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:32:13,711 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:32:14,712 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:32:15,712 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:32:16,712 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:33:03,489 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:33:08,319 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:33:32,998 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:33:38,149 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:08,134 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:10,205 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:34:14,777 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:21,846 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:34:21,849 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:22,849 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:23,849 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:24,850 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:25,850 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:26,851 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:27,851 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:28,851 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:29,852 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:30,852 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:31,852 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:32,853 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:33,853 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:34,854 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:35,854 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:36,855 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:37,855 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:38,855 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:39,856 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:40,856 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:41,857 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:42,857 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:43,858 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:44,858 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:34:48,738 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:34:54,086 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:35:01,794 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:35:22,240 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:35:23,240 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:35:24,241 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:35:25,241 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:35:26,241 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:35:27,242 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:35:30,248 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:35:35,463 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:35:35,463 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:35:36,463 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:35:37,463 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:36:19,835 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:36:25,086 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:36:25,088 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:36:26,087 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:36:27,087 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:36:28,088 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:36:48,862 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:36:54,423 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:09,955 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:37:12,157 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:13,157 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:14,158 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:15,158 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:16,159 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:17,159 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:18,159 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:19,160 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:20,160 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:21,160 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:22,161 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:23,161 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:24,162 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:25,162 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:26,163 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:27,163 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:28,163 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:29,164 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:30,164 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:31,164 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:32,165 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:33,165 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:34,166 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:35,166 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:36,167 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:37,167 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:38,168 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:39,168 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:40,169 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:41,169 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:42,170 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:43,170 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:46,751 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:47,751 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:48,751 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:49,751 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:50,752 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:37:52,125 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:37:59,416 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:38:06,490 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:38:06,501 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:38:23,046 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:38:26,608 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:38:31,607 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:38:46,988 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:40:25,456 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:40:27,561 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:40:31,839 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:40:31,839 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:40:32,839 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:40:33,839 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:40:34,840 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:40:35,840 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:40:36,840 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:40:37,840 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:41:05,205 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:41:08,976 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:41:08,977 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:41:09,977 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:41:10,977 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:42:01,171 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:42:06,632 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:42:06,632 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:42:07,632 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:42:08,632 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:42:09,633 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:42:10,633 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:42:11,633 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:42:12,634 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:42:13,634 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:42:14,634 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:42:15,635 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:42:16,635 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:42:17,635 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:42:17,637 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:42:18,636 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:42:19,636 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:42:20,637 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:42:21,637 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:42:22,637 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:42:22,991 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : g
+2022-05-27 00:42:23,192 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : g
+2022-05-27 00:42:23,593 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : h
+2022-05-27 00:42:23,638 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:42:23,994 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : i
+2022-05-27 00:42:24,396 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : h
+2022-05-27 00:42:24,638 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:42:24,697 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : g
+2022-05-27 00:42:25,639 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:42:26,639 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:42:27,640 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:42:28,640 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:42:29,640 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:42:30,641 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:42:31,641 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:42:32,641 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:42:33,641 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:20,176 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:43:25,680 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:26,680 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:27,680 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:28,681 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:29,681 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:30,681 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:31,682 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:32,682 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:33,682 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:34,683 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:35,683 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:35,684 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:43:36,683 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:43:37,683 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:43:38,683 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:43:39,684 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:40,684 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:41,684 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:42,685 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:43,685 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:44,685 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:45,685 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:46,686 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:47,686 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:48,686 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:49,687 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:50,687 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:51,687 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:52,687 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:53,688 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:54,688 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:55,688 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:56,689 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:57,689 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:58,689 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:43:59,690 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:00,690 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:01,690 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:02,690 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:03,691 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:04,691 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:05,691 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:06,692 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:07,692 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:08,692 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:09,692 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:10,693 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:11,693 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:12,693 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:13,694 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:14,694 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:15,695 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:18,150 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:44:25,111 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:26,111 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:27,111 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:28,112 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:29,112 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:30,112 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:31,113 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:32,113 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:33,113 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:34,114 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:34,115 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:44:35,114 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:44:36,115 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:44:37,115 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:44:38,115 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:39,116 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:40,116 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:41,116 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:42,117 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:43,117 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:44,118 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:45,118 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:46,118 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:47,119 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:48,119 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:44:48,121 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:44:49,099 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : g
+2022-05-27 00:44:49,119 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:44:49,300 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : g
+2022-05-27 00:44:50,119 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:44:50,404 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : h
+2022-05-27 00:44:51,120 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:44:51,909 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : d
+2022-05-27 00:44:52,120 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:44:52,612 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : e
+2022-05-27 00:44:53,113 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : f
+2022-05-27 00:44:53,120 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:44:54,117 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : e
+2022-05-27 00:44:54,121 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:44:54,719 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : d
+2022-05-27 00:44:54,920 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : d
+2022-05-27 00:44:55,121 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:44:56,121 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:44:57,122 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:44:58,122 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:44:59,122 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:45:00,123 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:45:01,123 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:45:02,124 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:45:03,124 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:45:04,124 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:45:04,126 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:45:05,124 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:05,657 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : f
+2022-05-27 00:45:06,125 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:06,460 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : e
+2022-05-27 00:45:06,661 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : d
+2022-05-27 00:45:06,862 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : d
+2022-05-27 00:45:07,125 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:08,126 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:09,126 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:10,127 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:11,127 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:12,128 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:13,128 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:14,128 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:15,129 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:16,129 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:17,130 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:18,130 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:19,130 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:20,131 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:21,131 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:22,131 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:23,132 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:24,132 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:25,132 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:26,133 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:27,133 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:28,134 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:29,134 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:30,135 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:31,135 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:32,135 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:33,136 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:34,136 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:35,136 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:36,136 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:37,137 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:38,137 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:39,138 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:40,138 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:41,139 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:42,139 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:43,139 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:44,140 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:45,140 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:46,141 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:47,141 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:48,141 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:49,142 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:50,142 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:51,142 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:52,143 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:53,143 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:54,143 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:55,144 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:56,144 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:57,145 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:58,145 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:45:59,146 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:46:00,146 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:46:01,146 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:46:02,146 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:46:03,147 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:46:04,147 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:46:05,148 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:46:06,148 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:46:07,148 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:46:08,149 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:46:09,149 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:46:10,149 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:46:11,150 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:46:14,575 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:46:17,600 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:46:22,703 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:46:25,863 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:46:27,567 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:46:30,599 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:46:31,599 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:46:32,599 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:46:42,672 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:46:43,673 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:46:44,673 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:46:45,673 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:51:20,969 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:51:28,479 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:51:28,480 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:51:31,239 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:54:45,453 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:55:22,354 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:55:22,355 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:55:24,000 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 00:59:02,227 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 00:59:07,618 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 00:59:07,619 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 00:59:07,825 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 01:01:11,808 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:01:19,930 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 01:01:19,931 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 01:01:20,977 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 01:01:22,618 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in True
+2022-05-27 01:02:33,793 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:03:19,443 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:03:30,948 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:04:13,350 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:04:43,021 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:05:19,240 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:06:19,760 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:06:46,753 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:06:56,433 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:07:05,870 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:07:48,026 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:07:57,230 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:08:40,699 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:09:15,831 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:09:26,911 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:09:39,436 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:10:05,536 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:11:10,001 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:11:28,547 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:11:55,192 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:12:05,999 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:12:19,509 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:13:08,530 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:13:35,002 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:13:51,797 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:14:14,422 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:14:42,676 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:14:51,938 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:16:58,144 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:17:00,854 - root - INFO - serial_device_manager.py - checkNewDevice : 20 - check glove left plugged in False
+2022-05-27 01:17:00,856 - root - INFO - serial_device.py - connect : 26 - serial connected  : /dev/serial/by-id/usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00
+2022-05-27 01:19:19,525 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:20:20,562 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-05-27 01:21:56,764 - root - INFO - main.py - <module> : 12 - Starting didier

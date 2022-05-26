@@ -1,53 +1,50 @@
 import tkinter as tk
-from tkinter import Label
-from tkinter import LabelFrame
-from tkinter import E, W, N, S
-
-from control.com.serial_device import SerialDevice
 from control.com.serial_device_manager import SerialDeviceManager
+from control.com.serial_device import SerialDevice
 
+class GloveFrame(tk.Frame):
+    def __init__(self, parent):
 
-class GloveFrame(tk.LabelFrame):
+        self.deviceManager = SerialDeviceManager()
+        self.serial_glove_left = self.deviceManager.gloveLeft
 
-    #TODO add observer
-    serialDevice = SerialDevice(SerialDevice.leftGlove)
-    deviceManager = SerialDeviceManager()
+        tk.Frame.__init__(self, parent, bg='grey')
+        self.pack(fill='both', expand=True, side='top')
 
-    def __init__(self, parent, *args, **kwargs):
-        tk.LabelFrame.__init__(self, parent)
-        #self.grid(row=1, column=0, sticky=W + E)
-        # Group1 Frame ----------------------------------------------------
-        group1 = LabelFrame(self.master, text="Text Box", padx=5, pady=5)
-        #group1.grid(row=1, column=0, columnspan=3, padx=10, pady=10, sticky=E + W + N + S)
+        top = tk.Frame(self, bg='blue')
+        top.pack(fill='x', side='top')
 
-        self.master.columnconfigure(0, weight=1)
-        self.master.rowconfigure(1, weight=1)
+        self.top_left = tk.Label(top, bg='orange')
+        self.top_left.pack(ipadx=10, ipady=10, fill='x', expand=True, side='left')
+        self.top_right = tk.Label(top, bg='red')
+        self.top_right.pack(ipadx=10, ipady=10, fill='x', expand=True, side='right')
 
-        group1.rowconfigure(0, weight=1)
-        group1.columnconfigure(0, weight=1)
-
-        # Create the textbox
-        self.txtbox = Label(group1, font=('calibri', 40, 'bold'), width=40, height=50)
-        self.txtbox.grid(row=0, column=0, sticky=E + W + N + S)
-        self.txtbox.config(text="glove")
+        self.glove_left = tk.Label(self, bg='blue')
+        self.glove_left.config(font=("Courier", 100, "bold"))
+        self.glove_left.pack(ipadx=10, ipady=10, fill='both', expand=True, side='left')
+        self.glove_right = tk.Label(self, bg='yellow')
+        self.glove_left.config(font=("Courier", 100, "bold"))
+        self.glove_right.pack(ipadx=10, ipady=10, fill='both', expand=True, side='right')
 
         self.checkNewUsb()
         self.gloveInput()
 
-
-
     def checkNewUsb(self) -> None:
-        self.txtbox.after(1000, self.checkNewUsb)
-        #if(self.deviceManager.checkNewDevice()):
-        #    msg = "new usb !"
-        #    self.txtbox.config(text=msg)
-        #    self.serialDevice = SerialDevice(SerialDevice.leftGlove)
-
+        self.after(1000, self.checkNewUsb)
+        msg = "disconnected"
+        if self.deviceManager.checkNewDevice(self.serial_glove_left):
+            msg = "connected"
+            self.top_left.config(bg="green")
+            self.top_left.config(text=msg)
+            #self.serial_glove_left = SerialDevice(self.deviceManager.gloveLeft)
+        else:
+            self.top_left.config(bg="red")
+        self.top_left.config(text=msg)
 
     def gloveInput(self) -> None:
-        self.txtbox.after(100, self.gloveInput)
-        #if(self.serialDevice.plugedIn):
-        #    msg = self.serialDevice.get_msg()
-        #    self.txtbox.config(text=msg)
+        self.after(100, self.gloveInput)
+        if self.serial_glove_left.plugged:
+            msg = self.serial_glove_left.get_msg()
+            self.glove_left.config(text=msg)
 
 

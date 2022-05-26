@@ -9,28 +9,29 @@ import logging
 import sys
 
 class SerialDevice:
-    arduino_enable = True
+
     TERMINATOR = '\n'.encode('UTF8')
 
-    leftGlove = "usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00"
-    plugedIn = False
+    #leftGlove = "usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00"
+    plugged = False
 
     def __init__(self, serialId):
-        self.plugedIn = False
-        serialPath = "/dev/serial/by-id/"+serialId
+        self.serialPath = serialId
+
+    def connect(self)-> None:
         try:
-            device_exists = exists(serialPath)
+            device_exists = exists(self.serialPath)
             if(device_exists):
-                self.device = serial.Serial(serialPath, 115200, timeout=1)
-                logging.info('serial connected  : ' + serialId)
-                self.plugedIn = True
+                self.device = serial.Serial(self.serialPath, 115200, timeout=1)
+                logging.info('serial connected  : ' + self.serialPath)
+                self.plugged = True
         except SerialException:
-            logging.error("serial id "+serialId+"not present\n", sys.exc_info()[0])
+            logging.error("serial id "+self.serialPath+"not present\n", sys.exc_info()[0])
             pass
 
     def get_msg(self) -> Message:
 
-        if self.plugedIn and self.arduino_enable and self.device.isOpen():
+        if self.plugged and self.device.isOpen() and exists(self.serialPath):
             # logging.info("{} connected!".format(self.arduino.port))
             if self.device.inWaiting() > 0:
                 line = self.device.read_until(self.TERMINATOR)
@@ -42,6 +43,9 @@ class SerialDevice:
     def send_msg(self, msg):
         if self.device.isOpen():
             self.device.write(msg)
+
+    def setPlugedIn(self, connected):
+        self.plugged = connected
 
     @staticmethod
     def decode(msg: str):

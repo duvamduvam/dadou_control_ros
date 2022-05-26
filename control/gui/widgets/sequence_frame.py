@@ -7,47 +7,33 @@ from control.com.serial_device import SerialDevice
 from control.com.serial_device_manager import SerialDeviceManager
 
 
-class SequenceFrame(tk.LabelFrame):
+class SequenceFrame(tk.Frame):
 
-    #TODO add observer
-    serialDevice = SerialDevice(SerialDevice.leftGlove)
-    deviceManager = SerialDeviceManager()
+    def __init__(self, parent):
+        tk.Frame.__init__(self, parent, bg='grey')
+        self.pack(fill='both', expand=True, side='top')
 
-    def __init__(self, parent, *args, **kwargs):
-        tk.LabelFrame.__init__(self, parent)
+        left_menu = tk.Frame(self, bg='blue')
+        left_menu.pack(fill='y', ipadx=100, side='left')
 
-        # Group1 Frame ----------------------------------------------------
-        group1 = LabelFrame(self.master, text="Text Box", padx=5, pady=5)
-        group1.grid(row=1, column=0, columnspan=3, padx=10, pady=10, sticky=E + W + N + S)
-        group1.pack(row=1, column=0, sticky=W + E)
-        self.master.columnconfigure(0, weight=1)
-        self.master.rowconfigure(1, weight=1)
+        label1 = tk.Label(left_menu, bg='orange')
+        label1.pack(ipady=50, fill='x', side='top')
 
-        group1.rowconfigure(0, weight=1)
-        group1.columnconfigure(0, weight=1)
+        label2 = tk.Label(left_menu, bg='green')
+        label2.pack(ipady=50, fill='x', side='top')
 
-        # Create the textbox
-        self.txtbox = Label(group1, font=('calibri', 40, 'bold'), width=40, height=50)
-        self.txtbox.grid(row=0, column=0, sticky=E + W + N + S)
-        self.txtbox.config(text='sequence')
+        center = tk.Frame(self, bg='black')
+        center.pack(fill='both', expand=True, side='left')
 
-        self.txtbox.pack(side="top", fill="x", pady=10)
+        layer1 = tk.Label(center, bg='#4a7abc')
+        layer1.pack(ipady=50, fill='x', side='top')
 
-        #self.checkNewUsb()
-        #self.gloveInput()
+        layer2 = tk.Label(center, bg='#7c388f')
+        layer2.pack(ipady=50, fill='x', side='top')
 
-    def checkNewUsb(self) -> None:
-        self.txtbox.after(1000, self.checkNewUsb)
-        #if(self.deviceManager.checkNewDevice()):
-        #    msg = "new usb !"
-        #    self.txtbox.config(text=msg)
-        #    self.serialDevice = SerialDevice(SerialDevice.leftGlove)
+        layer3 = tk.Label(center, bg='#8f7b38')
+        layer3.pack(ipady=50, fill='x', side='top')
 
 
-    def gloveInput(self) -> None:
-        self.txtbox.after(100, self.gloveInput)
-        #if(self.serialDevice.plugedIn):
-        #    msg = self.serialDevice.get_msg()
-        #    self.txtbox.config(text=msg)
 
 

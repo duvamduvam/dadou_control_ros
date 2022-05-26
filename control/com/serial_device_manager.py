@@ -7,7 +7,6 @@ from control.com.serial_device import SerialDevice
 
 class SerialDeviceManager:
 
-
     #TODO use config
     USB_ID_PATH = "/dev/serial/by-id/"
     gloveLeftId = USB_ID_PATH + "usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00"
@@ -17,10 +16,18 @@ class SerialDeviceManager:
     monitor = pyudev.Monitor.from_netlink(context)
     monitor.filter_by(subsystem='usb')
 
-    def checkNewDevice(self) -> bool:
-        logging.info("check glove left plugged in " + str(self.gloveLeft.plugedIn))
-        if(not self.gloveLeft.plugedIn and exists(self.gloveLeftId)):
-            self.gloveLeft = SerialDevice(self.gloveLeftId)
-            logging.info('{} connected'.format(self.gloveLeftId))
-            return True
-        return False
+    def checkNewDevice(self, serial_device) -> bool:
+        logging.info("check glove left plugged in " + str(serial_device.plugged))
+        serial_plugged = exists(serial_device.serialPath)
+
+        if not serial_device.plugged and serial_plugged:
+            self.gloveLeft.connect()
+
+        serial_device.plugged = serial_plugged
+        #    logging.info('{} connected'.format(self.gloveLeftId))
+        #if self.gloveLeft.plugedIn and not exists(self.gloveLeftId):
+        #    self.gloveLeft.connect()
+        #    logging.info('{} connected'.format(self.gloveLeftId))
+        #elif not self.gloveLeft.plugedIn:
+        #    self.gloveLeft.plugedIn = False
+        return serial_device.plugged

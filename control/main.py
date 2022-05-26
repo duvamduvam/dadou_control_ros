@@ -3,7 +3,7 @@
 # Press Maj+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 from control.com.serial_device import SerialDevice
-from control.gui.gui_main import MainGui
+from control.gui.tkinter_gui import MainGui
 import tkinter as tk
 import logging.config
 
@@ -11,7 +11,7 @@ import logging.config
 logging.config.fileConfig('/home/dadou/Nextcloud/Didier/python/DadouControl/conf/logging.conf', disable_existing_loggers=False)
 logging.info('Starting didier')
 
-leftGlove = SerialDevice(SerialDevice.leftGlove)
+#leftGlove = SerialDevice(SerialDevice.leftGlove)
 
 def main():
     gui = MainGui()
