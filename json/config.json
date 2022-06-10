@@ -1,0 +1,31 @@
+{
+  "devices": [
+    {
+      "name": "glove-left",
+      "id": "usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00"
+    },
+    {
+      "name": "glove-right",
+      "id": "usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if01"
+    }
+  ],
+  "paths": [
+    {
+      "name": "visual",
+      "path": "/visuals/"
+    },
+    {
+      "name": "eye",
+      "path": "/visuals/eye/"
+    },
+    {
+      "name": "mouth",
+      "path": "/visuals/mouth/"
+    },
+    {
+      "name": "sequences",
+      "path": "/json/sequences/"
+    }
+  ]
+
+}

@@ -1,0 +1,449 @@
+2022-06-08 14:17:04,861 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f07664f6eb0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f07664f6eb0>>}
+2022-06-08 14:17:04,865 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 14:17:06,762 - root - DEBUG - audio_navigation.py - display_time : 40 - 55514.304323586
+2022-06-08 14:17:06,963 - root - DEBUG - audio_navigation.py - display_time : 40 - 55514.504828227
+2022-06-08 14:17:07,163 - root - DEBUG - audio_navigation.py - display_time : 40 - 55514.705065789
+2022-06-08 14:17:07,363 - root - DEBUG - audio_navigation.py - display_time : 40 - 55514.905606218
+2022-06-08 14:17:07,564 - root - DEBUG - audio_navigation.py - display_time : 40 - 55515.106054676
+2022-06-08 14:17:07,764 - root - DEBUG - audio_navigation.py - display_time : 40 - 55515.306362903
+2022-06-08 14:17:07,964 - root - DEBUG - audio_navigation.py - display_time : 40 - 55515.506646192
+2022-06-08 14:17:08,165 - root - DEBUG - audio_navigation.py - display_time : 40 - 55515.707102586
+2022-06-08 14:17:08,365 - root - DEBUG - audio_navigation.py - display_time : 40 - 55515.90729203
+2022-06-08 14:17:08,565 - root - DEBUG - audio_navigation.py - display_time : 40 - 55516.107478001
+2022-06-08 14:17:08,765 - root - DEBUG - audio_navigation.py - display_time : 40 - 55516.307645401
+2022-06-08 14:17:08,966 - root - DEBUG - audio_navigation.py - display_time : 40 - 55516.507821463
+2022-06-08 14:17:09,166 - root - DEBUG - audio_navigation.py - display_time : 40 - 55516.708053514
+2022-06-08 14:17:09,366 - root - DEBUG - audio_navigation.py - display_time : 40 - 55516.908359421
+2022-06-08 14:17:09,567 - root - DEBUG - audio_navigation.py - display_time : 40 - 55517.108791276
+2022-06-08 14:17:09,767 - root - DEBUG - audio_navigation.py - display_time : 40 - 55517.309172095
+2022-06-08 14:17:09,968 - root - DEBUG - audio_navigation.py - display_time : 40 - 55517.509729451
+2022-06-08 14:17:10,168 - root - DEBUG - audio_navigation.py - display_time : 40 - 55517.709912619
+2022-06-08 14:17:10,379 - root - DEBUG - audio_navigation.py - display_time : 40 - 55517.921183807
+2022-06-08 14:17:10,580 - root - DEBUG - audio_navigation.py - display_time : 40 - 55518.121741099
+2022-06-08 14:17:10,780 - root - DEBUG - audio_navigation.py - display_time : 40 - 55518.322049337
+2022-06-08 14:17:10,980 - root - DEBUG - audio_navigation.py - display_time : 40 - 55518.522328494
+2022-06-08 14:17:11,181 - root - DEBUG - audio_navigation.py - display_time : 40 - 55518.722627171
+2022-06-08 14:17:11,381 - root - DEBUG - audio_navigation.py - display_time : 40 - 55518.922793346
+2022-06-08 14:17:11,581 - root - DEBUG - audio_navigation.py - display_time : 40 - 55519.123094832
+2022-06-08 14:17:11,782 - root - DEBUG - audio_navigation.py - display_time : 40 - 55519.32364482
+2022-06-08 14:17:11,982 - root - DEBUG - audio_navigation.py - display_time : 40 - 55519.524144162
+2022-06-08 14:17:12,183 - root - DEBUG - audio_navigation.py - display_time : 40 - 55519.724664239
+2022-06-08 14:17:12,383 - root - DEBUG - audio_navigation.py - display_time : 40 - 55519.925210483
+2022-06-08 14:17:12,584 - root - DEBUG - audio_navigation.py - display_time : 40 - 55520.125773289
+2022-06-08 14:17:12,784 - root - DEBUG - audio_navigation.py - display_time : 40 - 55520.326054737
+2022-06-08 14:17:12,984 - root - DEBUG - audio_navigation.py - display_time : 40 - 55520.526364608
+2022-06-08 14:17:13,185 - root - DEBUG - audio_navigation.py - display_time : 40 - 55520.726682824
+2022-06-08 14:17:13,385 - root - DEBUG - audio_navigation.py - display_time : 40 - 55520.927009699
+2022-06-08 14:17:13,585 - root - DEBUG - audio_navigation.py - display_time : 40 - 55521.127480399
+2022-06-08 14:17:13,786 - root - DEBUG - audio_navigation.py - display_time : 40 - 55521.327867577
+2022-06-08 14:17:13,986 - root - DEBUG - audio_navigation.py - display_time : 40 - 55521.528390844
+2022-06-08 14:17:14,187 - root - DEBUG - audio_navigation.py - display_time : 40 - 55521.728691828
+2022-06-08 14:17:14,387 - root - DEBUG - audio_navigation.py - display_time : 40 - 55521.928985363
+2022-06-08 14:17:14,587 - root - DEBUG - audio_navigation.py - display_time : 40 - 55522.129505163
+2022-06-08 14:17:14,788 - root - DEBUG - audio_navigation.py - display_time : 40 - 55522.329983652
+2022-06-08 14:17:14,988 - root - DEBUG - audio_navigation.py - display_time : 40 - 55522.530292939
+2022-06-08 14:17:15,188 - root - DEBUG - audio_navigation.py - display_time : 40 - 55522.730498174
+2022-06-08 14:17:15,389 - root - DEBUG - audio_navigation.py - display_time : 40 - 55522.930934525
+2022-06-08 14:17:15,589 - root - DEBUG - audio_navigation.py - display_time : 40 - 55523.131327243
+2022-06-08 14:17:15,789 - root - DEBUG - audio_navigation.py - display_time : 40 - 55523.33163339
+2022-06-08 14:17:15,990 - root - DEBUG - audio_navigation.py - display_time : 40 - 55523.531771141
+2022-06-08 14:17:16,190 - root - DEBUG - audio_navigation.py - display_time : 40 - 55523.731889934
+2022-06-08 14:17:16,390 - root - DEBUG - audio_navigation.py - display_time : 40 - 55523.932017341
+2022-06-08 14:17:16,590 - root - DEBUG - audio_navigation.py - display_time : 40 - 55524.13219887
+2022-06-08 14:17:16,790 - root - DEBUG - audio_navigation.py - display_time : 40 - 55524.332433621
+2022-06-08 14:17:16,991 - root - DEBUG - audio_navigation.py - display_time : 40 - 55524.532735787
+2022-06-08 14:17:17,191 - root - DEBUG - audio_navigation.py - display_time : 40 - 55524.733044652
+2022-06-08 14:17:17,391 - root - DEBUG - audio_navigation.py - display_time : 40 - 55524.933464409
+2022-06-08 14:17:17,592 - root - DEBUG - audio_navigation.py - display_time : 40 - 55525.134019255
+2022-06-08 14:17:17,792 - root - DEBUG - audio_navigation.py - display_time : 40 - 55525.334396811
+2022-06-08 14:17:17,992 - root - DEBUG - audio_navigation.py - display_time : 40 - 55525.534573491
+2022-06-08 14:17:18,193 - root - DEBUG - audio_navigation.py - display_time : 40 - 55525.734958102
+2022-06-08 14:17:18,393 - root - DEBUG - audio_navigation.py - display_time : 40 - 55525.935443905
+2022-06-08 14:17:18,593 - root - DEBUG - audio_navigation.py - display_time : 40 - 55526.135622103
+2022-06-08 14:17:18,794 - root - DEBUG - audio_navigation.py - display_time : 40 - 55526.335770534
+2022-06-08 14:17:18,994 - root - DEBUG - audio_navigation.py - display_time : 40 - 55526.536075809
+2022-06-08 14:17:19,194 - root - DEBUG - audio_navigation.py - display_time : 40 - 55526.736343874
+2022-06-08 14:17:19,394 - root - DEBUG - audio_navigation.py - display_time : 40 - 55526.936617797
+2022-06-08 14:17:19,595 - root - DEBUG - audio_navigation.py - display_time : 40 - 55527.136904428
+2022-06-08 14:17:19,795 - root - DEBUG - audio_navigation.py - display_time : 40 - 55527.337182322
+2022-06-08 14:17:19,995 - root - DEBUG - audio_navigation.py - display_time : 40 - 55527.537389744
+2022-06-08 14:17:20,195 - root - DEBUG - audio_navigation.py - display_time : 40 - 55527.737588272
+2022-06-08 14:17:20,396 - root - DEBUG - audio_navigation.py - display_time : 40 - 55527.937768443
+2022-06-08 14:17:20,596 - root - DEBUG - audio_navigation.py - display_time : 40 - 55528.138020785
+2022-06-08 14:17:20,796 - root - DEBUG - audio_navigation.py - display_time : 40 - 55528.338286229
+2022-06-08 14:17:20,996 - root - DEBUG - audio_navigation.py - display_time : 40 - 55528.5384277
+2022-06-08 14:17:21,197 - root - DEBUG - audio_navigation.py - display_time : 40 - 55528.738659559
+2022-06-08 14:17:21,397 - root - DEBUG - audio_navigation.py - display_time : 40 - 55528.938920351
+2022-06-08 14:17:21,597 - root - DEBUG - audio_navigation.py - display_time : 40 - 55529.139190271
+2022-06-08 14:17:21,797 - root - DEBUG - audio_navigation.py - display_time : 40 - 55529.339484234
+2022-06-08 14:17:21,997 - root - DEBUG - audio_navigation.py - display_time : 40 - 55529.539621753
+2022-06-08 14:17:22,198 - root - DEBUG - audio_navigation.py - display_time : 40 - 55529.739787297
+2022-06-08 14:17:22,398 - root - DEBUG - audio_navigation.py - display_time : 40 - 55529.940343877
+2022-06-08 14:17:22,598 - root - DEBUG - audio_navigation.py - display_time : 40 - 55530.140612318
+2022-06-08 14:17:22,799 - root - DEBUG - audio_navigation.py - display_time : 40 - 55530.340841123
+2022-06-08 14:17:22,999 - root - DEBUG - audio_navigation.py - display_time : 40 - 55530.541148502
+2022-06-08 14:17:23,199 - root - DEBUG - audio_navigation.py - display_time : 40 - 55530.741413502
+2022-06-08 14:17:23,400 - root - DEBUG - audio_navigation.py - display_time : 40 - 55530.941659786
+2022-06-08 14:17:23,600 - root - DEBUG - audio_navigation.py - display_time : 40 - 55531.141867721
+2022-06-08 14:17:23,800 - root - DEBUG - audio_navigation.py - display_time : 40 - 55531.342030329
+2022-06-08 14:17:24,000 - root - DEBUG - audio_navigation.py - display_time : 40 - 55531.542300459
+2022-06-08 14:17:24,200 - root - DEBUG - audio_navigation.py - display_time : 40 - 55531.742560486
+2022-06-08 14:17:24,401 - root - DEBUG - audio_navigation.py - display_time : 40 - 55531.943007134
+2022-06-08 14:17:24,601 - root - DEBUG - audio_navigation.py - display_time : 40 - 55532.143482318
+2022-06-08 14:17:24,802 - root - DEBUG - audio_navigation.py - display_time : 40 - 55532.344006067
+2022-06-08 14:17:25,002 - root - DEBUG - audio_navigation.py - display_time : 40 - 55532.544307435
+2022-06-08 14:17:25,202 - root - DEBUG - audio_navigation.py - display_time : 40 - 55532.744610347
+2022-06-08 14:17:25,403 - root - DEBUG - audio_navigation.py - display_time : 40 - 55532.944914948
+2022-06-08 14:17:25,603 - root - DEBUG - audio_navigation.py - display_time : 40 - 55533.145195712
+2022-06-08 14:17:25,803 - root - DEBUG - audio_navigation.py - display_time : 40 - 55533.345478339
+2022-06-08 14:17:26,004 - root - DEBUG - audio_navigation.py - display_time : 40 - 55533.545904446
+2022-06-08 14:17:26,204 - root - DEBUG - audio_navigation.py - display_time : 40 - 55533.746256203
+2022-06-08 14:17:26,399 - root - INFO - audio_navigation.py - start : 27 - start playing
+2022-06-08 14:17:26,399 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 8.169200009433553e-09
+2022-06-08 14:17:26,404 - root - DEBUG - audio_navigation.py - display_time : 40 - 0.005260589001409244
+2022-06-08 14:17:26,600 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 2.0062807700014675e-05
+2022-06-08 14:17:26,605 - root - DEBUG - audio_navigation.py - display_time : 40 - 0.20553894999466138
+2022-06-08 14:17:26,800 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 4.0090805699583145e-05
+2022-06-08 14:17:26,805 - root - DEBUG - audio_navigation.py - display_time : 40 - 0.405814265999652
+2022-06-08 14:17:27,000 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 6.012204309954541e-05
+2022-06-08 14:17:27,005 - root - DEBUG - audio_navigation.py - display_time : 40 - 0.6060949829989113
+2022-06-08 14:17:27,201 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 8.016603399955784e-05
+2022-06-08 14:17:27,206 - root - DEBUG - audio_navigation.py - display_time : 40 - 0.8064121269999305
+2022-06-08 14:17:27,401 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0001001789417998225
+2022-06-08 14:17:27,406 - root - DEBUG - audio_navigation.py - display_time : 40 - 1.0066797769977711
+2022-06-08 14:17:27,601 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00012020916519977618
+2022-06-08 14:17:27,606 - root - DEBUG - audio_navigation.py - display_time : 40 - 1.2070398619980551
+2022-06-08 14:17:27,802 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00014024223559972598
+2022-06-08 14:17:27,807 - root - DEBUG - audio_navigation.py - display_time : 40 - 1.4074895009980537
+2022-06-08 14:17:28,002 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00016028089600004023
+2022-06-08 14:17:28,007 - root - DEBUG - audio_navigation.py - display_time : 40 - 1.6080527570011327
+2022-06-08 14:17:28,202 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0001803209297999274
+2022-06-08 14:17:28,207 - root - DEBUG - audio_navigation.py - display_time : 40 - 1.8083053640002618
+2022-06-08 14:17:28,403 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00020035112199984724
+2022-06-08 14:17:28,408 - root - DEBUG - audio_navigation.py - display_time : 40 - 2.008440507001069
+2022-06-08 14:17:28,603 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00022038123019956402
+2022-06-08 14:17:28,608 - root - DEBUG - audio_navigation.py - display_time : 40 - 2.208746484000585
+2022-06-08 14:17:28,803 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0002404120294995664
+2022-06-08 14:17:28,808 - root - DEBUG - audio_navigation.py - display_time : 40 - 2.4089628379952046
+2022-06-08 14:17:29,004 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0002604560152998602
+2022-06-08 14:17:29,008 - root - DEBUG - audio_navigation.py - display_time : 40 - 2.6092490299997735
+2022-06-08 14:17:29,204 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.000280479807699885
+2022-06-08 14:17:29,209 - root - DEBUG - audio_navigation.py - display_time : 40 - 2.809530382997764
+2022-06-08 14:17:29,404 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0003005017420000513
+2022-06-08 14:17:29,409 - root - DEBUG - audio_navigation.py - display_time : 40 - 3.0097376689955126
+2022-06-08 14:17:29,604 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00032052164589986207
+2022-06-08 14:17:29,609 - root - DEBUG - audio_navigation.py - display_time : 40 - 3.2098574669944355
+2022-06-08 14:17:29,804 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00034053508979995967
+2022-06-08 14:17:29,809 - root - DEBUG - audio_navigation.py - display_time : 40 - 3.410006953999982
+2022-06-08 14:17:30,005 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00036055333920012345
+2022-06-08 14:17:30,009 - root - DEBUG - audio_navigation.py - display_time : 40 - 3.6101098739964073
+2022-06-08 14:17:30,205 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00038056970559991897
+2022-06-08 14:17:30,209 - root - DEBUG - audio_navigation.py - display_time : 40 - 3.810211910000362
+2022-06-08 14:17:30,405 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0004005842072001542
+2022-06-08 14:17:30,409 - root - DEBUG - audio_navigation.py - display_time : 40 - 4.010297616994649
+2022-06-08 14:17:30,605 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00042061363280008666
+2022-06-08 14:17:30,610 - root - DEBUG - audio_navigation.py - display_time : 40 - 4.210482055001194
+2022-06-08 14:17:30,805 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0004406319011999585
+2022-06-08 14:17:30,810 - root - DEBUG - audio_navigation.py - display_time : 40 - 4.410692952995305
+2022-06-08 14:17:55,209 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fe00298eeb0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fe00298eeb0>>}
+2022-06-08 14:17:55,211 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 14:17:56,770 - root - DEBUG - audio_navigation.py - display_time : 40 - 55564.311924213
+2022-06-08 14:17:56,970 - root - DEBUG - audio_navigation.py - display_time : 40 - 55564.512268272
+2022-06-08 14:17:57,171 - root - DEBUG - audio_navigation.py - display_time : 40 - 55564.712725806
+2022-06-08 14:17:57,371 - root - DEBUG - audio_navigation.py - display_time : 40 - 55564.913026013
+2022-06-08 14:17:57,571 - root - DEBUG - audio_navigation.py - display_time : 40 - 55565.113543772
+2022-06-08 14:17:57,772 - root - DEBUG - audio_navigation.py - display_time : 40 - 55565.313858278
+2022-06-08 14:17:57,972 - root - DEBUG - audio_navigation.py - display_time : 40 - 55565.514181723
+2022-06-08 14:17:58,172 - root - DEBUG - audio_navigation.py - display_time : 40 - 55565.714579767
+2022-06-08 14:17:58,373 - root - DEBUG - audio_navigation.py - display_time : 40 - 55565.9150228
+2022-06-08 14:17:58,573 - root - DEBUG - audio_navigation.py - display_time : 40 - 55566.115509207
+2022-06-08 14:17:58,774 - root - DEBUG - audio_navigation.py - display_time : 40 - 55566.316013667
+2022-06-08 14:17:58,974 - root - DEBUG - audio_navigation.py - display_time : 40 - 55566.516532681
+2022-06-08 14:17:59,175 - root - DEBUG - audio_navigation.py - display_time : 40 - 55566.716730398
+2022-06-08 14:17:59,375 - root - DEBUG - audio_navigation.py - display_time : 40 - 55566.91685894
+2022-06-08 14:17:59,575 - root - DEBUG - audio_navigation.py - display_time : 40 - 55567.117115106
+2022-06-08 14:17:59,776 - root - DEBUG - audio_navigation.py - display_time : 40 - 55567.318342555
+2022-06-08 14:17:59,976 - root - DEBUG - audio_navigation.py - display_time : 40 - 55567.518615916
+2022-06-08 14:18:00,177 - root - DEBUG - audio_navigation.py - display_time : 40 - 55567.719072241
+2022-06-08 14:18:00,377 - root - DEBUG - audio_navigation.py - display_time : 40 - 55567.919296589
+2022-06-08 14:19:55,502 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fa467ae8d00>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fa467ae8d00>>}
+2022-06-08 14:19:55,504 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 14:19:59,892 - root - INFO - audio_navigation.py - start : 27 - start playing
+2022-06-08 14:19:59,892 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 6.039599975338205e-09
+2022-06-08 14:20:00,051 - root - DEBUG - audio_navigation.py - display_time : 41 - 0.15827188899856992
+2022-06-08 14:20:00,093 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 2.0022660099493806e-05
+2022-06-08 14:20:00,251 - root - DEBUG - audio_navigation.py - display_time : 41 - 0.3584424239961663
+2022-06-08 14:20:00,293 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 4.003709109965712e-05
+2022-06-08 14:20:00,451 - root - DEBUG - audio_navigation.py - display_time : 41 - 0.5586902639988693
+2022-06-08 14:20:00,493 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 6.006118469958892e-05
+2022-06-08 14:20:00,652 - root - DEBUG - audio_navigation.py - display_time : 41 - 0.7592515689975698
+2022-06-08 14:20:00,694 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 8.0113522499596e-05
+2022-06-08 14:20:00,852 - root - DEBUG - audio_navigation.py - display_time : 41 - 0.9595085219989414
+2022-06-08 14:20:00,894 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00010014839379946351
+2022-06-08 14:20:01,052 - root - DEBUG - audio_navigation.py - display_time : 41 - 1.1598317859970848
+2022-06-08 14:20:01,094 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0001202014116999635
+2022-06-08 14:20:01,253 - root - DEBUG - audio_navigation.py - display_time : 41 - 1.3602239319952787
+2022-06-08 14:20:01,295 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00014022727599949576
+2022-06-08 14:20:01,453 - root - DEBUG - audio_navigation.py - display_time : 41 - 1.5605299359958735
+2022-06-08 14:20:01,495 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0001602737196997623
+2022-06-08 14:20:01,653 - root - DEBUG - audio_navigation.py - display_time : 41 - 1.760975729994243
+2022-06-08 14:20:01,696 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00018033063519978896
+2022-06-08 14:20:01,854 - root - DEBUG - audio_navigation.py - display_time : 41 - 1.9614353199940524
+2022-06-08 14:20:01,896 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00020036188489975756
+2022-06-08 14:20:02,054 - root - DEBUG - audio_navigation.py - display_time : 41 - 2.1617318129938212
+2022-06-08 14:20:02,096 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00022039212339950608
+2022-06-08 14:20:02,255 - root - DEBUG - audio_navigation.py - display_time : 41 - 2.3622282779979287
+2022-06-08 14:20:02,297 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00024042701939979452
+2022-06-08 14:20:02,455 - root - DEBUG - audio_navigation.py - display_time : 41 - 2.5626762569954735
+2022-06-08 14:20:02,497 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0002604742899995472
+2022-06-08 14:20:02,656 - root - DEBUG - audio_navigation.py - display_time : 41 - 2.7631286260002526
+2022-06-08 14:20:02,698 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0002805244793999009
+2022-06-08 14:20:02,856 - root - DEBUG - audio_navigation.py - display_time : 41 - 2.9633780019939877
+2022-06-08 14:20:02,898 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.000300556915699417
+2022-06-08 14:20:03,056 - root - DEBUG - audio_navigation.py - display_time : 41 - 3.163566945993807
+2022-06-08 14:20:03,098 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0003205776978000358
+2022-06-08 14:20:03,256 - root - DEBUG - audio_navigation.py - display_time : 41 - 3.363769551993755
+2022-06-08 14:20:03,298 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00034059815449945745
+2022-06-08 14:20:03,456 - root - DEBUG - audio_navigation.py - display_time : 41 - 3.563981437997427
+2022-06-08 14:20:03,499 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0003606210140998883
+2022-06-08 14:20:03,657 - root - DEBUG - audio_navigation.py - display_time : 41 - 3.764236474999052
+2022-06-08 14:20:03,699 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0003806336994995945
+2022-06-08 14:20:03,857 - root - DEBUG - audio_navigation.py - display_time : 41 - 3.964385818995652
+2022-06-08 14:20:03,899 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0004006506450998131
+2022-06-08 14:20:04,057 - root - DEBUG - audio_navigation.py - display_time : 41 - 4.16460483300034
+2022-06-08 14:20:08,171 - root - INFO - audio_navigation.py - start : 27 - start playing
+2022-06-08 14:20:08,171 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 5.090599734103307e-09
+2022-06-08 14:20:08,266 - root - DEBUG - audio_navigation.py - display_time : 41 - 0.09473731600155588
+2022-06-08 14:20:08,372 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 2.006152030007797e-05
+2022-06-08 14:20:08,466 - root - DEBUG - audio_navigation.py - display_time : 41 - 0.2952419209977961
+2022-06-08 14:20:08,572 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 4.009408790007001e-05
+2022-06-08 14:20:08,667 - root - DEBUG - audio_navigation.py - display_time : 41 - 0.49558344399702037
+2022-06-08 14:20:08,772 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 6.0124983500281814e-05
+2022-06-08 14:20:08,867 - root - DEBUG - audio_navigation.py - display_time : 41 - 0.6959504960032064
+2022-06-08 14:20:08,973 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 8.015542599969194e-05
+2022-06-08 14:20:09,067 - root - DEBUG - audio_navigation.py - display_time : 41 - 0.8964291149968631
+2022-06-08 14:20:09,173 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00010018585959987832
+2022-06-08 14:20:09,268 - root - DEBUG - audio_navigation.py - display_time : 41 - 1.096601830999134
+2022-06-08 14:20:09,373 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00012020187210000585
+2022-06-08 14:20:09,468 - root - DEBUG - audio_navigation.py - display_time : 41 - 1.296741756996198
+2022-06-08 14:20:09,573 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00014021789980033644
+2022-06-08 14:20:09,668 - root - DEBUG - audio_navigation.py - display_time : 41 - 1.4969086330020218
+2022-06-08 14:20:09,773 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0001602334721996158
+2022-06-08 14:20:09,868 - root - DEBUG - audio_navigation.py - display_time : 41 - 1.6970735529976082
+2022-06-08 14:20:09,973 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0001802559158000804
+2022-06-08 14:20:10,068 - root - DEBUG - audio_navigation.py - display_time : 41 - 1.8973395180000807
+2022-06-08 14:20:10,174 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00020030897489996277
+2022-06-08 14:20:10,269 - root - DEBUG - audio_navigation.py - display_time : 41 - 2.097672126001271
+2022-06-08 14:20:10,375 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00022036323700012873
+2022-06-08 14:20:10,469 - root - DEBUG - audio_navigation.py - display_time : 41 - 2.2979926339976373
+2022-06-08 14:20:10,575 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00024038902449974558
+2022-06-08 14:20:10,669 - root - DEBUG - audio_navigation.py - display_time : 41 - 2.4984746129994164
+2022-06-08 14:20:10,775 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00026043261649974736
+2022-06-08 14:20:10,870 - root - DEBUG - audio_navigation.py - display_time : 41 - 2.698637604000396
+2022-06-08 14:20:10,975 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00028045412720020975
+2022-06-08 14:20:11,070 - root - DEBUG - audio_navigation.py - display_time : 41 - 2.8988275149968104
+2022-06-08 14:20:11,176 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00030048875950014915
+2022-06-08 14:20:11,270 - root - DEBUG - audio_navigation.py - display_time : 41 - 3.0993670050011133
+2022-06-08 14:20:11,376 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00032052778910001507
+2022-06-08 14:20:11,471 - root - DEBUG - audio_navigation.py - display_time : 41 - 3.2997246719969553
+2022-06-08 14:20:11,577 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0003405612825001299
+2022-06-08 14:20:11,671 - root - DEBUG - audio_navigation.py - display_time : 41 - 3.5002529920020606
+2022-06-08 14:20:11,777 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00036060805009983596
+2022-06-08 14:20:11,871 - root - DEBUG - audio_navigation.py - display_time : 41 - 3.700521047998336
+2022-06-08 14:20:11,977 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0003806303019002371
+2022-06-08 14:20:12,072 - root - DEBUG - audio_navigation.py - display_time : 41 - 3.900704471001518
+2022-06-08 14:20:12,177 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00040065170410016437
+2022-06-08 14:20:12,272 - root - DEBUG - audio_navigation.py - display_time : 41 - 4.100807369002723
+2022-06-08 14:20:12,378 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00042067636840001794
+2022-06-08 14:20:12,472 - root - DEBUG - audio_navigation.py - display_time : 41 - 4.301002038999286
+2022-06-08 14:20:12,578 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00044071867099992234
+2022-06-08 14:20:12,672 - root - DEBUG - audio_navigation.py - display_time : 41 - 4.501337606001471
+2022-06-08 14:20:12,778 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00046074396289986905
+2022-06-08 14:20:12,873 - root - DEBUG - audio_navigation.py - display_time : 41 - 4.701559086999623
+2022-06-08 14:20:50,205 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f1ef6a46e20>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f1ef6a46e20>>}
+2022-06-08 14:20:50,207 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 14:21:53,964 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fded3e39e20>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fded3e39e20>>}
+2022-06-08 14:21:53,966 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 14:21:57,205 - root - INFO - audio_navigation.py - start : 27 - start playing
+2022-06-08 14:21:57,205 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 6.773100176360458e-09
+2022-06-08 14:21:57,218 - root - DEBUG - audio_navigation.py - display_time : 41 - 0.012585852004121989
+2022-06-08 14:21:57,405 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 2.0029273300315255e-05
+2022-06-08 14:21:57,418 - root - DEBUG - audio_navigation.py - display_time : 41 - 0.21266842300246935
+2022-06-08 14:21:57,606 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 4.00531437000609e-05
+2022-06-08 14:21:57,618 - root - DEBUG - audio_navigation.py - display_time : 41 - 0.4128294750044006
+2022-06-08 14:21:57,806 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 6.009850219998043e-05
+2022-06-08 14:21:57,818 - root - DEBUG - audio_navigation.py - display_time : 41 - 0.6130477480037371
+2022-06-08 14:21:58,006 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 8.012464530038414e-05
+2022-06-08 14:21:58,018 - root - DEBUG - audio_navigation.py - display_time : 41 - 0.8131860900030006
+2022-06-08 14:21:58,207 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0001001736523998261
+2022-06-08 14:21:58,219 - root - DEBUG - audio_navigation.py - display_time : 41 - 1.0136584589999984
+2022-06-08 14:21:58,407 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00012022621959986281
+2022-06-08 14:21:58,419 - root - DEBUG - audio_navigation.py - display_time : 41 - 1.2139604080002755
+2022-06-08 14:21:58,608 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0001402818398004456
+2022-06-08 14:21:58,620 - root - DEBUG - audio_navigation.py - display_time : 41 - 1.4144333060030476
+2022-06-08 14:21:58,808 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00016031140010018134
+2022-06-08 14:21:58,820 - root - DEBUG - audio_navigation.py - display_time : 41 - 1.614819112000987
+2022-06-08 14:21:59,009 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00018034307990019442
+2022-06-08 14:21:59,020 - root - DEBUG - audio_navigation.py - display_time : 41 - 1.814979676004441
+2022-06-08 14:21:59,209 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00020038777779991506
+2022-06-08 14:21:59,220 - root - DEBUG - audio_navigation.py - display_time : 41 - 2.0153118160014856
+2022-06-08 14:21:59,409 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00022043654689987306
+2022-06-08 14:21:59,421 - root - DEBUG - audio_navigation.py - display_time : 41 - 2.215642271003162
+2022-06-08 14:21:59,610 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00024048908469994786
+2022-06-08 14:21:59,621 - root - DEBUG - audio_navigation.py - display_time : 41 - 2.415959384998132
+2022-06-08 14:21:59,811 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0002605449485999998
+2022-06-08 14:21:59,821 - root - DEBUG - audio_navigation.py - display_time : 41 - 2.616257512003358
+2022-06-08 14:22:00,011 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00028056639400019775
+2022-06-08 14:22:00,022 - root - DEBUG - audio_navigation.py - display_time : 41 - 2.8165553479993832
+2022-06-08 14:22:00,211 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00030060786199974246
+2022-06-08 14:22:00,222 - root - DEBUG - audio_navigation.py - display_time : 41 - 3.0168761649983935
+2022-06-08 14:22:00,412 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0003206641217999277
+2022-06-08 14:22:00,422 - root - DEBUG - audio_navigation.py - display_time : 41 - 3.2170495520040276
+2022-06-08 14:22:00,612 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0003406892851999146
+2022-06-08 14:22:00,622 - root - DEBUG - audio_navigation.py - display_time : 41 - 3.4173483019985724
+2022-06-08 14:22:00,812 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0003607282746997953
+2022-06-08 14:22:00,823 - root - DEBUG - audio_navigation.py - display_time : 41 - 3.617855144002533
+2022-06-08 14:22:01,013 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00038077253610026675
+2022-06-08 14:22:01,023 - root - DEBUG - audio_navigation.py - display_time : 41 - 3.818160460003128
+2022-06-08 14:22:01,213 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0004008209605999582
+2022-06-08 14:22:01,224 - root - DEBUG - audio_navigation.py - display_time : 41 - 4.018416003003949
+2022-06-08 14:22:01,414 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.000420873150999978
+2022-06-08 14:22:01,424 - root - DEBUG - audio_navigation.py - display_time : 41 - 4.218704641003569
+2022-06-08 14:22:01,614 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00044092633120017125
+2022-06-08 14:22:01,624 - root - DEBUG - audio_navigation.py - display_time : 41 - 4.4190572680017794
+2022-06-08 14:22:01,815 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00046098145680007293
+2022-06-08 14:22:01,824 - root - DEBUG - audio_navigation.py - display_time : 41 - 4.619357834002585
+2022-06-08 14:22:02,016 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.00048103703840024535
+2022-06-08 14:22:02,025 - root - DEBUG - audio_navigation.py - display_time : 41 - 4.819669160002377
+2022-06-08 14:22:02,216 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0005010806677004439
+2022-06-08 14:22:02,225 - root - DEBUG - audio_navigation.py - display_time : 41 - 5.019968036001956
+2022-06-08 14:22:02,416 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.000521111985600146
+2022-06-08 14:22:02,426 - root - DEBUG - audio_navigation.py - display_time : 41 - 5.22045147800236
+2022-06-08 14:22:02,617 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0005411434435001866
+2022-06-08 14:22:02,626 - root - DEBUG - audio_navigation.py - display_time : 41 - 5.420794439000019
+2022-06-08 14:22:02,817 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0005611757819999184
+2022-06-08 14:22:02,826 - root - DEBUG - audio_navigation.py - display_time : 41 - 5.62123936900025
+2022-06-08 14:22:03,017 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0005812216974001786
+2022-06-08 14:22:03,027 - root - DEBUG - audio_navigation.py - display_time : 41 - 5.821543782003573
+2022-06-08 14:22:03,218 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0006012735639000311
+2022-06-08 14:22:03,227 - root - DEBUG - audio_navigation.py - display_time : 41 - 6.021838590997504
+2022-06-08 14:22:03,418 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0006212985238998954
+2022-06-08 14:22:03,427 - root - DEBUG - audio_navigation.py - display_time : 41 - 6.22216705900064
+2022-06-08 14:22:03,618 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0006413290737000353
+2022-06-08 14:22:03,628 - root - DEBUG - audio_navigation.py - display_time : 41 - 6.422705862998555
+2022-06-08 14:22:03,819 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0006613608411003952
+2022-06-08 14:22:03,828 - root - DEBUG - audio_navigation.py - display_time : 41 - 6.622983947003377
+2022-06-08 14:22:04,019 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0006813988218003942
+2022-06-08 14:22:04,028 - root - DEBUG - audio_navigation.py - display_time : 41 - 6.823277866002172
+2022-06-08 14:22:04,220 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0007014522850004141
+2022-06-08 14:22:04,229 - root - DEBUG - audio_navigation.py - display_time : 41 - 7.02368065900373
+2022-06-08 14:22:04,420 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0007214824069000315
+2022-06-08 14:22:04,429 - root - DEBUG - audio_navigation.py - display_time : 41 - 7.224142049002694
+2022-06-08 14:22:04,620 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0007415141379999113
+2022-06-08 14:22:04,630 - root - DEBUG - audio_navigation.py - display_time : 41 - 7.424656313000014
+2022-06-08 14:22:04,821 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0007615593410999281
+2022-06-08 14:22:04,830 - root - DEBUG - audio_navigation.py - display_time : 41 - 7.624950268000248
+2022-06-08 14:22:05,021 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0007816070107997803
+2022-06-08 14:22:05,030 - root - DEBUG - audio_navigation.py - display_time : 41 - 7.825253884999256
+2022-06-08 14:22:05,221 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.000801624764999724
+2022-06-08 14:22:05,231 - root - DEBUG - audio_navigation.py - display_time : 41 - 8.025713588001963
+2022-06-08 14:22:05,422 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0008216619281003659
+2022-06-08 14:22:05,431 - root - DEBUG - audio_navigation.py - display_time : 41 - 8.226012175000506
+2022-06-08 14:22:05,622 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0008417132100003073
+2022-06-08 14:22:05,631 - root - DEBUG - audio_navigation.py - display_time : 41 - 8.426337737000722
+2022-06-08 14:22:05,823 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.000861767137300194
+2022-06-08 14:22:05,832 - root - DEBUG - audio_navigation.py - display_time : 41 - 8.626619659997232
+2022-06-08 14:22:06,023 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0008818071398003667
+2022-06-08 14:22:06,032 - root - DEBUG - audio_navigation.py - display_time : 41 - 8.826924651999434
+2022-06-08 14:22:06,223 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.000901835072600079
+2022-06-08 14:22:06,232 - root - DEBUG - audio_navigation.py - display_time : 41 - 9.027218133000133
+2022-06-08 14:22:06,424 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0009218648923000728
+2022-06-08 14:22:06,433 - root - DEBUG - audio_navigation.py - display_time : 41 - 9.227637886004231
+2022-06-08 14:22:06,624 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0009419048670999473
+2022-06-08 14:22:06,633 - root - DEBUG - audio_navigation.py - display_time : 41 - 9.428003630004241
+2022-06-08 14:22:06,824 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0009619362643003115
+2022-06-08 14:22:06,834 - root - DEBUG - audio_navigation.py - display_time : 41 - 9.628445503003604
+2022-06-08 14:22:07,025 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.000981962116000068
+2022-06-08 14:22:07,034 - root - DEBUG - audio_navigation.py - display_time : 41 - 9.828731412999332
+2022-06-08 14:22:07,225 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0010020099412999116
+2022-06-08 14:22:07,234 - root - DEBUG - audio_navigation.py - display_time : 41 - 10.029073404999508
+2022-06-08 14:22:07,426 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.001022061394800403
+2022-06-08 14:22:07,435 - root - DEBUG - audio_navigation.py - display_time : 41 - 10.22951449300308
+2022-06-08 14:22:07,626 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0010420934656001919
+2022-06-08 14:22:07,635 - root - DEBUG - audio_navigation.py - display_time : 41 - 10.429749830000219
+2022-06-08 14:22:07,827 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0010621487773998523
+2022-06-08 14:22:07,835 - root - DEBUG - audio_navigation.py - display_time : 41 - 10.630053610999312
+2022-06-08 14:22:08,027 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0010822042915999191
+2022-06-08 14:22:08,036 - root - DEBUG - audio_navigation.py - display_time : 41 - 10.830538333000732
+2022-06-08 14:22:08,228 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0011022597053000937
+2022-06-08 14:22:08,236 - root - DEBUG - audio_navigation.py - display_time : 41 - 11.030842243002553
+2022-06-08 14:22:08,428 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0011222858952998648
+2022-06-08 14:22:08,436 - root - DEBUG - audio_navigation.py - display_time : 41 - 11.231246248004027
+2022-06-08 14:22:08,628 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0011423282164003468
+2022-06-08 14:22:08,637 - root - DEBUG - audio_navigation.py - display_time : 41 - 11.431563960002677
+2022-06-08 14:22:08,829 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0011623584118999133
+2022-06-08 14:22:08,837 - root - DEBUG - audio_navigation.py - display_time : 41 - 11.632031779998215
+2022-06-08 14:22:09,029 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0011823981982997792
+2022-06-08 14:22:09,037 - root - DEBUG - audio_navigation.py - display_time : 41 - 11.832326754003589
+2022-06-08 14:22:09,230 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0012024439715998597
+2022-06-08 14:22:09,238 - root - DEBUG - audio_navigation.py - display_time : 41 - 12.032842275999428
+2022-06-08 14:22:09,430 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0012224976846002393
+2022-06-08 14:22:09,438 - root - DEBUG - audio_navigation.py - display_time : 41 - 12.233285998998326
+2022-06-08 14:22:09,631 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0012425446344997908
+2022-06-08 14:22:09,639 - root - DEBUG - audio_navigation.py - display_time : 41 - 12.43379502499738
+2022-06-08 14:22:09,831 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.001262581902599777
+2022-06-08 14:22:09,839 - root - DEBUG - audio_navigation.py - display_time : 41 - 12.634077052003704
+2022-06-08 14:22:10,031 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.001282623454100394
+2022-06-08 14:22:10,040 - root - DEBUG - audio_navigation.py - display_time : 41 - 12.83439121599804
+2022-06-08 14:22:10,232 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0013026719560002675
+2022-06-08 14:22:10,240 - root - DEBUG - audio_navigation.py - display_time : 41 - 13.034602059000463
+2022-06-08 14:22:10,432 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0013227050697998493
+2022-06-08 14:22:10,440 - root - DEBUG - audio_navigation.py - display_time : 41 - 13.234861810000439
+2022-06-08 14:22:10,633 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0013427380161003385
+2022-06-08 14:22:10,640 - root - DEBUG - audio_navigation.py - display_time : 41 - 13.435156940002344
+2022-06-08 14:22:10,833 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0013627553623002313
+2022-06-08 14:22:10,840 - root - DEBUG - audio_navigation.py - display_time : 41 - 13.635421421997307
+2022-06-08 14:22:11,033 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0013828033361998678
+2022-06-08 14:22:11,041 - root - DEBUG - audio_navigation.py - display_time : 41 - 13.835760030997335
+2022-06-08 14:22:11,233 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0014028282733997911
+2022-06-08 14:22:11,241 - root - DEBUG - audio_navigation.py - display_time : 41 - 14.03609237800265
+2022-06-08 14:22:11,434 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0014228802771998744
+2022-06-08 14:22:11,441 - root - DEBUG - audio_navigation.py - display_time : 41 - 14.236347010999452
+2022-06-08 14:22:11,634 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0014429327819001627
+2022-06-08 14:22:11,642 - root - DEBUG - audio_navigation.py - display_time : 41 - 14.436851021004259
+2022-06-08 14:22:11,835 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0014629845693998505
+2022-06-08 14:22:11,842 - root - DEBUG - audio_navigation.py - display_time : 41 - 14.637277305002499
+2022-06-08 14:22:12,036 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0014830408642003022
+2022-06-08 14:22:12,043 - root - DEBUG - audio_navigation.py - display_time : 41 - 14.837513746002514
+2022-06-08 14:22:12,236 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0015030656312002976
+2022-06-08 14:22:12,243 - root - DEBUG - audio_navigation.py - display_time : 41 - 15.037808947003214
+2022-06-08 14:22:12,436 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0015230930988000182
+2022-06-08 14:22:12,443 - root - DEBUG - audio_navigation.py - display_time : 41 - 15.238105224001629
+2022-06-08 14:22:12,636 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0015431329744998949
+2022-06-08 14:22:12,644 - root - DEBUG - audio_navigation.py - display_time : 41 - 15.438684480002848
+2022-06-08 14:22:12,837 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0015631646442998317
+2022-06-08 14:22:12,844 - root - DEBUG - audio_navigation.py - display_time : 41 - 15.638930676999735
+2022-06-08 14:22:13,037 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0015832148485998914
+2022-06-08 14:22:13,044 - root - DEBUG - audio_navigation.py - display_time : 41 - 15.839212963997852
+2022-06-08 14:22:13,238 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0016032463841002026
+2022-06-08 14:22:13,245 - root - DEBUG - audio_navigation.py - display_time : 41 - 16.03952512700198
+2022-06-08 14:22:13,438 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0016232734684999742
+2022-06-08 14:22:13,445 - root - DEBUG - audio_navigation.py - display_time : 41 - 16.239748897001846
+2022-06-08 14:22:13,638 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0016433016440001666
+2022-06-08 14:22:13,645 - root - DEBUG - audio_navigation.py - display_time : 41 - 16.439915697999822
+2022-06-08 14:22:13,838 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0016633144815998094
+2022-06-08 14:22:13,845 - root - DEBUG - audio_navigation.py - display_time : 41 - 16.640053547002026
+2022-06-08 14:22:14,038 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0016833299395002542
+2022-06-08 14:22:14,045 - root - DEBUG - audio_navigation.py - display_time : 41 - 16.840207560002455
+2022-06-08 14:22:14,239 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0017033460965998528
+2022-06-08 14:22:14,245 - root - DEBUG - audio_navigation.py - display_time : 41 - 17.040359700004046
+2022-06-08 14:22:14,439 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.001723361065499921
+2022-06-08 14:22:14,446 - root - DEBUG - audio_navigation.py - display_time : 41 - 17.240494885998487
+2022-06-08 14:22:14,639 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.001743376248599816
+2022-06-08 14:22:14,646 - root - DEBUG - audio_navigation.py - display_time : 41 - 17.440599986999587
+2022-06-08 14:22:14,839 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.001763390590900235
+2022-06-08 14:22:14,846 - root - DEBUG - audio_navigation.py - display_time : 41 - 17.64084757999808
+2022-06-08 14:22:15,040 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0017834412046999204
+2022-06-08 14:22:15,046 - root - DEBUG - audio_navigation.py - display_time : 41 - 17.841111034998903
+2022-06-08 14:22:15,240 - root - INFO - audio_navigation.py - play : 24 - continue playing current pos 0.0018034667186999287
+2022-06-08 14:22:15,246 - root - DEBUG - audio_navigation.py - display_time : 41 - 18.041324739002448

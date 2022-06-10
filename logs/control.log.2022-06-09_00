@@ -1,0 +1,768 @@
+2022-06-08 21:25:35,379 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f8b2670b2e0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f8b2670b2e0>>}
+2022-06-08 21:25:35,381 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 21:26:11,179 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fe4ba3bb430>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fe4ba3bb430>>}
+2022-06-08 21:26:11,183 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 21:27:53,234 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fe6d1fb2250>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fe6d1fb2250>>}
+2022-06-08 21:27:53,236 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 21:32:42,557 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7feb8db9c250>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7feb8db9c250>>}
+2022-06-08 21:32:42,559 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 21:33:32,449 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7ff468514400>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7ff468514400>>}
+2022-06-08 21:33:32,456 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 21:36:21,754 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f447789a400>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f447789a400>>}
+2022-06-08 21:36:21,760 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 21:36:58,203 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f7020105250>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f7020105250>>}
+2022-06-08 21:36:58,205 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 21:43:44,621 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f74f9489250>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f74f9489250>>}
+2022-06-08 21:43:44,623 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 21:44:08,629 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fc9229d0250>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fc9229d0250>>}
+2022-06-08 21:44:08,631 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 21:44:31,496 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f349e596460>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f349e596460>>}
+2022-06-08 21:44:31,501 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 22:22:01,273 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fa46b440250>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fa46b440250>>}
+2022-06-08 22:22:01,275 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 22:22:34,534 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fda60b99400>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fda60b99400>>}
+2022-06-08 22:22:34,539 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 22:26:59,466 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f8cceae4400>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f8cceae4400>>}
+2022-06-08 22:26:59,472 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 22:27:03,834 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-08 22:27:03,835 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-08 22:27:03,835 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-08 22:27:03,835 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-08 22:27:03,835 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-08 22:27:03,835 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 45
+2022-06-08 22:27:03,874 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-08 22:27:03,874 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-08 22:27:03,874 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-08 22:27:03,874 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-08 22:27:03,875 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-08 22:27:03,875 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 49
+2022-06-08 22:27:03,907 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-08 22:27:03,907 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-08 22:27:03,908 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-08 22:27:03,908 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-08 22:27:03,908 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-08 22:27:03,908 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 47
+2022-06-08 22:27:09,808 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f99771ba250>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f99771ba250>>}
+2022-06-08 22:27:09,810 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 22:30:36,766 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-08 22:30:36,766 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-08 22:30:36,766 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-08 22:30:36,766 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-08 22:30:36,766 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-08 22:30:36,767 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 45
+2022-06-08 22:30:36,785 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-08 22:30:36,785 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-08 22:30:36,785 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-08 22:30:36,785 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-08 22:30:36,785 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-08 22:30:36,785 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 49
+2022-06-08 22:30:36,799 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-08 22:30:36,799 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-08 22:30:36,799 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-08 22:30:36,799 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-08 22:30:36,799 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-08 22:30:36,799 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 47
+2022-06-08 22:30:36,825 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-08 22:30:36,826 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-08 22:30:36,826 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-08 22:30:36,826 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-08 22:30:36,826 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-08 22:30:36,826 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 66
+2022-06-08 22:30:36,846 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-08 22:30:36,846 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-08 22:30:36,846 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-08 22:30:36,846 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-08 22:30:36,847 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-08 22:30:36,847 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 65
+2022-06-08 22:30:36,860 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-08 22:30:36,860 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-08 22:30:36,860 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-08 22:30:36,860 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-08 22:30:36,860 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-08 22:30:36,860 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 34
+2022-06-08 22:30:36,875 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-08 22:30:36,875 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-08 22:30:36,875 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-08 22:30:36,875 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-08 22:30:36,875 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-08 22:30:36,875 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 64
+2022-06-08 22:30:36,889 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-08 22:30:36,889 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-08 22:30:36,890 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-08 22:30:36,890 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-08 22:30:36,890 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-08 22:30:36,890 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 49
+2022-06-08 22:30:36,903 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-08 22:30:36,903 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-08 22:30:36,903 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-08 22:30:36,903 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-08 22:30:36,903 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-08 22:30:36,903 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 45
+2022-06-08 22:30:36,916 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-08 22:30:36,917 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-08 22:30:36,917 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-08 22:30:36,917 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-08 22:30:36,917 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-08 22:30:36,917 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 34
+2022-06-08 22:30:39,483 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-08 22:30:39,483 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-08 22:30:39,483 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-08 22:30:39,483 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-08 22:30:39,484 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-08 22:30:39,484 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 45
+2022-06-08 22:30:39,502 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-08 22:30:39,502 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-08 22:30:39,502 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-08 22:30:39,502 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-08 22:30:39,502 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-08 22:30:39,502 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 49
+2022-06-08 22:30:39,516 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-08 22:30:39,516 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-08 22:30:39,516 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-08 22:30:39,516 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-08 22:30:39,516 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-08 22:30:39,516 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 47
+2022-06-08 22:30:39,543 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-08 22:30:39,543 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-08 22:30:39,543 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-08 22:30:39,543 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-08 22:30:39,543 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-08 22:30:39,543 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 66
+2022-06-08 22:30:39,557 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-08 22:30:39,557 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-08 22:30:39,557 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-08 22:30:39,557 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-08 22:30:39,557 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-08 22:30:39,557 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 65
+2022-06-08 22:30:39,571 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-08 22:30:39,571 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-08 22:30:39,571 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-08 22:30:39,571 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-08 22:30:39,571 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-08 22:30:39,571 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 34
+2022-06-08 22:30:39,585 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-08 22:30:39,585 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-08 22:30:39,585 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-08 22:30:39,585 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-08 22:30:39,585 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-08 22:30:39,585 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 64
+2022-06-08 22:30:39,599 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-08 22:30:39,599 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-08 22:30:39,599 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-08 22:30:39,599 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-08 22:30:39,599 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-08 22:30:39,599 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 49
+2022-06-08 22:30:39,612 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-08 22:30:39,613 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-08 22:30:39,613 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-08 22:30:39,613 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-08 22:30:39,613 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-08 22:30:39,613 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 45
+2022-06-08 22:30:39,626 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-08 22:30:39,627 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-08 22:30:39,627 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-08 22:30:39,627 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-08 22:30:39,627 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-08 22:30:39,627 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 34
+2022-06-08 22:49:43,152 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f8e5a808340>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f8e5a808340>>}
+2022-06-08 22:49:43,154 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 22:49:46,300 - root - INFO - sequences_manager.py - get_sequence : 23 - 1970-01-01 01:05:50.53 CET
+2022-06-08 22:50:57,144 - root - INFO - sequences_manager.py - get_sequence : 23 - 1970-01-01 01:05:50.53 CET
+2022-06-08 22:52:26,649 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fe5a9c92340>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fe5a9c92340>>}
+2022-06-08 22:52:26,650 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 22:52:29,845 - root - INFO - sequences_manager.py - get_sequence : 23 - 05:50.53 CET
+2022-06-08 22:52:54,033 - root - INFO - audio_navigation.py - start : 28 - start playing
+2022-06-08 22:52:54,033 - root - INFO - audio_navigation.py - play : 25 - continue playing current pos 7.281599937414285e-09
+2022-06-08 22:52:54,151 - root - DEBUG - audio_navigation.py - display_time : 42 - 0.11771959999896353
+2022-06-08 22:52:54,234 - root - INFO - audio_navigation.py - play : 25 - continue playing current pos 2.0057035399986488e-05
+2022-06-08 22:52:54,351 - root - DEBUG - audio_navigation.py - display_time : 42 - 0.31796563799980504
+2022-06-08 22:52:54,434 - root - INFO - audio_navigation.py - play : 25 - continue playing current pos 4.008810759987682e-05
+2022-06-08 22:52:54,552 - root - DEBUG - audio_navigation.py - display_time : 42 - 0.5181972449991008
+2022-06-08 22:52:54,635 - root - INFO - audio_navigation.py - play : 25 - continue playing current pos 6.012770509987604e-05
+2022-06-08 22:52:54,752 - root - DEBUG - audio_navigation.py - display_time : 42 - 0.7184878899988689
+2022-06-08 22:52:54,835 - root - INFO - audio_navigation.py - play : 25 - continue playing current pos 8.015249330001098e-05
+2022-06-08 22:52:54,952 - root - DEBUG - audio_navigation.py - display_time : 42 - 0.9189333430003899
+2022-06-08 22:52:55,035 - root - INFO - audio_navigation.py - play : 25 - continue playing current pos 0.00010019282609991933
+2022-06-08 22:52:55,153 - root - DEBUG - audio_navigation.py - display_time : 42 - 1.1192279119986779
+2022-06-08 22:52:55,236 - root - INFO - audio_navigation.py - play : 25 - continue playing current pos 0.00012021644489996106
+2022-06-08 22:52:55,353 - root - DEBUG - audio_navigation.py - display_time : 42 - 1.3195421090003947
+2022-06-08 22:52:55,436 - root - INFO - audio_navigation.py - play : 25 - continue playing current pos 0.00014024868209999112
+2022-06-08 22:52:55,553 - root - DEBUG - audio_navigation.py - display_time : 42 - 1.5198454709989164
+2022-06-08 22:52:55,636 - root - INFO - audio_navigation.py - play : 25 - continue playing current pos 0.00016029498949992558
+2022-06-08 22:52:55,754 - root - DEBUG - audio_navigation.py - display_time : 42 - 1.7203124329989805
+2022-06-08 22:52:55,837 - root - INFO - audio_navigation.py - play : 25 - continue playing current pos 0.00018032345150004403
+2022-06-08 22:52:55,954 - root - DEBUG - audio_navigation.py - display_time : 42 - 1.9208063810001477
+2022-06-08 22:52:56,037 - root - INFO - audio_navigation.py - play : 25 - continue playing current pos 0.00020035900740003853
+2022-06-08 22:52:56,155 - root - DEBUG - audio_navigation.py - display_time : 42 - 2.121330287998717
+2022-06-08 22:52:56,237 - root - INFO - audio_navigation.py - play : 25 - continue playing current pos 0.00022038415569986683
+2022-06-08 22:52:56,355 - root - DEBUG - audio_navigation.py - display_time : 42 - 2.3218570270000782
+2022-06-08 22:52:56,438 - root - INFO - audio_navigation.py - play : 25 - continue playing current pos 0.00024041592129997298
+2022-06-08 22:52:56,556 - root - DEBUG - audio_navigation.py - display_time : 42 - 2.5224336640003457
+2022-06-08 22:52:56,638 - root - INFO - audio_navigation.py - play : 25 - continue playing current pos 0.0002604576603998794
+2022-06-08 22:52:56,756 - root - DEBUG - audio_navigation.py - display_time : 42 - 2.7229901049995533
+2022-06-08 22:52:56,838 - root - INFO - audio_navigation.py - play : 25 - continue playing current pos 0.00028049511079989315
+2022-06-08 22:52:56,957 - root - DEBUG - audio_navigation.py - display_time : 42 - 2.9232445019988518
+2022-06-08 22:52:57,039 - root - INFO - audio_navigation.py - play : 25 - continue playing current pos 0.000300548465599968
+2022-06-08 22:52:57,157 - root - DEBUG - audio_navigation.py - display_time : 42 - 3.123529663998852
+2022-06-08 22:52:57,239 - root - INFO - audio_navigation.py - play : 25 - continue playing current pos 0.0003205741551999381
+2022-06-08 22:52:57,357 - root - DEBUG - audio_navigation.py - display_time : 42 - 3.3236312400003953
+2022-06-08 22:52:57,439 - root - INFO - audio_navigation.py - play : 25 - continue playing current pos 0.0003405879522999385
+2022-06-08 22:52:57,557 - root - DEBUG - audio_navigation.py - display_time : 42 - 3.5238935460001812
+2022-06-08 22:52:57,639 - root - INFO - audio_navigation.py - play : 25 - continue playing current pos 0.00036060500999992657
+2022-06-08 22:52:57,757 - root - DEBUG - audio_navigation.py - display_time : 42 - 3.7241661440002645
+2022-06-08 22:52:57,840 - root - INFO - audio_navigation.py - play : 25 - continue playing current pos 0.00038062804459987093
+2022-06-08 22:52:57,958 - root - DEBUG - audio_navigation.py - display_time : 42 - 3.9243801279990294
+2022-06-08 22:52:58,040 - root - INFO - audio_navigation.py - play : 25 - continue playing current pos 0.0004006521236999106
+2022-06-08 22:52:58,158 - root - DEBUG - audio_navigation.py - display_time : 42 - 4.124812959000337
+2022-06-08 22:52:58,240 - root - INFO - audio_navigation.py - play : 25 - continue playing current pos 0.0004207068882000385
+2022-06-08 22:52:58,358 - root - DEBUG - audio_navigation.py - display_time : 42 - 4.325052254998809
+2022-06-08 22:58:57,682 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f8bbb8153a0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f8bbb8153a0>>}
+2022-06-08 22:58:57,684 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 22:59:01,708 - root - INFO - audio_navigation.py - start : 30 - start playing
+2022-06-08 22:59:01,709 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 7.726100011495873e-09
+2022-06-08 22:59:01,909 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 2.004090360005648e-05
+2022-06-08 22:59:02,109 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 4.0072630800023034e-05
+2022-06-08 22:59:02,310 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 6.0104276500169365e-05
+2022-06-08 22:59:02,510 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 8.015651510013413e-05
+2022-06-08 22:59:02,711 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00010020962240014342
+2022-06-08 22:59:02,911 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00012025844500003586
+2022-06-08 22:59:03,111 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00014027203540008487
+2022-06-08 22:59:03,312 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00016030648210016806
+2022-06-08 22:59:03,512 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0001803630307000276
+2022-06-08 22:59:03,713 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00020039582420013175
+2022-06-08 22:59:03,913 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00022043794610017358
+2022-06-08 22:59:04,114 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0002404865897000491
+2022-06-08 22:59:04,314 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0002605260412999996
+2022-06-08 22:59:04,514 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0002805726889000653
+2022-06-08 22:59:04,715 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0003006233286001589
+2022-06-08 22:59:04,915 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00032066896350006573
+2022-06-08 22:59:05,116 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0003407238728001175
+2022-06-08 22:59:05,316 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0003607778531000804
+2022-06-08 22:59:05,517 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.000380821375800042
+2022-06-08 22:59:05,717 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0004008634895000796
+2022-06-08 22:59:05,918 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00042091217530014545
+2022-06-08 22:59:06,118 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0004409679394000705
+2022-06-08 22:59:06,319 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0004609872378001455
+2022-06-08 22:59:06,519 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0004810431370000515
+2022-06-08 22:59:06,720 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.000501083152800129
+2022-06-08 22:59:06,920 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0005211017350000475
+2022-06-08 22:59:07,120 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0005411203239000315
+2022-06-08 22:59:07,320 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0005611419601000308
+2022-06-08 22:59:07,520 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0005811605006001628
+2022-06-08 22:59:07,721 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0006011993195001196
+2022-06-08 22:59:07,921 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0006212443961001555
+2022-06-08 22:59:08,122 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.000641286615700119
+2022-06-08 22:59:08,322 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0006613200703000985
+2022-06-08 22:59:08,522 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0006813396477000424
+2022-06-08 22:59:08,722 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0007013774949000436
+2022-06-08 22:59:08,923 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0007214352938000957
+2022-06-08 22:59:09,123 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0007414759056000548
+2022-06-08 22:59:09,324 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0007615064108000297
+2022-06-08 22:59:09,524 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0007815396190000684
+2022-06-08 22:59:09,724 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0008015735637000034
+2022-06-08 22:59:09,925 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0008216046072000608
+2022-06-08 22:59:10,125 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.000841638523200163
+2022-06-08 22:59:10,325 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0008616710749000049
+2022-06-08 22:59:10,526 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0008817223106001621
+2022-06-08 22:59:10,726 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00090177574620011
+2022-06-08 22:59:10,927 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0009218297409001024
+2022-06-08 22:59:11,127 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0009418776559001344
+2022-06-08 22:59:11,328 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0009619270723000227
+2022-06-08 22:59:11,528 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0009819692748000307
+2022-06-08 22:59:11,729 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.001001994990300045
+2022-06-08 22:59:11,929 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0010220365146000404
+2022-06-08 22:59:12,130 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0010420822637001038
+2022-06-08 22:59:12,330 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0010621188898001493
+2022-06-08 22:59:12,530 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0010821716469001331
+2022-06-08 22:59:12,731 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.001102223822900123
+2022-06-08 22:59:12,931 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00112226733410007
+2022-06-08 22:59:13,132 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.001142299176600136
+2022-06-08 22:59:13,332 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0011623510480001642
+2022-06-08 22:59:13,533 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0011823809034000078
+2022-06-08 22:59:13,733 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0012024104995000016
+2022-06-08 22:59:13,933 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.001222452906000035
+2022-06-08 22:59:14,134 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0012424974722000115
+2022-06-08 22:59:14,334 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0012625488491001305
+2022-06-08 22:59:14,535 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0012825908810000328
+2022-06-08 22:59:14,735 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0013026434361001521
+2022-06-08 22:59:14,935 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00132266914740012
+2022-06-08 22:59:15,136 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0013427251494000302
+2022-06-08 22:59:15,337 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0013627807164000843
+2022-06-08 22:59:15,537 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0013828179288000683
+2022-06-08 22:59:15,737 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.001402860915200108
+2022-06-08 22:59:15,938 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.001422911616500096
+2022-06-08 22:59:16,138 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0014429508492001333
+2022-06-08 22:59:16,339 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0014629884210000455
+2022-06-08 22:59:16,539 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0014830321928000559
+2022-06-08 22:59:16,739 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0015030761839001571
+2022-06-08 22:59:16,940 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0015231074787001489
+2022-06-08 22:59:17,140 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0015431418823000059
+2022-06-08 22:59:17,340 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.001563167350399999
+2022-06-08 22:59:17,541 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0015832057211000573
+2022-06-08 22:59:17,741 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0016032488123000803
+2022-06-08 22:59:17,942 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0016232971048000763
+2022-06-08 22:59:18,142 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0016433489681001447
+2022-06-08 22:59:18,343 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0016633803254000668
+2022-06-08 22:59:18,543 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0016834419525001067
+2022-06-08 22:59:18,744 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0017034972613000719
+2022-06-08 22:59:18,944 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.001723555436100105
+2022-06-08 22:59:19,145 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.001743583721200048
+2022-06-08 22:59:19,345 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0017636129541000627
+2022-06-08 22:59:19,545 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.001783657611900162
+2022-06-08 22:59:19,746 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0018036892605001412
+2022-06-08 22:59:19,946 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.001823733514700143
+2022-06-08 22:59:20,147 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0018437798486000247
+2022-06-08 22:59:20,347 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.001863828869000099
+2022-06-08 22:59:20,547 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0018838727821001158
+2022-06-08 22:59:20,748 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.001903917828700105
+2022-06-08 22:59:20,948 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0019239664723001623
+2022-06-08 22:59:21,149 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0019440014687001166
+2022-06-08 22:59:21,349 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.001964044551200095
+2022-06-08 22:59:21,550 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0019840931256001567
+2022-06-08 22:59:21,750 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0020041395128000657
+2022-06-08 22:59:21,951 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.002024183437400097
+2022-06-08 22:59:22,151 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0020442399441000817
+2022-06-08 22:59:22,352 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0020642943693001143
+2022-06-08 22:59:22,552 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0020843271501000344
+2022-06-08 22:59:22,753 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0021043829391001055
+2022-06-08 22:59:22,953 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.002124438965800073
+2022-06-08 22:59:23,154 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.002144487173000016
+2022-06-08 22:59:23,354 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0021645380530000693
+2022-06-08 22:59:23,555 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0021845929961000366
+2022-06-08 22:59:23,755 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0022046478651000143
+2022-06-08 22:59:23,956 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0022247020824001083
+2022-06-08 22:59:24,156 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0022447581084001286
+2022-06-08 22:59:24,357 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.002264789398500034
+2022-06-08 22:59:24,557 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0022848205115000384
+2022-06-08 22:59:24,757 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.002304861126900141
+2022-06-08 22:59:24,958 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.002324910891200125
+2022-06-08 22:59:25,158 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0023449631108000174
+2022-06-08 22:59:25,359 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.002365016346200173
+2022-06-08 22:59:25,559 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00238506657930011
+2022-06-08 22:59:25,760 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.002405111939500057
+2022-06-08 22:59:25,960 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.002425157203100025
+2022-06-08 22:59:26,161 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0024451829358000396
+2022-06-08 22:59:26,361 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0024652146973001437
+2022-06-08 22:59:26,561 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0024852470123001695
+2022-06-08 22:59:26,761 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0025052792406000664
+2022-06-08 22:59:26,962 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0025253105882000453
+2022-06-08 22:59:27,162 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0025453640222000105
+2022-06-08 22:59:27,363 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.002565416094900138
+2022-06-08 22:59:27,563 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.002585469882899997
+2022-06-08 22:59:27,764 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0026055106386000263
+2022-06-08 22:59:27,964 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0026255657128000168
+2022-06-08 22:59:28,165 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0026455998095001633
+2022-06-08 22:59:28,365 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.002665641089100063
+2022-06-08 22:59:28,566 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.002685682471700056
+2022-06-08 22:59:28,766 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.002705712274899997
+2022-06-08 22:59:28,966 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0027257572988000902
+2022-06-08 22:59:29,167 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.002745817008800077
+2022-06-08 22:59:29,367 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0027658723870001268
+2022-06-08 22:59:29,568 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0027859160671001517
+2022-06-08 22:59:29,768 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0028059740267000963
+2022-06-08 22:59:29,969 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00282601419420007
+2022-06-08 22:59:30,169 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.002846059097700163
+2022-06-08 22:59:30,370 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0028661087409000176
+2022-06-08 22:59:30,570 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.002886149163900154
+2022-06-08 22:59:30,771 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0029061869799001214
+2022-06-08 22:59:30,971 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0029262431050001395
+2022-06-08 22:59:31,172 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.002946294919600041
+2022-06-08 22:59:31,372 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.002966352283700144
+2022-06-08 22:59:31,573 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0029863851649000934
+2022-06-08 22:59:31,773 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0030064155301000937
+2022-06-08 22:59:31,973 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0030264464673000475
+2022-06-08 22:59:32,174 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0030464904910000768
+2022-06-08 22:59:32,374 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0030665423969001493
+2022-06-08 22:59:32,575 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0030865897285000756
+2022-06-08 22:59:32,775 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0031066435212000216
+2022-06-08 22:59:32,976 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0031266863101000126
+2022-06-08 22:59:33,176 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0031467203980000704
+2022-06-08 22:59:33,376 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0031667539259000476
+2022-06-08 22:59:33,577 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0031867802868000583
+2022-06-08 22:59:33,777 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0032068103810001048
+2022-06-08 22:59:33,977 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.003226853844300058
+2022-06-08 22:59:34,178 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0032469037288001346
+2022-06-08 22:59:34,378 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.003266958376799994
+2022-06-08 22:59:34,579 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0032870094685000365
+2022-06-08 22:59:34,779 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.003307053520900081
+2022-06-08 22:59:34,980 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0033270801714001207
+2022-06-08 22:59:35,180 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.003347136636700088
+2022-06-08 22:59:35,381 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0033671846459001242
+2022-06-08 22:59:35,581 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0033872277974000098
+2022-06-08 22:59:35,781 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0034072615379000127
+2022-06-08 22:59:35,982 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.003427310325800136
+2022-06-08 22:59:36,182 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.003447363345800113
+2022-06-08 22:59:36,383 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00346741739220015
+2022-06-08 22:59:36,583 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0034874594363000144
+2022-06-08 22:59:36,784 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0035075133106000065
+2022-06-08 22:59:36,984 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0035275702857999933
+2022-06-08 22:59:37,185 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0035475885659001505
+2022-06-08 22:59:37,385 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0035676227883001048
+2022-06-08 22:59:37,585 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.003587667893900107
+2022-06-08 22:59:37,786 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0036077126873000453
+2022-06-08 22:59:37,986 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0036277386879000916
+2022-06-08 22:59:38,186 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0036477781998000866
+2022-06-08 22:59:38,387 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.003667833400800009
+2022-06-08 22:59:38,588 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0036878861125000184
+2022-06-08 22:59:38,788 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.003707912871300141
+2022-06-08 22:59:38,988 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0037279680876999917
+2022-06-08 22:59:39,189 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.003747993991500152
+2022-06-08 22:59:39,389 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.003768025335400125
+2022-06-08 22:59:39,589 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0037880704843000785
+2022-06-08 22:59:39,790 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0038081190113000048
+2022-06-08 22:59:39,990 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0038281454023001062
+2022-06-08 22:59:40,190 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0038481712418000826
+2022-06-08 22:59:40,391 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.003868216409500019
+2022-06-08 22:59:40,591 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0038882633572000485
+2022-06-08 22:59:40,792 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00390831738320012
+2022-06-08 22:59:40,992 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0039283750229000365
+2022-06-08 22:59:41,193 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.003948414008600048
+2022-06-08 22:59:41,393 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.003968458310900132
+2022-06-08 22:59:41,594 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.003988507882500016
+2022-06-08 22:59:41,794 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0040085626047000915
+2022-06-08 22:59:41,995 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004028615046300001
+2022-06-08 22:59:42,195 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004048668945800091
+2022-06-08 22:59:42,396 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004068697290400086
+2022-06-08 22:59:42,596 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0040887257730000785
+2022-06-08 22:59:42,797 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0041087806555000495
+2022-06-08 22:59:42,997 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004128805651900075
+2022-06-08 22:59:43,197 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004148834675100079
+2022-06-08 22:59:43,398 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0041688829210001135
+2022-06-08 22:59:43,598 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004188934113000141
+2022-06-08 22:59:43,798 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004208978122000008
+2022-06-08 22:59:43,999 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004229033087700009
+2022-06-08 22:59:44,200 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00424908818390013
+2022-06-08 22:59:44,400 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004269144942300045
+2022-06-08 22:59:44,601 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004289184304400078
+2022-06-08 22:59:44,801 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004309217734600134
+2022-06-08 22:59:45,001 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00432925180400016
+2022-06-08 22:59:45,202 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0043492848884001435
+2022-06-08 22:59:45,402 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004369334690100004
+2022-06-08 22:59:45,603 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004389388068300104
+2022-06-08 22:59:45,803 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004409441022900137
+2022-06-08 22:59:46,004 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004429493060900131
+2022-06-08 22:59:46,204 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004449525251000159
+2022-06-08 22:59:46,404 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0044695640846000965
+2022-06-08 22:59:46,605 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004489590572000089
+2022-06-08 22:59:46,805 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004509625432600114
+2022-06-08 22:59:47,005 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00452965926370016
+2022-06-08 22:59:47,206 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004549710784700073
+2022-06-08 22:59:47,406 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004569764247500097
+2022-06-08 22:59:47,607 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004589808877400173
+2022-06-08 22:59:47,807 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004609848358599993
+2022-06-08 22:59:48,007 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004629877711600057
+2022-06-08 22:59:48,208 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0046499357650000095
+2022-06-08 22:59:48,409 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004669987768500141
+2022-06-08 22:59:48,609 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004690021706300103
+2022-06-08 22:59:48,809 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004710067572100161
+2022-06-08 22:59:49,009 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004730082986100024
+2022-06-08 22:59:49,210 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004750134497800172
+2022-06-08 22:59:49,411 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0047701899516001504
+2022-06-08 22:59:49,611 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0047902473174000985
+2022-06-08 22:59:49,812 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00481029602510007
+2022-06-08 22:59:50,012 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004830340057400099
+2022-06-08 22:59:50,213 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004850382343300043
+2022-06-08 22:59:50,413 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004870412829700035
+2022-06-08 22:59:50,613 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004890428442800112
+2022-06-08 22:59:50,813 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004910459889600134
+2022-06-08 22:59:51,013 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004930482533000031
+2022-06-08 22:59:51,214 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004950532837600076
+2022-06-08 22:59:51,414 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004970557442600148
+2022-06-08 22:59:51,615 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.004990612542600138
+2022-06-08 22:59:51,815 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005010644840700115
+2022-06-08 22:59:52,016 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0050306983875001605
+2022-06-08 22:59:52,216 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005050772318100099
+2022-06-08 22:59:52,417 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005070785830500062
+2022-06-08 22:59:52,617 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005090804479300095
+2022-06-08 22:59:52,817 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005110823004800113
+2022-06-08 22:59:53,017 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005130860073400072
+2022-06-08 22:59:53,218 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00515089757400001
+2022-06-08 22:59:53,418 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005170950376700057
+2022-06-08 22:59:53,619 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005191004604800036
+2022-06-08 22:59:53,819 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005211058636400048
+2022-06-08 22:59:54,020 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005231097270700047
+2022-06-08 22:59:54,220 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005251152196400107
+2022-06-08 22:59:54,421 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005271184315900064
+2022-06-08 22:59:54,621 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005291225384600148
+2022-06-08 22:59:54,821 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00531126025170015
+2022-06-08 22:59:55,022 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005331302142500135
+2022-06-08 22:59:55,222 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005351328317600019
+2022-06-08 22:59:55,423 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005371378293700036
+2022-06-08 22:59:55,623 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00539141425100006
+2022-06-08 22:59:55,823 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005411465634400156
+2022-06-08 22:59:56,024 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005431512953500169
+2022-06-08 22:59:56,224 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005451568976400085
+2022-06-08 22:59:56,425 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005471608747600112
+2022-06-08 22:59:56,625 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0054916218673000915
+2022-06-08 22:59:56,825 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0055116669903
+2022-06-08 22:59:57,026 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0055317166103001
+2022-06-08 22:59:57,226 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0055517716906000715
+2022-06-08 22:59:57,427 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0055718057596001016
+2022-06-08 22:59:57,627 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005591860499900031
+2022-06-08 22:59:57,828 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0056118972360000045
+2022-06-08 22:59:58,028 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005631952657500006
+2022-06-08 22:59:58,229 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005651982239500103
+2022-06-08 22:59:58,429 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005672006530900034
+2022-06-08 22:59:58,629 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005692030510900076
+2022-06-08 22:59:58,829 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005712051770200014
+2022-06-08 22:59:59,029 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005732073851500172
+2022-06-08 22:59:59,230 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005752092589000131
+2022-06-08 22:59:59,430 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005772111070800019
+2022-06-08 22:59:59,630 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005792129244500029
+2022-06-08 22:59:59,830 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005812148404400068
+2022-06-08 23:00:00,030 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005832167050499993
+2022-06-08 23:00:00,231 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005852213388600103
+2022-06-08 23:00:00,431 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005872265086100015
+2022-06-08 23:00:00,632 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005892316959800155
+2022-06-08 23:00:00,832 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005912353595700006
+2022-06-08 23:00:01,033 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005932391737100079
+2022-06-08 23:00:01,233 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005952421481800047
+2022-06-08 23:00:01,433 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005972451317200102
+2022-06-08 23:00:01,633 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.005992464399900018
+2022-06-08 23:00:01,834 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.006012496416600152
+2022-06-08 23:00:02,034 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.006032526914500159
+2022-06-08 23:00:02,234 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.006052543306600091
+2022-06-08 23:00:02,434 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.006072560544900079
+2022-06-08 23:00:28,635 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f73121833a0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f73121833a0>>}
+2022-06-08 23:00:28,637 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 23:00:37,324 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7ff59f6513a0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7ff59f6513a0>>}
+2022-06-08 23:00:37,326 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 23:00:40,830 - root - INFO - audio_navigation.py - start : 30 - start playing
+2022-06-08 23:00:40,830 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 7.718200140516273e-09
+2022-06-08 23:00:41,031 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 2.006079029997636e-05
+2022-06-08 23:00:41,231 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 4.008869059998688e-05
+2022-06-08 23:00:41,432 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 6.014205110004696e-05
+2022-06-08 23:00:41,632 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 8.01990943000419e-05
+2022-06-08 23:00:41,833 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00010022349530008796
+2022-06-08 23:00:42,033 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00012024397660006798
+2022-06-08 23:00:42,233 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00014025941500003683
+2022-06-08 23:00:42,433 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00016027821770003356
+2022-06-08 23:00:42,633 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0001802931267000531
+2022-06-08 23:00:42,833 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0002003092151000601
+2022-06-08 23:00:43,034 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0002203572251000878
+2022-06-08 23:00:43,234 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00024038899850002053
+2022-06-08 23:00:43,435 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0002604402413000571
+2022-06-08 23:00:43,635 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0002804901319999772
+2022-06-08 23:00:43,836 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00030054337390010913
+2022-06-08 23:00:44,036 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00032058563950013196
+2022-06-08 23:00:44,236 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00034060237140001845
+2022-06-08 23:00:44,437 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00036063405479999346
+2022-06-08 23:00:44,637 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00038066658260013355
+2022-06-08 23:00:44,837 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.000400705131200084
+2022-06-08 23:00:45,038 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00042075302900011595
+2022-06-08 23:00:45,238 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00044079870320001645
+2022-06-08 23:00:45,439 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.00046084055280007304
+2022-06-08 23:00:45,639 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0004808742880000864
+2022-06-08 23:00:45,839 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0005009048186000655
+2022-06-08 23:00:46,040 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0005209251132000645
+2022-06-08 23:00:46,240 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0005409376900001007
+2022-06-08 23:00:46,440 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0005609717955001543
+2022-06-08 23:00:46,640 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0005809964433999994
+2022-06-08 23:00:46,841 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0006010247983000227
+2022-06-08 23:00:47,041 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0006210504538999885
+2022-06-08 23:00:47,241 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.000641081953000139
+2022-06-08 23:00:47,441 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0006610946013001012
+2022-06-08 23:00:47,641 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0006811052021999785
+2022-06-08 23:00:47,842 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0007011351631999787
+2022-06-08 23:00:48,042 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0007211532336001256
+2022-06-08 23:00:48,242 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0007411656580001363
+2022-06-08 23:00:48,442 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0007611883507001039
+2022-06-08 23:00:48,643 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0007812193574000048
+2022-06-08 23:00:48,843 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0008012515985001301
+2022-06-08 23:00:49,043 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0008213041486000293
+2022-06-08 23:00:49,244 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0008413575206001042
+2022-06-08 23:00:49,444 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0008613802167999893
+2022-06-08 23:00:49,644 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.000881402614000035
+2022-06-08 23:00:49,845 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0009014288865000709
+2022-06-08 23:00:50,045 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0009214620750000904
+2022-06-08 23:00:50,245 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0009414927043000717
+2022-06-08 23:00:50,446 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0009615434043000277
+2022-06-08 23:00:50,646 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0009815912095000386
+2022-06-08 23:00:50,847 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0010016312130001097
+2022-06-08 23:00:51,047 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0010216834789000132
+2022-06-08 23:00:51,248 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0010417285835999791
+2022-06-08 23:00:51,448 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0010617815180999969
+2022-06-08 23:00:51,649 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0010818111384000076
+2022-06-08 23:00:51,849 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.001101837965100094
+2022-06-08 23:00:52,049 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0011218594852000024
+2022-06-08 23:00:52,249 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.001141878672600069
+2022-06-08 23:00:52,449 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0011618953611001416
+2022-06-08 23:00:52,649 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0011819084619000932
+2022-06-08 23:00:52,850 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0012019202682000468
+2022-06-08 23:00:53,050 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.001221943961100078
+2022-06-08 23:00:53,250 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0012419581688000107
+2022-06-08 23:00:53,450 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.001261988442800066
+2022-06-08 23:00:53,651 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.001282017898200138
+2022-06-08 23:00:53,851 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0013020328112001152
+2022-06-08 23:00:54,051 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0013220581106001192
+2022-06-08 23:00:54,251 - root - INFO - audio_navigation.py - play : 27 - continue playing current pos 0.0013420867557000747
+2022-06-08 23:08:11,259 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f13586b1370>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f13586b1370>>}
+2022-06-08 23:08:11,261 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 23:08:27,148 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f43c7053370>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f43c7053370>>}
+2022-06-08 23:08:27,150 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 23:08:31,248 - root - INFO - sequences_manager.py - get_sequence : 23 - 05:50.53
+2022-06-08 23:45:49,577 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f61b3c853d0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f61b3c853d0>>}
+2022-06-08 23:45:49,580 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 23:46:45,255 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fccc32ac5b0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fccc32ac5b0>>}
+2022-06-08 23:46:45,258 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 23:48:40,247 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f59be4f63d0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f59be4f63d0>>}
+2022-06-08 23:48:40,250 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 23:48:53,053 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fcdfcfe05b0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fcdfcfe05b0>>}
+2022-06-08 23:48:53,057 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 23:49:31,930 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f6c0592e3d0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f6c0592e3d0>>}
+2022-06-08 23:49:31,932 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 23:51:05,189 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f3d66f123d0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f3d66f123d0>>}
+2022-06-08 23:51:05,191 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 23:51:53,326 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fc0c30413d0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fc0c30413d0>>}
+2022-06-08 23:51:53,327 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 23:54:02,311 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fcc363c83d0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fcc363c83d0>>}
+2022-06-08 23:54:02,313 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-08 23:59:25,597 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f1e476bd3d0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f1e476bd3d0>>}
+2022-06-08 23:59:25,599 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-09 00:00:23,936 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f6d7e3263d0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f6d7e3263d0>>}
+2022-06-09 00:00:23,938 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-09 00:00:30,242 - root - INFO - sequences_manager_widget.py - on_select : 44 - You selected item 2: "seq2.json"
+2022-06-09 00:00:36,419 - root - INFO - sequences_manager_widget.py - on_select : 44 - You selected item 2: "seq2.json"
+2022-06-09 00:01:07,436 - root - INFO - sequences_manager_widget.py - on_select : 44 - You selected item 2: "seq2.json"
+2022-06-09 00:01:12,804 - root - INFO - sequences_manager_widget.py - on_select : 44 - You selected item 0: "seq3.json"
+2022-06-09 00:01:16,089 - root - INFO - sequences_manager_widget.py - on_select : 44 - You selected item 2: "seq2.json"
+2022-06-09 00:01:20,905 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f4a52bf33d0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f4a52bf33d0>>}
+2022-06-09 00:01:20,907 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-09 00:01:51,534 - root - INFO - sequences_manager_widget.py - on_select : 44 - You selected item 0: "seq3.json"
+2022-06-09 00:02:01,456 - root - INFO - sequences_manager_widget.py - on_select : 44 - You selected item 0: "seq3.json"
+2022-06-09 00:02:03,541 - root - INFO - sequences_manager_widget.py - on_select : 44 - You selected item 2: "seq2.json"
+2022-06-09 00:06:03,394 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f1e2febfbe0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f1e2febfbe0>>}
+2022-06-09 00:06:03,396 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-09 00:08:32,303 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fe5b694cbe0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fe5b694cbe0>>}
+2022-06-09 00:08:32,305 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-09 00:08:38,567 - root - INFO - sequences_manager_widget.py - on_select : 44 - You selected item 2: "seq2.json"
+2022-06-09 00:09:14,135 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f199f917be0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f199f917be0>>}
+2022-06-09 00:09:14,137 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-09 00:09:17,780 - root - INFO - sequences_manager_widget.py - on_select : 44 - You selected item 2: "seq2.json"
+2022-06-09 00:09:19,626 - root - INFO - sequences_manager_widget.py - on_select : 44 - You selected item 1: "seq1.json"
+2022-06-09 00:09:23,170 - root - INFO - sequences_manager_widget.py - on_select : 44 - You selected item 0: "seq3.json"
+2022-06-09 00:09:40,991 - root - INFO - sequences_manager_widget.py - on_select : 44 - You selected item 2: "seq2.json"
+2022-06-09 00:09:43,415 - root - INFO - sequences_manager_widget.py - on_select : 44 - You selected item 0: "seq3.json"
+2022-06-09 00:09:45,509 - root - INFO - sequences_manager_widget.py - on_select : 44 - You selected item 1: "seq1.json"
+2022-06-09 00:09:48,066 - root - INFO - sequences_manager_widget.py - on_select : 44 - You selected item 2: "seq2.json"
+2022-06-09 00:09:51,796 - root - INFO - sequences_manager_widget.py - on_select : 44 - You selected item 0: "seq3.json"
+2022-06-09 00:10:26,176 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-09 00:10:26,176 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-09 00:10:26,176 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-09 00:10:26,176 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-09 00:10:26,176 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-09 00:10:26,176 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 45
+2022-06-09 00:10:26,194 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-09 00:10:26,194 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-09 00:10:26,194 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-09 00:10:26,194 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-09 00:10:26,194 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-09 00:10:26,194 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 49
+2022-06-09 00:10:26,208 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-09 00:10:26,208 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-09 00:10:26,208 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-09 00:10:26,208 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-09 00:10:26,208 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-09 00:10:26,208 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 47
+2022-06-09 00:10:26,234 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-09 00:10:26,234 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-09 00:10:26,234 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-09 00:10:26,234 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-09 00:10:26,234 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-09 00:10:26,234 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 66
+2022-06-09 00:10:26,254 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-09 00:10:26,255 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-09 00:10:26,255 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-09 00:10:26,255 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-09 00:10:26,255 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-09 00:10:26,255 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 65
+2022-06-09 00:10:26,268 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-09 00:10:26,268 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-09 00:10:26,268 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-09 00:10:26,268 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-09 00:10:26,268 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-09 00:10:26,268 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 34
+2022-06-09 00:10:26,281 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-09 00:10:26,281 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-09 00:10:26,281 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-09 00:10:26,281 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-09 00:10:26,281 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-09 00:10:26,281 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 64
+2022-06-09 00:10:26,294 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-09 00:10:26,294 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-09 00:10:26,294 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-09 00:10:26,295 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-09 00:10:26,295 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-09 00:10:26,295 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 49
+2022-06-09 00:10:26,309 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-09 00:10:26,309 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-09 00:10:26,309 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-09 00:10:26,309 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-09 00:10:26,309 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-09 00:10:26,309 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 45
+2022-06-09 00:10:26,322 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-09 00:10:26,322 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-09 00:10:26,322 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-09 00:10:26,322 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-09 00:10:26,322 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-09 00:10:26,322 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 34
+2022-06-09 00:10:32,157 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-09 00:10:32,158 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-09 00:10:32,158 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-09 00:10:32,158 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-09 00:10:32,158 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-09 00:10:32,158 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 45
+2022-06-09 00:10:32,174 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-09 00:10:32,175 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-09 00:10:32,175 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-09 00:10:32,175 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-09 00:10:32,175 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-09 00:10:32,175 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 49
+2022-06-09 00:10:32,188 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-09 00:10:32,188 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-09 00:10:32,188 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-09 00:10:32,188 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-09 00:10:32,188 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-09 00:10:32,188 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 47
+2022-06-09 00:10:32,215 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-09 00:10:32,215 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-09 00:10:32,215 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-09 00:10:32,215 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-09 00:10:32,216 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-09 00:10:32,216 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 66
+2022-06-09 00:10:32,229 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-09 00:10:32,229 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-09 00:10:32,229 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-09 00:10:32,229 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-09 00:10:32,229 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-09 00:10:32,229 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 65
+2022-06-09 00:10:32,242 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-09 00:10:32,242 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-09 00:10:32,242 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-09 00:10:32,242 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-09 00:10:32,242 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-09 00:10:32,243 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 34
+2022-06-09 00:10:32,256 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-09 00:10:32,256 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-09 00:10:32,256 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-09 00:10:32,256 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-09 00:10:32,256 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-09 00:10:32,256 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 64
+2022-06-09 00:10:32,270 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-09 00:10:32,270 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-09 00:10:32,270 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-09 00:10:32,270 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-09 00:10:32,270 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-09 00:10:32,270 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 49
+2022-06-09 00:10:32,283 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-09 00:10:32,283 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-09 00:10:32,283 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-09 00:10:32,283 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-09 00:10:32,283 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-09 00:10:32,284 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 45
+2022-06-09 00:10:32,297 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-09 00:10:32,297 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-09 00:10:32,297 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-09 00:10:32,297 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-09 00:10:32,297 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-09 00:10:32,297 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 34
