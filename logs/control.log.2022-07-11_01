@@ -1,0 +1,473 @@
+2022-07-11 00:57:40,072 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f9f5b736190>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f9f5b736190>>}
+2022-07-11 00:57:40,076 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-07-11 00:57:42,779 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-07-11 00:57:42,825 - root - INFO - sequences_manager_widget.py - __init__ : 43 - 
+2022-07-11 00:57:42,831 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-07-11 00:57:42,924 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 00:57:42,924 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-07-11 00:57:42,937 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 00:57:42,937 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-07-11 00:57:42,946 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-07-11 00:57:42,953 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/audios/applause.mp3
+2022-07-11 00:57:43,326 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/applause.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-07-11 00:57:43,518 - root - INFO - sound_object.py - get_duration : 85 - duration : 8.002854166666667
+2022-07-11 00:57:52,256 - root - INFO - sequences_manager_widget.py - save : 114 - save sequence
+2022-07-11 00:58:04,045 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fa5878a2e80>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fa5878a2e80>>}
+2022-07-11 00:58:04,047 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-07-11 00:58:06,939 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-07-11 00:58:07,000 - root - INFO - sequences_manager_widget.py - __init__ : 43 - 
+2022-07-11 00:58:07,002 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-07-11 00:58:07,028 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 00:58:07,028 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-07-11 00:58:07,032 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 00:58:07,032 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-07-11 00:58:07,036 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-07-11 00:58:07,039 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/audios/applause.mp3
+2022-07-11 00:58:07,097 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/applause.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-07-11 00:58:07,171 - root - INFO - sound_object.py - get_duration : 85 - duration : 8.002854166666667
+2022-07-11 01:02:52,732 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f4ec6472610>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f4ec6472610>>}
+2022-07-11 01:02:52,734 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-07-11 01:02:55,748 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-07-11 01:02:55,770 - root - INFO - sequences_manager_widget.py - __init__ : 43 - 
+2022-07-11 01:02:55,773 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-07-11 01:02:55,796 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:02:55,796 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-07-11 01:02:55,799 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:02:55,800 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-07-11 01:02:55,804 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-07-11 01:02:55,808 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/audios/applause.mp3
+2022-07-11 01:02:55,865 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/applause.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-07-11 01:02:55,932 - root - INFO - sound_object.py - get_duration : 85 - duration : 8.002854166666667
+2022-07-11 01:05:47,643 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fcccf20f610>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fcccf20f610>>}
+2022-07-11 01:05:47,645 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-07-11 01:05:49,085 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-07-11 01:05:49,153 - root - INFO - sequences_manager_widget.py - __init__ : 43 - 
+2022-07-11 01:05:49,156 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-07-11 01:05:49,182 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:05:49,182 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-07-11 01:05:49,186 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:05:49,186 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-07-11 01:05:49,190 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-07-11 01:05:49,194 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/audios/applause.mp3
+2022-07-11 01:05:49,250 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/applause.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-07-11 01:05:49,321 - root - INFO - sound_object.py - get_duration : 85 - duration : 8.002854166666667
+2022-07-11 01:06:04,288 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fb676097e80>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fb676097e80>>}
+2022-07-11 01:06:04,290 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-07-11 01:06:07,610 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-07-11 01:06:07,679 - root - INFO - sequences_manager_widget.py - __init__ : 43 - 
+2022-07-11 01:06:07,681 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-07-11 01:06:07,705 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:06:07,705 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-07-11 01:06:07,708 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:06:07,709 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-07-11 01:06:07,713 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-07-11 01:06:07,717 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/audios/applause.mp3
+2022-07-11 01:06:07,774 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/applause.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-07-11 01:06:07,844 - root - INFO - sound_object.py - get_duration : 85 - duration : 8.002854166666667
+2022-07-11 01:11:18,610 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f46e985b310>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f46e985b310>>}
+2022-07-11 01:11:18,616 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-07-11 01:11:20,347 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-07-11 01:11:20,443 - root - INFO - sequences_manager_widget.py - __init__ : 43 - 
+2022-07-11 01:11:20,445 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-07-11 01:11:20,468 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:11:20,468 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-07-11 01:11:20,472 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:11:20,472 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-07-11 01:11:20,476 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-07-11 01:11:20,480 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/audios/applause.mp3
+2022-07-11 01:11:20,541 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/applause.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-07-11 01:11:20,610 - root - INFO - sound_object.py - get_duration : 85 - duration : 8.002854166666667
+2022-07-11 01:17:25,808 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fae6045b7c0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fae6045b7c0>>}
+2022-07-11 01:17:25,811 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-07-11 01:17:27,230 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-07-11 01:17:27,254 - root - INFO - sequences_manager_widget.py - __init__ : 43 - 
+2022-07-11 01:17:27,256 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-07-11 01:17:27,278 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:17:27,278 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-07-11 01:17:27,281 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:17:27,282 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-07-11 01:17:27,285 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-07-11 01:17:27,288 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/audios/applause.mp3
+2022-07-11 01:17:27,345 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/applause.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-07-11 01:17:27,413 - root - INFO - sound_object.py - get_duration : 85 - duration : 8.002854166666667
+2022-07-11 01:18:22,291 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f671ec347c0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f671ec347c0>>}
+2022-07-11 01:18:22,293 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-07-11 01:18:24,223 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-07-11 01:18:24,248 - root - INFO - sequences_manager_widget.py - __init__ : 43 - 
+2022-07-11 01:18:24,250 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-07-11 01:18:24,273 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:18:24,274 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-07-11 01:18:24,277 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:18:24,278 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-07-11 01:18:24,281 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-07-11 01:18:24,284 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/audios/applause.mp3
+2022-07-11 01:18:24,341 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/applause.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-07-11 01:18:24,408 - root - INFO - sound_object.py - get_duration : 85 - duration : 8.002854166666667
+2022-07-11 01:19:15,721 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f1f901097c0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f1f901097c0>>}
+2022-07-11 01:19:15,723 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-07-11 01:19:19,792 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-07-11 01:19:19,860 - root - INFO - sequences_manager_widget.py - __init__ : 43 - 
+2022-07-11 01:19:19,862 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-07-11 01:19:19,887 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:19:19,887 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-07-11 01:19:19,891 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:19:19,891 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-07-11 01:19:19,894 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-07-11 01:19:19,898 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/audios/applause.mp3
+2022-07-11 01:19:19,955 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/applause.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-07-11 01:19:20,023 - root - INFO - sound_object.py - get_duration : 85 - duration : 8.002854166666667
+2022-07-11 01:19:40,922 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f08427067c0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f08427067c0>>}
+2022-07-11 01:19:40,924 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-07-11 01:19:42,135 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-07-11 01:19:42,168 - root - INFO - sequences_manager_widget.py - __init__ : 43 - 
+2022-07-11 01:19:42,170 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-07-11 01:19:42,193 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:19:42,193 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-07-11 01:19:42,196 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:19:42,196 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-07-11 01:19:42,200 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-07-11 01:19:42,204 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/audios/applause.mp3
+2022-07-11 01:19:42,261 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/applause.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-07-11 01:19:42,328 - root - INFO - sound_object.py - get_duration : 85 - duration : 8.002854166666667
+2022-07-11 01:23:04,269 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fb5e737a7c0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fb5e737a7c0>>}
+2022-07-11 01:23:04,271 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-07-11 01:23:09,145 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-07-11 01:23:09,216 - root - INFO - sequences_manager_widget.py - __init__ : 43 - 
+2022-07-11 01:23:09,219 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-07-11 01:23:09,246 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:23:09,246 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-07-11 01:23:09,250 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:23:09,250 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-07-11 01:23:09,253 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-07-11 01:23:09,257 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/audios/applause.mp3
+2022-07-11 01:23:09,315 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/applause.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-07-11 01:23:09,384 - root - INFO - sound_object.py - get_duration : 85 - duration : 8.002854166666667
+2022-07-11 01:24:44,167 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f5e47da77c0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f5e47da77c0>>}
+2022-07-11 01:24:44,169 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-07-11 01:24:45,858 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-07-11 01:24:45,925 - root - INFO - sequences_manager_widget.py - __init__ : 43 - 
+2022-07-11 01:24:45,927 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-07-11 01:24:45,954 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:24:45,954 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-07-11 01:24:45,958 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:24:45,958 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-07-11 01:24:45,962 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-07-11 01:24:45,966 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/audios/applause.mp3
+2022-07-11 01:24:46,023 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/applause.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-07-11 01:24:46,092 - root - INFO - sound_object.py - get_duration : 85 - duration : 8.002854166666667
+2022-07-11 01:25:16,203 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fe3487aa7c0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fe3487aa7c0>>}
+2022-07-11 01:25:16,205 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-07-11 01:25:17,554 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-07-11 01:25:17,622 - root - INFO - sequences_manager_widget.py - __init__ : 43 - 
+2022-07-11 01:25:17,625 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-07-11 01:25:17,648 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:25:17,649 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-07-11 01:25:17,653 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:25:17,653 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-07-11 01:25:17,657 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-07-11 01:25:17,661 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/audios/applause.mp3
+2022-07-11 01:25:17,718 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/applause.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-07-11 01:25:17,789 - root - INFO - sound_object.py - get_duration : 85 - duration : 8.002854166666667
+2022-07-11 01:25:24,880 - root - INFO - sequences_manager_widget.py - save : 114 - save sequence
+2022-07-11 01:25:34,384 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f43d6942e80>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f43d6942e80>>}
+2022-07-11 01:25:34,386 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-07-11 01:25:35,592 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-07-11 01:25:35,635 - root - INFO - sequences_manager_widget.py - __init__ : 43 - 
+2022-07-11 01:25:35,638 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-07-11 01:25:35,663 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:25:35,663 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-07-11 01:25:35,668 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:25:35,668 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-07-11 01:25:35,672 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-07-11 01:25:35,677 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/audios/applause.mp3
+2022-07-11 01:25:35,735 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/applause.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-07-11 01:25:35,802 - root - INFO - sound_object.py - get_duration : 85 - duration : 8.002854166666667
+2022-07-11 01:25:39,880 - root - INFO - sequences_manager_widget.py - save : 114 - save sequence
+2022-07-11 01:25:42,201 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:25:42,201 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:25:42,201 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:25:42,201 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:25:42,201 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:25:42,201 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 45
+2022-07-11 01:25:42,219 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:25:42,220 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:25:42,220 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:25:42,220 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:25:42,220 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:25:42,220 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 49
+2022-07-11 01:25:42,234 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:25:42,234 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:25:42,234 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:25:42,234 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:25:42,234 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:25:42,234 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 47
+2022-07-11 01:25:42,261 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:25:42,261 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:25:42,261 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:25:42,261 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:25:42,261 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:25:42,261 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 66
+2022-07-11 01:25:42,275 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:25:42,275 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:25:42,275 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:25:42,275 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:25:42,275 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:25:42,275 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 65
+2022-07-11 01:25:42,296 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:25:42,296 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:25:42,296 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:25:42,296 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:25:42,296 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:25:42,296 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 34
+2022-07-11 01:25:42,309 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:25:42,310 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:25:42,310 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:25:42,310 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:25:42,310 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:25:42,310 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 64
+2022-07-11 01:25:42,323 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:25:42,323 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:25:42,323 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:25:42,324 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:25:42,324 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:25:42,324 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 49
+2022-07-11 01:25:42,337 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:25:42,337 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:25:42,337 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:25:42,337 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:25:42,337 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:25:42,338 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 45
+2022-07-11 01:25:42,350 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:25:42,351 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:25:42,351 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:25:42,351 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:25:42,351 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:25:42,351 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 34
+2022-07-11 01:25:42,353 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - Left eye
+2022-07-11 01:25:42,382 - root - INFO - rectangle_frame_image.py - __init__ : 20 - rectangle 2
+2022-07-11 01:25:42,395 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - Right eye
+2022-07-11 01:25:42,400 - root - INFO - rectangle_frame_image.py - __init__ : 20 - rectangle 2
+2022-07-11 01:25:42,413 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - Mouths
+2022-07-11 01:25:42,417 - root - INFO - rectangle_frame_image.py - __init__ : 20 - rectangle 2
+2022-07-11 01:25:42,993 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-07-11 01:25:43,045 - root - INFO - sequences_manager_widget.py - __init__ : 43 - 
+2022-07-11 01:25:43,047 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-07-11 01:25:43,071 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:25:43,072 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-07-11 01:25:43,075 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:25:43,075 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-07-11 01:25:43,080 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-07-11 01:25:43,083 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/audios/applause.mp3
+2022-07-11 01:25:43,141 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/applause.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-07-11 01:25:43,209 - root - INFO - sound_object.py - get_duration : 85 - duration : 8.002854166666667
+2022-07-11 01:25:55,369 - root - INFO - sequences_manager_widget.py - save : 114 - save sequence
+2022-07-11 01:25:56,862 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:25:56,862 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:25:56,862 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:25:56,862 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:25:56,863 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:25:56,863 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 45
+2022-07-11 01:25:56,879 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:25:56,879 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:25:56,879 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:25:56,879 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:25:56,879 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:25:56,880 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 49
+2022-07-11 01:25:56,893 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:25:56,893 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:25:56,893 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:25:56,893 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:25:56,893 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:25:56,893 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 47
+2022-07-11 01:25:56,919 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:25:56,919 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:25:56,919 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:25:56,920 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:25:56,920 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:25:56,920 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 66
+2022-07-11 01:25:56,933 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:25:56,933 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:25:56,933 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:25:56,933 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:25:56,933 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:25:56,934 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 65
+2022-07-11 01:25:56,947 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:25:56,947 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:25:56,947 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:25:56,947 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:25:56,947 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:25:56,947 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 34
+2022-07-11 01:25:56,960 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:25:56,960 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:25:56,960 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:25:56,961 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:25:56,961 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:25:56,961 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 64
+2022-07-11 01:25:56,974 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:25:56,974 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:25:56,975 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:25:56,975 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:25:56,975 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:25:56,975 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 49
+2022-07-11 01:25:56,988 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:25:56,988 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:25:56,988 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:25:56,988 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:25:56,988 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:25:56,988 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 45
+2022-07-11 01:25:57,001 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:25:57,002 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:25:57,002 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:25:57,002 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:25:57,002 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:25:57,002 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 34
+2022-07-11 01:25:57,004 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - Left eye
+2022-07-11 01:25:57,029 - root - INFO - rectangle_frame_image.py - __init__ : 20 - rectangle 2
+2022-07-11 01:25:57,042 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - Right eye
+2022-07-11 01:25:57,047 - root - INFO - rectangle_frame_image.py - __init__ : 20 - rectangle 2
+2022-07-11 01:25:57,060 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - Mouths
+2022-07-11 01:25:57,064 - root - INFO - rectangle_frame_image.py - __init__ : 20 - rectangle 2
+2022-07-11 01:25:57,762 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-07-11 01:25:57,782 - root - INFO - sequences_manager_widget.py - __init__ : 43 - 
+2022-07-11 01:25:57,784 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-07-11 01:25:57,806 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:25:57,807 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-07-11 01:25:57,810 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:25:57,811 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-07-11 01:25:57,814 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-07-11 01:25:57,817 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/audios/applause.mp3
+2022-07-11 01:25:57,875 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/applause.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-07-11 01:25:57,942 - root - INFO - sound_object.py - get_duration : 85 - duration : 8.002854166666667
+2022-07-11 01:28:16,881 - root - INFO - sequences_manager_widget.py - save : 114 - save sequence
+2022-07-11 01:28:18,253 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:28:18,253 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:28:18,253 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:28:18,253 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:28:18,253 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:28:18,253 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 45
+2022-07-11 01:28:18,269 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:28:18,270 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:28:18,270 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:28:18,270 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:28:18,270 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:28:18,270 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 49
+2022-07-11 01:28:18,283 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:28:18,283 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:28:18,283 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:28:18,283 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:28:18,283 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:28:18,284 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 47
+2022-07-11 01:28:18,309 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:28:18,310 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:28:18,310 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:28:18,310 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:28:18,310 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:28:18,310 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 66
+2022-07-11 01:28:18,323 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:28:18,323 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:28:18,323 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:28:18,323 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:28:18,323 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:28:18,323 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 65
+2022-07-11 01:28:18,336 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:28:18,337 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:28:18,337 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:28:18,337 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:28:18,337 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:28:18,337 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 34
+2022-07-11 01:28:18,360 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:28:18,360 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:28:18,360 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:28:18,360 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:28:18,360 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:28:18,360 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 64
+2022-07-11 01:28:18,374 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:28:18,374 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:28:18,374 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:28:18,374 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:28:18,374 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:28:18,374 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 49
+2022-07-11 01:28:18,387 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:28:18,387 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:28:18,388 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:28:18,388 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:28:18,388 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:28:18,388 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 45
+2022-07-11 01:28:18,401 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-11 01:28:18,401 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-11 01:28:18,401 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-11 01:28:18,401 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-11 01:28:18,401 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-11 01:28:18,401 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 34
+2022-07-11 01:28:18,403 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - Left eye
+2022-07-11 01:28:18,428 - root - INFO - rectangle_frame_image.py - __init__ : 20 - rectangle 2
+2022-07-11 01:28:18,441 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - Right eye
+2022-07-11 01:28:18,445 - root - INFO - rectangle_frame_image.py - __init__ : 20 - rectangle 2
+2022-07-11 01:28:18,459 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - Mouths
+2022-07-11 01:28:18,465 - root - INFO - rectangle_frame_image.py - __init__ : 20 - rectangle 2
+2022-07-11 01:28:19,139 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-07-11 01:28:19,190 - root - INFO - sequences_manager_widget.py - __init__ : 43 - 
+2022-07-11 01:28:19,192 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-07-11 01:28:19,217 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:28:19,217 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-07-11 01:28:19,221 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:28:19,221 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-07-11 01:28:19,224 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-07-11 01:28:19,227 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/audios/applause.mp3
+2022-07-11 01:28:19,285 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/applause.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-07-11 01:28:19,351 - root - INFO - sound_object.py - get_duration : 85 - duration : 8.002854166666667
+2022-07-11 01:33:46,083 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fdd32520e80>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fdd32520e80>>}
+2022-07-11 01:33:46,085 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-07-11 01:33:48,050 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-07-11 01:33:48,120 - root - INFO - sequences_manager_widget.py - __init__ : 43 - 
+2022-07-11 01:33:48,123 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-07-11 01:33:48,148 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:33:48,148 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-07-11 01:33:48,151 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:33:48,152 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-07-11 01:33:48,155 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-07-11 01:33:48,158 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/audios/applause.mp3
+2022-07-11 01:33:48,215 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/applause.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-07-11 01:33:48,283 - root - INFO - sound_object.py - get_duration : 85 - duration : 8.002854166666667
+2022-07-11 01:33:49,296 - root - INFO - rectangle_frame_text.py - delete_canvas : 77 - x1:318 x2:654
+2022-07-11 01:33:49,298 - root - INFO - rectangle_frame_text.py - fill_gap : 86 - rectangle bar x:0 removed_x2:654
+2022-07-11 01:33:49,299 - root - INFO - rectangle_frame_text.py - fill_gap : 86 - rectangle bar x:0 removed_x2:654
+2022-07-11 01:33:49,299 - root - INFO - rectangle_frame_text.py - fill_gap : 86 - rectangle bar x:0 removed_x2:654
+2022-07-11 01:33:49,300 - root - INFO - rectangle_frame_text.py - fill_gap : 86 - rectangle bar x:0 removed_x2:654
+2022-07-11 01:33:49,300 - root - INFO - rectangle_frame_text.py - fill_gap : 86 - rectangle bar x:0 removed_x2:654
+2022-07-11 01:33:49,301 - root - INFO - rectangle_frame_text.py - fill_gap : 86 - rectangle bar x:0 removed_x2:654
+2022-07-11 01:33:49,301 - root - INFO - rectangle_frame_text.py - fill_gap : 86 - rectangle bar x:0 removed_x2:654
+2022-07-11 01:33:49,302 - root - INFO - rectangle_frame_text.py - fill_gap : 86 - rectangle bar x:0 removed_x2:654
+2022-07-11 01:33:49,302 - root - INFO - rectangle_frame_text.py - fill_gap : 86 - rectangle bar x:0 removed_x2:654
+2022-07-11 01:33:49,302 - root - INFO - rectangle_frame_text.py - fill_gap : 86 - rectangle bar x:0 removed_x2:654
+2022-07-11 01:33:49,303 - root - INFO - rectangle_frame_text.py - fill_gap : 86 - rectangle bar x:0 removed_x2:654
+2022-07-11 01:33:49,303 - root - INFO - rectangle_frame_text.py - fill_gap : 86 - rectangle bar x:0 removed_x2:654
+2022-07-11 01:33:49,303 - root - INFO - rectangle_frame_text.py - fill_gap : 86 - rectangle bar x:0 removed_x2:654
+2022-07-11 01:33:49,303 - root - INFO - rectangle_frame_text.py - fill_gap : 86 - rectangle bar x:0 removed_x2:654
+2022-07-11 01:33:49,304 - root - INFO - rectangle_frame_text.py - fill_gap : 86 - rectangle bar x:0 removed_x2:654
+2022-07-11 01:36:42,891 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fd888718e80>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fd888718e80>>}
+2022-07-11 01:36:42,893 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-07-11 01:36:44,778 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-07-11 01:36:44,844 - root - INFO - sequences_manager_widget.py - __init__ : 43 - 
+2022-07-11 01:36:44,846 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-07-11 01:36:44,868 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:36:44,868 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-07-11 01:36:44,872 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:36:44,872 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-07-11 01:36:44,876 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-07-11 01:36:44,879 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/audios/applause.mp3
+2022-07-11 01:36:44,939 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/applause.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-07-11 01:36:45,007 - root - INFO - sound_object.py - get_duration : 85 - duration : 8.002854166666667
+2022-07-11 01:38:36,306 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fa11e485e80>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fa11e485e80>>}
+2022-07-11 01:38:36,308 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-07-11 01:38:37,857 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-07-11 01:38:37,926 - root - INFO - sequences_manager_widget.py - __init__ : 43 - 
+2022-07-11 01:38:37,929 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-07-11 01:38:37,953 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:38:37,954 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-07-11 01:38:37,958 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-11 01:38:37,958 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-07-11 01:38:37,962 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-07-11 01:38:37,966 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/audios/applause.mp3
+2022-07-11 01:38:38,024 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/applause.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-07-11 01:38:38,094 - root - INFO - sound_object.py - get_duration : 85 - duration : 8.002854166666667

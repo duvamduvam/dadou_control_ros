@@ -15,3 +15,7 @@ class GuiUtils:
         tk_image = tk_image._PhotoImage__photo.zoom(zoom)
         parent.create_image(x, y, anchor=tk.NW, image=tk_image)
         return tk_image
+
+    @staticmethod
+    def set_text(parent, x, y, text):
+        return parent.create_text(x+5, y+120, text=text, angle=90)

@@ -3,7 +3,7 @@ from os.path import exists
 import pyudev as pyudev
 import logging
 
-from dadoutils.com.serial_device import SerialDevice
+from dadou_utils.com.serial_device import SerialDevice
 
 
 class SerialDeviceManager:

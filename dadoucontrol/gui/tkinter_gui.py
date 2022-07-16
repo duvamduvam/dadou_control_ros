@@ -1,9 +1,9 @@
 import tkinter as tk                # dadoutils 3
 from tkinter import font as tkfont  # dadoutils 3
 
-from dadoucontrol.gui.windows.expression_frame import ExpressionFrame
-from dadoucontrol.gui.windows.glove_frame import GloveFrame
-from dadoucontrol.gui.windows.sequence_frame import SequenceFrame
+from dadoucontrol.gui.windows.expression_window import ExpressionFrame
+from dadoucontrol.gui.windows.glove_window import GloveFrame
+from dadoucontrol.gui.windows.sequence_window import SequenceFrame
 
 #https://www.hashbangcode.com/article/using-events-tkinter-canvas-elements-python
 
@@ -18,7 +18,7 @@ class MainGui(tk.Tk):
 
         self.title_font = tkfont.Font(family='Helvetica', size=18, weight="bold", slant="italic")
 
-        self.geometry("1024x720")
+        self.geometry("1600x1024")
 
         menu = tk.Frame(self, bg='orange')
         menu.pack(fill='x', side='top')

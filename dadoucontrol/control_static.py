@@ -3,6 +3,8 @@ class ControlStatic:
     JSON_CONFIG_NAME = 'config.json'
 
     CONFIG_FILE = 'config.json'
+    EXPRESSIONS_FILE = 'expressions.json'
+    LIGHTS_FILE = 'lights.json'
     LOGGING_CONFIG_FILE = '/conf/logging.conf'
     JSON_DIRECTORY = "/json/"
     SEQUENCES_DIRECTORY = "/sequences/"

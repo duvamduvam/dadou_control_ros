@@ -8,7 +8,7 @@ from dadoucontrol.control_static import ControlStatic
 
 class FileManager:
 
-    SEQUENCE_FOLDER = "sequences"
+    SEQUENCE_FOLDER = "frames"
 
     @staticmethod
     def list_folder_files(folder_type):

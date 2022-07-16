@@ -1,2 +1,0 @@
-2022-06-08 16:38:39,749 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fcfb99c7dc0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fcfb99c7dc0>>}
-2022-06-08 16:38:39,751 - root - INFO - main.py - <module> : 12 - Starting didier

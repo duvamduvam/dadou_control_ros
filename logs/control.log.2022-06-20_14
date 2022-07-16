@@ -1,0 +1,21 @@
+2022-06-20 14:35:18,956 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fbe2f2bbb20>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fbe2f2bbb20>>}
+2022-06-20 14:35:18,958 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-20 14:35:20,935 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-06-20 14:35:21,005 - root - INFO - sequences_manager_widget.py - __init__ : 43 - 
+2022-06-20 14:35:21,008 - root - INFO - sound_object.py - __init__ : 24 - load sound /home/dadou/Musique/Romain Gary - Les racines du ciel [MP3-128K]/01 - Les racines du ciel - Romain Gary.mp3
+2022-06-20 14:35:21,078 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-i', '/home/dadou/Musique/Romain Gary - Les racines du ciel [MP3-128K]/01 - Les racines du ciel - Romain Gary.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-06-20 14:35:21,608 - root - INFO - sound_object.py - get_duration : 79 - duration : 350.5050113378685
+2022-06-20 14:35:27,944 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-06-20 14:35:27,945 - root - INFO - sound_object.py - __init__ : 24 - load sound /home/dadou/Musique/Romain Gary - Les racines du ciel [MP3-128K]/01 - Les racines du ciel - Romain Gary.mp3
+2022-06-20 14:35:28,011 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-i', '/home/dadou/Musique/Romain Gary - Les racines du ciel [MP3-128K]/01 - Les racines du ciel - Romain Gary.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-06-20 14:35:28,498 - root - INFO - sound_object.py - get_duration : 79 - duration : 350.5050113378685
+2022-06-20 14:35:34,754 - root - INFO - sequences_manager_widget.py - select_sequence : 72 - You selected item 0: "seq1.json"
+2022-06-20 14:35:34,756 - root - INFO - sound_object.py - __init__ : 24 - load sound /home/dadou/Nextcloud/Didier/audios/applause.mp3
+2022-06-20 14:35:34,839 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-i', '/home/dadou/Nextcloud/Didier/audios/applause.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-06-20 14:35:34,910 - root - INFO - sound_object.py - get_duration : 79 - duration : 8.002854166666667
+2022-06-20 14:35:35,083 - root - INFO - sequences_manager_widget.py - select_sequence : 72 - You selected item 2: "seq3.json"
+2022-06-20 14:35:35,088 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-06-20 14:35:35,088 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-06-20 14:35:35,095 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-06-20 14:35:35,095 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-06-20 14:35:35,101 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels

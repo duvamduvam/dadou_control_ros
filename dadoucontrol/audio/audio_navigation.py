@@ -1,11 +1,9 @@
 import logging
-import time
 from enum import Enum
 from timeit import default_timer
-from mutagen.mp3 import MP3
 
 #from dadoucontrol.control_factory import ControlFactory
-from dadoucontrol.logic.time_utils import TimeUtils
+from dadou_utils.time.time_utils import TimeUtils
 
 
 class State(Enum):

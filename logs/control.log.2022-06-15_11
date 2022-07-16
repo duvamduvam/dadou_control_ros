@@ -1,0 +1,314 @@
+2022-06-15 10:20:18,017 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f0741b153a0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f0741b153a0>>}
+2022-06-15 10:20:18,023 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-15 10:22:34,913 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f943d7a8370>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f943d7a8370>>}
+2022-06-15 10:22:34,916 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-15 10:23:08,983 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fa1d95f23d0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fa1d95f23d0>>}
+2022-06-15 10:23:08,986 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-15 10:24:31,864 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f81db74e430>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f81db74e430>>}
+2022-06-15 10:24:31,869 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-15 10:28:25,343 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fbbac24c370>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fbbac24c370>>}
+2022-06-15 10:28:25,347 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-15 10:30:30,121 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f7b4709c3a0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f7b4709c3a0>>}
+2022-06-15 10:30:30,124 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-15 10:31:03,873 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f30269b93a0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f30269b93a0>>}
+2022-06-15 10:31:03,876 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-15 10:37:41,521 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f6a1246ff10>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f6a1246ff10>>}
+2022-06-15 10:37:41,524 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-15 10:42:53,119 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7ff2b7237ee0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7ff2b7237ee0>>}
+2022-06-15 10:42:53,123 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-15 10:44:04,258 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f48fcd2dee0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f48fcd2dee0>>}
+2022-06-15 10:44:04,261 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-15 10:46:03,050 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fb759376ee0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fb759376ee0>>}
+2022-06-15 10:46:03,053 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-15 10:47:23,941 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f3025194ee0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f3025194ee0>>}
+2022-06-15 10:47:23,943 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-15 10:47:46,339 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f4e27049ee0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f4e27049ee0>>}
+2022-06-15 10:47:46,342 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-15 10:52:36,905 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fedd9eabf10>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fedd9eabf10>>}
+2022-06-15 10:52:36,909 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-15 10:52:43,770 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:43,788 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:43,872 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:43,872 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:43,972 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:43,972 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:44,072 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:44,073 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:44,172 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:44,173 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:44,272 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:44,273 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:44,373 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:44,374 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:44,473 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:44,474 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:44,574 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:44,575 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:44,674 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:44,674 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:44,774 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:44,774 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:44,874 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:44,874 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:44,974 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:44,974 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:45,074 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:45,075 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:45,174 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:45,175 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:45,275 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:45,276 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:45,375 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:45,376 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:45,475 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:45,476 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:45,576 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:45,576 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:45,676 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:45,677 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:45,776 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:45,777 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:45,877 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:45,877 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:45,977 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:45,979 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:46,077 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:46,078 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:46,177 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:46,178 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:46,278 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:46,278 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:46,378 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:46,379 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:46,478 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:46,478 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:46,578 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:46,579 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:46,678 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:46,679 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:46,779 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:46,779 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:46,879 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:46,880 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:46,979 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:46,979 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:47,079 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:47,080 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:47,180 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:47,180 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:47,280 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:47,280 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:47,380 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:47,382 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:47,480 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:47,481 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:47,581 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:47,581 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:47,681 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:47,681 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:47,781 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:47,782 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:47,881 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:47,882 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:47,981 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:47,982 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:48,082 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:48,083 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:48,182 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:48,182 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:48,282 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:48,283 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:48,382 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:48,383 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:48,483 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:48,483 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:48,583 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:48,585 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:48,683 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:48,684 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:48,784 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:48,785 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:48,884 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:48,884 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:48,984 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:48,985 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:49,084 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:49,085 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:49,185 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:49,186 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:49,285 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:49,285 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:49,385 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:49,386 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:49,485 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:49,486 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:49,586 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:49,586 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:49,686 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:49,686 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:49,786 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:49,788 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:49,887 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:49,889 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:49,987 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:49,987 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:50,088 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:50,089 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:50,188 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:50,188 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:50,288 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:50,289 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:50,388 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:50,389 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:50,488 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:50,489 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:50,589 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:50,590 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:50,689 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:50,689 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:50,789 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:50,791 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:50,889 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:50,890 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:50,990 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:50,991 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:51,090 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:51,090 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:51,190 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:51,191 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:51,290 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:51,291 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:51,391 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:51,392 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:51,491 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:51,491 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:51,591 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:51,592 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:51,691 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:51,692 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:51,792 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:51,793 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:51,892 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:51,894 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:51,993 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:51,993 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:52,093 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:52,094 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:52,193 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:52,193 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:52,293 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:52,294 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:52,393 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:52,394 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:52,493 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:52,494 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:52,594 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:52,594 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:52,694 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:52,695 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:52,795 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:52,796 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:52,895 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:52,895 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:52,995 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:52,997 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:53,095 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:53,096 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:53,196 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:53,197 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:53,296 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:53,296 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:53,396 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:53,398 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:53,496 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:53,497 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:53,597 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:53,598 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:53,697 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:53,699 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:53,797 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:53,798 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:53,897 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:53,899 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:53,997 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:53,998 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:54,098 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:54,099 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:54,198 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:54,199 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:54,298 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:54,299 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:54,398 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:54,399 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:54,499 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:54,500 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:54,599 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:54,599 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:54,699 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:54,699 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:54,799 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:54,801 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:54,899 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:54,900 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:55,000 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:55,001 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:55,100 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:55,101 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:55,200 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:55,203 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:55,300 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:55,301 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:55,401 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:55,402 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:55,502 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:55,503 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:55,602 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:55,602 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:55,702 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:55,702 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:55,802 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:55,802 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:55,902 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:55,903 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:52:56,002 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : <c>
+2022-06-15 10:52:56,003 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:53:09,134 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fb857329970>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fb857329970>>}
+2022-06-15 10:53:09,136 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-15 10:55:05,108 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f85fedfdf10>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f85fedfdf10>>}
+2022-06-15 10:55:05,111 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-15 10:55:10,672 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : d
+2022-06-15 10:55:10,682 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:55:10,874 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : d
+2022-06-15 10:55:10,875 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:55:13,081 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : e
+2022-06-15 10:55:13,082 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:55:13,282 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : e
+2022-06-15 10:55:13,283 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:55:14,386 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : f
+2022-06-15 10:55:14,387 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:55:14,587 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : f
+2022-06-15 10:55:14,588 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:55:15,891 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : e
+2022-06-15 10:55:15,892 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:55:16,092 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : e
+2022-06-15 10:55:16,093 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:55:17,194 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : d
+2022-06-15 10:55:17,196 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:55:17,395 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : d
+2022-06-15 10:55:17,396 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-06-15 10:55:56,068 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f105f060f10>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f105f060f10>>}
+2022-06-15 10:55:56,071 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-15 10:56:00,522 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : d
+2022-06-15 10:56:00,722 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : d
+2022-06-15 10:56:02,628 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : e
+2022-06-15 10:56:02,828 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : e
+2022-06-15 10:56:03,330 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : f
+2022-06-15 10:56:04,033 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : e
+2022-06-15 10:56:04,736 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : d
+2022-06-15 10:56:05,439 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : e
+2022-06-15 10:56:05,640 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : e
+2022-06-15 10:56:06,242 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : f
+2022-06-15 10:56:07,146 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : e
+2022-06-15 10:56:07,748 - root - INFO - serial_device.py - get_msg : 39 - received from arduino : d
+2022-06-15 11:32:21,834 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f7daa3e6970>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f7daa3e6970>>}
+2022-06-15 11:32:21,837 - root - INFO - main.py - <module> : 12 - Starting didier

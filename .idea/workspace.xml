@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e737f4f3-4117-4ba7-a7c5-4eb5247e9199" name="Changes" comment="i don't know ...">
+      <change afterPath="$PROJECT_DIR$/dadoucontrol/gui/expression_duration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/expression_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_frame_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_frame_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/time_line_bar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/expressions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/lights.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/sequences/seq4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/sequences/seq5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/sequences/truc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/control.log.2022-06-13_19" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/control.log.2022-06-14_01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/control.log.2022-06-14_13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/control.log.2022-06-15_11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/control.log.2022-06-19_18" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/control.log.2022-06-19_20" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/control.log.2022-06-20_01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/control.log.2022-06-20_11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/control.log.2022-06-20_14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/control.log.2022-06-21_01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/control.log.2022-07-01_21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/control.log.2022-07-11_01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/control.log.2022-07-14_00" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/control.log.2022-07-15_01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/control.log.2022-07-15_09" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/control.log.2022-07-15_20" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/control.log.2022-07-16_01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/control.log.2022-07-16_11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/audio/audio_navigation.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/audio/audio_navigation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/audio/sound_object.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/com/serial_device_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/com/serial_device_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/control_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/control_static.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/files/abstract_json_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/files/file_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/files/file_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/gui_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/gui_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/tkinter_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/tkinter_gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/expression_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/expression_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/galley_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/galley_widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/glove_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/glove_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/sequence_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/sequence_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/sequences/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/sequences/abstract_sequence_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/abstract_sequence_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/sequences/audio_select_popup.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/audio_select_popup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/sequences/face_frame.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/sequences/music_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/music_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/sequences/navigation_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/navigation_widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/sequences/neck_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/neck_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/sequences/sequences_manager_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/sequences_manager_widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/sequences/time_line_bar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/sequences/wheels_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/wheels_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/logic/sequences/sequences_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/logic/sequences/sequences_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/logic/time_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/seq1.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/seq1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/seq2.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/seq2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/seq3.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/seq3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/control.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/control.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-05-23_15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-05-23_17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-05-23_22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-05-24_01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-05-24_07" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-05-24_12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-05-24_14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-05-24_16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-05-24_18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-06-02_02" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-06-07_14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-06-07_17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-06-08_06" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-06-08_14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-06-08_16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-06-08_19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-06-09_00" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-06-09_10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-06-09_13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-06-10_01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2A5LFS0mA3tGiyxzc6OqvcJlu2f" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "last_opened_file_path": "/home/dadou/Nextcloud/Didier/python/dadou_control/json",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "vcs.Git"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/json" />
+      <recent name="$PROJECT_DIR$/dadoucontrol/gui/windows/sequences" />
+      <recent name="$PROJECT_DIR$/visuals/eye" />
+      <recent name="$PROJECT_DIR$/visuals/mouth" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dadoucontrol/gui/windows/sequences/abstract" />
+      <recent name="$PROJECT_DIR$/dadoucontrol/gui/windows/sequences/widgets" />
+      <recent name="$PROJECT_DIR$/dadoucontrol/files" />
+      <recent name="$PROJECT_DIR$/json" />
+      <recent name="$PROJECT_DIR$/../dadou_utils/files" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="audio_player_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dadou_control" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dadoucontrol/gui/windows/audio" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dadoucontrol/gui/windows/audio/audio_player_ex.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="audio_player_ex2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dadou_control" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dadoucontrol/gui/windows/audio" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dadoucontrol/gui/windows/audio/audio_player_ex2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="audio_wave" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dadou_control" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dadoucontrol/gui/windows/audio" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dadoucontrol/gui/windows/audio/audio_wave.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dadou_control" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dadoucontrol" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dadoucontrol/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_ws.WsTests.test_ws" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="dadou_control" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dadoucontrol/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_ws.WsTests.test_ws&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.audio_player_ex" />
+        <item itemvalue="Python.audio_player_ex2" />
+        <item itemvalue="Python.audio_wave" />
+        <item itemvalue="Python tests.Python tests for test_ws.WsTests.test_ws" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e737f4f3-4117-4ba7-a7c5-4eb5247e9199" name="Changes" comment="" />
+      <created>1654294395475</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654294395475</updated>
+      <workItem from="1654294396553" duration="334000" />
+      <workItem from="1654298619665" duration="845000" />
+    </task>
+    <task id="LOCAL-00001" summary="i don't know ...">
+      <created>1654844930851</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654844930851</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="i don't know ..." />
+    <option name="LAST_COMMIT_MESSAGE" value="i don't know ..." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/time_line_bar.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_frame.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadoucontrol/files/control_json_manager.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../dadou_utils/com/serial_device.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/frames/wheels_frame.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_frame.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_frame_image.py</url>
+          <line>169</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_frame_image.py</url>
+          <line>180</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

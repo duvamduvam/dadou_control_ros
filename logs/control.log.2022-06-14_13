@@ -1,0 +1,196 @@
+2022-06-14 13:05:45,723 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f6075a37f40>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f6075a37f40>>}
+2022-06-14 13:05:45,726 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-14 13:05:49,131 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-06-14 13:05:49,163 - root - INFO - sound_object.py - __init__ : 27 - load sound /home/dadou/Nextcloud/Didier/audios/great gigs in the sky.mp3
+2022-06-14 13:05:49,220 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/great gigs in the sky.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-06-14 13:05:49,487 - root - INFO - sound_object.py - get_duration : 81 - duration : 156.7555328798186
+2022-06-14 13:05:52,200 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-06-14 13:05:52,207 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-06-14 13:05:52,212 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-06-14 13:05:52,213 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-06-14 13:05:52,218 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-06-14 13:06:43,026 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f595ddb2f40>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f595ddb2f40>>}
+2022-06-14 13:06:43,029 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-14 13:06:44,868 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-06-14 13:06:44,943 - root - INFO - sound_object.py - __init__ : 27 - load sound /home/dadou/Nextcloud/Didier/audios/great gigs in the sky.mp3
+2022-06-14 13:06:45,003 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/great gigs in the sky.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-06-14 13:06:45,265 - root - INFO - sound_object.py - get_duration : 81 - duration : 156.7555328798186
+2022-06-14 13:06:48,024 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-06-14 13:06:48,033 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-06-14 13:06:48,038 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-06-14 13:06:48,038 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-06-14 13:06:48,044 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-06-14 13:07:44,789 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f870d3f2f70>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f870d3f2f70>>}
+2022-06-14 13:07:44,793 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-14 13:07:46,010 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-06-14 13:07:46,036 - root - INFO - sound_object.py - __init__ : 27 - load sound /home/dadou/Nextcloud/Didier/audios/great gigs in the sky.mp3
+2022-06-14 13:07:46,094 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/great gigs in the sky.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-06-14 13:07:46,363 - root - INFO - sound_object.py - get_duration : 81 - duration : 156.7555328798186
+2022-06-14 13:07:49,167 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-06-14 13:07:49,174 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-06-14 13:07:49,178 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-06-14 13:07:49,179 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-06-14 13:07:49,183 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-06-14 13:27:55,155 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fd37ba99490>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fd37ba99490>>}
+2022-06-14 13:27:55,158 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-14 13:27:56,434 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-06-14 13:27:56,461 - root - INFO - sound_object.py - __init__ : 27 - load sound /home/dadou/Nextcloud/Didier/audios/great gigs in the sky.mp3
+2022-06-14 13:27:56,519 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/great gigs in the sky.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-06-14 13:27:56,785 - root - INFO - sound_object.py - get_duration : 81 - duration : 156.7555328798186
+2022-06-14 13:28:40,557 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fcd69f39490>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fcd69f39490>>}
+2022-06-14 13:28:40,560 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-14 13:28:42,260 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-06-14 13:28:42,334 - root - INFO - sound_object.py - __init__ : 27 - load sound /home/dadou/Nextcloud/Didier/audios/great gigs in the sky.mp3
+2022-06-14 13:28:42,392 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/great gigs in the sky.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-06-14 13:28:42,666 - root - INFO - sound_object.py - get_duration : 81 - duration : 156.7555328798186
+2022-06-14 13:28:45,581 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-06-14 13:28:45,588 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-06-14 13:28:45,592 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-06-14 13:28:45,597 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-06-14 13:28:45,597 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-06-14 13:28:45,603 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-06-14 13:39:16,083 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7febbb5e3460>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7febbb5e3460>>}
+2022-06-14 13:39:16,086 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-14 13:39:18,211 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-06-14 13:39:18,286 - root - INFO - sound_object.py - __init__ : 27 - load sound /home/dadou/Nextcloud/Didier/audios/great gigs in the sky.mp3
+2022-06-14 13:39:18,346 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/great gigs in the sky.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-06-14 13:39:18,609 - root - INFO - sound_object.py - get_duration : 81 - duration : 156.7555328798186
+2022-06-14 13:39:21,382 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-06-14 13:39:21,390 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-06-14 13:39:21,390 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-06-14 13:39:21,395 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-06-14 13:39:21,395 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-06-14 13:39:21,399 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-06-14 13:39:41,507 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-14 13:39:41,507 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-14 13:39:41,507 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-14 13:39:41,507 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-14 13:39:41,507 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-14 13:39:41,507 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 45
+2022-06-14 13:39:41,527 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-14 13:39:41,527 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-14 13:39:41,527 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-14 13:39:41,527 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-14 13:39:41,527 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-14 13:39:41,527 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 49
+2022-06-14 13:39:41,541 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-14 13:39:41,541 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-14 13:39:41,541 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-14 13:39:41,541 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-14 13:39:41,541 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-14 13:39:41,541 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 47
+2022-06-14 13:39:41,568 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-14 13:39:41,569 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-14 13:39:41,569 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-14 13:39:41,569 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-14 13:39:41,569 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-14 13:39:41,569 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 66
+2022-06-14 13:39:41,590 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-14 13:39:41,590 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-14 13:39:41,590 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-14 13:39:41,590 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-14 13:39:41,591 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-14 13:39:41,591 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 65
+2022-06-14 13:39:41,605 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-14 13:39:41,605 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-14 13:39:41,605 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-14 13:39:41,605 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-14 13:39:41,605 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-14 13:39:41,605 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 34
+2022-06-14 13:39:41,619 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-14 13:39:41,619 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-14 13:39:41,619 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-14 13:39:41,619 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-14 13:39:41,619 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-14 13:39:41,619 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 64
+2022-06-14 13:39:41,634 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-14 13:39:41,634 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-14 13:39:41,634 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-14 13:39:41,634 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-14 13:39:41,634 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-14 13:39:41,634 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 49
+2022-06-14 13:39:41,648 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-14 13:39:41,648 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-14 13:39:41,648 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-14 13:39:41,649 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-14 13:39:41,649 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-14 13:39:41,649 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 45
+2022-06-14 13:39:41,662 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-06-14 13:39:41,662 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-06-14 13:39:41,662 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-06-14 13:39:41,662 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-06-14 13:39:41,662 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-06-14 13:39:41,662 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 34
+2022-06-14 13:39:41,665 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - Left eye
+2022-06-14 13:39:41,702 - root - INFO - rectangle_frame_image.py - __init__ : 20 - rectangle 2
+2022-06-14 13:39:41,716 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - Right eye
+2022-06-14 13:39:41,720 - root - INFO - rectangle_frame_image.py - __init__ : 20 - rectangle 2
+2022-06-14 13:39:41,735 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - Mouths
+2022-06-14 13:39:41,740 - root - INFO - rectangle_frame_image.py - __init__ : 20 - rectangle 2
+2022-06-14 13:41:29,600 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fa1c34483a0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fa1c34483a0>>}
+2022-06-14 13:41:29,603 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-14 13:41:31,147 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-06-14 13:41:31,206 - root - INFO - sound_object.py - __init__ : 27 - load sound /home/dadou/Nextcloud/Didier/audios/great gigs in the sky.mp3
+2022-06-14 13:41:31,262 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/great gigs in the sky.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-06-14 13:41:31,524 - root - INFO - sound_object.py - get_duration : 81 - duration : 156.7555328798186
+2022-06-14 13:41:34,362 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-06-14 13:41:34,369 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-06-14 13:41:34,370 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-06-14 13:41:34,375 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-06-14 13:41:34,376 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-06-14 13:41:34,381 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-06-14 13:43:19,686 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7ff4b7d033a0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7ff4b7d033a0>>}
+2022-06-14 13:43:19,690 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-14 13:43:21,219 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-06-14 13:43:58,601 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f3a1bb513a0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f3a1bb513a0>>}
+2022-06-14 13:43:58,604 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-14 13:43:58,983 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f888fc803a0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f888fc803a0>>}
+2022-06-14 13:43:58,986 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-14 13:44:00,555 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-06-14 13:44:00,631 - root - INFO - sound_object.py - __init__ : 27 - load sound /home/dadou/Nextcloud/Didier/audios/great gigs in the sky.mp3
+2022-06-14 13:44:00,690 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/great gigs in the sky.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-06-14 13:44:00,965 - root - INFO - sound_object.py - get_duration : 81 - duration : 156.7555328798186
+2022-06-14 13:44:03,735 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-06-14 13:44:03,741 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-06-14 13:44:03,741 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-06-14 13:44:03,746 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-06-14 13:44:03,746 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-06-14 13:44:03,751 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-06-14 13:44:31,097 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7ff4e06a83a0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7ff4e06a83a0>>}
+2022-06-14 13:44:31,100 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-14 13:44:32,699 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-06-14 13:44:32,767 - root - INFO - sound_object.py - __init__ : 27 - load sound /home/dadou/Nextcloud/Didier/audios/great gigs in the sky.mp3
+2022-06-14 13:44:32,825 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/great gigs in the sky.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-06-14 13:44:33,095 - root - INFO - sound_object.py - get_duration : 81 - duration : 156.7555328798186
+2022-06-14 13:44:35,961 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-06-14 13:44:35,967 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-06-14 13:44:35,968 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-06-14 13:44:35,973 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-06-14 13:44:35,974 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-06-14 13:44:35,979 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-06-14 13:46:11,487 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f4fa6f613a0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f4fa6f613a0>>}
+2022-06-14 13:46:11,491 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-14 13:46:11,867 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fda25dde3a0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fda25dde3a0>>}
+2022-06-14 13:46:11,870 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-14 13:46:13,372 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-06-14 13:46:13,443 - root - INFO - sound_object.py - __init__ : 27 - load sound /home/dadou/Nextcloud/Didier/audios/great gigs in the sky.mp3
+2022-06-14 13:46:13,501 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/great gigs in the sky.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-06-14 13:46:13,767 - root - INFO - sound_object.py - get_duration : 81 - duration : 156.7555328798186
+2022-06-14 13:46:16,477 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-06-14 13:46:16,485 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-06-14 13:46:16,486 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-06-14 13:46:16,492 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-06-14 13:46:16,492 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-06-14 13:46:16,498 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-06-14 13:46:50,657 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fd42fb083a0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fd42fb083a0>>}
+2022-06-14 13:46:50,660 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-06-14 13:46:52,282 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-06-14 13:46:52,348 - root - INFO - sound_object.py - __init__ : 27 - load sound /home/dadou/Nextcloud/Didier/audios/great gigs in the sky.mp3
+2022-06-14 13:46:52,407 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/great gigs in the sky.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-06-14 13:46:52,671 - root - INFO - sound_object.py - get_duration : 81 - duration : 156.7555328798186
+2022-06-14 13:46:55,297 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-06-14 13:46:55,304 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-06-14 13:46:55,305 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-06-14 13:46:55,311 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-06-14 13:46:55,311 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-06-14 13:46:55,316 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels

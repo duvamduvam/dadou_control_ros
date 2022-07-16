@@ -1,0 +1,96 @@
+2022-07-01 21:32:52,906 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fa8dd638b80>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fa8dd638b80>>}
+2022-07-01 21:32:52,912 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-07-01 21:33:01,049 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-07-01 21:33:01,080 - root - INFO - sequences_manager_widget.py - __init__ : 43 - 
+2022-07-01 21:33:01,082 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-07-01 21:33:01,121 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-01 21:33:01,121 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-07-01 21:33:01,127 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-01 21:33:01,127 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-07-01 21:33:01,133 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-07-01 21:33:01,139 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/audios/applause.mp3
+2022-07-01 21:33:01,245 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/applause.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-07-01 21:33:01,343 - root - INFO - sound_object.py - get_duration : 85 - duration : 8.002854166666667
+2022-07-01 21:33:18,109 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-01 21:33:18,109 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-01 21:33:18,109 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-01 21:33:18,109 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-01 21:33:18,109 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-01 21:33:18,109 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 45
+2022-07-01 21:33:18,130 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-01 21:33:18,130 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-01 21:33:18,130 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-01 21:33:18,130 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-01 21:33:18,130 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-01 21:33:18,131 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 49
+2022-07-01 21:33:18,147 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-01 21:33:18,147 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-01 21:33:18,147 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-01 21:33:18,147 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-01 21:33:18,147 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-01 21:33:18,147 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 47
+2022-07-01 21:33:18,176 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-01 21:33:18,177 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-01 21:33:18,177 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-01 21:33:18,177 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-01 21:33:18,177 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-01 21:33:18,177 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 66
+2022-07-01 21:33:18,191 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-01 21:33:18,191 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-01 21:33:18,191 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-01 21:33:18,192 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-01 21:33:18,192 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-01 21:33:18,192 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 65
+2022-07-01 21:33:18,212 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-01 21:33:18,213 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-01 21:33:18,213 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-01 21:33:18,213 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-01 21:33:18,213 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-01 21:33:18,213 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 34
+2022-07-01 21:33:18,227 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-01 21:33:18,227 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-01 21:33:18,227 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-01 21:33:18,227 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-01 21:33:18,227 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-01 21:33:18,227 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 64
+2022-07-01 21:33:18,242 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-01 21:33:18,242 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-01 21:33:18,243 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-01 21:33:18,243 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-01 21:33:18,243 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-01 21:33:18,243 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 49
+2022-07-01 21:33:18,258 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-01 21:33:18,258 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-01 21:33:18,258 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-01 21:33:18,258 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-01 21:33:18,259 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-01 21:33:18,259 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 45
+2022-07-01 21:33:18,273 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-01 21:33:18,273 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-01 21:33:18,273 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-01 21:33:18,273 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-01 21:33:18,273 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-01 21:33:18,273 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 34
+2022-07-01 21:33:18,275 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - Left eye
+2022-07-01 21:33:18,311 - root - INFO - rectangle_frame_image.py - __init__ : 20 - rectangle 2
+2022-07-01 21:33:18,337 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - Right eye
+2022-07-01 21:33:18,343 - root - INFO - rectangle_frame_image.py - __init__ : 20 - rectangle 2
+2022-07-01 21:33:18,363 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - Mouths
+2022-07-01 21:33:18,370 - root - INFO - rectangle_frame_image.py - __init__ : 20 - rectangle 2
+2022-07-01 21:33:26,660 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-07-01 21:33:26,660 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-07-01 21:33:26,660 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-07-01 21:33:26,660 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-07-01 21:33:26,660 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-07-01 21:33:26,660 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 45
+2022-07-01 21:33:32,943 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-07-01 21:33:32,977 - root - INFO - sequences_manager_widget.py - __init__ : 43 - 
+2022-07-01 21:33:32,979 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-07-01 21:33:33,012 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-01 21:33:33,013 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-07-01 21:33:33,017 - root - INFO - rectangle_frame_text.py - __init__ : 19 - rectangle text
+2022-07-01 21:33:33,017 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-07-01 21:33:33,022 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-07-01 21:33:33,028 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/audios/applause.mp3
+2022-07-01 21:33:33,087 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/applause.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-07-01 21:33:33,165 - root - INFO - sound_object.py - get_duration : 85 - duration : 8.002854166666667
