@@ -336,5 +336,97 @@
                 87
             ]
         ]
+    },
+    {
+        "name": "test",
+        "duration": 150,
+        "left_eyes": [
+            [
+                "oeil-gauche.png",
+                5
+            ],
+            [
+                "oeil-droit.png",
+                16
+            ],
+            [
+                "oeil-fixe.png",
+                35
+            ],
+            [
+                "oeil-gauche.png",
+                53
+            ]
+        ],
+        "right_eyes": [
+            [
+                "oeil-gauche.png",
+                11
+            ],
+            [
+                "oeil-droit.png",
+                30
+            ],
+            [
+                "oeil-gauche.png",
+                56
+            ]
+        ],
+        "mouths": [
+            [
+                "bouche-ouvert1.png",
+                8
+            ],
+            [
+                "bouche-ouvert2.png",
+                25
+            ],
+            [
+                "bouche-ferme.png",
+                41
+            ]
+        ]
+    },
+    {
+        "name": "test2",
+        "duration": 10,
+        "left_eyes": [
+            [
+                "oeil-gauche.png",
+                0.333
+            ],
+            [
+                "oeil-droit.png",
+                0.601
+            ],
+            [
+                "oeil-fixe.png",
+                1.0
+            ]
+        ],
+        "right_eyes": [
+            [
+                "oeil-droit.png",
+                0.461
+            ],
+            [
+                "oeil-fixe.png",
+                1.0
+            ]
+        ],
+        "mouths": [
+            [
+                "bouche-ouvert2.png",
+                0.342
+            ],
+            [
+                "bouche-ferme.png",
+                0.708
+            ],
+            [
+                "bouche-ouvert1.png",
+                1.0
+            ]
+        ]
     }
 ]

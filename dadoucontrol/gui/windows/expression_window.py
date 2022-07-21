@@ -9,9 +9,10 @@ from dadoucontrol.gui.gui_utils import GuiUtils
 from dadoucontrol.gui.visuals_object.visual_eye import VisualEye
 from dadoucontrol.gui.visuals_object.visual_mouth import VisualMouth
 from dadoucontrol.gui.windows.frames.abstract.rectangle_frame_image import RectangleFrameImage
+from dadoucontrol.gui.windows.frames.timeline_frame import TimeLineFrame
 from dadoucontrol.gui.windows.frames.widgets.galley_widget import GalleryWidget
 from dadoucontrol.gui.windows.frames.abstract.rectangle_frame import RectangleFrame
-
+from dadoucontrol.gui.windows.frames.widgets.image_observer_feedback import ImageObserverFeedBack
 
 
 class ExpressionFrame(tk.Frame):
@@ -28,16 +29,19 @@ class ExpressionFrame(tk.Frame):
         GalleryWidget(left_menu, VisualMouth('truc'), 6, width=150, height=800).grid(row=0, column=2, columnspan=2)
 
         top_frame = tk.Frame(self, width=800, bg='blue')
-        top_canvas = tk.Canvas(top_frame, height=300, bg='purple')
-        top_canvas.grid(row=0, column=0, rowspan=5, columnspan=5)
+        self.top_canvas = tk.Canvas(top_frame, height=300, bg='purple')
+        self.top_canvas.grid(row=0, column=0, rowspan=5, columnspan=5)
 
-        self.right_eye = GuiUtils.set_image(top_canvas, 10, 10, VisualEye.TYPE, 'oeil-droit.png', 10)
-        self.lef_eye = GuiUtils.set_image(top_canvas, 210, 10, VisualEye.TYPE, 'oeil-gauche.png', 10)
-        self.mouth = GuiUtils.set_image(top_canvas, 30, 120, VisualMouth.TYPE, 'bouche-ferme.png', 10)
+        #self.right_eye = GuiUtils.set_image(top_canvas, 10, 10, VisualEye.TYPE, 'oeil-droit.png', 10)
+        #self.lef_eye = GuiUtils.set_image(top_canvas, 210, 10, VisualEye.TYPE, 'oeil-gauche.png', 10)
+        #self.mouth = GuiUtils.set_image(top_canvas, 30, 120, VisualMouth.TYPE, 'bouche-ferme.png', 10)
 
-        tk.Button(top_frame, text='play', ).grid(row=1, column=6, padx=10)
-        tk.Button(top_frame, text='pause').grid(row=1, column=7, padx=10)
-        tk.Button(top_frame, text='stop').grid(row=1, column=8, padx=10)
+        play_button = tk.Button(top_frame, text='play')
+        play_button.grid(row=1, column=6, padx=10)
+        pause_button = tk.Button(top_frame, text='pause')
+        pause_button.grid(row=1, column=7, padx=10)
+        stop_button = tk.Button(top_frame, text='stop')
+        stop_button.grid(row=1, column=8, padx=10)
         tk.Button(top_frame, text='loop').grid(row=1, column=9, padx=10)
 
         tk.Label(top_frame, text='length', width=5).grid(row=2, column=6)
@@ -66,17 +70,30 @@ class ExpressionFrame(tk.Frame):
 
         top_frame.pack(fill='x', side='top')
 
+        self.time_line = TimeLineFrame(self)
+        play_button.configure(command=self.time_line.play)
+        pause_button.configure(command=self.time_line.pause)
+        stop_button.configure(command=self.time_line.stop)
+
         self.right_eye_frame = RectangleFrameImage(self, VisualEye.TYPE, 'Left eye', 'yellow')
         self.left_eye_frame = RectangleFrameImage(self, VisualEye.TYPE, 'Right eye', 'orange')
         self.mouth_frame = RectangleFrameImage(self, VisualMouth.TYPE, 'Mouths', 'red')
+
+        self.right_eye_observer = ImageObserverFeedBack(self.top_canvas, self.right_eye_frame, 10, 10, VisualEye.TYPE)
+        self.left_eye_observer = ImageObserverFeedBack(self.top_canvas, self.left_eye_frame, 210, 10, VisualEye.TYPE)
+        self.mouth_observer = ImageObserverFeedBack(self.top_canvas, self.mouth_frame, 30, 120, VisualMouth.TYPE)
 
         self.load_listbox()
 
     def increment(self):
         self.expression_duration.set(str(int(self.expression_duration.get())+1))
+        self.time_line.duration = int(self.expression_duration.get())
+        ExpressionDuration.value = int(self.expression_duration.get())
 
     def decrement(self):
         self.expression_duration.set(str(int(self.expression_duration.get())-1))
+        self.time_line.duration = int(self.expression_duration.get())
+        ExpressionDuration.value = int(self.expression_duration.get())
 
     def load_listbox(self):
         expressions = ControlFactory().control_json_manager.get_expressions()
@@ -112,6 +129,7 @@ class ExpressionFrame(tk.Frame):
         expression = ControlFactory().control_json_manager.get_expressions_name(name)
         ExpressionDuration.value = expression['duration']
         self.expression_duration.set(ExpressionDuration.value)
+        self.time_line.duration = int(self.expression_duration.get())
         self.right_eye_frame.load(expression['left_eyes'])
         self.left_eye_frame.load(expression['right_eyes'])
         self.mouth_frame.load(expression['mouths'])
