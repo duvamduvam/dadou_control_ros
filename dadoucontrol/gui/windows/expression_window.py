@@ -17,6 +17,8 @@ from dadoucontrol.gui.windows.frames.widgets.image_observer_feedback import Imag
 
 class ExpressionFrame(tk.Frame):
 
+    current_mouse_pos = None
+
     def __init__(self, parent, *args, **kwargs):
 
         tk.Frame.__init__(self, parent, *args, **kwargs)
@@ -59,6 +61,10 @@ class ExpressionFrame(tk.Frame):
         self.new_expression_name = tk.Text(top_frame, width=10, height=1)
         self.new_expression_name.grid(row=4, column=6, padx=10)
 
+        self.current_mouse_pos = tk.StringVar()
+        current_mouse_pos_label = tk.Label(top_frame, textvariable=self.current_mouse_pos)
+        current_mouse_pos_label.grid(row=4, column=7, columnspan=2)
+
         self.current_expression_name = tk.StringVar()
         current_expression_label = tk.Label(top_frame, textvariable=self.current_expression_name)
         current_expression_label.grid(row=4, column=8, columnspan=2)
@@ -84,6 +90,20 @@ class ExpressionFrame(tk.Frame):
         self.mouth_observer = ImageObserverFeedBack(self.top_canvas, self.mouth_frame, 30, 120, VisualMouth.TYPE)
 
         self.load_listbox()
+        self.top_canvas.update()
+        self.mouse_pos()
+
+    def mouse_pos(self):
+        canvas_root_pos = self.right_eye_frame.winfo_rootx()
+        canvas_width = self.right_eye_frame.winfo_width()
+        x = self.winfo_pointerx() - canvas_root_pos
+        #self.time_pos = ((e.x_root - self.canvas_root_x)/self.canvas.winfo_width())*ExpressionDuration.value
+        duration = int(self.expression_duration.get())
+        if duration != 0 and x >= 0:
+            time_pos = round((x/canvas_width)*duration, 2)
+            self.current_mouse_pos.set(str(time_pos))
+
+        self.after(100, self.mouse_pos)
 
     def increment(self):
         self.expression_duration.set(str(int(self.expression_duration.get())+1))
@@ -118,7 +138,7 @@ class ExpressionFrame(tk.Frame):
     def save(self):
         ControlFactory().control_json_manager.save_expressions(
             self.current_expression_name.get(),
-            ExpressionDuration.value,
+                ExpressionDuration.value,
             self.right_eye_frame.export(),
             self.left_eye_frame.export(),
             self.mouth_frame.export()
