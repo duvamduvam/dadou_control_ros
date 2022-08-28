@@ -11,7 +11,7 @@ class SerialDeviceManager:
     #TODO use config
 
     gloveLeftId = SerialDevice.USB_ID_PATH + "usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00"
-    gloveLeft = SerialDevice(gloveLeftId)
+    gloveLeft = SerialDevice('glove left', gloveLeftId)
 
     context = pyudev.Context()
     monitor = pyudev.Monitor.from_netlink(context)

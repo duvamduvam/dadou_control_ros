@@ -44,11 +44,3 @@ class SequenceFrame(tk.Frame):
         top.title("Child Window")
         tk.Label(top, text="Hello World!", font=('Mistral 18 bold')).place(x=150, y=80)
 
-    def load(self):
-        name = self.current_expression_name.get()
-        expression = ControlFactory().control_json_manager.get_expressions_name(name)
-        ExpressionDuration.value= expression['duration']
-        self.expression_duration.set(ExpressionDuration.value)
-        self.right_eye_frame.load(expression['left_eyes'])
-        self.left_eye_frame.load(expression['right_eyes'])
-        self.mouth_frame.load(expression['mouths'])

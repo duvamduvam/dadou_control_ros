@@ -58,21 +58,28 @@ class ExpressionFrame(tk.Frame):
         tk.Button(top_frame, text='new', command=self.add).grid(row=3, column=8, padx=10)
         tk.Button(top_frame, text='delete', command=self.delete).grid(row=3, column=9, padx=10)
 
-        self.new_expression_name = tk.Text(top_frame, width=10, height=1)
-        self.new_expression_name.grid(row=4, column=6, padx=10)
+        self.expression_name = tk.Text(top_frame, width=10, height=1)
+        self.expression_name.grid(row=4, column=6, padx=10)
 
         self.current_mouse_pos = tk.StringVar()
         current_mouse_pos_label = tk.Label(top_frame, textvariable=self.current_mouse_pos)
         current_mouse_pos_label.grid(row=4, column=7, columnspan=2)
 
-        self.current_expression_name = tk.StringVar()
-        current_expression_label = tk.Label(top_frame, textvariable=self.current_expression_name)
-        current_expression_label.grid(row=4, column=8, columnspan=2)
-
         self.expressions_var = tk.StringVar()
         self.expression_list = tk.Listbox(top_frame, listvariable=self.expressions_var, height=16)
         self.expression_list.grid(row=1, column=10, rowspan=4)
         self.expression_list.bind('<<ListboxSelect>>', self.select_expression)
+
+        self.loop = tk.StringVar()
+        self.loop.set('0')
+        c1 = tk.Checkbutton(top_frame, text='loop', variable=self.loop, onvalue=1, offvalue=0)
+        c1.grid(row=1, column=11, columnspan=2)
+
+        keys_label = tk.Label(top_frame, text='keys', padx=10)
+        keys_label.grid(row=1, column=14, padx=10)
+
+        self.keys_txt = tk.Text(top_frame, width=10, height=1)
+        self.keys_txt.grid(row=1, column=15, columnspan=2, padx=10)
 
         top_frame.pack(fill='x', side='top')
 
@@ -92,6 +99,7 @@ class ExpressionFrame(tk.Frame):
         self.load_listbox()
         self.top_canvas.update()
         self.mouse_pos()
+
 
     def mouse_pos(self):
         canvas_root_pos = self.right_eye_frame.winfo_rootx()
@@ -123,43 +131,51 @@ class ExpressionFrame(tk.Frame):
         self.expressions_var.set(results)
 
     def add(self):
-        new_name = self.new_expression_name.get("1.0", 'end-1c')
-        self.current_expression_name.set(new_name)
+        new_name = self.expression_name.get("1.0", 'end-1c')
+        self.expression_name.delete('1.0', tk.END)
+        self.expression_name.insert(tk.END, new_name)
         self.save()
         self.load_listbox()
         #logging.info('add new expression')
 
     def delete(self):
-        name = self.current_expression_name.get()
+        name = self.expression_name.get(1.0, 'end-1c')
         logging.info('delete expression '.format(name))
         ControlFactory().control_json_manager.delete_expression(name)
         self.load_listbox()
 
     def save(self):
         ControlFactory().control_json_manager.save_expressions(
-            self.current_expression_name.get(),
-                ExpressionDuration.value,
+            self.expression_name.get(1.0, 'end-1c'),
+            ExpressionDuration.value,
+            self.loop.get(),
+            self.keys_txt.get(1.0, 'end-1c'),
             self.right_eye_frame.export(),
             self.left_eye_frame.export(),
             self.mouth_frame.export()
         )
 
     def load(self):
-        name = self.current_expression_name.get()
+        name = self.expression_name.get(1.0, 'end-1c')
         expression = ControlFactory().control_json_manager.get_expressions_name(name)
         ExpressionDuration.value = expression['duration']
         self.expression_duration.set(ExpressionDuration.value)
         self.time_line.duration = int(self.expression_duration.get())
+        self.loop.set(expression['loop'])
+        self.keys_txt.delete('1.0', tk.END)
+
+        self.keys_txt.insert("end-1c", expression['keys'])
         self.right_eye_frame.load(expression['left_eyes'])
         self.left_eye_frame.load(expression['right_eyes'])
         self.mouth_frame.load(expression['mouths'])
 
     def select_expression(self, e):
         w = e.widget
-        if(len(w.curselection())>0):
+        if len(w.curselection()) > 0:
             index = int(w.curselection()[0])
             value = w.get(index)
-            self.current_expression_name.set(value)
+            self.expression_name.delete('1.0', tk.END)
+            self.expression_name.insert(tk.END, value)
         else:
             logging.error("no line selected")
 

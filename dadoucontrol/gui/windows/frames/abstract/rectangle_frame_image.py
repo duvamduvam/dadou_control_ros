@@ -7,7 +7,6 @@ from dadoucontrol.files.file_manager import FileManager
 from dadoucontrol.gui.gui_utils import GuiUtils
 from dadoucontrol.gui.windows.expression_window import ExpressionDuration
 from dadoucontrol.gui.windows.frames.abstract.abstract_sequence_frame import AbstractSequenceFrame
-from dadoucontrol.gui.windows.frames.abstract.expression_frame import ExpressionFrame
 from dadoucontrol.gui.windows.frames.timeline_frame import TimeLineFrame
 
 
@@ -28,8 +27,6 @@ class RectangleFrameImage(AbstractSequenceFrame):
         self.current_image_index = 0
         self.rectangle_index = 0
         self.time_pos = 0
-
-        #self.mouse_pos()
 
     def create_rectangle(self, x1, x2):
         rectangle_canvas = tk.Canvas(self.canvas, width=x2-x1, bg=self.random_color())
@@ -102,10 +99,6 @@ class RectangleFrameImage(AbstractSequenceFrame):
         logging.debug("resize {}".format(e.x))
         self.resize(rectangle, e.x, e.x_root)
 
-
-
-
-
     def scroll_item(self, e):
         rectangle = self.find_canvas_rectangle(e.widget)
         rectangle.canvas_rectangle.delete(rectangle.image)
@@ -130,6 +123,7 @@ class RectangleFrameImage(AbstractSequenceFrame):
         return result
 
     def load(self, datas):
+        self.clean()
         for data in datas:
             image_name = data[0]
             pos = data[1]
@@ -139,6 +133,12 @@ class RectangleFrameImage(AbstractSequenceFrame):
             rectangle.image = image
             rectangle.image_name = image_name
             #rectangle.time = time
+
+    def clean(self):
+        for rectangle in self.rectangles:
+            rectangle.canvas_rectangle.destroy()
+        self.rectangles = []
+        self.lastX = 0
 
     def resize(self, rectangle, width, x_pos):
         x_pos = x_pos - self.canvas_root_x

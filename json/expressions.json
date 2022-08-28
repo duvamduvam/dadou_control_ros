@@ -1,395 +1,12 @@
 [
     {
-        "name": "toto",
-        "duration": 150,
-        "left_eyes": [
-            [
-                "oeil-gauche.png",
-                7
-            ],
-            [
-                "oeil-gauche.png",
-                47
-            ],
-            [
-                "oeil-fixe.png",
-                97
-            ],
-            [
-                "oeil-gauche.png",
-                109
-            ],
-            [
-                "oeil-gauche.png",
-                124
-            ]
-        ],
-        "right_eyes": [
-            [
-                "oeil-droit.png",
-                17
-            ],
-            [
-                "oeil-droit.png",
-                47
-            ],
-            [
-                "oeil-gauche.png",
-                67
-            ],
-            [
-                "oeil-droit.png",
-                97
-            ]
-        ],
-        "mouths": [
-            [
-                "bouche-ouvert1.png",
-                12
-            ],
-            [
-                "bouche-ferme.png",
-                37
-            ],
-            [
-                "bouche-ouvert3.png",
-                57
-            ],
-            [
-                "bouche-ferme.png",
-                87
-            ]
-        ]
-    },
-    {
-        "name": "voila",
-        "duration": 150,
-        "left_eyes": [
-            [
-                "oeil-gauche.png",
-                6
-            ],
-            [
-                "oeil-gauche.png",
-                46
-            ],
-            [
-                "oeil-fixe.png",
-                96
-            ],
-            [
-                "oeil-gauche.png",
-                108
-            ],
-            [
-                "oeil-gauche.png",
-                123
-            ]
-        ],
-        "right_eyes": [
-            [
-                "oeil-droit.png",
-                16
-            ],
-            [
-                "oeil-droit.png",
-                46
-            ],
-            [
-                "oeil-gauche.png",
-                66
-            ],
-            [
-                "oeil-droit.png",
-                96
-            ]
-        ],
-        "mouths": [
-            [
-                "bouche-ouvert1.png",
-                11
-            ],
-            [
-                "bouche-ferme.png",
-                36
-            ],
-            [
-                "bouche-ouvert3.png",
-                56
-            ],
-            [
-                "bouche-ferme.png",
-                86
-            ]
-        ]
-    },
-    {
-        "name": "bored",
-        "duration": 150,
-        "left_eyes": [
-            [
-                "oeil-gauche.png",
-                7
-            ],
-            [
-                "oeil-gauche.png",
-                47
-            ],
-            [
-                "oeil-fixe.png",
-                97
-            ],
-            [
-                "oeil-gauche.png",
-                125
-            ],
-            [
-                "oeil-gauche.png",
-                6
-            ],
-            [
-                "oeil-gauche.png",
-                46
-            ],
-            [
-                "oeil-fixe.png",
-                96
-            ],
-            [
-                "oeil-gauche.png",
-                108
-            ],
-            [
-                "oeil-gauche.png",
-                123
-            ],
-            [
-                "oeil-gauche.png",
-                5
-            ],
-            [
-                "oeil-gauche.png",
-                45
-            ],
-            [
-                "oeil-fixe.png",
-                95
-            ],
-            [
-                "oeil-gauche.png",
-                107
-            ],
-            [
-                "oeil-gauche.png",
-                122
-            ],
-            [
-                "oeil-gauche.png",
-                7
-            ],
-            [
-                "oeil-gauche.png",
-                47
-            ],
-            [
-                "oeil-gauche.png",
-                125
-            ],
-            [
-                "oeil-gauche.png",
-                109
-            ],
-            [
-                "oeil-gauche.png",
-                109
-            ]
-        ],
-        "right_eyes": [
-            [
-                "oeil-droit.png",
-                17
-            ],
-            [
-                "oeil-droit.png",
-                47
-            ],
-            [
-                "oeil-gauche.png",
-                67
-            ],
-            [
-                "oeil-droit.png",
-                97
-            ],
-            [
-                "oeil-droit.png",
-                16
-            ],
-            [
-                "oeil-droit.png",
-                46
-            ],
-            [
-                "oeil-gauche.png",
-                66
-            ],
-            [
-                "oeil-droit.png",
-                96
-            ],
-            [
-                "oeil-droit.png",
-                15
-            ],
-            [
-                "oeil-droit.png",
-                45
-            ],
-            [
-                "oeil-gauche.png",
-                65
-            ],
-            [
-                "oeil-droit.png",
-                95
-            ],
-            [
-                "oeil-droit.png",
-                17
-            ],
-            [
-                "oeil-droit.png",
-                47
-            ],
-            [
-                "oeil-gauche.png",
-                67
-            ],
-            [
-                "oeil-droit.png",
-                97
-            ]
-        ],
-        "mouths": [
-            [
-                "bouche-ouvert1.png",
-                12
-            ],
-            [
-                "bouche-ferme.png",
-                37
-            ],
-            [
-                "bouche-ouvert3.png",
-                57
-            ],
-            [
-                "bouche-ferme.png",
-                87
-            ],
-            [
-                "bouche-ouvert1.png",
-                11
-            ],
-            [
-                "bouche-ferme.png",
-                36
-            ],
-            [
-                "bouche-ouvert3.png",
-                56
-            ],
-            [
-                "bouche-ferme.png",
-                86
-            ],
-            [
-                "bouche-ouvert1.png",
-                10
-            ],
-            [
-                "bouche-ferme.png",
-                35
-            ],
-            [
-                "bouche-ouvert3.png",
-                55
-            ],
-            [
-                "bouche-ferme.png",
-                85
-            ],
-            [
-                "bouche-ouvert1.png",
-                12
-            ],
-            [
-                "bouche-ferme.png",
-                37
-            ],
-            [
-                "bouche-ouvert3.png",
-                57
-            ],
-            [
-                "bouche-ferme.png",
-                87
-            ]
-        ]
-    },
-    {
-        "name": "test",
-        "duration": 150,
-        "left_eyes": [
-            [
-                "oeil-gauche.png",
-                5
-            ],
-            [
-                "oeil-droit.png",
-                16
-            ],
-            [
-                "oeil-fixe.png",
-                35
-            ],
-            [
-                "oeil-gauche.png",
-                53
-            ]
-        ],
-        "right_eyes": [
-            [
-                "oeil-gauche.png",
-                11
-            ],
-            [
-                "oeil-droit.png",
-                30
-            ],
-            [
-                "oeil-gauche.png",
-                56
-            ]
-        ],
-        "mouths": [
-            [
-                "bouche-ouvert1.png",
-                8
-            ],
-            [
-                "bouche-ouvert2.png",
-                25
-            ],
-            [
-                "bouche-ferme.png",
-                41
-            ]
-        ]
-    },
-    {
-        "name": "test2",
+        "name": "test4",
         "duration": 10,
+        "loop": true,
+        "keys": [
+            "A5",
+            "default"
+        ],
         "left_eyes": [
             [
                 "oeil-gauche.png",
@@ -401,6 +18,104 @@
             ],
             [
                 "oeil-fixe.png",
+                1.0
+            ]
+        ],
+        "right_eyes": [
+            [
+                "oeil-droit.png",
+                0.461
+            ],
+            [
+                "oeil-fixe.png",
+                1.0
+            ]
+        ],
+        "mouths": [
+            [
+                "bouche-ouvert2.png",
+                0.342
+            ],
+            [
+                "bouche-ferme.png",
+                0.708
+            ],
+            [
+                "bouche-ouvert1.png",
+                1.0
+            ]
+        ]
+    },
+    {
+        "name": "test5",
+        "duration": 10,
+        "loop": true,
+        "keys": [
+            "A6",
+            "default"
+        ],
+        "left_eyes": [
+            [
+                "oeil-gauche.png",
+                0.333
+            ],
+            [
+                "oeil-droit.png",
+                0.601
+            ],
+            [
+                "oeil-fixe.png",
+                1.0
+            ]
+        ],
+        "right_eyes": [
+            [
+                "oeil-droit.png",
+                0.461
+            ],
+            [
+                "oeil-fixe.png",
+                1.0
+            ]
+        ],
+        "mouths": [
+            [
+                "bouche-ouvert2.png",
+                0.342
+            ],
+            [
+                "bouche-ferme.png",
+                0.708
+            ],
+            [
+                "bouche-ouvert1.png",
+                1.0
+            ]
+        ]
+    },
+    {
+        "name": "test6",
+        "duration": 15,
+        "loop": false,
+        "keys": [
+            "A8",
+            "A10"
+        ],
+        "left_eyes": [
+            [
+                "oeil-gauche.png",
+                0.069
+            ],
+            [
+                "oeil-gauche.png",
+                0.168
+            ],
+            [
+                "oeil-gauche.png",
+                0.333
+            ],
+            [
+                "oeil-gauche.png",
                 1.0
             ]
         ],

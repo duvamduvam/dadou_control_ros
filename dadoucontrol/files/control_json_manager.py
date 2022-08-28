@@ -1,7 +1,9 @@
+import distutils
 import json
 import logging
 
 import jsonpath_rw_ext
+from dadou_utils.misc import Misc
 
 from dadoucontrol.control_static import ControlStatic
 from dadou_utils.files.abstract_json_manager import AbstractJsonManager
@@ -46,10 +48,11 @@ class ControlJsonManager(AbstractJsonManager):
         with open(self.json_folder+ControlStatic.EXPRESSIONS_FILE, 'w') as outfile:
             json.dump(expressions, outfile, indent=4)
 
-    def save_expressions(self, name, duration, left_eyes, right_eyes, mouths):
+    def save_expressions(self, name, duration, loop, keys, left_eyes, right_eyes, mouths):
         expressions = self.open_json(ControlStatic.EXPRESSIONS_FILE, 'r')
         self.delete_item(expressions, name)
-        expressions.append({"name": name, "duration": duration, "left_eyes": left_eyes, "right_eyes": right_eyes, "mouths": mouths})
+        expressions.append({"name": name, "duration": duration, "loop": Misc.to_bool(loop), "keys": Misc.convert_to_array(keys),
+                            "left_eyes": left_eyes, "right_eyes": right_eyes, "mouths": mouths})
         with open(self.json_folder+ControlStatic.EXPRESSIONS_FILE, 'w') as outfile:
             json.dump(expressions, outfile, indent=4)
         #expressions_w = self.open_json(ControlStatic.EXPRESSIONS_FILE, 'w')
