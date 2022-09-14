@@ -1,100 +1,57 @@
 {
-    "length": "192.49",
-    "audio_name": "Annie Cordy Tata Yoyo Archive INA.mp3",
+    "length": "8.0",
+    "audio_name": "applause.mp3",
     "audio_path": "/home/dadou/Nextcloud/Didier/audios/",
     "faces": [
         [
-            0.0,
-            "bored"
+            0.167,
+            "test6"
         ],
         [
-            0.0,
-            "bored"
+            0.474,
+            "test5"
         ],
         [
-            0.0,
-            "bored"
+            0.706,
+            "test5"
         ],
         [
-            0.0,
-            "bored"
-        ],
-        [
-            0.0,
-            "bored"
-        ],
-        [
-            0.0,
-            "bored"
-        ],
-        [
-            0.0,
-            "bored"
-        ],
-        [
-            0.0,
-            "bored"
-        ],
-        [
-            0.0,
-            "bored"
-        ],
-        [
-            0.0,
-            "bored"
-        ],
-        [
-            0.11,
-            "bored"
+            1.0,
+            "test4"
         ]
     ],
     "lights": [
         [
-            0.0,
+            0.2,
             "toto"
         ],
         [
-            0.0,
-            "toto"
+            0.5,
+            "tutu"
         ],
         [
-            0.0,
-            "toto"
-        ],
-        [
-            0.0,
-            "toto"
-        ],
-        [
-            0.0,
-            "toto"
-        ],
-        [
-            0.0,
-            "toto"
-        ],
-        [
-            0.0,
-            "toto"
-        ],
-        [
-            0.0,
-            "toto"
-        ],
-        [
-            0.0,
-            "toto"
-        ],
-        [
-            0.0,
-            "toto"
-        ],
-        [
-            0.17,
-            "toto"
+            1.0,
+            "titi"
         ]
     ],
-    "necks": [],
+    "necks": [
+        [
+            0.2,
+            0.82
+        ],
+        [
+            0.28,
+            0.36
+        ],
+        [
+            0.34,
+            0.11
+        ],
+        [
+            0.53,
+            0.44
+        ]
+    ],
     "wheels": [
         [
             0.1,
@@ -115,6 +72,11 @@
             0.4,
             0.0,
             -0.89
+        ],
+        [
+            0.84,
+            0.78,
+            0.0
         ]
     ]
 }

@@ -2,9 +2,7 @@ import logging
 import tkinter as tk
 
 from dadoucontrol.control_factory import ControlFactory
-from dadoucontrol.gui.expression_duration import ExpressionDuration
-from dadoucontrol.gui.windows.frames.abstract.rectangle_frame import RectangleFrame
-from dadoucontrol.gui.windows.frames.abstract.rectangle_frame_text import RectangleFrameText
+from dadoucontrol.gui.windows.frames.abstract.rectangle_text import RectangleText2
 from dadoucontrol.gui.windows.frames.music_frame import MusicFrame
 from dadoucontrol.gui.windows.frames.widgets.navigation_widget import NavigationWidget
 from dadoucontrol.gui.windows.frames.neck_frame import NeckFrame
@@ -17,8 +15,8 @@ class SequenceFrame(tk.Frame):
 
     current_position = 0
 
-    def __init__(self, parent):
-        tk.Frame.__init__(self, parent, bg='grey')
+    def __init__(self, parent, *args, **kwargs):
+        tk.Frame.__init__(self, parent, bg='grey', *args, **kwargs)
         self.pack(fill='both', expand=True, side='top')
 
         self.left_menu = tk.Frame(self, bg='blue', width=100)
@@ -30,9 +28,9 @@ class SequenceFrame(tk.Frame):
         sequence_widget = SequencesManagerWidget(self, self.left_menu, music_frame)
 
         expressions = ControlFactory().control_json_manager.get_expressions_names()
-        self.faces_frame = RectangleFrameText(self, 'face', 'green', expressions)
+        self.faces_frame = RectangleText2(self, 'face', 'green', expressions)
         lights = ControlFactory().control_json_manager.get_lights()
-        self.lights_frame = RectangleFrameText(self, 'lights', 'yellow', lights)
+        self.lights_frame = RectangleText2(self, 'lights', 'yellow', lights)
         self.neck_frame = NeckFrame(self, 'orange')
         self.wheels_frame = WheelsFrame(self, 'violet')
 

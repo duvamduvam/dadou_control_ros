@@ -89,17 +89,8 @@ class SequencesManagerWidget(tk.Frame):
         display_data = self.sequence_manager.audio_segment.get_audio_data_display(self.music_frame.winfo_width())
         self.music_frame.load_audio(display_data)
 
-        x_face = 0
-        self.parent.faces_frame.clear()
-        for face in self.sequence_manager.get_parts("faces"):
-            self.parent.faces_frame.create_rectangle_json(x_face, face[0], face[1])
-            x_face = face[0]
-
-        x_lights = 0
-        self.parent.lights_frame.clear()
-        for light in self.sequence_manager.get_parts("lights"):
-            self.parent.lights_frame.create_rectangle_json(x_lights, light[0], light[1])
-            x_lights = light[0]
+        self.parent.faces_frame.load(self.sequence_manager.get_parts("faces"))
+        self.parent.lights_frame.load(self.sequence_manager.get_parts("lights"))
 
         self.parent.neck_frame.clear()
         for neck in self.sequence_manager.get_parts("necks"):

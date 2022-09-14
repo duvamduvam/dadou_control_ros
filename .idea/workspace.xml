@@ -2,19 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e737f4f3-4117-4ba7-a7c5-4eb5247e9199" name="Changes" comment="expression frame working">
-      <change afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/lights_window.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/remote_window.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_abstract.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/com/serial_device_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/com/serial_device_manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/files/control_json_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/files/control_json_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/tkinter_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/tkinter_gui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/expression_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/expression_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_frame_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_frame_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_frame_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_frame_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/sequences_manager_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/sequences_manager_widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/lights_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/lights_window.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/sequence_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/sequence_window.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/json/expressions.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/expressions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/lights.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/lights.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/json/sequences/seq1.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/seq1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/seq2.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/seq2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/seq3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/seq4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/seq5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/truc.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/control.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/control.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661681102961</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="expression frame working">
+      <created>1661681356988</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661681356988</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +291,41 @@
           <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_frame.py</url>
           <line>23</line>
           <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadoucontrol/files/control_json_manager.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_image.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_image.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_abstract.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_text.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/lights_window.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/lights_window.py</url>
+          <line>153</line>
+          <option name="timeStamp" value="184" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

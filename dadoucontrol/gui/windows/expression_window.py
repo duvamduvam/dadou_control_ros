@@ -1,17 +1,13 @@
 import logging
 import tkinter as tk
 
-from dadou_utils.singleton import SingletonMeta
-
 from dadoucontrol.control_factory import ControlFactory
 from dadoucontrol.gui.expression_duration import ExpressionDuration
-from dadoucontrol.gui.gui_utils import GuiUtils
 from dadoucontrol.gui.visuals_object.visual_eye import VisualEye
 from dadoucontrol.gui.visuals_object.visual_mouth import VisualMouth
-from dadoucontrol.gui.windows.frames.abstract.rectangle_frame_image import RectangleFrameImage
+from dadoucontrol.gui.windows.frames.abstract.rectangle_image import RectangleImage
 from dadoucontrol.gui.windows.frames.timeline_frame import TimeLineFrame
 from dadoucontrol.gui.windows.frames.widgets.galley_widget import GalleryWidget
-from dadoucontrol.gui.windows.frames.abstract.rectangle_frame import RectangleFrame
 from dadoucontrol.gui.windows.frames.widgets.image_observer_feedback import ImageObserverFeedBack
 
 
@@ -20,7 +16,6 @@ class ExpressionFrame(tk.Frame):
     current_mouse_pos = None
 
     def __init__(self, parent, *args, **kwargs):
-
         tk.Frame.__init__(self, parent, *args, **kwargs)
         self.pack(fill='both', expand=True, side='top')
 
@@ -88,9 +83,9 @@ class ExpressionFrame(tk.Frame):
         pause_button.configure(command=self.time_line.pause)
         stop_button.configure(command=self.time_line.stop)
 
-        self.right_eye_frame = RectangleFrameImage(self, VisualEye.TYPE, 'Left eye', 'yellow')
-        self.left_eye_frame = RectangleFrameImage(self, VisualEye.TYPE, 'Right eye', 'orange')
-        self.mouth_frame = RectangleFrameImage(self, VisualMouth.TYPE, 'Mouths', 'red')
+        self.right_eye_frame = RectangleImage(self, VisualEye.TYPE, 'Left eye', 'yellow')
+        self.left_eye_frame = RectangleImage(self, VisualEye.TYPE, 'Right eye', 'orange')
+        self.mouth_frame = RectangleImage(self, VisualMouth.TYPE, 'Mouths', 'red')
 
         self.right_eye_observer = ImageObserverFeedBack(self.top_canvas, self.right_eye_frame, 10, 10, VisualEye.TYPE)
         self.left_eye_observer = ImageObserverFeedBack(self.top_canvas, self.left_eye_frame, 210, 10, VisualEye.TYPE)
