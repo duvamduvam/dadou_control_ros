@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e737f4f3-4117-4ba7-a7c5-4eb5247e9199" name="Changes" comment="light management">
-      <change afterPath="$PROJECT_DIR$/json/lights_base.json" afterDir="false" />
+    <list default="true" id="e737f4f3-4117-4ba7-a7c5-4eb5247e9199" name="Changes" comment="update json structure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/control_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/control_static.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/files/control_json_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/files/control_json_manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/lights_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/lights_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/lights.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/lights.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/control.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/control.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -233,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663188083911</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update json structure">
+      <created>1663276847157</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663276847157</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +264,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="i don't know ..." />
     <MESSAGE value="expression frame working" />
-    <option name="LAST_COMMIT_MESSAGE" value="expression frame working" />
+    <MESSAGE value="update json structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="update json structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -289,7 +297,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/dadoucontrol/files/control_json_manager.py</url>
-          <line>70</line>
+          <line>62</line>
           <option name="timeStamp" value="146" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -311,6 +319,11 @@
           <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_text.py</url>
           <line>56</line>
           <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/lights_window.py</url>
+          <line>156</line>
+          <option name="timeStamp" value="192" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
