@@ -11,7 +11,7 @@ from dadoucontrol.control_factory import ControlFactory
 
 class LightsFrame(tk.Frame):
     def __init__(self, parent, *args, **kwargs):
-        json_manager = ControlFactory().control_json_manager
+        self.json_manager = ControlFactory().control_json_manager
 
         tk.Frame.__init__(self, parent, *args, **kwargs)
         self.pack(fill='both', expand=True, side='top')
@@ -30,11 +30,11 @@ class LightsFrame(tk.Frame):
         self.text_add.grid(row=2, column=1)
         self.delete_lights_button = tk.Button(self.right_lights_control, text="delete")
         self.delete_lights_button.grid(row=3, column=1)
-        self.save_lights_button = tk.Button(self.right_lights_control, text="save")
+        self.save_lights_button = tk.Button(self.right_lights_control, command=self.save_light, text="save")
         self.save_lights_button.grid(row=4, column=1)
 
         self.lights_names = tk.StringVar()
-        self.lights_values = json_manager.get_lights_elements()
+        self.lights_values = self.json_manager.get_lights_elements()
         self.get_light_names(self.lights_values)
         self.lights_list = tk.Listbox(self.right_lights_control, listvariable=self.lights_names, height=10)
         self.lights_list.grid(row=1, column=2, rowspan=4)
@@ -69,7 +69,7 @@ class LightsFrame(tk.Frame):
         self.colorwheel_offset_scale = self.create_scale('colorwheel offset', 3, 9, 0, 1, 200, 1, 1)
         self.background_brightness_scale = self.create_scale('background brightness', 4, 9, 0, 1, 200, 0.01, 0.2)
 
-        self.lights_base = json_manager.get_lights_base()
+        self.lights_base = self.json_manager.get_lights_base()
         self.lights_base_names = tk.StringVar()
         self.get_base_names(self.lights_base) #json_manager.get_lights_base()
         self.lights_base_listbox = tk.Listbox(left_menu, listvariable=self.lights_base_names, height=16)
@@ -83,11 +83,11 @@ class LightsFrame(tk.Frame):
         for var in all_vars:
             if var.__contains__('_scale'):
                 scale = getattr(self, var)
-                if scale.cget('state') == ACTIVE:
+                if scale.cget('state') == ACTIVE and 'color' not in var:
                     scale_params[var.replace('_scale', '')] = scale.get()
 
-        #self.lights_values[self.name_light_label.get()] =
-
+        self.lights_values.append(scale_params)
+        self.json_manager.save_lights(self.lights_values)
         logging.info('truc')
 
     def select_base(self, evt):

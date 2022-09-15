@@ -13,7 +13,8 @@ class ControlJsonManager(AbstractJsonManager):
 
     def __init__(self, base_folder, json_folder, config_file):
         super().__init__(base_folder, json_folder, config_file)
-        self.lights = self.open_json(ControlStatic.LIGHTS_FILE, 'r')
+        self.lights_base = self.open_json(ControlStatic.LIGHTS_BASE_FILE, 'r')
+        #self.lights = self.open_json(ControlStatic.LIGHTS_FILE, 'r')
         #self.expressions = self.open_json(ControlStatic.EXPRESSIONS_FILE, 'r')
 
     def get_config(self):
@@ -36,21 +37,23 @@ class ControlJsonManager(AbstractJsonManager):
         return expressions_names
 
     def get_lights(self):
-        return self.lights['lights']
+        lights = self.open_json(ControlStatic.LIGHTS_FILE, 'r')
+        return lights['lights']
 
     def get_lights_base(self):
         #bases = self.lights['base']
         #return_values = []
         #for base in bases:
         #    return_values.append(base['name'])
-        return self.lights['base']
+        return self.lights_base['base']
 
     def get_lights_elements(self):
         #bases = self.lights['base']
         #return_values = []
         #for base in bases:
         #    return_values.append(base['name'])
-        return self.lights['lights']
+        lights = self.open_json(ControlStatic.LIGHTS_FILE, 'r')
+        return lights['lights']
 
     def get_expressions_name(self, name):
         for result in self.open_json(ControlStatic.EXPRESSIONS_FILE, 'r'):
@@ -72,3 +75,10 @@ class ControlJsonManager(AbstractJsonManager):
             json.dump(expressions, outfile, indent=4)
         #expressions_w = self.open_json(ControlStatic.EXPRESSIONS_FILE, 'w')
         #expressions_w.write(expressions)
+
+    def save_lights(self, lights):
+        #lights = self.open_json(ControlStatic.LIGHTS_FILE, 'r')
+        with open(self.json_folder+ControlStatic.LIGHTS_FILE, 'w') as outfile:
+            json.dump(lights, outfile, indent=4)
+
+

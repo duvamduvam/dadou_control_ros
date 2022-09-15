@@ -1,30 +1,57 @@
-2022-09-09 13:39:48,501 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f21ce5e5880>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f21ce5e5880>>}
-2022-09-09 13:39:48,505 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-09-09 14:15:21,466 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fa2ea22b4f0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fa2ea22b4f0>>}
-2022-09-09 14:15:21,469 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-09-09 14:24:13,704 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fad9c046550>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fad9c046550>>}
-2022-09-09 14:24:13,707 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-09-09 14:24:58,908 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f4768929580>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f4768929580>>}
-2022-09-09 14:24:58,914 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-09-09 14:25:01,759 - root - INFO - misc.py - get_dict_value : 107 - truc
-2022-09-09 14:26:30,606 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fc5372df580>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fc5372df580>>}
-2022-09-09 14:26:30,610 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-09-09 14:26:33,935 - root - INFO - misc.py - get_dict_value : 107 - truc
-2022-09-09 14:31:47,673 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f26c9f29550>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f26c9f29550>>}
-2022-09-09 14:31:47,678 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-09-09 14:31:49,917 - root - INFO - misc.py - get_dict_value : 107 - truc
-2022-09-09 14:33:20,512 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f7ecd02c550>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f7ecd02c550>>}
-2022-09-09 14:33:20,517 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-09-09 14:33:24,404 - root - INFO - misc.py - get_dict_value : 107 - truc
-2022-09-09 14:33:50,700 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f262e1e0ac0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f262e1e0ac0>>}
-2022-09-09 14:33:50,702 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-09-09 14:33:52,914 - root - INFO - misc.py - get_dict_value : 107 - truc
-2022-09-09 14:33:53,458 - root - INFO - misc.py - get_dict_value : 107 - truc
-2022-09-09 14:33:54,627 - root - INFO - misc.py - get_dict_value : 107 - truc
-2022-09-09 14:33:55,825 - root - INFO - misc.py - get_dict_value : 107 - truc
-2022-09-09 14:33:56,530 - root - INFO - misc.py - get_dict_value : 107 - truc
-2022-09-09 14:33:57,018 - root - INFO - misc.py - get_dict_value : 107 - truc
-2022-09-09 14:33:58,402 - root - INFO - misc.py - get_dict_value : 107 - truc
-2022-09-09 14:41:09,563 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f889a6b0490>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f889a6b0490>>}
-2022-09-09 14:41:09,567 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-09-09 14:41:14,467 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 22:35:34,649 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f424d17a7c0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f424d17a7c0>>}
+2022-09-15 22:35:34,654 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-09-15 22:37:02,041 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f9bcc840490>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f9bcc840490>>}
+2022-09-15 22:37:02,044 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-09-15 22:37:06,125 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 22:37:15,269 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 22:39:15,747 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fc05aa464f0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fc05aa464f0>>}
+2022-09-15 22:39:15,751 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-09-15 22:39:24,948 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 22:39:25,871 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 22:41:19,008 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f3c92d0f4f0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f3c92d0f4f0>>}
+2022-09-15 22:41:19,012 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-09-15 22:41:22,338 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 22:42:15,374 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f77ea3944f0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f77ea3944f0>>}
+2022-09-15 22:42:15,378 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-09-15 22:42:18,628 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 22:45:02,812 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f3eeaa034f0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f3eeaa034f0>>}
+2022-09-15 22:45:02,817 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-09-15 22:45:06,556 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 22:45:33,659 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f04127b0550>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f04127b0550>>}
+2022-09-15 22:45:33,662 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-09-15 22:45:38,325 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 22:46:44,119 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f1d27108550>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f1d27108550>>}
+2022-09-15 22:46:44,123 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-09-15 22:46:47,820 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 22:47:20,560 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f49ad91f4f0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f49ad91f4f0>>}
+2022-09-15 22:47:20,564 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-09-15 22:47:24,710 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 22:47:26,101 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 22:48:21,557 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fafc3e87a60>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fafc3e87a60>>}
+2022-09-15 22:48:21,559 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-09-15 22:48:25,727 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 22:48:28,616 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 22:48:29,997 - root - INFO - lights_window.py - save_light : 91 - truc
+2022-09-15 22:50:04,950 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f36f1626430>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f36f1626430>>}
+2022-09-15 22:50:04,954 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-09-15 22:50:09,390 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 22:50:11,768 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 22:51:55,654 - root - INFO - lights_window.py - save_light : 91 - truc
+2022-09-15 22:52:01,733 - root - INFO - lights_window.py - select_base : 100 - You selected item 9: "rainbowcomet"
+2022-09-15 22:52:06,348 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 22:52:09,047 - root - INFO - lights_window.py - select_base : 100 - You selected item 11: "rainbowsparkle"
+2022-09-15 22:52:13,107 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 22:52:15,835 - root - INFO - lights_window.py - select_base : 100 - You selected item 8: "rainbowchase"
+2022-09-15 22:52:17,763 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 22:52:19,622 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 22:52:21,391 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 22:52:23,041 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 22:52:24,339 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 22:52:25,233 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 22:52:26,226 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 22:52:27,770 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 23:01:31,954 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7ff674b9a4c0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7ff674b9a4c0>>}
+2022-09-15 23:01:31,958 - root - INFO - main.py - <module> : 12 - Starting didier
+2022-09-15 23:01:35,694 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 23:01:37,017 - root - INFO - misc.py - get_dict_value : 107 - truc
+2022-09-15 23:01:46,947 - root - INFO - lights_window.py - save_light : 91 - truc
