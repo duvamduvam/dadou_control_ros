@@ -1,7 +1,7 @@
 import inspect
 import logging
 import tkinter as tk
-from tkinter import HORIZONTAL, DISABLED, ACTIVE, W, YES, NW, LEFT, TOP, RIGHT, X, N
+from tkinter import HORIZONTAL, DISABLED, ACTIVE, W, YES, NW, LEFT, TOP, RIGHT, X, N, END
 from tkinter.colorchooser import askcolor
 
 from dadou_utils.misc import Misc
@@ -24,11 +24,11 @@ class LightsFrame(tk.Frame):
         self.right_lights_control = tk.Frame(self, bg='orange', height=100)
         self.right_lights_control.pack(side=LEFT, anchor=N, expand=YES, fill=X)
 
-        self.add_lights_button = tk.Button(self.right_lights_control, text="add")
+        self.add_lights_button = tk.Button(self.right_lights_control, command=self.add_light,  text="add")
         self.add_lights_button.grid(row=1, column=1)
         self.text_add = tk.Text(self.right_lights_control, width=15, height=1)
         self.text_add.grid(row=2, column=1)
-        self.delete_lights_button = tk.Button(self.right_lights_control, text="delete")
+        self.delete_lights_button = tk.Button(self.right_lights_control, command=self.delete_light, text="delete")
         self.delete_lights_button.grid(row=3, column=1)
         self.save_lights_button = tk.Button(self.right_lights_control, command=self.save_light, text="save")
         self.save_lights_button.grid(row=4, column=1)
@@ -86,27 +86,31 @@ class LightsFrame(tk.Frame):
                 if scale.cget('state') == ACTIVE and 'color' not in var:
                     scale_params[var.replace('_scale', '')] = scale.get()
 
-        self.lights_values.append(scale_params)
+        scale_params["base"] = self.base_light_label.get()
+        if self.name_light_label.get():
+            self.lights_values[self.name_light_label.get()] = scale_params
         self.json_manager.save_lights(self.lights_values)
         logging.info('truc')
 
     def select_base(self, evt):
         w = evt.widget
-        index = int(w.curselection()[0])
-        value = w.get(index)
-        self.selected_sequence_var.set(value)
-        #self.load_sequence(value)
-        self.base_light_label.set(value)
-        logging.info('You selected item %d: "%s"' % (index, value))
-        self.enable_right_sliders(value)
+        if len(w.curselection()):
+            index = int(w.curselection()[0])
+            value = w.get(index)
+            self.selected_sequence_var.set(value)
+            #self.load_sequence(value)
+            self.base_light_label.set(value)
+            logging.info('You selected item %d: "%s"' % (index, value))
+            self.enable_right_sliders(value)
 
     def select_light(self, evt):
         w = evt.widget
-        index = int(w.curselection()[0])
-        value = w.get(index)
-        self.name_light_label.set(value)
-        self.base_light_label.set(self.lights_values[value]["base"])
-        self.set_sliders(value)
+        if len(w.curselection()):
+            index = int(w.curselection()[0])
+            value = w.get(index)
+            self.name_light_label.set(value)
+            self.base_light_label.set(self.lights_values[value]["base"])
+            self.set_sliders(value)
 
     def get_base_names(self, bases):
         base_names = []
@@ -150,9 +154,24 @@ class LightsFrame(tk.Frame):
             logging.error(err)
 
     def set_sliders(self, light):
-        #params = Misc.get_dict_value(self.lights_values, light)
         self.enable_right_sliders(self.lights_values[light]["base"])
         for param in self.lights_values[light]:
             if type(self.lights_values[light][param]) == int:
                 scale = getattr(self, param + '_scale')
                 scale.set(self.lights_values[light][param])
+
+    def add_light(self):
+        new_light = self.text_add.get(1.0, tk.END+"-1c")
+        self.name_light_label.set(new_light)
+        self.save_light()
+        self.lights_values = self.json_manager.get_lights()
+        self.get_light_names(self.lights_values)
+
+    def delete_light(self):
+        self.name_light_label.set('')
+        delete_index = self.lights_list.curselection()[0]
+        to_delete = self.lights_list.get(delete_index)
+        self.lights_values.pop(to_delete, None)
+        self.save_light()
+        self.lights_values = self.json_manager.get_lights()
+        self.get_light_names(self.lights_values)

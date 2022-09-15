@@ -1,16 +1,21 @@
 {
-  "redflash": {
-    "base" : "pulse",
-    "period": 10,
-    "speed": 2
-  },
-  "rainbow": {
-      "base" : "sparklepulse",
-      "period": 20,
-      "speed": 4
-  },
-  "chase": {
-    "base" : "chase",
-    "color" : "blue"
-  }
+    "redflash": {
+        "precompute_rainbow": 1,
+        "base": "rainbow"
+    },
+    "rainbow": {
+        "speed": 0.01,
+        "step": 8,
+        "period": 74,
+        "precompute_rainbow": 1,
+        "base": "rainbow"
+    },
+    "chase": {
+        "base": "chase",
+        "color": "blue"
+    },
+    "yeah": {
+        "precompute_rainbow": 1,
+        "base": "rainbow"
+    }
 }
