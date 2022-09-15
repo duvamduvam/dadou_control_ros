@@ -34,7 +34,7 @@ class LightsFrame(tk.Frame):
         self.save_lights_button.grid(row=4, column=1)
 
         self.lights_names = tk.StringVar()
-        self.lights_values = self.json_manager.get_lights_elements()
+        self.lights_values = self.json_manager.get_lights()
         self.get_light_names(self.lights_values)
         self.lights_list = tk.Listbox(self.right_lights_control, listvariable=self.lights_names, height=10)
         self.lights_list.grid(row=1, column=2, rowspan=4)
@@ -105,6 +105,7 @@ class LightsFrame(tk.Frame):
         index = int(w.curselection()[0])
         value = w.get(index)
         self.name_light_label.set(value)
+        self.base_light_label.set(self.lights_values[value]["base"])
         self.set_sliders(value)
 
     def get_base_names(self, bases):
@@ -116,7 +117,7 @@ class LightsFrame(tk.Frame):
     def get_light_names(self, elements):
         element_names = []
         for element in elements:
-            element_names.append(list(element.keys()))
+            element_names.append(element)
         self.lights_names.set(value=element_names)
 
     def change_color(self):
@@ -149,10 +150,9 @@ class LightsFrame(tk.Frame):
             logging.error(err)
 
     def set_sliders(self, light):
-        params = Misc.get_dict_value(self.lights_values, light)
-        light_base = list(params.keys())[0]
-        self.base_light_label.set(light_base)
-        self.enable_right_sliders(light_base)
-        for param in params.get(light_base):
-            scale = getattr(self, list(param.keys())[0] + '_scale')
-            scale.set(list(param.values())[0])
+        #params = Misc.get_dict_value(self.lights_values, light)
+        self.enable_right_sliders(self.lights_values[light]["base"])
+        for param in self.lights_values[light]:
+            if type(self.lights_values[light][param]) == int:
+                scale = getattr(self, param + '_scale')
+                scale.set(self.lights_values[light][param])

@@ -5,7 +5,7 @@ class ControlStatic:
     CONFIG_FILE = 'config.json'
     EXPRESSIONS_FILE = 'expressions.json'
     LIGHTS_FILE = 'lights.json'
-    LIGHTS_BASE_FILE = 'lights.json'
+    LIGHTS_BASE_FILE = 'lights_base.json'
     LOGGING_CONFIG_FILE = '/conf/logging.conf'
     JSON_DIRECTORY = "/json/"
     SEQUENCES_DIRECTORY = "/sequences/"

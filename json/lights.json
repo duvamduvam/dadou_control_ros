@@ -8,7 +8,7 @@
       "base" : "sparklepulse",
       "period": 20,
       "speed": 4
-    },
+  },
   "chase": {
     "base" : "chase",
     "color" : "blue"
