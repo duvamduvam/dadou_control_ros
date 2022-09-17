@@ -1,4 +1,4 @@
-from audios.time_singleton import TimeSingleton
+from dadou_utils.audios.time_singleton import TimeSingleton
 
 
 class TimeLineBar:

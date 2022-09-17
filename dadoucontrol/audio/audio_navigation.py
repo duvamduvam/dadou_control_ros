@@ -32,7 +32,7 @@ class AudioNav:
         self.current_state = State.PLAY
 
     def stop(self):
-        #self.sequence_management.audio_segment.stop()
+        #self.sequence_management.audio_segment.stop()  
         self.current_state = State.STOP
 
     def pause(self):

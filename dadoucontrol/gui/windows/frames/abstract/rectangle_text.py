@@ -12,7 +12,6 @@ class RectangleText2(RectangleAbstract):
     def __init__(self, parent, name, color, items):
         super().__init__(parent, name, color)
         self.items = items
-        logging.info("truc")
         #self.items = FileManager.list_folder_files(visual_type)
 
     def create_rectangle(self, x1, x2):

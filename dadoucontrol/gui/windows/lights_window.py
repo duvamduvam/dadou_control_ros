@@ -1,7 +1,7 @@
 import inspect
 import logging
 import tkinter as tk
-from tkinter import HORIZONTAL, DISABLED, ACTIVE, W, YES, NW, LEFT, TOP, RIGHT, X, N, END
+from tkinter import HORIZONTAL, DISABLED, ACTIVE, W, YES, NW, LEFT, TOP, RIGHT, X, N, END, NORMAL
 from tkinter.colorchooser import askcolor
 
 from dadou_utils.misc import Misc
@@ -48,8 +48,9 @@ class LightsFrame(tk.Frame):
         tk.Label(self.right_param, text='light name').grid(row=1, column=5)
         tk.Label(self.right_param, textvariable=self.name_light_label).grid(row=1, column=6)
 
-        tk.Label(self.right_param, text='color', width=10).grid(row=2, column=1)
-        self.color_scale = tk.Button(self.right_param, text='color', command=self.change_color)
+        self.color_label = tk.Label(self.right_param, text='color', width=10)
+        self.color_label.grid(row=2, column=1)
+        self.color_scale = tk.Button(self.right_param, bg='orange', text='color', command=self.change_color)
         self.color_scale.grid(row=2, column=2, padx=10, pady=4)
 
         self.speed_scale = self.create_scale('speed', 3, 1, 0.001, 10, 200, 0.001, 0.01)
@@ -83,8 +84,11 @@ class LightsFrame(tk.Frame):
         for var in all_vars:
             if var.__contains__('_scale'):
                 scale = getattr(self, var)
-                if scale.cget('state') == ACTIVE and 'color' not in var:
-                    scale_params[var.replace('_scale', '')] = scale.get()
+                if scale.cget('state') == ACTIVE or scale.cget('state') == NORMAL:
+                    if'color' not in var:
+                        scale_params[var.replace('_scale', '')] = scale.get()
+                    else:
+                        scale_params['color'] = self.get_color()
 
         scale_params["base"] = self.base_light_label.get()
         if self.name_light_label.get():
@@ -126,7 +130,13 @@ class LightsFrame(tk.Frame):
 
     def change_color(self):
         colors = askcolor(title="Tkinter Color Chooser")
-        self.configure(bg=colors[1])
+        self.set_color(colors[1])
+
+    def set_color(self, color):
+        self.color_label.configure(bg=color)
+
+    def get_color(self):
+        return self.color_label.cget("bg")
 
     def create_scale(self, label, row, col, min, max, length, resolution, default):
         tk.Label(self.right_param, text=label, width=14).grid(row=row, column=col)
@@ -149,6 +159,7 @@ class LightsFrame(tk.Frame):
             for param in scale_params:
                 scale = getattr(self, param+'_scale')
                 scale.configure(state=ACTIVE, bg='orange')
+                #scale.refresh()
 
         except AttributeError as err:
             logging.error(err)
@@ -159,9 +170,11 @@ class LightsFrame(tk.Frame):
             if type(self.lights_values[light][param]) == int:
                 scale = getattr(self, param + '_scale')
                 scale.set(self.lights_values[light][param])
+            elif 'color' in param:
+                self.set_color(self.lights_values[light][param])
 
     def add_light(self):
-        new_light = self.text_add.get(1.0, tk.END+"-1c")
+        new_light = self.text_add.get(1.0, END+"-1c")
         self.name_light_label.set(new_light)
         self.save_light()
         self.lights_values = self.json_manager.get_lights()

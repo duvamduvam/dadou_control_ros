@@ -1,5 +1,6 @@
 import logging
 import tkinter as tk
+from tkinter import BOTH, TOP
 
 from dadoucontrol.control_factory import ControlFactory
 from dadoucontrol.gui.windows.frames.abstract.rectangle_text import RectangleText2
@@ -17,7 +18,7 @@ class SequenceFrame(tk.Frame):
 
     def __init__(self, parent, *args, **kwargs):
         tk.Frame.__init__(self, parent, bg='grey', *args, **kwargs)
-        self.pack(fill='both', expand=True, side='top')
+        self.pack(fill=BOTH, expand=True, side=TOP)
 
         self.left_menu = tk.Frame(self, bg='blue', width=100)
         self.left_menu.pack(fill='y', side='left')
@@ -29,7 +30,7 @@ class SequenceFrame(tk.Frame):
 
         expressions = ControlFactory().control_json_manager.get_expressions_names()
         self.faces_frame = RectangleText2(self, 'face', 'green', expressions)
-        lights = ControlFactory().control_json_manager.get_lights()
+        lights = list(ControlFactory().control_json_manager.get_lights().keys())
         self.lights_frame = RectangleText2(self, 'lights', 'yellow', lights)
         self.neck_frame = NeckFrame(self, 'orange')
         self.wheels_frame = WheelsFrame(self, 'violet')
