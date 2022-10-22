@@ -3,6 +3,8 @@ from os.path import exists
 import pyudev as pyudev
 import logging
 
+from dadoucontrol.control_config import ControlConfig
+from dadoucontrol.files.control_json_manager import ControlJsonManager
 from dadou_utils.com.serial_device import SerialDevice
 
 
@@ -10,12 +12,14 @@ class SerialDeviceManager:
 
     #TODO use config
 
-    gloveLeftId = SerialDevice.USB_ID_PATH + "usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00"
-    gloveLeft = SerialDevice('glove left', gloveLeftId)
+    def __init__(self, jsonManager:ControlJsonManager):
 
-    context = pyudev.Context()
-    monitor = pyudev.Monitor.from_netlink(context)
-    monitor.filter_by(subsystem='usb')
+        gloveLeftId = jsonManager.get_device_id("glove_left")
+        self.gloveLeft = SerialDevice('glove left', gloveLeftId)
+
+        context = pyudev.Context()
+        monitor = pyudev.Monitor.from_netlink(context)
+        monitor.filter_by(subsystem='usb')
 
     def checkNewDevice(self, serial_device) -> bool:
         #logging.info("check glove left plugged in " + str(serial_device.plugged))

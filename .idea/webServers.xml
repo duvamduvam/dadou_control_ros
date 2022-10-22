@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="02a480bc-4a25-4727-86b2-b58416642fb6" name="telecommande">
+        <fileTransfer accessType="SFTP" host="192.168.1.183" port="22" sshConfigId="5da3b998-27c0-4c28-8ad7-40e7f4a8989e" sshConfig="root@192.168.1.183:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -13,15 +13,16 @@ class ControlJsonManager(AbstractJsonManager):
 
     def __init__(self, base_folder, json_folder, config_file):
         super().__init__(base_folder, json_folder, config_file)
+        self.config_base = self.open_json(ControlStatic.CONFIG_FILE, 'r')
         self.lights_base = self.open_json(ControlStatic.LIGHTS_BASE_FILE, 'r')
         #self.lights = self.open_json(ControlStatic.LIGHTS_FILE, 'r')
         #self.expressions = self.open_json(ControlStatic.EXPRESSIONS_FILE, 'r')
 
-    def get_config(self):
-        return self.config
+    #def get_config(self):
+    #    return self.config
 
     def get_folder_path_from_type(self, folder_type):
-        result = jsonpath_rw_ext.match('$.paths[?name~' + folder_type + ']', self.config)
+        result = jsonpath_rw_ext.match('$.paths[?name~' + folder_type + ']', self.config_base)
         return self.base_folder+self.standard_return(result, True, self.PATH)
 
     def get_sequence(self, name):
@@ -56,6 +57,10 @@ class ControlJsonManager(AbstractJsonManager):
         self.delete_item(expressions, name)
         with open(self.json_folder+ControlStatic.EXPRESSIONS_FILE, 'w') as outfile:
             json.dump(expressions, outfile, indent=4)
+
+    def get_device_id(self, name):
+        device = self.config_base["devices"][name]
+        return device
 
     def save_expressions(self, name, duration, loop, keys, left_eyes, right_eyes, mouths):
         expressions = self.open_json(ControlStatic.EXPRESSIONS_FILE, 'r')

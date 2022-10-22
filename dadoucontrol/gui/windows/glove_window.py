@@ -7,7 +7,7 @@ from dadoucontrol.control_factory import ControlFactory
 class GloveFrame(tk.Frame):
     def __init__(self, parent):
 
-        self.deviceManager = SerialDeviceManager()
+        self.deviceManager = ControlFactory().device_manager
         self.serial_glove_left = self.deviceManager.gloveLeft
 
         tk.Frame.__init__(self, parent, bg='grey')
@@ -55,7 +55,7 @@ class GloveFrame(tk.Frame):
     def gloveInput(self) -> None:
         self.after(100, self.gloveInput)
         if self.serial_glove_left.plugged:
-            msg = self.serial_glove_left.get_msg()
+            msg = self.serial_glove_left.get_msg_separator()
             if msg:
                 #ControlFactory().ws_client.send(msg)
                 self.glove_left.config(text=msg)

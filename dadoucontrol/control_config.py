@@ -26,7 +26,6 @@ class ControlConfig:
     def get_folder_type(self, folder_type):
         return self.json_config.get_folder_typ
 
-
     def get_logging_conf_file(self):
         if isfile(ControlStatic.LOGGING_CONFIG_FILE):
             print('config file accessible')

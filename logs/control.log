@@ -1,63 +1,413 @@
-2022-09-17 23:49:10,199 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f503e2bdaf0>, 'json_config': <bound method ControlJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f503e2bdaf0>>}
-2022-09-17 23:49:10,203 - root - INFO - main.py - <module> : 12 - Starting didier
-2022-09-17 23:49:26,684 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
-2022-09-17 23:49:26,684 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
-2022-09-17 23:49:26,684 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
-2022-09-17 23:49:26,684 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
-2022-09-17 23:49:26,685 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
-2022-09-17 23:49:26,685 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 45
-2022-09-17 23:49:26,719 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
-2022-09-17 23:49:26,719 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
-2022-09-17 23:49:26,719 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
-2022-09-17 23:49:26,719 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
-2022-09-17 23:49:26,719 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
-2022-09-17 23:49:26,719 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 49
-2022-09-17 23:49:26,733 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
-2022-09-17 23:49:26,733 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
-2022-09-17 23:49:26,733 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
-2022-09-17 23:49:26,733 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
-2022-09-17 23:49:26,733 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
-2022-09-17 23:49:26,733 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 47
-2022-09-17 23:49:26,759 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
-2022-09-17 23:49:26,760 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
-2022-09-17 23:49:26,760 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
-2022-09-17 23:49:26,760 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
-2022-09-17 23:49:26,760 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
-2022-09-17 23:49:26,760 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 66
-2022-09-17 23:49:26,773 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
-2022-09-17 23:49:26,774 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
-2022-09-17 23:49:26,774 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
-2022-09-17 23:49:26,774 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
-2022-09-17 23:49:26,774 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
-2022-09-17 23:49:26,774 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 65
-2022-09-17 23:49:26,788 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
-2022-09-17 23:49:26,788 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
-2022-09-17 23:49:26,788 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
-2022-09-17 23:49:26,788 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
-2022-09-17 23:49:26,788 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
-2022-09-17 23:49:26,788 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 34
-2022-09-17 23:49:26,801 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
-2022-09-17 23:49:26,801 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
-2022-09-17 23:49:26,802 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
-2022-09-17 23:49:26,802 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
-2022-09-17 23:49:26,802 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
-2022-09-17 23:49:26,802 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 64
-2022-09-17 23:49:26,890 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - Left eye
-2022-09-17 23:49:26,897 - root - INFO - rectangle_abstract.py - __init__ : 16 - rectangle 2
-2022-09-17 23:49:26,920 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - Right eye
-2022-09-17 23:49:26,931 - root - INFO - rectangle_abstract.py - __init__ : 16 - rectangle 2
-2022-09-17 23:49:26,948 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - Mouths
-2022-09-17 23:49:26,960 - root - INFO - rectangle_abstract.py - __init__ : 16 - rectangle 2
-2022-09-17 23:49:28,101 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
-2022-09-17 23:49:28,230 - root - INFO - sequences_manager_widget.py - __init__ : 43 - 
-2022-09-17 23:49:28,232 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
-2022-09-17 23:49:28,299 - root - INFO - rectangle_abstract.py - __init__ : 16 - rectangle 2
-2022-09-17 23:49:28,299 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
-2022-09-17 23:49:28,311 - root - INFO - rectangle_abstract.py - __init__ : 16 - rectangle 2
-2022-09-17 23:49:28,312 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
-2022-09-17 23:49:28,322 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
-2022-09-17 23:49:28,332 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/audios/applause.mp3
-2022-09-17 23:49:28,453 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/applause.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
-2022-09-17 23:49:28,527 - root - INFO - sound_object.py - get_duration : 85 - duration : 8.002854166666667
-2022-09-17 23:49:52,942 - root - INFO - sound_object.py - pause : 64 - pause playing at 1.8981710670050234
-2022-09-17 23:50:00,123 - root - INFO - sound_object.py - pause : 64 - pause playing at 3.7292002369940747
+2022-10-22 09:51:01,146 - root - INFO - serial_device.py - connect : 30 - serial connected  : glove left
+2022-10-22 09:51:11,903 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f304d20fa30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f304d20fa30>>}
+2022-10-22 09:51:11,903 - root - INFO - serial_device.py - connect : 30 - serial connected  : glove left
+2022-10-22 09:51:11,920 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 09:51:17,676 - root - INFO - serial_device.py - get_msg : 51 - received from glove left : Send:  <a>
+
+2022-10-22 09:51:17,876 - root - INFO - serial_device.py - get_msg : 51 - received from glove left : Send:  <a>
+
+2022-10-22 09:51:18,377 - root - INFO - serial_device.py - get_msg : 51 - received from glove left : Send:  <b>
+
+2022-10-22 09:51:18,878 - root - INFO - serial_device.py - get_msg : 51 - received from glove left : Send:  <c>
+
+2022-10-22 09:51:19,280 - root - INFO - serial_device.py - get_msg : 51 - received from glove left : Send:  <b>
+
+2022-10-22 09:51:19,480 - root - INFO - serial_device.py - get_msg : 51 - received from glove left : Send:  <b>
+
+2022-10-22 09:51:19,681 - root - INFO - serial_device.py - get_msg : 51 - received from glove left : Send:  <b>
+
+2022-10-22 10:00:40,976 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f3bf1fbfa60>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f3bf1fbfa60>>}
+2022-10-22 10:00:40,977 - root - INFO - serial_device.py - connect : 30 - serial connected  : glove left
+2022-10-22 10:00:41,010 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 10:01:14,079 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f657a471a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f657a471a30>>}
+2022-10-22 10:01:14,080 - root - INFO - serial_device.py - connect : 30 - serial connected  : glove left
+2022-10-22 10:01:14,097 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 10:19:51,199 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fcea1474a60>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fcea1474a60>>}
+2022-10-22 10:19:51,200 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 10:19:51,216 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 10:19:55,175 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <a>
+
+2022-10-22 10:19:55,376 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <a>
+
+2022-10-22 10:19:56,178 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <b>
+
+2022-10-22 10:19:56,780 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <c>
+
+2022-10-22 10:22:20,827 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f0036e0ebb0>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f0036e0ebb0>>}
+2022-10-22 10:22:20,828 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 10:22:20,884 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 10:23:41,374 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f8929420d30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f8929420d30>>}
+2022-10-22 10:23:41,375 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 10:23:41,428 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 10:23:45,344 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <a>
+
+2022-10-22 10:27:03,293 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <a>
+
+2022-10-22 10:27:03,394 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <b>
+
+2022-10-22 10:28:42,493 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f95b5c01a60>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f95b5c01a60>>}
+2022-10-22 10:28:42,494 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 10:28:42,510 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 10:28:46,681 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <a>
+
+2022-10-22 10:28:46,882 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <a>
+
+2022-10-22 10:28:47,383 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <b>
+
+2022-10-22 10:28:47,784 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <c>
+
+2022-10-22 10:28:48,186 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <b>
+
+2022-10-22 10:28:48,386 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <a>
+
+2022-10-22 10:28:48,788 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <a>
+
+2022-10-22 10:28:49,289 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <b>
+
+2022-10-22 10:28:49,791 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <c>
+
+2022-10-22 10:28:50,292 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <a>
+
+2022-10-22 10:28:50,493 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <a>
+
+2022-10-22 10:28:51,094 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <a>
+
+2022-10-22 10:28:51,295 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <a>
+
+2022-10-22 10:28:51,897 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <b>
+
+2022-10-22 10:28:52,599 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <c>
+
+2022-10-22 10:30:03,084 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f7c2c56ea90>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f7c2c56ea90>>}
+2022-10-22 10:30:03,084 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 10:30:03,100 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 10:30:06,982 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <a>
+
+2022-10-22 10:30:07,183 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <a>
+
+2022-10-22 10:30:07,784 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <b>
+
+2022-10-22 10:30:08,186 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <c>
+
+2022-10-22 10:30:19,892 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f62d0735d30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f62d0735d30>>}
+2022-10-22 10:30:19,893 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 10:30:19,946 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 10:30:26,191 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <b>
+
+2022-10-22 10:30:47,527 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <c>
+
+2022-10-22 10:30:47,627 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <b>
+
+2022-10-22 10:30:47,728 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <a>
+
+2022-10-22 10:30:47,828 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <a>
+
+2022-10-22 10:31:48,774 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f6dec0fcd90>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f6dec0fcd90>>}
+2022-10-22 10:31:48,775 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 10:31:48,828 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 10:31:53,096 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <a>
+
+2022-10-22 10:38:40,049 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f707c322d90>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f707c322d90>>}
+2022-10-22 10:38:40,050 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 10:38:40,110 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 10:38:43,318 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <a>
+
+2022-10-22 10:39:06,995 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <a>
+
+2022-10-22 10:39:12,534 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f5a33836a90>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f5a33836a90>>}
+2022-10-22 10:39:12,534 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 10:39:12,550 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 10:39:20,025 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <b>
+
+2022-10-22 10:39:20,627 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <a>
+
+2022-10-22 10:39:21,129 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <c>
+
+2022-10-22 10:39:21,530 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <c>
+
+2022-10-22 10:39:21,831 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <a>
+
+2022-10-22 10:39:22,031 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <a>
+
+2022-10-22 10:39:22,734 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <a>
+
+2022-10-22 10:39:22,934 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <a>
+
+2022-10-22 10:39:23,436 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <b>
+
+2022-10-22 10:40:45,307 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <a>
+
+2022-10-22 10:40:45,809 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <b>
+
+2022-10-22 10:40:46,310 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <c>
+
+2022-10-22 10:40:48,117 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <d>
+
+2022-10-22 10:40:48,317 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <d>
+
+2022-10-22 10:40:48,718 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <e>
+
+2022-10-22 10:40:49,120 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <f>
+
+2022-10-22 10:40:50,725 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <g>
+
+2022-10-22 10:40:51,226 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <h>
+
+2022-10-22 10:40:51,929 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <h>
+
+2022-10-22 10:40:52,130 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <i>
+
+2022-10-22 10:40:52,431 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <i>
+
+2022-10-22 10:40:54,437 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <j>
+
+2022-10-22 10:40:54,939 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <k>
+
+2022-10-22 10:40:55,139 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <k>
+
+2022-10-22 10:40:55,741 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <l>
+
+2022-10-22 10:40:55,942 - root - INFO - serial_device.py - get_msg : 52 - received from glove left : Send:  <l>
+
+2022-10-22 10:48:00,402 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f8ba5172a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f8ba5172a30>>}
+2022-10-22 10:48:00,403 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 10:48:00,421 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 10:49:30,838 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f78697c2a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f78697c2a30>>}
+2022-10-22 10:49:30,839 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 10:49:30,856 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 10:50:03,689 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7ffabdeeaa30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7ffabdeeaa30>>}
+2022-10-22 10:50:03,689 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 10:50:03,706 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 10:50:09,036 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - music
+2022-10-22 10:50:09,115 - root - INFO - sequences_manager_widget.py - __init__ : 43 - 
+2022-10-22 10:50:09,117 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - face
+2022-10-22 10:50:09,151 - root - INFO - rectangle_abstract.py - __init__ : 16 - rectangle 2
+2022-10-22 10:50:09,151 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - lights
+2022-10-22 10:50:09,154 - root - INFO - rectangle_abstract.py - __init__ : 16 - rectangle 2
+2022-10-22 10:50:09,155 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - neck
+2022-10-22 10:50:09,158 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - wheels
+2022-10-22 10:50:09,162 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/audios/applause.mp3
+2022-10-22 10:50:09,226 - pydub.converter - DEBUG - logging_utils.py - log_conversion : 9 - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', '/home/dadou/Nextcloud/Didier/audios/applause.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2022-10-22 10:50:09,302 - root - INFO - sound_object.py - get_duration : 85 - duration : 8.002854166666667
+2022-10-22 10:50:09,707 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-10-22 10:50:09,707 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-10-22 10:50:09,708 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-10-22 10:50:09,708 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-10-22 10:50:09,708 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-10-22 10:50:09,708 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 45
+2022-10-22 10:50:09,740 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-10-22 10:50:09,740 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-10-22 10:50:09,740 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-10-22 10:50:09,741 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-10-22 10:50:09,741 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-10-22 10:50:09,741 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 49
+2022-10-22 10:50:09,755 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-10-22 10:50:09,755 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-10-22 10:50:09,756 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-10-22 10:50:09,756 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-10-22 10:50:09,756 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-10-22 10:50:09,756 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 47
+2022-10-22 10:50:09,781 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-10-22 10:50:09,782 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-10-22 10:50:09,782 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-10-22 10:50:09,782 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-10-22 10:50:09,782 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-10-22 10:50:09,782 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 66
+2022-10-22 10:50:09,795 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-10-22 10:50:09,795 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-10-22 10:50:09,795 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-10-22 10:50:09,795 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-10-22 10:50:09,795 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-10-22 10:50:09,796 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 65
+2022-10-22 10:50:09,809 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-10-22 10:50:09,809 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-10-22 10:50:09,809 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-10-22 10:50:09,809 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-10-22 10:50:09,809 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-10-22 10:50:09,809 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 34
+2022-10-22 10:50:09,823 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IHDR' 16 13
+2022-10-22 10:50:09,823 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'pHYs' 41 9
+2022-10-22 10:50:09,823 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'tIME' 62 7
+2022-10-22 10:50:09,823 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - _open : 698 - b'tIME' 62 7 (unknown)
+2022-10-22 10:50:09,823 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'iTXt' 81 29
+2022-10-22 10:50:09,823 - PIL.PngImagePlugin - DEBUG - PngImagePlugin.py - call : 186 - STREAM b'IDAT' 122 64
+2022-10-22 10:50:09,859 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - Left eye
+2022-10-22 10:50:09,862 - root - INFO - rectangle_abstract.py - __init__ : 16 - rectangle 2
+2022-10-22 10:50:09,876 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - Right eye
+2022-10-22 10:50:09,881 - root - INFO - rectangle_abstract.py - __init__ : 16 - rectangle 2
+2022-10-22 10:50:09,894 - root - INFO - abstract_sequence_frame.py - __init__ : 12 - Mouths
+2022-10-22 10:50:09,899 - root - INFO - rectangle_abstract.py - __init__ : 16 - rectangle 2
+2022-10-22 10:59:14,967 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f63b870edf0>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f63b870edf0>>}
+2022-10-22 10:59:14,968 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 10:59:15,023 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 10:59:52,084 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f22dd590a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f22dd590a30>>}
+2022-10-22 10:59:52,085 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 10:59:52,108 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 11:01:14,971 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f7d71db2a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f7d71db2a30>>}
+2022-10-22 11:01:14,971 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 11:01:14,988 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 11:01:27,686 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f5bcb688a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f5bcb688a30>>}
+2022-10-22 11:01:27,687 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 11:01:27,704 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 11:36:26,543 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f64f9ea7a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f64f9ea7a30>>}
+2022-10-22 11:36:26,543 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 11:36:26,587 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 11:37:39,972 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f6ce3d62a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f6ce3d62a30>>}
+2022-10-22 11:37:39,973 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 11:37:39,991 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 11:38:24,704 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f1b15c4ca30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f1b15c4ca30>>}
+2022-10-22 11:38:24,704 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 11:38:24,721 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 11:40:27,023 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f232c009a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f232c009a30>>}
+2022-10-22 11:40:27,024 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 11:40:27,041 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 11:46:40,036 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fa973d19a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fa973d19a30>>}
+2022-10-22 11:46:40,036 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 11:46:40,054 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 11:48:49,264 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f575fff7a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f575fff7a30>>}
+2022-10-22 11:48:49,265 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 11:48:49,284 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 11:49:16,971 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fdcb30dfa30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fdcb30dfa30>>}
+2022-10-22 11:49:16,972 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 11:49:16,990 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 11:49:42,455 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f699268da30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f699268da30>>}
+2022-10-22 11:49:42,455 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 11:49:42,473 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 11:52:03,891 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f8fadfb8a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f8fadfb8a30>>}
+2022-10-22 11:52:03,892 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 11:52:03,910 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 11:53:42,735 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f82eb4aaa30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f82eb4aaa30>>}
+2022-10-22 11:53:42,735 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 11:53:42,754 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 11:55:16,057 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f1940fe4a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f1940fe4a30>>}
+2022-10-22 11:55:16,058 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 11:55:16,074 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 11:57:35,920 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7efdc4bf4a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7efdc4bf4a30>>}
+2022-10-22 11:57:35,921 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 11:57:35,944 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 12:00:43,917 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f151322ca30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f151322ca30>>}
+2022-10-22 12:00:43,918 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 12:00:43,937 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 12:02:08,981 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f57e8550a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f57e8550a30>>}
+2022-10-22 12:02:08,982 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 12:02:08,999 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 12:08:08,156 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f5c2dffba30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f5c2dffba30>>}
+2022-10-22 12:08:08,157 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 12:08:08,176 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 12:10:43,765 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f57c00a5a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f57c00a5a30>>}
+2022-10-22 12:10:43,766 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 12:10:43,783 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 12:11:36,803 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fa2f7172a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fa2f7172a30>>}
+2022-10-22 12:11:36,804 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 12:11:36,820 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 12:15:02,054 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f59897caa30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f59897caa30>>}
+2022-10-22 12:15:02,055 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 12:15:02,071 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 12:16:52,688 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fce828b9a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fce828b9a30>>}
+2022-10-22 12:16:52,689 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 12:16:52,707 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 12:18:26,613 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f06f53cfa30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f06f53cfa30>>}
+2022-10-22 12:18:26,614 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 12:18:26,631 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 12:27:26,552 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f137ceaba30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f137ceaba30>>}
+2022-10-22 12:27:26,552 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 12:27:26,571 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 12:29:02,689 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f7cfe2f8a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f7cfe2f8a30>>}
+2022-10-22 12:29:02,689 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 12:29:02,705 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 12:29:43,796 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f5066499a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f5066499a30>>}
+2022-10-22 12:29:43,797 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 12:29:43,813 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 12:30:43,769 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fd8967eaa30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fd8967eaa30>>}
+2022-10-22 12:30:43,770 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 12:30:43,786 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 12:30:58,325 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f5fbdc8fa30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f5fbdc8fa30>>}
+2022-10-22 12:30:58,326 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 12:30:58,343 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 12:32:07,802 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f7530e7fa30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f7530e7fa30>>}
+2022-10-22 12:32:07,803 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 12:32:07,822 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 12:32:54,798 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f3112c11a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f3112c11a30>>}
+2022-10-22 12:32:54,799 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 12:32:54,816 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 12:34:52,897 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fe0ccd87a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fe0ccd87a30>>}
+2022-10-22 12:34:52,898 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 12:34:52,940 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 12:35:28,883 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f93ffd4aa30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f93ffd4aa30>>}
+2022-10-22 12:35:28,884 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 12:35:28,901 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 12:35:57,177 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f4d1cb06a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f4d1cb06a30>>}
+2022-10-22 12:35:57,177 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 12:35:57,194 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 12:36:14,081 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f508dab2a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f508dab2a30>>}
+2022-10-22 12:36:14,082 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 12:36:14,099 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 12:36:30,054 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fa50b4eca30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fa50b4eca30>>}
+2022-10-22 12:36:30,054 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 12:36:30,071 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 12:45:48,634 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fe0c67f2a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fe0c67f2a30>>}
+2022-10-22 12:45:48,634 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 12:45:48,654 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 12:47:09,875 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f88591d9a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f88591d9a30>>}
+2022-10-22 12:47:09,875 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 12:47:09,892 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 12:55:49,014 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f58ad330a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f58ad330a30>>}
+2022-10-22 12:55:49,014 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 12:55:49,032 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 12:59:02,332 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f7d738aea30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f7d738aea30>>}
+2022-10-22 12:59:02,333 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 12:59:02,351 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 12:59:44,567 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f9d058a9a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f9d058a9a30>>}
+2022-10-22 12:59:44,568 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 12:59:44,586 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 13:00:11,818 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7ff5dad17790>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7ff5dad17790>>}
+2022-10-22 13:00:11,819 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 13:00:11,837 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 13:00:22,306 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fa2de1a4a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fa2de1a4a30>>}
+2022-10-22 13:00:22,306 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 13:00:22,322 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 13:00:36,207 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f27c12b6a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f27c12b6a30>>}
+2022-10-22 13:00:36,208 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 13:00:36,224 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 13:03:23,559 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f293aaf0a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f293aaf0a30>>}
+2022-10-22 13:03:23,560 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 13:03:23,578 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 13:03:36,435 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f98ca29ba30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f98ca29ba30>>}
+2022-10-22 13:03:36,435 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 13:03:36,451 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 13:03:51,354 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f73c5767a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f73c5767a30>>}
+2022-10-22 13:03:51,355 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 13:03:51,371 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 13:04:11,453 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f1266706a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f1266706a30>>}
+2022-10-22 13:04:11,454 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 13:04:11,470 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 13:05:19,459 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fe9fd4e1a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fe9fd4e1a30>>}
+2022-10-22 13:05:19,459 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 13:05:19,475 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 13:07:09,050 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fca6f957a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fca6f957a30>>}
+2022-10-22 13:07:09,050 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 13:07:09,068 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 13:07:57,931 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f3d849fea30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f3d849fea30>>}
+2022-10-22 13:07:57,932 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 13:07:57,948 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 13:08:50,671 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7ff50b8c4a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7ff50b8c4a30>>}
+2022-10-22 13:08:50,671 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 13:08:50,688 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 13:09:27,228 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7ff864ef4a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7ff864ef4a30>>}
+2022-10-22 13:09:27,228 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 13:09:27,244 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 13:22:45,806 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f6898252a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f6898252a30>>}
+2022-10-22 13:22:45,806 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 13:22:45,826 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 13:24:24,439 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f12d76f4a30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f12d76f4a30>>}
+2022-10-22 13:24:24,439 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 13:24:24,455 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 13:24:44,291 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f2157ebaa30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f2157ebaa30>>}
+2022-10-22 13:24:44,291 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 13:24:44,307 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 13:24:57,280 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f8726e1ca30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f8726e1ca30>>}
+2022-10-22 13:24:57,280 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 13:24:57,296 - root - INFO - main.py - <module> : 18 - Starting didier
+2022-10-22 13:26:52,454 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fb666edaa30>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fb666edaa30>>}
+2022-10-22 13:26:52,455 - root - INFO - serial_device.py - connect : 31 - serial connected  : glove left
+2022-10-22 13:26:52,471 - root - INFO - main.py - <module> : 18 - Starting didier

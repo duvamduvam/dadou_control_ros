@@ -1,14 +1,8 @@
 {
-  "devices": [
-    {
-      "name": "glove-left",
-      "id": "usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if00"
-    },
-    {
-      "name": "glove-right",
-      "id": "usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if01"
-    }
-  ],
+  "devices": {
+    "glove_left": "usb-Raspberry_Pi_Pico_E6611CB69753BB25-if00",
+    "glove_right": "usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if01"
+  },
   "paths": [
     {
       "name": "visual",

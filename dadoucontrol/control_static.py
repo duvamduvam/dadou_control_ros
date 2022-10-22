@@ -1,3 +1,6 @@
+from dadou_utils.misc import Misc
+from dadou_utils.utils_static import UtilsStatic
+
 class ControlStatic:
 
     JSON_CONFIG_NAME = 'config.json'
@@ -6,7 +9,8 @@ class ControlStatic:
     EXPRESSIONS_FILE = 'expressions.json'
     LIGHTS_FILE = 'lights.json'
     LIGHTS_BASE_FILE = 'lights_base.json'
-    LOGGING_CONFIG_FILE = '/conf/logging.conf'
+    RPI_LOGGING_CONFIG_FILE = '/conf/logging-pi.conf'
+    LAPTOP_LOGGING_CONFIG_FILE = '/conf/logging-laptop.conf'
     JSON_DIRECTORY = "/json/"
     SEQUENCES_DIRECTORY = "/sequences/"
 
@@ -19,3 +23,10 @@ class ControlStatic:
     PATHS_KEY = 'paths'
     SEQUENCES_DIRECTORY_KEY = 'sequences'
 
+    @staticmethod
+    def get_logs_dir():
+        system = Misc.get_system_type()
+        if system == UtilsStatic.LAPTOP_TYPE:
+            return ControlStatic.LAPTOP_LOGGING_CONFIG_FILE
+        elif system == UtilsStatic.RPI_TYPE:
+            return ControlStatic.RPI_LOGGING_CONFIG_FILE
