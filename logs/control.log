@@ -8,3 +8,728 @@
 2022-10-24 23:21:05,544 - root - INFO - main.py - <module> : 16 - Starting remote control
 2022-10-24 23:21:17,611 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f39d7f52130>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f39d7f52130>>}
 2022-10-24 23:21:17,628 - root - INFO - main.py - <module> : 16 - Starting remote control
+2022-10-24 23:26:33,358 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fd62a25cc10>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fd62a25cc10>>}
+2022-10-24 23:26:33,375 - root - INFO - main.py - <module> : 16 - Starting remote control
+2022-10-24 23:27:23,837 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f1bca0e5130>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f1bca0e5130>>}
+2022-10-24 23:27:23,853 - root - INFO - main.py - <module> : 16 - Starting remote control
+2022-10-24 23:27:37,131 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f766412fe80>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f766412fe80>>}
+2022-10-24 23:27:37,221 - root - INFO - main.py - <module> : 16 - Starting remote control
+2022-10-24 23:31:26,979 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f52aa682eb0>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f52aa682eb0>>}
+2022-10-24 23:31:26,991 - root - INFO - main.py - <module> : 16 - Starting remote control
+2022-10-24 23:31:40,328 - root - INFO - serial_device.py - connect : 32 - serial connected  : glove_right
+2022-10-24 23:31:40,329 - root - INFO - serial_devices_manager.py - add_device : 38 - add device glove_right
+2022-10-24 23:31:47,113 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <s>
+
+2022-10-24 23:31:47,165 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:31:47,384 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <s>
+
+2022-10-24 23:31:47,385 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:31:47,993 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <t>
+
+2022-10-24 23:31:47,995 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:31:49,886 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <t>
+
+2022-10-24 23:31:49,888 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:31:49,986 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <t>
+
+2022-10-24 23:31:49,988 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:31:50,885 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <u>
+
+2022-10-24 23:31:50,887 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:31:50,986 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <u>
+
+2022-10-24 23:31:50,988 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:03,208 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <5251>
+
+2022-10-24 23:32:03,210 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:03,657 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <5850>
+
+2022-10-24 23:32:03,659 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:03,757 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <6049>
+
+2022-10-24 23:32:03,759 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:03,857 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <5549>
+
+2022-10-24 23:32:03,859 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:03,958 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <6044>
+
+2022-10-24 23:32:03,959 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:04,157 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <6544>
+
+2022-10-24 23:32:04,158 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:04,357 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <6446>
+
+2022-10-24 23:32:04,359 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:04,690 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <6245>
+
+2022-10-24 23:32:04,691 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:04,790 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <6444>
+
+2022-10-24 23:32:04,790 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:04,991 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <6547>
+
+2022-10-24 23:32:04,993 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:05,159 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <6647>
+
+2022-10-24 23:32:05,161 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:05,360 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <5153>
+
+2022-10-24 23:32:05,362 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:05,658 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <5945>
+
+2022-10-24 23:32:05,659 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:05,759 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <7346>
+
+2022-10-24 23:32:05,761 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:05,959 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <6549>
+
+2022-10-24 23:32:05,960 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:06,158 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <6249>
+
+2022-10-24 23:32:06,160 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:06,359 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <6847>
+
+2022-10-24 23:32:06,359 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:06,668 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <6749>
+
+2022-10-24 23:32:06,669 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:06,768 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <6448>
+
+2022-10-24 23:32:06,770 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:06,969 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <4955>
+
+2022-10-24 23:32:06,971 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:07,147 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <5251>
+
+2022-10-24 23:32:07,150 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:07,348 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <5054>
+
+2022-10-24 23:32:07,349 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:07,711 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <5253>
+
+2022-10-24 23:32:07,713 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:07,812 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <4262>
+
+2022-10-24 23:32:07,813 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:08,013 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <2676>
+
+2022-10-24 23:32:08,014 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:08,158 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <4168>
+
+2022-10-24 23:32:08,160 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:08,358 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <4382>
+
+2022-10-24 23:32:08,359 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:08,666 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <4699>
+
+2022-10-24 23:32:08,667 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:08,766 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <5624>
+
+2022-10-24 23:32:08,767 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:08,967 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <6228>
+
+2022-10-24 23:32:08,968 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:09,160 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <6528>
+
+2022-10-24 23:32:09,161 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:09,360 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <6628>
+
+2022-10-24 23:32:09,362 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:09,657 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <6327>
+
+2022-10-24 23:32:09,658 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:09,758 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <4906>
+
+2022-10-24 23:32:09,759 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:09,958 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <4193>
+
+2022-10-24 23:32:09,959 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:10,158 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <3587>
+
+2022-10-24 23:32:10,159 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:10,358 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <3585>
+
+2022-10-24 23:32:10,360 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:10,797 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <4905>
+
+2022-10-24 23:32:10,798 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:10,897 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <5819>
+
+2022-10-24 23:32:10,900 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:10,998 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <6422>
+
+2022-10-24 23:32:11,000 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:11,259 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <6522>
+
+2022-10-24 23:32:11,261 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:11,460 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <6520>
+
+2022-10-24 23:32:11,461 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:11,658 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <6117>
+
+2022-10-24 23:32:11,660 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:11,858 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <5714>
+
+2022-10-24 23:32:11,860 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:12,178 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <5208>
+
+2022-10-24 23:32:12,179 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:12,278 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <4800>
+
+2022-10-24 23:32:12,280 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:12,379 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : Traceback (appels les plus r��cents en dernier) :
+
+2022-10-24 23:32:12,479 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right :   Fichier "code.py", ligne 38, dans <module>
+
+2022-10-24 23:32:12,481 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-24 23:32:12,659 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : TypeError: impossible de convertir l'objet 'NoneType' en 'str' implicitement
+
+2022-10-24 23:32:12,760 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : 
+
+2022-10-24 23:32:12,861 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : Ex��cution du code compl��t��.
+
+2022-10-24 23:32:12,964 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : Auto-chargement activ��. Copiez ou sauvegardez les fichiers via USB pour les lancer ou d��marrez le REPL pour le d��sactiver.
+
+2022-10-24 23:32:13,209 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : 
+
+2022-10-24 23:32:13,311 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : Appuyez sur n'importe quelle touche pour utiliser le REPL. Utilisez CTRL-D pour relancer.
+
+2022-10-25 00:14:32,086 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f9adbdb0eb0>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f9adbdb0eb0>>}
+2022-10-25 00:14:32,088 - root - INFO - serial_device.py - connect : 32 - serial connected  : glove_right
+2022-10-25 00:14:32,088 - root - INFO - serial_devices_manager.py - add_device : 38 - add device glove_right
+2022-10-25 00:14:32,107 - root - INFO - main.py - <module> : 16 - Starting remote control
+2022-10-25 00:14:39,995 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <m6412>
+
+2022-10-25 00:14:40,204 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <m6614>
+
+2022-10-25 00:14:40,304 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <m7015>
+
+2022-10-25 00:14:40,404 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <m7113>
+
+2022-10-25 00:14:40,504 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <n>
+
+2022-10-25 00:14:41,008 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <n>
+
+2022-10-25 00:14:46,207 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <m6812>
+
+2022-10-25 00:14:46,412 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <m6813>
+
+2022-10-25 00:14:46,513 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <m6911>
+
+2022-10-25 00:14:46,613 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <m6813>
+
+2022-10-25 00:14:46,913 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <m6712>
+
+2022-10-25 00:14:47,013 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <n>
+
+2022-10-25 00:14:47,114 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <n>
+
+2022-10-25 00:14:47,420 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <m7013>
+
+2022-10-25 00:14:47,520 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <m7016>
+
+2022-10-25 00:14:47,621 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <m6814>
+
+2022-10-25 00:14:48,033 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <m7014>
+
+2022-10-25 00:14:48,133 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <m7014>
+
+2022-10-25 00:14:50,406 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <n>
+
+2022-10-25 00:14:50,506 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <n>
+
+2022-10-25 00:14:51,398 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : Traceback (appels les plus r��cents en dernier) :
+
+2022-10-25 00:14:51,498 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right :   Fichier "code.py", ligne 36, dans <module>
+
+2022-10-25 00:14:51,598 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right :   Fichier "anglometer.py", ligne 59, dans update
+
+2022-10-25 00:14:51,699 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right :   Fichier "anglometer.py", ligne 35, dans get_inclination
+
+2022-10-25 00:14:51,892 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right :   Fichier "adafruit_lsm303_accel.py", ligne 284, dans acceleration
+
+2022-10-25 00:14:51,992 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right :   Fichier "adafruit_lsm303_accel.py", ligne 274, dans _raw_acceleration
+
+2022-10-25 00:14:52,091 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right :   Fichier "adafruit_lsm303_accel.py", ligne 396, dans _read_bytes
+
+2022-10-25 00:14:52,191 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : OSError: [Errno 19] No such device
+
+2022-10-25 00:14:52,395 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : 
+
+2022-10-25 00:14:52,496 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : Ex��cution du code compl��t��.
+
+2022-10-25 00:14:52,596 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : Auto-chargement activ��. Copiez ou sauvegardez les fichiers via USB pour les lancer ou d��marrez le REPL pour le d��sactiver.
+
+2022-10-25 00:14:52,696 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : 
+
+2022-10-25 00:14:52,896 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : Appuyez sur n'importe quelle touche pour utiliser le REPL. Utilisez CTRL-D pour relancer.
+
+2022-10-25 00:15:32,622 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fbf0af02e50>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fbf0af02e50>>}
+2022-10-25 00:15:32,624 - root - INFO - serial_device.py - connect : 32 - serial connected  : glove_right
+2022-10-25 00:15:32,624 - root - INFO - serial_devices_manager.py - add_device : 38 - add device glove_right
+2022-10-25 00:15:32,637 - root - INFO - main.py - <module> : 16 - Starting remote control
+2022-10-25 00:15:33,101 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : Auto-ch
+2022-10-25 00:15:49,900 - root - WARNING - serial_devices_manager.py - remove_device : 43 - device glove_right removed
+2022-10-25 00:15:57,512 - root - INFO - serial_device.py - connect : 32 - serial connected  : glove_right
+2022-10-25 00:15:57,513 - root - INFO - serial_devices_manager.py - add_device : 38 - add device glove_right
+2022-10-25 00:15:58,922 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <t>
+<t
+2022-10-25 00:15:59,924 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : 
+
+2022-10-25 00:16:00,457 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <s>
+<s
+2022-10-25 00:16:02,128 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <t>
+<u
+2022-10-25 00:16:02,906 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : 
+<u>
+
+2022-10-25 00:16:04,309 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <s>
+<t
+2022-10-25 00:16:07,257 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : 
+<t>
+
+2022-10-25 00:16:11,848 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <v>
+<v
+2022-10-25 00:16:14,575 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <w>
+<y
+2022-10-25 00:16:19,117 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <m7115>
+2022-10-25 00:16:24,492 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <n>
+<n
+2022-10-25 00:16:30,574 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <r>
+<r
+2022-10-25 00:17:55,439 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fc1448a3e50>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7fc1448a3e50>>}
+2022-10-25 00:17:55,440 - root - INFO - serial_device.py - connect : 32 - serial connected  : glove_right
+2022-10-25 00:17:55,440 - root - INFO - serial_devices_manager.py - add_device : 38 - add device glove_right
+2022-10-25 00:17:55,456 - root - INFO - main.py - <module> : 16 - Starting remote control
+2022-10-25 00:18:01,861 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <m6917>
+2022-10-25 00:18:01,919 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:18:01,988 - root - ERROR - ws_client.py - send : 26 - connection error [Errno 111] Connection refused
+2022-10-25 00:18:04,377 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <m6511>
+2022-10-25 00:18:04,379 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:18:04,444 - root - ERROR - ws_client.py - send : 26 - connection error [Errno 111] Connection refused
+2022-10-25 00:18:07,553 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <m6513>
+2022-10-25 00:18:07,555 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:18:07,563 - root - ERROR - ws_client.py - send : 26 - connection error [Errno 111] Connection refused
+2022-10-25 00:18:13,227 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <m6511>
+2022-10-25 00:18:13,227 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:18:13,253 - root - ERROR - ws_client.py - send : 26 - connection error [Errno 111] Connection refused
+2022-10-25 00:18:14,631 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <m6410>
+2022-10-25 00:18:14,633 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:18:14,646 - root - ERROR - ws_client.py - send : 26 - connection error [Errno 111] Connection refused
+2022-10-25 00:18:16,305 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <m6411>
+2022-10-25 00:18:16,306 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:18:16,316 - root - ERROR - ws_client.py - send : 26 - connection error [Errno 111] Connection refused
+2022-10-25 00:18:18,467 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <m6511>
+2022-10-25 00:18:18,468 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:18:18,580 - root - ERROR - ws_client.py - send : 26 - connection error [Errno 111] Connection refused
+2022-10-25 00:18:19,764 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <o>
+<o
+2022-10-25 00:18:19,766 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:18:19,775 - root - ERROR - ws_client.py - send : 26 - connection error [Errno 111] Connection refused
+2022-10-25 00:18:21,939 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <o>
+
+2022-10-25 00:18:21,940 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:18:22,058 - root - ERROR - ws_client.py - send : 26 - connection error [Errno 111] Connection refused
+2022-10-25 00:19:19,573 - root - WARNING - serial_devices_manager.py - remove_device : 43 - device glove_right removed
+2022-10-25 00:22:56,718 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f67d0323eb0>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f67d0323eb0>>}
+2022-10-25 00:22:56,730 - root - INFO - main.py - <module> : 16 - Starting remote control
+2022-10-25 00:23:25,981 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f23a4075e80>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f23a4075e80>>}
+2022-10-25 00:23:26,079 - root - INFO - main.py - <module> : 16 - Starting remote control
+2022-10-25 00:24:09,149 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f9e656c1be0>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f9e656c1be0>>}
+2022-10-25 00:24:09,168 - root - INFO - main.py - <module> : 16 - Starting remote control
+2022-10-25 00:24:47,281 - root - INFO - serial_device.py - connect : 32 - serial connected  : glove_right
+2022-10-25 00:24:47,282 - root - INFO - serial_devices_manager.py - add_device : 38 - add device glove_right
+2022-10-25 00:24:53,974 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <r>
+<r
+2022-10-25 00:24:54,036 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:24:56,024 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <q>
+
+2022-10-25 00:24:56,027 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:25:00,234 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <q>
+<q
+2022-10-25 00:25:00,235 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:25:01,043 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : 
+<p590
+2022-10-25 00:25:01,337 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <p6211>
+2022-10-25 00:25:01,340 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:25:02,100 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <q>
+<q
+2022-10-25 00:25:02,101 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:25:02,371 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : 
+<q>
+
+2022-10-25 00:25:02,372 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:25:05,988 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <u>
+
+2022-10-25 00:25:05,990 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:25:07,522 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <u>
+<u
+2022-10-25 00:25:07,524 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:25:12,915 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <t>
+<t
+2022-10-25 00:25:12,917 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:25:14,116 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : 
+
+2022-10-25 00:25:14,972 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <s>
+<s
+2022-10-25 00:25:14,974 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:25:18,860 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <t>
+
+2022-10-25 00:25:18,863 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:26:46,976 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <y >
+<
+2022-10-25 00:26:46,978 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:26:47,116 - websockets.client - DEBUG - client.py - write_http_request : 111 - > GET / HTTP/1.1
+2022-10-25 00:26:47,117 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Host: 192.168.1.127:4421
+2022-10-25 00:26:47,117 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Upgrade: websocket
+2022-10-25 00:26:47,118 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Connection: Upgrade
+2022-10-25 00:26:47,118 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Key: hIr/2FGnNylWClGAzUicjA==
+2022-10-25 00:26:47,118 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Version: 13
+2022-10-25 00:26:47,119 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-10-25 00:26:47,119 - websockets.client - DEBUG - client.py - write_http_request : 113 - > User-Agent: Python/3.9 websockets/10.3
+2022-10-25 00:26:47,153 - websockets.client - DEBUG - client.py - read_http_response : 144 - < HTTP/1.1 101 Switching Protocols
+2022-10-25 00:26:47,154 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Upgrade: websocket
+2022-10-25 00:26:47,154 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Connection: Upgrade
+2022-10-25 00:26:47,155 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Accept: umNaUme+uC5XSLMbp77uFvcD4Fc=
+2022-10-25 00:26:47,156 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-10-25 00:26:47,156 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Date: Mon, 24 Oct 2022 22:26:47 GMT
+2022-10-25 00:26:47,157 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Server: Python/3.9 websockets/10.3
+2022-10-25 00:26:47,158 - websockets.client - DEBUG - protocol.py - connection_open : 342 - = connection is OPEN
+2022-10-25 00:26:47,159 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > TEXT '   y ' [5 bytes]
+2022-10-25 00:26:47,174 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < TEXT 'I recieved :    y ' [18 bytes]
+2022-10-25 00:26:47,175 - websockets.client - DEBUG - protocol.py - write_close_frame : 1207 - = connection is CLOSING
+2022-10-25 00:26:47,175 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:26:47,186 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:26:47,190 - websockets.client - DEBUG - protocol.py - connection_lost : 1489 - = connection is CLOSED
+2022-10-25 00:26:47,611 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <w>
+<w
+2022-10-25 00:26:47,612 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:26:47,618 - websockets.client - DEBUG - client.py - write_http_request : 111 - > GET / HTTP/1.1
+2022-10-25 00:26:47,619 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Host: 192.168.1.127:4421
+2022-10-25 00:26:47,619 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Upgrade: websocket
+2022-10-25 00:26:47,619 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Connection: Upgrade
+2022-10-25 00:26:47,619 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Key: rxbcsfFGsi4kr1RZStWx5g==
+2022-10-25 00:26:47,620 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Version: 13
+2022-10-25 00:26:47,620 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-10-25 00:26:47,620 - websockets.client - DEBUG - client.py - write_http_request : 113 - > User-Agent: Python/3.9 websockets/10.3
+2022-10-25 00:26:47,659 - websockets.client - DEBUG - client.py - read_http_response : 144 - < HTTP/1.1 101 Switching Protocols
+2022-10-25 00:26:47,660 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Upgrade: websocket
+2022-10-25 00:26:47,660 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Connection: Upgrade
+2022-10-25 00:26:47,661 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Accept: Ylwd+ubagFTIx4QTDnQj4xfqx/o=
+2022-10-25 00:26:47,661 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-10-25 00:26:47,661 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Date: Mon, 24 Oct 2022 22:26:47 GMT
+2022-10-25 00:26:47,662 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Server: Python/3.9 websockets/10.3
+2022-10-25 00:26:47,663 - websockets.client - DEBUG - protocol.py - connection_open : 342 - = connection is OPEN
+2022-10-25 00:26:47,663 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > TEXT '   w' [4 bytes]
+2022-10-25 00:26:47,679 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < TEXT 'I recieved :    w' [17 bytes]
+2022-10-25 00:26:47,680 - websockets.client - DEBUG - protocol.py - write_close_frame : 1207 - = connection is CLOSING
+2022-10-25 00:26:47,680 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:26:47,692 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:26:47,695 - websockets.client - DEBUG - protocol.py - connection_lost : 1489 - = connection is CLOSED
+2022-10-25 00:26:50,635 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <v>
+<v
+2022-10-25 00:26:50,637 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:26:50,800 - websockets.client - DEBUG - client.py - write_http_request : 111 - > GET / HTTP/1.1
+2022-10-25 00:26:50,800 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Host: 192.168.1.127:4421
+2022-10-25 00:26:50,801 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Upgrade: websocket
+2022-10-25 00:26:50,801 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Connection: Upgrade
+2022-10-25 00:26:50,802 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Key: m/STR0o4dLx/k0DHEw5adg==
+2022-10-25 00:26:50,802 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Version: 13
+2022-10-25 00:26:50,803 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-10-25 00:26:50,803 - websockets.client - DEBUG - client.py - write_http_request : 113 - > User-Agent: Python/3.9 websockets/10.3
+2022-10-25 00:26:50,835 - websockets.client - DEBUG - client.py - read_http_response : 144 - < HTTP/1.1 101 Switching Protocols
+2022-10-25 00:26:50,835 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Upgrade: websocket
+2022-10-25 00:26:50,836 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Connection: Upgrade
+2022-10-25 00:26:50,836 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Accept: lUIa4grBvCk0JVg6VCZLCk2Ue6Q=
+2022-10-25 00:26:50,836 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-10-25 00:26:50,837 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Date: Mon, 24 Oct 2022 22:26:50 GMT
+2022-10-25 00:26:50,837 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Server: Python/3.9 websockets/10.3
+2022-10-25 00:26:50,837 - websockets.client - DEBUG - protocol.py - connection_open : 342 - = connection is OPEN
+2022-10-25 00:26:50,838 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > TEXT '   v' [4 bytes]
+2022-10-25 00:26:50,858 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < TEXT 'I recieved :    v' [17 bytes]
+2022-10-25 00:26:50,859 - websockets.client - DEBUG - protocol.py - write_close_frame : 1207 - = connection is CLOSING
+2022-10-25 00:26:50,859 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:26:50,867 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:26:50,874 - websockets.client - DEBUG - protocol.py - connection_lost : 1489 - = connection is CLOSED
+2022-10-25 00:26:52,361 - root - INFO - serial_device.py - get_msg : 53 - received from glove_right : <w>
+
+2022-10-25 00:26:52,362 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:26:52,367 - websockets.client - DEBUG - client.py - write_http_request : 111 - > GET / HTTP/1.1
+2022-10-25 00:26:52,367 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Host: 192.168.1.127:4421
+2022-10-25 00:26:52,368 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Upgrade: websocket
+2022-10-25 00:26:52,368 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Connection: Upgrade
+2022-10-25 00:26:52,369 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Key: 16Vzq5jspoCp04Ck6jq0bQ==
+2022-10-25 00:26:52,369 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Version: 13
+2022-10-25 00:26:52,370 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-10-25 00:26:52,370 - websockets.client - DEBUG - client.py - write_http_request : 113 - > User-Agent: Python/3.9 websockets/10.3
+2022-10-25 00:26:52,413 - websockets.client - DEBUG - client.py - read_http_response : 144 - < HTTP/1.1 101 Switching Protocols
+2022-10-25 00:26:52,414 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Upgrade: websocket
+2022-10-25 00:26:52,414 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Connection: Upgrade
+2022-10-25 00:26:52,415 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Accept: PuAXG7CdvLqpVlun7qs4OWdu5E8=
+2022-10-25 00:26:52,415 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-10-25 00:26:52,416 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Date: Mon, 24 Oct 2022 22:26:52 GMT
+2022-10-25 00:26:52,416 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Server: Python/3.9 websockets/10.3
+2022-10-25 00:26:52,417 - websockets.client - DEBUG - protocol.py - connection_open : 342 - = connection is OPEN
+2022-10-25 00:26:52,418 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > TEXT '   w' [4 bytes]
+2022-10-25 00:26:52,437 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < TEXT 'I recieved :    w' [17 bytes]
+2022-10-25 00:26:52,438 - websockets.client - DEBUG - protocol.py - write_close_frame : 1207 - = connection is CLOSING
+2022-10-25 00:26:52,438 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:26:52,459 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:26:52,460 - websockets.client - DEBUG - protocol.py - connection_lost : 1489 - = connection is CLOSED
+2022-10-25 00:31:23,035 - root - DEBUG - control_config.py - load : 17 - {'base_path': '/home/dadou/Nextcloud/Didier/python/dadou_control', 'control_json_manager': <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f4c4610de50>, 'json_config': <bound method AbstractJsonManager.get_config of <dadoucontrol.files.control_json_manager.ControlJsonManager object at 0x7f4c4610de50>>}
+2022-10-25 00:31:23,036 - root - INFO - serial_device.py - connect : 32 - serial connected  : glove_right
+2022-10-25 00:31:23,036 - root - INFO - serial_devices_manager.py - add_device : 38 - add device glove_right
+2022-10-25 00:31:23,049 - root - INFO - main.py - <module> : 16 - Starting remote control
+2022-10-25 00:31:26,112 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:31:26,212 - websockets.client - DEBUG - client.py - write_http_request : 111 - > GET / HTTP/1.1
+2022-10-25 00:31:26,212 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Host: 192.168.1.127:4421
+2022-10-25 00:31:26,213 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Upgrade: websocket
+2022-10-25 00:31:26,213 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Connection: Upgrade
+2022-10-25 00:31:26,213 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Key: g85dQ8ERbZ1omWqhFYUtkw==
+2022-10-25 00:31:26,213 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Version: 13
+2022-10-25 00:31:26,214 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-10-25 00:31:26,214 - websockets.client - DEBUG - client.py - write_http_request : 113 - > User-Agent: Python/3.9 websockets/10.3
+2022-10-25 00:31:26,254 - websockets.client - DEBUG - client.py - read_http_response : 144 - < HTTP/1.1 101 Switching Protocols
+2022-10-25 00:31:26,255 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Upgrade: websocket
+2022-10-25 00:31:26,255 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Connection: Upgrade
+2022-10-25 00:31:26,255 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Accept: SDG8C36stuhGh2gPrU8W6xigoaA=
+2022-10-25 00:31:26,256 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-10-25 00:31:26,256 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Date: Mon, 24 Oct 2022 22:31:26 GMT
+2022-10-25 00:31:26,256 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Server: Python/3.9 websockets/10.3
+2022-10-25 00:31:26,257 - websockets.client - DEBUG - protocol.py - connection_open : 342 - = connection is OPEN
+2022-10-25 00:31:26,258 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > TEXT '   A2' [5 bytes]
+2022-10-25 00:31:26,276 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < TEXT 'I recieved :    A2' [18 bytes]
+2022-10-25 00:31:26,277 - websockets.client - DEBUG - protocol.py - write_close_frame : 1207 - = connection is CLOSING
+2022-10-25 00:31:26,277 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:31:26,293 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:31:26,294 - websockets.client - DEBUG - protocol.py - connection_lost : 1489 - = connection is CLOSED
+2022-10-25 00:31:27,137 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:31:27,143 - websockets.client - DEBUG - client.py - write_http_request : 111 - > GET / HTTP/1.1
+2022-10-25 00:31:27,143 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Host: 192.168.1.127:4421
+2022-10-25 00:31:27,143 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Upgrade: websocket
+2022-10-25 00:31:27,143 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Connection: Upgrade
+2022-10-25 00:31:27,143 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Key: CKnGyAOLOxGG6E9uYdnFmw==
+2022-10-25 00:31:27,143 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Version: 13
+2022-10-25 00:31:27,143 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-10-25 00:31:27,144 - websockets.client - DEBUG - client.py - write_http_request : 113 - > User-Agent: Python/3.9 websockets/10.3
+2022-10-25 00:31:27,178 - websockets.client - DEBUG - client.py - read_http_response : 144 - < HTTP/1.1 101 Switching Protocols
+2022-10-25 00:31:27,178 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Upgrade: websocket
+2022-10-25 00:31:27,178 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Connection: Upgrade
+2022-10-25 00:31:27,178 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Accept: KLAUKeO83PuJeNWRyJmPUXKozHo=
+2022-10-25 00:31:27,178 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-10-25 00:31:27,178 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Date: Mon, 24 Oct 2022 22:31:27 GMT
+2022-10-25 00:31:27,178 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Server: Python/3.9 websockets/10.3
+2022-10-25 00:31:27,178 - websockets.client - DEBUG - protocol.py - connection_open : 342 - = connection is OPEN
+2022-10-25 00:31:27,179 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > TEXT '   A3' [5 bytes]
+2022-10-25 00:31:27,201 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < TEXT 'I recieved :    A3' [18 bytes]
+2022-10-25 00:31:27,201 - websockets.client - DEBUG - protocol.py - write_close_frame : 1207 - = connection is CLOSING
+2022-10-25 00:31:27,201 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:31:27,217 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:31:27,219 - websockets.client - DEBUG - protocol.py - connection_lost : 1489 - = connection is CLOSED
+2022-10-25 00:31:27,689 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:31:27,695 - websockets.client - DEBUG - client.py - write_http_request : 111 - > GET / HTTP/1.1
+2022-10-25 00:31:27,696 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Host: 192.168.1.127:4421
+2022-10-25 00:31:27,696 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Upgrade: websocket
+2022-10-25 00:31:27,696 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Connection: Upgrade
+2022-10-25 00:31:27,697 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Key: YYrzRirNmOludRW4pu1g9A==
+2022-10-25 00:31:27,697 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Version: 13
+2022-10-25 00:31:27,697 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-10-25 00:31:27,698 - websockets.client - DEBUG - client.py - write_http_request : 113 - > User-Agent: Python/3.9 websockets/10.3
+2022-10-25 00:31:27,739 - websockets.client - DEBUG - client.py - read_http_response : 144 - < HTTP/1.1 101 Switching Protocols
+2022-10-25 00:31:27,739 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Upgrade: websocket
+2022-10-25 00:31:27,740 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Connection: Upgrade
+2022-10-25 00:31:27,740 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Accept: 3VmMGxz4TMTSd7ziLxjZ8cx8BOg=
+2022-10-25 00:31:27,740 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-10-25 00:31:27,741 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Date: Mon, 24 Oct 2022 22:31:27 GMT
+2022-10-25 00:31:27,741 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Server: Python/3.9 websockets/10.3
+2022-10-25 00:31:27,742 - websockets.client - DEBUG - protocol.py - connection_open : 342 - = connection is OPEN
+2022-10-25 00:31:27,742 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > TEXT '   A3' [5 bytes]
+2022-10-25 00:31:27,761 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < TEXT 'I recieved :    A3' [18 bytes]
+2022-10-25 00:31:27,762 - websockets.client - DEBUG - protocol.py - write_close_frame : 1207 - = connection is CLOSING
+2022-10-25 00:31:27,763 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:31:27,791 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:31:27,793 - websockets.client - DEBUG - protocol.py - connection_lost : 1489 - = connection is CLOSED
+2022-10-25 00:31:28,242 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:31:28,250 - websockets.client - DEBUG - client.py - write_http_request : 111 - > GET / HTTP/1.1
+2022-10-25 00:31:28,250 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Host: 192.168.1.127:4421
+2022-10-25 00:31:28,250 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Upgrade: websocket
+2022-10-25 00:31:28,250 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Connection: Upgrade
+2022-10-25 00:31:28,250 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Key: /sp8guwFILZHvJGiBcySAw==
+2022-10-25 00:31:28,251 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Version: 13
+2022-10-25 00:31:28,251 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-10-25 00:31:28,251 - websockets.client - DEBUG - client.py - write_http_request : 113 - > User-Agent: Python/3.9 websockets/10.3
+2022-10-25 00:31:28,291 - websockets.client - DEBUG - client.py - read_http_response : 144 - < HTTP/1.1 101 Switching Protocols
+2022-10-25 00:31:28,291 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Upgrade: websocket
+2022-10-25 00:31:28,291 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Connection: Upgrade
+2022-10-25 00:31:28,292 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Accept: YRJGY1fDhqJ6AQ9bCM3+zywyGQg=
+2022-10-25 00:31:28,292 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-10-25 00:31:28,292 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Date: Mon, 24 Oct 2022 22:31:28 GMT
+2022-10-25 00:31:28,292 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Server: Python/3.9 websockets/10.3
+2022-10-25 00:31:28,292 - websockets.client - DEBUG - protocol.py - connection_open : 342 - = connection is OPEN
+2022-10-25 00:31:28,292 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > TEXT '   A3' [5 bytes]
+2022-10-25 00:31:28,306 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < TEXT 'I recieved :    A3' [18 bytes]
+2022-10-25 00:31:28,306 - websockets.client - DEBUG - protocol.py - write_close_frame : 1207 - = connection is CLOSING
+2022-10-25 00:31:28,306 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:31:28,320 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:31:28,323 - websockets.client - DEBUG - protocol.py - connection_lost : 1489 - = connection is CLOSED
+2022-10-25 00:31:29,061 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:31:29,071 - websockets.client - DEBUG - client.py - write_http_request : 111 - > GET / HTTP/1.1
+2022-10-25 00:31:29,071 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Host: 192.168.1.127:4421
+2022-10-25 00:31:29,072 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Upgrade: websocket
+2022-10-25 00:31:29,072 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Connection: Upgrade
+2022-10-25 00:31:29,072 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Key: pk+YMoZHwwPr4VAkzu1zKA==
+2022-10-25 00:31:29,073 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Version: 13
+2022-10-25 00:31:29,073 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-10-25 00:31:29,073 - websockets.client - DEBUG - client.py - write_http_request : 113 - > User-Agent: Python/3.9 websockets/10.3
+2022-10-25 00:31:29,115 - websockets.client - DEBUG - client.py - read_http_response : 144 - < HTTP/1.1 101 Switching Protocols
+2022-10-25 00:31:29,116 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Upgrade: websocket
+2022-10-25 00:31:29,116 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Connection: Upgrade
+2022-10-25 00:31:29,116 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Accept: vGJ55M71yJmAoSEqSpVJlkY8L1w=
+2022-10-25 00:31:29,117 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-10-25 00:31:29,117 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Date: Mon, 24 Oct 2022 22:31:29 GMT
+2022-10-25 00:31:29,117 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Server: Python/3.9 websockets/10.3
+2022-10-25 00:31:29,118 - websockets.client - DEBUG - protocol.py - connection_open : 342 - = connection is OPEN
+2022-10-25 00:31:29,119 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > TEXT '   A5' [5 bytes]
+2022-10-25 00:31:29,139 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < TEXT 'I recieved :    A5' [18 bytes]
+2022-10-25 00:31:29,140 - websockets.client - DEBUG - protocol.py - write_close_frame : 1207 - = connection is CLOSING
+2022-10-25 00:31:29,140 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:31:29,160 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:31:29,161 - websockets.client - DEBUG - protocol.py - connection_lost : 1489 - = connection is CLOSED
+2022-10-25 00:31:30,674 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:31:30,682 - websockets.client - DEBUG - client.py - write_http_request : 111 - > GET / HTTP/1.1
+2022-10-25 00:31:30,682 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Host: 192.168.1.127:4421
+2022-10-25 00:31:30,682 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Upgrade: websocket
+2022-10-25 00:31:30,682 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Connection: Upgrade
+2022-10-25 00:31:30,682 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Key: MzJMbPUDeT2Wn76ZilCRvw==
+2022-10-25 00:31:30,682 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Version: 13
+2022-10-25 00:31:30,682 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-10-25 00:31:30,682 - websockets.client - DEBUG - client.py - write_http_request : 113 - > User-Agent: Python/3.9 websockets/10.3
+2022-10-25 00:31:30,717 - websockets.client - DEBUG - client.py - read_http_response : 144 - < HTTP/1.1 101 Switching Protocols
+2022-10-25 00:31:30,717 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Upgrade: websocket
+2022-10-25 00:31:30,717 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Connection: Upgrade
+2022-10-25 00:31:30,717 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Accept: qTh4iwwJc91P2yXgzNh9PEqqKY8=
+2022-10-25 00:31:30,718 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-10-25 00:31:30,718 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Date: Mon, 24 Oct 2022 22:31:30 GMT
+2022-10-25 00:31:30,718 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Server: Python/3.9 websockets/10.3
+2022-10-25 00:31:30,718 - websockets.client - DEBUG - protocol.py - connection_open : 342 - = connection is OPEN
+2022-10-25 00:31:30,718 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > TEXT '   A6' [5 bytes]
+2022-10-25 00:31:30,740 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < TEXT 'I recieved :    A6' [18 bytes]
+2022-10-25 00:31:30,740 - websockets.client - DEBUG - protocol.py - write_close_frame : 1207 - = connection is CLOSING
+2022-10-25 00:31:30,740 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:31:30,762 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:31:30,763 - websockets.client - DEBUG - protocol.py - connection_lost : 1489 - = connection is CLOSED
+2022-10-25 00:31:31,211 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:31:31,219 - websockets.client - DEBUG - client.py - write_http_request : 111 - > GET / HTTP/1.1
+2022-10-25 00:31:31,219 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Host: 192.168.1.127:4421
+2022-10-25 00:31:31,219 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Upgrade: websocket
+2022-10-25 00:31:31,219 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Connection: Upgrade
+2022-10-25 00:31:31,219 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Key: b+64RGEGAkQZnJPc+ZC1fA==
+2022-10-25 00:31:31,219 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Version: 13
+2022-10-25 00:31:31,219 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-10-25 00:31:31,219 - websockets.client - DEBUG - client.py - write_http_request : 113 - > User-Agent: Python/3.9 websockets/10.3
+2022-10-25 00:31:31,260 - websockets.client - DEBUG - client.py - read_http_response : 144 - < HTTP/1.1 101 Switching Protocols
+2022-10-25 00:31:31,261 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Upgrade: websocket
+2022-10-25 00:31:31,261 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Connection: Upgrade
+2022-10-25 00:31:31,261 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Accept: WTAKjGtHZHtYiBFzC2mWsdR8CCc=
+2022-10-25 00:31:31,262 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-10-25 00:31:31,262 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Date: Mon, 24 Oct 2022 22:31:31 GMT
+2022-10-25 00:31:31,262 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Server: Python/3.9 websockets/10.3
+2022-10-25 00:31:31,263 - websockets.client - DEBUG - protocol.py - connection_open : 342 - = connection is OPEN
+2022-10-25 00:31:31,263 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > TEXT '   A4' [5 bytes]
+2022-10-25 00:31:31,281 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < TEXT 'I recieved :    A4' [18 bytes]
+2022-10-25 00:31:31,282 - websockets.client - DEBUG - protocol.py - write_close_frame : 1207 - = connection is CLOSING
+2022-10-25 00:31:31,282 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:31:31,299 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:31:31,301 - websockets.client - DEBUG - protocol.py - connection_lost : 1489 - = connection is CLOSED
+2022-10-25 00:31:32,024 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:31:32,030 - websockets.client - DEBUG - client.py - write_http_request : 111 - > GET / HTTP/1.1
+2022-10-25 00:31:32,031 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Host: 192.168.1.127:4421
+2022-10-25 00:31:32,031 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Upgrade: websocket
+2022-10-25 00:31:32,031 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Connection: Upgrade
+2022-10-25 00:31:32,032 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Key: txtlCbV2Ufj3stnOG71YrQ==
+2022-10-25 00:31:32,032 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Version: 13
+2022-10-25 00:31:32,033 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-10-25 00:31:32,033 - websockets.client - DEBUG - client.py - write_http_request : 113 - > User-Agent: Python/3.9 websockets/10.3
+2022-10-25 00:31:32,068 - websockets.client - DEBUG - client.py - read_http_response : 144 - < HTTP/1.1 101 Switching Protocols
+2022-10-25 00:31:32,069 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Upgrade: websocket
+2022-10-25 00:31:32,069 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Connection: Upgrade
+2022-10-25 00:31:32,070 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Accept: 3DzdDqZBZUGvuUBcZEWb0VsGUa4=
+2022-10-25 00:31:32,070 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-10-25 00:31:32,070 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Date: Mon, 24 Oct 2022 22:31:32 GMT
+2022-10-25 00:31:32,071 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Server: Python/3.9 websockets/10.3
+2022-10-25 00:31:32,071 - websockets.client - DEBUG - protocol.py - connection_open : 342 - = connection is OPEN
+2022-10-25 00:31:32,072 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > TEXT '   A1' [5 bytes]
+2022-10-25 00:31:32,098 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < TEXT 'I recieved :    A1' [18 bytes]
+2022-10-25 00:31:32,099 - websockets.client - DEBUG - protocol.py - write_close_frame : 1207 - = connection is CLOSING
+2022-10-25 00:31:32,099 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:31:32,117 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:31:32,118 - websockets.client - DEBUG - protocol.py - connection_lost : 1489 - = connection is CLOSED
+2022-10-25 00:31:42,017 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:31:42,177 - websockets.client - DEBUG - client.py - write_http_request : 111 - > GET / HTTP/1.1
+2022-10-25 00:31:42,178 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Host: 192.168.1.127:4421
+2022-10-25 00:31:42,178 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Upgrade: websocket
+2022-10-25 00:31:42,179 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Connection: Upgrade
+2022-10-25 00:31:42,179 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Key: JttblUeBhocCS1hc7iCFWA==
+2022-10-25 00:31:42,179 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Version: 13
+2022-10-25 00:31:42,180 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-10-25 00:31:42,180 - websockets.client - DEBUG - client.py - write_http_request : 113 - > User-Agent: Python/3.9 websockets/10.3
+2022-10-25 00:31:42,219 - websockets.client - DEBUG - client.py - read_http_response : 144 - < HTTP/1.1 101 Switching Protocols
+2022-10-25 00:31:42,220 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Upgrade: websocket
+2022-10-25 00:31:42,220 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Connection: Upgrade
+2022-10-25 00:31:42,220 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Accept: 12goqJqb/CxurjMjuZ26c69O0D0=
+2022-10-25 00:31:42,221 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-10-25 00:31:42,221 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Date: Mon, 24 Oct 2022 22:31:42 GMT
+2022-10-25 00:31:42,221 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Server: Python/3.9 websockets/10.3
+2022-10-25 00:31:42,222 - websockets.client - DEBUG - protocol.py - connection_open : 342 - = connection is OPEN
+2022-10-25 00:31:42,223 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > TEXT '   A2' [5 bytes]
+2022-10-25 00:31:42,242 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < TEXT 'I recieved :    A2' [18 bytes]
+2022-10-25 00:31:42,243 - websockets.client - DEBUG - protocol.py - write_close_frame : 1207 - = connection is CLOSING
+2022-10-25 00:31:42,244 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:31:42,259 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:31:42,260 - websockets.client - DEBUG - protocol.py - connection_lost : 1489 - = connection is CLOSED
+2022-10-25 00:31:42,673 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:31:42,681 - websockets.client - DEBUG - client.py - write_http_request : 111 - > GET / HTTP/1.1
+2022-10-25 00:31:42,682 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Host: 192.168.1.127:4421
+2022-10-25 00:31:42,682 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Upgrade: websocket
+2022-10-25 00:31:42,683 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Connection: Upgrade
+2022-10-25 00:31:42,683 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Key: 2UeZB+8E6/ULq9yGz0mr/w==
+2022-10-25 00:31:42,683 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Version: 13
+2022-10-25 00:31:42,684 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-10-25 00:31:42,684 - websockets.client - DEBUG - client.py - write_http_request : 113 - > User-Agent: Python/3.9 websockets/10.3
+2022-10-25 00:31:42,744 - websockets.client - DEBUG - client.py - read_http_response : 144 - < HTTP/1.1 101 Switching Protocols
+2022-10-25 00:31:42,745 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Upgrade: websocket
+2022-10-25 00:31:42,745 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Connection: Upgrade
+2022-10-25 00:31:42,745 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Accept: A/cAoF9iAMlj1RTmdQwwJnGIyi0=
+2022-10-25 00:31:42,746 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-10-25 00:31:42,746 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Date: Mon, 24 Oct 2022 22:31:42 GMT
+2022-10-25 00:31:42,746 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Server: Python/3.9 websockets/10.3
+2022-10-25 00:31:42,747 - websockets.client - DEBUG - protocol.py - connection_open : 342 - = connection is OPEN
+2022-10-25 00:31:42,748 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > TEXT '   A5' [5 bytes]
+2022-10-25 00:31:42,762 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < TEXT 'I recieved :    A5' [18 bytes]
+2022-10-25 00:31:42,763 - websockets.client - DEBUG - protocol.py - write_close_frame : 1207 - = connection is CLOSING
+2022-10-25 00:31:42,763 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:31:42,791 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:31:42,792 - websockets.client - DEBUG - protocol.py - connection_lost : 1489 - = connection is CLOSED
+2022-10-25 00:31:43,436 - websockets.client - DEBUG - protocol.py - __init__ : 253 - = connection is CONNECTING
+2022-10-25 00:31:43,440 - websockets.client - DEBUG - client.py - write_http_request : 111 - > GET / HTTP/1.1
+2022-10-25 00:31:43,440 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Host: 192.168.1.127:4421
+2022-10-25 00:31:43,441 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Upgrade: websocket
+2022-10-25 00:31:43,441 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Connection: Upgrade
+2022-10-25 00:31:43,442 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Key: FxiSw8IARDkkzy9/d4zkrA==
+2022-10-25 00:31:43,442 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Version: 13
+2022-10-25 00:31:43,443 - websockets.client - DEBUG - client.py - write_http_request : 113 - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2022-10-25 00:31:43,443 - websockets.client - DEBUG - client.py - write_http_request : 113 - > User-Agent: Python/3.9 websockets/10.3
+2022-10-25 00:31:43,479 - websockets.client - DEBUG - client.py - read_http_response : 144 - < HTTP/1.1 101 Switching Protocols
+2022-10-25 00:31:43,479 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Upgrade: websocket
+2022-10-25 00:31:43,480 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Connection: Upgrade
+2022-10-25 00:31:43,480 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Accept: vk6M6eFTkaLczrhBAujSQThI3o8=
+2022-10-25 00:31:43,481 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2022-10-25 00:31:43,481 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Date: Mon, 24 Oct 2022 22:31:43 GMT
+2022-10-25 00:31:43,481 - websockets.client - DEBUG - client.py - read_http_response : 146 - < Server: Python/3.9 websockets/10.3
+2022-10-25 00:31:43,482 - websockets.client - DEBUG - protocol.py - connection_open : 342 - = connection is OPEN
+2022-10-25 00:31:43,483 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > TEXT '   A4' [5 bytes]
+2022-10-25 00:31:43,498 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < TEXT 'I recieved :    A4' [18 bytes]
+2022-10-25 00:31:43,499 - websockets.client - DEBUG - protocol.py - write_close_frame : 1207 - = connection is CLOSING
+2022-10-25 00:31:43,499 - websockets.client - DEBUG - protocol.py - write_frame_sync : 1158 - > CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:31:43,518 - websockets.client - DEBUG - protocol.py - read_frame : 1152 - < CLOSE 1000 (OK) [2 bytes]
+2022-10-25 00:31:43,518 - websockets.client - DEBUG - protocol.py - connection_lost : 1489 - = connection is CLOSED

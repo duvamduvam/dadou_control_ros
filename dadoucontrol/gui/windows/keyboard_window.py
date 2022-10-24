@@ -76,7 +76,7 @@ class KeyboardFrame(tk.Frame):
             self.mod = name
         else:
             self.right_panel_middle.config(text=self.mod+name)
-            ControlFactory().message.send_legacy(self.mod+name, None)
+            ControlFactory().message.send(self.mod+name, None)
 
     def check_plugged_device(self):
         self.after(500, self.check_plugged_device)
@@ -96,6 +96,6 @@ class KeyboardFrame(tk.Frame):
             msg = device.get_msg_separator()
             if msg:
                 self.right_panel_middle.config(text=msg)
-                ControlFactory().message.send_legacy(msg, None)
+                ControlFactory().message.send(msg, None)
 
 
