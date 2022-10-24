@@ -1,73 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e737f4f3-4117-4ba7-a7c5-4eb5247e9199" name="Changes" comment="timeline moving again">
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/logging-pi.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_frame_image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_frame_text.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/keyboard_window.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json/sequences/seq5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/bashrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/before-lunch.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/check_internet.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/copy-audio.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/copy-external-module.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/deploy.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/didier-python.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/didier.service" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/install-didier.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/install-lib.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/launch-didier-install.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/legacy/check_internet.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/legacy/didier-python.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/legacy/launch-didier-install.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/legacy/push-didier.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/legacy/push_from_home.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/legacy/test.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/legacy/update_run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/legacy/update_test.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/push-didier.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/push_from_home.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/run-laptop.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/run-pi.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/update_run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/update_test.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/utils.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dadou_control.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dadou_control.iml" afterDir="false" />
+    <list default="true" id="e737f4f3-4117-4ba7-a7c5-4eb5247e9199" name="Changes" comment="rpi remote control">
+      <change afterPath="$PROJECT_DIR$/scripts/remote.desktop" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/logging.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/logging-laptop.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/com/serial_device_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/com/serial_device_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/control_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/control_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/com/serial_device_manager.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/control_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/control_factory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/control_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/control_static.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/files/control_json_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/files/control_json_manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/tkinter_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/tkinter_gui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/glove_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/glove_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/keyboard_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/keyboard_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/remote_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/remote_window.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/json/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/control.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/control.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-06-13_19" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-06-14_01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-06-14_13" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-06-15_11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-06-19_18" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-06-19_20" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-06-20_01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-06-20_11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-06-20_14" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-06-21_01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-07-01_21" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-07-11_01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-07-14_00" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-07-15_01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-07-15_09" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-07-15_20" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-07-16_01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/control.log.2022-07-16_11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/bashrc" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/bashrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/before-lunch.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/before-lunch.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/didier.service" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/didier.service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/install-didier.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/install-didier.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/run-pi.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/run-pi.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,18 +84,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "true",
-    "last_opened_file_path": "/home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/gui/windows/frames",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dadou/Nextcloud/Didier/python/dadou_utils/com&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="dadou_control" is-module-sdk="true">
@@ -152,11 +106,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../dadou_utils/com" />
       <recent name="$PROJECT_DIR$/dadoucontrol/gui/windows/frames" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/json" />
       <recent name="$PROJECT_DIR$/dadoucontrol/gui/windows/sequences" />
-      <recent name="$PROJECT_DIR$/visuals/eye" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dadoucontrol/gui/windows" />
@@ -166,7 +120,7 @@
       <recent name="$PROJECT_DIR$/dadoucontrol/files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.local control">
+  <component name="RunManager" selected="Python.remote control">
     <configuration name="audio_player_ex2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dadou_control" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -254,7 +208,7 @@
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2">
-        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_copy utils" />
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_copy utils remote" />
       </method>
     </configuration>
     <configuration name="Python tests for test_ws.WsTests.test_ws" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -300,7 +254,15 @@
       <workItem from="1654298619665" duration="845000" />
       <workItem from="1666346938471" duration="4637000" />
       <workItem from="1666355871643" duration="5632000" />
-      <workItem from="1666376222924" duration="30596000" />
+      <workItem from="1666376222924" duration="49300000" />
+      <workItem from="1666520591899" duration="1738000" />
+      <workItem from="1666522421209" duration="3806000" />
+      <workItem from="1666545505803" duration="21236000" />
+      <workItem from="1666631172504" duration="206000" />
+      <workItem from="1666631394689" duration="157000" />
+      <workItem from="1666631630563" duration="141000" />
+      <workItem from="1666631919671" duration="1001000" />
+      <workItem from="1666633090136" duration="315000" />
     </task>
     <task id="LOCAL-00001" summary="i don't know ...">
       <created>1654844930851</created>
@@ -386,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663451844552</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="rpi remote control">
+      <created>1666438268405</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666438268405</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,42 +382,28 @@
     <MESSAGE value="update json structure" />
     <MESSAGE value="light window working" />
     <MESSAGE value="timeline moving again" />
-    <option name="LAST_COMMIT_MESSAGE" value="timeline moving again" />
+    <MESSAGE value="rpi remote control" />
+    <option name="LAST_COMMIT_MESSAGE" value="rpi remote control" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../dadou_utils/com/serial_device.py</url>
-          <line>61</line>
-          <option name="timeStamp" value="226" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file:///usr/local/lib/python3.9/dist-packages/dadou_utils/com/serial_device.py</url>
-          <line>62</line>
-          <option name="timeStamp" value="227" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dadoucontrol/gui/tkinter_gui.py</url>
-          <line>39</line>
-          <option name="timeStamp" value="228" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../dadou_utils/misc.py</url>
-          <line>109</line>
-          <option name="timeStamp" value="230" />
+          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/keyboard_window.py</url>
+          <line>108</line>
+          <option name="timeStamp" value="245" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/dadoucontrol/control_static.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="231" />
+          <line>31</line>
+          <option name="timeStamp" value="246" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/dadou_control$local_control.coverage" NAME="local control Coverage Results" MODIFIED="1666437896987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol/gui/windows/audio" />
-    <SUITE FILE_PATH="coverage/dadou_control$remote_control.coverage" NAME="remote control Coverage Results" MODIFIED="1666437364548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol" />
+    <SUITE FILE_PATH="coverage/dadou_control$local_control.coverage" NAME="local control Coverage Results" MODIFIED="1666632409560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol/gui/windows/audio" />
+    <SUITE FILE_PATH="coverage/dadou_control$remote_control.coverage" NAME="remote control Coverage Results" MODIFIED="1666632689050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol" />
     <SUITE FILE_PATH="coverage/dadou_control$main.coverage" NAME="main Coverage Results" MODIFIED="1666358241118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol" />
   </component>
 </project>

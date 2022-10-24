@@ -1,6 +1,8 @@
 import tkinter as tk                # dadoutils 3
 from tkinter import font as tkfont  # dadoutils 3
 
+from dadoucontrol.control_factory import ControlFactory
+
 from dadoucontrol.gui.windows.expression_window import ExpressionFrame
 from dadoucontrol.gui.windows.lights_window import LightsFrame
 from dadoucontrol.gui.windows.remote_window import RemoteFrame
@@ -37,17 +39,20 @@ class MainGui(tk.Tk):
 
         screen_width = self.winfo_screenwidth()
 
-        tk.Button(menu, text='Glove', bg='red', command=lambda: self.show_frame(self.GLOVE_FRAME)).pack(ipadx=10, ipady=50, fill='x', expand=True, side='left')
-        tk.Button(menu, text='Keyboard', bg='purple', command=lambda: self.show_frame(self.KEYBOARD_FRAME)).pack(ipadx=10, ipady=50, fill='x', expand=True, side='left')
+        tk.Button(menu, text='Glove', bg='red', command=lambda: self.show_frame(self.GLOVE_FRAME)).pack(ipadx=10, ipady=30, fill='x', expand=True, side='left')
+        tk.Button(menu, text='Keyboard', bg='purple', command=lambda: self.show_frame(self.KEYBOARD_FRAME)).pack(ipadx=10, ipady=30, fill='x', expand=True, side='left')
         if screen_width > 1000:
-            tk.Button(menu, text='Sequence', bg='blue', command=lambda: self.show_frame(self.SEQUENCE_FRAME)).pack(ipadx=10, ipady=50, fill='x', expand=True, side='left')
-            tk.Button(menu, text='Expression', bg='grey', command=lambda: self.show_frame(self.EXPRESSION_FRAME)).pack(ipadx=10, ipady=50, fill='x', expand=True, side='left')
-            tk.Button(menu, text='Lights', bg='yellow', command=lambda: self.show_frame(self.LIGHTS_FRAME)).pack(ipadx=10, ipady=50, fill='x', expand=True, side='left')
-            tk.Button(menu, text='Remote', bg='pink', command=lambda: self.show_frame(self.REMOTE_FRAME)).pack(ipadx=10, ipady=50, fill='x', expand=True, side='left')
-            tk.Button(menu, text='Config', bg='green', command=lambda: self.show_frame(self.CONFIG_FRAME)).pack(ipadx=10, ipady=50, fill='x', expand=True, side='left')
+            tk.Button(menu, text='Sequence', bg='blue', command=lambda: self.show_frame(self.SEQUENCE_FRAME)).pack(ipadx=10, ipady=30, fill='x', expand=True, side='left')
+            tk.Button(menu, text='Expression', bg='grey', command=lambda: self.show_frame(self.EXPRESSION_FRAME)).pack(ipadx=10, ipady=30, fill='x', expand=True, side='left')
+            tk.Button(menu, text='Lights', bg='yellow', command=lambda: self.show_frame(self.LIGHTS_FRAME)).pack(ipadx=10, ipady=30, fill='x', expand=True, side='left')
+            tk.Button(menu, text='Remote', bg='pink', command=lambda: self.show_frame(self.REMOTE_FRAME)).pack(ipadx=10, ipady=30, fill='x', expand=True, side='left')
+            tk.Button(menu, text='Config', bg='green', command=lambda: self.show_frame(self.CONFIG_FRAME)).pack(ipadx=10, ipady=30, fill='x', expand=True, side='left')
 
         self.main = tk.Frame(self, bg='yellow')
         self.main.pack(fill='both', expand=True, side='top')
+
+        self.main = KeyboardFrame(self)
+        self.scheduler()
 
     def show_frame(self, frame_name):
         self.main.destroy()
@@ -65,6 +70,10 @@ class MainGui(tk.Tk):
             self.main = RemoteFrame(self)
         elif frame_name == self.CONFIG_FRAME:
             self.main = Config(self)
+
+    def scheduler(self):
+        self.after(500, self.scheduler)
+        ControlFactory().device_manager.update_devices()
 
 
 class Config(tk.Frame):

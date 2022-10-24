@@ -81,3 +81,5 @@ imutils~=0.5.4
 picamera~=1.13
 simpleaudio~=1.0.4
 filetype~=1.1.0
+pygame~=1.9.6
+schedule~=1.1.0

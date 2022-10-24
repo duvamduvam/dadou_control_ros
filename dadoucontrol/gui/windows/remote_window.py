@@ -3,9 +3,6 @@ import tkinter as tk
 
 from dadou_utils.misc import Misc
 
-from dadoucontrol.com.serial_device_manager import SerialDeviceManager
-from dadoucontrol.control_factory import ControlFactory
-
 
 class RemoteFrame(tk.Frame):
     def __init__(self, parent, *args, **kwargs):

@@ -2,9 +2,8 @@ import logging
 import logging.config
 import os
 
+from dadou_utils.com.serial_devices_manager import SerialDeviceManager
 from dadou_utils.com.ws_client import WsClient
-from dadou_utils.com.ws_server import WsMessage
-from dadoucontrol.com.serial_device_manager import SerialDeviceManager
 
 from dadoucontrol.audio.audio_navigation import AudioNav
 from dadoucontrol.control_config import ControlConfig
@@ -32,9 +31,7 @@ class ControlFactory(metaclass=SingletonMeta):
 
         self.control_json_manager = ControlJsonManager(base_path, ControlStatic.JSON_DIRECTORY, ControlStatic.CONFIG_FILE)
         self.config = ControlConfig(self.control_json_manager, base_path)
-        self.device_manager = SerialDeviceManager(self.control_json_manager)
-        #self.files_utils = FilesUtils(self.config)
-        self.ws_client = WsClient(ControlStatic.WS_CLIENT_URL)
+        self.device_manager = SerialDeviceManager(self.control_json_manager.get_config_item(ControlStatic.DEVICES_KEY))
+        self.ws_client = WsClient(self.control_json_manager.get_config_item(ControlStatic.WS_CLIENT_KEY))
         self.audio_nav = AudioNav()
         self.sequence_management = SequencesManagement(self.control_json_manager)
-

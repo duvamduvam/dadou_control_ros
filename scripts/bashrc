@@ -114,6 +114,7 @@ fi
 
 home=/home/didier
 deploy=$home/deploy
+export scripts=$deploy/scripts
 
 alias p='python3'
 #alias dr='$home/script/update_run.sh'
@@ -124,8 +125,9 @@ alias halt='sudo shutdown -h now'
 alias temp='vcgencmd measure_temp'
 #alias dt='$deploy/didier-python/scripts/update_test.sh'
 alias drun='dr main.py'
-alias run='r main.py'
+alias run='$scripts/run-pi.sh'
 alias start='sudo service didier start'
 alias stop='sudo service didier stop'
-alias log='tail -f $deploy/logs/didier.log'
+alias restart='sudo service didier restart'
+alias log='sudo tail -f $deploy/logs/control.log'
 alias deploy='cd $deploy'

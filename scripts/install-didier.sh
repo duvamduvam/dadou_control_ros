@@ -32,8 +32,11 @@ pip3 install --no-index /home/didier/.pycharm_helpers/setuptools-44.1.1-py2.py3-
 source install-lib.sh
 
 # install service
-sudo ln -sf $deploy/scripts/didier.service /etc/systemd/system/
-sudo chmod 644 $deploy/scripts/didier.service
-sudo chown root:root $deploy/scripts/didier.service
-sudo systemctl enable didier.service
-sudo systemctl daemon-reload
+#sudo ln -sf $deploy/scripts/didier.service /etc/systemd/system/
+#sudo chmod 644 $deploy/scripts/didier.service
+#sudo chown root:root $deploy/scripts/didier.service
+#sudo systemctl enable didier.service
+#sudo systemctl daemon-reload
+mkdir ~/.config/autostart/
+cp remote.desktop ~/.config/autostart/
+chmod +x ~/.config/autostart/remote.desktop

@@ -1,8 +1,20 @@
 {
-  "devices": {
-    "glove_left": "usb-Raspberry_Pi_Pico_E6611CB69753BB25-if00",
-    "glove_right": "usb-Raspberry_Pi_Pico_E6611CB6976B8D28-if01"
-  },
+
+  "ws_client":  "ws://192.168.1.127:4421",
+  "devices": [
+    {
+      "name": "glove_left",
+      "serial_id": "usb-Raspberry_Pi_Pico_E6611CB69753BB25-if00",
+      "msg_size": 0,
+      "type": "input_key"
+    },
+    {
+      "name": "glove_right",
+      "serial_id": "usb-Raspberry_Pi_Pico_DE61B868C73F3036-if00",
+      "msg_size": 0,
+      "type": "input_key"
+    }
+  ],
   "paths": [
     {
       "name": "visual",

@@ -1,14 +1,14 @@
 import logging
 import tkinter as tk
-from dadoucontrol.com.serial_device_manager import SerialDeviceManager
+
 from dadoucontrol.control_factory import ControlFactory
 
 
 class GloveFrame(tk.Frame):
     def __init__(self, parent):
 
-        self.deviceManager = ControlFactory().device_manager
-        self.serial_glove_left = self.deviceManager.gloveLeft
+        #self.deviceManager = ControlFactory().device_manager
+        #self.serial_glove_left = self.deviceManager.gloveLeft
 
         tk.Frame.__init__(self, parent, bg='grey')
         self.pack(fill='both', expand=True, side='top')

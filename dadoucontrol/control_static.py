@@ -14,14 +14,17 @@ class ControlStatic:
     JSON_DIRECTORY = "/json/"
     SEQUENCES_DIRECTORY = "/sequences/"
 
-    WS_CLIENT_URL = 'ws://192.168.1.150:4421'
+    GLOVE_LEFT = "glove_left"
+    GLOVE_RIGHT = "glove_right"
 
     AUDIO_NAME_KEY = 'audio_name'
     AUDIO_PATH_KEY = 'audio_path'
+    DEVICES_KEY = 'devices'
     NAME_KEY = 'name'
     PATH_KEY = 'path'
     PATHS_KEY = 'paths'
     SEQUENCES_DIRECTORY_KEY = 'sequences'
+    WS_CLIENT_KEY = 'ws_client'
 
     @staticmethod
     def get_logs_dir():
