@@ -13,13 +13,15 @@ from dadoucontrol.gui.tkinter_gui import MainGui
 
 sys.path.append('..')
 
-
-
-logging.info('Starting didier')
+logging.info('Starting remote control')
 
 def main():
-    gui = MainGui()
-    gui.mainloop()
+    try:
+        gui = MainGui()
+        gui.mainloop()
+    except Exception as e:
+        logging.error(e)
+
 
 if __name__ == '__main__':
     main()

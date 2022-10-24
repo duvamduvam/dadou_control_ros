@@ -53,7 +53,7 @@ class KeyboardFrame(tk.Frame):
         self.right_panel_middle.grid(row=2, column=6, columnspan=3, rowspan=2)
 
         self.check_internet()
-        self.gloveInput()
+        self.glove_input()
         self.check_plugged_device()
 
     def create_cell(self, grid, x, y, name):
@@ -65,7 +65,7 @@ class KeyboardFrame(tk.Frame):
 
     def check_internet(self) -> None:
         self.after(500, self.check_internet)
-        if Misc.isConnected():
+        if Misc.is_connected():
             self.internet_label.config(bg="green")
         else:
             self.internet_label.config(bg="red")
@@ -76,6 +76,7 @@ class KeyboardFrame(tk.Frame):
             self.mod = name
         else:
             self.right_panel_middle.config(text=self.mod+name)
+            ControlFactory().message.send_legacy(self.mod+name, None)
 
     def check_plugged_device(self):
         self.after(500, self.check_plugged_device)
@@ -88,32 +89,13 @@ class KeyboardFrame(tk.Frame):
         else:
             self.right_glove_feedback_panel.config(bg="red")
 
-    """def checkNewUsb(self) -> None:
-        self.after(1000, self.checkNewUsb)
-        msg = "disconnected"
-        if self.deviceManager.checkNewDevice(self.serial_glove_left):
-            msg = "connected"
-            self.top_left.config(bg="green")
-            self.top_left.config(text=msg)
-            #self.serial_glove_left = SerialDevice(self.deviceManager.gloveLeft)
-        else:
-            self.top_left.config(bg="red")
-        self.top_left.config(text=msg)"""
-
-    def gloveInput(self) -> None:
-        self.after(100, self.gloveInput)
+    def glove_input(self) -> None:
+        self.after(100, self.glove_input)
         devices = self.deviceManager.get_device_type(UtilsStatic.KEY_INPUT_KEY)
         for device in devices:
             msg = device.get_msg_separator()
             if msg:
                 self.right_panel_middle.config(text=msg)
-                ControlFactory().ws_client.send(msg)
-        """if self.serial_glove_left.plugged:
-            msg = self.serial_glove_left.get_msg_separator()
-            if msg:
-                self.right_panel_middle.config(text=msg)
-        if self.serial_glove_right.plugged:
-            msg = self.serial_glove_right.get_msg_separator()
-            if msg:
-                self.right_panel_middle.config(text=msg)"""
+                ControlFactory().message.send_legacy(msg, None)
+
 
