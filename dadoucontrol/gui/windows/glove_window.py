@@ -28,7 +28,7 @@ class GloveFrame(tk.Frame):
 
         self.free_text = tk.Text(input_command_frame, height=5, width=52)
         self.free_text.grid(row=0, column=0, padx=10)
-        send_text = tk.Button(input_command_frame, text='envoyer', command=lambda: self.sendText())
+        send_text = tk.Button(input_command_frame, text='envoyer', command=lambda: self.send_text())
         send_text.grid(row=1, column=0, padx=10)
 
         self.glove_left.config(font=("Courier", 100, "bold"))
@@ -37,11 +37,11 @@ class GloveFrame(tk.Frame):
         self.glove_left.config(font=("Courier", 100, "bold"))
         self.glove_right.pack(ipadx=10, ipady=10, fill='both', expand=True, side='right')
 
-        self.checkNewUsb()
-        self.gloveInput()
+        self.check_new_usb()
+        self.glove_input()
 
-    def checkNewUsb(self) -> None:
-        self.after(1000, self.checkNewUsb)
+    def check_new_usb(self) -> None:
+        self.after(1000, self.check_new_usb)
         msg = "disconnected"
         if self.deviceManager.checkNewDevice(self.serial_glove_left):
             msg = "connected"
@@ -52,15 +52,15 @@ class GloveFrame(tk.Frame):
             self.top_left.config(bg="red")
         self.top_left.config(text=msg)
 
-    def gloveInput(self) -> None:
-        self.after(100, self.gloveInput)
+    def glove_input(self) -> None:
+        self.after(100, self.glove_input)
         if self.serial_glove_left.plugged:
             msg = self.serial_glove_left.get_msg_separator()
             if msg:
                 #ControlFactory().ws_client.send(msg)
                 self.glove_left.config(text=msg)
 
-    def sendText(self):
+    def send_text(self):
         command = self.free_text.get("1.0",'end-1c')
         logging.info("input command "+command)
         ControlFactory().ws_client.send(command)

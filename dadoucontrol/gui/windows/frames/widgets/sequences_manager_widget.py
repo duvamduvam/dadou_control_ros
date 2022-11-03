@@ -4,9 +4,10 @@ import tkinter as tk
 from tkinter import filedialog as fd
 
 from dadou_utils.time.time_utils import TimeUtils
+from dadou_utils.utils_static import SEQUENCES
 
 from dadoucontrol.control_factory import ControlFactory
-from dadoucontrol.control_static import ControlStatic
+from dadoucontrol.control_static import ControlStatic, SEQUENCES_DIRECTORY
 from dadoucontrol.files.file_manager import FileManager
 from dadoucontrol.gui.windows.frames.widgets.audio_select_popup import AudioPopupWidget
 from dadoucontrol.gui.windows.frames.music_frame import MusicFrame
@@ -30,7 +31,7 @@ class SequencesManagerWidget(tk.Frame):
         self.selected_sequence_var = tk.StringVar(self)
         self.audio_path = None
 
-        self.seq_files = FileManager.list_folder_files(ControlStatic.SEQUENCES_DIRECTORY_KEY)
+        self.seq_files = FileManager.list_folder_files(SEQUENCES)
         self.seq_files.sort()
         self.files_var.set(self.seq_files)
 

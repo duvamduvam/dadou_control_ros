@@ -5,6 +5,8 @@
 import sys
 import logging
 import os
+import traceback
+
 from dadoucontrol.control_factory import ControlFactory
 base_path = os.path.dirname(__file__)
 ControlFactory(base_path)
@@ -21,6 +23,7 @@ def main():
         gui.mainloop()
     except Exception as e:
         logging.error(e)
+        traceback.print_exc()
 
 
 if __name__ == '__main__':

@@ -2,12 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e737f4f3-4117-4ba7-a7c5-4eb5247e9199" name="Changes" comment="ws message working">
+      <change afterPath="$PROJECT_DIR$/dadoucontrol/com/glove_message.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/logging-laptop.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/logging-laptop.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/com/robot_message.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/com/robot_message.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/control_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/control_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/control_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/control_static.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/files/control_json_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/files/control_json_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/sequences_manager_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/sequences_manager_widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/glove_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/glove_window.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/keyboard_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/keyboard_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/logic/sequences/sequences_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/logic/sequences/sequences_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/tests/test_ws.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/tests/test_ws.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/json/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/control.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/control.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/bashrc" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/bashrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/didier.service" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/run-pi.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/run-pi.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +119,7 @@
       <recent name="$PROJECT_DIR$/dadoucontrol/files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.remote control">
+  <component name="RunManager" selected="Python.local control">
     <configuration name="audio_player_ex2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dadou_control" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -260,6 +273,36 @@
       <workItem from="1666650174061" duration="634000" />
       <workItem from="1666650980200" duration="116000" />
       <workItem from="1666651343038" duration="103000" />
+      <workItem from="1666652333139" duration="61000" />
+      <workItem from="1666713059791" duration="4141000" />
+      <workItem from="1666718494951" duration="84000" />
+      <workItem from="1666726613031" duration="1647000" />
+      <workItem from="1666732780928" duration="263000" />
+      <workItem from="1666733072332" duration="181000" />
+      <workItem from="1666733403476" duration="23000" />
+      <workItem from="1666733464153" duration="251000" />
+      <workItem from="1666733721359" duration="134000" />
+      <workItem from="1666733959592" duration="578000" />
+      <workItem from="1666735140826" duration="525000" />
+      <workItem from="1666735722831" duration="99000" />
+      <workItem from="1666735939342" duration="328000" />
+      <workItem from="1666736642999" duration="130000" />
+      <workItem from="1666737248713" duration="87000" />
+      <workItem from="1666738894240" duration="344000" />
+      <workItem from="1666739286975" duration="156000" />
+      <workItem from="1666739514359" duration="272000" />
+      <workItem from="1666806437596" duration="140000" />
+      <workItem from="1666815957387" duration="646000" />
+      <workItem from="1666816807285" duration="293000" />
+      <workItem from="1666902464826" duration="369000" />
+      <workItem from="1666903499126" duration="490000" />
+      <workItem from="1666904232665" duration="1693000" />
+      <workItem from="1666955549644" duration="52000" />
+      <workItem from="1666960301503" duration="149000" />
+      <workItem from="1666960582037" duration="665000" />
+      <workItem from="1667047560070" duration="53000" />
+      <workItem from="1667391405948" duration="2579000" />
+      <workItem from="1667511102679" duration="6439000" />
     </task>
     <task id="LOCAL-00001" summary="i don't know ...">
       <created>1654844930851</created>
@@ -373,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666646692715</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ws message working">
+      <created>1666652345848</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1666652345848</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,16 +458,26 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dadoucontrol/control_static.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="246" />
+          <url>file://$PROJECT_DIR$/../dadou_utils/com/serial_device.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadoucontrol/com/robot_message.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadoucontrol/logic/sequences/sequences_manager.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/dadou_control$local_control.coverage" NAME="local control Coverage Results" MODIFIED="1666650682684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol/gui/windows/audio" />
-    <SUITE FILE_PATH="coverage/dadou_control$remote_control.coverage" NAME="remote control Coverage Results" MODIFIED="1666651394816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol" />
+    <SUITE FILE_PATH="coverage/dadou_control$local_control.coverage" NAME="local control Coverage Results" MODIFIED="1667518950619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol/gui/windows/audio" />
+    <SUITE FILE_PATH="coverage/dadou_control$remote_control.coverage" NAME="remote control Coverage Results" MODIFIED="1666816857468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol" />
     <SUITE FILE_PATH="coverage/dadou_control$main.coverage" NAME="main Coverage Results" MODIFIED="1666358241118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol" />
   </component>
 </project>

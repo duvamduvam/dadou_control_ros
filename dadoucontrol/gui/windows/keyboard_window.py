@@ -4,15 +4,18 @@ from tkinter import TOP, X, BOTH
 from tkinter.font import Font, BOLD
 
 from dadou_utils.misc import Misc
-from dadou_utils.utils_static import UtilsStatic
+from dadou_utils.utils_static import INPUT_KEY, KEY
 
-from dadoucontrol.control_static import ControlStatic
+from dadoucontrol.com.glove_message import GloveMessage
+
+from dadoucontrol.control_static import ControlStatic, GLOVE_LEFT, GLOVE_RIGHT
 
 from dadoucontrol.control_factory import ControlFactory
 
 
 class KeyboardFrame(tk.Frame):
     def __init__(self, parent):
+        self.glove_message = GloveMessage()
 
         self.mod = 'A'
         self.deviceManager = ControlFactory().device_manager
@@ -53,7 +56,7 @@ class KeyboardFrame(tk.Frame):
         self.right_panel_middle.grid(row=2, column=6, columnspan=3, rowspan=2)
 
         self.check_internet()
-        self.glove_input()
+        self.check_glove_input()
         self.check_plugged_device()
 
     def create_cell(self, grid, x, y, name):
@@ -65,37 +68,39 @@ class KeyboardFrame(tk.Frame):
 
     def check_internet(self) -> None:
         self.after(500, self.check_internet)
-        if Misc.is_connected():
+        #TODO fix slow startup
+        """if Misc.is_connected():
             self.internet_label.config(bg="green")
         else:
-            self.internet_label.config(bg="red")
+            self.internet_label.config(bg="red")"""
 
-    def click_button(self, name):
-        if name in "ABCDEFGH":
-            self.right_panel_top.config(text=name)
-            self.mod = name
+    def click_button(self, key):
+        if key in "ABCDEFGH":
+            self.right_panel_top.config(text=key)
+            self.mod = key
         else:
-            self.right_panel_middle.config(text=self.mod+name)
-            ControlFactory().message.send(self.mod+name, None)
+            self.right_panel_middle.config(text=self.mod + key)
+            ControlFactory().message.send({KEY:self.mod + key})
 
     def check_plugged_device(self):
         self.after(500, self.check_plugged_device)
-        if self.deviceManager.get_device(ControlStatic.GLOVE_LEFT):
+        if self.deviceManager.get_device(GLOVE_LEFT):
             self.left_glove_feedback_panel.config(bg="green")
         else:
             self.left_glove_feedback_panel.config(bg="red")
-        if self.deviceManager.get_device(ControlStatic.GLOVE_RIGHT):
+        if self.deviceManager.get_device(GLOVE_RIGHT):
             self.right_glove_feedback_panel.config(bg="green")
         else:
             self.right_glove_feedback_panel.config(bg="red")
 
-    def glove_input(self) -> None:
-        self.after(100, self.glove_input)
-        devices = self.deviceManager.get_device_type(UtilsStatic.KEY_INPUT_KEY)
+    def check_glove_input(self) -> None:
+        self.after(100, self.check_glove_input)
+        devices = self.deviceManager.get_device_type(INPUT_KEY)
         for device in devices:
             msg = device.get_msg_separator()
             if msg:
                 self.right_panel_middle.config(text=msg)
-                ControlFactory().message.send(msg, None)
+                decrypted = self.glove_message.decrypt(msg)
+                ControlFactory().message.send(decrypted)
 
 

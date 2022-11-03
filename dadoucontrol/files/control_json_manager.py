@@ -5,7 +5,8 @@ import logging
 import jsonpath_rw_ext
 from dadou_utils.misc import Misc
 
-from dadoucontrol.control_static import ControlStatic
+from dadoucontrol.control_static import ControlStatic, JSON_LIGHTS_BASE, SEQUENCES_DIRECTORY, JSON_EXPRESSIONS, \
+    JSON_LIGHTS
 from dadou_utils.files.abstract_json_manager import AbstractJsonManager
 
 
@@ -13,9 +14,9 @@ class ControlJsonManager(AbstractJsonManager):
 
     def __init__(self, base_folder, json_folder, config_file):
         super().__init__(base_folder, json_folder, config_file)
-        self.lights_base = self.open_json(ControlStatic.LIGHTS_BASE_FILE, 'r')
-        #self.lights = self.open_json(ControlStatic.LIGHTS_FILE, 'r')
-        #self.expressions = self.open_json(ControlStatic.EXPRESSIONS_FILE, 'r')
+        self.lights_base = self.open_json(JSON_LIGHTS_BASE, 'r')
+        #self.lights = self.open_json(LIGHTS_FILE, 'r')
+        #self.expressions = self.open_json(EXPRESSIONS_FILE, 'r')
 
     #def get_config(self):
     #    return self.config
@@ -25,10 +26,10 @@ class ControlJsonManager(AbstractJsonManager):
         return self.base_folder+self.standard_return(result, True, self.PATH)
 
     def get_sequence(self, name):
-        return self.open_json(ControlStatic.SEQUENCES_DIRECTORY+name)
+        return self.open_json(SEQUENCES_DIRECTORY+name)
 
     def get_expressions(self):
-        return self.open_json(ControlStatic.EXPRESSIONS_FILE, 'r')
+        return self.open_json(JSON_EXPRESSIONS, 'r')
 
     def get_expressions_names(self):
         expressions_names = []
@@ -37,7 +38,7 @@ class ControlJsonManager(AbstractJsonManager):
         return expressions_names
 
     def get_lights(self):
-        return self.open_json(ControlStatic.LIGHTS_FILE, 'r')
+        return self.open_json(JSON_LIGHTS, 'r')
 
     def get_lights_base(self):
         #bases = self.lights['base']
@@ -47,29 +48,29 @@ class ControlJsonManager(AbstractJsonManager):
         return self.lights_base
 
     def get_expressions_name(self, name):
-        for result in self.open_json(ControlStatic.EXPRESSIONS_FILE, 'r'):
+        for result in self.open_json(JSON_EXPRESSIONS, 'r'):
             if result['name'] == name:
                 return result
 
     def delete_expression(self, name):
-        expressions = self.open_json(ControlStatic.EXPRESSIONS_FILE, 'r')
+        expressions = self.open_json(JSON_EXPRESSIONS, 'r')
         self.delete_item(expressions, name)
-        with open(self.json_folder+ControlStatic.EXPRESSIONS_FILE, 'w') as outfile:
+        with open(self.json_folder+JSON_EXPRESSIONS, 'w') as outfile:
             json.dump(expressions, outfile, indent=4)
 
     def save_expressions(self, name, duration, loop, keys, left_eyes, right_eyes, mouths):
-        expressions = self.open_json(ControlStatic.EXPRESSIONS_FILE, 'r')
+        expressions = self.open_json(JSON_EXPRESSIONS, 'r')
         self.delete_item(expressions, name)
         expressions.append({"name": name, "duration": duration, "loop": Misc.to_bool(loop), "keys": Misc.convert_to_array(keys),
                             "left_eyes": left_eyes, "right_eyes": right_eyes, "mouths": mouths})
-        with open(self.json_folder+ControlStatic.EXPRESSIONS_FILE, 'w') as outfile:
+        with open(self.json_folder+JSON_EXPRESSIONS, 'w') as outfile:
             json.dump(expressions, outfile, indent=4)
-        #expressions_w = self.open_json(ControlStatic.EXPRESSIONS_FILE, 'w')
+        #expressions_w = self.open_json(EXPRESSIONS_FILE, 'w')
         #expressions_w.write(expressions)
 
     def save_lights(self, lights):
-        #lights = self.open_json(ControlStatic.LIGHTS_FILE, 'r')
-        with open(self.json_folder+ControlStatic.LIGHTS_FILE, 'w') as outfile:
+        #lights = self.open_json(LIGHTS_FILE, 'r')
+        with open(self.json_folder+JSON_LIGHTS, 'w') as outfile:
             json.dump(lights, outfile, indent=4)
 
 

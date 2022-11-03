@@ -1,8 +1,10 @@
 import logging
 
 from dadou_utils.audios.sound_object import SoundObject
+from dadou_utils.utils_static import NAME, PATH
 
-from dadoucontrol.control_static import ControlStatic
+from dadoucontrol.control_static import ControlStatic, AUDIO_NAME
+from utils_static import AUDIO_PATH
 
 
 class SequencesManagement:
@@ -17,8 +19,8 @@ class SequencesManagement:
 
     def load_sequence(self, sequence_name):
         self.json_sequence = self.json_manager.get_sequence(sequence_name)
-        audio_name = self.json_manager.get_attribut(self.json_sequence, ControlStatic.AUDIO_NAME_KEY)
-        audio_folder = self.json_manager.get_attribut(self.json_sequence, ControlStatic.AUDIO_PATH_KEY)
+        audio_name = self.json_manager.get_attribut(self.json_sequence, AUDIO_NAME)
+        audio_folder = self.json_manager.get_attribut(self.json_sequence, AUDIO_PATH)
         #if self.audio_segment is not None and hasattr(self.audio_segment, 'audio_segment'):
         #    self.audio_segment.stop()
         self.audio_segment = SoundObject(audio_folder, audio_name)
