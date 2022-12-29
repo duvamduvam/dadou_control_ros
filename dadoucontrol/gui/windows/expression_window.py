@@ -1,11 +1,18 @@
 import logging
 import tkinter as tk
+from tkinter import BOTH, TOP, LEFT
 
+from dadou_utils.singleton import SingletonMeta
+
+from dadoucontrol.gui.windows.frames.widgets.directory_tree_widget import DirectoryTreeWidget
+
+from control_static import PURPLE, YELLOW, ORANGE, BORDEAUX, CYAN
 from dadoucontrol.control_factory import ControlFactory
 from dadoucontrol.gui.expression_duration import ExpressionDuration
 from dadoucontrol.gui.visuals_object.visual_eye import VisualEye
 from dadoucontrol.gui.visuals_object.visual_mouth import VisualMouth
-from dadoucontrol.gui.windows.frames.abstract.rectangle_image import RectangleImage
+from dadoucontrol.gui.windows.frames.abstract.rectangle_image2 import RectangleImage2
+#from dadoucontrol.gui.windows.frames.abstract.rectangle_image import RectangleImage
 from dadoucontrol.gui.windows.frames.timeline_frame import TimeLineFrame
 from dadoucontrol.gui.windows.frames.widgets.galley_widget import GalleryWidget
 from dadoucontrol.gui.windows.frames.widgets.image_observer_feedback import ImageObserverFeedBack
@@ -17,16 +24,18 @@ class ExpressionFrame(tk.Frame):
 
     def __init__(self, parent, *args, **kwargs):
         tk.Frame.__init__(self, parent, *args, **kwargs)
-        self.pack(fill='both', expand=True, side='top')
+        self.pack(fill=BOTH, expand=True, side=TOP)
 
-        left_menu = tk.Frame(self, width=50, bg='blue')
-        left_menu.pack(fill='y', ipadx=20, side='left')
+        left_menu = tk.Frame(self, width=50, bg=CYAN)
+        left_menu.pack(fill='y', ipadx=20, side=LEFT)
 
-        GalleryWidget(left_menu, VisualEye('truc'), 10, width=100, height=800).grid(row=0, column=0, columnspan=2)
-        GalleryWidget(left_menu, VisualMouth('truc'), 6, width=150, height=800).grid(row=0, column=2, columnspan=2)
+        DirectoryTreeWidget(left_menu, "/home/dadou/Nextcloud/Didier/python/dadou_control/visuals")
 
-        top_frame = tk.Frame(self, width=800, bg='blue')
-        self.top_canvas = tk.Canvas(top_frame, height=300, bg='purple')
+        #GalleryWidget(left_menu, VisualEye('truc'), 10, width=100, height=800).grid(row=0, column=0, columnspan=2)
+        #GalleryWidget(left_menu, VisualMouth('truc'), 6, width=150, height=800).grid(row=0, column=2, columnspan=2)
+
+        top_frame = tk.Frame(self, width=800, bg=CYAN)
+        self.top_canvas = tk.Canvas(top_frame, height=300, bg=PURPLE)
         self.top_canvas.grid(row=0, column=0, rowspan=5, columnspan=5)
 
         #self.right_eye = GuiUtils.set_image(top_canvas, 10, 10, VisualEye.TYPE, 'oeil-droit.png', 10)
@@ -67,25 +76,31 @@ class ExpressionFrame(tk.Frame):
 
         self.loop = tk.StringVar()
         self.loop.set('0')
-        c1 = tk.Checkbutton(top_frame, text='loop', variable=self.loop, onvalue=1, offvalue=0)
-        c1.grid(row=1, column=11, columnspan=2)
 
         keys_label = tk.Label(top_frame, text='keys', padx=10)
-        keys_label.grid(row=1, column=14, padx=10)
+        keys_label.grid(row=1, column=11, padx=10)
 
         self.keys_txt = tk.Text(top_frame, width=10, height=1)
-        self.keys_txt.grid(row=1, column=15, columnspan=2, padx=10)
+        self.keys_txt.grid(row=1, column=12,  padx=10)
 
-        top_frame.pack(fill='x', side='top')
+        tk.Label(top_frame, text='length', width=5).grid(row=2, column=11, padx=10)
+        self.length_txt = tk.Text(top_frame, width=10, height=1)
+        self.length_txt.grid(row=2, column=12, padx=10)
+
+        loop_check = tk.Checkbutton(top_frame, text='loop', variable=self.loop, onvalue=1, offvalue=0)
+        loop_check.grid(row=3, column=11)
+
+        top_frame.pack(fill='x', side=TOP)
 
         self.time_line = TimeLineFrame(self)
         play_button.configure(command=self.time_line.play)
         pause_button.configure(command=self.time_line.pause)
         stop_button.configure(command=self.time_line.stop)
 
-        self.right_eye_frame = RectangleImage(self, VisualEye.TYPE, 'Left eye', 'yellow')
-        self.left_eye_frame = RectangleImage(self, VisualEye.TYPE, 'Right eye', 'orange')
-        self.mouth_frame = RectangleImage(self, VisualMouth.TYPE, 'Mouths', 'red')
+        ###### face feedback
+        self.right_eye_frame = RectangleImage2(self, VisualEye.TYPE, 'Left eye', YELLOW)
+        self.left_eye_frame = RectangleImage2(self, VisualEye.TYPE, 'Right eye', ORANGE)
+        self.mouth_frame = RectangleImage2(self, VisualMouth.TYPE, 'Mouths', BORDEAUX)
 
         self.right_eye_observer = ImageObserverFeedBack(self.top_canvas, self.right_eye_frame, 10, 10, VisualEye.TYPE)
         self.left_eye_observer = ImageObserverFeedBack(self.top_canvas, self.left_eye_frame, 210, 10, VisualEye.TYPE)
@@ -154,6 +169,7 @@ class ExpressionFrame(tk.Frame):
         name = self.expression_name.get(1.0, 'end-1c')
         expression = ControlFactory().control_json_manager.get_expressions_name(name)
         ExpressionDuration.value = expression['duration']
+        self.length_txt.insert("end-1c", ExpressionDuration.value)
         self.expression_duration.set(ExpressionDuration.value)
         self.time_line.duration = int(self.expression_duration.get())
         self.loop.set(expression['loop'])
@@ -173,7 +189,5 @@ class ExpressionFrame(tk.Frame):
             self.expression_name.insert(tk.END, value)
         else:
             logging.error("no line selected")
-
-
 
 

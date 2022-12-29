@@ -15,6 +15,9 @@ import pyjokes
 import feedparser
 import smtplib
 import ctypes
+
+from octopus.octopus_eth_evm import logging
+
 import time
 import requests
 import shutil
@@ -87,8 +90,18 @@ def username():
 def takeCommand():
     r = sr.Recognizer()
 
-    with sr.Microphone(device_index=6) as source:
+    logging.info('before take command')
 
+    l = sr.Microphone.list_microphone_names()
+    logging.debug(l)
+
+    r = sr.Recognizer()
+
+    di = l.index("default")
+
+    #with sr.Microphone(device_index=6) as source:
+    with sr.Microphone(device_index=9) as source:
+        logging.info('take command')
         print("Listening...")
         r.pause_threshold = 1
         audio = r.listen(source)
@@ -118,7 +131,7 @@ def sendEmail(to, content):
 
 
 if __name__ == '__main__':
-    clear = lambda: os.system('cls')
+    clear = lambda: os.system('clear')
 
     # This Function will clean any
     # command before execution of this dadoutils file

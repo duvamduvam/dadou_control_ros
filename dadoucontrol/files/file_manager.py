@@ -11,10 +11,13 @@ class FileManager:
     SEQUENCE_FOLDER = "frames"
 
     @staticmethod
-    def list_folder_files(folder_type):
+    def list_folder_files_type(folder_type):
         folder = ControlFactory().control_json_manager.get_folder_path_from_type(folder_type)
-        return [f for f in listdir(folder) if isfile(join(folder, f))]
+        return FileManager.list_folder_files(folder)
 
+    @staticmethod
+    def list_folder_files(folder):
+        return [f for f in listdir(folder) if isfile(join(folder, f))]
 
     """@staticmethod
     def get_files_path(path):

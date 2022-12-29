@@ -1,12 +1,13 @@
 from dadoucontrol.gui.visuals_object.visual_object import VisualObject
+from utils_static import EYE
 
 
 class VisualEye(VisualObject):
 
-    TYPE = 'eye'
+    TYPE = EYE
     WIDTH = 8
     HEIGHT = 8
 
-    def __init__(self, name):
-        super().__init__(name)
+    def __init__(self):
+        super().__init__(EYE)
 

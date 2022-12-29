@@ -1,0 +1,20 @@
+{
+    "duration": 20000,
+    "keys": "C2",
+    "types": [
+        "random"
+    ],
+    "audio_path": "/home/dadou/Nextcloud/Didier/audios/",
+    "faces": [
+        [
+            1,
+            "scooby-doo"
+        ]
+    ],
+    "lights": [
+        [
+            1.0,
+            "purple blink"
+        ]
+    ]
+}

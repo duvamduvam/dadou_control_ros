@@ -14,7 +14,7 @@ class RectangleImage(RectangleAbstract):
     def __init__(self, parent, visual_type, name, color):
         super().__init__(parent, name, color)
         self.visual_type = visual_type
-        self.items = FileManager.list_folder_files(visual_type)
+        self.items = FileManager.list_folder_files_type(visual_type)
         self.images = []
 
     def create_rectangle(self, x1, x2):

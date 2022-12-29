@@ -5,9 +5,11 @@ import logging
 import jsonpath_rw_ext
 from dadou_utils.misc import Misc
 
-from dadoucontrol.control_static import ControlStatic, JSON_LIGHTS_BASE, SEQUENCES_DIRECTORY, JSON_EXPRESSIONS, \
+from dadoucontrol.control_static import JSON_LIGHTS_BASE, SEQUENCES_DIRECTORY, JSON_EXPRESSIONS, \
     JSON_LIGHTS
 from dadou_utils.files.abstract_json_manager import AbstractJsonManager
+
+from utils_static import AUDIOS
 
 
 class ControlJsonManager(AbstractJsonManager):

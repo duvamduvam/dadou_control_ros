@@ -2,8 +2,12 @@
 import logging
 import tkinter as tk
 from enum import Enum
+from tkinter import TOP
 
 from dadou_utils.time.time_utils import TimeUtils
+from dadoucontrol.control_static import BORDEAUX
+
+from control_static import PURPLE
 
 
 class TimeLineFrame(tk.Frame):
@@ -11,11 +15,11 @@ class TimeLineFrame(tk.Frame):
     x_pos = 0
 
     def __init__(self, parent):
-        tk.Frame.__init__(self, parent, bg="pink")
+        tk.Frame.__init__(self, parent, bg=PURPLE)
         #self.config(height=50)
-        self.pack(fill='x', side='top')
+        self.pack(fill='x', side=TOP)
 
-        self.canvas = tk.Canvas(self, height=50, bg='brown')
+        self.canvas = tk.Canvas(self, height=50, bg=BORDEAUX)
         self.canvas.pack(fill='x')
 
         self.bar = self.create_line(0)
@@ -27,24 +31,24 @@ class TimeLineFrame(tk.Frame):
         self.state = State.STOP
 
     def play(self):
-        logging.debug("play sequence")
+        logging.debug("play sequences")
         self.start_time = TimeUtils.current_milli_time()
         if self.state == State.PAUSED:
-            pos = self.progress * (self.duration * 1000)
+            pos = self.progress * self.duration
             self.start_time = self.start_time - pos
 
         self.state = State.PLAYING
         self.canvas.after(1, self.process_play)
 
     def stop(self):
-        logging.debug("stop sequence")
+        logging.debug("stop sequences")
         self.state = State.STOP
         self.canvas.delete(self.bar)
         self.bar = self.canvas.create_line(0, 0, 0, 50, width=10)
         self.progress = 0
 
     def pause(self):
-        logging.debug("pause sequence")
+        logging.debug("pause sequences")
         if self.progress != 0:
             self.state = State.PAUSED
         else:
@@ -56,7 +60,7 @@ class TimeLineFrame(tk.Frame):
             self.canvas.after(50, self.process_play)
 
             time = TimeUtils.current_milli_time()
-            self.progress = (time - self.start_time)/(self.duration*1000)
+            self.progress = (time - self.start_time)/self.duration
             if self.progress >= 1:
                 self.start_time = TimeUtils.current_milli_time()
             #progress = f'{(time - self.start_time)/(self.duration*1000):.2g}'

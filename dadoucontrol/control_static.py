@@ -11,6 +11,7 @@ JSON_LIGHTS_BASE = 'lights_base.json'
 
 ############### PATHS ###############
 
+AUDIO_DIRECTORY = '/audios/'
 RPI_LOGGING_CONFIG_FILE = '/conf/logging-pi.conf'
 LAPTOP_LOGGING_CONFIG_FILE = '/conf/logging-laptop.conf'
 JSON_DIRECTORY = '/json/'
@@ -23,7 +24,20 @@ AUDIO_PATH = 'audio_path'
 GLOVE_LEFT = 'glove_left'
 GLOVE_RIGHT = 'glove_right'
 
+############# COLORS ###############
+#https://coolors.co/palettes/trending
 
+PURPLE = '#5f0f40'
+BORDEAUX = '#9a031e'
+YELLOW = '#fb8b24'
+ORANGE = '#e36414'
+CYAN = '#0f4c5c'
+
+############ FONTS #################
+
+FONT1 = "Helvetica 18 italic bold" #None tkfont.Font(family='Helvetica', size=18, weight="bold", slant="italic")
+FONT2 = "Helvetica 15 italic bold" #None tkfont.Font(family='Helvetica', size=15, weight="bold", slant="italic")
+FONT3 = "Helvetica 12 italic bold" #None tkfont.Font(family='Helvetica', size=12, weight="bold", slant="italic")
 
 class ControlStatic:
 

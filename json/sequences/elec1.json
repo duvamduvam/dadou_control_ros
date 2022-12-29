@@ -1,0 +1,17 @@
+{
+    "duration": 20000,
+    "keys": "C8",
+    "audio_path": "/home/dadou/Nextcloud/Didier/audios/",
+    "faces": [
+        [
+            1,
+            "elec1"
+        ]
+    ],
+    "lights": [
+        [
+            1.0,
+            "color sparkle"
+        ]
+    ]
+}

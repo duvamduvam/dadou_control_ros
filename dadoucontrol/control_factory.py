@@ -28,23 +28,23 @@ class ControlFactory(metaclass=SingletonMeta):
         #current_path = os.path.dirname("main.py")
         logging.info("base path {}".format(base_path))
         # parent directory
-        base_path = os.path.abspath(os.path.join(base_path, os.pardir))
+        self.base_path = os.path.abspath(os.path.join(base_path, os.pardir))
 
         system = Misc.get_system_type()
         if system == RPI_TYPE:
-            logging_file = base_path + RPI_LOGGING_CONFIG_FILE
+            logging_file = self.base_path + RPI_LOGGING_CONFIG_FILE
         elif system == LAPTOP_TYPE:
-            logging_file = base_path + LAPTOP_LOGGING_CONFIG_FILE
+            logging_file = self.base_path + LAPTOP_LOGGING_CONFIG_FILE
         else:
             logging.error("can't find system type {}".format(system))
 
 
         logging.config.fileConfig(logging_file, disable_existing_loggers=False)
 
-        self.control_json_manager = ControlJsonManager(base_path, JSON_DIRECTORY, JSON_CONFIG)
-        self.config = ControlConfig(self.control_json_manager, base_path)
+        self.control_json_manager = ControlJsonManager(self.base_path, JSON_DIRECTORY, JSON_CONFIG)
+        self.config = ControlConfig(self.control_json_manager, self.base_path)
         self.device_manager = SerialDeviceManager(self.control_json_manager.get_config_item(DEVICES))
         self.ws_client = WsClient(self.control_json_manager.get_config_item(WS_CLIENT))
         self.message = RobotMessage(self.ws_client, self.device_manager)
         self.audio_nav = AudioNav()
-        self.sequence_management = SequencesManagement(self.control_json_manager)
+        self.sequence_management = SequencesManagement(self.config, self.control_json_manager)

@@ -1,5 +1,6 @@
 import logging
 import tkinter as tk
+from tkinter import TOP
 
 from dadoucontrol.gui.gui_utils import GuiUtils
 from dadoucontrol.gui.windows.expression_window import ExpressionDuration
@@ -7,10 +8,11 @@ from dadoucontrol.gui.windows.frames.abstract.rectangle_abstract import Rectangl
 from dadoucontrol.gui.windows.frames.timeline_frame import TimeLineFrame
 
 
-class RectangleText2(RectangleAbstract):
+class RectangleText(RectangleAbstract):
 
     def __init__(self, parent, name, color, items):
         super().__init__(parent, name, color)
+        self.pack(fill='x', side=TOP)
         self.items = items
         #self.items = FileManager.list_folder_files(visual_type)
 

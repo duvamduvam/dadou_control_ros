@@ -1,11 +1,12 @@
 import inspect
 import logging
 import tkinter as tk
-from tkinter import HORIZONTAL, DISABLED, ACTIVE, W, YES, NW, LEFT, TOP, RIGHT, X, N, END, NORMAL
+from tkinter import HORIZONTAL, DISABLED, ACTIVE, W, YES, NW, LEFT, TOP, RIGHT, X, N, END, NORMAL, BOTH
 from tkinter.colorchooser import askcolor
 
 from dadou_utils.misc import Misc
 
+from control_static import CYAN, YELLOW, ORANGE
 from dadoucontrol.control_factory import ControlFactory
 
 
@@ -14,14 +15,14 @@ class LightsFrame(tk.Frame):
         self.json_manager = ControlFactory().control_json_manager
 
         tk.Frame.__init__(self, parent, *args, **kwargs)
-        self.pack(fill='both', expand=True, side='top')
+        self.pack(fill=BOTH, expand=True, side=TOP)
 
-        left_menu = tk.Frame(self, width=100, bg='blue')
-        left_menu.pack(fill='y', ipadx=20, side='left')
+        left_menu = tk.Frame(self, width=100, bg=CYAN)
+        left_menu.pack(fill='y', ipadx=20, side=LEFT)
 
-        self.right_param = tk.Frame(self, bg='green', height=200)
-        self.right_param.pack(fill='x', side='top')
-        self.right_lights_control = tk.Frame(self, bg='orange', height=100)
+        self.right_param = tk.Frame(self, bg=YELLOW, height=200)
+        self.right_param.pack(fill='x', side=TOP)
+        self.right_lights_control = tk.Frame(self, bg=ORANGE, height=100)
         self.right_lights_control.pack(side=LEFT, anchor=N, expand=YES, fill=X)
 
         self.add_lights_button = tk.Button(self.right_lights_control, command=self.add_light,  text="add")
@@ -50,7 +51,7 @@ class LightsFrame(tk.Frame):
 
         self.color_label = tk.Label(self.right_param, text='color', width=10)
         self.color_label.grid(row=2, column=1)
-        self.color_scale = tk.Button(self.right_param, bg='orange', text='color', command=self.change_color)
+        self.color_scale = tk.Button(self.right_param, bg=ORANGE, text='color', command=self.change_color)
         self.color_scale.grid(row=2, column=2, padx=10, pady=4)
 
         self.speed_scale = self.create_scale('speed', 3, 1, 0.001, 10, 200, 0.001, 0.01)
@@ -153,12 +154,12 @@ class LightsFrame(tk.Frame):
             for var in all_vars:
                 if var.__contains__('_scale'):
                     scale = getattr(self, var)
-                    scale.configure(state=DISABLED, bg='grey')
+                    scale.configure(state=DISABLED, bg=CYAN)
 
             scale_params = self.lights_base[name]
             for param in scale_params:
                 scale = getattr(self, param+'_scale')
-                scale.configure(state=ACTIVE, bg='orange')
+                scale.configure(state=ACTIVE, bg=ORANGE)
                 #scale.refresh()
 
         except AttributeError as err:

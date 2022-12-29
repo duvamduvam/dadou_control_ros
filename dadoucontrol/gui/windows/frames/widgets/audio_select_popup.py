@@ -18,14 +18,14 @@ class AudioPopupWidget:
         self.top.geometry("800x600")
         self.top.title("Child Window")
 
-        self.audio_files_management = tk.Frame(self.top, bg='grey')
+        self.audio_files_management = tk.Frame(self.top, bg=CYAN)
         audio_label = tk.Label(self.audio_files_management, text='nouveau fichier audio')
         audio_label.grid(row=0, column=0, padx=10)
         choose_button = tk.Button(self.audio_files_management, text='choose', command=lambda: self.select_file(parent))
         choose_button.grid(row=0, column=1, padx=10)
         self.file_label = tk.Label(self.audio_files_management, text='result')
         self.file_label.grid(row=1, column=0, padx=10)
-        self.audio_files_management.pack(fill='x', side='top')
+        self.audio_files_management.pack(fill='x', side=TOP)
 
     def select_file(self, parent):
         filetypes = (

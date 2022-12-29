@@ -11,7 +11,7 @@ fi
 sudo apt update
 sudo apt upgrade
 
-# install bashrc
+# install .bashrc
 ln -sf $deploy/scripts/bashrc ~/.bashrc
 source $home/.bashrc
 
@@ -38,5 +38,6 @@ source install-lib.sh
 #sudo systemctl enable didier.service
 #sudo systemctl daemon-reload
 mkdir ~/.config/autostart/
-cp remote.desktop ~/.config/autostart/
-chmod +x ~/.config/autostart/remote.desktop
+sudo chmod u+x $deploy/scripts/remote.desktop
+ln -sf $deploy/scripts/remote.desktop ~/.config/autostart/
+ln -sf $deploy/scripts/remote.desktop ~/Desktop/

@@ -1,135 +1,158 @@
 [
     {
-        "name": "test6",
-        "duration": 15,
-        "loop": false,
+        "name": "off",
+        "duration": 30000,
+        "loop": true,
         "keys": [
-            "A8",
-            "A10"
+            "A0"
         ],
         "left_eyes": [
             [
-                0.069,
-                "oeil-fixe.png"
-            ],
-            [
-                0.168,
-                "oeil-fixe.png"
-            ],
-            [
-                0.333,
-                "oeil-droit.png"
-            ],
-            [
-                1.0,
-                "oeil-droit.png"
+                1,
+                "oeil-noir.png"
             ]
         ],
         "right_eyes": [
             [
-                0.461,
-                "oeil-droit.png"
-            ],
-            [
-                1.0,
-                "oeil-gauche.png"
+                1,
+                "oeil-noir.png"
             ]
         ],
         "mouths": [
             [
-                0.342,
-                "bouche-ferme.png"
-            ],
-            [
-                0.708,
-                "bouche-ouvert2.png"
-            ],
-            [
-                1.0,
-                "bouche-ouvert1.png"
+                1,
+                "off.png"
             ]
         ]
     },
     {
-        "name": "test5",
-        "duration": 15,
-        "loop": false,
+        "name": "elec1",
+        "duration": 30000,
+        "loop": true,
         "keys": [
-            "A8",
-            "A10"
+            "A0"
         ],
         "left_eyes": [
             [
-                0.069,
-                "oeil-fixe.png"
-            ],
-            [
-                0.168,
-                "oeil-fixe.png"
-            ],
-            [
-                0.333,
-                "oeil-droit.png"
-            ],
-            [
-                1.0,
-                "oeil-droit.png"
+                1,
+                "oeil-noir.png"
             ]
         ],
         "right_eyes": [
             [
-                0.461,
-                "oeil-droit.png"
-            ],
-            [
-                1.0,
-                "oeil-gauche.png"
+                1,
+                "oeil-noir.png"
             ]
         ],
         "mouths": [
             [
-                0.342,
-                "bouche-ferme.png"
+                0.5,
+                "bouche-elec1.png"
             ],
             [
-                0.708,
-                "bouche-ouvert2.png"
-            ],
-            [
-                1.0,
-                "bouche-ouvert1.png"
+                1,
+                "bouche-elec2.png"
             ]
         ]
     },
     {
-        "name": "test4",
-        "duration": 15,
-        "loop": false,
+        "name": "elec2",
+        "duration": 30000,
+        "loop": true,
         "keys": [
-            "A8",
-            "A10"
+            "A0"
         ],
         "left_eyes": [
             [
-                0.069,
-                "oeil-fixe.png"
-            ],
-            [
-                0.168,
-                "oeil-fixe.png"
-            ],
-            [
-                0.333,
-                "oeil-droit.png"
-            ],
-            [
-                1.0,
-                "oeil-droit.png"
+                1,
+                "oeil-noir.png"
             ]
         ],
         "right_eyes": [
             [
-                0.461,
+                1,
+                "oeil-noir.png"
+            ]
+        ],
+        "mouths": [
+            [
+                0.5,
+                "bouche-elec2.png"
+            ],
+            [
+                1,
+                "bouche-elec3.png"
+            ]
+        ]
+    },
+        {
+        "name": "pig",
+        "duration": 5000,
+        "loop": false,
+        "keys": [
+            "A4"
+        ],
+        "left_eyes": [
+            [
+                0.1,
+                "oeil-droit.png"
+            ],
+            [
+                0.2,
+                "oeil-gauche.png"
+            ],
+            [
+                0.3,
+                "oeil-fixe.png"
+            ],
+            [
+                0.5,
+                "oeil-gauche.png"
+            ],
+            [
+                0.6,
+                "oeil-droit.png"
+            ],
+            [
+                0.8,
+                "oeil-noir.png"
+            ],
+            [
+                0.9,
+                "oeil-droit.png"
+            ],
+            [
+                1.0,
+                "oeil-gauche.png"
+            ]
+        ],
+        "right_eyes": [
+            [
+                0.1,
+                "oeil-droit.png"
+            ],
+            [
+                0.2,
+                "oeil-gauche.png"
+            ],
+            [
+                0.3,
+                "oeil-fixe.png"
+            ],
+            [
+                0.5,
+                "oeil-gauche.png"
+            ],
+            [
+                0.6,
+                "oeil-droit.png"
+            ],
+            [
+                0.8,
+                "oeil-noir.png"
+            ],
+            [
+                0.9,
                 "oeil-droit.png"
             ],
             [
@@ -139,48 +162,309 @@
         ],
         "mouths": [
             [
-                0.342,
-                "bouche-ferme.png"
+                1,
+                "pig.png"
+            ]
+        ]
+        },
+        {
+        "name": "scooby-doo",
+        "duration": 1000,
+        "loop": false,
+        "keys": [
+            "A5"
+        ],
+        "left_eyes": [
+            [
+                0.1,
+                "oeil-droit.png"
             ],
             [
-                0.708,
-                "bouche-ouvert2.png"
+                0.2,
+                "oeil-gauche.png"
+            ],
+            [
+                0.3,
+                "oeil-fixe.png"
+            ],
+            [
+                0.5,
+                "oeil-gauche.png"
+            ],
+            [
+                0.6,
+                "oeil-droit.png"
+            ],
+            [
+                0.8,
+                "oeil-noir.png"
+            ],
+            [
+                0.9,
+                "oeil-droit.png"
             ],
             [
                 1.0,
+                "oeil-gauche.png"
+            ]
+        ],
+        "right_eyes": [
+            [
+                0.1,
+                "oeil-droit.png"
+            ],
+            [
+                0.2,
+                "oeil-gauche.png"
+            ],
+            [
+                0.3,
+                "oeil-fixe.png"
+            ],
+            [
+                0.5,
+                "oeil-gauche.png"
+            ],
+            [
+                0.6,
+                "oeil-droit.png"
+            ],
+            [
+                0.8,
+                "oeil-noir.png"
+            ],
+            [
+                0.9,
+                "oeil-droit.png"
+            ],
+            [
+                1.0,
+                "oeil-gauche.png"
+            ]
+        ],
+        "mouths": [
+            [
+                0.5,
+                "scooby-doo.png"
+            ],
+            [
+                1,
+                "scooby-doo2.png"
+            ]
+        ]
+        },
+    {
+        "name": "speak",
+        "duration": 300,
+        "loop": false,
+        "keys": [
+            "A2"
+        ],
+        "left_eyes": [
+            [
+                0.1,
+                "oeil-droit.png"
+            ],
+            [
+                0.2,
+                "oeil-gauche.png"
+            ],
+            [
+                0.3,
+                "oeil-fixe.png"
+            ],
+            [
+                0.5,
+                "oeil-gauche.png"
+            ],
+            [
+                0.6,
+                "oeil-droit.png"
+            ],
+            [
+                0.8,
+                "oeil-noir.png"
+            ],
+            [
+                0.9,
+                "oeil-droit.png"
+            ],
+            [
+                1.0,
+                "oeil-gauche.png"
+            ]
+        ],
+        "right_eyes": [
+            [
+                0.1,
+                "oeil-droit.png"
+            ],
+            [
+                0.2,
+                "oeil-gauche.png"
+            ],
+            [
+                0.3,
+                "oeil-fixe.png"
+            ],
+            [
+                0.5,
+                "oeil-gauche.png"
+            ],
+            [
+                0.6,
+                "oeil-droit.png"
+            ],
+            [
+                0.8,
+                "oeil-noir.png"
+            ],
+            [
+                0.9,
+                "oeil-droit.png"
+            ],
+            [
+                1.0,
+                "oeil-gauche.png"
+            ]
+        ],
+        "mouths": [
+            [
+                0.2,
                 "bouche-ouvert1.png"
+            ],
+            [
+                0.4,
+                "bouche-ouvert2.png"
+            ],
+            [
+                0.8,
+                "bouche-ouvert1.png"
+            ],
+            [
+                1,
+                "bouche-ouvert2.png"
             ]
         ]
     },
     {
         "name": "bored",
-        "duration": 15,
+        "duration": 15000,
         "loop": false,
         "keys": [
-            "A8",
-            "A10"
+            "A3"
         ],
         "left_eyes": [
             [
                 0.069,
-                "oeil-fixe.png"
+                "oeil-noir.png"
             ],
             [
                 0.168,
-                "oeil-fixe.png"
+                "oeil-blase.png"
             ],
             [
                 0.333,
-                "oeil-droit.png"
+                "oeil-noir.png"
             ],
             [
                 1.0,
-                "oeil-droit.png"
+                "oeil-blase.png"
             ]
         ],
         "right_eyes": [
             [
-                0.461,
+                0.12,
+                "oeil-noir.png"
+            ],
+            [
+                0.276,
+                "oeil-blase.png"
+            ],
+            [
+                0.606,
+                "oeil-noir.png"
+            ],
+            [
+                1.0,
+                "oeil-blase.png"
+            ]
+        ],
+        "mouths": [
+            [
+                1.0,
+                "bouche-ferme.png"
+            ]
+        ]
+    },
+    {
+        "name": "default",
+        "duration": 300,
+        "loop": true,
+        "keys": [
+            "A1"
+        ],
+        "left_eyes": [
+            [
+                0.1,
+                "oeil-droit.png"
+            ],
+            [
+                0.2,
+                "oeil-gauche.png"
+            ],
+            [
+                0.3,
+                "oeil-bug1.png"
+            ],
+            [
+                0.5,
+                "oeil-gauche.png"
+            ],
+            [
+                0.635,
+                "oeil-droit.png"
+            ],
+            [
+                0.64,
+                "oeil-noir.png"
+            ],
+            [
+                0.645,
+                "oeil-droit.png"
+            ],
+            [
+                1.0,
+                "oeil-gauche.png"
+            ]
+        ],
+        "right_eyes": [
+            [
+                0.1,
+                "oeil-droit.png"
+            ],
+            [
+                0.2,
+                "oeil-gauche.png"
+            ],
+            [
+                0.3,
+                "oeil-fixe.png"
+            ],
+            [
+                0.5,
+                "oeil-gauche.png"
+            ],
+            [
+                0.76,
+                "oeil-droit.png"
+            ],
+            [
+                0.85,
+                "oeil-bug1.png"
+            ],
+            [
+                0.9,
                 "oeil-droit.png"
             ],
             [
@@ -190,17 +474,346 @@
         ],
         "mouths": [
             [
-                0.342,
+                1,
                 "bouche-ferme.png"
+            ]
+        ]
+    },
+    {
+        "name": "speak2",
+        "duration": 300,
+        "loop": true,
+        "keys": [
+            "A9"
+        ],
+        "left_eyes": [
+            [
+                0.1,
+                "oeil-droit.png"
             ],
             [
-                0.708,
-                "bouche-ouvert2.png"
+                0.2,
+                "oeil-gauche.png"
+            ],
+            [
+                0.3,
+                "oeil-bug1.png"
+            ],
+            [
+                0.5,
+                "oeil-gauche.png"
+            ],
+            [
+                0.635,
+                "oeil-droit.png"
+            ],
+            [
+                0.64,
+                "oeil-noir.png"
+            ],
+            [
+                0.645,
+                "oeil-droit.png"
             ],
             [
                 1.0,
-                "bouche-ouvert1.png"
+                "oeil-gauche.png"
+            ]
+        ],
+        "right_eyes": [
+            [
+                0.1,
+                "oeil-droit.png"
+            ],
+            [
+                0.2,
+                "oeil-gauche.png"
+            ],
+            [
+                0.3,
+                "oeil-fixe.png"
+            ],
+            [
+                0.5,
+                "oeil-gauche.png"
+            ],
+            [
+                0.76,
+                "oeil-droit.png"
+            ],
+            [
+                0.85,
+                "oeil-bug1.png"
+            ],
+            [
+                0.9,
+                "oeil-droit.png"
+            ],
+            [
+                1.0,
+                "oeil-gauche.png"
+            ]
+        ],
+        "mouths": [
+            [
+                0.90,
+                "bouche-style22.png"
+            ],
+            [
+                0.95,
+                "bouche-ouvert2.png"
+            ],
+            [
+                1,
+                "bouche-style22.png"
+            ]
+        ]
+    },
+    {
+        "name": "coeur",
+        "duration": 300,
+        "loop": true,
+        "keys": [
+            "A6"
+        ],
+        "left_eyes": [
+            [
+                0.1,
+                "oeil-droit.png"
+            ],
+            [
+                0.2,
+                "oeil-gauche.png"
+            ],
+            [
+                0.3,
+                "oeil-bug1.png"
+            ],
+            [
+                0.5,
+                "oeil-gauche.png"
+            ],
+            [
+                0.635,
+                "oeil-droit.png"
+            ],
+            [
+                0.64,
+                "oeil-noir.png"
+            ],
+            [
+                0.645,
+                "oeil-droit.png"
+            ],
+            [
+                1.0,
+                "oeil-gauche.png"
+            ]
+        ],
+        "right_eyes": [
+            [
+                0.1,
+                "oeil-droit.png"
+            ],
+            [
+                0.2,
+                "oeil-gauche.png"
+            ],
+            [
+                0.3,
+                "oeil-fixe.png"
+            ],
+            [
+                0.5,
+                "oeil-gauche.png"
+            ],
+            [
+                0.76,
+                "oeil-droit.png"
+            ],
+            [
+                0.85,
+                "oeil-bug1.png"
+            ],
+            [
+                0.9,
+                "oeil-droit.png"
+            ],
+            [
+                1.0,
+                "oeil-gauche.png"
+            ]
+        ],
+        "mouths": [
+            [
+                1,
+                "coeur.png"
+            ]
+        ]
+    },
+    {
+        "name": "coeur",
+        "duration": 300,
+        "loop": true,
+        "keys": [
+            "A7"
+        ],
+        "left_eyes": [
+            [
+                0.1,
+                "oeil-droit.png"
+            ],
+            [
+                0.2,
+                "oeil-gauche.png"
+            ],
+            [
+                0.3,
+                "oeil-bug1.png"
+            ],
+            [
+                0.5,
+                "oeil-gauche.png"
+            ],
+            [
+                0.635,
+                "oeil-droit.png"
+            ],
+            [
+                0.64,
+                "oeil-noir.png"
+            ],
+            [
+                0.645,
+                "oeil-droit.png"
+            ],
+            [
+                1.0,
+                "oeil-gauche.png"
+            ]
+        ],
+        "right_eyes": [
+            [
+                0.1,
+                "oeil-droit.png"
+            ],
+            [
+                0.2,
+                "oeil-gauche.png"
+            ],
+            [
+                0.3,
+                "oeil-fixe.png"
+            ],
+            [
+                0.5,
+                "oeil-gauche.png"
+            ],
+            [
+                0.76,
+                "oeil-droit.png"
+            ],
+            [
+                0.85,
+                "oeil-bug1.png"
+            ],
+            [
+                0.9,
+                "oeil-droit.png"
+            ],
+            [
+                1.0,
+                "oeil-gauche.png"
+            ]
+        ],
+        "mouths": [
+            [
+                1,
+                "planet.png"
+            ]
+        ]
+    },
+    {
+        "name": "coeur",
+        "duration": 300,
+        "loop": true,
+        "keys": [
+            "A8"
+        ],
+        "left_eyes": [
+            [
+                0.1,
+                "oeil-droit.png"
+            ],
+            [
+                0.2,
+                "oeil-gauche.png"
+            ],
+            [
+                0.3,
+                "oeil-bug1.png"
+            ],
+            [
+                0.5,
+                "oeil-gauche.png"
+            ],
+            [
+                0.635,
+                "oeil-droit.png"
+            ],
+            [
+                0.64,
+                "oeil-noir.png"
+            ],
+            [
+                0.645,
+                "oeil-droit.png"
+            ],
+            [
+                1.0,
+                "oeil-gauche.png"
+            ]
+        ],
+        "right_eyes": [
+            [
+                0.1,
+                "oeil-droit.png"
+            ],
+            [
+                0.2,
+                "oeil-gauche.png"
+            ],
+            [
+                0.3,
+                "oeil-fixe.png"
+            ],
+            [
+                0.5,
+                "oeil-gauche.png"
+            ],
+            [
+                0.76,
+                "oeil-droit.png"
+            ],
+            [
+                0.85,
+                "oeil-bug1.png"
+            ],
+            [
+                0.9,
+                "oeil-droit.png"
+            ],
+            [
+                1.0,
+                "oeil-gauche.png"
+            ]
+        ],
+        "mouths": [
+            [
+                1,
+                "wall-E.png"
             ]
         ]
     }
+
 ]

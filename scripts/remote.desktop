@@ -1,5 +1,7 @@
 [Desktop Entry]
-Name=Robot Remote Control
-Type=Application
-Comment=Remote control
+Name=Robot Control
 Exec=/home/didier/deploy/scripts/run-pi.sh
+Icon=/home/didier/deploy/scripts/icon.png
+Terminal=false
+Type=Application
+Categories=Utility;Application;

@@ -1,11 +1,12 @@
+from dadou_utils.utils_static import WHEELS
+
 from dadoucontrol.gui.windows.frames.abstract.abstract_sequence_frame import AbstractSequenceFrame
 
 
 class WheelsFrame(AbstractSequenceFrame):
     def __init__(self, parent, color):
-        self.FRAME_NAME = 'wheels'
         self.points = []
-        super().__init__(parent, self.FRAME_NAME, color)
+        super().__init__(parent, WHEELS, color)
 
         self.UP_LINE_Y = 37
         self.MIDDLE_Y = 75

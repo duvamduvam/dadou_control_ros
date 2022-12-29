@@ -22,9 +22,7 @@ def main():
         gui = MainGui()
         gui.mainloop()
     except Exception as e:
-        logging.error(e)
-        traceback.print_exc()
-
+        logging.error(e, exc_info=True)
 
 if __name__ == '__main__':
     main()

@@ -1,6 +1,7 @@
 import logging
 import random
 import tkinter as tk
+from abc import abstractmethod
 
 from dadoucontrol.files.file_manager import FileManager
 from dadoucontrol.gui.windows.expression_window import ExpressionDuration
@@ -37,6 +38,10 @@ class RectangleAbstract(AbstractSequenceFrame):
         x1 = x_root - self.canvas_root_x
         self.create_rectangle(x1, rectangle.x2)
         rectangle.x2 = x1
+
+    @abstractmethod
+    def create_rectangle(self, x1, x2):
+        pass
 
     def delete_click(self, e):
         rectangle = self.find_canvas_rectangle(e.widget)
@@ -78,7 +83,7 @@ class RectangleAbstract(AbstractSequenceFrame):
         result = []
         for rectangle in self.rectangles:
             pos = round(rectangle.x2 / self.canvas.winfo_width(), 3)
-            result.append([rectangle.image_name, pos])
+            result.append([pos, rectangle.image_name])
         return result
 
     def clean(self):
@@ -113,9 +118,6 @@ class RectangleAbstract(AbstractSequenceFrame):
                 if index + 1 == rectangle.index:
                     return rectangle
         return None
-
-    def random_color(self):
-        return "#{:06x}".format(random.randint(0, 0xFFFFFF))
 
 
 class Rectangle:

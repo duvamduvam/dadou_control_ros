@@ -1,3 +1,5 @@
+from dadou_utils.utils_static import AUDIO
+
 from dadoucontrol.gui.windows.frames.abstract.abstract_sequence_frame import AbstractSequenceFrame
 from dadoucontrol.gui.windows.frames.widgets.time_line_bar import TimeLineBar
 
@@ -5,8 +7,7 @@ from dadoucontrol.gui.windows.frames.widgets.time_line_bar import TimeLineBar
 class MusicFrame(AbstractSequenceFrame):
 
     def __init__(self, parent, color):
-        self.FRAME_NAME = 'music'
-        super().__init__(parent, self.FRAME_NAME, color)
+        super().__init__(parent, AUDIO, color)
 
         #self.line = self.canvas.create_line(15, 50, self.winfo_width()-15, 50, width=3)
 

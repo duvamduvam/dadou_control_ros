@@ -1,5 +1,6 @@
 {
-    "length": "8.0",
+    "duration": 8000,
+    "keys": "C5",
     "audio_name": "applause.mp3",
     "audio_path": "/home/dadou/Nextcloud/Didier/audios/",
     "faces": [
