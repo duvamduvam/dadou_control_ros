@@ -22,7 +22,6 @@ class NavigationWidget(tk.Frame):
         tk.Button(self, text='play', bg=YELLOW, command=self.play).grid(row=0, column=0, padx=10)
         tk.Button(self, text='pause', bg=YELLOW, command=self.pause).grid(row=0, column=1, padx=10)
         tk.Button(self, text='stop', bg=YELLOW, command=self.stop).grid(row=0, column=2, padx=10)
-        tk.Button(self, text='loop', bg=YELLOW).grid(row=0, column=3, padx=10)
 
         tk.Label(self, text='current time').grid(row=1, column=0, columnspan=2)
         self.timer_txt = tk.StringVar()

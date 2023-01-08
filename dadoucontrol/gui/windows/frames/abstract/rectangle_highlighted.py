@@ -11,9 +11,7 @@ class HighlightedRectangle(metaclass=SingletonMeta):
     zoom = 8
 
     @staticmethod
-    def set_image(image):
-            canvas = HighlightedRectangle.rectangle.canvas_rectangle
-            canvas.configure(bg=Misc.random_color())
-            canvas.delete("all")
-            #canvas = tk.Canvas(parent, width=self.tk_image.width(), height=self.tk_image.height())
-            canvas.create_image(0, 0, anchor=NW, image=image)
+    def update_rectangle(rectangle):
+            if HighlightedRectangle.rectangle and HighlightedRectangle.rectangle.canvas_rectangle:
+                HighlightedRectangle.rectangle.canvas_rectangle.configure(bg=Misc.random_color())
+            HighlightedRectangle.rectangle = rectangle

@@ -20,6 +20,7 @@ class ImageObserverFeedBack:
             logging.debug("update image {}".format(image))
             self.current_image_name = image
             self.canvas.update()
-            self.current_image = GuiUtils.set_image(self.canvas, self.x, self.y, self.image_type, image, 10)
+            self.current_image = GuiUtils.copy_image(self.canvas, image, x=self.x, y=self.y)
+            #self.current_image = GuiUtils.set_image(self.canvas, self.x, self.y, self.image_type, image, 10)
             self.canvas.update()
         self.canvas.after(50, self.update_image)

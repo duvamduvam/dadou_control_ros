@@ -30,7 +30,7 @@ class RectangleImage(RectangleAbstract):
         rectangle = Rectangle(self.rectangle_index, x1, x2, rectangle_canvas,  self.canvas)
         #image = self.attach_item_index(rectangle.canvas_rectangle, self.current_item_index)
         rectangle.image_name = self.items[self.current_item_index]
-        rectangle.image = GuiUtils.set_image(self.canvas, 0, 0, self.visual_type, self.items[self.current_item_index], 5)
+        rectangle.image = GuiUtils.set_image(self.canvas, 0, 0, self.visual_type, self.items[self.current_item_index], 8)
 
         rectangle.time = int(x2 / self.canvas.winfo_width() * ExpressionDuration.value)
 
@@ -61,7 +61,7 @@ class RectangleImage(RectangleAbstract):
             pos = data[0]
             x2 = int(pos * self.canvas.winfo_width())
             rectangle = self.create_rectangle(self.lastX, x2)
-            rectangle.image = GuiUtils.set_image(rectangle.canvas_rectangle, 0, 0, self.visual_type, data[1], 5)
+            rectangle.image = GuiUtils.set_image(rectangle.canvas_rectangle, 0, 0, self.visual_type, data[1], 8)
             rectangle.image_name = data[1]
             self.images.append(rectangle.image)
 

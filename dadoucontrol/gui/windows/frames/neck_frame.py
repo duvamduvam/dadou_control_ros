@@ -1,14 +1,18 @@
-from dadou_utils.utils_static import NECK
+from dadou_utils.utils_static import NECK, NECKS, DATAS
 
 from dadoucontrol.gui.windows.frames.abstract.abstract_sequence_frame import AbstractSequenceFrame
 
 
 class NeckFrame(AbstractSequenceFrame):
-    def __init__(self, parent, color):
-        super().__init__(parent, NECK, color)
+    def __init__(self, parent, color, **kwargs):
+        super().__init__(parent, NECK, color, **kwargs)
         self.points = []
         self.lastX = 0
         self.canvas.bind("<Button-1>", self.create_circle_click)
+
+        self.canvas.update()
+        if DATAS in kwargs:
+            self.load(kwargs[DATAS])
 
     def create_circle(self, x, y):
         circle = self.canvas.create_oval(x, y, x+10, y+10, width=3, fill="#476042")
@@ -32,3 +36,8 @@ class NeckFrame(AbstractSequenceFrame):
         self.points = []
         self.create_timeline()
         self.lastX = 0
+
+    def load(self, datas):
+        self.clear()
+        for neck in datas:
+            self.create_circle_json(neck[0], neck[1])

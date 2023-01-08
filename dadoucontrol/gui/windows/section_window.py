@@ -29,18 +29,13 @@ class SectionFrame(tk.Frame):
         music_frame = MusicFrame(self, BORDEAUX)
 
         NavigationWidget(self.left_menu, width=100)
-        sequence_widget = SequencesManagerWidget(self, self.left_menu, music_frame)
+        SequencesManagerWidget(self, self.left_menu, music_frame)
 
         self.new_section = self.new_frame()
 
         self.expressions = ControlFactory().control_json_manager.get_expressions_names()
-        #self.faces_frame = RectangleText2(self, 'face', 'green', expressions)
         self.lights = list(ControlFactory().control_json_manager.get_lights().keys())
-        """self.lights_frame = RectangleText2(self, 'lights', 'yellow', lights)
-        self.neck_frame = NeckFrame(self, 'orange')
-        self.wheels_frame = WheelsFrame(self, 'violet')"""
 
-        #sequence_widget.load_first_sequence()
 
     def new_frame(self):
         new_frame = tk.Frame(self.left_menu, bg=CYAN)
@@ -64,10 +59,22 @@ class SectionFrame(tk.Frame):
         logging.info('new section {}'.format(section))
 
         if section == FACE:
-            RectangleText(self, FACE, CYAN, self.expressions)
+            self.load_face()
         elif section == LIGHTS:
-            RectangleText(self, LIGHTS, YELLOW, self.lights)
+            self.load_lights()
         elif section == WHEELS:
-            WheelsFrame(self, PURPLE)
+            self.load_wheels()
         elif section == NECK:
-            NeckFrame(self, ORANGE)
+            self.load_neck()
+
+    def load_face(self, datas=None):
+        RectangleText(self, FACE, CYAN, self.expressions, datas=datas)
+
+    def load_lights(self, datas=None):
+        RectangleText(self, LIGHTS, CYAN, self.lights, datas=datas)
+
+    def load_neck(self, datas=None):
+        NeckFrame(self, ORANGE, datas=datas)
+
+    def load_wheels(self, datas=None):
+        WheelsFrame(self, PURPLE, datas=datas)

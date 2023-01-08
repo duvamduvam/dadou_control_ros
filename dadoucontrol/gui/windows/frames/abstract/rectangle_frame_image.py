@@ -118,10 +118,10 @@ class RectangleFrameImage(AbstractSequenceFrame):
         self.images.append(rectangle_bar.image)
 
     def attach_item_index(self, canvas, item_index):
-        return [self.items[item_index], GuiUtils.set_image(canvas, 0, 0, self.visual_type, self.items[item_index], 5)]
+        return [self.items[item_index], GuiUtils.set_image(canvas, 0, 0, self.visual_type, self.items[item_index], 8)]
 
     def attach_item_name(self, canvas, name):
-        return GuiUtils.set_image(canvas, 0, 0, self.visual_type, name, 5)
+        return GuiUtils.set_image(canvas, 0, 0, self.visual_type, name, 8)
 
     def export(self):
         result = []

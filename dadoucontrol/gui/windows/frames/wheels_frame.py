@@ -1,18 +1,24 @@
-from dadou_utils.utils_static import WHEELS
+from dadou_utils.utils_static import WHEELS, DATAS
 
 from dadoucontrol.gui.windows.frames.abstract.abstract_sequence_frame import AbstractSequenceFrame
 
 
 class WheelsFrame(AbstractSequenceFrame):
-    def __init__(self, parent, color):
+    def __init__(self, parent, color, **kwargs):
+
         self.points = []
-        super().__init__(parent, WHEELS, color)
 
         self.UP_LINE_Y = 37
         self.MIDDLE_Y = 75
         self.DOWN_LINE_Y = 112
 
+        super().__init__(parent, WHEELS, color, **kwargs)
+
         self.create_lines()
+
+        self.canvas.update()
+        if DATAS in kwargs:
+            self.load(kwargs[DATAS])
 
     def create_lines(self):
         left = self.canvas.create_line(15, self.UP_LINE_Y, self.winfo_width()-15, self.UP_LINE_Y, width=3)
@@ -57,10 +63,16 @@ class WheelsFrame(AbstractSequenceFrame):
         self.canvas.create_oval(x, y1, x+5, y2, width=6, fill="#476042")
 
     def clear(self):
-        self.canvas.delete("all")
-        self.create_timeline()
-        self.create_lines()
-        self.points = []
+        if self.canvas:
+            self.canvas.delete("all")
+            self.create_timeline()
+            self.create_lines()
+            self.points = []
+
+    def load(self, datas):
+        self.clear()
+        for wheel in datas:
+            self.create_point_json(wheel[0], wheel[1], wheel[2])
 
     def export(self):
         export_points = []

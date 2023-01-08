@@ -9,14 +9,14 @@ from tkinter import X, TOP, ttk, NW
 import PIL
 from PIL import ImageTk
 from PIL.Image import Image
-from dadou_utils.utils_static import EYE, ICON, MOUTH
+from dadou_utils.utils_static import EYE, ICON, MOUTH, X
 from dadoucontrol.gui.windows.frames.abstract.rectangle_highlighted import HighlightedRectangle
 
 from dadoucontrol.gui.visuals_object.visual_mouth import VisualMouth
 
 from dadoucontrol.gui.visuals_object.visual_eye import VisualEye
 
-from control_static import CYAN, PURPLE, YELLOW, FONT3
+from control_static import CYAN, PURPLE, YELLOW, FONT3, RANDOM_COLOR
 from dadoucontrol.control_factory import ControlFactory
 from dadoucontrol.files.file_manager import FileManager
 from dadoucontrol.gui.gui_utils import GuiUtils
@@ -54,6 +54,7 @@ class DirectoryTreeWidget(tk.Frame):
 
     def set_image(self, parent, x, y, folder, image, zoom):
         canvas_image = CanvasImage(parent, folder, zoom, image)
+        #canvas_image.folder = folder
         parent.create_window(x, y, anchor=NW, window=canvas_image.canvas)
         canvas_image.canvas.bind("<Button-1>", self.click_canvas_image)
 
@@ -61,11 +62,13 @@ class DirectoryTreeWidget(tk.Frame):
 
     def click_canvas_image(self, e):
         canvas_image = self.find_canvas_image(e.widget)
-        logging.info("getting image : {}".format(canvas_image.image))
+        logging.info("getting image : {}".format(canvas_image.name))
 
-        HighlightedRectangle.set_image(canvas_image.tk_image)
+        HighlightedRectangle.rectangle.set_image(canvas_image.tk_image, canvas_image.name, canvas_image.folder)
+        #GuiUtils.copy_image(HighlightedRectangle.rectangle.canvas_rectangle, canvas_image.tk_image, clean=True, random_color=True)
+        #HighlightedRectangle.rectangle.image_name =
 
-
+        #HighlightedRectangle.set_image(canvas_image.tk_image)
 
     def find_canvas_image(self, canvas_image):
         for c in self.canvas_images:
@@ -108,10 +111,10 @@ class DirectoryTreeWidget(tk.Frame):
             ypos += ymargin + visual_type.HEIGHT * 8
 
 class CanvasImage:
-    def __init__(self, parent, folder, zoom, image):
-        self.image = image
+    def __init__(self, parent, folder, zoom, name):
+        self.name = name
         self.folder = folder
-        pil_image = PIL.Image.open(self.folder + '/' + image)
+        pil_image = PIL.Image.open(self.folder + '/' + name)
         tk_image = ImageTk.PhotoImage(pil_image)
         self.tk_image = tk_image._PhotoImage__photo.zoom(zoom)
         #tk_image = tk_image.resize((image.width*zoom, image.height*zoom),Image.ANTIALIAS)

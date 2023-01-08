@@ -1,70 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e737f4f3-4117-4ba7-a7c5-4eb5247e9199" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/audios" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_highlighted.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_image2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/directory_tree_widget.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/section_window.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadoucontrol/speech/effect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadoucontrol/speech/je-suis-pas-sourd.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadoucontrol/speech/welcome.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadoucontrol/tests/samples/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadoucontrol/tests/samples/treeview.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadoucontrol/tests/test_speech.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadoucontrol/tests/test_wheels.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visuals/eye/oeil-blase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visuals/eye/oeil-noir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visuals/eye/test/oeil-blase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visuals/eye/test/oeil-bug1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visuals/eye/test/oeil-droit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+    <list default="true" id="e737f4f3-4117-4ba7-a7c5-4eb5247e9199" name="Changes" comment="expression images management">
+      <change afterPath="$PROJECT_DIR$/visuals/eye/test/oeil-bleu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visuals/eye/test/oeil-rouge.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/01 - Les racines du ciel - Romain Gary.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/com/robot_message.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/com/robot_message.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/control_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/control_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/control_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/control_factory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/control_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/control_static.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/files/control_json_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/files/control_json_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/files/file_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/files/file_manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/gui_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/gui_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/tkinter_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/tkinter_gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/visuals_object/visual_eye.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/visuals_object/visual_eye.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/visuals_object/visual_mouth.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/visuals_object/visual_mouth.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/expression_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/expression_window.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/abstract_sequence_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/abstract_sequence_frame.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_abstract.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_abstract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_frame_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_frame_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_highlighted.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_highlighted.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_image2.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_image2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_text.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/music_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/music_frame.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/neck_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/neck_frame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/timeline_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/timeline_frame.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/wheels_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/wheels_frame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/audio_select_popup.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/audio_select_popup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/galley_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/galley_widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/directory_tree_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/directory_tree_widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/image_observer_feedback.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/image_observer_feedback.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/navigation_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/navigation_widget.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/sequences_manager_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/sequences_widget.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/glove_window.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/keyboard_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/keyboard_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/lights_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/lights_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/remote_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/remote_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/sequence_window.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/logic/sequences/sequences_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/logic/sequences/sequences_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/speech/assistant.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/speech/assistant.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/speech/input_speech.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/speech/input_speech.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/speech/text_to_speech.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/speech/text_to_speech.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/speech/welcome.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/speech/welcome.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/sequences_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/sequences_widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/section_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/section_window.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/json/expressions.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/expressions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/sequences/seq1.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/test.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/sequences/seq2.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/00seq2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/sequences/seq5.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/seq5.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/control.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/control.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/install-didier.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/install-didier.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/remote.desktop" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/remote.desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visuals/eye/test/oeil-blase.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visuals/eye/test/oeil-bug1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visuals/eye/test/oeil-droit.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -436,7 +398,16 @@
       <workItem from="1671656344134" duration="6267000" />
       <workItem from="1671717605293" duration="650000" />
       <workItem from="1672134458002" duration="21000" />
-      <workItem from="1672267552846" duration="5695000" />
+      <workItem from="1672267552846" duration="5837000" />
+      <workItem from="1672273715495" duration="4005000" />
+      <workItem from="1672353039738" duration="7740000" />
+      <workItem from="1672432868160" duration="2397000" />
+      <workItem from="1672474851487" duration="521000" />
+      <workItem from="1672607019851" duration="9513000" />
+      <workItem from="1672699104529" duration="6418000" />
+      <workItem from="1672783290900" duration="16127000" />
+      <workItem from="1672956296095" duration="12458000" />
+      <workItem from="1673209665064" duration="808000" />
     </task>
     <task id="LOCAL-00001" summary="i don't know ...">
       <created>1654844930851</created>
@@ -564,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667519341447</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="expression images management">
+      <created>1672273620746</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1672273620746</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,16 +572,12 @@
     <MESSAGE value="rpi remote control" />
     <MESSAGE value="ws message working" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="expression images management" />
+    <option name="LAST_COMMIT_MESSAGE" value="expression images management" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/expression_window.py</url>
-          <line>158</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/dadoucontrol/speech/assistant.py</url>
           <line>139</line>
@@ -615,31 +589,26 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file:///usr/local/lib/python3.9/dist-packages/dadou_utils/audios/sound_object.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dadoucontrol/logic/sequences/sequences_manager.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dadoucontrol/gui/gui_utils.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="21" />
+          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/frames/timeline_frame.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_image2.py</url>
-          <line>57</line>
-          <option name="timeStamp" value="22" />
+          <line>84</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/frames/neck_frame.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/dadou_control$.coverage" NAME=" Coverage Results" MODIFIED="1670980401703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol/tests" />
-    <SUITE FILE_PATH="coverage/dadou_control$local_control.coverage" NAME="local control Coverage Results" MODIFIED="1672273260248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol/gui/windows/audio" />
+    <SUITE FILE_PATH="coverage/dadou_control$local_control.coverage" NAME="local control Coverage Results" MODIFIED="1673210364188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol/gui/windows/audio" />
     <SUITE FILE_PATH="coverage/dadou_control$effect.coverage" NAME="effect Coverage Results" MODIFIED="1670892412738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol/speech" />
     <SUITE FILE_PATH="coverage/dadou_control$treeview.coverage" NAME="treeview Coverage Results" MODIFIED="1671355037407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol/tests/samples" />
     <SUITE FILE_PATH="coverage/dadou_control$remote_control.coverage" NAME="remote control Coverage Results" MODIFIED="1668123524046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol" />

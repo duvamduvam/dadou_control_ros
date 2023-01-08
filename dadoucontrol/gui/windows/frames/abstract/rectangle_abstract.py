@@ -3,17 +3,23 @@ import random
 import tkinter as tk
 from abc import abstractmethod
 
+from dadoucontrol.control_factory import ControlFactory
+
+from dadoucontrol.control_static import JSON_CONFIG
+
 from dadoucontrol.files.file_manager import FileManager
 from dadoucontrol.gui.windows.expression_window import ExpressionDuration
 from dadoucontrol.gui.windows.frames.abstract.abstract_sequence_frame import AbstractSequenceFrame
 from dadoucontrol.gui.windows.frames.timeline_frame import TimeLineFrame
+from dadourobot.config import RobotConfig
+from dadourobot.files.robot_json_manager import RobotJsonManager
 
 
 class RectangleAbstract(AbstractSequenceFrame):
 
     def __init__(self, parent, name, color):
         super().__init__(parent, name, color)
-
+        self.config = ControlFactory().config
         logging.info('rectangle 2')
         self.rectangles = []
         self.lastX = 0
@@ -28,15 +34,15 @@ class RectangleAbstract(AbstractSequenceFrame):
 
     def create_rectangle_click(self, e):
         if len(self.rectangles) == 0:
-            self.create_rectangle(0, self.canvas.winfo_width())
+            self.create_rectangle(0, self.canvas.winfo_width(), True)
         else:
             rectangle = self.find_canvas_rectangle(e.widget)
             self.split_rectangle(rectangle, e.x, e.x_root)
 
     def split_rectangle(self, rectangle, x, x_root):
         rectangle.canvas_rectangle.config(width=x)
-        x1 = x_root - self.canvas_root_x
-        self.create_rectangle(x1, rectangle.x2)
+        x1 = x_root - self.canvas_root_x-20
+        self.create_rectangle(x1, rectangle.x2, True)
         rectangle.x2 = x1
 
     @abstractmethod
@@ -97,16 +103,13 @@ class RectangleAbstract(AbstractSequenceFrame):
         rectangle.canvas_rectangle.update()
         rectangle.canvas_rectangle.config(width=width)
         rectangle.x2 = x_pos
-
         self.move_next_rectangle(rectangle)
 
     def move_next_rectangle(self, input_rectangle):
         next_rectangle = self.get_next_rectangle(input_rectangle.index)
         if next_rectangle:
-            self.rectangles.remove(next_rectangle)
-            next_rectangle.canvas_rectangle.destroy()
-            new_rectangle = self.create_rectangle(input_rectangle.x2, next_rectangle.x2)
-            new_rectangle.index = next_rectangle.index
+            next_rectangle.canvas_rectangle.place(x=input_rectangle.x2, y=10)
+            next_rectangle.canvas_rectangle.config(width=next_rectangle.x2-input_rectangle.x2)
             logging.debug("move next rectangle {} {} ".format(input_rectangle.x2, next_rectangle.x2))
         else:
             logging.debug("no rectangle after {} ".format(input_rectangle.index))

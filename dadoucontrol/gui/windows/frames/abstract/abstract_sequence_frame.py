@@ -5,11 +5,12 @@ from tkinter import TOP
 from dadoucontrol.control_static import FONT2
 
 from dadoucontrol.gui.windows.frames.widgets.time_line_bar import TimeLineBar
+from utils_static import DATAS
 
 
 class AbstractSequenceFrame(tk.Frame):
     time_line_bar_pos = 0
-    def __init__(self, parent, name, color):
+    def __init__(self, parent, name, color, **kwargs):
         tk.Frame.__init__(self, parent)
 
         logging.info(name)
@@ -41,3 +42,5 @@ class AbstractSequenceFrame(tk.Frame):
         self.forget()
         self.destroy()
 
+    def load(self, data):
+        pass

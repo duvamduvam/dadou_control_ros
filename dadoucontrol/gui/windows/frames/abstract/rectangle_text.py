@@ -2,6 +2,9 @@ import logging
 import tkinter as tk
 from tkinter import TOP
 
+from dadou_utils.misc import Misc
+from dadou_utils.utils_static import DATAS
+
 from dadoucontrol.gui.gui_utils import GuiUtils
 from dadoucontrol.gui.windows.expression_window import ExpressionDuration
 from dadoucontrol.gui.windows.frames.abstract.rectangle_abstract import RectangleAbstract
@@ -10,14 +13,17 @@ from dadoucontrol.gui.windows.frames.timeline_frame import TimeLineFrame
 
 class RectangleText(RectangleAbstract):
 
-    def __init__(self, parent, name, color, items):
+    def __init__(self, parent, name, color, items, **kwargs):
         super().__init__(parent, name, color)
         self.pack(fill='x', side=TOP)
         self.items = items
         #self.items = FileManager.list_folder_files(visual_type)
 
+        if DATAS in kwargs:
+            self.load(kwargs[DATAS])
+
     def create_rectangle(self, x1, x2):
-        rectangle_canvas = tk.Canvas(self.canvas, width=x2-x1, bg=self.random_color())
+        rectangle_canvas = tk.Canvas(self.canvas, width=x2-x1, bg=Misc.random_color())
         rectangle_canvas.place(x=x1, y=10)
 
         rectangle_canvas.bind('<Button-3>', self.delete_click)

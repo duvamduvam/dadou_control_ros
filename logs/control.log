@@ -1,248 +1,89 @@
-2022-12-28 23:45:55,379 - root - INFO - main.py - <module> : 18 - Starting remote control
-2022-12-28 23:46:47,486 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - audio
-2022-12-28 23:46:47,546 - root - INFO - sequences_widget.py - __init__ : 44 - 
-2022-12-28 23:46:51,569 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Left eye
-2022-12-28 23:46:51,573 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-28 23:46:51,589 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Right eye
-2022-12-28 23:46:51,595 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-28 23:46:51,611 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Mouths
-2022-12-28 23:46:51,616 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-28 23:46:56,989 - root - INFO - directory_tree_widget.py - click_canvas_image : 62 - getting image : oeil-bug1.png
-2022-12-28 23:47:14,693 - root - INFO - rectangle_image2.py - create_rectangle : 26 - new image rectangle
-2022-12-28 23:47:15,605 - root - INFO - rectangle_image2.py - create_rectangle : 26 - new image rectangle
-2022-12-28 23:47:16,870 - root - INFO - rectangle_image2.py - create_rectangle : 26 - new image rectangle
-2022-12-28 23:47:18,033 - root - INFO - rectangle_abstract.py - delete_canvas : 54 - x1:0 x2:208
-2022-12-28 23:47:18,035 - root - INFO - rectangle_abstract.py - fill_gap : 62 - rectangle x:226 removed_x2:208
-2022-12-28 23:47:18,044 - root - INFO - rectangle_abstract.py - fill_gap : 62 - rectangle x:399 removed_x2:208
-2022-12-28 23:47:19,773 - root - INFO - rectangle_abstract.py - delete_canvas : 54 - x1:226 x2:381
-2022-12-28 23:47:19,775 - root - INFO - rectangle_abstract.py - fill_gap : 62 - rectangle x:399 removed_x2:381
-2022-12-28 23:47:20,717 - root - INFO - rectangle_abstract.py - delete_canvas : 54 - x1:399 x2:1469
-2022-12-28 23:47:21,885 - root - INFO - rectangle_image2.py - create_rectangle : 26 - new image rectangle
-2022-12-28 23:47:23,005 - root - INFO - rectangle_image2.py - create_rectangle : 26 - new image rectangle
-2022-12-28 23:47:23,861 - root - INFO - rectangle_image2.py - create_rectangle : 26 - new image rectangle
-2022-12-28 23:47:24,565 - root - INFO - rectangle_image2.py - create_rectangle : 26 - new image rectangle
-2022-12-28 23:49:21,883 - root - INFO - main.py - <module> : 18 - Starting remote control
-2022-12-28 23:50:00,104 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Left eye
-2022-12-28 23:50:00,109 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-28 23:50:00,134 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Right eye
-2022-12-28 23:50:00,143 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-28 23:50:00,156 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Mouths
-2022-12-28 23:50:00,160 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-28 23:50:03,741 - root - INFO - directory_tree_widget.py - click_canvas_image : 62 - getting image : oeil-bug1.png
-2022-12-28 23:50:07,125 - root - INFO - directory_tree_widget.py - click_canvas_image : 62 - getting image : oeil-droit.png
-2022-12-28 23:50:07,739 - root - INFO - directory_tree_widget.py - click_canvas_image : 62 - getting image : oeil-blase.png
-2022-12-28 23:50:08,172 - root - INFO - directory_tree_widget.py - click_canvas_image : 62 - getting image : oeil-fixe.png
-2022-12-28 23:52:37,116 - root - INFO - rectangle_image2.py - create_rectangle : 26 - new image rectangle
-2022-12-28 23:52:38,572 - root - INFO - directory_tree_widget.py - click_canvas_image : 62 - getting image : oeil-gauche.png
-2022-12-29 00:19:11,602 - root - INFO - main.py - <module> : 18 - Starting remote control
-2022-12-29 00:19:13,068 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Left eye
-2022-12-29 00:19:13,072 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 00:19:13,089 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Right eye
-2022-12-29 00:19:13,094 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 00:19:13,108 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Mouths
-2022-12-29 00:19:13,114 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 00:19:17,020 - root - INFO - directory_tree_widget.py - click_canvas_image : 62 - getting image : oeil-bug1.png
-2022-12-29 00:19:21,228 - root - INFO - directory_tree_widget.py - click_canvas_image : 62 - getting image : oeil-noir.png
-2022-12-29 00:19:22,028 - root - INFO - directory_tree_widget.py - click_canvas_image : 62 - getting image : oeil-gauche.png
-2022-12-29 00:28:24,573 - root - INFO - main.py - <module> : 18 - Starting remote control
-2022-12-29 00:28:26,379 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Left eye
-2022-12-29 00:28:26,383 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 00:28:26,400 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Right eye
-2022-12-29 00:28:26,405 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 00:28:26,419 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Mouths
-2022-12-29 00:28:26,424 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 00:28:29,595 - root - INFO - rectangle_image2.py - create_rectangle : 28 - new image rectangle
-2022-12-29 00:28:32,580 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-gauche.png
-2022-12-29 00:34:36,590 - root - INFO - main.py - <module> : 18 - Starting remote control
-2022-12-29 00:34:37,855 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Left eye
-2022-12-29 00:34:37,858 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 00:34:37,874 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Right eye
-2022-12-29 00:34:37,880 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 00:34:37,893 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Mouths
-2022-12-29 00:34:37,899 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 00:34:42,852 - root - INFO - rectangle_image2.py - create_rectangle : 28 - new image rectangle
-2022-12-29 00:34:44,123 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-gauche.png
-2022-12-29 00:43:19,409 - root - INFO - main.py - <module> : 18 - Starting remote control
-2022-12-29 00:43:20,604 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Left eye
-2022-12-29 00:43:20,608 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 00:43:20,629 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Right eye
-2022-12-29 00:43:20,634 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 00:43:20,648 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Mouths
-2022-12-29 00:43:20,653 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 00:43:22,026 - root - INFO - rectangle_image2.py - create_rectangle : 28 - new image rectangle
-2022-12-29 00:43:24,250 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-droit.png
-2022-12-29 00:51:36,276 - root - INFO - main.py - <module> : 18 - Starting remote control
-2022-12-29 00:52:14,428 - root - INFO - main.py - <module> : 18 - Starting remote control
-2022-12-29 00:52:15,772 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Left eye
-2022-12-29 00:52:15,776 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 00:52:15,793 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Right eye
-2022-12-29 00:52:15,802 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 00:52:15,816 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Mouths
-2022-12-29 00:52:15,821 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 00:52:18,069 - root - INFO - rectangle_image2.py - create_rectangle : 28 - new image rectangle
-2022-12-29 00:52:20,262 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-bug1.png
-2022-12-29 00:52:51,797 - root - INFO - main.py - <module> : 18 - Starting remote control
-2022-12-29 00:52:52,992 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Left eye
-2022-12-29 00:52:52,996 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 00:52:53,013 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Right eye
-2022-12-29 00:52:53,021 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 00:52:53,035 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Mouths
-2022-12-29 00:52:53,040 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 00:52:55,768 - root - INFO - rectangle_image2.py - create_rectangle : 28 - new image rectangle
-2022-12-29 00:53:01,657 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-bug1.png
-2022-12-29 00:53:03,876 - root - INFO - rectangle_image2.py - create_rectangle : 28 - new image rectangle
-2022-12-29 00:53:09,415 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-gauche.png
-2022-12-29 00:53:10,703 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-droit.png
-2022-12-29 00:53:47,824 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-blase.png
-2022-12-29 00:53:48,814 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-droit.png
-2022-12-29 00:53:49,190 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-gauche.png
-2022-12-29 00:53:49,605 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-gauche.png
-2022-12-29 00:53:50,453 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-noir.png
-2022-12-29 00:53:51,300 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-bug1.png
-2022-12-29 00:53:52,324 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-gauche.png
-2022-12-29 00:53:52,955 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-droit.png
-2022-12-29 00:53:53,539 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-blase.png
-2022-12-29 00:53:54,043 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-fixe.png
-2022-12-29 00:55:33,335 - root - INFO - main.py - <module> : 18 - Starting remote control
-2022-12-29 00:55:34,628 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Left eye
-2022-12-29 00:55:34,632 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 00:55:34,648 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Right eye
-2022-12-29 00:55:34,654 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 00:55:34,667 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Mouths
-2022-12-29 00:55:34,672 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 00:55:36,732 - root - INFO - rectangle_image2.py - create_rectangle : 28 - new image rectangle
-2022-12-29 00:55:40,108 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : bouche-ferme-droit.png
-2022-12-29 00:55:42,801 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-gauche.png
-2022-12-29 00:55:46,435 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-fixe.png
-2022-12-29 00:55:46,811 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-blase.png
-2022-12-29 00:55:47,563 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-droit.png
-2022-12-29 00:55:48,020 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-gauche.png
-2022-12-29 00:55:50,101 - root - INFO - rectangle_image2.py - create_rectangle : 28 - new image rectangle
-2022-12-29 00:55:51,485 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-fixe.png
-2022-12-29 00:55:53,590 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-blase.png
-2022-12-29 00:55:54,022 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-droit.png
-2022-12-29 00:55:54,895 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-gauche.png
-2022-12-29 01:10:41,427 - root - INFO - rectangle_image2.py - create_rectangle : 28 - new image rectangle
-2022-12-29 01:10:44,413 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-blase.png
-2022-12-29 01:10:45,141 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-fixe.png
-2022-12-29 01:10:46,062 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-droit.png
-2022-12-29 01:10:46,695 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-gauche.png
-2022-12-29 01:10:49,536 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-droit.png
-2022-12-29 01:10:50,146 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-droit.png
-2022-12-29 01:10:51,081 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-droit.png
-2022-12-29 01:10:51,754 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-gauche.png
-2022-12-29 01:10:52,825 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-gauche.png
-2022-12-29 01:10:53,395 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-droit.png
-2022-12-29 01:10:54,387 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-fixe.png
-2022-12-29 01:10:56,332 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-gauche.png
-2022-12-29 01:10:58,085 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-noir.png
-2022-12-29 01:10:59,206 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-bug1.png
-2022-12-29 01:11:02,264 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-bug1.png
-2022-12-29 01:11:04,273 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-noir.png
-2022-12-29 01:11:04,769 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-gauche.png
-2022-12-29 01:11:05,218 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-droit.png
-2022-12-29 01:11:06,042 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-blase.png
-2022-12-29 01:11:06,562 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-fixe.png
-2022-12-29 01:15:09,588 - root - INFO - main.py - <module> : 18 - Starting remote control
-2022-12-29 01:15:17,925 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Left eye
-2022-12-29 01:15:17,928 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 01:15:17,945 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Right eye
-2022-12-29 01:15:17,950 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 01:15:17,963 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Mouths
-2022-12-29 01:15:17,968 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 01:15:34,600 - root - INFO - rectangle_image2.py - create_rectangle : 29 - new image rectangle
-2022-12-29 01:15:39,609 - root - INFO - rectangle_image2.py - create_rectangle : 29 - new image rectangle
-2022-12-29 01:15:40,705 - root - INFO - rectangle_image2.py - create_rectangle : 29 - new image rectangle
-2022-12-29 01:16:07,902 - root - INFO - main.py - <module> : 18 - Starting remote control
-2022-12-29 01:16:09,699 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Left eye
-2022-12-29 01:16:09,703 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 01:16:09,719 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Right eye
-2022-12-29 01:16:09,725 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 01:16:09,738 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Mouths
-2022-12-29 01:16:09,743 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 01:16:12,334 - root - INFO - rectangle_image2.py - create_rectangle : 29 - new image rectangle
-2022-12-29 01:16:14,070 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : bouche-ferme-droit.png
-2022-12-29 01:16:16,542 - root - INFO - rectangle_image2.py - create_rectangle : 29 - new image rectangle
-2022-12-29 01:17:09,444 - root - INFO - main.py - <module> : 18 - Starting remote control
-2022-12-29 01:17:10,575 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Left eye
-2022-12-29 01:17:10,580 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 01:17:10,606 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Right eye
-2022-12-29 01:17:10,610 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 01:17:10,633 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Mouths
-2022-12-29 01:17:10,639 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 01:17:12,001 - root - INFO - rectangle_image2.py - create_rectangle : 29 - new image rectangle
-2022-12-29 01:17:15,097 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-droit.png
-2022-12-29 01:17:15,930 - root - INFO - rectangle_image2.py - create_rectangle : 29 - new image rectangle
-2022-12-29 01:17:17,978 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-bug1.png
-2022-12-29 01:17:19,258 - root - INFO - rectangle_image2.py - create_rectangle : 29 - new image rectangle
-2022-12-29 01:17:21,187 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-droit.png
-2022-12-29 01:17:30,860 - root - INFO - main.py - <module> : 18 - Starting remote control
-2022-12-29 01:17:32,434 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Left eye
-2022-12-29 01:17:32,438 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 01:17:32,454 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Right eye
-2022-12-29 01:17:32,460 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 01:17:32,473 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Mouths
-2022-12-29 01:17:32,481 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 01:17:33,847 - root - INFO - rectangle_image2.py - create_rectangle : 29 - new image rectangle
-2022-12-29 01:17:36,728 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-blase.png
-2022-12-29 01:17:53,301 - root - INFO - main.py - <module> : 18 - Starting remote control
-2022-12-29 01:17:54,655 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Left eye
-2022-12-29 01:17:54,659 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 01:17:54,675 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Right eye
-2022-12-29 01:17:54,681 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 01:17:54,695 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Mouths
-2022-12-29 01:17:54,700 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 01:17:56,399 - root - INFO - rectangle_image2.py - create_rectangle : 29 - new image rectangle
-2022-12-29 01:17:58,550 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-gauche.png
-2022-12-29 01:17:59,462 - root - INFO - rectangle_image2.py - create_rectangle : 29 - new image rectangle
-2022-12-29 01:18:00,861 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-blase.png
-2022-12-29 01:18:46,922 - root - INFO - main.py - <module> : 18 - Starting remote control
-2022-12-29 01:18:48,069 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Left eye
-2022-12-29 01:18:48,072 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 01:18:48,114 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Right eye
-2022-12-29 01:18:48,120 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 01:18:48,153 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Mouths
-2022-12-29 01:18:48,160 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 01:18:50,788 - root - INFO - rectangle_image2.py - create_rectangle : 29 - new image rectangle
-2022-12-29 01:18:52,957 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-gauche.png
-2022-12-29 01:19:08,501 - root - INFO - rectangle_image2.py - create_rectangle : 29 - new image rectangle
-2022-12-29 01:19:09,901 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-fixe.png
-2022-12-29 01:19:12,621 - root - INFO - rectangle_image2.py - create_rectangle : 29 - new image rectangle
-2022-12-29 01:19:15,005 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-gauche.png
-2022-12-29 01:19:18,526 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-blase.png
-2022-12-29 01:19:20,462 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-blase.png
-2022-12-29 01:19:23,206 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-fixe.png
-2022-12-29 01:19:25,629 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-blase.png
-2022-12-29 01:19:34,104 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-bug1.png
-2022-12-29 01:21:00,565 - root - INFO - main.py - <module> : 18 - Starting remote control
-2022-12-29 01:21:01,942 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Left eye
-2022-12-29 01:21:01,946 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 01:21:01,963 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Right eye
-2022-12-29 01:21:01,968 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 01:21:01,981 - root - INFO - abstract_sequence_frame.py - __init__ : 15 - Mouths
-2022-12-29 01:21:01,987 - root - INFO - rectangle_abstract.py - __init__ : 17 - rectangle 2
-2022-12-29 01:21:03,199 - root - INFO - rectangle_image2.py - create_rectangle : 29 - new image rectangle
-2022-12-29 01:21:05,375 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-gauche.png
-2022-12-29 01:21:06,408 - root - INFO - rectangle_image2.py - create_rectangle : 29 - new image rectangle
-2022-12-29 01:21:10,465 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-fixe.png
-2022-12-29 01:21:19,738 - root - INFO - rectangle_image2.py - create_rectangle : 29 - new image rectangle
-2022-12-29 01:21:21,572 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-blase.png
-2022-12-29 01:21:23,428 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-bug1.png
-2022-12-29 01:21:26,164 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-gauche.png
-2022-12-29 01:22:43,828 - root - INFO - rectangle_image2.py - create_rectangle : 29 - new image rectangle
-2022-12-29 01:22:45,611 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-fixe.png
-2022-12-29 01:22:46,731 - root - INFO - rectangle_image2.py - create_rectangle : 29 - new image rectangle
-2022-12-29 01:22:48,634 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-noir.png
-2022-12-29 01:22:52,457 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-bug1.png
-2022-12-29 01:22:53,712 - root - INFO - rectangle_image2.py - create_rectangle : 29 - new image rectangle
-2022-12-29 01:22:55,640 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-droit.png
-2022-12-29 01:22:58,807 - root - INFO - rectangle_image2.py - create_rectangle : 29 - new image rectangle
-2022-12-29 01:23:02,110 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : bouche-ouvert1.png
-2022-12-29 01:23:03,054 - root - INFO - rectangle_image2.py - create_rectangle : 29 - new image rectangle
-2022-12-29 01:23:04,525 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : scooby-doo2.png
-2022-12-29 01:23:05,661 - root - INFO - rectangle_image2.py - create_rectangle : 29 - new image rectangle
-2022-12-29 01:23:07,580 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : bouche-elec2.png
-2022-12-29 01:24:29,894 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : coeur.png
-2022-12-29 01:24:34,742 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : bouche-elec1.png
-2022-12-29 01:24:48,839 - root - INFO - directory_tree_widget.py - click_canvas_image : 64 - getting image : oeil-fixe.png
-2022-12-29 01:25:43,725 - root - INFO - main.py - <module> : 18 - Starting remote control
+2023-01-08 21:27:48,657 - root - INFO - robot_json_manager.py - RobotJsonManager : 15 - start json manager
+2023-01-08 21:27:48,667 - root - INFO - main.py - <module> : 18 - Starting remote control
+2023-01-08 21:27:51,580 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
+2023-01-08 21:27:51,628 - root - INFO - sequences_widget.py - __init__ : 49 - 
+2023-01-08 21:28:00,493 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/python/dadou_control/audios/gig.wav
+2023-01-08 21:28:00,533 - root - INFO - sound_object.py - get_duration : 85 - duration : 156.8130612244898
+2023-01-08 21:28:03,355 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - face
+2023-01-08 21:28:03,363 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
+2023-01-08 21:28:03,364 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - lights
+2023-01-08 21:28:03,373 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
+2023-01-08 21:28:03,374 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - wheels
+2023-01-08 21:28:03,380 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - neck
+2023-01-08 21:28:03,386 - root - INFO - sequences_widget.py - select_sequence : 81 - You selected item 0: "00seq2.json"
+2023-01-08 21:31:00,073 - root - INFO - robot_json_manager.py - RobotJsonManager : 15 - start json manager
+2023-01-08 21:31:00,077 - root - INFO - main.py - <module> : 18 - Starting remote control
+2023-01-08 21:31:04,989 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
+2023-01-08 21:31:05,022 - root - INFO - sequences_widget.py - __init__ : 49 - 
+2023-01-08 21:31:09,510 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/python/dadou_control/audios/gig.wav
+2023-01-08 21:31:09,543 - root - INFO - sound_object.py - get_duration : 85 - duration : 156.8130612244898
+2023-01-08 21:31:12,392 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - face
+2023-01-08 21:31:12,399 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
+2023-01-08 21:31:12,401 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - lights
+2023-01-08 21:31:12,408 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
+2023-01-08 21:31:12,409 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - wheels
+2023-01-08 21:31:12,415 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - neck
+2023-01-08 21:31:12,420 - root - INFO - sequences_widget.py - select_sequence : 81 - You selected item 0: "00seq2.json"
+2023-01-08 21:34:42,182 - root - INFO - robot_json_manager.py - RobotJsonManager : 15 - start json manager
+2023-01-08 21:34:42,189 - root - INFO - main.py - <module> : 18 - Starting remote control
+2023-01-08 21:34:43,752 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
+2023-01-08 21:34:43,803 - root - INFO - sequences_widget.py - __init__ : 49 - 
+2023-01-08 21:34:46,332 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/python/dadou_control/audios/gig.wav
+2023-01-08 21:34:46,359 - root - INFO - sound_object.py - get_duration : 85 - duration : 156.8130612244898
+2023-01-08 21:34:54,575 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - face
+2023-01-08 21:34:54,583 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
+2023-01-08 21:34:54,586 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - lights
+2023-01-08 21:34:54,594 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
+2023-01-08 21:34:54,595 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - wheels
+2023-01-08 21:35:03,536 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - neck
+2023-01-08 21:39:05,229 - root - INFO - robot_json_manager.py - RobotJsonManager : 15 - start json manager
+2023-01-08 21:39:05,234 - root - INFO - main.py - <module> : 18 - Starting remote control
+2023-01-08 21:39:06,730 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
+2023-01-08 21:39:06,766 - root - INFO - sequences_widget.py - __init__ : 49 - 
+2023-01-08 21:39:08,242 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/python/dadou_control/audios/gig.wav
+2023-01-08 21:39:08,255 - root - INFO - sound_object.py - get_duration : 85 - duration : 156.8130612244898
+2023-01-08 21:39:11,034 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - face
+2023-01-08 21:39:11,042 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
+2023-01-08 21:39:11,043 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - lights
+2023-01-08 21:39:11,051 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
+2023-01-08 21:39:11,052 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - wheels
+2023-01-08 21:39:11,059 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - neck
+2023-01-08 21:39:11,063 - root - INFO - sequences_widget.py - select_sequence : 81 - You selected item 0: "00seq2.json"
+2023-01-08 21:39:24,942 - root - INFO - robot_json_manager.py - RobotJsonManager : 15 - start json manager
+2023-01-08 21:39:24,952 - root - INFO - main.py - <module> : 18 - Starting remote control
+2023-01-08 21:39:26,413 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
+2023-01-08 21:39:26,477 - root - INFO - sequences_widget.py - __init__ : 49 - 
+2023-01-08 21:39:27,948 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/python/dadou_control/audios/gig.wav
+2023-01-08 21:39:27,981 - root - INFO - sound_object.py - get_duration : 85 - duration : 156.8130612244898
+2023-01-08 21:39:36,090 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - face
+2023-01-08 21:39:36,098 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
+2023-01-08 21:39:36,100 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - lights
+2023-01-08 21:39:36,108 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
+2023-01-08 21:39:36,109 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - wheels
+2023-01-08 21:39:36,116 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - neck
+2023-01-08 21:41:15,991 - root - INFO - robot_json_manager.py - RobotJsonManager : 15 - start json manager
+2023-01-08 21:41:15,996 - root - INFO - main.py - <module> : 18 - Starting remote control
+2023-01-08 21:41:19,331 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
+2023-01-08 21:41:19,364 - root - INFO - sequences_widget.py - __init__ : 49 - 
+2023-01-08 21:41:20,837 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/python/dadou_control/audios/gig.wav
+2023-01-08 21:41:20,871 - root - INFO - sound_object.py - get_duration : 85 - duration : 156.8130612244898
+2023-01-08 21:41:23,752 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - face
+2023-01-08 21:41:23,759 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
+2023-01-08 21:41:23,761 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - lights
+2023-01-08 21:41:23,768 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
+2023-01-08 21:41:23,769 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - wheels
+2023-01-08 21:41:23,775 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - neck
+2023-01-08 21:41:23,782 - root - INFO - sequences_widget.py - select_sequence : 81 - You selected item 0: "00seq2.json"
+2023-01-08 21:42:08,416 - root - INFO - robot_json_manager.py - RobotJsonManager : 15 - start json manager
+2023-01-08 21:42:08,420 - root - INFO - main.py - <module> : 18 - Starting remote control
+2023-01-08 21:42:10,774 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
+2023-01-08 21:42:10,809 - root - INFO - sequences_widget.py - __init__ : 49 - 
+2023-01-08 21:42:12,076 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/python/dadou_control/audios/gig.wav
+2023-01-08 21:42:12,118 - root - INFO - sound_object.py - get_duration : 85 - duration : 156.8130612244898
+2023-01-08 21:42:14,802 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - face
+2023-01-08 21:42:14,809 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
+2023-01-08 21:42:14,810 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - lights
+2023-01-08 21:42:14,818 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
+2023-01-08 21:42:14,819 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - wheels
+2023-01-08 21:42:14,830 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - neck
+2023-01-08 21:42:14,836 - root - INFO - sequences_widget.py - select_sequence : 81 - You selected item 0: "00seq2.json"

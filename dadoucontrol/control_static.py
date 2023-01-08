@@ -23,6 +23,7 @@ AUDIO_NAME = 'audio_name'
 AUDIO_PATH = 'audio_path'
 GLOVE_LEFT = 'glove_left'
 GLOVE_RIGHT = 'glove_right'
+RANDOM_COLOR ='random_color'
 
 ############# COLORS ###############
 #https://coolors.co/palettes/trending

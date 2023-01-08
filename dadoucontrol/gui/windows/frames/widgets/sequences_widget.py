@@ -4,10 +4,15 @@ import tkinter as tk
 from tkinter import filedialog as fd, TOP
 
 from dadou_utils.time.time_utils import TimeUtils
-from dadou_utils.utils_static import SEQUENCES, KEYS
+from dadou_utils.utils_static import SEQUENCES, KEYS, FACES, LIGHTS, NECKS, WHEELS, FACE, EXPRESSION
+from dadoucontrol.gui.windows.frames.wheels_frame import WheelsFrame
+
+from dadoucontrol.gui.windows.frames.neck_frame import NeckFrame
+
+from dadoucontrol.gui.windows.frames.abstract.rectangle_text import RectangleText
 
 from dadoucontrol.control_factory import ControlFactory
-from dadoucontrol.control_static import ControlStatic, SEQUENCES_DIRECTORY, CYAN
+from dadoucontrol.control_static import ControlStatic, SEQUENCES_DIRECTORY, CYAN, ORANGE, PURPLE, YELLOW
 from dadoucontrol.files.file_manager import FileManager
 from dadoucontrol.gui.windows.frames.widgets.audio_select_popup import AudioPopupWidget
 from dadoucontrol.gui.windows.frames.music_frame import MusicFrame
@@ -27,8 +32,8 @@ class SequencesManagerWidget(tk.Frame):
         self.audio_name_var = tk.StringVar(self)
         self.audio_duration_var = tk.StringVar(self)
         self.audio_duration_formatted_var = tk.StringVar(self)
-
         self.selected_sequence_var = tk.StringVar(self)
+
         self.audio_path = None
 
         self.seq_files = FileManager.list_folder_files_type(SEQUENCES)
@@ -81,13 +86,21 @@ class SequencesManagerWidget(tk.Frame):
     def load_sequence(self, sequence_name):
         self.selected_sequence_var.set(sequence_name)
         self.sequence_manager.load_sequence(sequence_name)
-        audio_name = self.sequence_manager.audio_segment.audio_name
-        #self.audio_path = self.sequence_manager.json_sequence["audio_path"]
-        self.audio_name_var.set(audio_name)
+
         self.keys_text.delete('1.0', tk.END)
         self.keys_text.insert("end-1c", self.sequence_manager.json_sequence[KEYS])
 
+        self.load_audio()
 
+        self.parent.load_face(self.sequence_manager.get_parts(FACES))
+        self.parent.load_lights(self.sequence_manager.get_parts(LIGHTS))
+        self.parent.load_wheels(self.sequence_manager.get_parts(WHEELS))
+        self.parent.load_neck(self.sequence_manager.get_parts(NECKS))
+
+    def load_audio(self):
+        audio_name = self.sequence_manager.audio_segment.audio_name
+        #self.audio_path = self.sequence_manager.json_sequence["audio_path"]
+        self.audio_name_var.set(audio_name)
 
         audio_duration = self.sequence_manager.audio_segment.get_duration()
         self.audio_duration_var.set(audio_duration)
@@ -97,18 +110,6 @@ class SequencesManagerWidget(tk.Frame):
 
         display_data = self.sequence_manager.audio_segment.get_audio_data_display(self.music_frame.winfo_width())
         self.music_frame.load_audio(display_data)
-
-        self.parent.faces_frame.load(self.sequence_manager.get_parts("faces"))
-        self.parent.lights_frame.load(self.sequence_manager.get_parts("lights"))
-
-        self.parent.neck_frame.clear()
-        for neck in self.sequence_manager.get_parts("necks"):
-            self.parent.neck_frame.create_circle_json(neck[0], neck[1])
-
-        self.parent.wheels_frame.clear()
-        for wheel in self.sequence_manager.get_parts("wheels"):
-            self.parent.wheels_frame.create_point_json(wheel[0], wheel[1], wheel[2])
-
 
     def save(self):
         logging.info('save sequences')
