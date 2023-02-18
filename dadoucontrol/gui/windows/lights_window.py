@@ -74,7 +74,7 @@ class LightsFrame(tk.Frame):
         self.lights_base = self.json_manager.get_lights_base()
         self.lights_base_names = tk.StringVar()
         self.get_base_names(self.lights_base) #json_manager.get_lights_base()
-        self.lights_base_listbox = tk.Listbox(left_menu, listvariable=self.lights_base_names, height=16)
+
         self.lights_base_listbox.grid(row=1, column=6, padx=10)
         self.selected_sequence_var = tk.StringVar()
         self.lights_base_listbox.bind('<<ListboxSelect>>', self.select_base)

@@ -1,3 +1,5 @@
+import os
+
 from dadou_utils.misc import Misc
 
 
@@ -8,13 +10,16 @@ JSON_CONFIG = 'config.json'
 JSON_EXPRESSIONS = 'expressions.json'
 JSON_LIGHTS = 'lights.json'
 JSON_LIGHTS_BASE = 'lights_base.json'
+JSON_SPEECHS = 'speechs.json'
 
 ############### PATHS ###############
 
+BASE_PATH = os.path.dirname(__file__)
 AUDIO_DIRECTORY = '/audios/'
 RPI_LOGGING_CONFIG_FILE = '/conf/logging-pi.conf'
 LAPTOP_LOGGING_CONFIG_FILE = '/conf/logging-laptop.conf'
 JSON_DIRECTORY = '/json/'
+PLAYLIST_PATH = '/../json/playlists/'
 SEQUENCES_DIRECTORY = '/sequences/'
 
 ############### KEYS ###############

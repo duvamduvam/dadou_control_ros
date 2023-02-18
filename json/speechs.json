@@ -1,0 +1,10 @@
+{
+    "test1": [
+        "speek/boujour.mp3",
+        "speak/ca-va.mp3"
+    ],
+    "test2": [
+        "speek/aie.wav",
+        "speak/fait-pas-ca.mp3"
+    ]
+}

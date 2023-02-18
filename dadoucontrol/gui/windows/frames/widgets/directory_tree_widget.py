@@ -9,7 +9,9 @@ from tkinter import X, TOP, ttk, NW
 import PIL
 from PIL import ImageTk
 from PIL.Image import Image
+from dadou_utils.static_value import StaticValue
 from dadou_utils.utils_static import EYE, ICON, MOUTH, X
+
 from dadoucontrol.gui.windows.frames.abstract.rectangle_highlighted import HighlightedRectangle
 
 from dadoucontrol.gui.visuals_object.visual_mouth import VisualMouth
@@ -20,29 +22,37 @@ from control_static import CYAN, PURPLE, YELLOW, FONT3, RANDOM_COLOR
 from dadoucontrol.control_factory import ControlFactory
 from dadoucontrol.files.file_manager import FileManager
 from dadoucontrol.gui.gui_utils import GuiUtils
+from utils_static import IMAGE
 
 
 class DirectoryTreeWidget(tk.Frame):
-    def __init__(self, parent, directory, *args, **kwargs):
+    def __init__(self, parent, directory, type, *args, **kwargs):
         tk.Frame.__init__(self, parent, bg=CYAN, *args, **kwargs)
         style = ttk.Style(self)
         style.configure("Treeview", background=CYAN,
                         fieldbackground=CYAN, foreground=YELLOW, font=FONT3)
+        self.type = type
         self.tv = ttk.Treeview(self, show='tree')
-        ybar = tk.Scrollbar(self, orient=tk.VERTICAL,
-                            command=self.tv.yview)
-        self.tv.configure(yscroll=ybar.set)
-        self.tv.heading('#0', text='Dir：' + directory, anchor='w')
+        #ybar = tk.Scrollbar(self, orient=tk.VERTICAL,
+        #                    command=self.tv.yview)
+        #self.tv.configure(yscroll=ybar.set)
+        #self.tv.heading('#0', text='Dir：' + directory, anchor='w')
         self.tv.bind("<Button-1>", self.view_dir)
         path = os.path.abspath(directory)
         node = self.tv.insert('', 'end', text=path, open=True)
         self.traverse_dir(node, path)
-        ybar.pack(side=tk.RIGHT, fill=tk.Y)
+        #ybar.pack(side=tk.RIGHT, fill=tk.Y)
         self.tv.pack(fill=X, side=TOP)
-        self.gallery = tk.Canvas(self, height=800, bg=CYAN) #GalleryWidget(self, 10, height=800)
-        self.gallery.pack(fill=X, side=TOP)
+        if self.type == IMAGE:
+            self.gallery = tk.Canvas(self, height=800, bg=CYAN) #GalleryWidget(self, 10, height=800)
+            self.gallery.pack(fill=X, side=TOP)
+            self.canvas_images = []
+        else:
+            self.files_var = tk.StringVar()
+            self.files = tk.Listbox(self, listvariable=self.files_var, height=800, bg=CYAN)
+            self.files.bind('<Double-Button-1>', self.send_value)
+            self.files.pack(fill=X, side=TOP)
         self.pack(fill=X, side=TOP)
-        self.canvas_images = []
 
     def traverse_dir(self, parent,path):
         for d in os.listdir(path):
@@ -54,21 +64,14 @@ class DirectoryTreeWidget(tk.Frame):
 
     def set_image(self, parent, x, y, folder, image, zoom):
         canvas_image = CanvasImage(parent, folder, zoom, image)
-        #canvas_image.folder = folder
         parent.create_window(x, y, anchor=NW, window=canvas_image.canvas)
         canvas_image.canvas.bind("<Button-1>", self.click_canvas_image)
-
         return canvas_image
 
     def click_canvas_image(self, e):
         canvas_image = self.find_canvas_image(e.widget)
         logging.info("getting image : {}".format(canvas_image.name))
-
         HighlightedRectangle.rectangle.set_image(canvas_image.tk_image, canvas_image.name, canvas_image.folder)
-        #GuiUtils.copy_image(HighlightedRectangle.rectangle.canvas_rectangle, canvas_image.tk_image, clean=True, random_color=True)
-        #HighlightedRectangle.rectangle.image_name =
-
-        #HighlightedRectangle.set_image(canvas_image.tk_image)
 
     def find_canvas_image(self, canvas_image):
         for c in self.canvas_images:
@@ -77,8 +80,10 @@ class DirectoryTreeWidget(tk.Frame):
         logging.error("no matching rectangle")
 
     def view_dir(self, event):
+        #item = self.tv.selection()
         item = self.tv.identify('item',event.x,event.y)
         parent_iid = self.tv.parent(item)
+        self.tv.ancestor()
         node = []
         # go backward until reaching root
         while parent_iid != '':
@@ -88,7 +93,22 @@ class DirectoryTreeWidget(tk.Frame):
         path = os.path.join(*node, i)
         self.show_folder(path)
 
+    def send_value(self, e):
+        w = e.widget
+        if len(w.curselection()) > 0:
+            index = int(w.curselection()[0])
+            value = w.get(index)
+            StaticValue.value = value
+        else:
+            logging.error("no line selected")
+
     def show_folder(self, path):
+        if self.type == IMAGE:
+            self.show_images(path)
+        else:
+            self.show_files(path)
+
+    def show_images(self, path):
 
         for child in self.gallery.winfo_children():
             child.destroy()
@@ -109,6 +129,11 @@ class DirectoryTreeWidget(tk.Frame):
         for item in items:
             self.canvas_images.append(self.set_image(self.gallery, xpos, ypos, path, item, 8))
             ypos += ymargin + visual_type.HEIGHT * 8
+
+    def show_files(self, path):
+        items = FileManager.list_folder_files(path)
+        self.files_var.set(items)
+
 
 class CanvasImage:
     def __init__(self, parent, folder, zoom, name):

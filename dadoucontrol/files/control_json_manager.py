@@ -6,7 +6,7 @@ import jsonpath_rw_ext
 from dadou_utils.misc import Misc
 
 from dadoucontrol.control_static import JSON_LIGHTS_BASE, SEQUENCES_DIRECTORY, JSON_EXPRESSIONS, \
-    JSON_LIGHTS
+    JSON_LIGHTS, JSON_SPEECHS
 from dadou_utils.files.abstract_json_manager import AbstractJsonManager
 
 from utils_static import AUDIOS
@@ -75,4 +75,5 @@ class ControlJsonManager(AbstractJsonManager):
         with open(self.json_folder+JSON_LIGHTS, 'w') as outfile:
             json.dump(lights, outfile, indent=4)
 
-
+    def get_speechs(self):
+        return self.open_json(JSON_SPEECHS, 'r')

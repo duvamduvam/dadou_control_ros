@@ -16,7 +16,7 @@ from dadoucontrol.gui.windows.frames.abstract.rectangle_image2 import RectangleI
 from dadoucontrol.gui.windows.frames.timeline_frame import TimeLineFrame
 from dadoucontrol.gui.windows.frames.widgets.galley_widget import GalleryWidget
 from dadoucontrol.gui.windows.frames.widgets.image_observer_feedback import ImageObserverFeedBack
-from utils_static import PLAY, PAUSE
+from utils_static import PLAY, PAUSE, IMAGE
 
 
 class ExpressionFrame(tk.Frame):
@@ -30,18 +30,11 @@ class ExpressionFrame(tk.Frame):
         left_menu = tk.Frame(self, width=50, bg=CYAN)
         left_menu.pack(fill='y', ipadx=20, side=LEFT)
 
-        DirectoryTreeWidget(left_menu, "/home/dadou/Nextcloud/Didier/python/dadou_control/visuals")
-
-        #GalleryWidget(left_menu, VisualEye('truc'), 10, width=100, height=800).grid(row=0, column=0, columnspan=2)
-        #GalleryWidget(left_menu, VisualMouth('truc'), 6, width=150, height=800).grid(row=0, column=2, columnspan=2)
+        DirectoryTreeWidget(left_menu, "/home/dadou/Nextcloud/Didier/python/dadou_control/visuals", IMAGE)
 
         top_frame = tk.Frame(self, width=800, bg=CYAN)
         self.top_canvas = tk.Canvas(top_frame, height=300, bg=PURPLE)
         self.top_canvas.grid(row=0, column=0, rowspan=5, columnspan=5)
-
-        #self.right_eye = GuiUtils.set_image(top_canvas, 10, 10, VisualEye.TYPE, 'oeil-droit.png', 10)
-        #self.lef_eye = GuiUtils.set_image(top_canvas, 210, 10, VisualEye.TYPE, 'oeil-gauche.png', 10)
-        #self.mouth = GuiUtils.set_image(top_canvas, 30, 120, VisualMouth.TYPE, 'bouche-ferme.png', 10)
 
         self.time_line = TimeLineFrame(self)
         play_button = tk.Button(top_frame, text=PLAY, command=self.time_line.play)

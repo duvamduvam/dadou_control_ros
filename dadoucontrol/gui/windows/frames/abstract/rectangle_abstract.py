@@ -1,18 +1,7 @@
 import logging
-import random
-import tkinter as tk
 from abc import abstractmethod
-
 from dadoucontrol.control_factory import ControlFactory
-
-from dadoucontrol.control_static import JSON_CONFIG
-
-from dadoucontrol.files.file_manager import FileManager
-from dadoucontrol.gui.windows.expression_window import ExpressionDuration
 from dadoucontrol.gui.windows.frames.abstract.abstract_sequence_frame import AbstractSequenceFrame
-from dadoucontrol.gui.windows.frames.timeline_frame import TimeLineFrame
-from dadourobot.config import RobotConfig
-from dadourobot.files.robot_json_manager import RobotJsonManager
 
 
 class RectangleAbstract(AbstractSequenceFrame):
@@ -46,7 +35,7 @@ class RectangleAbstract(AbstractSequenceFrame):
         rectangle.x2 = x1
 
     @abstractmethod
-    def create_rectangle(self, x1, x2):
+    def create_rectangle(self, x1, x2, highlight):
         pass
 
     def delete_click(self, e):
@@ -64,15 +53,34 @@ class RectangleAbstract(AbstractSequenceFrame):
             self.fill_gap(x1, x2)
 
     def fill_gap(self, removed_x1, removed_x2):
+        left_rectangle = None
+        closest_left = None
         for rectangle in self.rectangles:
             logging.info('rectangle x:{} removed_x2:{}'.format(rectangle.x1, removed_x2))
-            if abs(removed_x2 - rectangle.x1) <= 3:
-                rectangle.canvas_rectangle.update()
-                x1 = removed_x1
-                x2 = rectangle.x2
-                self.delete_canvas(rectangle, False)
-                self.create_rectangle(x1, x2)
+
+            # find closest left
+            if closest_left:
+                if closest_left.x1 < rectangle.x1 < removed_x1:
+                    closest_left = rectangle
+            else:
+                if rectangle.x1 < removed_x1:
+                    closest_left = rectangle
+
+            # find most left
+            if not left_rectangle:
+                left_rectangle = rectangle
+            elif rectangle.x1 < left_rectangle.x1:
+                left_rectangle = rectangle
+
         self.lastX = removed_x1
+        if closest_left:
+            closest_left.canvas_rectangle.update()
+            closest_left.canvas_rectangle.config(width=removed_x2 - closest_left.x1)
+        elif left_rectangle:
+            left_rectangle.canvas_rectangle.update()
+            left_rectangle.canvas_rectangle.place(x=0, y=10)
+            left_rectangle.canvas_rectangle.config(width=left_rectangle.canvas_rectangle.winfo_width()+removed_x2)
+
 
     def find_canvas_rectangle(self, rectangle):
         for r in self.rectangles:

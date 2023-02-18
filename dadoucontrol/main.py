@@ -7,6 +7,7 @@ import logging
 import os
 import traceback
 
+import control_static
 from dadoucontrol.control_factory import ControlFactory
 base_path = os.path.dirname(__file__)
 ControlFactory(base_path)

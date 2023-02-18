@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" autoUpload="Always" serverName="didier oot" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
-      <paths name="didier">
+      <paths name="didier oot">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-            <mapping local="$PROJECT_DIR$/../dadou_robot" web="/" />
-            <mapping local="$PROJECT_DIR$/../dadou_utils" web="/" />
+            <mapping deploy="/home/didier/deploy" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>
@@ -16,21 +14,6 @@
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
             <mapping local="$PROJECT_DIR$/../dadou_robot" web="/" />
-            <mapping local="$PROJECT_DIR$/../dadou_utils" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="root@192.168.1.183:22 key">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/home/didier/deploy" local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="telecommande">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
             <mapping local="$PROJECT_DIR$/../dadou_utils" web="/" />
           </mappings>
         </serverdata>

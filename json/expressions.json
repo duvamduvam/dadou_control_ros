@@ -1,9 +1,11 @@
 [
     {
-        "name": "truc2",
+        "name": "default",
         "duration": 2000,
         "loop": false,
-        "keys": [],
+        "keys": [
+            "default"
+        ],
         "left_eyes": [
             [
                 1.0,
@@ -85,23 +87,21 @@
     },
     {
         "name": "truc3",
-        "duration": 3000,
-        "loop": true,
-        "keys": [
-            "A2"
-        ],
+        "duration": 1000,
+        "loop": false,
+        "keys": [],
         "left_eyes": [
             [
-                0.35,
+                0.357,
+                "/test/oeil-bleu.png"
+            ],
+            [
+                0.584,
                 "/oeil-bug1.png"
             ],
             [
-                0.671,
-                "/test/oeil-rouge.png"
-            ],
-            [
                 1.0,
-                null
+                "/oeil-gauche.png"
             ]
         ],
         "right_eyes": [

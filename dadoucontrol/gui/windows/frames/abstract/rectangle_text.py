@@ -19,10 +19,11 @@ class RectangleText(RectangleAbstract):
         self.items = items
         #self.items = FileManager.list_folder_files(visual_type)
 
+        self.canvas.update()
         if DATAS in kwargs:
             self.load(kwargs[DATAS])
 
-    def create_rectangle(self, x1, x2):
+    def create_rectangle(self, x1, x2, highlight):
         rectangle_canvas = tk.Canvas(self.canvas, width=x2-x1, bg=Misc.random_color())
         rectangle_canvas.place(x=x1, y=10)
 
@@ -61,7 +62,7 @@ class RectangleText(RectangleAbstract):
             try:
                 pos = data[0]
                 x2 = int(pos * self.canvas.winfo_width())
-                rectangle = self.create_rectangle(self.lastX, x2)
+                rectangle = self.create_rectangle(self.lastX, x2, False)
                 rectangle.text_object = GuiUtils.set_text(rectangle.canvas_rectangle, 0, 0, data[1])
                 #self.objects.append(rectangle.text_object)
                 rectangle.text = data[1]

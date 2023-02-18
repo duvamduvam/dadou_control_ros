@@ -2,10 +2,10 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="02a480bc-4a25-4727-86b2-b58416642fb6" name="telecommande">
-        <fileTransfer accessType="SFTP" host="192.168.1.183" port="22" sshConfigId="5da3b998-27c0-4c28-8ad7-40e7f4a8989e" sshConfig="root@192.168.1.183:22 key" keyPair="true">
+      <webServer id="17592962-8bc6-46bd-a9ef-32b15a507a6f" name="didier root">
+        <fileTransfer rootFolder="/home/didier/deploy" accessType="SFTP" host="192.168.1.127" port="22" sshConfigId="9e9a5e04-10de-48e0-b96b-980a5700826c" sshConfig="didier oot" keyPair="true">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>

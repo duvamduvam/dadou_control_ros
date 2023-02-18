@@ -1,89 +1,18 @@
-2023-01-08 21:27:48,657 - root - INFO - robot_json_manager.py - RobotJsonManager : 15 - start json manager
-2023-01-08 21:27:48,667 - root - INFO - main.py - <module> : 18 - Starting remote control
-2023-01-08 21:27:51,580 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
-2023-01-08 21:27:51,628 - root - INFO - sequences_widget.py - __init__ : 49 - 
-2023-01-08 21:28:00,493 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/python/dadou_control/audios/gig.wav
-2023-01-08 21:28:00,533 - root - INFO - sound_object.py - get_duration : 85 - duration : 156.8130612244898
-2023-01-08 21:28:03,355 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - face
-2023-01-08 21:28:03,363 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
-2023-01-08 21:28:03,364 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - lights
-2023-01-08 21:28:03,373 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
-2023-01-08 21:28:03,374 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - wheels
-2023-01-08 21:28:03,380 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - neck
-2023-01-08 21:28:03,386 - root - INFO - sequences_widget.py - select_sequence : 81 - You selected item 0: "00seq2.json"
-2023-01-08 21:31:00,073 - root - INFO - robot_json_manager.py - RobotJsonManager : 15 - start json manager
-2023-01-08 21:31:00,077 - root - INFO - main.py - <module> : 18 - Starting remote control
-2023-01-08 21:31:04,989 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
-2023-01-08 21:31:05,022 - root - INFO - sequences_widget.py - __init__ : 49 - 
-2023-01-08 21:31:09,510 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/python/dadou_control/audios/gig.wav
-2023-01-08 21:31:09,543 - root - INFO - sound_object.py - get_duration : 85 - duration : 156.8130612244898
-2023-01-08 21:31:12,392 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - face
-2023-01-08 21:31:12,399 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
-2023-01-08 21:31:12,401 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - lights
-2023-01-08 21:31:12,408 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
-2023-01-08 21:31:12,409 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - wheels
-2023-01-08 21:31:12,415 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - neck
-2023-01-08 21:31:12,420 - root - INFO - sequences_widget.py - select_sequence : 81 - You selected item 0: "00seq2.json"
-2023-01-08 21:34:42,182 - root - INFO - robot_json_manager.py - RobotJsonManager : 15 - start json manager
-2023-01-08 21:34:42,189 - root - INFO - main.py - <module> : 18 - Starting remote control
-2023-01-08 21:34:43,752 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
-2023-01-08 21:34:43,803 - root - INFO - sequences_widget.py - __init__ : 49 - 
-2023-01-08 21:34:46,332 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/python/dadou_control/audios/gig.wav
-2023-01-08 21:34:46,359 - root - INFO - sound_object.py - get_duration : 85 - duration : 156.8130612244898
-2023-01-08 21:34:54,575 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - face
-2023-01-08 21:34:54,583 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
-2023-01-08 21:34:54,586 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - lights
-2023-01-08 21:34:54,594 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
-2023-01-08 21:34:54,595 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - wheels
-2023-01-08 21:35:03,536 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - neck
-2023-01-08 21:39:05,229 - root - INFO - robot_json_manager.py - RobotJsonManager : 15 - start json manager
-2023-01-08 21:39:05,234 - root - INFO - main.py - <module> : 18 - Starting remote control
-2023-01-08 21:39:06,730 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
-2023-01-08 21:39:06,766 - root - INFO - sequences_widget.py - __init__ : 49 - 
-2023-01-08 21:39:08,242 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/python/dadou_control/audios/gig.wav
-2023-01-08 21:39:08,255 - root - INFO - sound_object.py - get_duration : 85 - duration : 156.8130612244898
-2023-01-08 21:39:11,034 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - face
-2023-01-08 21:39:11,042 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
-2023-01-08 21:39:11,043 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - lights
-2023-01-08 21:39:11,051 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
-2023-01-08 21:39:11,052 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - wheels
-2023-01-08 21:39:11,059 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - neck
-2023-01-08 21:39:11,063 - root - INFO - sequences_widget.py - select_sequence : 81 - You selected item 0: "00seq2.json"
-2023-01-08 21:39:24,942 - root - INFO - robot_json_manager.py - RobotJsonManager : 15 - start json manager
-2023-01-08 21:39:24,952 - root - INFO - main.py - <module> : 18 - Starting remote control
-2023-01-08 21:39:26,413 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
-2023-01-08 21:39:26,477 - root - INFO - sequences_widget.py - __init__ : 49 - 
-2023-01-08 21:39:27,948 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/python/dadou_control/audios/gig.wav
-2023-01-08 21:39:27,981 - root - INFO - sound_object.py - get_duration : 85 - duration : 156.8130612244898
-2023-01-08 21:39:36,090 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - face
-2023-01-08 21:39:36,098 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
-2023-01-08 21:39:36,100 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - lights
-2023-01-08 21:39:36,108 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
-2023-01-08 21:39:36,109 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - wheels
-2023-01-08 21:39:36,116 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - neck
-2023-01-08 21:41:15,991 - root - INFO - robot_json_manager.py - RobotJsonManager : 15 - start json manager
-2023-01-08 21:41:15,996 - root - INFO - main.py - <module> : 18 - Starting remote control
-2023-01-08 21:41:19,331 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
-2023-01-08 21:41:19,364 - root - INFO - sequences_widget.py - __init__ : 49 - 
-2023-01-08 21:41:20,837 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/python/dadou_control/audios/gig.wav
-2023-01-08 21:41:20,871 - root - INFO - sound_object.py - get_duration : 85 - duration : 156.8130612244898
-2023-01-08 21:41:23,752 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - face
-2023-01-08 21:41:23,759 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
-2023-01-08 21:41:23,761 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - lights
-2023-01-08 21:41:23,768 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
-2023-01-08 21:41:23,769 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - wheels
-2023-01-08 21:41:23,775 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - neck
-2023-01-08 21:41:23,782 - root - INFO - sequences_widget.py - select_sequence : 81 - You selected item 0: "00seq2.json"
-2023-01-08 21:42:08,416 - root - INFO - robot_json_manager.py - RobotJsonManager : 15 - start json manager
-2023-01-08 21:42:08,420 - root - INFO - main.py - <module> : 18 - Starting remote control
-2023-01-08 21:42:10,774 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
-2023-01-08 21:42:10,809 - root - INFO - sequences_widget.py - __init__ : 49 - 
-2023-01-08 21:42:12,076 - root - INFO - sound_object.py - __init__ : 26 - load sound /home/dadou/Nextcloud/Didier/python/dadou_control/audios/gig.wav
-2023-01-08 21:42:12,118 - root - INFO - sound_object.py - get_duration : 85 - duration : 156.8130612244898
-2023-01-08 21:42:14,802 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - face
-2023-01-08 21:42:14,809 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
-2023-01-08 21:42:14,810 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - lights
-2023-01-08 21:42:14,818 - root - INFO - rectangle_abstract.py - __init__ : 23 - rectangle 2
-2023-01-08 21:42:14,819 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - wheels
-2023-01-08 21:42:14,830 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - neck
-2023-01-08 21:42:14,836 - root - INFO - sequences_widget.py - select_sequence : 81 - You selected item 0: "00seq2.json"
+2023-02-18 09:56:44,168 - root - INFO - main.py - <module> : 19 - Starting remote control
+2023-02-18 09:56:46,424 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
+2023-02-18 09:56:46,503 - root - INFO - sequences_widget.py - __init__ : 49 - 
+2023-02-18 09:56:47,251 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - Left eye
+2023-02-18 09:56:47,282 - root - INFO - rectangle_abstract.py - __init__ : 12 - rectangle 2
+2023-02-18 09:56:47,304 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - Right eye
+2023-02-18 09:56:47,313 - root - INFO - rectangle_abstract.py - __init__ : 12 - rectangle 2
+2023-02-18 09:56:47,333 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - Mouths
+2023-02-18 09:56:47,342 - root - INFO - rectangle_abstract.py - __init__ : 12 - rectangle 2
+2023-02-18 09:56:48,452 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
+2023-02-18 09:56:48,491 - root - INFO - sequences_widget.py - __init__ : 49 - 
+2023-02-18 09:56:49,345 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - Left eye
+2023-02-18 09:56:49,424 - root - INFO - rectangle_abstract.py - __init__ : 12 - rectangle 2
+2023-02-18 09:56:49,478 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - Right eye
+2023-02-18 09:56:49,496 - root - INFO - rectangle_abstract.py - __init__ : 12 - rectangle 2
+2023-02-18 09:56:49,551 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - Mouths
+2023-02-18 09:56:49,567 - root - INFO - rectangle_abstract.py - __init__ : 12 - rectangle 2
+2023-02-18 09:59:18,787 - root - ERROR - expression_window.py - select_expression : 180 - no line selected

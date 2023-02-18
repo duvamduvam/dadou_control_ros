@@ -1,4 +1,6 @@
+import logging
 import os
+import traceback
 from os import listdir
 from os.path import isfile, join
 
@@ -17,7 +19,11 @@ class FileManager:
 
     @staticmethod
     def list_folder_files(folder):
-        return [f for f in listdir(folder) if isfile(join(folder, f))]
+        try:
+            return [f for f in listdir(folder) if isfile(join(folder, f))]
+        except TypeError as e:
+            logging.error("type error {}".format(folder))
+            traceback.print_exc()
 
     """@staticmethod
     def get_files_path(path):

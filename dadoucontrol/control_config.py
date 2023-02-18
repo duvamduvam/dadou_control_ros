@@ -1,8 +1,7 @@
 import logging
 import logging.config
-import os
 from os.path import isfile
-from tkinter import font as tkfont, TOP, BOTH, ttk
+from dadoucontrol.control_static import BASE_PATH
 
 from dadoucontrol.control_static import ControlStatic
 
