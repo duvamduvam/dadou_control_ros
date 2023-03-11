@@ -5,12 +5,12 @@ from os import listdir
 from os.path import isfile, join
 
 from control_static import CYAN
-from dadoucontrol.control_factory import ControlFactory
-from dadoucontrol.files.file_manager import FileManager
-from dadoucontrol.gui.gui_utils import GuiUtils
+from control_factory import ControlFactory
+from files.file_manager import FileManager
+from gui.gui_utils import GuiUtils
 from gui.visuals_object.visual_eye import VisualEye
 from gui.visuals_object.visual_mouth import VisualMouth
-from utils_static import EYE, MOUTH, VISUALS, ICON
+from dadou_utils.utils_static import EYE, MOUTH, VISUALS, ICON
 
 
 class GalleryWidget(tkinter.Canvas):

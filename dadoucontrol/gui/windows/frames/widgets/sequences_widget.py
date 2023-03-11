@@ -5,17 +5,17 @@ from tkinter import filedialog as fd, TOP
 
 from dadou_utils.time.time_utils import TimeUtils
 from dadou_utils.utils_static import SEQUENCES, KEYS, FACES, LIGHTS, NECKS, WHEELS, FACE, EXPRESSION
-from dadoucontrol.gui.windows.frames.wheels_frame import WheelsFrame
+from gui.windows.frames.wheels_frame import WheelsFrame
 
-from dadoucontrol.gui.windows.frames.neck_frame import NeckFrame
+from gui.windows.frames.neck_frame import NeckFrame
 
-from dadoucontrol.gui.windows.frames.abstract.rectangle_text import RectangleText
+from gui.windows.frames.abstract.rectangle_text import RectangleText
 
-from dadoucontrol.control_factory import ControlFactory
-from dadoucontrol.control_static import ControlStatic, SEQUENCES_DIRECTORY, CYAN, ORANGE, PURPLE, YELLOW
-from dadoucontrol.files.file_manager import FileManager
-from dadoucontrol.gui.windows.frames.widgets.audio_select_popup import AudioPopupWidget
-from dadoucontrol.gui.windows.frames.music_frame import MusicFrame
+from control_factory import ControlFactory
+from control_static import ControlStatic, SEQUENCES_DIRECTORY, CYAN, ORANGE, PURPLE, YELLOW
+from files.file_manager import FileManager
+from gui.windows.frames.widgets.audio_select_popup import AudioPopupWidget
+from gui.windows.frames.music_frame import MusicFrame
 
 
 class SequencesManagerWidget(tk.Frame):
@@ -85,7 +85,7 @@ class SequencesManagerWidget(tk.Frame):
 
     def load_sequence(self, sequence_name):
         self.selected_sequence_var.set(sequence_name)
-        self.sequence_manager.load_sequence(sequence_name)
+        self.sequence_manager.load_audio(sequence_name)
 
         self.keys_text.delete('1.0', tk.END)
         self.keys_text.insert("end-1c", self.sequence_manager.json_sequence[KEYS])
@@ -98,18 +98,19 @@ class SequencesManagerWidget(tk.Frame):
         self.parent.load_neck(self.sequence_manager.get_parts(NECKS))
 
     def load_audio(self):
-        audio_name = self.sequence_manager.audio_segment.audio_name
-        #self.audio_path = self.sequence_manager.json_sequence["audio_path"]
-        self.audio_name_var.set(audio_name)
+        if self.sequence_manager.audio_segment:
+            audio_name = self.sequence_manager.audio_segment.audio_name
+            #self.audio_path = self.sequence_manager.json_sequence["audio_path"]
+            self.audio_name_var.set(audio_name)
 
-        audio_duration = self.sequence_manager.audio_segment.get_duration()
-        self.audio_duration_var.set(audio_duration)
-        self.audio_duration_formatted_var.set(TimeUtils.formatted_time(audio_duration))
+            audio_duration = self.sequence_manager.audio_segment.get_duration()
+            self.audio_duration_var.set(audio_duration)
+            self.audio_duration_formatted_var.set(TimeUtils.formatted_time(audio_duration))
 
-        self.music_frame.update()
+            self.music_frame.update()
 
-        display_data = self.sequence_manager.audio_segment.get_audio_data_display(self.music_frame.winfo_width())
-        self.music_frame.load_audio(display_data)
+            display_data = self.sequence_manager.audio_segment.get_audio_data_display(self.music_frame.winfo_width())
+            self.music_frame.load_audio(display_data)
 
     def save(self):
         logging.info('save sequences')

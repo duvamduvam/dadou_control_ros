@@ -2,11 +2,12 @@ import os
 
 from dadou_utils.misc import Misc
 
+WS_CLIENT = 'ws://192.168.1.200:4421'
 
 ############## JSON FILES ##############
 from dadou_utils.utils_static import LAPTOP_TYPE, RPI_TYPE
 
-JSON_CONFIG = 'config.json'
+JSON_CONFIG = 'control_config.json'
 JSON_EXPRESSIONS = 'expressions.json'
 JSON_LIGHTS = 'lights.json'
 JSON_LIGHTS_BASE = 'lights_base.json'
@@ -28,6 +29,8 @@ AUDIO_NAME = 'audio_name'
 AUDIO_PATH = 'audio_path'
 GLOVE_LEFT = 'glove_left'
 GLOVE_RIGHT = 'glove_right'
+PLAYLIST_PLAY = 'playlist_play'
+PLAYLIST_STOP = 'playlist_stop'
 RANDOM_COLOR ='random_color'
 
 ############# COLORS ###############

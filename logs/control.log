@@ -1,18 +1,2 @@
-2023-02-18 09:56:44,168 - root - INFO - main.py - <module> : 19 - Starting remote control
-2023-02-18 09:56:46,424 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
-2023-02-18 09:56:46,503 - root - INFO - sequences_widget.py - __init__ : 49 - 
-2023-02-18 09:56:47,251 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - Left eye
-2023-02-18 09:56:47,282 - root - INFO - rectangle_abstract.py - __init__ : 12 - rectangle 2
-2023-02-18 09:56:47,304 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - Right eye
-2023-02-18 09:56:47,313 - root - INFO - rectangle_abstract.py - __init__ : 12 - rectangle 2
-2023-02-18 09:56:47,333 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - Mouths
-2023-02-18 09:56:47,342 - root - INFO - rectangle_abstract.py - __init__ : 12 - rectangle 2
-2023-02-18 09:56:48,452 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
-2023-02-18 09:56:48,491 - root - INFO - sequences_widget.py - __init__ : 49 - 
-2023-02-18 09:56:49,345 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - Left eye
-2023-02-18 09:56:49,424 - root - INFO - rectangle_abstract.py - __init__ : 12 - rectangle 2
-2023-02-18 09:56:49,478 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - Right eye
-2023-02-18 09:56:49,496 - root - INFO - rectangle_abstract.py - __init__ : 12 - rectangle 2
-2023-02-18 09:56:49,551 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - Mouths
-2023-02-18 09:56:49,567 - root - INFO - rectangle_abstract.py - __init__ : 12 - rectangle 2
-2023-02-18 09:59:18,787 - root - ERROR - expression_window.py - select_expression : 180 - no line selected
+2023-03-10 10:04:30,684 - root - INFO - main.py - <module> : 20 - Starting remote control
+2023-03-10 10:04:49,128 - root - INFO - main.py - <module> : 20 - Starting remote control

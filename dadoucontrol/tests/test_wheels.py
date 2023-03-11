@@ -6,10 +6,10 @@ from dadou_utils.com.serial_devices_manager import SerialDeviceManager
 from dadou_utils.com.ws_client import WsClient
 from dadou_utils.utils_static import WS_CLIENT, WHEEL_LEFT, WHEEL_RIGHT
 
-from dadoucontrol.files.control_json_manager import ControlJsonManager
+from files.control_json_manager import ControlJsonManager
 
-from dadoucontrol.com.robot_message import RobotMessage
-from dadourobot.robot_static import DEVICES, JSON_DIRECTORY, JSON_CONFIG
+from com.robot_message import RobotMessage
+from robot_static import DEVICES, JSON_DIRECTORY, JSON_CONFIG
 
 
 class WheelsTests(unittest.TestCase):

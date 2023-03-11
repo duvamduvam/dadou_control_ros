@@ -1,7 +1,7 @@
 import logging
 from enum import Enum
 
-from dadoucontrol.gui.windows.frames.abstract.abstract_sequence_frame import AbstractSequenceFrame
+from gui.windows.frames.abstract.abstract_sequence_frame import AbstractSequenceFrame
 
 
 class CanvasType(Enum):

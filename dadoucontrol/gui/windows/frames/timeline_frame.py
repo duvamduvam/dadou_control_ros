@@ -5,7 +5,7 @@ from enum import Enum
 from tkinter import TOP
 
 from dadou_utils.time.time_utils import TimeUtils
-from dadoucontrol.control_static import BORDEAUX
+from control_static import BORDEAUX
 
 from control_static import PURPLE
 

@@ -5,11 +5,11 @@ from tkinter import filedialog as fd
 
 from dadou_utils.time.time_utils import TimeUtils
 
-from dadoucontrol.control_factory import ControlFactory
-from dadoucontrol.control_static import ControlStatic
-from dadoucontrol.files.file_manager import FileManager
-from dadoucontrol.gui.windows.frames.widgets.audio_select_popup import AudioPopupWidget
-from dadoucontrol.gui.windows.frames.music_frame import MusicFrame
+from control_factory import ControlFactory
+from control_static import ControlStatic
+from files.file_manager import FileManager
+from gui.windows.frames.widgets.audio_select_popup import AudioPopupWidget
+from gui.windows.frames.music_frame import MusicFrame
 
 
 class SequencesManagerWidget(tk.Frame):
@@ -75,7 +75,7 @@ class SequencesManagerWidget(tk.Frame):
 
     def load_sequence(self, sequence_name):
         self.selected_sequence_var.set(sequence_name)
-        self.sequence_manager.load_sequence(sequence_name)
+        self.sequence_manager.load_audio(sequence_name)
         audio_name = self.sequence_manager.audio_segment.audio_name
         self.audio_path = self.sequence_manager.json_sequence["audio_path"]
         self.audio_name_var.set(audio_name)

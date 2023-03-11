@@ -6,18 +6,18 @@ from dadou_utils.com.serial_devices_manager import SerialDeviceManager
 from dadou_utils.com.ws_client import WsClient
 from dadou_utils.utils_static import RPI_TYPE, LAPTOP_TYPE, WS_CLIENT, DEVICES
 
-from dadoucontrol.com.robot_message import RobotMessage
+from com.robot_message import RobotMessage
 
-from dadoucontrol.audio.audio_navigation import AudioNav
-from dadoucontrol.control_config import ControlConfig
-from dadoucontrol.control_static import RPI_LOGGING_CONFIG_FILE, LAPTOP_LOGGING_CONFIG_FILE, \
+from audio.audio_navigation import AudioNav
+from control_config import ControlConfig
+from control_static import RPI_LOGGING_CONFIG_FILE, LAPTOP_LOGGING_CONFIG_FILE, \
     JSON_DIRECTORY, JSON_CONFIG
-from dadoucontrol.files.control_json_manager import ControlJsonManager
+from files.control_json_manager import ControlJsonManager
 from dadou_utils.singleton import SingletonMeta
 from dadou_utils.misc import Misc
 
 #from dadou_utils.files.files_utils import FilesUtils
-from dadoucontrol.logic.sequences.sequences_manager import SequencesManagement
+from logic.sequences.sequences_manager import SequencesManagement
 
 
 class ControlFactory(metaclass=SingletonMeta):

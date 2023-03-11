@@ -12,17 +12,17 @@ from PIL.Image import Image
 from dadou_utils.static_value import StaticValue
 from dadou_utils.utils_static import EYE, ICON, MOUTH, X
 
-from dadoucontrol.gui.windows.frames.abstract.rectangle_highlighted import HighlightedRectangle
+from gui.windows.frames.abstract.rectangle_highlighted import HighlightedRectangle
 
-from dadoucontrol.gui.visuals_object.visual_mouth import VisualMouth
+from gui.visuals_object.visual_mouth import VisualMouth
 
-from dadoucontrol.gui.visuals_object.visual_eye import VisualEye
+from gui.visuals_object.visual_eye import VisualEye
 
 from control_static import CYAN, PURPLE, YELLOW, FONT3, RANDOM_COLOR
-from dadoucontrol.control_factory import ControlFactory
-from dadoucontrol.files.file_manager import FileManager
-from dadoucontrol.gui.gui_utils import GuiUtils
-from utils_static import IMAGE
+from control_factory import ControlFactory
+from files.file_manager import FileManager
+from gui.gui_utils import GuiUtils
+from dadou_utils.utils_static import IMAGE
 
 
 class DirectoryTreeWidget(tk.Frame):
@@ -83,7 +83,7 @@ class DirectoryTreeWidget(tk.Frame):
         #item = self.tv.selection()
         item = self.tv.identify('item',event.x,event.y)
         parent_iid = self.tv.parent(item)
-        self.tv.ancestor()
+        #self.tv.ancestor()
         node = []
         # go backward until reaching root
         while parent_iid != '':

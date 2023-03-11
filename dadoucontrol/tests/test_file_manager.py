@@ -1,7 +1,7 @@
 import logging
 import unittest
 
-from dadoucontrol.files.file_manager import FileManager
+from files.file_manager import FileManager
 
 
 class FileManagerTests(unittest.TestCase):

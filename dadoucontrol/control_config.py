@@ -1,9 +1,11 @@
 import logging
 import logging.config
 from os.path import isfile
-from dadoucontrol.control_static import BASE_PATH
+from control_static import BASE_PATH
 
-from dadoucontrol.control_static import ControlStatic
+from control_static import ControlStatic
+
+# TODO strategie config / json ?
 
 class ControlConfig:
 

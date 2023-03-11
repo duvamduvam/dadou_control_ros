@@ -7,7 +7,7 @@ from tkinter.colorchooser import askcolor
 from dadou_utils.misc import Misc
 
 from control_static import CYAN, YELLOW, ORANGE
-from dadoucontrol.control_factory import ControlFactory
+from control_factory import ControlFactory
 
 
 class LightsFrame(tk.Frame):

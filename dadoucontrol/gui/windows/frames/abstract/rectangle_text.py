@@ -5,10 +5,10 @@ from tkinter import TOP
 from dadou_utils.misc import Misc
 from dadou_utils.utils_static import DATAS
 
-from dadoucontrol.gui.gui_utils import GuiUtils
-from dadoucontrol.gui.windows.expression_window import ExpressionDuration
-from dadoucontrol.gui.windows.frames.abstract.rectangle_abstract import RectangleAbstract
-from dadoucontrol.gui.windows.frames.timeline_frame import TimeLineFrame
+from gui.gui_utils import GuiUtils
+from gui.windows.expression_window import ExpressionDuration
+from gui.windows.frames.abstract.rectangle_abstract import RectangleAbstract
+from gui.windows.frames.timeline_frame import TimeLineFrame
 
 
 class RectangleText(RectangleAbstract):

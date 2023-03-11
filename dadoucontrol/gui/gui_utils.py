@@ -7,7 +7,7 @@ from dadou_utils.misc import Misc
 from dadou_utils.utils_static import CLEAN, X, Y
 
 from control_static import RANDOM_COLOR
-from dadoucontrol.control_factory import ControlFactory
+from control_factory import ControlFactory
 
 
 class GuiUtils:

@@ -2,14 +2,14 @@ import logging
 import tkinter as tk
 from tkinter import BOTH, TOP
 
-from dadoucontrol.control_factory import ControlFactory
-from dadoucontrol.gui.windows.frames.abstract.rectangle_text import RectangleText2
-from dadoucontrol.gui.windows.frames.music_frame import MusicFrame
-from dadoucontrol.gui.windows.frames.widgets.navigation_widget import NavigationWidget
-from dadoucontrol.gui.windows.frames.neck_frame import NeckFrame
-from dadoucontrol.gui.windows.frames.wheels_frame import WheelsFrame
+from control_factory import ControlFactory
+from gui.windows.frames.abstract.rectangle_text import RectangleText2
+from gui.windows.frames.music_frame import MusicFrame
+from gui.windows.frames.widgets.navigation_widget import NavigationWidget
+from gui.windows.frames.neck_frame import NeckFrame
+from gui.windows.frames.wheels_frame import WheelsFrame
 
-from dadoucontrol.gui.windows.frames.widgets.sequences_manager_widget import SequencesManagerWidget
+from gui.windows.frames.widgets.sequences_manager_widget import SequencesManagerWidget
 
 
 class SequenceFrame(tk.Frame):

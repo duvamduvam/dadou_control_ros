@@ -4,8 +4,8 @@ import traceback
 from os import listdir
 from os.path import isfile, join
 
-from dadoucontrol.control_factory import ControlFactory
-from dadoucontrol.control_static import ControlStatic
+from control_factory import ControlFactory
+from control_static import ControlStatic
 
 
 class FileManager:

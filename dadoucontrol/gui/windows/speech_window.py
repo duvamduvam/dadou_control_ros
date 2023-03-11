@@ -6,12 +6,12 @@ from dadou_utils.misc import Misc
 from dadou_utils.singleton import SingletonMeta
 from dadou_utils.static_value import StaticValue
 
-from dadoucontrol.gui.windows.frames.widgets.directory_tree_widget import DirectoryTreeWidget
+from gui.windows.frames.widgets.directory_tree_widget import DirectoryTreeWidget
 
-from dadoucontrol.control_factory import ControlFactory
+from control_factory import ControlFactory
 
 from control_static import CYAN, ORANGE
-from utils_static import FILES
+from dadou_utils.utils_static import FILES
 
 
 class SpeechFrame(tk.Frame):

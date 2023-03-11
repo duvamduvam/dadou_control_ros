@@ -3,7 +3,14 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="17592962-8bc6-46bd-a9ef-32b15a507a6f" name="didier root">
-        <fileTransfer rootFolder="/home/didier/deploy" accessType="SFTP" host="192.168.1.127" port="22" sshConfigId="9e9a5e04-10de-48e0-b96b-980a5700826c" sshConfig="didier oot" keyPair="true">
+        <fileTransfer rootFolder="/home/didier/deploy" accessType="SFTP" sshConfigId="9e9a5e04-10de-48e0-b96b-980a5700826c" sshConfig="didier oot">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="f39e2948-bb87-4c69-9c74-7d3e908e159e" name="remote root">
+        <fileTransfer accessType="SFTP" host="192.168.1.198" port="22" sshConfigId="8254da8b-cc37-4606-8a7f-5e02151c33f4" sshConfig="root@192.168.1.198:22" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

@@ -5,43 +5,154 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e737f4f3-4117-4ba7-a7c5-4eb5247e9199" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/playlist_frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/speech_window.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json/playlists/lifeforever.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json/speechs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/config_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dadou_robot/audios/song/motivation_mid.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dadou_control.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dadou_control.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audios/01 - Les racines du ciel - Romain Gary.mp3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/logging-laptop.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/logging-laptop.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/logging-pi.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/logging-pi.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/logging.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/logging.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/audio/audio_navigation.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/audio/audio_navigation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/com/robot_message.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/com/robot_message.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/control_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/control_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/control_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/control_factory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/control_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/control_static.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/files/control_json_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/files/control_json_manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/files/file_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/files/file_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/gui_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/gui_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/tkinter_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/tkinter_gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/visuals_object/visual_eye.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/visuals_object/visual_eye.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/visuals_object/visual_mouth.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/visuals_object/visual_mouth.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/expression_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/expression_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/abstract_sequence_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/abstract_sequence_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/expression_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/expression_frame.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_abstract.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_abstract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_frame_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_frame_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_frame_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_frame_text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_image2.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_image2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/music_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/music_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/neck_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/neck_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/playlist_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/playlist_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/timeline_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/timeline_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/wheels_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/wheels_frame.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/directory_tree_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/directory_tree_widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/galley_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/galley_widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/image_observer_feedback.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/image_observer_feedback.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/navigation_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/navigation_widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/sequences_manager_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/sequences_manager_widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/sequences_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/sequences_widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/glove_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/glove_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/keyboard_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/keyboard_window.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/lights_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/lights_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/section_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/section_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/sequence_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/sequence_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/speech_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/speech_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/logic/sequences/sequences_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/logic/sequences/sequences_manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/expressions.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/expressions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/tests/test_file_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/tests/test_file_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/tests/test_wheels.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/tests/test_wheels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/tests/test_ws.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/tests/test_ws.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/expressions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/lights.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/lights_base.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/playlists/lifeforever.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/00seq2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/elec1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/elec2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/off.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/scooby.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/seq1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/seq2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/seq3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/seq4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/seq5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/truc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/speechs.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/control.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/control.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/before-lunch.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/before-lunch.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/check_internet.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/check_internet.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/copy-audio.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/copy-audio.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/copy-external-module.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/copy-external-module.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/didier-python.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/didier-python.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/install-didier.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/install-didier.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/install-lib.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/install-lib.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/legacy/check_internet.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/legacy/check_internet.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/legacy/launch-didier-install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/legacy/launch-didier-install.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/legacy/push-didier.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/legacy/push-didier.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/legacy/push_from_home.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/legacy/push_from_home.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/legacy/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/legacy/test.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/legacy/update_run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/legacy/update_run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/legacy/update_test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/legacy/update_test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/launch-didier-install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/launch-didier-install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/push-didier.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/push-didier.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/push_from_home.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/push_from_home.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/run-laptop.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/run-laptop.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/run-pi.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/run-pi.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/update_run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/update_run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/update_test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/update_test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/acces_4g.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/acces_4g.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/activation_transfer.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/activation_transfer.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/adopteunmec.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/adopteunmec.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/allez_soit_cool.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/allez_soit_cool.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/arrete_de_me_regarder_le_cul.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/arrete_de_me_regarder_le_cul.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/augementation_capacite_cognitive.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/augementation_capacite_cognitive.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/c_est_moi_qui_control.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/c_est_moi_qui_control.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/c_est_pas_le_pape.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/c_est_pas_le_pape.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/c_est_quoi_ce_bordel.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/c_est_quoi_ce_bordel.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/c_est_quoi_le_darknet.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/c_est_quoi_le_darknet.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/comment_je_vais_picoler.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/comment_je_vais_picoler.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/comment_t_as_fait_ca.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/comment_t_as_fait_ca.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/elle_est_ou_ma_86.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/elle_est_ou_ma_86.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/fait_pas_ca.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/fait_pas_ca.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/historique_web.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/historique_web.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/il_te_reste_des cartons.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/ils_sont_pas_sympa.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/ils_sont_pas_sympa.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/je_dis_ce_que_tu_fais.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/je_dis_ce_que_tu_fais.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/je_l_ai.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/je_l_ai.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/je_me_sens_chelou.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/je_me_sens_chelou.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/je_ne_suis_pas_un_jouet.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/je_ne_suis_pas_un_jouet.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/je_t_adore.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/je_t_adore.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/juste_un_petit_hack.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/juste_un_petit_hack.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/mais_tu_m_as_fait_quoi.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/mais_tu_m_as_fait_quoi.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/met_le_casque.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/met_le_casque.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/mon_pere.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/mon_pere.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/musique_chips.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/musique_chips.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/nan_juste_soif.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/nan_juste_soif.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/papa_tu_connais_ca.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/papa_tu_connais_ca.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/papa_tu_peux_tout_faire.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/papa_tu_peux_tout_faire.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/quoi_attend.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/quoi_attend.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/reconfiguration_emotionelle.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/reconfiguration_emotionelle.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/reconfiguration_familliale.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/reconfiguration_familliale.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/tiens_t_as_des_messages.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/tiens_t_as_des_messages.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/tout_le_public.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/tout_le_public.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/transfer_impossible.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/transfer_impossible.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/trop_tard.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/trop_tard.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/tu_m_as_fait_quoi.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/tu_m_as_fait_quoi.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/tu_te_fou_de_ma_geule.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/tu_te_fou_de_ma_geule.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/upload_en_cours.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/upload_en_cours.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/va_en_chercher.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/va_en_chercher.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/va_lecher_jannine.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/va_lecher_jannine.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/va_pisser_sur_le_public.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/va_pisser_sur_le_public.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/dadourobot/actions/abstract_actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/dadourobot/actions/abstract_actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/dadourobot/actions/wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/dadourobot/actions/wheel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/dadourobot/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/dadourobot/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/dadourobot/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/dadourobot/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/dadourobot/robot_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/dadourobot/robot_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/dadourobot/tests/test_audio.py" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/dadourobot/tests/test_audio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/dadourobot/tests/test_face.py" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/dadourobot/tests/test_face.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/json/audios.json" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/json/audios.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/scripts/.bashrc" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/scripts/.bashrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/scripts/before-lunch.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/scripts/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/scripts/copy-audio.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/scripts/copy-audio.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dadou_robot/scripts/first.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/scripts/first.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,8 +194,6 @@
     <setting file="file://$PROJECT_DIR$/dadoucontrol/gui/windows/lights_window.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/dadoucontrol/gui/windows/section_window.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/dadoucontrol/main.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/json/lights.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/json/lights_base.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/scripts/before-lunch.sh" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/scripts/deploy.sh" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/scripts/run-laptop.sh" root0="FORCE_HIGHLIGHTING" />
@@ -103,24 +212,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "true",
-    "last_opened_file_path": "/home/dadou/Nextcloud/Didier/python/dadou_control",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "two.files.diff.last.used.file": "/home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/control_static.py",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dadou/Nextcloud/Didier/python/dadou_robot&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PythonContentEntriesConfigurable&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;/home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/control_static.py&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="dadou_control" is-module-sdk="true">
@@ -131,18 +241,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/json" />
       <recent name="$PROJECT_DIR$/dadoucontrol/gui/windows/frames" />
       <recent name="$PROJECT_DIR$/visuals/eye/test" />
       <recent name="$PROJECT_DIR$/visuals" />
       <recent name="$PROJECT_DIR$/dadoucontrol/speech" />
-      <recent name="$PROJECT_DIR$/scripts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../dadou_robot/scripts" />
+      <recent name="$PROJECT_DIR$/../dadou_robot/scripts/git" />
       <recent name="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract" />
       <recent name="$PROJECT_DIR$/dadoucontrol/gui/windows" />
       <recent name="$PROJECT_DIR$/conf" />
-      <recent name="$PROJECT_DIR$/dadoucontrol/gui/windows/sequences/abstract" />
-      <recent name="$PROJECT_DIR$/dadoucontrol/gui/windows/sequences/widgets" />
     </key>
   </component>
   <component name="RunManager" selected="Python.local control">
@@ -168,14 +278,15 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="local control" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="local control" type="PythonConfigurationType" factoryName="Python">
       <module name="dadou_control" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/bin/python3.9" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="SDK_NAME" value="Python 3.9 (dadou_control)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dadoucontrol/gui/windows/audio" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -197,9 +308,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="sftp://root@192.168.1.183:22/usr/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dadoucontrol" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dadoucontrol/gui/windows/audio" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -210,9 +321,7 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2">
-        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_copy utils remote" />
-      </method>
+      <method v="2" />
     </configuration>
     <configuration name="text_to_speech" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dadou_control" />
@@ -275,15 +384,14 @@
     </configuration>
     <list>
       <item itemvalue="Python.remote control" />
-      <item itemvalue="Python.assistant" />
       <item itemvalue="Python.local control" />
+      <item itemvalue="Python.assistant" />
       <item itemvalue="Python.text_to_speech" />
       <item itemvalue="Python.treeview" />
       <item itemvalue="Python tests.Python tests for test_speech.TestSpeech.test_microphone" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.local control" />
         <item itemvalue="Python.treeview" />
         <item itemvalue="Python.assistant" />
         <item itemvalue="Python tests.Python tests for test_speech.TestSpeech.test_microphone" />
@@ -438,7 +546,57 @@
       <workItem from="1675984263837" duration="13749000" />
       <workItem from="1676295415975" duration="821000" />
       <workItem from="1676296483495" duration="65000" />
-      <workItem from="1676709324012" duration="2604000" />
+      <workItem from="1676709324012" duration="5242000" />
+      <workItem from="1676716729061" duration="3786000" />
+      <workItem from="1676798635042" duration="8000" />
+      <workItem from="1677174708692" duration="74000" />
+      <workItem from="1677174866386" duration="56000" />
+      <workItem from="1677277699538" duration="1870000" />
+      <workItem from="1677279719724" duration="373000" />
+      <workItem from="1677280104360" duration="4271000" />
+      <workItem from="1677538617662" duration="3518000" />
+      <workItem from="1677543203717" duration="57000" />
+      <workItem from="1677588570913" duration="219000" />
+      <workItem from="1677588940598" duration="105000" />
+      <workItem from="1677589061001" duration="3716000" />
+      <workItem from="1677711497966" duration="10000" />
+      <workItem from="1677712382950" duration="361000" />
+      <workItem from="1677712873179" duration="335000" />
+      <workItem from="1677799267825" duration="206000" />
+      <workItem from="1677799641574" duration="104000" />
+      <workItem from="1677799963017" duration="2855000" />
+      <workItem from="1677884904072" duration="482000" />
+      <workItem from="1677887419230" duration="1743000" />
+      <workItem from="1677889244853" duration="461000" />
+      <workItem from="1677889835887" duration="382000" />
+      <workItem from="1677890344798" duration="99000" />
+      <workItem from="1677912831190" duration="12000" />
+      <workItem from="1678052857707" duration="1576000" />
+      <workItem from="1678054634708" duration="4144000" />
+      <workItem from="1678059848242" duration="2543000" />
+      <workItem from="1678062757264" duration="209000" />
+      <workItem from="1678063509716" duration="230000" />
+      <workItem from="1678086359331" duration="3816000" />
+      <workItem from="1678134256149" duration="7000" />
+      <workItem from="1678135323401" duration="3658000" />
+      <workItem from="1678139535808" duration="85000" />
+      <workItem from="1678139657011" duration="331000" />
+      <workItem from="1678140023992" duration="1934000" />
+      <workItem from="1678176060469" duration="1152000" />
+      <workItem from="1678178300483" duration="129000" />
+      <workItem from="1678178441359" duration="62000" />
+      <workItem from="1678178617036" duration="10000" />
+      <workItem from="1678179108236" duration="644000" />
+      <workItem from="1678179861957" duration="2785000" />
+      <workItem from="1678228217606" duration="4931000" />
+      <workItem from="1678284907280" duration="775000" />
+      <workItem from="1678296143614" duration="631000" />
+      <workItem from="1678303172422" duration="30000" />
+      <workItem from="1678310544936" duration="602000" />
+      <workItem from="1678317598337" duration="2465000" />
+      <workItem from="1678320076524" duration="5000" />
+      <workItem from="1678393483284" duration="3213000" />
+      <workItem from="1678399418148" duration="3275000" />
     </task>
     <task id="LOCAL-00001" summary="i don't know ...">
       <created>1654844930851</created>
@@ -587,7 +745,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676711928193</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="update">
+      <created>1676711936909</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1676711936909</updated>
+    </task>
+    <task id="LOCAL-00023" summary="update">
+      <created>1676712008237</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1676712008237</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -659,14 +831,30 @@
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/sequences_widget.py</url>
+          <line>101</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/sequences_widget.py</url>
+          <line>100</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/section_window.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/frames/playlist_frame.py</url>
-          <line>65</line>
-          <option name="timeStamp" value="74" />
+          <line>98</line>
+          <option name="timeStamp" value="87" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/dadou_control$local_control.coverage" NAME="local control Coverage Results" MODIFIED="1676710603719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol/gui/windows/audio" />
+    <SUITE FILE_PATH="coverage/dadou_control$local_control.coverage" NAME="local control Coverage Results" MODIFIED="1678401751779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol/gui/windows/audio" />
+    <SUITE FILE_PATH="coverage/dadou_control$remote_control.coverage" NAME="remote control Coverage Results" MODIFIED="1678317964476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol/gui/windows/audio" />
   </component>
 </project>

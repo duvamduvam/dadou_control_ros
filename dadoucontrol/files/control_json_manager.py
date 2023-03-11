@@ -5,11 +5,9 @@ import logging
 import jsonpath_rw_ext
 from dadou_utils.misc import Misc
 
-from dadoucontrol.control_static import JSON_LIGHTS_BASE, SEQUENCES_DIRECTORY, JSON_EXPRESSIONS, \
+from control_static import JSON_LIGHTS_BASE, SEQUENCES_DIRECTORY, JSON_EXPRESSIONS, \
     JSON_LIGHTS, JSON_SPEECHS
 from dadou_utils.files.abstract_json_manager import AbstractJsonManager
-
-from utils_static import AUDIOS
 
 
 class ControlJsonManager(AbstractJsonManager):
@@ -41,6 +39,12 @@ class ControlJsonManager(AbstractJsonManager):
 
     def get_lights(self):
         return self.open_json(JSON_LIGHTS, 'r')
+
+    def get_lights_names(self):
+        lights_names = []
+        for e in self.get_lights():
+            lights_names.append(e['name'])
+        return lights_names
 
     def get_lights_base(self):
         #bases = self.lights['base']

@@ -1,17 +1,19 @@
 import logging
 import tkinter as tk
-from tkinter import font as tkfont, TOP, BOTH, ttk
+from tkinter import font as tkfont, TOP, BOTH, ttk, LEFT, X
 
-from dadoucontrol.gui.windows.speech_window import SpeechFrame
 
-from dadoucontrol.control_static import BORDEAUX, YELLOW, CYAN, ORANGE, PURPLE, FONT1, FONT3
+from gui.windows.speech_window import SpeechFrame
 
-from dadoucontrol.control_factory import ControlFactory
+from control_static import BORDEAUX, YELLOW, CYAN, ORANGE, PURPLE, FONT1, FONT3
 
-from dadoucontrol.gui.windows.expression_window import ExpressionFrame
-from dadoucontrol.gui.windows.lights_window import LightsFrame
-from dadoucontrol.gui.windows.remote_window import RemoteFrame
-from dadoucontrol.gui.windows.section_window import SectionFrame
+from control_factory import ControlFactory
+
+from gui.windows.expression_window import ExpressionFrame
+from gui.windows.lights_window import LightsFrame
+from gui.windows.remote_window import RemoteFrame
+from gui.windows.section_window import SectionFrame
+from gui.windows.frames.config_frame import ConfigFrame
 
 #https://www.hashbangcode.com/article/using-events-tkinter-canvas-elements-python
 from gui.windows.frames.playlist_frame import PlaylistFrame
@@ -50,7 +52,7 @@ class MainGui(tk.Tk):
 
         screen_width = self.winfo_screenwidth()
 
-        tk.Button(menu, text='Exit', bg=PURPLE, font=FONT1, command=lambda: self.show_frame(self.EXIT)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
+        tk.Button(menu, text='Config', bg=PURPLE, font=FONT1, command=lambda: self.show_frame(self.EXIT)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
         tk.Button(menu, text='Keyboard', bg=BORDEAUX, font=FONT1, command=lambda: self.show_frame(self.KEYBOARD_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
         tk.Button(menu, text='Playlist', bg=YELLOW, font=FONT1, command=lambda: self.show_frame(self.PLAYLIST_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
         if screen_width > 1000:
@@ -93,18 +95,12 @@ class MainGui(tk.Tk):
         elif frame_name == self.SPEECH_FRAME:
             self.main = SpeechFrame(self)
         elif frame_name == self.CONFIG_FRAME:
-            self.main = Config(self)
+            self.main = ConfigFrame(self)
         elif frame_name == self.EXIT:
-            quit()
+            self.main = ConfigFrame(self)
 
         self.main.pack(fill=BOTH, expand=True, side=TOP)
 
     def scheduler(self):
         self.after(500, self.scheduler)
         ControlFactory().device_manager.update_devices()
-
-
-class Config(tk.Frame):
-    def __init__(self, parent, *args, **kwargs):
-        tk.Frame.__init__(self, parent, bg=PURPLE, *args, **kwargs)
-        self.pack(fill=BOTH, expand=True, side=TOP)

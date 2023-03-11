@@ -5,18 +5,18 @@ from tkinter import BOTH, TOP, LEFT
 from dadou_utils.singleton import SingletonMeta
 from dadou_utils.utils_static import DURATION, LOOP, KEYS, STOP
 
-from dadoucontrol.gui.windows.frames.widgets.directory_tree_widget import DirectoryTreeWidget
+from gui.windows.frames.widgets.directory_tree_widget import DirectoryTreeWidget
 
 from control_static import PURPLE, YELLOW, ORANGE, BORDEAUX, CYAN
-from dadoucontrol.control_factory import ControlFactory
-from dadoucontrol.gui.expression_duration import ExpressionDuration
-from dadoucontrol.gui.visuals_object.visual_eye import VisualEye
-from dadoucontrol.gui.visuals_object.visual_mouth import VisualMouth
-from dadoucontrol.gui.windows.frames.abstract.rectangle_image2 import RectangleImage2
-from dadoucontrol.gui.windows.frames.timeline_frame import TimeLineFrame
-from dadoucontrol.gui.windows.frames.widgets.galley_widget import GalleryWidget
-from dadoucontrol.gui.windows.frames.widgets.image_observer_feedback import ImageObserverFeedBack
-from utils_static import PLAY, PAUSE, IMAGE
+from control_factory import ControlFactory
+from gui.expression_duration import ExpressionDuration
+from gui.visuals_object.visual_eye import VisualEye
+from gui.visuals_object.visual_mouth import VisualMouth
+from gui.windows.frames.abstract.rectangle_image2 import RectangleImage2
+from gui.windows.frames.timeline_frame import TimeLineFrame
+from gui.windows.frames.widgets.galley_widget import GalleryWidget
+from gui.windows.frames.widgets.image_observer_feedback import ImageObserverFeedBack
+from dadou_utils.utils_static import PLAY, PAUSE, IMAGE
 
 
 class ExpressionFrame(tk.Frame):

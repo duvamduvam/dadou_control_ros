@@ -1,7 +1,7 @@
 import time
 import unittest
 
-from dadourobot.com import WsServer
+from com import WsServer
 
 
 class WsTests(unittest.TestCase):

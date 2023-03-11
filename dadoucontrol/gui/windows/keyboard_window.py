@@ -5,8 +5,8 @@ from tkinter.font import Font, BOLD
 
 from dadou_utils.misc import Misc
 from dadou_utils.utils_static import INPUT_KEY, KEY, LORA, JOY, SLIDERS
-from dadoucontrol.control_static import GLOVE_LEFT, GLOVE_RIGHT, ORANGE, BORDEAUX, YELLOW, CYAN, PURPLE, FONT1
-from dadoucontrol.control_factory import ControlFactory
+from control_static import GLOVE_LEFT, GLOVE_RIGHT, ORANGE, BORDEAUX, YELLOW, CYAN, PURPLE, FONT1
+from control_factory import ControlFactory
 
 
 class KeyboardFrame(tk.Frame):

@@ -2,10 +2,10 @@ import logging
 import tkinter as tk
 from tkinter import TOP
 
-from dadoucontrol.control_static import FONT2
+from control_static import FONT2
 
-from dadoucontrol.gui.windows.frames.widgets.time_line_bar import TimeLineBar
-from utils_static import DATAS
+from gui.windows.frames.widgets.time_line_bar import TimeLineBar
+from dadou_utils.utils_static import DATAS
 
 
 class AbstractSequenceFrame(tk.Frame):

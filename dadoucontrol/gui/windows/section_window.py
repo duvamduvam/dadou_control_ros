@@ -5,14 +5,14 @@ from tkinter import BOTH, TOP, font
 from dadou_utils.utils_static import FACE, LIGHTS, WHEELS, NECK
 
 from control_static import CYAN, BORDEAUX, PURPLE, YELLOW, ORANGE, FONT1
-from dadoucontrol.control_factory import ControlFactory
-from dadoucontrol.gui.windows.frames.abstract.rectangle_text import RectangleText
-from dadoucontrol.gui.windows.frames.music_frame import MusicFrame
-from dadoucontrol.gui.windows.frames.widgets.navigation_widget import NavigationWidget
-from dadoucontrol.gui.windows.frames.neck_frame import NeckFrame
-from dadoucontrol.gui.windows.frames.wheels_frame import WheelsFrame
+from control_factory import ControlFactory
+from gui.windows.frames.abstract.rectangle_text import RectangleText
+from gui.windows.frames.music_frame import MusicFrame
+from gui.windows.frames.widgets.navigation_widget import NavigationWidget
+from gui.windows.frames.neck_frame import NeckFrame
+from gui.windows.frames.wheels_frame import WheelsFrame
 
-from dadoucontrol.gui.windows.frames.widgets.sequences_widget import SequencesManagerWidget
+from gui.windows.frames.widgets.sequences_widget import SequencesManagerWidget
 
 
 class SectionFrame(tk.Frame):
@@ -34,7 +34,7 @@ class SectionFrame(tk.Frame):
         self.new_section = self.new_frame()
 
         self.expressions = ControlFactory().control_json_manager.get_expressions_names()
-        self.lights = list(ControlFactory().control_json_manager.get_lights().keys())
+        self.lights = list(ControlFactory().control_json_manager.get_lights_names())
 
 
     def new_frame(self):

@@ -8,11 +8,12 @@ import os
 import traceback
 
 import control_static
-from dadoucontrol.control_factory import ControlFactory
+from control_factory import ControlFactory
+
 base_path = os.path.dirname(__file__)
 ControlFactory(base_path)
 
-from dadoucontrol.gui.tkinter_gui import MainGui
+from gui.tkinter_gui import MainGui
 
 sys.path.append('..')
 

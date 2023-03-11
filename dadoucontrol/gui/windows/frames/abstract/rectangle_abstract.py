@@ -1,7 +1,7 @@
 import logging
 from abc import abstractmethod
-from dadoucontrol.control_factory import ControlFactory
-from dadoucontrol.gui.windows.frames.abstract.abstract_sequence_frame import AbstractSequenceFrame
+from control_factory import ControlFactory
+from gui.windows.frames.abstract.abstract_sequence_frame import AbstractSequenceFrame
 
 
 class RectangleAbstract(AbstractSequenceFrame):
