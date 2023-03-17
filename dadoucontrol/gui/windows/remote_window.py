@@ -4,10 +4,10 @@ from tkinter import BOTH, TOP
 
 from dadou_utils.misc import Misc
 
-from control_static import CYAN
+from control_config import CYAN
 
 
-class RemoteFrame(tk.Frame):
+class RemoteWindow(tk.Frame):
     def __init__(self, parent, *args, **kwargs):
 
         tk.Frame.__init__(self, parent, *args, **kwargs)

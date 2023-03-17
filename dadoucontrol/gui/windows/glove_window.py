@@ -4,7 +4,7 @@ from com.serial_device_manager import SerialDeviceManager
 from control_factory import ControlFactory
 
 
-class GloveFrame(tk.Frame):
+class GloveWindow(tk.Frame):
     def __init__(self, parent):
 
         self.deviceManager = SerialDeviceManager()

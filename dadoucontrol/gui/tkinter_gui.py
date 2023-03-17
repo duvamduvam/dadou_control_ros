@@ -1,23 +1,19 @@
-import logging
 import tkinter as tk
-from tkinter import font as tkfont, TOP, BOTH, ttk, LEFT, X
+from tkinter import TOP, BOTH, ttk
 
-
-from gui.windows.speech_window import SpeechFrame
-
-from control_static import BORDEAUX, YELLOW, CYAN, ORANGE, PURPLE, FONT1, FONT3
+from control_config import BORDEAUX, YELLOW, CYAN, ORANGE, PURPLE, FONT1, FONT3
 
 from control_factory import ControlFactory
 
-from gui.windows.expression_window import ExpressionFrame
-from gui.windows.lights_window import LightsFrame
-from gui.windows.remote_window import RemoteFrame
-from gui.windows.section_window import SectionFrame
-from gui.windows.frames.config_frame import ConfigFrame
+from gui.windows.expression_window import ExpressionWindow
+from gui.windows.lights_window import LightsWindow
+from gui.windows.remote_window import RemoteWindow
+from gui.windows.sequences_window import SequencesWindow
+from gui.windows.config_window import ConfigWindow
 
 #https://www.hashbangcode.com/article/using-events-tkinter-canvas-elements-python
-from gui.windows.frames.playlist_frame import PlaylistFrame
-from gui.windows.keyboard_window import KeyboardFrame
+from gui.windows.playlist_window import PlaylistWindow
+from gui.windows.keyboard_window import KeyboardWindow
 
 class MainGui(tk.Tk):
     def __init__(self, *args, **kwargs):
@@ -60,13 +56,11 @@ class MainGui(tk.Tk):
             tk.Button(menu, text='Expression', bg=CYAN, font=FONT1, command=lambda: self.show_frame(self.EXPRESSION_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
             tk.Button(menu, text='Lights', bg=PURPLE, font=FONT1, command=lambda: self.show_frame(self.LIGHTS_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
             tk.Button(menu, text='Remote', bg=ORANGE, font=FONT1, command=lambda: self.show_frame(self.REMOTE_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
-            tk.Button(menu, text='Speech', bg=BORDEAUX, font=FONT1, command=lambda: self.show_frame(self.SPEECH_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
-            tk.Button(menu, text='Config', bg=YELLOW, font=FONT1, command=lambda: self.show_frame(self.CONFIG_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
 
         #self.main = tk.Frame(self, bg='yellow')
 
 
-        self.main = KeyboardFrame(self)
+        self.main = KeyboardWindow(self)
         self.main.pack(fill=BOTH, expand=True, side=TOP)
         self.scheduler()
 
@@ -81,23 +75,21 @@ class MainGui(tk.Tk):
         self.main.destroy()
 
         if frame_name == self.KEYBOARD_FRAME:
-            self.main = KeyboardFrame(self)
+            self.main = KeyboardWindow(self)
         elif frame_name == self.SEQUENCE_FRAME:
-            self.main = SectionFrame(self)
+            self.main = SequencesWindow(self)
         elif frame_name == self.PLAYLIST_FRAME:
-            self.main = PlaylistFrame(self)
+            self.main = PlaylistWindow(self)
         elif frame_name == self.EXPRESSION_FRAME:
-            self.main = ExpressionFrame(self)
+            self.main = ExpressionWindow(self)
         elif frame_name == self.LIGHTS_FRAME:
-            self.main = LightsFrame(self)
+            self.main = LightsWindow(self)
         elif frame_name == self.REMOTE_FRAME:
-            self.main = RemoteFrame(self)
-        elif frame_name == self.SPEECH_FRAME:
-            self.main = SpeechFrame(self)
+            self.main = RemoteWindow(self)
         elif frame_name == self.CONFIG_FRAME:
-            self.main = ConfigFrame(self)
+            self.main = ConfigWindow(self)
         elif frame_name == self.EXIT:
-            self.main = ConfigFrame(self)
+            self.main = ConfigWindow(self)
 
         self.main.pack(fill=BOTH, expand=True, side=TOP)
 

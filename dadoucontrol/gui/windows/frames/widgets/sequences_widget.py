@@ -3,16 +3,11 @@ import os
 import tkinter as tk
 from tkinter import filedialog as fd, TOP
 
-from dadou_utils.time.time_utils import TimeUtils
-from dadou_utils.utils_static import SEQUENCES, KEYS, FACES, LIGHTS, NECKS, WHEELS, FACE, EXPRESSION
-from gui.windows.frames.wheels_frame import WheelsFrame
-
-from gui.windows.frames.neck_frame import NeckFrame
-
-from gui.windows.frames.abstract.rectangle_text import RectangleText
+from dadou_utils.utils.time_utils import TimeUtils
+from dadou_utils.utils_static import SEQUENCES, KEYS, FACES, LIGHTS, NECKS, WHEELS
 
 from control_factory import ControlFactory
-from control_static import ControlStatic, SEQUENCES_DIRECTORY, CYAN, ORANGE, PURPLE, YELLOW
+from control_config import CYAN
 from files.file_manager import FileManager
 from gui.windows.frames.widgets.audio_select_popup import AudioPopupWidget
 from gui.windows.frames.music_frame import MusicFrame

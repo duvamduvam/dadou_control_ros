@@ -18,7 +18,7 @@ from gui.visuals_object.visual_mouth import VisualMouth
 
 from gui.visuals_object.visual_eye import VisualEye
 
-from control_static import CYAN, PURPLE, YELLOW, FONT3, RANDOM_COLOR
+from control_config import CYAN, PURPLE, YELLOW, FONT3, RANDOM_COLOR
 from control_factory import ControlFactory
 from files.file_manager import FileManager
 from gui.gui_utils import GuiUtils

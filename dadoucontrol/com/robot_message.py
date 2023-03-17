@@ -1,7 +1,7 @@
 import logging
 import traceback
 
-from control_static import WS_CLIENT
+from control_config import WS_CLIENT
 from dadou_utils.com.serial_devices_manager import SerialDeviceManager
 from dadou_utils.misc import Misc
 from dadou_utils.com.ws_client import WsClient

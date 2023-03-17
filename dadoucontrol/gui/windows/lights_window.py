@@ -6,11 +6,11 @@ from tkinter.colorchooser import askcolor
 
 from dadou_utils.misc import Misc
 
-from control_static import CYAN, YELLOW, ORANGE
+from control_config import CYAN, YELLOW, ORANGE
 from control_factory import ControlFactory
 
 
-class LightsFrame(tk.Frame):
+class LightsWindow(tk.Frame):
     def __init__(self, parent, *args, **kwargs):
         self.json_manager = ControlFactory().control_json_manager
 
@@ -75,9 +75,9 @@ class LightsFrame(tk.Frame):
         self.lights_base_names = tk.StringVar()
         self.get_base_names(self.lights_base) #json_manager.get_lights_base()
 
-        self.lights_base_listbox.grid(row=1, column=6, padx=10)
+        #self.lights_base_listbox.grid(row=1, column=6, padx=10)
         self.selected_sequence_var = tk.StringVar()
-        self.lights_base_listbox.bind('<<ListboxSelect>>', self.select_base)
+        #self.lights_base_listbox.bind('<<ListboxSelect>>', self.select_base)
 
     def save_light(self):
         all_vars = vars(self)

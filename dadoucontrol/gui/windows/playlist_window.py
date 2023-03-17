@@ -3,24 +3,24 @@ import time
 import tkinter as tk
 from tkinter import BOTH, TOP, filedialog, LEFT, X, Y, RIGHT, END
 
-from dadou_utils.time.time_utils import TimeUtils
+from dadou_utils.utils.time_utils import TimeUtils
 from dadou_utils.files.files_utils import FilesUtils
 from dadou_utils.misc import Misc
 from dadou_utils.utils_static import NAME, PLAYLISTS, AUDIO, STOP, INPUT_KEY, KEY
 
-from audios.sound_object import SoundObject
+from dadou_utils.audios.sound_object import SoundObject
 from control_factory import ControlFactory
 
 from files.file_manager import FileManager
 
-from control_static import BASE_PATH, CYAN, PLAYLIST_PATH, BORDEAUX, AUDIO_DIRECTORY, PLAYLIST_PLAY
+from control_config import BASE_PATH, CYAN, PLAYLIST_PATH, BORDEAUX, AUDIO_DIRECTORY, PLAYLIST_PLAY
 
-class PlaylistFrame(tk.Frame):
+class PlaylistWindow(tk.Frame):
     def __init__(self, parent, *args, **kwargs):
 
         self.control_json = ControlFactory().control_json_manager
         self.deviceManager = ControlFactory().device_manager
-        self.input_key_play = self.control_json.get_config_item(PLAYLIST_PLAY)
+        self.input_key_play = PLAYLIST_PLAY
 
         self.current_pos = 0
 
@@ -33,7 +33,7 @@ class PlaylistFrame(tk.Frame):
         left_menu.pack(fill=X, ipadx=20, side=LEFT)
 
         self.files = tk.StringVar()
-        self.files.set(FilesUtils.get_folder_files_name(BASE_PATH +PLAYLIST_PATH))
+        self.files.set(FilesUtils.get_folder_files_name(BASE_PATH + PLAYLIST_PATH))
         self.files_listbox = tk.Listbox(left_menu, listvariable=self.files, height=16)
         self.files_listbox.bind('<<ListboxSelect>>', self.click_file)
         self.files_listbox.pack(fill=X, ipadx=20, side=LEFT)
@@ -41,7 +41,7 @@ class PlaylistFrame(tk.Frame):
         self.playlist_data = None
 
         self.playlist_var = tk.StringVar()
-        self.files.set(FilesUtils.get_folder_files_name(BASE_PATH +PLAYLIST_PATH))
+        self.files.set(FilesUtils.get_folder_files_name(BASE_PATH + PLAYLIST_PATH))
         self.playlist_listbox = tk.Listbox(self.main, listvariable=self.playlist_var, selectbackground=BORDEAUX, height=16, width=40)
         self.playlist_listbox.bind('<<ListboxSelect>>', self.click_audio)
         self.playlist_listbox.grid(row=0, column=0, rowspan=7, columnspan=3, sticky='new')

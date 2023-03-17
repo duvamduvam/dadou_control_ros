@@ -9,7 +9,7 @@ from dadou_utils.utils_static import WS_CLIENT, WHEEL_LEFT, WHEEL_RIGHT
 from files.control_json_manager import ControlJsonManager
 
 from com.robot_message import RobotMessage
-from robot_static import DEVICES, JSON_DIRECTORY, JSON_CONFIG
+from robot_config import DEVICES, JSON_DIRECTORY, JSON_CONFIG
 
 
 class WheelsTests(unittest.TestCase):

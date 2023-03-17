@@ -1,10 +1,12 @@
 from gui.visuals_object.visual_object import VisualObject
 from dadou_utils.utils_static import EYE
 
+from utils_static import EYES
+
 
 class VisualEye(VisualObject):
 
-    TYPE = EYE
+    TYPE = EYES
     WIDTH = 8
     HEIGHT = 8
 

@@ -4,10 +4,10 @@ import tkinter as tk
 from enum import Enum
 from tkinter import TOP
 
-from dadou_utils.time.time_utils import TimeUtils
-from control_static import BORDEAUX
+from dadou_utils.utils.time_utils import TimeUtils
+from control_config import BORDEAUX
 
-from control_static import PURPLE
+from control_config import PURPLE
 
 
 class TimeLineFrame(tk.Frame):

@@ -3,7 +3,7 @@ import logging
 from dadou_utils.audios.sound_object import SoundObject
 from dadou_utils.utils_static import NAME, PATH, LENGTH, KEYS, AUDIOS
 
-from control_static import ControlStatic, AUDIO_NAME, AUDIO_DIRECTORY
+from control_config import AUDIO_DIRECTORY
 from dadou_utils.utils_static import AUDIO_PATH
 
 
@@ -14,8 +14,7 @@ class SequencesManagement:
     audio_name = None
     music_frame = None
 
-    def __init__(self, config, json_manager):
-        self.config = config
+    def __init__(self, json_manager):
         self.json_manager = json_manager
 
     def load_audio(self, sequence_name):
@@ -26,7 +25,7 @@ class SequencesManagement:
             #if self.audio_segment is not None and hasattr(self.audio_segment, 'audio_segment'):
             #    self.audio_segment.stop()
             #TODO improve path and multi audios
-            self.audio_segment = SoundObject(self.config.get_folder(AUDIO_DIRECTORY), audios[0][1])
+            self.audio_segment = SoundObject(AUDIO_DIRECTORY, audios[0][1])
         else:
             logging.error("no audio in sequence {}".format(sequence_name))
 

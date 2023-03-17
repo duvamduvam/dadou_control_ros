@@ -5,7 +5,7 @@ import time
 import tkinter as tk
 from enum import Enum
 
-from control_static import CYAN, YELLOW
+from control_config import CYAN, YELLOW
 from audio.audio_navigation import State
 from control_factory import ControlFactory
 

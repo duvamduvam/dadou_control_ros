@@ -5,15 +5,15 @@ import logging
 import jsonpath_rw_ext
 from dadou_utils.misc import Misc
 
-from control_static import JSON_LIGHTS_BASE, SEQUENCES_DIRECTORY, JSON_EXPRESSIONS, \
-    JSON_LIGHTS, JSON_SPEECHS
+from control_config import JSON_LIGHTS_BASE, SEQUENCES_DIRECTORY, JSON_EXPRESSIONS, \
+    JSON_LIGHTS, JSON_SPEECHS, LOGGING_CONFIG_FILE, BASE_PATH
 from dadou_utils.files.abstract_json_manager import AbstractJsonManager
 
 
 class ControlJsonManager(AbstractJsonManager):
 
-    def __init__(self, base_folder, json_folder, config_file):
-        super().__init__(base_folder, json_folder, config_file)
+    def __init__(self, json_folder):
+        super().__init__(BASE_PATH, json_folder)
         self.lights_base = self.open_json(JSON_LIGHTS_BASE, 'r')
         #self.lights = self.open_json(LIGHTS_FILE, 'r')
         #self.expressions = self.open_json(EXPRESSIONS_FILE, 'r')
@@ -21,9 +21,9 @@ class ControlJsonManager(AbstractJsonManager):
     #def get_config(self):
     #    return self.config
 
-    def get_folder_path_from_type(self, folder_type):
-        result = jsonpath_rw_ext.match('$.paths[?name~' + folder_type + ']', self.config)
-        return self.base_folder+self.standard_return(result, True, self.PATH)
+    #def get_folder_path_from_type(self, folder_type):
+    #    result = jsonpath_rw_ext.match('$.paths[?name~' + folder_type + ']', self.config)
+    #    return self.base_folder+self.standard_return(result, True, self.PATH)
 
     def get_sequence(self, name):
         return self.open_json(SEQUENCES_DIRECTORY+name)

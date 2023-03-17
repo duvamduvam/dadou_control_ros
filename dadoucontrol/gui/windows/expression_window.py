@@ -7,7 +7,7 @@ from dadou_utils.utils_static import DURATION, LOOP, KEYS, STOP
 
 from gui.windows.frames.widgets.directory_tree_widget import DirectoryTreeWidget
 
-from control_static import PURPLE, YELLOW, ORANGE, BORDEAUX, CYAN
+from control_config import PURPLE, YELLOW, ORANGE, BORDEAUX, CYAN
 from control_factory import ControlFactory
 from gui.expression_duration import ExpressionDuration
 from gui.visuals_object.visual_eye import VisualEye
@@ -19,7 +19,7 @@ from gui.windows.frames.widgets.image_observer_feedback import ImageObserverFeed
 from dadou_utils.utils_static import PLAY, PAUSE, IMAGE
 
 
-class ExpressionFrame(tk.Frame):
+class ExpressionWindow(tk.Frame):
 
     current_mouse_pos = None
 

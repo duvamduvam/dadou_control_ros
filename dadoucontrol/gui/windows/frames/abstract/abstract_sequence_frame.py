@@ -2,7 +2,7 @@ import logging
 import tkinter as tk
 from tkinter import TOP
 
-from control_static import FONT2
+from control_config import FONT2
 
 from gui.windows.frames.widgets.time_line_bar import TimeLineBar
 from dadou_utils.utils_static import DATAS

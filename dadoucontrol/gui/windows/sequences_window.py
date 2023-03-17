@@ -4,7 +4,7 @@ from tkinter import BOTH, TOP, font
 
 from dadou_utils.utils_static import FACE, LIGHTS, WHEELS, NECK
 
-from control_static import CYAN, BORDEAUX, PURPLE, YELLOW, ORANGE, FONT1
+from control_config import CYAN, BORDEAUX, PURPLE, YELLOW, ORANGE, FONT1
 from control_factory import ControlFactory
 from gui.windows.frames.abstract.rectangle_text import RectangleText
 from gui.windows.frames.music_frame import MusicFrame
@@ -15,7 +15,7 @@ from gui.windows.frames.wheels_frame import WheelsFrame
 from gui.windows.frames.widgets.sequences_widget import SequencesManagerWidget
 
 
-class SectionFrame(tk.Frame):
+class SequencesWindow(tk.Frame):
 
     current_position = 0
 

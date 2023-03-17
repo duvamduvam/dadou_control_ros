@@ -4,8 +4,8 @@ import traceback
 from os import listdir
 from os.path import isfile, join
 
+from control_config import PATHS, BASE_PATH
 from control_factory import ControlFactory
-from control_static import ControlStatic
 
 
 class FileManager:
@@ -14,7 +14,8 @@ class FileManager:
 
     @staticmethod
     def list_folder_files_type(folder_type):
-        folder = ControlFactory().control_json_manager.get_folder_path_from_type(folder_type)
+
+        folder = BASE_PATH+PATHS[folder_type]
         return FileManager.list_folder_files(folder)
 
     @staticmethod

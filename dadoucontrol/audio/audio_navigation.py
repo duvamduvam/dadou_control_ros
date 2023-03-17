@@ -3,7 +3,7 @@ from enum import Enum
 from timeit import default_timer
 
 #from control_factory import ControlFactory
-from dadou_utils.time.time_utils import TimeUtils
+from dadou_utils.utils.time_utils import TimeUtils
 
 
 class State(Enum):

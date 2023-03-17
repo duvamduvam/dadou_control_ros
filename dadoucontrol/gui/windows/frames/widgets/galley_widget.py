@@ -4,7 +4,7 @@ import tkinter
 from os import listdir
 from os.path import isfile, join
 
-from control_static import CYAN
+from control_config import CYAN
 from control_factory import ControlFactory
 from files.file_manager import FileManager
 from gui.gui_utils import GuiUtils

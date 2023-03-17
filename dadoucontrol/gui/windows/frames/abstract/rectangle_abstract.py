@@ -8,7 +8,6 @@ class RectangleAbstract(AbstractSequenceFrame):
 
     def __init__(self, parent, name, color):
         super().__init__(parent, name, color)
-        self.config = ControlFactory().config
         logging.info('rectangle 2')
         self.rectangles = []
         self.lastX = 0
