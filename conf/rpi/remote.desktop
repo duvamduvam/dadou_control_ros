@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Robot Control
+Exec=/home/didier/deploy/scripts/run-pi.sh
+Icon=/home/didier/deploy/conf/rpi/icon.png
+Terminal=false
+Type=Application
+Categories=Utility;Application;
