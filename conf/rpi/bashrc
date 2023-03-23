@@ -114,7 +114,7 @@ fi
 
 home=/home/didier
 deploy=$home/deploy
-export scripts=$deploy/scripts
+scripts=$deploy/scripts
 
 alias p='python3'
 #alias dr='$home/script/update_run.sh'

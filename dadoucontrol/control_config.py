@@ -4,7 +4,7 @@ import os
 from dadou_utils.utils_static import EYES, RPI_TYPE, LAPTOP_TYPE, NAME, SERIAL_ID, MSG_SIZE, TYPE, PATH, SEQUENCES, \
     MOUTH, VISUALS, VISUALS
 
-from misc import Misc
+from dadou_utils.misc import Misc
 
 BASE_PATH = os.getcwd()
 
@@ -23,7 +23,7 @@ JSON_SPEECHS = 'speechs.json'
 
 BASE_PATH = os.path.dirname(__file__)
 AUDIO_DIRECTORY = '/audios/'
-RPI_LOGGING_CONFIG_FILE = '/conf/logging-pi.conf'
+RPI_LOGGING_CONFIG_FILE = '/../conf/logging-pi.conf'
 LAPTOP_LOGGING_CONFIG_FILE = '/../conf/logging-laptop.conf'
 JSON_DIRECTORY = '/../json/'
 PLAYLIST_PATH = '/../json/playlists/'

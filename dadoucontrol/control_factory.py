@@ -29,6 +29,7 @@ class ControlFactory(metaclass=SingletonMeta):
 
         logging.info("base path {}".format(BASE_PATH))
 
+        print("config file {}".format(LOGGING_CONFIG_FILE))
         logging.config.fileConfig(LOGGING_CONFIG_FILE, disable_existing_loggers=False)
 
         self.control_json_manager = ControlJsonManager(JSON_DIRECTORY)

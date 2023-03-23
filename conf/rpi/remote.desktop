@@ -1,4 +1,5 @@
 [Desktop Entry]
+#Remove This file seems to be an executable : Fichiers Edit/Preferences/General "Don't ask options on launch executable files"
 Name=Robot Control
 Exec=/home/didier/deploy/scripts/run-pi.sh
 Icon=/home/didier/deploy/conf/rpi/icon.png

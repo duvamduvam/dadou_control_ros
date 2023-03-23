@@ -1,7 +1,5 @@
 from gui.visuals_object.visual_object import VisualObject
-from dadou_utils.utils_static import EYE
-
-from utils_static import EYES
+from dadou_utils.utils_static import EYE, EYES
 
 
 class VisualEye(VisualObject):
