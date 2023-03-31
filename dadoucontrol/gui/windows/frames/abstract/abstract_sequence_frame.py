@@ -2,10 +2,12 @@ import logging
 import tkinter as tk
 from tkinter import TOP
 
-from control_config import FONT2
+from control_config import config
 
 from gui.windows.frames.widgets.time_line_bar import TimeLineBar
 from dadou_utils.utils_static import DATAS
+
+from utils_static import FONT2
 
 
 class AbstractSequenceFrame(tk.Frame):
@@ -32,7 +34,7 @@ class AbstractSequenceFrame(tk.Frame):
         TimeLineBar(self.canvas)
 
     def set_frame_name(self, name):
-        self.canvas.create_text(100, 20, text=name, fill="black", font=FONT2)
+        self.canvas.create_text(100, 20, text=name, fill="black", font=config[FONT2])
 
     def listen_time_frame(self):
         print(AbstractSequenceFrame.time_line_bar_pos)

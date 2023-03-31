@@ -5,9 +5,9 @@ from enum import Enum
 from tkinter import TOP
 
 from dadou_utils.utils.time_utils import TimeUtils
-from control_config import BORDEAUX
+from dadou_utils.utils_static import PURPLE, BORDEAUX
 
-from control_config import PURPLE
+from control_config import config
 
 
 class TimeLineFrame(tk.Frame):
@@ -15,11 +15,11 @@ class TimeLineFrame(tk.Frame):
     x_pos = 0
 
     def __init__(self, parent):
-        tk.Frame.__init__(self, parent, bg=PURPLE)
+        tk.Frame.__init__(self, parent, bg=config[PURPLE])
         #self.config(height=50)
         self.pack(fill='x', side=TOP)
 
-        self.canvas = tk.Canvas(self, height=50, bg=BORDEAUX)
+        self.canvas = tk.Canvas(self, height=50, bg=config[BORDEAUX])
         self.canvas.pack(fill='x')
 
         self.bar = self.create_line(0)

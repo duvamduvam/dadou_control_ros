@@ -1,39 +1,37 @@
 import logging
-import time
 import tkinter as tk
 from tkinter import BOTH, TOP, filedialog, LEFT, X, Y, RIGHT, END
 
 from dadou_utils.utils.time_utils import TimeUtils
 from dadou_utils.files.files_utils import FilesUtils
-from dadou_utils.misc import Misc
-from dadou_utils.utils_static import NAME, PLAYLISTS, AUDIO, STOP, INPUT_KEY, KEY
-
+from dadou_utils.utils_static import NAME, PLAYLISTS, AUDIO, STOP, INPUT_KEY, KEY, PLAYLIST_PLAY, BASE_PATH, BORDEAUX, \
+    PLAYLIST_PATH, CYAN
 from dadou_utils.audios.sound_object import SoundObject
+
 from control_factory import ControlFactory
+from control_config import config
+from utils_static import AUDIOS_DIRECTORY
 
-from files.file_manager import FileManager
-
-from control_config import BASE_PATH, CYAN, PLAYLIST_PATH, BORDEAUX, AUDIO_DIRECTORY, PLAYLIST_PLAY
 
 class PlaylistWindow(tk.Frame):
     def __init__(self, parent, *args, **kwargs):
 
         self.control_json = ControlFactory().control_json_manager
         self.deviceManager = ControlFactory().device_manager
-        self.input_key_play = PLAYLIST_PLAY
+        self.input_key_play = config[PLAYLIST_PLAY]
 
         self.current_pos = 0
 
         tk.Frame.__init__(self, parent, *args, **kwargs)
         self.pack(fill=BOTH, expand=True, side=TOP)
-        self.main = tk.Frame(self, width=600, bg=BORDEAUX)
+        self.main = tk.Frame(self, width=600, bg=config[BORDEAUX])
         self.main.pack(fill=X, expand=True, side=RIGHT)
 
-        left_menu = tk.Frame(self, width=50, bg=CYAN)
+        left_menu = tk.Frame(self, width=50, bg=config[CYAN])
         left_menu.pack(fill=X, ipadx=20, side=LEFT)
 
         self.files = tk.StringVar()
-        self.files.set(FilesUtils.get_folder_files_name(BASE_PATH + PLAYLIST_PATH))
+        self.files.set(FilesUtils.get_folder_files_name(config[BASE_PATH] + config[PLAYLIST_PATH]))
         self.files_listbox = tk.Listbox(left_menu, listvariable=self.files, height=16)
         self.files_listbox.bind('<<ListboxSelect>>', self.click_file)
         self.files_listbox.pack(fill=X, ipadx=20, side=LEFT)
@@ -41,8 +39,8 @@ class PlaylistWindow(tk.Frame):
         self.playlist_data = None
 
         self.playlist_var = tk.StringVar()
-        self.files.set(FilesUtils.get_folder_files_name(BASE_PATH + PLAYLIST_PATH))
-        self.playlist_listbox = tk.Listbox(self.main, listvariable=self.playlist_var, selectbackground=BORDEAUX, height=16, width=40)
+        self.files.set(FilesUtils.get_folder_files_name(config[BASE_PATH] + config[PLAYLIST_PATH]))
+        self.playlist_listbox = tk.Listbox(self.main, listvariable=self.playlist_var, selectbackground=config[BORDEAUX], height=16, width=40)
         self.playlist_listbox.bind('<<ListboxSelect>>', self.click_audio)
         self.playlist_listbox.grid(row=0, column=0, rowspan=7, columnspan=3, sticky='new')
 
@@ -94,12 +92,12 @@ class PlaylistWindow(tk.Frame):
         self.playlist_listbox.yview_scroll(-1, "units")
 
     def click_add(self):
-        filepath = filedialog.askopenfilename(initialdir=BASE_PATH +AUDIO_DIRECTORY,title="Open a Text File",
+        filepath = filedialog.askopenfilename(initialdir=config[BASE_PATH] + config[AUDIOS_DIRECTORY],title="Open a Text File",
                                               filetypes=(("text    files", "*"), ("all files", "*.*")))
         self.files.append(filepath)
 
     def click_play(self):
-        audio = SoundObject(BASE_PATH + '/..' + AUDIO_DIRECTORY, self.playlist_listbox.get(self.playlist_listbox.curselection()[0]))
+        audio = SoundObject(config[BASE_PATH] + '/..' + config[AUDIOS_DIRECTORY], self.playlist_listbox.get(self.playlist_listbox.curselection()[0]))
         audio.play()
         self.next()
 
@@ -147,7 +145,7 @@ class PlaylistWindow(tk.Frame):
 
     def get_playlist(self, file):
         items = []
-        self.playlist_data = self.control_json.open_json(PLAYLISTS + '/' + file, 'r')
+        self.playlist_data = self.control_json.open_json(PLAYLISTS + '/' + file)
         for key in self.playlist_data:
             items.append(key)
 

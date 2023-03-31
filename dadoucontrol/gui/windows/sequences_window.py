@@ -2,9 +2,10 @@ import logging
 import tkinter as tk
 from tkinter import BOTH, TOP, font
 
-from dadou_utils.utils_static import FACE, LIGHTS, WHEELS, NECK
+from dadou_utils.utils_static import FACE, LIGHTS, WHEELS, NECK, CYAN, BORDEAUX, PURPLE, YELLOW, ORANGE, FONT1, NAME, \
+    FONT2, JSON_EXPRESSIONS, JSON_LIGHTS
 
-from control_config import CYAN, BORDEAUX, PURPLE, YELLOW, ORANGE, FONT1
+from control_config import config
 from control_factory import ControlFactory
 from gui.windows.frames.abstract.rectangle_text import RectangleText
 from gui.windows.frames.music_frame import MusicFrame
@@ -13,6 +14,7 @@ from gui.windows.frames.neck_frame import NeckFrame
 from gui.windows.frames.wheels_frame import WheelsFrame
 
 from gui.windows.frames.widgets.sequences_widget import SequencesManagerWidget
+from utils_static import EXPRESSIONS
 
 
 class SequencesWindow(tk.Frame):
@@ -20,28 +22,28 @@ class SequencesWindow(tk.Frame):
     current_position = 0
 
     def __init__(self, parent, *args, **kwargs):
-        tk.Frame.__init__(self, parent, bg=CYAN, *args, **kwargs)
+        tk.Frame.__init__(self, parent, bg=config[CYAN], *args, **kwargs)
         #self.pack(fill=BOTH, expand=True, side=TOP)
 
-        self.left_menu = tk.Frame(self, bg=CYAN, width=100)
+        self.left_menu = tk.Frame(self, bg=config[CYAN], width=100)
         self.left_menu.pack(fill='y', side='left')
 
-        music_frame = MusicFrame(self, BORDEAUX)
+        music_frame = MusicFrame(self, config[BORDEAUX])
 
         NavigationWidget(self.left_menu, width=100)
         SequencesManagerWidget(self, self.left_menu, music_frame)
 
         self.new_section = self.new_frame()
 
-        self.expressions = ControlFactory().control_json_manager.get_expressions_names()
-        self.lights = list(ControlFactory().control_json_manager.get_lights_names())
+        self.expressions = ControlFactory().control_json_manager.get_attributs_list(config[JSON_EXPRESSIONS], NAME)
+        self.lights = ControlFactory().control_json_manager.get_attributs_list(config[JSON_LIGHTS], NAME)
 
 
     def new_frame(self):
-        new_frame = tk.Frame(self.left_menu, bg=CYAN)
+        new_frame = tk.Frame(self.left_menu, bg=config[CYAN])
         new_frame.pack(fill='x', side=TOP)
         helv36 = font.Font(family='Helvetica', size=36, weight=font.BOLD)
-        tk.Button(new_frame, text='new section', bg=PURPLE, font=FONT1, command=lambda: self.choice_popup())\
+        tk.Button(new_frame, text='new section', bg=PURPLE, font=config[FONT1], command=lambda: self.choice_popup())\
             .pack(ipadx=10, ipady=30, fill='x', expand=True, side='left')
         return new_frame
 
@@ -50,10 +52,10 @@ class SequencesWindow(tk.Frame):
         popup.wm_title("New section")
         popup.geometry("500x200")
 
-        tk.Button(popup, text=FACE, bg=PURPLE, command=lambda: self.add_section(FACE)).pack(fill='x', side=TOP)
-        tk.Button(popup, text=LIGHTS, bg=PURPLE, command=lambda: self.add_section(LIGHTS)).pack(fill='x', side=TOP)
-        tk.Button(popup, text=NECK, bg=PURPLE, command=lambda: self.add_section(NECK)).pack(fill='x', side=TOP)
-        tk.Button(popup, text=WHEELS, bg=PURPLE, command=lambda: self.add_section(WHEELS)).pack(fill='x', side=TOP)
+        tk.Button(popup, text=FACE, bg=config[PURPLE], command=lambda: self.add_section(FACE)).pack(fill='x', side=TOP)
+        tk.Button(popup, text=LIGHTS, bg=config[PURPLE], command=lambda: self.add_section(LIGHTS)).pack(fill='x', side=TOP)
+        tk.Button(popup, text=NECK, bg=config[PURPLE], command=lambda: self.add_section(NECK)).pack(fill='x', side=TOP)
+        tk.Button(popup, text=WHEELS, bg=config[PURPLE], command=lambda: self.add_section(WHEELS)).pack(fill='x', side=TOP)
 
     def add_section(self, section):
         logging.info('new section {}'.format(section))
@@ -68,13 +70,13 @@ class SequencesWindow(tk.Frame):
             self.load_neck()
 
     def load_face(self, datas=None):
-        RectangleText(self, FACE, CYAN, self.expressions, datas=datas)
+        RectangleText(self, FACE, config[CYAN], self.expressions, datas=datas)
 
     def load_lights(self, datas=None):
-        RectangleText(self, LIGHTS, CYAN, self.lights, datas=datas)
+        RectangleText(self, LIGHTS, config[CYAN], self.lights, datas=datas)
 
     def load_neck(self, datas=None):
-        NeckFrame(self, ORANGE, datas=datas)
+        NeckFrame(self, config[ORANGE], datas=datas)
 
     def load_wheels(self, datas=None):
-        WheelsFrame(self, PURPLE, datas=datas)
+        WheelsFrame(self, config[PURPLE], datas=datas)

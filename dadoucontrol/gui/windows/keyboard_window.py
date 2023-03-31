@@ -4,9 +4,11 @@ from tkinter import TOP, X, BOTH
 from tkinter.font import Font, BOLD
 
 from dadou_utils.misc import Misc
-from dadou_utils.utils_static import INPUT_KEY, KEY, LORA, JOY, SLIDERS
-from control_config import GLOVE_LEFT, GLOVE_RIGHT, ORANGE, BORDEAUX, YELLOW, CYAN, PURPLE, FONT1
+from dadou_utils.utils_static import INPUT_KEY, KEY, LORA, JOY, SLIDERS, CYAN, BORDEAUX, FONT1, YELLOW, PURPLE, \
+    GLOVE_LEFT, GLOVE_RIGHT
+from control_config import config
 from control_factory import ControlFactory
+from utils_static import ORANGE
 
 
 class KeyboardWindow(tk.Frame):
@@ -19,50 +21,48 @@ class KeyboardWindow(tk.Frame):
 
         self.pack(fill=BOTH, expand=True, side=TOP)
 
-        self.FONT1 = Font(self.master, size=45, weight=BOLD)
-        self.bold80 = Font(self.master, size=70, weight=BOLD)
 
         keys = [['1', '2', '3', 'A', 'E'],
                 ['4', '5', '6', 'B', 'F'],
                 ['7', '8', '9', 'C', 'G'],
                 ['&', '0', '$', 'D', 'H']]
 
-        grid = tk.Frame(self, bg=CYAN, width=700, height=250, padx=20, pady=20)
+        grid = tk.Frame(self, bg=config[CYAN], width=700, height=250, padx=20, pady=20)
         #grid['padding'] = (5,10,5,10)
 
         for x in range(4):
             for y in range(5):
                 self.create_cell(grid, x, y, keys[x][y])
-                #tk.Label(grid, bg=BORDEAUX, text=keys[x][y], font=self.FONT1, height=1, width=2).grid(row=x, column=y)
+                #tk.Label(grid, bg=config[BORDEAUX, text=keys[x][y], font=self.FONT1, height=1, width=2).grid(row=x, column=y)
 
-        self.lora_feedback_panel = tk.Label(grid, bg=BORDEAUX, text='Lo', font=self.FONT1, height=1, width=2)
+        self.lora_feedback_panel = tk.Label(grid, bg=config[BORDEAUX], text='Lo', font=config[FONT1], height=1, width=2)
         self.lora_feedback_panel.grid(row=0, column=6)
 
-        self.lora_feedback_panel = tk.Label(grid, bg=BORDEAUX, text='Lo', font=self.FONT1, height=1, width=2)
+        self.lora_feedback_panel = tk.Label(grid, bg=config[BORDEAUX], text='Lo', font=config[FONT1], height=1, width=2)
         self.lora_feedback_panel.grid(row=0, column=6)
 
-        self.wifi_feedback_panel = tk.Label(grid, bg=BORDEAUX, text='Wi', font=self.FONT1, height=1, width=2)
+        self.wifi_feedback_panel = tk.Label(grid, bg=config[BORDEAUX], text='Wi', font=config[FONT1], height=1, width=2)
         self.wifi_feedback_panel.grid(row=0, column=7)
 
-        self.internet_label = tk.Label(grid, bg=ORANGE, text="I", font=self.FONT1, width=2)
+        self.internet_label = tk.Label(grid, bg=config[ORANGE], text="I", font=config[FONT1], width=2)
         self.internet_label.grid(row=0, column=8)
 
-        self.left_glove_feedback_panel = tk.Label(grid, bg=BORDEAUX, text='L', font=self.FONT1, height=1, width=2)
+        self.left_glove_feedback_panel = tk.Label(grid, bg=config[BORDEAUX], text='L', font=config[FONT1], height=1, width=2)
         self.left_glove_feedback_panel.grid(row=1, column=6)
 
-        self.right_glove_feedback_panel = tk.Label(grid, bg=BORDEAUX, text='R', font=self.FONT1, height=1, width=2)
+        self.right_glove_feedback_panel = tk.Label(grid, bg=config[BORDEAUX], text='R', font=config[FONT1], height=1, width=2)
         self.right_glove_feedback_panel.grid(row=1, column=7)
 
-        self.joy_feedback_panel = tk.Label(grid, bg=BORDEAUX, text='J', font=self.FONT1, height=1, width=2)
+        self.joy_feedback_panel = tk.Label(grid, bg=config[BORDEAUX], text='J', font=config[FONT1], height=1, width=2)
         self.joy_feedback_panel.grid(row=1, column=8)
 
-        self.sliders_feedback_panel = tk.Label(grid, bg=BORDEAUX, text='S', font=self.FONT1, height=1, width=2)
+        self.sliders_feedback_panel = tk.Label(grid, bg=config[BORDEAUX], text='S', font=config[FONT1], height=1, width=2)
         self.sliders_feedback_panel.grid(row=2, column=6)
 
-        self.right_panel_top = tk.Label(grid, bg=YELLOW, text='A', font=self.FONT1, height=1, width=4)
+        self.right_panel_top = tk.Label(grid, bg=config[YELLOW], text='A', font=config[FONT1], height=1, width=4)
         self.right_panel_top.grid(row=2, column=7, columnspan=2)
 
-        self.right_panel_middle = tk.Label(grid, bg=CYAN, font=self.FONT1, height=1, width=4)
+        self.right_panel_middle = tk.Label(grid, bg=config[CYAN], font=config[FONT1], height=1, width=4)
         self.right_panel_middle.grid(row=3, column=6, columnspan=3, rowspan=2)
 
         grid.pack(fill=BOTH, side=TOP, expand=True)
@@ -74,10 +74,10 @@ class KeyboardWindow(tk.Frame):
         self.check_sliders_input()
 
     def create_cell(self, grid, x, y, name):
-        color = CYAN
+        color = config[CYAN]
         if ((x+y) % 2) == 0:
-            color = YELLOW
-        cell = tk.Button(grid, text=name, font=self.FONT1, bg=color, command=lambda: self.click_button(name), activebackground=PURPLE, height=1, width=1)
+            color = config[YELLOW]
+        cell = tk.Button(grid, text=name, font=config[FONT1], bg=color, command=lambda: self.click_button(name), activebackground=config[PURPLE], height=1, width=1)
         cell.grid(row=x, column=y)
 
     def check_internet(self) -> None:
@@ -106,9 +106,9 @@ class KeyboardWindow(tk.Frame):
 
     def update_feedback_panel(self, label:tk.Label, activ:bool):
         if activ:
-            label.config(bg=YELLOW)
+            label.config(bg=config[YELLOW])
         else:
-            label.config(bg=BORDEAUX)
+            label.config(bg=config[BORDEAUX])
 
     def check_glove_input(self):
         self.after(100, self.check_glove_input)

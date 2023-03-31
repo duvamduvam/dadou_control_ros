@@ -1,7 +1,9 @@
 import tkinter as tk
 from tkinter import TOP, BOTH, ttk
 
-from control_config import BORDEAUX, YELLOW, CYAN, ORANGE, PURPLE, FONT1, FONT3
+from dadou_utils.utils_static import ORANGE, BORDEAUX, YELLOW, CYAN, FONT1, PURPLE, FONT3
+
+from control_config import config
 
 from control_factory import ControlFactory
 
@@ -15,11 +17,12 @@ from gui.windows.config_window import ConfigWindow
 from gui.windows.playlist_window import PlaylistWindow
 from gui.windows.keyboard_window import KeyboardWindow
 
+
 class MainGui(tk.Tk):
     def __init__(self, *args, **kwargs):
         tk.Tk.__init__(self, *args, **kwargs)
 
-        self.option_add("*Font", FONT3)
+        self.option_add("*Font", config[FONT3])
 
         style = ttk.Style(self)
         # set ttk theme to "clam" which support the fieldbackground option
@@ -43,19 +46,19 @@ class MainGui(tk.Tk):
         self.geometry("1600x1024")
         self.attributes("-fullscreen", True)
 
-        menu = tk.Frame(self, bg=ORANGE)
+        menu = tk.Frame(self, bg=config[ORANGE])
         menu.pack(fill='x', side=TOP)
 
         screen_width = self.winfo_screenwidth()
 
-        tk.Button(menu, text='Config', bg=PURPLE, font=FONT1, command=lambda: self.show_frame(self.EXIT)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
-        tk.Button(menu, text='Keyboard', bg=BORDEAUX, font=FONT1, command=lambda: self.show_frame(self.KEYBOARD_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
-        tk.Button(menu, text='Playlist', bg=YELLOW, font=FONT1, command=lambda: self.show_frame(self.PLAYLIST_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
+        tk.Button(menu, text='Config', bg=config[PURPLE], font=config[FONT1], command=lambda: self.show_frame(self.EXIT)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
+        tk.Button(menu, text='Keyboard', bg=config[BORDEAUX], font=config[FONT1], command=lambda: self.show_frame(self.KEYBOARD_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
+        tk.Button(menu, text='Playlist', bg=config[YELLOW], font=config[FONT1], command=lambda: self.show_frame(self.PLAYLIST_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
         if screen_width > 1000:
-            tk.Button(menu, text='Sequence', bg=ORANGE, font=FONT1, command=lambda: self.show_frame(self.SEQUENCE_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
-            tk.Button(menu, text='Expression', bg=CYAN, font=FONT1, command=lambda: self.show_frame(self.EXPRESSION_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
-            tk.Button(menu, text='Lights', bg=PURPLE, font=FONT1, command=lambda: self.show_frame(self.LIGHTS_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
-            tk.Button(menu, text='Remote', bg=ORANGE, font=FONT1, command=lambda: self.show_frame(self.REMOTE_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
+            tk.Button(menu, text='Sequence', bg=config[ORANGE], font=config[FONT1], command=lambda: self.show_frame(self.SEQUENCE_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
+            tk.Button(menu, text='Expression', bg=config[CYAN], font=config[FONT1], command=lambda: self.show_frame(self.EXPRESSION_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
+            tk.Button(menu, text='Lights', bg=config[PURPLE], font=config[FONT1], command=lambda: self.show_frame(self.LIGHTS_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
+            tk.Button(menu, text='Remote', bg=config[ORANGE], font=config[FONT1], command=lambda: self.show_frame(self.REMOTE_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
 
         #self.main = tk.Frame(self, bg='yellow')
 

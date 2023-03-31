@@ -4,7 +4,9 @@ import traceback
 from os import listdir
 from os.path import isfile, join
 
-from control_config import PATHS, BASE_PATH
+from dadou_utils.utils_static import PATHS, BASE_PATH
+
+from control_config import config
 from control_factory import ControlFactory
 
 
@@ -15,7 +17,7 @@ class FileManager:
     @staticmethod
     def list_folder_files_type(folder_type):
 
-        folder = BASE_PATH+PATHS[folder_type]
+        folder = config[BASE_PATH]+config[PATHS][folder_type]
         return FileManager.list_folder_files(folder)
 
     @staticmethod

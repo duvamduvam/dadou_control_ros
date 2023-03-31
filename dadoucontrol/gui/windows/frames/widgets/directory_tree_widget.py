@@ -9,28 +9,22 @@ from tkinter import X, TOP, ttk, NW
 import PIL
 from PIL import ImageTk
 from PIL.Image import Image
-from dadou_utils.static_value import StaticValue
-from dadou_utils.utils_static import EYE, ICON, MOUTH, X
+from dadou_utils.utils_static import CYAN, EYE, ICON, MOUTH, X, YELLOW, FONT3, IMAGE
 
 from gui.windows.frames.abstract.rectangle_highlighted import HighlightedRectangle
-
 from gui.visuals_object.visual_mouth import VisualMouth
-
 from gui.visuals_object.visual_eye import VisualEye
 
-from control_config import CYAN, PURPLE, YELLOW, FONT3, RANDOM_COLOR
-from control_factory import ControlFactory
 from files.file_manager import FileManager
-from gui.gui_utils import GuiUtils
-from dadou_utils.utils_static import IMAGE
+from control_config import config
 
 
 class DirectoryTreeWidget(tk.Frame):
     def __init__(self, parent, directory, type, *args, **kwargs):
-        tk.Frame.__init__(self, parent, bg=CYAN, *args, **kwargs)
+        tk.Frame.__init__(self, parent, bg=config[CYAN], *args, **kwargs)
         style = ttk.Style(self)
-        style.configure("Treeview", background=CYAN,
-                        fieldbackground=CYAN, foreground=YELLOW, font=FONT3)
+        style.configure("Treeview", background=config[CYAN],
+                        fieldbackground=config[CYAN], foreground=config[YELLOW], font=config[FONT3])
         self.type = type
         self.tv = ttk.Treeview(self, show='tree')
         #ybar = tk.Scrollbar(self, orient=tk.VERTICAL,
@@ -44,12 +38,12 @@ class DirectoryTreeWidget(tk.Frame):
         #ybar.pack(side=tk.RIGHT, fill=tk.Y)
         self.tv.pack(fill=X, side=TOP)
         if self.type == IMAGE:
-            self.gallery = tk.Canvas(self, height=800, bg=CYAN) #GalleryWidget(self, 10, height=800)
+            self.gallery = tk.Canvas(self, height=800, bg=config[CYAN]) #GalleryWidget(self, 10, height=800)
             self.gallery.pack(fill=X, side=TOP)
             self.canvas_images = []
         else:
             self.files_var = tk.StringVar()
-            self.files = tk.Listbox(self, listvariable=self.files_var, height=800, bg=CYAN)
+            self.files = tk.Listbox(self, listvariable=self.files_var, height=800, bg=config[CYAN])
             self.files.bind('<Double-Button-1>', self.send_value)
             self.files.pack(fill=X, side=TOP)
         self.pack(fill=X, side=TOP)

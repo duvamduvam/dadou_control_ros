@@ -3,11 +3,12 @@ import tkinter as tk
 from tkinter import BOTH, TOP, LEFT
 
 from dadou_utils.singleton import SingletonMeta
-from dadou_utils.utils_static import DURATION, LOOP, KEYS, STOP
+from dadou_utils.utils_static import DURATION, LOOP, KEYS, STOP, PURPLE, YELLOW, ORANGE, BORDEAUX, CYAN, PLAY, PAUSE, \
+    IMAGE, JSON_EXPRESSIONS, NAME
 
 from gui.windows.frames.widgets.directory_tree_widget import DirectoryTreeWidget
 
-from control_config import PURPLE, YELLOW, ORANGE, BORDEAUX, CYAN
+from control_config import config
 from control_factory import ControlFactory
 from gui.expression_duration import ExpressionDuration
 from gui.visuals_object.visual_eye import VisualEye
@@ -16,7 +17,7 @@ from gui.windows.frames.abstract.rectangle_image2 import RectangleImage2
 from gui.windows.frames.timeline_frame import TimeLineFrame
 from gui.windows.frames.widgets.galley_widget import GalleryWidget
 from gui.windows.frames.widgets.image_observer_feedback import ImageObserverFeedBack
-from dadou_utils.utils_static import PLAY, PAUSE, IMAGE
+
 
 
 class ExpressionWindow(tk.Frame):
@@ -87,9 +88,9 @@ class ExpressionWindow(tk.Frame):
         top_frame.pack(fill='x', side=TOP)
 
         ###### face feedback
-        self.right_eye_frame = RectangleImage2(self, VisualEye.TYPE, 'Left eye', YELLOW)
-        self.left_eye_frame = RectangleImage2(self, VisualEye.TYPE, 'Right eye', ORANGE)
-        self.mouth_frame = RectangleImage2(self, VisualMouth.TYPE, 'Mouths', BORDEAUX)
+        self.right_eye_frame = RectangleImage2(self, VisualEye.TYPE, 'Left eye', config[YELLOW])
+        self.left_eye_frame = RectangleImage2(self, VisualEye.TYPE, 'Right eye', config[ORANGE])
+        self.mouth_frame = RectangleImage2(self, VisualMouth.TYPE, 'Mouths', config [BORDEAUX])
 
         self.right_eye_observer = ImageObserverFeedBack(self.top_canvas, self.right_eye_frame, 10, 10, VisualEye.TYPE)
         self.left_eye_observer = ImageObserverFeedBack(self.top_canvas, self.left_eye_frame, 210, 10, VisualEye.TYPE)
@@ -123,7 +124,7 @@ class ExpressionWindow(tk.Frame):
         ExpressionDuration.value = int(self.expression_duration.get())
 
     def load_listbox(self):
-        expressions = ControlFactory().control_json_manager.get_expressions()
+        expressions = ControlFactory().control_json_manager.open_json(config[JSON_EXPRESSIONS])
         results = []
         for expression in expressions:
             results.append(expression['name'])
@@ -156,7 +157,8 @@ class ExpressionWindow(tk.Frame):
 
     def load(self, e):
         name = self.expression_name.get(1.0, 'end-1c')
-        expression = ControlFactory().control_json_manager.get_expressions_name(name)
+        expression = ControlFactory().control_json_manager.get_element_from_key(config[JSON_EXPRESSIONS], NAME, name)
+        #expression = ControlFactory().control_json_manager.get_attributs_list(config[JSON_EXPRESSIONS], name)
         ExpressionDuration.value = expression[DURATION]
         #self.length_txt.insert("end-1c", ExpressionDuration.value)
         self.expression_duration.set(ExpressionDuration.value)

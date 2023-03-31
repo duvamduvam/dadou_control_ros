@@ -4,17 +4,16 @@ from tkinter import NW
 import PIL
 from PIL import Image, ImageTk
 from dadou_utils.misc import Misc
-from dadou_utils.utils_static import CLEAN, X, Y
+from dadou_utils.utils_static import CLEAN, X, Y, BASE_PATH, PATHS, RANDOM_COLOR
 
-from control_config import RANDOM_COLOR, PATHS, BASE_PATH
-from control_factory import ControlFactory
+from control_config import config
 
 
 class GuiUtils:
 
     @staticmethod
     def set_image(parent, x, y, image_type, image, zoom):
-        folder = BASE_PATH+PATHS[image_type]
+        folder = config[BASE_PATH]+config[PATHS][image_type]
         image = PIL.Image.open(folder+'/'+image)
         tk_image = ImageTk.PhotoImage(image)
         tk_image = tk_image._PhotoImage__photo.zoom(zoom)
