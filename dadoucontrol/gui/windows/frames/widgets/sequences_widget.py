@@ -6,11 +6,11 @@ from tkinter import filedialog as fd, TOP
 from dadou_utils.utils.time_utils import TimeUtils
 from dadou_utils.utils_static import SEQUENCES, KEYS, FACES, LIGHTS, NECKS, WHEELS
 
-from control_factory import ControlFactory
-from control_config import CYAN
-from files.file_manager import FileManager
-from gui.windows.frames.widgets.audio_select_popup import AudioPopupWidget
-from gui.windows.frames.music_frame import MusicFrame
+from dadoucontrol.control_factory import ControlFactory
+from dadoucontrol.control_config import CYAN
+from dadoucontrol.files.file_manager import FileManager
+from dadoucontrol.gui.windows.frames.widgets.audio_select_popup import AudioPopupWidget
+from dadoucontrol.gui.windows.frames.music_frame import MusicFrame
 
 
 class SequencesManagerWidget(tk.Frame):

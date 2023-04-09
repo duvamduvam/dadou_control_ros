@@ -5,16 +5,15 @@ from tkinter import BOTH, TOP, font
 from dadou_utils.utils_static import FACE, LIGHTS, WHEELS, NECK, CYAN, BORDEAUX, PURPLE, YELLOW, ORANGE, FONT1, NAME, \
     FONT2, JSON_EXPRESSIONS, JSON_LIGHTS
 
-from control_config import config
-from control_factory import ControlFactory
-from gui.windows.frames.abstract.rectangle_text import RectangleText
-from gui.windows.frames.music_frame import MusicFrame
-from gui.windows.frames.widgets.navigation_widget import NavigationWidget
-from gui.windows.frames.neck_frame import NeckFrame
-from gui.windows.frames.wheels_frame import WheelsFrame
+from dadoucontrol.control_config import config
+from dadoucontrol.control_factory import ControlFactory
+from dadoucontrol.gui.windows.frames.abstract.rectangle_text import RectangleText
+from dadoucontrol.gui.windows.frames.music_frame import MusicFrame
+from dadoucontrol.gui.windows.frames.widgets.navigation_widget import NavigationWidget
+from dadoucontrol.gui.windows.frames.neck_frame import NeckFrame
+from dadoucontrol.gui.windows.frames.wheels_frame import WheelsFrame
 
-from gui.windows.frames.widgets.sequences_widget import SequencesManagerWidget
-from utils_static import EXPRESSIONS
+from dadoucontrol.gui.windows.frames.widgets.sequences_widget import SequencesManagerWidget
 
 
 class SequencesWindow(tk.Frame):
@@ -36,7 +35,7 @@ class SequencesWindow(tk.Frame):
         self.new_section = self.new_frame()
 
         self.expressions = ControlFactory().control_json_manager.get_attributs_list(config[JSON_EXPRESSIONS], NAME)
-        self.lights = ControlFactory().control_json_manager.get_attributs_list(config[JSON_LIGHTS], NAME)
+        self.lights = ControlFactory().control_json_manager.get_keys_list(config[JSON_LIGHTS])
 
 
     def new_frame(self):

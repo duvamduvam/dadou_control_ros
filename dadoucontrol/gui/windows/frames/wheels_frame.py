@@ -1,6 +1,6 @@
 from dadou_utils.utils_static import WHEELS, DATAS
 
-from gui.windows.frames.abstract.abstract_sequence_frame import AbstractSequenceFrame
+from dadoucontrol.gui.windows.frames.abstract.abstract_sequence_frame import AbstractSequenceFrame
 
 
 class WheelsFrame(AbstractSequenceFrame):

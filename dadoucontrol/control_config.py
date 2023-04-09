@@ -8,21 +8,22 @@ from dadou_utils.utils_static import AUDIOS_DIRECTORY, EYES, RPI_TYPE, LAPTOP_TY
     SEQUENCES_DIRECTORY, AUDIO_NAME, AUDIO_PATH, DEVICES, PATHS, LOGGING_CONFIG_FILE, JSON_CONFIG, JSON_LIGHTS_BASE, \
     JSON_SPEECHS, PLAYLIST_PATH, GLOVE_LEFT, GLOVE_RIGHT, PROJECT_LIGHTS_DIRECTORY, \
     PLAYLIST_PLAY, PLAYLIST_STOP, PURPLE, BORDEAUX, YELLOW, ORANGE, CYAN, FONT1, FONT2, FONT3, SYSTEM, \
-    RPI_LOGGING_CONFIG_FILE, LAPTOP_LOGGING_CONFIG_FILE, JSON_LIGHTS_METHODS
+    RPI_LOGGING_CONFIG_FILE, LAPTOP_LOGGING_CONFIG_FILE, JSON_LIGHTS_METHODS, WS_CLIENTS, WS_PORT
 
 config = {}
 
 config[BASE_PATH] = os.getcwd()
 
-config[WS_CLIENT] = 'ws://192.168.1.200:4421'
-
+config[WS_PORT] = 4421
+config[WS_CLIENTS] = {'robot': '192.168.1.200', 'sceno': '192.168.1.220', 'harddrive': '192.168.1.230'}
+#config[WS_CLIENT] = {'sceno': 'ws://192.168.1.220:4421', 'sceno': 'ws://192.168.1.220:4421'}
 ############## JSON FILES ##############
 
 
 
 config[JSON_CONFIG] = 'control_config.json'
 config[JSON_EXPRESSIONS] = 'expressions.json'
-config[JSON_LIGHTS] = 'robot_lights.json'
+config[JSON_LIGHTS] = 'lights_base.json'
 config[JSON_LIGHTS_BASE] = 'lights_base.json'
 config[JSON_LIGHTS_METHODS] = 'lights_methods.json'
 config[JSON_SPEECHS] = 'speechs.json'

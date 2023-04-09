@@ -5,7 +5,7 @@ import tkinter as tk
 
 from dadou_utils.utils_static import BORDEAUX, FONT1
 
-from control_config import config
+from dadoucontrol.control_config import config
 
 
 class ConfigWindow(tk.Frame):

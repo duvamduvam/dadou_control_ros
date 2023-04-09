@@ -2,7 +2,7 @@ import logging
 from enum import Enum
 from timeit import default_timer
 
-#from control_factory import ControlFactory
+#from dadoucontrol.control_factory import ControlFactory
 from dadou_utils.utils.time_utils import TimeUtils
 
 

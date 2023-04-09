@@ -2,10 +2,9 @@ import logging
 from enum import Enum
 import tkinter as tk
 
-from files.file_manager import FileManager
-from gui.gui_utils import GuiUtils
-from gui.windows.expression_window import ExpressionDuration
-from gui.windows.frames.abstract.abstract_sequence_frame import AbstractSequenceFrame
+from dadoucontrol.gui.gui_utils import GuiUtils
+from dadoucontrol.gui.windows.expression_window import ExpressionDuration
+from dadoucontrol.gui.windows.frames.abstract.abstract_sequence_frame import AbstractSequenceFrame
 
 
 class CanvasType(Enum):

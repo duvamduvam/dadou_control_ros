@@ -2,15 +2,14 @@ import logging
 import tkinter as tk
 
 from dadou_utils.misc import Misc
-from control_factory import ControlFactory
 
-from gui.windows.frames.abstract.rectangle_highlighted import HighlightedRectangle
-
-from files.file_manager import FileManager
-from gui.gui_utils import GuiUtils
-from gui.windows.expression_window import ExpressionDuration
-from gui.windows.frames.abstract.rectangle_abstract import RectangleAbstract
-from gui.windows.frames.timeline_frame import TimeLineFrame
+from dadoucontrol.control_factory import ControlFactory
+from dadoucontrol.gui.windows.frames.abstract.rectangle_highlighted import HighlightedRectangle
+from dadoucontrol.files.file_manager import FileManager
+from dadoucontrol.gui.gui_utils import GuiUtils
+from dadoucontrol.gui.windows.expression_window import ExpressionDuration
+from dadoucontrol.gui.windows.frames.abstract.rectangle_abstract import RectangleAbstract
+from dadoucontrol.gui.windows.frames.timeline_frame import TimeLineFrame
 
 
 class RectangleImage2(RectangleAbstract):

@@ -2,7 +2,8 @@ import logging
 
 from dadou_utils.audios.sound_object import SoundObject
 from dadou_utils.utils_static import AUDIOS_DIRECTORY, NAME, PATH, LENGTH, KEYS, AUDIOS, SEQUENCES_DIRECTORY
-from control_config import config
+
+from dadoucontrol.control_config import config
 
 class SequencesManagement:
     audio_segment = None

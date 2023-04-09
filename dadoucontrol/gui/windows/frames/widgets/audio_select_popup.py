@@ -1,11 +1,7 @@
 import shutil
-import time
 import tkinter as tk
 from tkinter import HORIZONTAL, filedialog
-from tkinter.filedialog import askopenfile
 from tkinter.messagebox import showinfo
-from tkinter.ttk import Progressbar
-
 
 class AudioPopupWidget:
 

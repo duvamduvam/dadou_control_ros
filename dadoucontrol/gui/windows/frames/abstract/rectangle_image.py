@@ -2,11 +2,11 @@ import logging
 import random
 import tkinter as tk
 
-from files.file_manager import FileManager
-from gui.gui_utils import GuiUtils
-from gui.windows.expression_window import ExpressionDuration
-from gui.windows.frames.abstract.rectangle_abstract import RectangleAbstract
-from gui.windows.frames.timeline_frame import TimeLineFrame
+from dadoucontrol.files.file_manager import FileManager
+from dadoucontrol.gui.gui_utils import GuiUtils
+from dadoucontrol.gui.windows.expression_window import ExpressionDuration
+from dadoucontrol.gui.windows.frames.abstract.rectangle_abstract import RectangleAbstract
+from dadoucontrol.gui.windows.frames.timeline_frame import TimeLineFrame
 
 
 class RectangleImage(RectangleAbstract):

@@ -1,7 +1,3 @@
-from tkinter import NW
-
-import PIL
-from PIL import ImageTk
 from dadou_utils.misc import Misc
 from dadou_utils.singleton import SingletonMeta
 

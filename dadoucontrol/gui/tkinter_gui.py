@@ -3,19 +3,17 @@ from tkinter import TOP, BOTH, ttk
 
 from dadou_utils.utils_static import ORANGE, BORDEAUX, YELLOW, CYAN, FONT1, PURPLE, FONT3
 
-from control_config import config
-
-from control_factory import ControlFactory
-
-from gui.windows.expression_window import ExpressionWindow
-from gui.windows.lights_window import LightsWindow
-from gui.windows.remote_window import RemoteWindow
-from gui.windows.sequences_window import SequencesWindow
-from gui.windows.config_window import ConfigWindow
+from dadoucontrol.control_config import config
+from dadoucontrol.control_factory import ControlFactory
+from dadoucontrol.gui.windows.expression_window import ExpressionWindow
+from dadoucontrol.gui.windows.lights_window import LightsWindow
+from dadoucontrol.gui.windows.remote_window import RemoteWindow
+from dadoucontrol.gui.windows.sequences_window import SequencesWindow
+from dadoucontrol.gui.windows.config_window import ConfigWindow
 
 #https://www.hashbangcode.com/article/using-events-tkinter-canvas-elements-python
-from gui.windows.playlist_window import PlaylistWindow
-from gui.windows.keyboard_window import KeyboardWindow
+from dadoucontrol.gui.windows.playlist_window import PlaylistWindow
+from dadoucontrol.gui.windows.keyboard_window import KeyboardWindow
 
 
 class MainGui(tk.Tk):

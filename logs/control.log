@@ -1,1 +1,70 @@
-2023-03-31 19:07:37,110 - root - INFO - main.py - <module> : 17 - Starting remote control
+2023-04-09 09:30:03,553 - root - ERROR - ws_client.py - __init__ : 27 - device robot ws://192.168.1.200:4421 down
+2023-04-09 09:30:06,625 - root - ERROR - ws_client.py - __init__ : 27 - device sceno ws://192.168.1.220:4421 down
+2023-04-09 09:30:09,701 - root - ERROR - ws_client.py - __init__ : 27 - device harddrive ws://192.168.1.230:4421 down
+2023-04-09 09:30:09,784 - root - INFO - main.py - <module> : 17 - Starting remote control
+2023-04-09 09:30:12,532 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
+2023-04-09 09:30:12,566 - root - INFO - sequences_widget.py - __init__ : 44 - 
+2023-04-09 09:33:23,173 - root - ERROR - ws_client.py - __init__ : 27 - device robot ws://192.168.1.200:4421 down
+2023-04-09 09:33:29,989 - root - ERROR - ws_client.py - __init__ : 27 - device sceno ws://192.168.1.220:4421 down
+2023-04-09 09:33:38,053 - root - ERROR - ws_client.py - __init__ : 27 - device harddrive ws://192.168.1.230:4421 down
+2023-04-09 09:33:38,193 - root - INFO - main.py - <module> : 17 - Starting remote control
+2023-04-09 09:33:50,039 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
+2023-04-09 09:33:50,127 - root - INFO - sequences_widget.py - __init__ : 44 - 
+2023-04-09 09:34:38,949 - root - ERROR - ws_client.py - __init__ : 27 - device robot ws://192.168.1.200:4421 down
+2023-04-09 09:34:42,017 - root - ERROR - ws_client.py - __init__ : 27 - device sceno ws://192.168.1.220:4421 down
+2023-04-09 09:34:45,089 - root - ERROR - ws_client.py - __init__ : 27 - device harddrive ws://192.168.1.230:4421 down
+2023-04-09 09:34:45,172 - root - INFO - main.py - <module> : 17 - Starting remote control
+2023-04-09 09:34:48,890 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
+2023-04-09 09:34:48,980 - root - INFO - sequences_widget.py - __init__ : 44 - 
+2023-04-09 09:35:45,345 - root - ERROR - ws_client.py - __init__ : 27 - device robot ws://192.168.1.200:4421 down
+2023-04-09 09:35:48,417 - root - ERROR - ws_client.py - __init__ : 27 - device sceno ws://192.168.1.220:4421 down
+2023-04-09 09:35:51,489 - root - ERROR - ws_client.py - __init__ : 27 - device harddrive ws://192.168.1.230:4421 down
+2023-04-09 09:35:51,629 - root - INFO - main.py - <module> : 17 - Starting remote control
+2023-04-09 09:35:54,858 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
+2023-04-09 09:35:54,949 - root - INFO - sequences_widget.py - __init__ : 44 - 
+2023-04-09 09:40:24,389 - root - ERROR - ws_client.py - __init__ : 27 - device robot ws://192.168.1.200:4421 down
+2023-04-09 09:40:27,456 - root - ERROR - ws_client.py - __init__ : 27 - device sceno ws://192.168.1.220:4421 down
+2023-04-09 09:40:30,529 - root - ERROR - ws_client.py - __init__ : 27 - device harddrive ws://192.168.1.230:4421 down
+2023-04-09 09:40:30,606 - root - INFO - main.py - <module> : 17 - Starting remote control
+2023-04-09 09:40:33,156 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
+2023-04-09 09:40:33,242 - root - INFO - sequences_widget.py - __init__ : 44 - 
+2023-04-09 09:40:45,313 - root - ERROR - ws_client.py - __init__ : 27 - device robot ws://192.168.1.200:4421 down
+2023-04-09 09:40:48,384 - root - ERROR - ws_client.py - __init__ : 27 - device sceno ws://192.168.1.220:4421 down
+2023-04-09 09:40:51,457 - root - ERROR - ws_client.py - __init__ : 27 - device harddrive ws://192.168.1.230:4421 down
+2023-04-09 09:40:51,598 - root - INFO - main.py - <module> : 17 - Starting remote control
+2023-04-09 09:40:54,770 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
+2023-04-09 09:40:54,858 - root - INFO - sequences_widget.py - __init__ : 44 - 
+2023-04-09 09:43:22,181 - root - ERROR - ws_client.py - __init__ : 27 - device robot ws://192.168.1.200:4421 down
+2023-04-09 09:43:25,249 - root - ERROR - ws_client.py - __init__ : 27 - device sceno ws://192.168.1.220:4421 down
+2023-04-09 09:43:28,321 - root - ERROR - ws_client.py - __init__ : 27 - device harddrive ws://192.168.1.230:4421 down
+2023-04-09 09:43:28,459 - root - INFO - main.py - <module> : 17 - Starting remote control
+2023-04-09 09:43:30,828 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
+2023-04-09 09:43:30,896 - root - INFO - sequences_widget.py - __init__ : 44 - 
+2023-04-09 09:47:10,913 - root - ERROR - ws_client.py - __init__ : 27 - device robot ws://192.168.1.200:4421 down
+2023-04-09 09:47:13,984 - root - ERROR - ws_client.py - __init__ : 27 - device sceno ws://192.168.1.220:4421 down
+2023-04-09 09:47:17,057 - root - ERROR - ws_client.py - __init__ : 27 - device harddrive ws://192.168.1.230:4421 down
+2023-04-09 09:47:17,140 - root - INFO - main.py - <module> : 17 - Starting remote control
+2023-04-09 09:47:19,397 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
+2023-04-09 09:47:19,434 - root - INFO - sequences_widget.py - __init__ : 44 - 
+2023-04-09 09:47:45,445 - root - ERROR - ws_client.py - __init__ : 27 - device robot ws://192.168.1.200:4421 down
+2023-04-09 09:47:48,512 - root - ERROR - ws_client.py - __init__ : 27 - device sceno ws://192.168.1.220:4421 down
+2023-04-09 09:47:51,585 - root - ERROR - ws_client.py - __init__ : 27 - device harddrive ws://192.168.1.230:4421 down
+2023-04-09 09:47:51,662 - root - INFO - main.py - <module> : 17 - Starting remote control
+2023-04-09 09:47:54,067 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - audio
+2023-04-09 09:47:54,101 - root - INFO - sequences_widget.py - __init__ : 44 - 
+2023-04-09 09:47:58,466 - root - INFO - sequences_window.py - add_section : 60 - new section wheels
+2023-04-09 09:47:58,466 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - wheels
+2023-04-09 09:47:59,411 - root - INFO - sequences_window.py - add_section : 60 - new section neck
+2023-04-09 09:47:59,411 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - neck
+2023-04-09 09:47:59,978 - root - INFO - sequences_window.py - add_section : 60 - new section lights
+2023-04-09 09:47:59,979 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - lights
+2023-04-09 09:47:59,989 - root - INFO - rectangle_abstract.py - __init__ : 11 - rectangle 2
+2023-04-09 09:48:00,506 - root - INFO - sequences_window.py - add_section : 60 - new section face
+2023-04-09 09:48:00,507 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - face
+2023-04-09 09:48:00,515 - root - INFO - rectangle_abstract.py - __init__ : 11 - rectangle 2
+2023-04-09 09:48:03,158 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - Left eye
+2023-04-09 09:48:03,279 - root - INFO - rectangle_abstract.py - __init__ : 11 - rectangle 2
+2023-04-09 09:48:03,280 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - Right eye
+2023-04-09 09:48:03,298 - root - INFO - rectangle_abstract.py - __init__ : 11 - rectangle 2
+2023-04-09 09:48:03,300 - root - INFO - abstract_sequence_frame.py - __init__ : 16 - Mouths
+2023-04-09 09:48:03,314 - root - INFO - rectangle_abstract.py - __init__ : 11 - rectangle 2

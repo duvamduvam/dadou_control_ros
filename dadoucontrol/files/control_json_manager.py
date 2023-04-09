@@ -1,14 +1,14 @@
 import distutils
 import json
 import logging
-
 import jsonpath_rw_ext
-from dadou_utils.misc import Misc
+
 from dadou_utils.utils_static import JSON_LIGHTS_BASE, JSON_LIGHTS_METHODS, SEQUENCES_DIRECTORY, JSON_EXPRESSIONS, JSON_LIGHTS, JSON_SPEECHS, \
     JSON_AUDIOS
-
-from control_config import config
 from dadou_utils.files.abstract_json_manager import AbstractJsonManager
+
+from dadoucontrol.control_config import config
+
 
 
 class ControlJsonManager(AbstractJsonManager):

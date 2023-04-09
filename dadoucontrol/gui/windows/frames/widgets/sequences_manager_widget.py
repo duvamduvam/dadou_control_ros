@@ -5,11 +5,11 @@ from tkinter import filedialog as fd
 
 from dadou_utils.utils.time_utils import TimeUtils
 
-from control_factory import ControlFactory
-from control_config import ControlStatic
-from files.file_manager import FileManager
-from gui.windows.frames.widgets.audio_select_popup import AudioPopupWidget
-from gui.windows.frames.music_frame import MusicFrame
+from dadoucontrol.control_factory import ControlFactory
+from dadoucontrol.control_config import ControlStatic
+from dadoucontrol.files.file_manager import FileManager
+from dadoucontrol.gui.windows.frames.widgets.audio_select_popup import AudioPopupWidget
+from dadoucontrol.gui.windows.frames.music_frame import MusicFrame
 
 
 class SequencesManagerWidget(tk.Frame):

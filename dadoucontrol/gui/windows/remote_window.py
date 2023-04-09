@@ -4,7 +4,7 @@ from tkinter import BOTH, TOP
 
 from dadou_utils.misc import Misc
 
-from control_config import CYAN
+from dadoucontrol.control_config import CYAN
 
 
 class RemoteWindow(tk.Frame):

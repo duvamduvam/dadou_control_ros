@@ -6,13 +6,11 @@ import sys
 import logging
 import os
 
-from control_factory import ControlFactory
+from dadoucontrol.control_factory import ControlFactory
 
 ControlFactory()
 
-from gui.tkinter_gui import MainGui
-
-sys.path.append('..')
+from dadoucontrol.gui.tkinter_gui import MainGui
 
 logging.info('Starting remote control')
 

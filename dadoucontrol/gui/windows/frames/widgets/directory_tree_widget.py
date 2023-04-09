@@ -11,12 +11,11 @@ from PIL import ImageTk
 from PIL.Image import Image
 from dadou_utils.utils_static import CYAN, EYE, ICON, MOUTH, X, YELLOW, FONT3, IMAGE
 
-from gui.windows.frames.abstract.rectangle_highlighted import HighlightedRectangle
-from gui.visuals_object.visual_mouth import VisualMouth
-from gui.visuals_object.visual_eye import VisualEye
-
-from files.file_manager import FileManager
-from control_config import config
+from dadoucontrol.gui.windows.frames.abstract.rectangle_highlighted import HighlightedRectangle
+from dadoucontrol.gui.visuals_object.visual_mouth import VisualMouth
+from dadoucontrol.gui.visuals_object.visual_eye import VisualEye
+from dadoucontrol.files.file_manager import FileManager
+from dadoucontrol.control_config import config
 
 
 class DirectoryTreeWidget(tk.Frame):

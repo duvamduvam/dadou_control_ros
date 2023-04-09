@@ -1,6 +1,6 @@
 import logging
 
-from gui.gui_utils import GuiUtils
+from dadoucontrol.gui.gui_utils import GuiUtils
 
 
 class ImageObserverFeedBack:

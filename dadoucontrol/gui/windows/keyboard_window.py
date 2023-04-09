@@ -1,14 +1,12 @@
 import logging
 import tkinter as tk
 from tkinter import TOP, X, BOTH
-from tkinter.font import Font, BOLD
 
-from dadou_utils.misc import Misc
 from dadou_utils.utils_static import INPUT_KEY, KEY, LORA, JOY, SLIDERS, CYAN, BORDEAUX, FONT1, YELLOW, PURPLE, \
-    GLOVE_LEFT, GLOVE_RIGHT
-from control_config import config
-from control_factory import ControlFactory
-from utils_static import ORANGE
+    GLOVE_LEFT, GLOVE_RIGHT, ORANGE
+
+from dadoucontrol.control_config import config
+from dadoucontrol.control_factory import ControlFactory
 
 
 class KeyboardWindow(tk.Frame):

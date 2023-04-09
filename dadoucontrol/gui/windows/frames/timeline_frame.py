@@ -7,7 +7,7 @@ from tkinter import TOP
 from dadou_utils.utils.time_utils import TimeUtils
 from dadou_utils.utils_static import PURPLE, BORDEAUX
 
-from control_config import config
+from dadoucontrol.control_config import config
 
 
 class TimeLineFrame(tk.Frame):

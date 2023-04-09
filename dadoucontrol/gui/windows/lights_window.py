@@ -6,12 +6,11 @@ from tkinter import HORIZONTAL, DISABLED, ACTIVE, W, YES, NW, LEFT, TOP, RIGHT, 
 from tkinter.colorchooser import askcolor
 
 from dadou_utils.files.files_manager import FilesUtils
-from dadou_utils.misc import Misc
 from dadou_utils.utils_static import JSON_LIGHTS_BASE, CYAN, YELLOW, ORANGE, JSON_LIGHTS_METHODS, BASE, METHOD, COLOR, \
     NAME, STATE, BASE_PATH, JSON_DIRECTORY, PROJECT_LIGHTS_DIRECTORY, SEQUENCES, LOOP, DURATION, KEYS
 
-from control_config import config
-from control_factory import ControlFactory
+from dadoucontrol.control_config import config
+from dadoucontrol.control_factory import ControlFactory
 
 
 class LightsWindow(tk.Frame):

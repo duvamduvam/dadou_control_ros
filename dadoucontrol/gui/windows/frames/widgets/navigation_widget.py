@@ -5,9 +5,9 @@ import time
 import tkinter as tk
 from enum import Enum
 
-from control_config import CYAN, YELLOW
-from audio.audio_navigation import State
-from control_factory import ControlFactory
+from dadoucontrol.control_config import CYAN, YELLOW
+from dadoucontrol.audio.audio_navigation import State
+from dadoucontrol.control_factory import ControlFactory
 
 
 class NavigationWidget(tk.Frame):

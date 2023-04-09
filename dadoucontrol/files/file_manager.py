@@ -6,8 +6,8 @@ from os.path import isfile, join
 
 from dadou_utils.utils_static import PATHS, BASE_PATH
 
-from control_config import config
-from control_factory import ControlFactory
+from dadoucontrol.control_config import config
+from dadoucontrol.control_factory import ControlFactory
 
 
 class FileManager:

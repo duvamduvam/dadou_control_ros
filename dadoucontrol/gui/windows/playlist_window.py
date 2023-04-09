@@ -5,12 +5,11 @@ from tkinter import BOTH, TOP, filedialog, LEFT, X, Y, RIGHT, END
 from dadou_utils.utils.time_utils import TimeUtils
 from dadou_utils.files.files_utils import FilesUtils
 from dadou_utils.utils_static import NAME, PLAYLISTS, AUDIO, STOP, INPUT_KEY, KEY, PLAYLIST_PLAY, BASE_PATH, BORDEAUX, \
-    PLAYLIST_PATH, CYAN
+    PLAYLIST_PATH, CYAN, AUDIOS_DIRECTORY
 from dadou_utils.audios.sound_object import SoundObject
 
-from control_factory import ControlFactory
-from control_config import config
-from utils_static import AUDIOS_DIRECTORY
+from dadoucontrol.control_factory import ControlFactory
+from dadoucontrol.control_config import config
 
 
 class PlaylistWindow(tk.Frame):

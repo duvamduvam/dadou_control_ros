@@ -44,6 +44,15 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="robot root (3)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping local="$PROJECT_DIR$/../dadou_robot" web="/" />
+            <mapping local="$PROJECT_DIR$/../dadou_utils" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="robot root 2">
         <serverdata>
           <mappings>
@@ -68,6 +77,15 @@
             <mapping local="$PROJECT_DIR$" web="/" />
             <mapping local="$PROJECT_DIR$/../dadou_utils" web="/" />
             <mapping local="$PROJECT_DIR$/../dadou_robot" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="sceno">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping local="$PROJECT_DIR$/../dadou_robot" web="/" />
+            <mapping local="$PROJECT_DIR$/../dadou_utils" web="/" />
           </mappings>
         </serverdata>
       </paths>

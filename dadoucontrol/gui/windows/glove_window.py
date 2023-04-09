@@ -1,7 +1,8 @@
 import logging
 import tkinter as tk
-from com.serial_device_manager import SerialDeviceManager
-from control_factory import ControlFactory
+
+from dadoucontrol.com.serial_device_manager import SerialDeviceManager
+from dadoucontrol.control_factory import ControlFactory
 
 
 class GloveWindow(tk.Frame):

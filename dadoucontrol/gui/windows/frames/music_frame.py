@@ -1,7 +1,7 @@
 from dadou_utils.utils_static import AUDIO
 
-from gui.windows.frames.abstract.abstract_sequence_frame import AbstractSequenceFrame
-from gui.windows.frames.widgets.time_line_bar import TimeLineBar
+from dadoucontrol.gui.windows.frames.abstract.abstract_sequence_frame import AbstractSequenceFrame
+from dadoucontrol.gui.windows.frames.widgets.time_line_bar import TimeLineBar
 
 
 class MusicFrame(AbstractSequenceFrame):

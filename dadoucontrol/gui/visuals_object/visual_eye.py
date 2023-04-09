@@ -1,4 +1,4 @@
-from gui.visuals_object.visual_object import VisualObject
+from dadoucontrol.gui.visuals_object.visual_object import VisualObject
 from dadou_utils.utils_static import EYE, EYES
 
 

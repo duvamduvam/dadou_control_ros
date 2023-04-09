@@ -1,15 +1,13 @@
 import logging
 import tkinter as tk
 import tkinter
-from os import listdir
-from os.path import isfile, join
 
-from control_config import CYAN
-from control_factory import ControlFactory
-from files.file_manager import FileManager
-from gui.gui_utils import GuiUtils
-from gui.visuals_object.visual_eye import VisualEye
-from gui.visuals_object.visual_mouth import VisualMouth
+from dadoucontrol.control_config import CYAN
+from dadoucontrol.files.file_manager import FileManager
+from dadoucontrol.gui.gui_utils import GuiUtils
+from dadoucontrol.gui.visuals_object.visual_eye import VisualEye
+from dadoucontrol.gui.visuals_object.visual_mouth import VisualMouth
+
 from dadou_utils.utils_static import EYE, MOUTH, VISUALS, ICON
 
 

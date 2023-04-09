@@ -6,7 +6,7 @@ from PIL import Image, ImageTk
 from dadou_utils.misc import Misc
 from dadou_utils.utils_static import CLEAN, X, Y, BASE_PATH, PATHS, RANDOM_COLOR
 
-from control_config import config
+from dadoucontrol.control_config import config
 
 
 class GuiUtils:
