@@ -19,7 +19,7 @@ export SET_VIMRC="yes"
 export INSTALL_AUTOSTART="yes"
 
 export PROJECT_SYSTEM_LIB="python3-opencv"
-export PROJECT_PYTHON_LIB=
+export PROJECT_PYTHON_LIB="playsound"
 
 export LOG_FILE="control.log"
 

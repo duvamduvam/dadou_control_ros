@@ -2,7 +2,7 @@ import logging
 import tkinter as tk
 from tkinter import TOP, X, BOTH
 
-from dadou_utils.utils_static import INPUT_KEY, KEY, LORA, JOY, SLIDERS, CYAN, BORDEAUX, FONT1, YELLOW, PURPLE, \
+from dadou_utils.utils_static import BUTTON_GRID, INPUT_KEY, KEY, LORA, JOY, SLIDERS, CYAN, BORDEAUX, FONT1, YELLOW, PURPLE, \
     GLOVE_LEFT, GLOVE_RIGHT, ORANGE
 
 from dadoucontrol.control_config import config
@@ -25,7 +25,7 @@ class KeyboardWindow(tk.Frame):
                 ['7', '8', '9', 'C', 'G'],
                 ['&', '0', '$', 'D', 'H']]
 
-        grid = tk.Frame(self, bg=config[CYAN], width=700, height=250, padx=20, pady=20)
+        grid = tk.Frame(self, bg=config[CYAN], width=1000, height=500, padx=20, pady=20)
         #grid['padding'] = (5,10,5,10)
 
         for x in range(4):
@@ -33,34 +33,34 @@ class KeyboardWindow(tk.Frame):
                 self.create_cell(grid, x, y, keys[x][y])
                 #tk.Label(grid, bg=config[BORDEAUX, text=keys[x][y], font=self.FONT1, height=1, width=2).grid(row=x, column=y)
 
-        self.lora_feedback_panel = tk.Label(grid, bg=config[BORDEAUX], text='Lo', font=config[FONT1], height=1, width=2)
+        self.lora_feedback_panel = tk.Label(grid, bg=config[BORDEAUX], text='Lo', font=config[BUTTON_GRID], height=1, width=2)
         self.lora_feedback_panel.grid(row=0, column=6)
 
-        self.lora_feedback_panel = tk.Label(grid, bg=config[BORDEAUX], text='Lo', font=config[FONT1], height=1, width=2)
+        self.lora_feedback_panel = tk.Label(grid, bg=config[BORDEAUX], text='Lo', font=config[BUTTON_GRID], height=1, width=2)
         self.lora_feedback_panel.grid(row=0, column=6)
 
-        self.wifi_feedback_panel = tk.Label(grid, bg=config[BORDEAUX], text='Wi', font=config[FONT1], height=1, width=2)
+        self.wifi_feedback_panel = tk.Label(grid, bg=config[BORDEAUX], text='Wi', font=config[BUTTON_GRID], height=1, width=2)
         self.wifi_feedback_panel.grid(row=0, column=7)
 
-        self.internet_label = tk.Label(grid, bg=config[ORANGE], text="I", font=config[FONT1], width=2)
+        self.internet_label = tk.Label(grid, bg=config[ORANGE], text="I", font=config[BUTTON_GRID], width=2)
         self.internet_label.grid(row=0, column=8)
 
-        self.left_glove_feedback_panel = tk.Label(grid, bg=config[BORDEAUX], text='L', font=config[FONT1], height=1, width=2)
+        self.left_glove_feedback_panel = tk.Label(grid, bg=config[BORDEAUX], text='L', font=config[BUTTON_GRID], height=1, width=2)
         self.left_glove_feedback_panel.grid(row=1, column=6)
 
-        self.right_glove_feedback_panel = tk.Label(grid, bg=config[BORDEAUX], text='R', font=config[FONT1], height=1, width=2)
+        self.right_glove_feedback_panel = tk.Label(grid, bg=config[BORDEAUX], text='R', font=config[BUTTON_GRID], height=1, width=2)
         self.right_glove_feedback_panel.grid(row=1, column=7)
 
-        self.joy_feedback_panel = tk.Label(grid, bg=config[BORDEAUX], text='J', font=config[FONT1], height=1, width=2)
+        self.joy_feedback_panel = tk.Label(grid, bg=config[BORDEAUX], text='J', font=config[BUTTON_GRID], height=1, width=2)
         self.joy_feedback_panel.grid(row=1, column=8)
 
-        self.sliders_feedback_panel = tk.Label(grid, bg=config[BORDEAUX], text='S', font=config[FONT1], height=1, width=2)
+        self.sliders_feedback_panel = tk.Label(grid, bg=config[BORDEAUX], text='S', font=config[BUTTON_GRID], height=1, width=2)
         self.sliders_feedback_panel.grid(row=2, column=6)
 
-        self.right_panel_top = tk.Label(grid, bg=config[YELLOW], text='A', font=config[FONT1], height=1, width=4)
+        self.right_panel_top = tk.Label(grid, bg=config[YELLOW], text='A', font=config[BUTTON_GRID], height=1, width=4)
         self.right_panel_top.grid(row=2, column=7, columnspan=2)
 
-        self.right_panel_middle = tk.Label(grid, bg=config[CYAN], font=config[FONT1], height=1, width=4)
+        self.right_panel_middle = tk.Label(grid, bg=config[CYAN], font=config[BUTTON_GRID], height=1, width=4)
         self.right_panel_middle.grid(row=3, column=6, columnspan=3, rowspan=2)
 
         grid.pack(fill=BOTH, side=TOP, expand=True)
@@ -75,7 +75,7 @@ class KeyboardWindow(tk.Frame):
         color = config[CYAN]
         if ((x+y) % 2) == 0:
             color = config[YELLOW]
-        cell = tk.Button(grid, text=name, font=config[FONT1], bg=color, command=lambda: self.click_button(name), activebackground=config[PURPLE], height=1, width=1)
+        cell = tk.Button(grid, text=name, font=config[BUTTON_GRID], bg=color, command=lambda: self.click_button(name), activebackground=config[PURPLE], height=1, width=2)
         cell.grid(row=x, column=y)
 
     def check_internet(self) -> None:
@@ -92,7 +92,7 @@ class KeyboardWindow(tk.Frame):
             self.mod = key
         else:
             self.right_panel_middle.config(text=self.mod + key)
-            ControlFactory().message.send({KEY: self.mod + key})
+            ControlFactory().message.send_multi_ws({KEY: self.mod + key})
 
     def check_plugged_device(self):
         self.after(500, self.check_plugged_device)
@@ -102,7 +102,7 @@ class KeyboardWindow(tk.Frame):
         self.update_feedback_panel(self.joy_feedback_panel, self.deviceManager.get_device(JOY))
         self.update_feedback_panel(self.sliders_feedback_panel, self.deviceManager.get_device(SLIDERS))
 
-    def update_feedback_panel(self, label:tk.Label, activ:bool):
+    def update_feedback_panel(self, label: tk.Label, activ: bool):
         if activ:
             label.config(bg=config[YELLOW])
         else:
@@ -115,7 +115,7 @@ class KeyboardWindow(tk.Frame):
             msg = device.get_msg_separator()
             if msg:
                 self.right_panel_middle.config(text=msg)
-                ControlFactory().message.send({KEY: msg})
+                ControlFactory().message.send_multi_ws({KEY: msg})
 
     def check_joystick_input(self):
         self.after(100, self.check_joystick_input)
@@ -124,7 +124,7 @@ class KeyboardWindow(tk.Frame):
             msg = joy.get_msg_separator()
             if msg:
                 self.right_panel_middle.config(text=msg)
-                ControlFactory().message.send({JOY: msg})
+                ControlFactory().message.send_multi_ws({JOY: msg})
 
     def check_sliders_input(self):
         self.after(100, self.check_sliders_input)

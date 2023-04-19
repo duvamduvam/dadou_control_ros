@@ -3,7 +3,7 @@ import os
 
 from dadou_utils.misc import Misc
 
-from dadou_utils.utils_static import AUDIOS_DIRECTORY, EYES, RPI_TYPE, LAPTOP_TYPE, NAME, SERIAL_ID, MSG_SIZE, TYPE, PATH, SEQUENCES, \
+from dadou_utils.utils_static import AUDIOS_DIRECTORY, BUTTON_GRID, EYES, RPI_TYPE, LAPTOP_TYPE, NAME, SERIAL_ID, MSG_SIZE, TYPE, PATH, SEQUENCES, \
     MOUTH, VISUALS, VISUALS, LAPTOP_TYPE, RPI_TYPE, BASE_PATH, WS_CLIENT, JSON_EXPRESSIONS, JSON_LIGHTS, JSON_DIRECTORY, \
     SEQUENCES_DIRECTORY, AUDIO_NAME, AUDIO_PATH, DEVICES, PATHS, LOGGING_CONFIG_FILE, JSON_CONFIG, JSON_LIGHTS_BASE, \
     JSON_SPEECHS, PLAYLIST_PATH, GLOVE_LEFT, GLOVE_RIGHT, PROJECT_LIGHTS_DIRECTORY, \
@@ -18,8 +18,6 @@ config[WS_PORT] = 4421
 config[WS_CLIENTS] = {'robot': '192.168.1.200', 'sceno': '192.168.1.220', 'harddrive': '192.168.1.230'}
 #config[WS_CLIENT] = {'sceno': 'ws://192.168.1.220:4421', 'sceno': 'ws://192.168.1.220:4421'}
 ############## JSON FILES ##############
-
-
 
 config[JSON_CONFIG] = 'control_config.json'
 config[JSON_EXPRESSIONS] = 'expressions.json'
@@ -52,6 +50,8 @@ config[CYAN] = '#0f4c5c'
 config[FONT1] = "Helvetica 18 italic bold" #None tkfont.Font(family='Helvetica', size=18, weight="bold", slant="italic")
 config[FONT2] = "Helvetica 15 italic bold" #None tkfont.Font(family='Helvetica', size=15, weight="bold", slant="italic")
 config[FONT3] = "Helvetica 12 italic bold" #None tkfont.Font(family='Helvetica', size=12, weight="bold", slant="italic")
+
+config[BUTTON_GRID] = "Helvetica 60 italic bold" #None tkfont.Font(family='Helvetica', size=18, weight="bold", slant="italic")
 
 config[PLAYLIST_PLAY] = "c"
 config[PLAYLIST_STOP] = "j"

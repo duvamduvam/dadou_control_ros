@@ -1,11 +1,13 @@
 import logging
+import os
 import tkinter as tk
 from tkinter import BOTH, TOP, filedialog, LEFT, X, Y, RIGHT, END
+from playsound import playsound
 
 from dadou_utils.utils.time_utils import TimeUtils
 from dadou_utils.files.files_utils import FilesUtils
 from dadou_utils.utils_static import NAME, PLAYLISTS, AUDIO, STOP, INPUT_KEY, KEY, PLAYLIST_PLAY, BASE_PATH, BORDEAUX, \
-    PLAYLIST_PATH, CYAN, AUDIOS_DIRECTORY
+    PLAYLIST_PATH, CYAN, AUDIOS_DIRECTORY, FONT1, FONT2
 from dadou_utils.audios.sound_object import SoundObject
 
 from dadoucontrol.control_factory import ControlFactory
@@ -24,22 +26,22 @@ class PlaylistWindow(tk.Frame):
         tk.Frame.__init__(self, parent, *args, **kwargs)
         self.pack(fill=BOTH, expand=True, side=TOP)
         self.main = tk.Frame(self, width=600, bg=config[BORDEAUX])
-        self.main.pack(fill=X, expand=True, side=RIGHT)
+        self.main.pack(fill=BOTH, expand=True, side=RIGHT)
 
         left_menu = tk.Frame(self, width=50, bg=config[CYAN])
-        left_menu.pack(fill=X, ipadx=20, side=LEFT)
+        left_menu.pack(fill=BOTH, ipadx=20, side=LEFT)
 
         self.files = tk.StringVar()
         self.files.set(FilesUtils.get_folder_files_name(config[BASE_PATH] + config[PLAYLIST_PATH]))
-        self.files_listbox = tk.Listbox(left_menu, listvariable=self.files, height=16)
+        self.files_listbox = tk.Listbox(left_menu, listvariable=self.files, height=20, font=config[FONT2])
         self.files_listbox.bind('<<ListboxSelect>>', self.click_file)
-        self.files_listbox.pack(fill=X, ipadx=20, side=LEFT)
+        self.files_listbox.pack(fill=X, ipadx=20, side=TOP)
 
         self.playlist_data = None
 
         self.playlist_var = tk.StringVar()
         self.files.set(FilesUtils.get_folder_files_name(config[BASE_PATH] + config[PLAYLIST_PATH]))
-        self.playlist_listbox = tk.Listbox(self.main, listvariable=self.playlist_var, selectbackground=config[BORDEAUX], height=16, width=40)
+        self.playlist_listbox = tk.Listbox(self.main, listvariable=self.playlist_var, selectbackground=config[BORDEAUX], height=16, width=40, font=config[FONT2])
         self.playlist_listbox.bind('<<ListboxSelect>>', self.click_audio)
         self.playlist_listbox.grid(row=0, column=0, rowspan=7, columnspan=3, sticky='new')
 
@@ -96,21 +98,28 @@ class PlaylistWindow(tk.Frame):
         self.files.append(filepath)
 
     def click_play(self):
-        audio = SoundObject(config[BASE_PATH] + '/..' + config[AUDIOS_DIRECTORY], self.playlist_listbox.get(self.playlist_listbox.curselection()[0]))
-        audio.play()
-        self.next()
+        #audio = SoundObject(config[BASE_PATH] + '/..' + config[AUDIOS_DIRECTORY], self.playlist_listbox.get(self.playlist_listbox.curselection()[0]))
+        #audio.play()
+        playlist_num = self.playlist_listbox.curselection()[0]
+        audio_params = list(self.playlist_data.values())[playlist_num]
+        audio_path = config[BASE_PATH] + '/..' + config[AUDIOS_DIRECTORY] + audio_params[AUDIO]
+        if os.path.isfile(audio_path):
+            playsound(audio_path)
+            self.next()
+        else:
+            logging.error("{} not available".format(audio_path))
 
     def click_send(self):
         playlist_num = self.playlist_listbox.curselection()[0]
-        audio_name = self.playlist_listbox.get(playlist_num)
+        #audio_name = self.playlist_listbox.get(playlist_num)
         audio_params = list(self.playlist_data.values())[playlist_num]
-        audio_params[AUDIO] = audio_name
+        #audio_params[AUDIO] = audio_name
         logging.info("send playlist number {} value {}".format(playlist_num, audio_params))
-        ControlFactory().message.send(audio_params)
+        ControlFactory().message.send_multi_ws(audio_params)
         self.next()
 
     def click_stop(self):
-        ControlFactory().message.send({AUDIO: STOP})
+        ControlFactory().message.send_multi_ws({AUDIO: STOP})
 
     def click_audio(self, evt):
         w = evt.widget
@@ -163,5 +172,5 @@ class PlaylistWindow(tk.Frame):
                     self.last_glove_input_time = TimeUtils.current_milli_time()
                 else:
                     #TODO improve that ...
-                    ControlFactory().message.send({KEY:msg})
+                    ControlFactory().message.send_multi_ws({KEY:msg})
 
