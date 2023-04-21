@@ -167,10 +167,11 @@ class PlaylistWindow(tk.Frame):
         for device in devices:
             msg = device.get_msg_separator()
             if msg:
-                if msg in self.input_key_play and TimeUtils.is_time(self.last_glove_input_time, 2000):
-                    self.click_send()
-                    self.last_glove_input_time = TimeUtils.current_milli_time()
+                if msg in self.input_key_play:
+                    if TimeUtils.is_time(self.last_glove_input_time, 2000):
+                        self.click_send()
+                        self.last_glove_input_time = TimeUtils.current_milli_time()
                 else:
                     #TODO improve that ...
-                    ControlFactory().message.send_multi_ws({KEY:msg})
+                    ControlFactory().message.send_multi_ws({KEY: msg})
 

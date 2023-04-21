@@ -1,2 +1,53 @@
-2023-04-19 23:32:52,327 - root - ERROR - ws_client.py - __init__ : 27 - device robot ws://192.168.1.200:4421 down
-2023-04-19 23:32:55,382 - root - ERROR - ws_client.py - __init__ : 27 - device sceno ws://192.168.1.220:4421 down
+2023-04-21 12:43:58,851 - root - INFO - ws_client.py - __init__ : 30 - device robot ws://192.168.1.200:4421 listening
+2023-04-21 12:43:59,062 - root - INFO - ws_client.py - __init__ : 30 - device sceno ws://192.168.1.220:4421 listening
+2023-04-21 12:44:02,125 - root - ERROR - ws_client.py - __init__ : 27 - device harddrive ws://192.168.1.230:4421 down
+2023-04-21 12:44:02,235 - root - INFO - main.py - <module> : 15 - Starting remote control
+2023-04-21 12:44:09,835 - root - INFO - playlist_window.py - click_file : 148 - You selected item 0: "didier20.json"
+2023-04-21 12:44:16,992 - root - INFO - playlist_window.py - click_send : 117 - send playlist number 32 value {'animation': 'iloveyou'}
+2023-04-21 12:44:16,992 - root - INFO - ws_client.py - send : 49 - send {'animation': 'iloveyou'} to robot
+2023-04-21 12:44:17,060 - root - INFO - ws_client.py - send : 49 - send {'animation': 'iloveyou'} to sceno
+2023-04-21 12:44:26,320 - root - INFO - ws_client.py - send : 49 - send {'audio': 'stop'} to robot
+2023-04-21 12:44:26,522 - root - INFO - ws_client.py - send : 49 - send {'audio': 'stop'} to sceno
+2023-04-21 12:46:37,925 - root - INFO - playlist_window.py - click_send : 117 - send playlist number 32 value {'animation': 'iloveyou'}
+2023-04-21 12:46:37,925 - root - INFO - ws_client.py - send : 49 - send {'animation': 'iloveyou'} to robot
+2023-04-21 12:46:38,003 - root - INFO - ws_client.py - send : 49 - send {'animation': 'iloveyou'} to sceno
+2023-04-21 12:46:40,411 - root - INFO - playlist_window.py - click_send : 117 - send playlist number 33 value {'animation': 'stop'}
+2023-04-21 12:46:40,412 - root - INFO - ws_client.py - send : 49 - send {'animation': 'stop'} to robot
+2023-04-21 12:46:40,442 - root - INFO - ws_client.py - send : 49 - send {'animation': 'stop'} to sceno
+2023-04-21 12:47:39,684 - root - INFO - playlist_window.py - click_send : 117 - send playlist number 32 value {'animation': 'iloveyou'}
+2023-04-21 12:47:39,685 - root - INFO - ws_client.py - send : 49 - send {'animation': 'iloveyou'} to robot
+2023-04-21 12:47:44,841 - root - INFO - playlist_window.py - click_send : 117 - send playlist number 32 value {'animation': 'iloveyou'}
+2023-04-21 12:47:44,842 - root - INFO - ws_client.py - send : 49 - send {'animation': 'iloveyou'} to robot
+2023-04-21 12:47:44,974 - root - INFO - ws_client.py - send : 49 - send {'animation': 'iloveyou'} to sceno
+2023-04-21 12:47:51,491 - root - INFO - playlist_window.py - click_send : 117 - send playlist number 33 value {'animation': 'stop'}
+2023-04-21 12:47:51,491 - root - INFO - ws_client.py - send : 49 - send {'animation': 'stop'} to robot
+2023-04-21 12:47:51,527 - root - INFO - ws_client.py - send : 49 - send {'animation': 'stop'} to sceno
+2023-04-21 12:49:28,271 - root - INFO - playlist_window.py - click_send : 117 - send playlist number 32 value {'animation': 'iloveyou'}
+2023-04-21 12:49:28,272 - root - INFO - ws_client.py - send : 49 - send {'animation': 'iloveyou'} to robot
+2023-04-21 12:49:28,403 - root - INFO - ws_client.py - send : 49 - send {'animation': 'iloveyou'} to sceno
+2023-04-21 12:49:32,341 - root - INFO - playlist_window.py - click_send : 117 - send playlist number 33 value {'animation': 'stop'}
+2023-04-21 12:49:32,342 - root - INFO - ws_client.py - send : 49 - send {'animation': 'stop'} to robot
+2023-04-21 12:49:32,499 - root - INFO - ws_client.py - send : 49 - send {'animation': 'stop'} to sceno
+2023-04-21 12:49:40,238 - root - INFO - playlist_window.py - click_send : 117 - send playlist number 33 value {'animation': 'stop'}
+2023-04-21 12:49:40,238 - root - INFO - ws_client.py - send : 49 - send {'animation': 'stop'} to robot
+2023-04-21 12:49:40,281 - root - INFO - ws_client.py - send : 49 - send {'animation': 'stop'} to sceno
+2023-04-21 12:49:46,389 - root - INFO - playlist_window.py - click_send : 117 - send playlist number 32 value {'animation': 'iloveyou'}
+2023-04-21 12:49:46,390 - root - INFO - ws_client.py - send : 49 - send {'animation': 'iloveyou'} to robot
+2023-04-21 12:49:46,421 - root - INFO - ws_client.py - send : 49 - send {'animation': 'iloveyou'} to sceno
+2023-04-21 12:49:52,034 - root - INFO - playlist_window.py - click_send : 117 - send playlist number 33 value {'animation': 'stop'}
+2023-04-21 12:49:52,035 - root - INFO - ws_client.py - send : 49 - send {'animation': 'stop'} to robot
+2023-04-21 12:49:52,157 - root - INFO - ws_client.py - send : 49 - send {'animation': 'stop'} to sceno
+2023-04-21 12:52:31,974 - root - INFO - playlist_window.py - click_send : 117 - send playlist number 32 value {'animation': 'iloveyou'}
+2023-04-21 12:52:31,974 - root - INFO - ws_client.py - send : 49 - send {'animation': 'iloveyou'} to robot
+2023-04-21 12:52:31,999 - root - INFO - ws_client.py - send : 49 - send {'animation': 'iloveyou'} to sceno
+2023-04-21 12:52:37,495 - root - INFO - playlist_window.py - click_send : 117 - send playlist number 33 value {'animation': 'stop'}
+2023-04-21 12:52:37,495 - root - INFO - ws_client.py - send : 49 - send {'animation': 'stop'} to robot
+2023-04-21 12:52:37,641 - root - INFO - ws_client.py - send : 49 - send {'animation': 'stop'} to sceno
+2023-04-21 13:02:37,513 - root - INFO - ws_client.py - __init__ : 30 - device robot ws://192.168.1.200:4421 listening
+2023-04-21 13:02:37,713 - root - INFO - ws_client.py - __init__ : 30 - device sceno ws://192.168.1.220:4421 listening
+2023-04-21 13:02:40,766 - root - ERROR - ws_client.py - __init__ : 27 - device harddrive ws://192.168.1.230:4421 down
+2023-04-21 13:02:40,839 - root - INFO - main.py - <module> : 15 - Starting remote control
+2023-04-21 13:02:44,610 - root - INFO - playlist_window.py - click_file : 148 - You selected item 0: "didier20.json"
+2023-04-21 13:02:55,875 - root - INFO - playlist_window.py - click_send : 117 - send playlist number 46 value {'audio': 'didier20/acces_refuse.mp3'}
+2023-04-21 13:02:55,875 - root - INFO - ws_client.py - send : 49 - send {'audio': 'didier20/acces_refuse.mp3'} to robot
+2023-04-21 13:02:55,953 - root - INFO - ws_client.py - send : 49 - send {'audio': 'didier20/acces_refuse.mp3'} to sceno
