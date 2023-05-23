@@ -1,159 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="ANALYZE_INJECTED_CODE" value="false" />
-  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e737f4f3-4117-4ba7-a7c5-4eb5247e9199" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/audios/didier20/allez_dance.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/didier20/cette_voix_vous_sied_t_il.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/didier20/il_te_reste_des_cartons.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/didier20/je_doute_de_ton_jugement.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/didier20/ne_pas_pousser_les_investigations.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/didier20/ne_t_approche_pas.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/didier20/quoi_on_se_calme.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/didier20/tu_m_as_fait_quoi1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/song/dark-ambiance.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visuals/icons.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visuals/mouth/brain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visuals/mouth/brain2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visuals/mouth/internet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visuals/mouth/warning1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visuals/mouth/warning2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/tu_m_as_fait_quoi1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dadou_robot/audios/effects/Access-Granted.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dadou_robot/json/sequences/access-internet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dadou_robot/json/sequences/internet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dadou_robot/json/sequences/neck-side-to-side.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dadou_robot/json/sequences/stop.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dadou_robot/json/sequences/upload-cerveau.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dadou_robot/json/sequences/warning.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dadou_sceno/audios/song/dark-ambiance-low.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dadou_sceno/audios/song/dark-ambiance.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dadou_sceno/audios/song/lacrimosa.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dadou_sceno/audios/song/motivation.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dadou_sceno/audios/song/motivation_mid.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dadou_sceno/audios/song/motivation_short.mp3" afterDir="false" />
+    <list default="true" id="8834d6bf-4916-4843-ad3f-ff3aceda6791" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/audios/didier20/cabaret2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/didier20/cest-chaud.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/didier20/faire-crever-des-sdf.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/didier20/jim.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/didier20/mais-tu-me-drogue.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/didier20/mets-le-casque.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/didier20/psychotrope.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/didier20/record-chips.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/didier20/rire-drogue.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/didier20/suicide.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/didier20/travolta1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/didier20/travolta2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/didier20/tu-m-en-redonne.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/didier20/tu-penses-que-ca-va-suffir.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/didier20/va-nous-chercher-les-chips1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/didier20/va-nous-chercher-les-chips2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audios/song/motivation_super_short.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dadou_utils" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dadou_utils/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dadou_utils/.idea/dadou_utils.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dadou_utils/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dadou_utils/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dadou_utils/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dadou_utils/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dadou_control.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dadou_control.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/didier20/Je-sens-plus-rien.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audios/didier20/Je-sens-plus-rien.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/didier20/Qu-est-ce-que-tu-ma-fait.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audios/didier20/Qu-est-ce-que-tu-ma-fait.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/didier20/Quoi-ce-tas-de-feraille.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audios/didier20/Quoi-ce-tas-de-feraille.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/didier20/acces_4g.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audios/didier20/acces_4g.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/didier20/adopteunmec.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audios/didier20/adopteunmec.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/didier20/allez_soit_cool.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audios/didier20/allez_soit_cool.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/didier20/c_est_moi_qui_control.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audios/didier20/c_est_moi_qui_control.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/didier20/c_est_quoi_le_darknet.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audios/didier20/c_est_quoi_le_darknet.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/didier20/fait_pas_ca.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audios/didier20/fait_pas_ca.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/didier20/il-est-genial-ce-corps.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audios/didier20/il-est-genial-ce-corps.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/didier20/ils_sont_pas_sympa.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audios/didier20/ils_sont_pas_sympa.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/didier20/je_dis_ce_que_tu_fais.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audios/didier20/je_dis_ce_que_tu_fais.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/didier20/je_l_ai.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audios/didier20/je_l_ai.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/didier20/je_ne_suis_pas_un_jouet.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audios/didier20/je_ne_suis_pas_un_jouet.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/didier20/juste_un_petit_hack.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audios/didier20/juste_un_petit_hack.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/didier20/mais_tu_m_as_fait_quoi.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audios/didier20/mais_tu_m_as_fait_quoi.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/didier20/merci-cher-jack.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audios/didier20/merci-cher-jack.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/didier20/met_le_casque.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audios/didier20/met_le_casque.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/didier20/musique_chips.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audios/didier20/musique_chips.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/didier20/quoi_attend.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audios/didier20/quoi_attend.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/didier20/s-adapter-de-quoi.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audios/didier20/s-adapter-de-quoi.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/didier20/tiens_t_as_des_messages.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audios/didier20/tiens_t_as_des_messages.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/didier20/tout_le_public.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audios/didier20/tout_le_public.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/didier20/trop_tard.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audios/didier20/trop_tard.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils/com/ws_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/com/ws_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/misc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils/utils_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/utils_static.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/control_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/control_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/control_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/control_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/config_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/config_window.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/playlist_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/playlist_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json" beforeDir="false" afterPath="$PROJECT_DIR$/json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/control.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/control.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/Je-sens-plus-rien.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/Je-sens-plus-rien.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/Qu-est-ce-que-tu-ma-fait.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/Qu-est-ce-que-tu-ma-fait.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/Quoi-ce-tas-de-feraille.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/Quoi-ce-tas-de-feraille.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/acces_4g.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/acces_4g.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/adopteunmec.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/adopteunmec.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/allez_soit_cool.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/allez_soit_cool.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/c_est_moi_qui_control.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/c_est_moi_qui_control.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/c_est_quoi_le_darknet.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/c_est_quoi_le_darknet.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/fait_pas_ca.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/fait_pas_ca.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/il-est-genial-ce-corps.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/il-est-genial-ce-corps.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/ils_sont_pas_sympa.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/ils_sont_pas_sympa.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/je_dis_ce_que_tu_fais.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/je_dis_ce_que_tu_fais.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/je_l_ai.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/je_l_ai.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/je_ne_suis_pas_un_jouet.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/je_ne_suis_pas_un_jouet.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/juste_un_petit_hack.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/juste_un_petit_hack.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/mais_tu_m_as_fait_quoi.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/mais_tu_m_as_fait_quoi.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/merci-cher-jack.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/merci-cher-jack.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/met_le_casque.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/met_le_casque.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/musique_chips.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/musique_chips.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/quoi_attend.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/quoi_attend.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/s-adapter-de-quoi.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/s-adapter-de-quoi.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/t-es-sur.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/tes-sur.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/tiens_t_as_des_messages.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/tiens_t_as_des_messages.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/tout_le_public.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/tout_le_public.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/trop_tard.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/audios/didier20/trop_tard.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/didier20/tu_m_as_fait_quoi.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/effects/electrochoc1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/audios/effects/encephalogramme.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/dadourobot/actions/audio_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/dadourobot/actions/audio_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/dadourobot/actions/face.py" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/dadourobot/actions/face.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/dadourobot/robot_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/dadourobot/robot_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/dadourobot/visual/visual.py" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/dadourobot/visual/visual.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/json/audios.json" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/json/audios.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/json/expressions.json" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/json/expressions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_robot/json/playlists/didier20.json" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_robot/json/playlists/didier20.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_sceno/audios/didier20/acces_4g.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_sceno/audios/didier20/tiens_t_as_des_messages.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_sceno/audios/didier20/tout_le_public.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_sceno/audios/effects/encephalogramme.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_sceno/audios/effects/encephalogramme.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_sceno/audios/gig.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_sceno/audios/gig.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dadou_sceno/json/audios.json" beforeDir="false" afterPath="$PROJECT_DIR$/../dadou_sceno/json/audios.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/legacy/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/legacy/test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/legacy/update_run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/legacy/update_run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/legacy/update_test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/legacy/update_test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/project-deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/project-deploy.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" show_ignored="true" />
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Unit Test" />
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
-  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
-    <envs>
-      <env key="FLASK_APP" value="app" />
-    </envs>
-    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
-    <option name="myEnvs">
-      <map>
-        <entry key="FLASK_APP" value="app" />
-      </map>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/dadoucontrol/audio/audio_navigation.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/dadoucontrol/control_factory.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/dadoucontrol/gui/tkinter_gui.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_text.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/dadoucontrol/gui/windows/frames/music_frame.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/navigation_widget.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/time_line_bar.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/dadoucontrol/gui/windows/keyboard_window.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/dadoucontrol/gui/windows/lights_window.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/dadoucontrol/gui/windows/sequences_window.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../dadou_utils/audios/time_singleton.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2A5LFS0mA3tGiyxzc6OqvcJlu2f" />
+  <component name="ProjectId" id="2PespHaVYEWz2SyhAAEd671MulL" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -161,51 +70,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/dadou/Nextcloud/Didier/python/dadou_control/audios/didier20&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;/home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/control_static.py&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "last_opened_file_path": "/home/dadou/Nextcloud/Didier/python/dadou_control/audios/didier20",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <console-settings module-name="dadou_control" is-module-sdk="true">
-        <option name="myUseModuleSdk" value="true" />
-        <option name="myModuleName" value="dadou_control" />
-      </console-settings>
-    </option>
-  </component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/audios/didier20" />
-      <recent name="$PROJECT_DIR$/conf/rpi" />
-      <recent name="$PROJECT_DIR$/json/projects_lights" />
-      <recent name="$PROJECT_DIR$/../dadou_utils/rpi" />
-      <recent name="$PROJECT_DIR$/../dadou_utils" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/audios/song" />
-      <recent name="$PROJECT_DIR$/dadoucontrol/gui/windows/frames" />
-      <recent name="$PROJECT_DIR$/dadoucontrol/gui/windows" />
-      <recent name="$PROJECT_DIR$/../dadou_robot/scripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.local control">
-    <configuration name="assistant" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dadou_control" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -213,52 +99,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dadoucontrol/speech" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dadoucontrol/speech/assistant.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="local control" type="PythonConfigurationType" factoryName="Python">
-      <module name="dadou_control" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="SDK_NAME" value="Python 3.9 (dadou_control)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dadoucontrol/gui/windows/audio" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="remote control" type="PythonConfigurationType" factoryName="Python">
-      <module name="dadou_control" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dadoucontrol/gui/windows/audio" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -272,682 +113,65 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="text_to_speech" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="dadou_control" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dadoucontrol/speech" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dadoucontrol/speech/text_to_speech.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="treeview" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="dadou_control" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dadoucontrol/tests/samples" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dadoucontrol/tests/samples/treeview.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_speech.TestSpeech.test_microphone" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="dadou_control" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dadoucontrol/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_speech.TestSpeech.test_microphone&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Python.remote control" />
-      <item itemvalue="Python.local control" />
-      <item itemvalue="Python.assistant" />
-      <item itemvalue="Python.text_to_speech" />
-      <item itemvalue="Python.treeview" />
-      <item itemvalue="Python tests.Python tests for test_speech.TestSpeech.test_microphone" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.treeview" />
-        <item itemvalue="Python.assistant" />
-        <item itemvalue="Python tests.Python tests for test_speech.TestSpeech.test_microphone" />
-        <item itemvalue="Python.text_to_speech" />
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e737f4f3-4117-4ba7-a7c5-4eb5247e9199" name="Changes" comment="" />
-      <created>1654294395475</created>
+      <changelist id="8834d6bf-4916-4843-ad3f-ff3aceda6791" name="Changes" comment="" />
+      <created>1683829062904</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1654294395475</updated>
-      <workItem from="1654294396553" duration="334000" />
-      <workItem from="1654298619665" duration="845000" />
-      <workItem from="1666346938471" duration="4637000" />
-      <workItem from="1666355871643" duration="5632000" />
-      <workItem from="1666376222924" duration="49300000" />
-      <workItem from="1666520591899" duration="1738000" />
-      <workItem from="1666522421209" duration="3806000" />
-      <workItem from="1666545505803" duration="21236000" />
-      <workItem from="1666631172504" duration="206000" />
-      <workItem from="1666631394689" duration="157000" />
-      <workItem from="1666631630563" duration="141000" />
-      <workItem from="1666631919671" duration="1001000" />
-      <workItem from="1666633090136" duration="343000" />
-      <workItem from="1666633473029" duration="1058000" />
-      <workItem from="1666634566106" duration="1201000" />
-      <workItem from="1666635843769" duration="1163000" />
-      <workItem from="1666638156929" duration="199000" />
-      <workItem from="1666640192941" duration="490000" />
-      <workItem from="1666641535207" duration="722000" />
-      <workItem from="1666644359803" duration="4245000" />
-      <workItem from="1666649635122" duration="346000" />
-      <workItem from="1666650174061" duration="634000" />
-      <workItem from="1666650980200" duration="116000" />
-      <workItem from="1666651343038" duration="103000" />
-      <workItem from="1666652333139" duration="61000" />
-      <workItem from="1666713059791" duration="4141000" />
-      <workItem from="1666718494951" duration="84000" />
-      <workItem from="1666726613031" duration="1647000" />
-      <workItem from="1666732780928" duration="263000" />
-      <workItem from="1666733072332" duration="181000" />
-      <workItem from="1666733403476" duration="23000" />
-      <workItem from="1666733464153" duration="251000" />
-      <workItem from="1666733721359" duration="134000" />
-      <workItem from="1666733959592" duration="578000" />
-      <workItem from="1666735140826" duration="525000" />
-      <workItem from="1666735722831" duration="99000" />
-      <workItem from="1666735939342" duration="328000" />
-      <workItem from="1666736642999" duration="130000" />
-      <workItem from="1666737248713" duration="87000" />
-      <workItem from="1666738894240" duration="344000" />
-      <workItem from="1666739286975" duration="156000" />
-      <workItem from="1666739514359" duration="272000" />
-      <workItem from="1666806437596" duration="140000" />
-      <workItem from="1666815957387" duration="646000" />
-      <workItem from="1666816807285" duration="293000" />
-      <workItem from="1666902464826" duration="369000" />
-      <workItem from="1666903499126" duration="490000" />
-      <workItem from="1666904232665" duration="1693000" />
-      <workItem from="1666955549644" duration="52000" />
-      <workItem from="1666960301503" duration="149000" />
-      <workItem from="1666960582037" duration="665000" />
-      <workItem from="1667047560070" duration="53000" />
-      <workItem from="1667391405948" duration="2579000" />
-      <workItem from="1667511102679" duration="11325000" />
-      <workItem from="1667605246599" duration="3140000" />
-      <workItem from="1667819871739" duration="324000" />
-      <workItem from="1668003328935" duration="975000" />
-      <workItem from="1668004910266" duration="184000" />
-      <workItem from="1668005176831" duration="705000" />
-      <workItem from="1668037749772" duration="469000" />
-      <workItem from="1668122641255" duration="185000" />
-      <workItem from="1668122959514" duration="1247000" />
-      <workItem from="1668338799232" duration="796000" />
-      <workItem from="1668554090889" duration="2337000" />
-      <workItem from="1668556512938" duration="82000" />
-      <workItem from="1668556605515" duration="288000" />
-      <workItem from="1668557043291" duration="11000" />
-      <workItem from="1668557063328" duration="1140000" />
-      <workItem from="1668558552270" duration="1289000" />
-      <workItem from="1668560030087" duration="713000" />
-      <workItem from="1668560763350" duration="150000" />
-      <workItem from="1668585232799" duration="4000" />
-      <workItem from="1668585400671" duration="114000" />
-      <workItem from="1668588354749" duration="32000" />
-      <workItem from="1668588422831" duration="47000" />
-      <workItem from="1668588635197" duration="90000" />
-      <workItem from="1668589274739" duration="21000" />
-      <workItem from="1668589310845" duration="285000" />
-      <workItem from="1668589637425" duration="27000" />
-      <workItem from="1668589692398" duration="296000" />
-      <workItem from="1668590002642" duration="13000" />
-      <workItem from="1668590090966" duration="85000" />
-      <workItem from="1668590387388" duration="370000" />
-      <workItem from="1668590810669" duration="307000" />
-      <workItem from="1668591153898" duration="33000" />
-      <workItem from="1668591440624" duration="431000" />
-      <workItem from="1668591880313" duration="101000" />
-      <workItem from="1668598305150" duration="5184000" />
-      <workItem from="1668613614063" duration="345000" />
-      <workItem from="1668615785886" duration="210000" />
-      <workItem from="1668616774208" duration="2673000" />
-      <workItem from="1668619463665" duration="282000" />
-      <workItem from="1668619894507" duration="206000" />
-      <workItem from="1668622650919" duration="65000" />
-      <workItem from="1668685759008" duration="74000" />
-      <workItem from="1668685883072" duration="430000" />
-      <workItem from="1668698672387" duration="118000" />
-      <workItem from="1668715886802" duration="2664000" />
-      <workItem from="1668987421389" duration="2550000" />
-      <workItem from="1669062412897" duration="469000" />
-      <workItem from="1669243428047" duration="124000" />
-      <workItem from="1669318615901" duration="334000" />
-      <workItem from="1669318965170" duration="2030000" />
-      <workItem from="1670006912708" duration="4007000" />
-      <workItem from="1670011123515" duration="2363000" />
-      <workItem from="1670090723317" duration="115000" />
-      <workItem from="1670891831839" duration="6358000" />
-      <workItem from="1671133980766" duration="8000" />
-      <workItem from="1671135075303" duration="795000" />
-      <workItem from="1671217908959" duration="5935000" />
-      <workItem from="1671230869946" duration="8758000" />
-      <workItem from="1671281696873" duration="7901000" />
-      <workItem from="1671313183070" duration="10641000" />
-      <workItem from="1671349295926" duration="33550000" />
-      <workItem from="1671532238374" duration="1214000" />
-      <workItem from="1671545928794" duration="7010000" />
-      <workItem from="1671656344134" duration="6267000" />
-      <workItem from="1671717605293" duration="650000" />
-      <workItem from="1672134458002" duration="21000" />
-      <workItem from="1672267552846" duration="5837000" />
-      <workItem from="1672273715495" duration="4005000" />
-      <workItem from="1672353039738" duration="7740000" />
-      <workItem from="1672432868160" duration="2397000" />
-      <workItem from="1672474851487" duration="521000" />
-      <workItem from="1672607019851" duration="9513000" />
-      <workItem from="1672699104529" duration="6418000" />
-      <workItem from="1672783290900" duration="16127000" />
-      <workItem from="1672956296095" duration="12458000" />
-      <workItem from="1673209665064" duration="3855000" />
-      <workItem from="1673301198707" duration="9777000" />
-      <workItem from="1673644709553" duration="12192000" />
-      <workItem from="1673736793823" duration="3658000" />
-      <workItem from="1673822213518" duration="5838000" />
-      <workItem from="1673908410436" duration="824000" />
-      <workItem from="1675712471017" duration="66000" />
-      <workItem from="1675894353193" duration="4971000" />
-      <workItem from="1675984263837" duration="13749000" />
-      <workItem from="1676295415975" duration="821000" />
-      <workItem from="1676296483495" duration="65000" />
-      <workItem from="1676709324012" duration="5242000" />
-      <workItem from="1676716729061" duration="3786000" />
-      <workItem from="1676798635042" duration="8000" />
-      <workItem from="1677174708692" duration="74000" />
-      <workItem from="1677174866386" duration="56000" />
-      <workItem from="1677277699538" duration="1870000" />
-      <workItem from="1677279719724" duration="373000" />
-      <workItem from="1677280104360" duration="4271000" />
-      <workItem from="1677538617662" duration="3518000" />
-      <workItem from="1677543203717" duration="57000" />
-      <workItem from="1677588570913" duration="219000" />
-      <workItem from="1677588940598" duration="105000" />
-      <workItem from="1677589061001" duration="3716000" />
-      <workItem from="1677711497966" duration="10000" />
-      <workItem from="1677712382950" duration="361000" />
-      <workItem from="1677712873179" duration="335000" />
-      <workItem from="1677799267825" duration="206000" />
-      <workItem from="1677799641574" duration="104000" />
-      <workItem from="1677799963017" duration="2855000" />
-      <workItem from="1677884904072" duration="482000" />
-      <workItem from="1677887419230" duration="1743000" />
-      <workItem from="1677889244853" duration="461000" />
-      <workItem from="1677889835887" duration="382000" />
-      <workItem from="1677890344798" duration="99000" />
-      <workItem from="1677912831190" duration="12000" />
-      <workItem from="1678052857707" duration="1576000" />
-      <workItem from="1678054634708" duration="4144000" />
-      <workItem from="1678059848242" duration="2543000" />
-      <workItem from="1678062757264" duration="209000" />
-      <workItem from="1678063509716" duration="230000" />
-      <workItem from="1678086359331" duration="3816000" />
-      <workItem from="1678134256149" duration="7000" />
-      <workItem from="1678135323401" duration="3658000" />
-      <workItem from="1678139535808" duration="85000" />
-      <workItem from="1678139657011" duration="331000" />
-      <workItem from="1678140023992" duration="1934000" />
-      <workItem from="1678176060469" duration="1152000" />
-      <workItem from="1678178300483" duration="129000" />
-      <workItem from="1678178441359" duration="62000" />
-      <workItem from="1678178617036" duration="10000" />
-      <workItem from="1678179108236" duration="644000" />
-      <workItem from="1678179861957" duration="2785000" />
-      <workItem from="1678228217606" duration="4931000" />
-      <workItem from="1678284907280" duration="775000" />
-      <workItem from="1678296143614" duration="631000" />
-      <workItem from="1678303172422" duration="30000" />
-      <workItem from="1678310544936" duration="602000" />
-      <workItem from="1678317598337" duration="2465000" />
-      <workItem from="1678320076524" duration="5000" />
-      <workItem from="1678393483284" duration="3213000" />
-      <workItem from="1678399418148" duration="3275000" />
-      <workItem from="1678524136233" duration="8858000" />
-      <workItem from="1678654580547" duration="858000" />
-      <workItem from="1678658328185" duration="240000" />
-      <workItem from="1678658610093" duration="1648000" />
-      <workItem from="1678959734679" duration="1459000" />
-      <workItem from="1679008872231" duration="6440000" />
-      <workItem from="1679044724667" duration="2446000" />
-      <workItem from="1679146925542" duration="18000" />
-      <workItem from="1679163066588" duration="617000" />
-      <workItem from="1679231952045" duration="2919000" />
-      <workItem from="1679349814071" duration="10526000" />
-      <workItem from="1679402352864" duration="11977000" />
-      <workItem from="1679444508851" duration="12408000" />
-      <workItem from="1679602851926" duration="215000" />
-      <workItem from="1679609818514" duration="625000" />
-      <workItem from="1679782188619" duration="21000" />
-      <workItem from="1680044869624" duration="13663000" />
-      <workItem from="1680087719527" duration="3920000" />
-      <workItem from="1680095568872" duration="16240000" />
-      <workItem from="1680128669463" duration="4576000" />
-      <workItem from="1680158084708" duration="23079000" />
-      <workItem from="1680197550184" duration="16124000" />
-      <workItem from="1680282339423" duration="794000" />
-      <workItem from="1680285026864" duration="101000" />
-      <workItem from="1680651737138" duration="7905000" />
-      <workItem from="1680698257282" duration="967000" />
-      <workItem from="1680717403208" duration="8000" />
-      <workItem from="1680803890146" duration="6839000" />
-      <workItem from="1680813022072" duration="3414000" />
-      <workItem from="1680816592723" duration="12497000" />
-      <workItem from="1680943434012" duration="8000" />
-      <workItem from="1680943449304" duration="3206000" />
-      <workItem from="1680965087587" duration="1235000" />
-      <workItem from="1680996065340" duration="3606000" />
-      <workItem from="1681023152282" duration="5455000" />
-      <workItem from="1681077487581" duration="28000" />
-      <workItem from="1681079338612" duration="2780000" />
-      <workItem from="1681476431489" duration="944000" />
-      <workItem from="1681477415493" duration="3052000" />
-      <workItem from="1681592020449" duration="976000" />
-      <workItem from="1681738712838" duration="1913000" />
-      <workItem from="1681803695243" duration="932000" />
-      <workItem from="1681805689530" duration="2915000" />
-      <workItem from="1681827821541" duration="2340000" />
-      <workItem from="1681856009433" duration="39000" />
-      <workItem from="1681856143324" duration="1119000" />
-      <workItem from="1681857658738" duration="1616000" />
-      <workItem from="1681859915844" duration="3291000" />
-      <workItem from="1681889902714" duration="4884000" />
-      <workItem from="1681896562761" duration="2727000" />
-      <workItem from="1681925170244" duration="1659000" />
-      <workItem from="1681927249762" duration="4308000" />
-      <workItem from="1681940071343" duration="1025000" />
-      <workItem from="1681945434673" duration="599000" />
-      <workItem from="1681946840604" duration="978000" />
-      <workItem from="1681978109970" duration="13000" />
-      <workItem from="1682029723739" duration="357000" />
-      <workItem from="1682031737610" duration="10400000" />
-      <workItem from="1682074852700" duration="1502000" />
+      <updated>1683829062904</updated>
+      <workItem from="1683829064092" duration="5627000" />
+      <workItem from="1684095919011" duration="1260000" />
+      <workItem from="1684167735223" duration="446000" />
+      <workItem from="1684195651350" duration="9000" />
+      <workItem from="1684240636852" duration="1131000" />
+      <workItem from="1684320980780" duration="211000" />
+      <workItem from="1684493334899" duration="718000" />
+      <workItem from="1684534928356" duration="4639000" />
+      <workItem from="1684540338481" duration="5000" />
+      <workItem from="1684565047704" duration="16000" />
+      <workItem from="1684576493887" duration="2557000" />
+      <workItem from="1684700532811" duration="10067000" />
+      <workItem from="1684782189881" duration="128000" />
+      <workItem from="1684823693132" duration="7351000" />
     </task>
-    <task id="LOCAL-00001" summary="i don't know ...">
-      <created>1654844930851</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1654844930851</updated>
-    </task>
-    <task id="LOCAL-00002" summary="i don't know ...">
-      <created>1657972390507</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1657972390507</updated>
-    </task>
-    <task id="LOCAL-00003" summary="i don't know ...">
-      <created>1658367232786</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1658367232786</updated>
-    </task>
-    <task id="LOCAL-00004" summary="expression frame working">
-      <created>1658392059196</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1658392059196</updated>
-    </task>
-    <task id="LOCAL-00005" summary="expression frame working">
-      <created>1661681102961</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1661681102961</updated>
-    </task>
-    <task id="LOCAL-00006" summary="expression frame working">
-      <created>1661681356988</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1661681356988</updated>
-    </task>
-    <task id="LOCAL-00007" summary="expression frame working">
-      <created>1663188083911</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1663188083911</updated>
-    </task>
-    <task id="LOCAL-00008" summary="update json structure">
-      <created>1663276847157</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1663276847157</updated>
-    </task>
-    <task id="LOCAL-00009" summary="update json structure">
-      <created>1663278777186</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1663278777186</updated>
-    </task>
-    <task id="LOCAL-00010" summary="update json structure">
-      <created>1663278790761</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1663278790761</updated>
-    </task>
-    <task id="LOCAL-00011" summary="light window working">
-      <created>1663283088869</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1663283088869</updated>
-    </task>
-    <task id="LOCAL-00012" summary="timeline moving again">
-      <created>1663451844552</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1663451844552</updated>
-    </task>
-    <task id="LOCAL-00013" summary="rpi remote control">
-      <created>1666438268405</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1666438268405</updated>
-    </task>
-    <task id="LOCAL-00014" summary="rpi remote control">
-      <created>1666633424732</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1666633424732</updated>
-    </task>
-    <task id="LOCAL-00015" summary="ws message working">
-      <created>1666646645954</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1666646645954</updated>
-    </task>
-    <task id="LOCAL-00016" summary="ws message working">
-      <created>1666646692715</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1666646692715</updated>
-    </task>
-    <task id="LOCAL-00017" summary="ws message working">
-      <created>1666652345848</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1666652345848</updated>
-    </task>
-    <task id="LOCAL-00018" summary="update">
-      <created>1667519341447</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1667519341447</updated>
-    </task>
-    <task id="LOCAL-00019" summary="expression images management">
-      <created>1672273620746</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1672273620746</updated>
-    </task>
-    <task id="LOCAL-00020" summary="update">
-      <created>1673210697091</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1673210697091</updated>
-    </task>
-    <task id="LOCAL-00021" summary="update">
-      <created>1676711928193</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1676711928193</updated>
-    </task>
-    <task id="LOCAL-00022" summary="update">
-      <created>1676711936909</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1676711936909</updated>
-    </task>
-    <task id="LOCAL-00023" summary="update">
-      <created>1676712008237</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1676712008237</updated>
-    </task>
-    <task id="LOCAL-00024" summary="update first show">
-      <created>1678524164189</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1678524164189</updated>
-    </task>
-    <task id="LOCAL-00025" summary="refactor config and deploy">
-      <created>1679046644542</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1679046644542</updated>
-    </task>
-    <task id="LOCAL-00026" summary="refactor config and deploy">
-      <created>1679046709832</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1679046709832</updated>
-    </task>
-    <task id="LOCAL-00027" summary="refactor config and deploy">
-      <created>1679046857394</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1679046857394</updated>
-    </task>
-    <task id="LOCAL-00028" summary="improve deployment">
-      <created>1679603042132</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1679603042132</updated>
-    </task>
-    <task id="LOCAL-00029" summary="change config and deploy">
-      <created>1680285058632</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1680285058632</updated>
-    </task>
-    <task id="LOCAL-00030" summary="update">
-      <created>1681077502490</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1681077502490</updated>
-    </task>
-    <task id="LOCAL-00031" summary="update">
-      <created>1681940197699</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1681940197699</updated>
-    </task>
-    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="i don't know ..." />
-    <MESSAGE value="expression frame working" />
-    <MESSAGE value="update json structure" />
-    <MESSAGE value="light window working" />
-    <MESSAGE value="timeline moving again" />
-    <MESSAGE value="rpi remote control" />
-    <MESSAGE value="ws message working" />
-    <MESSAGE value="expression images management" />
-    <MESSAGE value="update first show" />
-    <MESSAGE value="refactor config and deploy" />
-    <MESSAGE value="improve deployment" />
-    <MESSAGE value="change config and deploy" />
-    <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file:///usr/local/lib/python3.9/dist-packages/dadou_utils/files/abstract_json_manager.py</url>
-          <line>74</line>
-          <option name="timeStamp" value="99" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/lights_window.py</url>
-          <line>191</line>
-          <option name="timeStamp" value="115" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/lights_window.py</url>
-          <line>280</line>
-          <option name="timeStamp" value="137" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/lights_window.py</url>
-          <line>321</line>
-          <option name="timeStamp" value="138" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/lights_window.py</url>
-          <line>217</line>
-          <option name="timeStamp" value="139" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/lights_window.py</url>
-          <line>245</line>
-          <option name="timeStamp" value="146" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/lights_window.py</url>
-          <line>306</line>
-          <option name="timeStamp" value="147" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dadoucontrol/com/robot_message.py</url>
-          <line>41</line>
-          <option name="timeStamp" value="148" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/sequences_window.py</url>
-          <line>37</line>
-          <option name="timeStamp" value="159" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/sequences_window.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="160" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../dadou_utils/com/ws_server.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="161" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../dadou_utils/com/ws_server.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="162" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/keyboard_window.py</url>
-          <line>94</line>
-          <option name="timeStamp" value="163" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dadoucontrol/com/robot_message.py</url>
-          <line>34</line>
-          <option name="timeStamp" value="164" />
+          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/playlist_window.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/playlist_window.py</url>
-          <line>104</line>
-          <option name="timeStamp" value="166" />
+          <line>139</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../dadou_robot/dadourobot/actions/face.py</url>
-          <line>134</line>
-          <option name="timeStamp" value="167" />
+          <url>file://$PROJECT_DIR$/dadou_utils/com/ws_client.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/dadou_control$local_control.coverage" NAME="local control Coverage Results" MODIFIED="1682074956929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol/gui/windows/audio" />
-    <SUITE FILE_PATH="coverage/dadou_control$remote_control.coverage" NAME="remote control Coverage Results" MODIFIED="1678317964476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol/gui/windows/audio" />
+    <SUITE FILE_PATH="coverage/dadou_control$main.coverage" NAME="main Coverage Results" MODIFIED="1684844816291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

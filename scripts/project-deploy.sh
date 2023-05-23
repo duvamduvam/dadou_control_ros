@@ -8,7 +8,8 @@ export UTILS_PROJECT=~/Nextcloud/Didier/python/dadou_utils
 
 export USER_HOST="t"
 export ROOT_HOST="tr"
-export RPI_IP="192.168.1.210"
+#export RPI_IP="192.168.1.210"
+export RPI_HOST_NAME="control.local"
 
 export INSTALL_LIB="yes"
 #export SET_USB_AUDIO="yes"
@@ -18,7 +19,7 @@ export SET_VIMRC="yes"
 #export INSTALL_SERVICE="yes"
 export INSTALL_AUTOSTART="yes"
 
-export PROJECT_SYSTEM_LIB="python3-opencv"
+export PROJECT_SYSTEM_LIB="python3-opencv mpg123"
 export PROJECT_PYTHON_LIB="playsound"
 
 export LOG_FILE="control.log"

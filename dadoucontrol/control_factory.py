@@ -1,7 +1,9 @@
 import logging
 import logging.config
 
-from dadou_utils.utils_static import BASE_PATH, LOGGING_CONFIG_FILE, DEVICES, JSON_DIRECTORY, WS_CLIENT
+from dadou_utils.logging_conf import LoggingConf
+from dadou_utils.utils_static import BASE_PATH, LOGGING_CONFIG_FILE, DEVICES, JSON_DIRECTORY, WS_CLIENT, \
+    LOGGING_FILE_NAME
 
 from dadou_utils.com.serial_devices_manager import SerialDeviceManager
 from dadou_utils.com.ws_client import WsClient
@@ -23,7 +25,8 @@ class ControlFactory(metaclass=SingletonMeta):
         self.VisualEye = None
 
         print("config file {}".format(config[LOGGING_CONFIG_FILE]))
-        logging.config.fileConfig(config[LOGGING_CONFIG_FILE], disable_existing_loggers=False)
+        logging.config.dictConfig(LoggingConf.get(config[LOGGING_FILE_NAME], "control"))
+        #logging.config.fileConfig(config[LOGGING_CONFIG_FILE], disable_existing_loggers=False)
 
         self.control_json_manager = ControlJsonManager()
         self.device_manager = SerialDeviceManager(config[DEVICES])
