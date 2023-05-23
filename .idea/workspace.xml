@@ -4,53 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8834d6bf-4916-4843-ad3f-ff3aceda6791" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/audios/didier20/cabaret2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/didier20/cest-chaud.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/didier20/faire-crever-des-sdf.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/didier20/jim.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/didier20/mais-tu-me-drogue.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/didier20/mets-le-casque.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/didier20/psychotrope.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/didier20/record-chips.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/didier20/rire-drogue.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/didier20/suicide.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/didier20/travolta1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/didier20/travolta2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/didier20/tu-m-en-redonne.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/didier20/tu-penses-que-ca-va-suffir.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/didier20/va-nous-chercher-les-chips1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/didier20/va-nous-chercher-les-chips2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/song/motivation_super_short.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/.idea/dadou_utils.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dadou_control.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dadou_control.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/com/ws_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/com/ws_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/misc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/utils_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/utils_static.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/control_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/control_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/control_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/control_factory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/config_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/config_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/playlist_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/playlist_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json" beforeDir="false" afterPath="$PROJECT_DIR$/json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/control.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/control.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/legacy/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/legacy/test.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/legacy/update_run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/legacy/update_run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/legacy/update_test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/legacy/update_test.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/project-deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/project-deploy.sh" afterDir="false" />
-    </list>
+    <list default="true" id="8834d6bf-4916-4843-ad3f-ff3aceda6791" name="Changes" comment="update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +95,7 @@
       <workItem from="1684700532811" duration="10067000" />
       <workItem from="1684782189881" duration="128000" />
       <workItem from="1684823693132" duration="7351000" />
-      <workItem from="1684875028624" duration="509000" />
+      <workItem from="1684875028624" duration="560000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1684875047323</created>
@@ -150,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684875047323</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1684875548518</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684875548518</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
