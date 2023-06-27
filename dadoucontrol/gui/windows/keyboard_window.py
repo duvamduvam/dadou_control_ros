@@ -68,7 +68,7 @@ class KeyboardWindow(tk.Frame):
         self.check_internet()
         self.check_glove_input()
         self.check_plugged_device()
-        self.check_joystick_input()
+        #self.check_joystick_input()
         self.check_sliders_input()
 
     def create_cell(self, grid, x, y, name):
@@ -98,8 +98,8 @@ class KeyboardWindow(tk.Frame):
         self.after(500, self.check_plugged_device)
         self.update_feedback_panel(self.left_glove_feedback_panel, self.deviceManager.get_device(GLOVE_LEFT))
         self.update_feedback_panel(self.right_glove_feedback_panel, self.deviceManager.get_device(GLOVE_RIGHT))
-        self.update_feedback_panel(self.lora_feedback_panel, self.deviceManager.get_device(LORA))
-        self.update_feedback_panel(self.joy_feedback_panel, self.deviceManager.get_device(JOY))
+        #self.update_feedback_panel(self.lora_feedback_panel, self.deviceManager.get_device(LORA))
+        #self.update_feedback_panel(self.joy_feedback_panel, self.deviceManager.get_device(JOY))
         self.update_feedback_panel(self.sliders_feedback_panel, self.deviceManager.get_device(SLIDERS))
 
     def update_feedback_panel(self, label: tk.Label, activ: bool):
@@ -117,14 +117,23 @@ class KeyboardWindow(tk.Frame):
                 self.right_panel_middle.config(text=msg)
                 ControlFactory().message.send_multi_ws({KEY: msg})
 
-    def check_joystick_input(self):
+    #def check_buttons_input(self):
+    #    self.after(100, self.check_glove_input)
+    #    devices = self.deviceManager.get_device_type(INPUT_KEY)
+    #    for device in devices:
+    #        msg = device.get_msg_separator()
+    #        if msg:
+    #            self.right_panel_middle.config(text=msg)
+    #            ControlFactory().message.send_multi_ws({KEY: msg})
+
+    """def check_joystick_input(self):
         self.after(100, self.check_joystick_input)
         joy = self.deviceManager.get_device(JOY)
         if joy:
             msg = joy.get_msg_separator()
             if msg:
                 self.right_panel_middle.config(text=msg)
-                ControlFactory().message.send_multi_ws({JOY: msg})
+                ControlFactory().message.send_multi_ws({JOY: msg})"""
 
     def check_sliders_input(self):
         self.after(100, self.check_sliders_input)

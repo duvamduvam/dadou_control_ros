@@ -2,7 +2,7 @@
 
 ####################### PROJECT PARAMS #############################
 
-export PROJECT_NAME="dadourobot"
+export PROJECT_NAME="dadoucontrol"
 export PROJECT_PATH=~/Nextcloud/Didier/python/dadou_control
 export UTILS_PROJECT=~/Nextcloud/Didier/python/dadou_utils
 
@@ -20,7 +20,7 @@ export SET_VIMRC="yes"
 export INSTALL_AUTOSTART="yes"
 
 export PROJECT_SYSTEM_LIB="python3-opencv mpg123"
-export PROJECT_PYTHON_LIB="playsound"
+export PROJECT_PYTHON_LIB="playsound python-vlc"
 
 export LOG_FILE="control.log"
 

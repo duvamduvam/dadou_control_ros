@@ -1,8 +1,3 @@
-import distutils
-import json
-import logging
-import jsonpath_rw_ext
-
 from dadou_utils.utils_static import JSON_LIGHTS_BASE, JSON_LIGHTS_METHODS, SEQUENCES_DIRECTORY, JSON_EXPRESSIONS, JSON_LIGHTS, JSON_SPEECHS, \
     JSON_AUDIOS
 from dadou_utils.files.abstract_json_manager import AbstractJsonManager

@@ -1,3 +1,4 @@
+import asyncio
 import logging
 import os
 import subprocess
@@ -5,11 +6,12 @@ import threading
 import tkinter as tk
 from tkinter import BOTH, TOP, filedialog, LEFT, X, Y, RIGHT, END
 from playsound import playsound
+import vlc
 
 from dadou_utils.utils.time_utils import TimeUtils
 from dadou_utils.files.files_utils import FilesUtils
 from dadou_utils.utils_static import NAME, PLAYLISTS, AUDIO, STOP, INPUT_KEY, KEY, PLAYLIST_PLAY, BASE_PATH, BORDEAUX, \
-    PLAYLIST_PATH, CYAN, AUDIOS_DIRECTORY, FONT1, FONT2, ANIMATION
+    PLAYLIST_PATH, CYAN, AUDIOS_DIRECTORY, FONT1, FONT2, ANIMATION, PLAYLIST_STOP
 from dadou_utils.audios.sound_object import SoundObject
 
 from dadoucontrol.control_factory import ControlFactory
@@ -23,9 +25,11 @@ class PlaylistWindow(tk.Frame):
         self.control_json = ControlFactory().control_json_manager
         self.deviceManager = ControlFactory().device_manager
         self.input_key_play = config[PLAYLIST_PLAY]
+        self.input_key_stop = config[PLAYLIST_STOP]
 
         self.current_pos = 0
         self.audio_process = None
+        self.vlc_player = None
 
         tk.Frame.__init__(self, parent, *args, **kwargs)
         self.pack(fill=BOTH, expand=True, side=TOP)
@@ -88,7 +92,7 @@ class PlaylistWindow(tk.Frame):
         self.down_button.grid(row=5, column=4, sticky='new')
 
         self.check_glove_input()
-        self.last_glove_input_time = 0
+        self.last_input_time = 0
 
     def OnEntryDown(self):
         self.playlist_listbox.yview_scroll(1, "units")
@@ -101,6 +105,10 @@ class PlaylistWindow(tk.Frame):
                                               filetypes=(("text    files", "*"), ("all files", "*.*")))
         self.files.append(filepath)
 
+    @staticmethod
+    async def async_playsound(audio_path):
+        playsound(audio_path)
+
     def click_play(self):
         #audio = SoundObject(config[BASE_PATH] + '/..' + config[AUDIOS_DIRECTORY], self.playlist_listbox.get(self.playlist_listbox.curselection()[0]))
         #audio.play()
@@ -108,8 +116,22 @@ class PlaylistWindow(tk.Frame):
         audio_params = list(self.playlist_data.values())[playlist_num]
         audio_path = config[BASE_PATH] + '/..' + config[AUDIOS_DIRECTORY] + audio_params[AUDIO]
         if os.path.isfile(audio_path):
-            #self.audio_thread = threading.Thread(target=playsound, args=(audio_path,), daemon=True).start()
-            if self.audio_process:
+
+            if self.vlc_player:
+                self.vlc_player.stop()
+            self.vlc_player = vlc.MediaPlayer(audio_path)
+            self.vlc_player.play()
+
+            #asyncio.run(PlaylistWindow.async_playsound(audio_path))
+            #playsound(audio_path)
+            #if self.audio_process:
+            #    self.audio_process._Thread__stop()
+
+            #multiprocessing.Process(target=playsound, args=("file.mp3",))
+            #self.audio_process = threading.Thread(target=playsound, args=(audio_path,), daemon=False)
+            #self.audio_process.start()
+
+            """if self.audio_process:
                 self.audio_process.terminate()
             self.audio_process = subprocess.Popen(['mpg123',  # The program to launch
                                   '-C',  # Commands can be sent
@@ -117,11 +139,11 @@ class PlaylistWindow(tk.Frame):
                                   audio_path],
                                  stdin=subprocess.PIPE,  # Send commands here
                                  stdout=None,
-                                stderr=None)
+                                 stderr=None)
 
             #playsound(audio_path)
             #self.audio_segment = SoundObject(audio_path)
-            #self.audio_segment.play()
+            #self.audio_segment.play()"""
             self.next()
         else:
             logging.error("{} not available".format(audio_path))
@@ -138,7 +160,8 @@ class PlaylistWindow(tk.Frame):
 
     def click_stop(self):
         ControlFactory().message.send_multi_ws({AUDIO: STOP, ANIMATION: False})
-        self.audio_process.terminate()
+        if self.vlc_player:
+            self.vlc_player.stop()
 
     def click_audio(self, evt):
         w = evt.widget
@@ -187,9 +210,13 @@ class PlaylistWindow(tk.Frame):
             msg = device.get_msg_separator()
             if msg:
                 if msg in self.input_key_play:
-                    if TimeUtils.is_time(self.last_glove_input_time, 2000):
+                    if TimeUtils.is_time(self.last_input_time, 500):
                         self.click_send()
-                        self.last_glove_input_time = TimeUtils.current_milli_time()
+                        self.last_input_time = TimeUtils.current_milli_time()
+                elif msg in self.input_key_stop:
+                    if TimeUtils.is_time(self.last_input_time, 2000):
+                        self.click_stop()
+                        self.last_input_time = TimeUtils.current_milli_time()
                 else:
                     #TODO improve that ...
                     ControlFactory().message.send_multi_ws({KEY: msg})

@@ -9,7 +9,8 @@ from dadou_utils.utils_static import AUDIOS_DIRECTORY, BUTTON_GRID, EYES, RPI_TY
     SEQUENCES_DIRECTORY, AUDIO_NAME, AUDIO_PATH, DEVICES, PATHS, LOGGING_CONFIG_FILE, JSON_CONFIG, JSON_LIGHTS_BASE, \
     JSON_SPEECHS, PLAYLIST_PATH, GLOVE_LEFT, GLOVE_RIGHT, PROJECT_LIGHTS_DIRECTORY, \
     PLAYLIST_PLAY, PLAYLIST_STOP, PURPLE, BORDEAUX, YELLOW, ORANGE, CYAN, FONT1, FONT2, FONT3, SYSTEM, \
-    RPI_LOGGING_CONFIG_FILE, LAPTOP_LOGGING_CONFIG_FILE, JSON_LIGHTS_METHODS, WS_CLIENTS, WS_PORT, LOGGING_FILE_NAME
+    RPI_LOGGING_CONFIG_FILE, LAPTOP_LOGGING_CONFIG_FILE, JSON_LIGHTS_METHODS, WS_CLIENTS, WS_PORT, LOGGING_FILE_NAME, \
+    BAUD_RATE
 
 config = {}
 
@@ -55,38 +56,43 @@ config[FONT3] = "Helvetica 12 italic bold" #None tkfont.Font(family='Helvetica',
 
 config[BUTTON_GRID] = "Helvetica 60 italic bold" #None tkfont.Font(family='Helvetica', size=18, weight="bold", slant="italic")
 
-config[PLAYLIST_PLAY] = "c"
-config[PLAYLIST_STOP] = "j"
+config[PLAYLIST_PLAY] = ['c', 'D']
+config[PLAYLIST_STOP] = ['j', 'H']
 config[DEVICES] = [
+        {
+            NAME: 'buttons',
+            SERIAL_ID: 'usb-1a86_USB_Serial-if00-port0',
+            MSG_SIZE: 0,
+            TYPE: "input_key",
+            BAUD_RATE: 115200
+        },
         {
             NAME: GLOVE_LEFT,
             SERIAL_ID: 'usb-Raspberry_Pi_Pico_E4683818DF310B23-if00',
             MSG_SIZE: 0,
-            TYPE: "input_key"
+            TYPE: "input_key",
+            BAUD_RATE: 115200
         },
         {
             NAME: "glove_right",
             SERIAL_ID: "tochange",
             "msg_size": 0,
-            TYPE: "input_key"
-        },
-        {
-            NAME: "lora",
-            SERIAL_ID: "usb-1a86_USB2.0-Serial-if00-port0",
-            "msg_size": 0,
-            TYPE: "lora"
+            TYPE: "input_key",
+            BAUD_RATE: 115200
         },
         {
             NAME: "joy",
             SERIAL_ID: "usb-FTDI_FT232R_USB_UART_AD0KBT1R-if00-port0",
             "msg_size": 6,
-            TYPE: "joy"
+            TYPE: "joy",
+            BAUD_RATE: 115200
         },
         {
             NAME: "sliders",
-            SERIAL_ID: "usb-Raspberry_Pi_Pico_DE61B868C73F3036-if00",
+            SERIAL_ID: "usb-Raspberry_Pi_Pico_E66138935F269628-if00",
             "msg_size": 6,
-            TYPE: "sliders"
+            TYPE: "sliders",
+            BAUD_RATE: 9600
         }
     ]
 

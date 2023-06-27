@@ -5,7 +5,7 @@ from collections import OrderedDict
 from tkinter import HORIZONTAL, DISABLED, ACTIVE, W, YES, NW, LEFT, TOP, RIGHT, X, N, END, NORMAL, BOTH
 from tkinter.colorchooser import askcolor
 
-from dadou_utils.files.files_manager import FilesUtils
+from dadou_utils.files.files_utils import FilesUtils
 from dadou_utils.utils_static import JSON_LIGHTS_BASE, CYAN, YELLOW, ORANGE, JSON_LIGHTS_METHODS, BASE, METHOD, COLOR, \
     NAME, STATE, BASE_PATH, JSON_DIRECTORY, PROJECT_LIGHTS_DIRECTORY, SEQUENCES, LOOP, DURATION, KEYS
 
