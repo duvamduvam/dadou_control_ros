@@ -11,21 +11,24 @@ import vlc
 from dadou_utils.utils.time_utils import TimeUtils
 from dadou_utils.files.files_utils import FilesUtils
 from dadou_utils.utils_static import NAME, PLAYLISTS, AUDIO, STOP, INPUT_KEY, KEY, PLAYLIST_PLAY, BASE_PATH, BORDEAUX, \
-    PLAYLIST_PATH, CYAN, AUDIOS_DIRECTORY, FONT1, FONT2, ANIMATION, PLAYLIST_STOP
+    PLAYLIST_PATH, CYAN, AUDIOS_DIRECTORY, FONT1, FONT2, ANIMATION, PLAYLIST_STOP, SLIDERS, WHEELS
 from dadou_utils.audios.sound_object import SoundObject
 
 from dadoucontrol.control_factory import ControlFactory
-from dadoucontrol.control_config import config
-
+from dadoucontrol.control_config import config, RESTART_APP
 
 
 class PlaylistWindow(tk.Frame):
     def __init__(self, parent, *args, **kwargs):
 
+        self.devices = None
+        self.sliders = None
+
         self.control_json = ControlFactory().control_json_manager
         self.deviceManager = ControlFactory().device_manager
         self.input_key_play = config[PLAYLIST_PLAY]
         self.input_key_stop = config[PLAYLIST_STOP]
+        self.input_key_restart_app = RESTART_APP
 
         self.current_pos = 0
         self.audio_process = None
@@ -91,7 +94,10 @@ class PlaylistWindow(tk.Frame):
         self.down_button = tk.Button(self.main, text='down', width=15, height=2, font=config[FONT1], command=self.OnEntryDown)
         self.down_button.grid(row=5, column=4, sticky='new')
 
+        self.check_devices()
         self.check_glove_input()
+        self.check_sliders_input()
+
         self.last_input_time = 0
 
     def OnEntryDown(self):
@@ -203,10 +209,23 @@ class PlaylistWindow(tk.Frame):
         self.current_pos = 0
         self.playlist_listbox.select_set(self.current_pos)
 
+    def check_devices(self):
+        self.after(3000, self.check_glove_input)
+        self.devices = self.deviceManager.get_device_type(INPUT_KEY)
+        self.sliders = self.deviceManager.get_device(SLIDERS)
+
+    def check_sliders_input(self):
+        self.after(100, self.check_sliders_input)
+
+        if self.sliders:
+            msg = self.sliders.get_msg_separator()
+            if msg:
+                ControlFactory().message.send_sliders(msg)
+
     def check_glove_input(self):
         self.after(100, self.check_glove_input)
-        devices = self.deviceManager.get_device_type(INPUT_KEY)
-        for device in devices:
+
+        for device in self.devices:
             msg = device.get_msg_separator()
             if msg:
                 if msg in self.input_key_play:
@@ -217,6 +236,10 @@ class PlaylistWindow(tk.Frame):
                     if TimeUtils.is_time(self.last_input_time, 2000):
                         self.click_stop()
                         self.last_input_time = TimeUtils.current_milli_time()
+                elif msg in self.input_key_restart_app:
+                    exit()
+                elif msg == 'K':
+                    ControlFactory().message.send_multi_ws({WHEELS: STOP})
                 else:
                     #TODO improve that ...
                     ControlFactory().message.send_multi_ws({KEY: msg})

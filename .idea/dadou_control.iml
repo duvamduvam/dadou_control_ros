@@ -3,8 +3,10 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logs" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.11 (dadou_control)" jdkType="Python SDK" />
+    <content url="file://$MODULE_DIR$/../dadou_robot" />
+    <orderEntry type="jdk" jdkName="Remote Python 3.9.2 (sftp://root@gamepad.local:22/usr/bin/python3)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TemplatesService">

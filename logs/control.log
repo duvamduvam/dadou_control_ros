@@ -1,37 +1,55 @@
-2023-06-28 00:00:27,522 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/gui/windows/playlist_window.py click_send |156: [32msend playlist number 7 value {'audio': 'didier20/upload_en_cours2.mp3', 'lights_helmet': 'upload'}[0m
-2023-06-28 00:00:27,524 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py send |51: [32msend {'audio': 'didier20/upload_en_cours2.mp3', 'lights_helmet': 'upload'} to robot[0m
-2023-06-28 00:00:27,526 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py send |51: [32msend {'audio': 'didier20/upload_en_cours2.mp3', 'lights_helmet': 'upload'} to harddrive[0m
-2023-06-28 00:01:24,987 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/gui/windows/playlist_window.py click_send |156: [32msend playlist number 7 value {'audio': 'didier20/upload_en_cours2.mp3', 'lights_helmet': 'upload'}[0m
-2023-06-28 00:01:24,988 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py send |51: [32msend {'audio': 'didier20/upload_en_cours2.mp3', 'lights_helmet': 'upload'} to robot[0m
-2023-06-28 00:01:24,990 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py send |51: [32msend {'audio': 'didier20/upload_en_cours2.mp3', 'lights_helmet': 'upload'} to harddrive[0m
-2023-06-28 00:03:52,009 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/gui/windows/playlist_window.py click_send |156: [32msend playlist number 7 value {'audio': 'didier20/upload_en_cours2.mp3', 'lights_helmet': 'upload'}[0m
-2023-06-28 00:03:52,010 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py send |51: [32msend {'audio': 'didier20/upload_en_cours2.mp3', 'lights_helmet': 'upload'} to robot[0m
-2023-06-28 00:03:52,011 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py send |51: [32msend {'audio': 'didier20/upload_en_cours2.mp3', 'lights_helmet': 'upload'} to harddrive[0m
-2023-06-28 00:06:08,909 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/gui/windows/playlist_window.py click_send |156: [32msend playlist number 7 value {'audio': 'didier20/upload_en_cours2.mp3', 'lights_helmet': 'upload'}[0m
-2023-06-28 00:06:08,910 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py send |51: [32msend {'audio': 'didier20/upload_en_cours2.mp3', 'lights_helmet': 'upload'} to robot[0m
-2023-06-28 00:06:08,912 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py send |51: [32msend {'audio': 'didier20/upload_en_cours2.mp3', 'lights_helmet': 'upload'} to harddrive[0m
-2023-06-28 01:11:09,232 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |27: [32mdevice robot ws://didier.local:4421 listening[0m
-2023-06-28 01:11:14,259 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice sceno ws://sceno.local:4421 down[0m
-2023-06-28 01:11:14,408 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |27: [32mdevice harddrive ws://disk.local:4421 listening[0m
-2023-06-28 01:11:14,516 control /home/dadou/Nextcloud/Didier/python/dadou_control/main.py <module> |15: [32mStarting remote control[0m
-2023-06-28 01:12:03,854 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/gui/windows/playlist_window.py click_file |190: [32mYou selected item 0: "didier20_bis.json"[0m
-2023-06-28 01:12:15,994 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/gui/windows/playlist_window.py click_send |156: [32msend playlist number 40 value {'animation': 'breakdown'}[0m
-2023-06-28 01:12:15,995 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py send |51: [32msend {'animation': 'breakdown'} to robot[0m
-2023-06-28 01:12:15,997 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py send |51: [32msend {'animation': 'breakdown'} to harddrive[0m
-2023-06-28 01:12:30,519 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |27: [32mdevice robot ws://didier.local:4421 listening[0m
-2023-06-28 01:12:35,549 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice sceno ws://sceno.local:4421 down[0m
-2023-06-28 01:12:35,718 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |27: [32mdevice harddrive ws://disk.local:4421 listening[0m
-2023-06-28 01:12:35,756 control /home/dadou/Nextcloud/Didier/python/dadou_control/main.py <module> |15: [32mStarting remote control[0m
-2023-06-28 01:12:50,028 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/gui/windows/playlist_window.py click_file |190: [32mYou selected item 0: "didier20_bis.json"[0m
-2023-06-28 01:12:53,197 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/gui/windows/playlist_window.py click_send |156: [32msend playlist number 40 value {'animation': 'breakdown'}[0m
-2023-06-28 01:12:53,198 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py send |51: [32msend {'animation': 'breakdown'} to robot[0m
-2023-06-28 01:12:53,202 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py send |51: [32msend {'animation': 'breakdown'} to harddrive[0m
-2023-06-28 01:13:57,680 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/gui/windows/playlist_window.py click_send |156: [32msend playlist number 40 value {'animation': 'breakdown'}[0m
-2023-06-28 01:13:57,681 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py send |51: [32msend {'animation': 'breakdown'} to robot[0m
-2023-06-28 01:13:57,683 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py send |51: [32msend {'animation': 'breakdown'} to harddrive[0m
-2023-06-28 01:17:01,585 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/gui/windows/playlist_window.py click_send |156: [32msend playlist number 40 value {'animation': 'breakdown'}[0m
-2023-06-28 01:17:01,585 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py send |51: [32msend {'animation': 'breakdown'} to robot[0m
-2023-06-28 01:17:01,588 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py send |51: [32msend {'animation': 'breakdown'} to harddrive[0m
-2023-06-28 01:19:21,907 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/gui/windows/playlist_window.py click_send |156: [32msend playlist number 40 value {'animation': 'breakdown'}[0m
-2023-06-28 01:19:21,907 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py send |51: [32msend {'animation': 'breakdown'} to robot[0m
-2023-06-28 01:19:21,908 control /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py send |51: [32msend {'animation': 'breakdown'} to harddrive[0m
+2023-08-05 01:41:30,530 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice robot ws://didier.local:4421 down[0m
+2023-08-05 01:41:35,572 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice sceno ws://sceno.local:4421 down[0m
+2023-08-05 01:41:40,615 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice harddrive ws://disk.local:4421 down[0m
+2023-08-05 01:41:50,141 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice robot ws://didier.local:4421 down[0m
+2023-08-05 01:41:55,192 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice sceno ws://sceno.local:4421 down[0m
+2023-08-05 01:42:00,234 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice harddrive ws://disk.local:4421 down[0m
+2023-08-05 01:42:05,348 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice robot ws://didier.local:4421 down[0m
+2023-08-05 01:42:10,384 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice sceno ws://sceno.local:4421 down[0m
+2023-08-05 01:42:15,424 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice harddrive ws://disk.local:4421 down[0m
+2023-08-05 01:42:15,448 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/main.py <module> |22: [32mStarting control device gamepad[0m
+2023-08-05 01:43:12,491 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice robot ws://didier.local:4421 down[0m
+2023-08-05 01:43:17,532 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice sceno ws://sceno.local:4421 down[0m
+2023-08-05 01:43:22,572 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice harddrive ws://disk.local:4421 down[0m
+2023-08-05 01:43:27,742 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice robot ws://didier.local:4421 down[0m
+2023-08-05 01:43:32,792 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice sceno ws://sceno.local:4421 down[0m
+2023-08-05 01:43:37,832 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice harddrive ws://disk.local:4421 down[0m
+2023-08-05 01:43:37,848 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/main.py <module> |22: [32mStarting control device gamepad[0m
+2023-08-05 01:44:58,004 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice robot ws://didier.local:4421 down[0m
+2023-08-05 01:45:03,042 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice sceno ws://sceno.local:4421 down[0m
+2023-08-05 01:45:14,587 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice robot ws://didier.local:4421 down[0m
+2023-08-05 01:45:19,635 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice sceno ws://sceno.local:4421 down[0m
+2023-08-05 01:45:24,674 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice harddrive ws://disk.local:4421 down[0m
+2023-08-05 01:45:29,843 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice robot ws://didier.local:4421 down[0m
+2023-08-05 01:45:34,892 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice sceno ws://sceno.local:4421 down[0m
+2023-08-05 01:45:39,934 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice harddrive ws://disk.local:4421 down[0m
+2023-08-05 01:45:45,697 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/main.py <module> |22: [32mStarting control device gamepad[0m
+2023-08-05 01:47:05,236 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice robot ws://didier.local:4421 down[0m
+2023-08-05 01:47:10,284 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice sceno ws://sceno.local:4421 down[0m
+2023-08-05 01:47:15,324 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice harddrive ws://disk.local:4421 down[0m
+2023-08-05 01:47:20,488 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice robot ws://didier.local:4421 down[0m
+2023-08-05 01:47:25,536 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice sceno ws://sceno.local:4421 down[0m
+2023-08-05 01:47:30,574 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice harddrive ws://disk.local:4421 down[0m
+2023-08-05 01:47:30,583 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/main.py <module> |22: [32mStarting control device gamepad[0m
+2023-08-05 01:49:13,916 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice robot ws://didier.local:4421 down[0m
+2023-08-05 01:49:18,956 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice sceno ws://sceno.local:4421 down[0m
+2023-08-05 01:49:23,995 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice harddrive ws://disk.local:4421 down[0m
+2023-08-05 01:49:29,128 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice robot ws://didier.local:4421 down[0m
+2023-08-05 01:49:34,183 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice sceno ws://sceno.local:4421 down[0m
+2023-08-05 01:49:39,225 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice harddrive ws://disk.local:4421 down[0m
+2023-08-05 01:49:39,232 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/main.py <module> |22: [32mStarting control device gamepad[0m
+2023-08-05 01:49:53,205 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice robot ws://didier.local:4421 down[0m
+2023-08-05 01:49:58,244 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice sceno ws://sceno.local:4421 down[0m
+2023-08-05 01:50:03,284 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice harddrive ws://disk.local:4421 down[0m
+2023-08-05 01:50:08,432 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice robot ws://didier.local:4421 down[0m
+2023-08-05 01:50:47,523 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice robot ws://didier.local:4421 down[0m
+2023-08-05 01:50:52,565 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice sceno ws://sceno.local:4421 down[0m
+2023-08-05 01:50:57,605 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice harddrive ws://disk.local:4421 down[0m
+2023-08-05 01:51:02,768 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice robot ws://didier.local:4421 down[0m
+2023-08-05 01:51:07,806 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice sceno ws://sceno.local:4421 down[0m
+2023-08-05 01:51:12,845 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice harddrive ws://disk.local:4421 down[0m
+2023-08-05 01:51:12,854 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/main.py <module> |22: [32mStarting control device gamepad[0m
+2023-08-05 01:57:53,968 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice robot ws://didier.local:4421 down[0m
+2023-08-05 01:57:59,014 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice sceno ws://sceno.local:4421 down[0m
+2023-08-05 01:58:04,062 main /home/dadou/Nextcloud/Didier/python/dadou_control/dadou_utils/com/ws_client.py __init__ |24: [31mdevice harddrive ws://disk.local:4421 down[0m
+2023-08-05 01:58:04,067 main /home/dadou/Nextcloud/Didier/python/dadou_control/main.py <module> |22: [32mStarting control device gamepad[0m

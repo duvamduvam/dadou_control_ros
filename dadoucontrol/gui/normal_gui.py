@@ -16,7 +16,7 @@ from dadoucontrol.gui.windows.playlist_window import PlaylistWindow
 from dadoucontrol.gui.windows.keyboard_window import KeyboardWindow
 
 
-class MainGui(tk.Tk):
+class NormalGui(tk.Tk):
     def __init__(self, *args, **kwargs):
         tk.Tk.__init__(self, *args, **kwargs)
 
@@ -52,18 +52,18 @@ class MainGui(tk.Tk):
         tk.Button(menu, text='Config', bg=config[PURPLE], font=config[FONT1], command=lambda: self.show_frame(self.EXIT)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
         tk.Button(menu, text='Keyboard', bg=config[BORDEAUX], font=config[FONT1], command=lambda: self.show_frame(self.KEYBOARD_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
         tk.Button(menu, text='Playlist', bg=config[YELLOW], font=config[FONT1], command=lambda: self.show_frame(self.PLAYLIST_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
-        if screen_width > 1000:
+        """if screen_width > 1000:
             tk.Button(menu, text='Sequence', bg=config[ORANGE], font=config[FONT1], command=lambda: self.show_frame(self.SEQUENCE_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
             tk.Button(menu, text='Expression', bg=config[CYAN], font=config[FONT1], command=lambda: self.show_frame(self.EXPRESSION_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
             tk.Button(menu, text='Lights', bg=config[PURPLE], font=config[FONT1], command=lambda: self.show_frame(self.LIGHTS_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
             tk.Button(menu, text='Remote', bg=config[ORANGE], font=config[FONT1], command=lambda: self.show_frame(self.REMOTE_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
-
+        """
         #self.main = tk.Frame(self, bg='yellow')
 
 
         self.main = KeyboardWindow(self)
         self.main.pack(fill=BOTH, expand=True, side=TOP)
-        self.scheduler()
+        #self.scheduler()
 
     def show_frame(self, frame_name):
 
@@ -95,5 +95,5 @@ class MainGui(tk.Tk):
         self.main.pack(fill=BOTH, expand=True, side=TOP)
 
     def scheduler(self):
-        self.after(500, self.scheduler)
+        #self.after(5000, self.scheduler)
         ControlFactory().device_manager.update_devices()

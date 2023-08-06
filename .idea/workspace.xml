@@ -4,68 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8834d6bf-4916-4843-ad3f-ff3aceda6791" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/audios/song/game-show1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audios/song/motivation-long.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/fonts/Font00.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/fonts/Font01.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/fonts/Font02.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/fonts/readme_CN.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/lcd/LCD_0inch96.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/lcd/LCD_1inch14.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/lcd/LCD_1inch28.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/lcd/LCD_1inch3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/lcd/LCD_1inch47.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/lcd/LCD_1inch54.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/lcd/LCD_1inch8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/lcd/LCD_1inch9.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/lcd/LCD_2inch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/lcd/LCD_2inch4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/lcd/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/lcd/lcdconfig.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/tests/code/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/tests/code/ps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/tests/code/test_joystick.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/utils/thread_with_exception.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/utils/thread_with_trace.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dadou_control.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dadou_control.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/didier20/travolta1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/audios/didier20/va-nous-chercher-les-chips1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/rpi/bashrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/audios/sound_object.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/audios/sound_object.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/build/lib/dadoutils/com/serial_device.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/build/lib/dadoutils/com/serial_device.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/com/input_messages_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/com/input_messages_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/com/lora.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/com/lora.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/com/lora_radio.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/com/lora_radio.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/com/message.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/com/message.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/com/serial_device.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/com/serial_device.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/com/serial_devices_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/com/serial_devices_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/com/ws_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/com/ws_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/com/ws_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/com/ws_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/conf/rpi/bashrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/conf/rpi/global_bash" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/conf/rpi/global_bash" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/files/abstract_json_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/files/abstract_json_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/misc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/scripts/deploy/deploy-all.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/scripts/deploy/deploy-all.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/scripts/deploy/deploy-utils.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/scripts/deploy/deploy-utils.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/scripts/deploy/local-install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/scripts/deploy/local-install.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/scripts/deploy/params.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/scripts/deploy/params.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/singleton.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/singleton.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/utils/status.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/utils/status.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/utils/time_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/utils/time_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/utils_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/utils_static.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/com/robot_message.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/com/robot_message.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/control_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/control_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/files/control_json_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/files/control_json_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/keyboard_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/keyboard_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/lights_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/lights_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/playlist_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/playlist_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/control.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/control.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/project-deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/project-deploy.sh" afterDir="false" />
-    </list>
+    <list default="true" id="8834d6bf-4916-4843-ad3f-ff3aceda6791" name="Changes" comment="résidence juin" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,12 +13,25 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Unit Test" />
         <option value="Python Script" />
       </list>
     </option>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -98,7 +50,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/dadou/Nextcloud/Didier/python/dadou_control/json/backup&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/tests&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -109,21 +62,99 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dadoucontrol/tests" />
       <recent name="$PROJECT_DIR$/json/backup" />
+      <recent name="$PROJECT_DIR$/dadoucontrol/gui/windows/small" />
+      <recent name="$PROJECT_DIR$/dadoucontrol" />
       <recent name="$PROJECT_DIR$/audios/didier20" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scripts/device-deploy" />
+      <recent name="$PROJECT_DIR$/json/playlists" />
+      <recent name="$PROJECT_DIR$/dadoucontrol/buttons" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.local gamepad">
+    <configuration name="local gamepad" type="PythonConfigurationType" factoryName="Python">
       <module name="dadou_control" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="SDK_NAME" value="Python 3.11 (dadou_control)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="gamepad" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="local gl" type="PythonConfigurationType" factoryName="Python">
+      <module name="dadou_control" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="SDK_NAME" value="Python 3.11 (dadou_control)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dadoucontrol/main.py" />
+      <option name="PARAMETERS" value="gl" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="local main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dadou_control" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="SDK_NAME" value="Python 3.11 (dadou_control)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dadoucontrol/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main gl" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dadou_control" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3" />
+      <option name="SDK_NAME" value="Remote Python 3.9.2 (sftp://root@left.local:22/usr/bin/python3)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -136,32 +167,67 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_joystick" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test-gamepad-cp.TestGamePad.test_buttons" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="dadou_control" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dadou_utils/tests/code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dadoucontrol/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dadou_utils/tests/code/test_joystick.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test-gamepad-cp.TestGamePad.test_buttons&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test-gamepad.TestGamePad.test_buttons" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="dadou_control" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dadoucontrol/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test-gamepad.TestGamePad.test_buttons&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test-gamepad-cp.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="dadou_control" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dadoucontrol/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/dadoucontrol/tests/test-gamepad-cp.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.local gl" />
+      <item itemvalue="Python.local gamepad" />
+      <item itemvalue="Python.local main" />
+      <item itemvalue="Python.main gl" />
+      <item itemvalue="Python tests.Python tests in test-gamepad-cp.py" />
+      <item itemvalue="Python tests.Python tests for test-gamepad-cp.TestGamePad.test_buttons" />
+      <item itemvalue="Python tests.Python tests for test-gamepad.TestGamePad.test_buttons" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.test_joystick" />
+        <item itemvalue="Python tests.Python tests in test-gamepad-cp.py" />
+        <item itemvalue="Python tests.Python tests for test-gamepad-cp.TestGamePad.test_buttons" />
+        <item itemvalue="Python.main gl" />
+        <item itemvalue="Python tests.Python tests for test-gamepad.TestGamePad.test_buttons" />
+        <item itemvalue="Python.local main" />
       </list>
     </recent_temporary>
   </component>
@@ -233,6 +299,92 @@
       <workItem from="1687902460974" duration="97000" />
       <workItem from="1687907468556" duration="15000" />
       <workItem from="1687907550048" duration="11000" />
+      <workItem from="1687908574530" duration="4898000" />
+      <workItem from="1687978722705" duration="44000" />
+      <workItem from="1687995041709" duration="178000" />
+      <workItem from="1687995772180" duration="123000" />
+      <workItem from="1688020153475" duration="13000" />
+      <workItem from="1688020251153" duration="122000" />
+      <workItem from="1688022395060" duration="5310000" />
+      <workItem from="1688044795020" duration="32000" />
+      <workItem from="1688058515590" duration="2891000" />
+      <workItem from="1688064289038" duration="179000" />
+      <workItem from="1688079543240" duration="123000" />
+      <workItem from="1688138461292" duration="225000" />
+      <workItem from="1688139943882" duration="3108000" />
+      <workItem from="1688197523557" duration="3000" />
+      <workItem from="1688200626043" duration="10156000" />
+      <workItem from="1688254121725" duration="2996000" />
+      <workItem from="1688414135292" duration="8848000" />
+      <workItem from="1688423580009" duration="5730000" />
+      <workItem from="1688455678563" duration="29734000" />
+      <workItem from="1688715445475" duration="1636000" />
+      <workItem from="1688718769541" duration="246000" />
+      <workItem from="1688719216054" duration="41000" />
+      <workItem from="1688719276063" duration="53000" />
+      <workItem from="1688719516248" duration="275000" />
+      <workItem from="1688726499637" duration="32000" />
+      <workItem from="1688726647783" duration="55000" />
+      <workItem from="1688726855854" duration="598000" />
+      <workItem from="1688809843133" duration="946000" />
+      <workItem from="1688829645271" duration="1386000" />
+      <workItem from="1688835904230" duration="11000" />
+      <workItem from="1688887732712" duration="133000" />
+      <workItem from="1688935556492" duration="1253000" />
+      <workItem from="1688936822674" duration="670000" />
+      <workItem from="1688937517052" duration="1039000" />
+      <workItem from="1688938671726" duration="1905000" />
+      <workItem from="1689112926974" duration="2515000" />
+      <workItem from="1689163498895" duration="1127000" />
+      <workItem from="1689164689264" duration="8104000" />
+      <workItem from="1689199562310" duration="7806000" />
+      <workItem from="1689250289815" duration="6415000" />
+      <workItem from="1689278052615" duration="13119000" />
+      <workItem from="1689315800587" duration="2328000" />
+      <workItem from="1689414686537" duration="1005000" />
+      <workItem from="1689416027530" duration="7020000" />
+      <workItem from="1689423381752" duration="405000" />
+      <workItem from="1689436419817" duration="2364000" />
+      <workItem from="1689439971866" duration="120000" />
+      <workItem from="1689440222695" duration="652000" />
+      <workItem from="1689447150815" duration="5225000" />
+      <workItem from="1689459699845" duration="845000" />
+      <workItem from="1689460896976" duration="4362000" />
+      <workItem from="1689715808915" duration="1008000" />
+      <workItem from="1689764530359" duration="4255000" />
+      <workItem from="1689783509734" duration="3525000" />
+      <workItem from="1689851041600" duration="3100000" />
+      <workItem from="1689883378046" duration="441000" />
+      <workItem from="1689918621111" duration="828000" />
+      <workItem from="1689919475905" duration="1154000" />
+      <workItem from="1689920736690" duration="1669000" />
+      <workItem from="1689958125428" duration="788000" />
+      <workItem from="1690110658895" duration="91000" />
+      <workItem from="1690148180789" duration="2193000" />
+      <workItem from="1690152529635" duration="2839000" />
+      <workItem from="1690193705748" duration="369000" />
+      <workItem from="1690266466435" duration="54000" />
+      <workItem from="1690292520679" duration="492000" />
+      <workItem from="1690478418671" duration="217000" />
+      <workItem from="1690480862520" duration="600000" />
+      <workItem from="1690484643333" duration="5582000" />
+      <workItem from="1690572837342" duration="1098000" />
+      <workItem from="1690647668678" duration="2184000" />
+      <workItem from="1690649896210" duration="10000" />
+      <workItem from="1690734460048" duration="1263000" />
+      <workItem from="1690738929670" duration="85000" />
+      <workItem from="1690739107441" duration="13000" />
+      <workItem from="1690828056485" duration="1073000" />
+      <workItem from="1690912454686" duration="92000" />
+      <workItem from="1690912588799" duration="432000" />
+      <workItem from="1690923691288" duration="254000" />
+      <workItem from="1690924280684" duration="785000" />
+      <workItem from="1690969126632" duration="1045000" />
+      <workItem from="1690997034418" duration="37000" />
+      <workItem from="1691180303883" duration="15000" />
+      <workItem from="1691190207067" duration="4857000" />
+      <workItem from="1691274727559" duration="108000" />
+      <workItem from="1691358216534" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1684875047323</created>
@@ -255,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684875644686</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="résidence juin">
+      <created>1687908591411</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687908591411</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,21 +423,86 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="résidence juin" />
+    <option name="LAST_COMMIT_MESSAGE" value="résidence juin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/playlist_window.py</url>
-          <line>160</line>
+          <line>166</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../dadou_robot/dadourobot/tests/test_lights2.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/mod_window.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/config_window.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/small/small_playlist.py</url>
+          <line>167</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadoucontrol/tests/test-gamepad-cp.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadoucontrol/gui/windows/small/small_control.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadou_utils/com/serial_device.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dadou_utils/com/serial_device.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="75" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/dadou_control$main.coverage" NAME="main Coverage Results" MODIFIED="1687907550275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dadou_control$.coverage" NAME=" Coverage Results" MODIFIED="1691190750680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol/tests" />
+    <SUITE FILE_PATH="coverage/dadou_control$local_gl.coverage" NAME="local gl Coverage Results" MODIFIED="1690969298249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dadou_control$local_gamepad.coverage" NAME="local gamepad Coverage Results" MODIFIED="1691193468600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dadou_control$simplegui2.coverage" NAME="simplegui2 Coverage Results" MODIFIED="1688252909516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol/tests/samples" />
+    <SUITE FILE_PATH="coverage/dadou_control$main_local.coverage" NAME="main local Coverage Results" MODIFIED="1689415263494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol" />
+    <SUITE FILE_PATH="coverage/dadou_control$simplegui.coverage" NAME="simplegui Coverage Results" MODIFIED="1688210480190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol/tests/samples" />
+    <SUITE FILE_PATH="coverage/dadou_control$main.coverage" NAME="local main Coverage Results" MODIFIED="1689415595774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dadou_control$local_main.coverage" NAME="local main Coverage Results" MODIFIED="1689776251444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/dadou_control$test_joystick.coverage" NAME="test_joystick Coverage Results" MODIFIED="1687008196000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadou_utils/tests/code" />
+    <SUITE FILE_PATH="coverage/dadou_control$test_neopixel2.coverage" NAME="test_neopixel2 Coverage Results" MODIFIED="1688939619595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol/tests" />
+    <SUITE FILE_PATH="coverage/dadou_control$main_gl.coverage" NAME="main gl Coverage Results" MODIFIED="1689316818414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

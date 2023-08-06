@@ -6,10 +6,10 @@ export PROJECT_NAME="dadoucontrol"
 export PROJECT_PATH=~/Nextcloud/Didier/python/dadou_control
 export UTILS_PROJECT=~/Nextcloud/Didier/python/dadou_utils
 
-export USER_HOST="t"
-export ROOT_HOST="tr"
+export USER_HOST="gl"
+export ROOT_HOST="glr"
 #export RPI_IP="192.168.1.210"
-export RPI_HOST_NAME="control.local"
+export RPI_HOST_NAME="left.local"
 
 export INSTALL_LIB="yes"
 #export SET_USB_AUDIO="yes"
@@ -19,11 +19,11 @@ export SET_VIMRC="yes"
 #export INSTALL_SERVICE="yes"
 export INSTALL_AUTOSTART="yes"
 
-export PROJECT_SYSTEM_LIB="python3-opencv mpg123"
-export PROJECT_PYTHON_LIB="playsound python-vlc"
+export PROJECT_SYSTEM_LIB="python3-opencv mpg123 adafruit-circuitpython-neopixel"
+export PROJECT_PYTHON_LIB="playsound python-vlc PySimpleGUI"
 
-export LOG_FILE="control.log"
-
+readarray -d . -t strarr <<< "$(basename -- $RPI_HOST_NAME)"
+export LOG_FILE="${strarr[0]}.log"
 ####################################################################
 
 export RPI_HOME=/home/didier

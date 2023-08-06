@@ -1,5 +1,6 @@
 import logging
 import os
+import socket
 
 from dadou_utils.misc import Misc
 
@@ -10,17 +11,24 @@ from dadou_utils.utils_static import AUDIOS_DIRECTORY, BUTTON_GRID, EYES, RPI_TY
     JSON_SPEECHS, PLAYLIST_PATH, GLOVE_LEFT, GLOVE_RIGHT, PROJECT_LIGHTS_DIRECTORY, \
     PLAYLIST_PLAY, PLAYLIST_STOP, PURPLE, BORDEAUX, YELLOW, ORANGE, CYAN, FONT1, FONT2, FONT3, SYSTEM, \
     RPI_LOGGING_CONFIG_FILE, LAPTOP_LOGGING_CONFIG_FILE, JSON_LIGHTS_METHODS, WS_CLIENTS, WS_PORT, LOGGING_FILE_NAME, \
-    BAUD_RATE
+    BAUD_RATE, ICONS, CONFIG, LOG_FILE, HOST_NAME
 
 config = {}
 
+DUAL_GLOVE_9DOF_LEFT, DUAL_GLOVE_9DOF_RIGHT, DUAL_GLOVE_LEFT, DUAL_GLOVE_RIGHT, SINGLE_GLOVE_9DOF, SINGLE_GLOVE, DUAL_GLOVE, CONFIG = \
+    "2 GL 9", "2 GR 9", "2 GL", "2 GR", "1 G 9", "1 G", "2 G", CONFIG
+IH, IM, IB, MH, MM, MB, AH, AM, AB, OH, OM, OB = 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
+
 config[BASE_PATH] = os.getcwd()
+config[HOST_NAME] = socket.gethostname()
 
 config[WS_PORT] = 4421
 #config[WS_CLIENTS] = {'robot': '192.168.1.200', 'sceno': '192.168.1.220', 'harddrive': '192.168.1.230'}
 config[WS_CLIENTS] = {'robot': 'didier.local', 'sceno': 'sceno.local', 'harddrive': 'disk.local'}
 #config[WS_CLIENT] = {'sceno': 'ws://192.168.1.220:4421', 'sceno': 'ws://192.168.1.220:4421'}
 ############## JSON FILES ##############
+
+config[LOGGING_FILE_NAME] = "logs/control.log"
 
 config[JSON_CONFIG] = 'control_config.json'
 config[JSON_EXPRESSIONS] = 'expressions.json'
@@ -50,14 +58,18 @@ config[CYAN] = '#0f4c5c'
 
 ############ FONTS #################
 
-config[FONT1] = "Helvetica 18 italic bold" #None tkfont.Font(family='Helvetica', size=18, weight="bold", slant="italic")
-config[FONT2] = "Helvetica 15 italic bold" #None tkfont.Font(family='Helvetica', size=15, weight="bold", slant="italic")
-config[FONT3] = "Helvetica 12 italic bold" #None tkfont.Font(family='Helvetica', size=12, weight="bold", slant="italic")
+config[FONT1] = "Helvetica 30 italic bold" #None tkfont.Font(family='Helvetica', size=18, weight="bold", slant="italic")
+config[FONT2] = "Helvetica 17 italic bold" #None tkfont.Font(family='Helvetica', size=15, weight="bold", slant="italic")
+config[FONT3] = "Helvetica 15 italic bold" #None tkfont.Font(family='Helvetica', size=12, weight="bold", slant="italic")
 
-config[BUTTON_GRID] = "Helvetica 60 italic bold" #None tkfont.Font(family='Helvetica', size=18, weight="bold", slant="italic")
+FONT_DROPDOWN = "Helvetica 30 italic bold"
+FONT_BUTTON = "Helvetica 34 italic bold"
+
+config[BUTTON_GRID] = "Helvetica 31 italic bold" #None tkfont.Font(family='Helvetica', size=18, weight="bold", slant="italic")
 
 config[PLAYLIST_PLAY] = ['c', 'D']
 config[PLAYLIST_STOP] = ['j', 'H']
+RESTART_APP = ['I']
 config[DEVICES] = [
         {
             NAME: 'buttons',
@@ -68,7 +80,7 @@ config[DEVICES] = [
         },
         {
             NAME: GLOVE_LEFT,
-            SERIAL_ID: 'usb-Raspberry_Pi_Pico_E4683818DF310B23-if00',
+            SERIAL_ID: 'usb-Raspberry_Pi_Pico_E4627857633F1933-if00',
             MSG_SIZE: 0,
             TYPE: "input_key",
             BAUD_RATE: 115200
@@ -100,7 +112,8 @@ config[PATHS] = {
         VISUALS: "/../visuals/",
         EYES: "/../visuals/eye/",
         MOUTH: "/../visuals/mouth/",
-        SEQUENCES: "/../json/sequences/"
+        SEQUENCES: "/../json/sequences/",
+        ICONS: "/../visuals/icons/"
     }
 
 config[SYSTEM] = Misc.get_system_type()
@@ -111,4 +124,4 @@ elif config[SYSTEM] == LAPTOP_TYPE:
     config[LOGGING_CONFIG_FILE] = config[BASE_PATH] + config[LAPTOP_LOGGING_CONFIG_FILE]
 else:
     logging.error("can't find system type {}".format(config[SYSTEM]))
-config[LOGGING_FILE_NAME] = "logs/control.log"
+

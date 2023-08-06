@@ -2,10 +2,11 @@ import logging
 import tkinter as tk
 from tkinter import TOP, X, BOTH
 
-from dadou_utils.utils_static import BUTTON_GRID, INPUT_KEY, KEY, LORA, JOY, SLIDERS, CYAN, BORDEAUX, FONT1, YELLOW, PURPLE, \
-    GLOVE_LEFT, GLOVE_RIGHT, ORANGE
+from dadou_utils.utils_static import BUTTON_GRID, INPUT_KEY, KEY, LORA, JOY, SLIDERS, CYAN, BORDEAUX, FONT1, YELLOW, \
+    PURPLE, \
+    GLOVE_LEFT, GLOVE_RIGHT, ORANGE, WHEELS, STOP
 
-from dadoucontrol.control_config import config
+from dadoucontrol.control_config import config, RESTART_APP
 from dadoucontrol.control_factory import ControlFactory
 
 
@@ -14,6 +15,11 @@ class KeyboardWindow(tk.Frame):
         tk.Frame.__init__(self, parent, *args, **kwargs)
         self.mod = 'A'
         self.deviceManager = ControlFactory().device_manager
+
+        self.devices = None
+        self.sliders = None
+        self.input_key_restart_app = RESTART_APP
+
         #self.serial_glove_left = self.deviceManager.gloveLeft
         #self.serial_glove_right = self.deviceManager.gloveRight
 
@@ -65,9 +71,9 @@ class KeyboardWindow(tk.Frame):
 
         grid.pack(fill=BOTH, side=TOP, expand=True)
 
+        self.check_plugged_device()
         self.check_internet()
         self.check_glove_input()
-        self.check_plugged_device()
         #self.check_joystick_input()
         self.check_sliders_input()
 
@@ -95,7 +101,11 @@ class KeyboardWindow(tk.Frame):
             ControlFactory().message.send_multi_ws({KEY: self.mod + key})
 
     def check_plugged_device(self):
-        self.after(500, self.check_plugged_device)
+        self.after(3000, self.check_plugged_device)
+
+        self.sliders = self.deviceManager.get_device(SLIDERS)
+        self.devices = self.deviceManager.get_device_type(INPUT_KEY)
+
         self.update_feedback_panel(self.left_glove_feedback_panel, self.deviceManager.get_device(GLOVE_LEFT))
         self.update_feedback_panel(self.right_glove_feedback_panel, self.deviceManager.get_device(GLOVE_RIGHT))
         #self.update_feedback_panel(self.lora_feedback_panel, self.deviceManager.get_device(LORA))
@@ -110,12 +120,17 @@ class KeyboardWindow(tk.Frame):
 
     def check_glove_input(self):
         self.after(100, self.check_glove_input)
-        devices = self.deviceManager.get_device_type(INPUT_KEY)
-        for device in devices:
+        for device in self.devices:
             msg = device.get_msg_separator()
             if msg:
                 self.right_panel_middle.config(text=msg)
-                ControlFactory().message.send_multi_ws({KEY: msg})
+                if msg in self.input_key_restart_app:
+                    exit()
+                elif msg == 'K':
+                    ControlFactory().message.send_multi_ws({WHEELS: STOP})
+                else:
+                    ControlFactory().message.send_multi_ws({KEY: msg})
+
 
     #def check_buttons_input(self):
     #    self.after(100, self.check_glove_input)
@@ -137,9 +152,9 @@ class KeyboardWindow(tk.Frame):
 
     def check_sliders_input(self):
         self.after(100, self.check_sliders_input)
-        sliders = self.deviceManager.get_device(SLIDERS)
-        if sliders:
-            msg = sliders.get_msg_separator()
+
+        if self.sliders:
+            msg = self.sliders.get_msg_separator()
             if msg:
                 self.right_panel_middle.config(text=msg)
                 ControlFactory().message.send_sliders(msg)

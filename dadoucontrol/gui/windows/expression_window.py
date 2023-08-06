@@ -22,8 +22,9 @@ class ExpressionWindow(tk.Frame):
 
     current_mouse_pos = None
 
-    def __init__(self, parent, *args, **kwargs):
+    def __init__(self, mode, parent, *args, **kwargs):
         tk.Frame.__init__(self, parent, *args, **kwargs)
+        self.mode = mode
         self.pack(fill=BOTH, expand=True, side=TOP)
 
         left_menu = tk.Frame(self, width=50, bg=CYAN)
@@ -125,7 +126,7 @@ class ExpressionWindow(tk.Frame):
         expressions = ControlFactory().control_json_manager.open_json(config[JSON_EXPRESSIONS])
         results = []
         for expression in expressions:
-            results.append(expression['name'])
+            results.append(expression[NAME])
         self.expressions_var.set(results)
 
     def add(self):
