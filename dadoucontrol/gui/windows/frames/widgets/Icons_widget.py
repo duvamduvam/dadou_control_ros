@@ -17,21 +17,24 @@ class Icons_widget:
         self.parent = parent
         self.menu = menu
         self.glove_feedback_time = 0
+
+        device_manager = ControlFactory().device_manager
+
         ##### feedback icons
         icon_pos = 2
-        if ControlFactory().input_connected(ControlFactory().input_key_devices, "glove"):
+        if device_manager.input_connected(ControlFactory().input_key_devices, "glove"):
             self.hand_label, self.hand_icon, self.hand_image = self.create_label_icon("hand.png")
 
-        if ControlFactory().input_connected(ControlFactory().sliders, "slider"):
+        if device_manager.input_connected(ControlFactory().sliders, "slider"):
             self.slider_label, self.slider_icon, self.hand_image = self.create_label_icon("sliders.png")
 
-        if ControlFactory().device_connected('sceno'):
+        if ControlFactory().ws_device_connected('sceno'):
             self.sceno_label, self.sceno_icon, self.robot_image = self.create_label_icon("music.png")
 
-        if ControlFactory().device_connected('harddrive'):
+        if ControlFactory().ws_device_connected('harddrive'):
             self.helmet_label, self.helmet_icon, self.helmet_image = self.create_label_icon("helmet.png")
 
-        if ControlFactory().device_connected('robot'):
+        if ControlFactory().ws_device_connected('robot'):
             self.robot_label, self.robot_icon, self.robot_image = self.create_label_icon("robot.png")
 
         if Misc.wifi_connected():

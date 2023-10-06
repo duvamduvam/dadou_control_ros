@@ -7,7 +7,6 @@ import logging
 import os
 
 from dadoucontrol.control_factory import ControlFactory
-from dadoucontrol.gui.gamepad import GamePadGui
 from dadoucontrol.gui.normal_gui import NormalGui
 from dadoucontrol.gui.smaill_gui import SmallGui
 
@@ -23,9 +22,10 @@ logging.info("Starting control device {}".format(device))
 
 def main():
     try:
-        if "gr" in device or "gl" in device:
+        if "right" in device or "left" in device:
             gui = SmallGui()
         elif "gp" in device or "gamepad" in device:
+            from dadoucontrol.gui.gamepad import GamePadGui
             gui = GamePadGui()
         else:
             gui = NormalGui()

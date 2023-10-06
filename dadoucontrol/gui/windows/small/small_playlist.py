@@ -15,7 +15,7 @@ from dadou_utils.utils_static import NAME, PLAYLISTS, AUDIO, STOP, INPUT_KEY, KE
     PLAYLIST_PATH, CYAN, AUDIOS_DIRECTORY, FONT1, FONT2, ANIMATION, PLAYLIST_STOP, SLIDERS, WHEELS, ORANGE, YELLOW, \
     DEVICE, MSG, CMD, PLAYLIST, NEXT, CONTROL, CONFIG, DEFAULT, FONT3
 from dadou_utils.audios.sound_object import SoundObject
-from dadoucontrol.buttons.button_config import KEYS_MAPPING, BUTTONS_LAYOUT, PLAYLIST_CONFIG
+from dadoucontrol.buttons.button_config import KEYS_MAPPING, BUTTONS_LAYOUT, PLAYLIST_CONFIG, Buttons
 
 from dadoucontrol.control_factory import ControlFactory
 from dadoucontrol.control_config import config, RESTART_APP, FONT_DROPDOWN, FONT_BUTTON
@@ -173,11 +173,15 @@ class SmallPlaylist(tk.Frame):
     def exec_input(self):
         self.after(100, self.exec_input)
 
-        if InputMessagesList().has_mg():
+        if InputMessagesList().has_msg():
             msg = InputMessagesList().pop_msg()
 
             if "glove" in msg[DEVICE]:
-                value = BUTTONS_LAYOUT[PLAYLIST][KEYS_MAPPING[msg[MSG]]][CMD]
+                #value = BUTTONS_LAYOUT[PLAYLIST][KEYS_MAPPING[msg[MSG]]][CMD]
+                #inclino
+                value = Buttons.get(PLAYLIST, msg[MSG])#BUTTONS_LAYOUT[self.mode][KEYS_MAPPING[msg[MSG]]][CMD]
+                if not value:
+                    return
                 logging.info("input msg {}".format(value))
                 key_list = list(value.keys())
                 self.parent.show_popup("{} : {}".format(key_list[0], value[key_list[0]]))

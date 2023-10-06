@@ -115,7 +115,6 @@ class SmallGui(tk.Tk):
         self.new_msg = True
         self.feedback_message_time = TimeUtils.current_milli_time()
 
-
     def create_popup(self):
         popup = tk.Toplevel(self, bg=config[BORDEAUX])
         popup.wm_attributes('-type', 'splash')

@@ -23,7 +23,8 @@ export PROJECT_SYSTEM_LIB="python3-opencv mpg123 adafruit-circuitpython-neopixel
 export PROJECT_PYTHON_LIB="playsound python-vlc PySimpleGUI"
 
 readarray -d . -t strarr <<< "$(basename -- $RPI_HOST_NAME)"
-export LOG_FILE="${strarr[0]}.log"
+#export LOG_FILE="${strarr[0]}.log"
+export LOG_FILE="control.log"
 ####################################################################
 
 export RPI_HOME=/home/didier

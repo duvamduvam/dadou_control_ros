@@ -1,11 +1,12 @@
 import logging
 import logging.config
 import time
+import platform
 
 from dadou_utils.logging_conf import LoggingConf
 from dadou_utils.misc import Misc
 from dadou_utils.utils_static import BASE_PATH, LOGGING_CONFIG_FILE, DEVICES, JSON_DIRECTORY, WS_CLIENT, \
-    LOGGING_FILE_NAME, INPUT_KEY, SLIDERS, NAME, LOG_FILE
+    LOGGING_FILE_NAME, INPUT_KEY, SLIDERS, NAME, LOG_FILE, BUTTON, MSG, ALL
 
 from dadou_utils.com.serial_devices_manager import SerialDeviceManager
 from dadou_utils.com.ws_client import WsClient
@@ -28,12 +29,13 @@ class ControlFactory(metaclass=SingletonMeta):
 
         print("config file {}".format(config[LOGGING_CONFIG_FILE]))
         #TODO improve process file name
-        logging.config.dictConfig(LoggingConf.get(config[LOGGING_FILE_NAME], "main"))
-        #logging.config.fileConfig(config[LOGGING_CONFIG_FILE], disable_existing_loggers=False)
+        #logging.config.dictConfig(LoggingConf.get(config[LOGGING_FILE_NAME], "main"))
+        logging.config.fileConfig(config[LOGGING_CONFIG_FILE], disable_existing_loggers=False)
 
         self.control_json_manager = ControlJsonManager()
         self.device_manager = SerialDeviceManager(config[DEVICES])
         self.input_key_devices = self.device_manager.get_device_type(INPUT_KEY)
+        self.buttons = self.device_manager.get_device_type(BUTTON)
         self.sliders = self.device_manager.get_device_type(SLIDERS)
 
         self.audio_nav = AudioNav()
@@ -44,23 +46,21 @@ class ControlFactory(metaclass=SingletonMeta):
             logging.error("no network waiting")
             time.sleep(1)
 
+        ws_devices_conf = config[WS_CLIENTS][ALL]
+        device = platform.uname()[1]
+        if device in config[WS_CLIENTS]:
+            logging.info("ws devices conf {}".format(device))
+            ws_devices_conf = config[WS_CLIENTS][device]
+
         self.ws_clients = []
-        for key, value in config[WS_CLIENTS].items():
+        for key, value in ws_devices_conf.items():
             self.ws_clients.append(WsClient(value, config[WS_PORT], key))
 
         self.message = RobotMessage(self.ws_clients, self.device_manager)
 
-    def input_connected(self, type, name):
-        connected = False
-        for input_device in type:
-            if name in input_device.name:
-                connected = True
-        return connected
-
-    def device_connected(self, device):
+    def ws_device_connected(self, device):
         connected = False
         for ws_client in self.ws_clients:
             if ws_client.name == device and ws_client.activ:
                 connected = True
         return connected
-

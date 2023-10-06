@@ -4,6 +4,8 @@ import time
 import unittest
 import RPi.GPIO as GPIO
 
+from dadoucontrol.buttons.gp_buttons import GPButtons
+
 class TestGamePad(unittest.TestCase):
     print(dir(board))
 
@@ -55,6 +57,12 @@ class TestGamePad(unittest.TestCase):
             #print(" {} / {}".format(self.X.value, self.Y.value))
             time.sleep(0.1)
 
+    def test_gp_class(self):
+        gp_buttons = GPButtons()
+        print("start test")
+        while True:
+            gp_buttons.check()
+            time.sleep(0.1)
 
 
 if __name__ == '__main__':

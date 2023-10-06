@@ -8,7 +8,7 @@ from dadou_utils.utils.time_utils import TimeUtils
 from dadou_utils.utils_static import BUTTON_GRID, INPUT_KEY, KEY, LORA, JOY, SLIDERS, CYAN, BORDEAUX, FONT1, YELLOW, \
     PURPLE, \
     GLOVE_LEFT, GLOVE_RIGHT, ORANGE, WHEELS, STOP, NAME, CMD, FONT2, MSG, DEVICE
-from dadoucontrol.buttons.button_config import INPUT_KEYS, KEYS_MAPPING, BUTTONS_LAYOUT
+from dadoucontrol.buttons.button_config import INPUT_KEYS, KEYS_MAPPING, BUTTONS_LAYOUT, Buttons
 
 from dadoucontrol.control_config import config, RESTART_APP, SINGLE_GLOVE, SINGLE_GLOVE_9DOF
 from dadoucontrol.control_factory import ControlFactory
@@ -62,11 +62,14 @@ class SmallControl(tk.Frame):
     def exec_input(self):
         self.after(100, self.exec_input)
 
-        if InputMessagesList().has_mg():
+        if InputMessagesList().has_msg():
             msg = InputMessagesList().pop_msg()
 
             if "glove" in msg[DEVICE]:
-                value = BUTTONS_LAYOUT[self.mode][KEYS_MAPPING[msg[MSG]]][CMD]
+                value = Buttons.get(self.mode, msg[MSG])#BUTTONS_LAYOUT[self.mode][KEYS_MAPPING[msg[MSG]]][CMD]
+                if not value:
+                    return
+
                 logging.info("input msg {}".format(value))
                 key_list = list(value.keys())
                 self.parent.show_popup("{} : {}".format(key_list[0], value[key_list[0]]))
