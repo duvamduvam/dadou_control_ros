@@ -75,11 +75,11 @@ HE, AR, EY, AN = "HE", "AR", "EY", "AN"
 SELECT_MODE = [HE, AR, EY, AN]
 
 
-BUTTONS_MAPPING = {HE: {UP: {RIGHT_ARM: UP}, DOWN: {RIGHT_ARM: DOWN}, LEFT: {NECK: UP}, RIGHT: {NECK: DOWN},
+BUTTONS_MAPPING = {HE: {UP: {RIGHT_ARM: DOWN}, DOWN: {RIGHT_ARM: UP}, LEFT: {NECK: UP}, RIGHT: {NECK: DOWN},
                         A: {RIGHT_EYE: UP}, B: {RIGHT_EYE: DOWN}, X: {LEFT_EYE: UP},
-                        Y: {LEFT_EYE: DOWN}, BL: {}, BR: {},
+                        Y: {LEFT_EYE: DOWN}, BL: {BL: None}, BR: {BR: None},
                         'by': {WHEELS: FORWARD}, 'bw': {WHEELS: LEFT}, 'br': {WHEELS: RIGHT}, 'bg': {WHEELS: BACKWARD},
-                        'bb': {ANIMATION: 'random button'}, START: {}, SELECT: {}}}
+                        'bb': {ANIMATION: 'random button'}, START: {}, SELECT: {SELECT: None}}}
 BUTTONS_MAPPING[AR] = copy.copy(BUTTONS_MAPPING[HE])
 #BUTTONS_MAPPING[AR][A] = {LEFT_ARM: UP}
 #BUTTONS_MAPPING[AR][B] = {LEFT_ARM: DOWN}

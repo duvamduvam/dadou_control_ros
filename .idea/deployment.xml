@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="didier root">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping local="$PROJECT_DIR$/../dadou_robot" web="/" />
+            <mapping local="$PROJECT_DIR$/../dadou_utils" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="remote root">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping local="$PROJECT_DIR$/../dadou_robot" web="/" />
+            <mapping local="$PROJECT_DIR$/../dadou_utils" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root gamepad">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/didier/deploy" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root gl">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/didier/deploy" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
