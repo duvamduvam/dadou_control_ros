@@ -7,35 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e737f4f3-4117-4ba7-a7c5-4eb5247e9199" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/dadou_utils/tests/test_socket.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadoucontrol/input/serial_inputs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/actions/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/com/input_messages_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/com/input_messages_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/com/message.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/com/message.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/com/ws_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/com/ws_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/scripts/deploy/params.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/scripts/deploy/params.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/utils_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/utils_static.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/buttons/button_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/buttons/button_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/com/glove_message.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/com/glove_message.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/com/robot_message.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/com/serial_device_manager.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/control_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/control_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/control_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/control_factory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/gamepad.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/gamepad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/normal_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/normal_gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/smaill_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/small_gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/Icons_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/icons_widget.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/keyboard_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/keyboard_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/playlist_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/playlist_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/small/small_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/small/small_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/small/small_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/small/small_control.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/gui/windows/small/small_playlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/gui/windows/small/small_playlist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadoucontrol/tests/test_input_devices.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadoucontrol/tests/test_input_devices.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/control.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/control.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="e737f4f3-4117-4ba7-a7c5-4eb5247e9199" name="Changes" comment="add joystick input" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -684,7 +656,7 @@
       <workItem from="1697874735518" duration="5740000" />
       <workItem from="1697881705711" duration="652000" />
       <workItem from="1697882417896" duration="3850000" />
-      <workItem from="1697894888408" duration="717000" />
+      <workItem from="1697894888408" duration="828000" />
     </task>
     <task id="LOCAL-00001" summary="i don't know ...">
       <created>1654844930851</created>
@@ -951,7 +923,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -972,7 +956,8 @@
     <MESSAGE value="improve deployment" />
     <MESSAGE value="change config and deploy" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="add joystick input" />
+    <option name="LAST_COMMIT_MESSAGE" value="add joystick input" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
