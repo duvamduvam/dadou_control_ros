@@ -13,7 +13,7 @@ from dadou_utils.utils_static import AUDIOS_DIRECTORY, BUTTON_GRID, EYES, RPI_TY
     PLAYLIST_PLAY, PLAYLIST_STOP, PURPLE, BORDEAUX, YELLOW, ORANGE, CYAN, FONT1, FONT2, FONT3, SYSTEM, \
     RPI_LOGGING_CONFIG_FILE, LAPTOP_LOGGING_CONFIG_FILE, JSON_LIGHTS_METHODS, WS_CLIENTS, WS_PORT, LOGGING_FILE_NAME, \
     BAUD_RATE, ICONS, CONFIG, LOG_FILE, HOST_NAME, UP, WHEELS, FORWARD, DOWN, BACKWARD, LEFT, RIGHT, ANIMATION, A, B, X, \
-    Y, BUTTON, MSG, BL, BR, START, SELECT, ALL, LEFT_ARM, RIGHT_ARM, NECK, RIGHT_EYE, LEFT_EYE
+    Y, BUTTON, MSG, BL, BR, START, SELECT, ALL, LEFT_ARM, RIGHT_ARM, NECK, RIGHT_EYE, LEFT_EYE, JOYSTICK, INPUT_KEY
 
 config = {}
 
@@ -137,33 +137,33 @@ config[DEVICES] = [
             NAME: 'buttons',
             SERIAL_ID: 'usb-1a86_USB_Serial-if00-port0',
             MSG_SIZE: 0,
-            TYPE: "input_key",
+            TYPE: INPUT_KEY,
             BAUD_RATE: 115200
         },
         {
             NAME: GLOVE_LEFT,
             SERIAL_ID: 'usb-Raspberry_Pi_Pico_E6611CB69753BB25-if00',
             MSG_SIZE: 0,
-            TYPE: "input_key",
+            TYPE: INPUT_KEY,
             BAUD_RATE: 115200
         },
         {
             NAME: "glove_right",
             SERIAL_ID: "usb-Raspberry_Pi_Pico_E4627CB0E7171B30-if00",
             "msg_size": 0,
-            TYPE: "input_key",
+            TYPE: INPUT_KEY,
             BAUD_RATE: 115200
         },
         {
-            NAME: "joy",
-            SERIAL_ID: "usb-FTDI_FT232R_USB_UART_AD0KBT1R-if00-port0",
+            NAME: JOYSTICK,
+            SERIAL_ID: "usb-Waveshare_Electronics_RP2040-Zero_DE6250B407486D23-if00",
             "msg_size": 6,
-            TYPE: "joy",
+            TYPE: JOYSTICK,
             BAUD_RATE: 115200
         },
         {
             NAME: "sliders",
-            SERIAL_ID: "usb-Raspberry_Pi_Pico_E66138935F269628-if00",
+            SERIAL_ID: "usb-Waveshare_Electronics_RP2040-Zero_E66138935F269628-if00",
             "msg_size": 6,
             TYPE: "sliders",
             BAUD_RATE: 9600

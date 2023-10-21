@@ -5,7 +5,7 @@ from dadou_utils.singleton import SingletonMeta
 from dadou_utils.utils_static import AUDIO, ANGLO, BACKWARD, EYES, FORWARD, LEFT, LONG, MODE, MOUTH, NEXT, PLAYLIST, \
     RIGHT, \
     SHORT, WHEELS, NECK, ARMS, LEFT_ARM, RIGHT_ARM, DOWN, UP, NAME, CMD, KEY, FACE, ANIMATION, CONFIG, LIGHTS, STOP, \
-    DEFAULT, SPEAK, INCLINO
+    DEFAULT, SPEAK, INCLINO, RIGHT_EYE, LEFT_EYE
 from dadoucontrol.control_config import SINGLE_GLOVE_9DOF, SINGLE_GLOVE, \
     DUAL_GLOVE_9DOF_LEFT, DUAL_GLOVE_9DOF_RIGHT, DUAL_GLOVE_LEFT, DUAL_GLOVE_RIGHT, IHL, IML, IHR, IMR, IBR, MHL, MHR, \
     MML, MMR, MBL, MBR, AHL, AHR, AML, AMR, ABL, ABR, OHL, OHR, OML, OMR, OBL, OBR, IBL
@@ -40,27 +40,28 @@ base = {
     OML: {NAME: "prout", CMD: {AUDIO: 'prout'}},
     OBL: {NAME: "stop", CMD: {AUDIO: STOP}},
 
-    IHR: {NAME: "salut", CMD: {AUDIO: 'salut'}},
-    IMR: {NAME: "ca va", CMD: {AUDIO: 'ca-va'}},
-    IBR: {NAME: "sympa toi", CMD: {ANIMATION: 'crazy'}},
-    MHR: {NAME: "wh right", CMD: {WHEELS: RIGHT}},
-    MMR: {NAME: "wh left", CMD: {WHEELS: LEFT}},
-    MBR: {NAME: "ro vo", CMD: {RELAY: "pitched_voice", ANIMATION: "speak"}},
-    AHR: {NAME: "wh for", CMD: {WHEELS: FORWARD}},
-    AMR: {NAME: "wh back", CMD: {WHEELS: BACKWARD}},
-    ABR: {NAME: "no vo", CMD: {RELAY: "normal_voice"}},
+    IHR: {NAME: "Inclino", CMD: {}},
+    IMR: {NAME: "rarm down", CMD: {RIGHT_ARM: DOWN}},
+    IBR: {NAME: "rarm up", CMD: {RIGHT_ARM: UP}},
+    MHR: {NAME: "neck right", CMD: {NECK: DOWN}},
+    MMR: {NAME: "larm down", CMD: {LEFT_ARM: DOWN}},
+    MBR: {NAME: "larm up", CMD: {LEFT_ARM: UP}},
+    AHR: {NAME: "neck left", CMD: {NECK: UP}},
+    AMR: {NAME: "leye down", CMD: {RIGHT_EYE: DOWN}},
+    ABR: {NAME: "leye up", CMD: {RIGHT_EYE: UP}},
     OHR: {NAME: "mute", CMD: {"mute": "mute"}},
-    OMR: {NAME: "prout", CMD: {AUDIO: 'prout'}},
-    OBR: {NAME: "stop", CMD: {AUDIO: STOP}}
+    OMR: {NAME: "reye down", CMD: {LEFT_EYE: DOWN}},
+    OBR: {NAME: "reye up", CMD: {LEFT_EYE: UP}}
 }
 
-playlist = copy.deepcopy(base)
+playlist = copy.copy(base)
 playlist[IBL] = {NAME: "pl next", CMD: {PLAYLIST: NEXT}}
 
 BUTTONS_LAYOUT = {
     PLAYLIST: playlist,
     DEFAULT: base
 }
+
 
 class Buttons(metaclass=SingletonMeta):
 

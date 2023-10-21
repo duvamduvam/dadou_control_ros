@@ -17,7 +17,7 @@ from dadou_utils.utils_static import ORANGE, BORDEAUX, YELLOW, CYAN, FONT1, PURP
 
 from dadoucontrol.control_config import config, FONT_DROPDOWN, SINGLE_GLOVE, BUTTONS_MAPPING, SELECT_MODE
 from dadoucontrol.control_factory import ControlFactory
-from dadoucontrol.gui.windows.frames.widgets.Icons_widget import Icons_widget
+from dadoucontrol.gui.windows.frames.widgets.icons_widget import IconsWidget
 from dadoucontrol.gui.windows.mod_window import ModWindow
 
 from dadoucontrol.gui.windows.small.small_config import SmallConfig
@@ -85,6 +85,13 @@ class GamePadGui(tk.Tk):
         self.check_buttons()
         #self.check_external_buttons()
 
+        self.send_messages()
+
+    def send_messages(self):
+        self.after(100, self.send_messages)
+        if InputMessagesList().has_msg():
+            ControlFactory().message.send(InputMessagesList().pop_msg())
+
     def create_circle(self, x, y, r, canvas): #center coordinates, radius
         x0 = x - r
         y0 = y - r
@@ -105,7 +112,7 @@ class GamePadGui(tk.Tk):
         if messages:
             logging.info(messages)
             if self.actions_from_button(messages):
-                ControlFactory().message.send_multi_ws(messages)
+                InputMessagesList().add_msg(messages)
                 self.canvas.itemconfigure(self.feedback, text=messages)
                 self.after(3000, self.clean_feedback)
                 Misc.exec_shell("DISPLAY=:0 xset s reset")

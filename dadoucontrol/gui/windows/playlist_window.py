@@ -8,6 +8,7 @@ from tkinter import BOTH, TOP, filedialog, LEFT, X, Y, RIGHT, END
 from playsound import playsound
 import vlc
 
+from dadou_utils.com.input_messages_list import InputMessagesList
 from dadou_utils.utils.time_utils import TimeUtils
 from dadou_utils.files.files_utils import FilesUtils
 from dadou_utils.utils_static import NAME, PLAYLISTS, AUDIO, STOP, INPUT_KEY, KEY, PLAYLIST_PLAY, BASE_PATH, BORDEAUX, \
@@ -161,11 +162,11 @@ class PlaylistWindow(tk.Frame):
         #audio_params[AUDIO] = audio_name
         logging.info("send playlist number {} value {}".format(playlist_num, audio_params))
         self.next()
-        ControlFactory().message.send_multi_ws(audio_params)
+        InputMessagesList().add_msg(audio_params)
 
 
     def click_stop(self):
-        ControlFactory().message.send_multi_ws({AUDIO: STOP, ANIMATION: False})
+        InputMessagesList().add_msg({AUDIO: STOP, ANIMATION: False})
         if self.vlc_player:
             self.vlc_player.stop()
 
@@ -220,7 +221,7 @@ class PlaylistWindow(tk.Frame):
         if self.sliders:
             msg = self.sliders.get_msg_separator()
             if msg:
-                ControlFactory().message.send_sliders(msg)
+                InputMessagesList().add_msg(msg)
 
     def check_glove_input(self):
         self.after(100, self.check_glove_input)
@@ -239,8 +240,8 @@ class PlaylistWindow(tk.Frame):
                 elif msg in self.input_key_restart_app:
                     exit()
                 elif msg == 'K':
-                    ControlFactory().message.send_multi_ws({WHEELS: STOP})
+                    InputMessagesList().add_msg({WHEELS: STOP})
                 else:
                     #TODO improve that ...
-                    ControlFactory().message.send_multi_ws({KEY: msg})
+                    InputMessagesList().add_msg({KEY: msg})
 

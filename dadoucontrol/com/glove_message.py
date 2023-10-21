@@ -5,7 +5,6 @@ from dadou_utils.utils_static import KEY, ANGLO
 
 class GloveMessage:
 
-
     def decrypt(self, input):
         msg = {}
         if not input or len(input) == 0:

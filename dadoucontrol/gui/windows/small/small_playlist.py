@@ -13,7 +13,7 @@ from dadou_utils.utils.time_utils import TimeUtils
 from dadou_utils.files.files_utils import FilesUtils
 from dadou_utils.utils_static import NAME, PLAYLISTS, AUDIO, STOP, INPUT_KEY, KEY, PLAYLIST_PLAY, BASE_PATH, BORDEAUX, \
     PLAYLIST_PATH, CYAN, AUDIOS_DIRECTORY, FONT1, FONT2, ANIMATION, PLAYLIST_STOP, SLIDERS, WHEELS, ORANGE, YELLOW, \
-    DEVICE, MSG, CMD, PLAYLIST, NEXT, CONTROL, CONFIG, DEFAULT, FONT3
+    DEVICE, MSG, CMD, PLAYLIST, NEXT, CONTROL, CONFIG, DEFAULT, FONT3, GLOVE
 from dadou_utils.audios.sound_object import SoundObject
 from dadoucontrol.buttons.button_config import KEYS_MAPPING, BUTTONS_LAYOUT, PLAYLIST_CONFIG, Buttons
 
@@ -33,7 +33,6 @@ class SmallPlaylist(tk.Frame):
         self.playlist_last_cmd = 0
 
         self.control_json = ControlFactory().control_json_manager
-        self.deviceManager = ControlFactory().device_manager
         self.input_key_play = config[PLAYLIST_PLAY]
         self.input_key_stop = config[PLAYLIST_STOP]
         self.input_key_restart_app = RESTART_APP
@@ -117,10 +116,10 @@ class SmallPlaylist(tk.Frame):
         audio_params = list(self.playlist_data.values())[playlist_num]
         logging.info("send playlist number {} value {}".format(playlist_num, audio_params))
         self.next()
-        ControlFactory().message.send_multi_ws(audio_params)
+        InputMessagesList().add_msg(audio_params)
 
     def click_stop(self):
-        ControlFactory().message.send_multi_ws({AUDIO: STOP, ANIMATION: False})
+        InputMessagesList().add_msg({AUDIO: STOP, ANIMATION: False})
         if self.vlc_player:
             self.vlc_player.stop()
 
@@ -173,19 +172,19 @@ class SmallPlaylist(tk.Frame):
     def exec_input(self):
         self.after(100, self.exec_input)
 
-        if InputMessagesList().has_msg():
-            msg = InputMessagesList().pop_msg()
-
-            if "glove" in msg[DEVICE]:
-                #value = BUTTONS_LAYOUT[PLAYLIST][KEYS_MAPPING[msg[MSG]]][CMD]
-                #inclino
-                value = Buttons.get(PLAYLIST, msg[MSG])#BUTTONS_LAYOUT[self.mode][KEYS_MAPPING[msg[MSG]]][CMD]
+        serial_messages = self.parent.serial_inputs.get_key_msg()
+        if serial_messages and len(serial_messages) > 0:
+            for msg in serial_messages:
+                #if GLOVE in msg[DEVICE]:
+                value = Buttons.get(PLAYLIST, msg)  # BUTTONS_LAYOUT[self.mode][KEYS_MAPPING[msg[MSG]]][CMD]
                 if not value:
                     return
+
                 logging.info("input msg {}".format(value))
                 key_list = list(value.keys())
                 self.parent.show_popup("{} : {}".format(key_list[0], value[key_list[0]]))
                 if key_list[0] == PLAYLIST:
                     self.playlist_instructions(value[key_list[0]])
                 else:
-                    ControlFactory().message.send_multi_ws(value)
+                    InputMessagesList().add_msg(value)
+

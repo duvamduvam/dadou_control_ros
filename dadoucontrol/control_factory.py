@@ -3,17 +3,17 @@ import logging.config
 import time
 import platform
 
+from dadou_utils.com.message import Message
+from dadou_utils.com.serial_devices_manager import SerialDeviceManager
 from dadou_utils.logging_conf import LoggingConf
 from dadou_utils.misc import Misc
 from dadou_utils.utils_static import BASE_PATH, LOGGING_CONFIG_FILE, DEVICES, JSON_DIRECTORY, WS_CLIENT, \
-    LOGGING_FILE_NAME, INPUT_KEY, SLIDERS, NAME, LOG_FILE, BUTTON, MSG, ALL
+    LOGGING_FILE_NAME, INPUT_KEY, SLIDERS, NAME, LOG_FILE, BUTTON, MSG, ALL, JOYSTICK
 
-from dadou_utils.com.serial_devices_manager import SerialDeviceManager
 from dadou_utils.com.ws_client import WsClient
 from dadou_utils.singleton import SingletonMeta
 
 from dadoucontrol.audio.audio_navigation import AudioNav
-from dadoucontrol.com.robot_message import RobotMessage
 from dadoucontrol.control_config import config
 from dadoucontrol.files.control_json_manager import ControlJsonManager
 from dadoucontrol.logic.sequences.sequences_manager import SequencesManagement
@@ -32,14 +32,11 @@ class ControlFactory(metaclass=SingletonMeta):
         #logging.config.dictConfig(LoggingConf.get(config[LOGGING_FILE_NAME], "main"))
         logging.config.fileConfig(config[LOGGING_CONFIG_FILE], disable_existing_loggers=False)
 
-        self.control_json_manager = ControlJsonManager()
-        self.device_manager = SerialDeviceManager(config[DEVICES])
-        self.input_key_devices = self.device_manager.get_device_type(INPUT_KEY)
-        self.buttons = self.device_manager.get_device_type(BUTTON)
-        self.sliders = self.device_manager.get_device_type(SLIDERS)
+        self.control_json_manager = ControlJsonManager() 
 
         self.audio_nav = AudioNav()
         self.sequence_management = SequencesManagement(self.control_json_manager)
+        self.devices_manager = SerialDeviceManager(config[DEVICES])
 
         #wait for network
         if not Misc.internet_connected():
@@ -56,7 +53,7 @@ class ControlFactory(metaclass=SingletonMeta):
         for key, value in ws_devices_conf.items():
             self.ws_clients.append(WsClient(value, config[WS_PORT], key))
 
-        self.message = RobotMessage(self.ws_clients, self.device_manager)
+        self.message = Message(self.ws_clients, self.devices_manager)
 
     def ws_device_connected(self, device):
         connected = False

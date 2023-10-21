@@ -2,24 +2,21 @@ import logging
 import tkinter as tk
 import time
 from tkinter import TOP, BOTH, ttk, LEFT
-from tkinter.messagebox import showinfo
-
 
 from dadou_utils.com.input_messages_list import InputMessagesList
-from dadou_utils.misc import Misc
 from dadou_utils.utils.time_utils import TimeUtils
-from dadou_utils.utils_static import ORANGE, BORDEAUX, YELLOW, CYAN, FONT1, PURPLE, FONT3, BASE_PATH, PATHS, ICONS, \
-    BUTTON_GRID, CMD, DEVICE, MSG, MODE, CONTROL, PLAYLIST, CONFIG, DEFAULT, FONT2, HOST_NAME, ERROR
+from dadou_utils.utils_static import (BORDEAUX, YELLOW, FONT1, PURPLE,
+                                      DEVICE, MSG, MODE, CONTROL, PLAYLIST, CONFIG, DEFAULT, FONT2, HOST_NAME)
 
-from dadoucontrol.control_config import config, FONT_DROPDOWN, SINGLE_GLOVE
+from dadoucontrol.control_config import config, FONT_DROPDOWN
 from dadoucontrol.control_factory import ControlFactory
-from dadoucontrol.gui.windows.frames.widgets.Icons_widget import Icons_widget
+from dadoucontrol.gui.windows.frames.widgets.icons_widget import IconsWidget
 from dadoucontrol.gui.windows.mod_window import ModWindow
 
 from dadoucontrol.gui.windows.small.small_config import SmallConfig
 from dadoucontrol.gui.windows.small.small_control import SmallControl
 from dadoucontrol.gui.windows.small.small_playlist import SmallPlaylist
-#from dadoucontrol.input.gampad import GamePad
+from dadoucontrol.input.serial_inputs import SerialInputs
 
 MESSAGE_INPUT_TIMEOUT = 1000
 MENU = [CONTROL, PLAYLIST, CONFIG]
@@ -28,8 +25,10 @@ class SmallGui(tk.Tk):
     def __init__(self, tkMessageBox=None, *args, **kwargs):
         tk.Tk.__init__(self, *args, **kwargs)
 
+        self.serial_inputs = SerialInputs()
+
         self.geometry("480x320")
-        if config[HOST_NAME] != '5401':
+        if config[HOST_NAME] != 'dadou':
             self.wm_attributes('-type', 'splash')
         self.bind('<Escape>', lambda e: self.destroy())
         screen_width = self.winfo_screenwidth()
@@ -46,10 +45,8 @@ class SmallGui(tk.Tk):
         self.listCombo.bind('<<ComboboxSelected>>', self.menu_changed)
         self.mod_button = tk.Button(self.menu, text="M", width=2, font=FONT_DROPDOWN, command=lambda: self.change_window(MODE, None))
         self.mod_button.pack(side=LEFT)
-        #self.listMod, self.selected_mod = self.create_combox(1,  [key for key in CONTROL_MOD], 2)
-        #self.listMod.bind('<<ComboboxSelected>>', self.mod_changed)
 
-        self.icons_widget = Icons_widget(self, self.menu)
+        self.icons_widget = IconsWidget(self, menu=self.menu, device_manager=ControlFactory().devices_manager, serial_inputs=self.serial_inputs)
 
         self.main = None
         self.change_window(PLAYLIST, DEFAULT)
@@ -57,12 +54,20 @@ class SmallGui(tk.Tk):
 
         self.main.pack(fill=BOTH, side=TOP)
 
-        self.check_input()
-        self.check_sliders_input()
+        self.check_inputs()
         self.check_remove_feedback_msg()
+        self.send_messages()
 
-        #self.gamepad = GamePad()
-        #self.check_gamepad()
+    def send_messages(self):
+        self.after(100, self.send_messages)
+        if InputMessagesList().has_msg():
+            ControlFactory().message.send(InputMessagesList().pop_msg())
+
+    def check_inputs(self):
+        self.after(100, self.check_inputs)
+        input = self.serial_inputs.check_inputs()
+        if input:
+            self.show_popup(input)
 
     def create_menu(self, items, width):
         selected_menu = tk.StringVar()
@@ -147,31 +152,5 @@ class SmallGui(tk.Tk):
         if self.new_msg and TimeUtils.is_time(self.feedback_message_time, MESSAGE_INPUT_TIMEOUT):
             self.feedback_message.destroy()
             self.new_msg = False
-
-    def check_gamepad(self):
-        self.after(150, self.check_gamepad())
-        self.gamepad.check()
-
-    def check_input(self):
-        self.after(100, self.check_input)
-
-        for device in ControlFactory().input_key_devices:
-            msg = device.get_msg_separator()
-            if msg:
-                InputMessagesList().add_msg({DEVICE: device.name, MSG: msg})
-                if self.icons_widget.hand_label:
-                    self.icons_widget.glove_feedback()
-
-    def check_sliders_input(self):
-            self.after(100, self.check_sliders_input)
-
-            if ControlFactory().sliders and len(ControlFactory().sliders) == 1:
-                msg = ControlFactory().sliders[0].get_msg_separator()
-                if msg:
-                    #value = CONTROL_MOD[self.default_mod][KEYS_MAPPING[msg]][CMD]
-                    logging.info("input sliers {}".format(msg))
-                    self.show_popup("sliders : {}".format(msg))
-                    ControlFactory().message.send_sliders(msg)
-
 
 

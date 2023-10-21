@@ -5,27 +5,28 @@ import tkinter as tk
 
 from dadou_utils.misc import Misc
 from dadou_utils.utils.time_utils import TimeUtils
-from dadou_utils.utils_static import BASE_PATH, PATHS, ICONS
+from dadou_utils.utils_static import BASE_PATH, PATHS, ICONS, INPUT_KEY, SLIDERS
 from dadoucontrol.control_config import config
 from dadoucontrol.control_factory import ControlFactory
 
 GLOVE_FEEDBACK_TIMEOUT = 3000
 
-class Icons_widget:
-    def __init__(self, parent, menu):
+
+class IconsWidget:
+    def __init__(self, parent, menu, device_manager, serial_inputs):
 
         self.parent = parent
         self.menu = menu
+        self.device_manager = device_manager
         self.glove_feedback_time = 0
 
-        device_manager = ControlFactory().device_manager
 
         ##### feedback icons
         icon_pos = 2
-        if device_manager.input_connected(ControlFactory().input_key_devices, "glove"):
+        if self.device_manager.input_connected(serial_inputs.serial_devices[INPUT_KEY], "glove"):
             self.hand_label, self.hand_icon, self.hand_image = self.create_label_icon("hand.png")
 
-        if device_manager.input_connected(ControlFactory().sliders, "slider"):
+        if self.device_manager.input_connected(serial_inputs.serial_devices[SLIDERS], "slider"):
             self.slider_label, self.slider_icon, self.hand_image = self.create_label_icon("sliders.png")
 
         if ControlFactory().ws_device_connected('sceno'):

@@ -8,7 +8,7 @@ import os
 
 from dadoucontrol.control_factory import ControlFactory
 from dadoucontrol.gui.normal_gui import NormalGui
-from dadoucontrol.gui.smaill_gui import SmallGui
+from dadoucontrol.gui.small_gui import SmallGui
 
 ControlFactory()
 

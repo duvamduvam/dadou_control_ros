@@ -1,17 +1,14 @@
 import logging
 import tkinter as tk
 from tkinter import TOP, X, BOTH
-from tkinter.messagebox import showinfo, Message
 
 from dadou_utils.com.input_messages_list import InputMessagesList
-from dadou_utils.utils.time_utils import TimeUtils
-from dadou_utils.utils_static import BUTTON_GRID, INPUT_KEY, KEY, LORA, JOY, SLIDERS, CYAN, BORDEAUX, FONT1, YELLOW, \
-    PURPLE, \
-    GLOVE_LEFT, GLOVE_RIGHT, ORANGE, WHEELS, STOP, NAME, CMD, FONT2, MSG, DEVICE
-from dadoucontrol.buttons.button_config import INPUT_KEYS, KEYS_MAPPING, BUTTONS_LAYOUT, Buttons
+from dadou_utils.utils_static import CYAN, YELLOW, \
+    PURPLE, NAME, CMD, FONT2, MSG, DEVICE
+from dadoucontrol.buttons.button_config import INPUT_KEYS, BUTTONS_LAYOUT, Buttons
 
-from dadoucontrol.control_config import config, RESTART_APP, SINGLE_GLOVE, SINGLE_GLOVE_9DOF
-from dadoucontrol.control_factory import ControlFactory
+from dadoucontrol.control_config import config
+
 
 class SmallControl(tk.Frame):
     def __init__(self, parent, mode, *args, **kwargs):
@@ -57,24 +54,23 @@ class SmallControl(tk.Frame):
     def click_button(self, text, key):
         value = BUTTONS_LAYOUT[self.mode][key][CMD]
         logging.info("button \"{}\" => \"{}\"".format(text, value))
-        ControlFactory().message.send_multi_ws(value)
+        InputMessagesList().add_msg(value)
 
     def exec_input(self):
         self.after(100, self.exec_input)
 
-        if InputMessagesList().has_msg():
-            msg = InputMessagesList().pop_msg()
+        serial_messages = self.parent.get_serial_devices_msg()
+        if len(serial_messages) > 0:
+            for msg in serial_messages:
+                if "glove" in msg[DEVICE]:
+                    value = Buttons.get(self.mode, msg[MSG])  # BUTTONS_LAYOUT[self.mode][KEYS_MAPPING[msg[MSG]]][CMD]
+                    if not value:
+                        return
 
-            if "glove" in msg[DEVICE]:
-                value = Buttons.get(self.mode, msg[MSG])#BUTTONS_LAYOUT[self.mode][KEYS_MAPPING[msg[MSG]]][CMD]
-                if not value:
-                    return
-
-                logging.info("input msg {}".format(value))
-                key_list = list(value.keys())
-                self.parent.show_popup("{} : {}".format(key_list[0], value[key_list[0]]))
-                ControlFactory().message.send_multi_ws(value)
-
+                    logging.info("input msg {}".format(value))
+                    key_list = list(value.keys())
+                    self.parent.show_popup("{} : {}".format(key_list[0], value[key_list[0]]))
+                    InputMessagesList().add_msg(value)
 
 
 

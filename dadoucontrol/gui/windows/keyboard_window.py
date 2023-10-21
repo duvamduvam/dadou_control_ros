@@ -2,7 +2,8 @@ import logging
 import tkinter as tk
 from tkinter import TOP, X, BOTH
 
-from dadou_utils.utils_static import BUTTON_GRID, INPUT_KEY, KEY, LORA, JOY, SLIDERS, CYAN, BORDEAUX, FONT1, YELLOW, \
+from dadou_utils.com.input_messages_list import InputMessagesList
+from dadou_utils.utils_static import BUTTON_GRID, INPUT_KEY, KEY, LORA, JOYSTICK, SLIDERS, CYAN, BORDEAUX, FONT1, YELLOW, \
     PURPLE, \
     GLOVE_LEFT, GLOVE_RIGHT, ORANGE, WHEELS, STOP
 
@@ -98,7 +99,7 @@ class KeyboardWindow(tk.Frame):
             self.mod = key
         else:
             self.right_panel_middle.config(text=self.mod + key)
-            ControlFactory().message.send_multi_ws({KEY: self.mod + key})
+            InputMessagesList().add_msg({KEY: self.mod + key})
 
     def check_plugged_device(self):
         self.after(3000, self.check_plugged_device)
@@ -127,9 +128,9 @@ class KeyboardWindow(tk.Frame):
                 if msg in self.input_key_restart_app:
                     exit()
                 elif msg == 'K':
-                    ControlFactory().message.send_multi_ws({WHEELS: STOP})
+                    InputMessagesList().add_msg({WHEELS: STOP})
                 else:
-                    ControlFactory().message.send_multi_ws({KEY: msg})
+                    InputMessagesList().add_msg({KEY: msg})
 
 
     #def check_buttons_input(self):
@@ -157,5 +158,5 @@ class KeyboardWindow(tk.Frame):
             msg = self.sliders.get_msg_separator()
             if msg:
                 self.right_panel_middle.config(text=msg)
-                ControlFactory().message.send_sliders(msg)
+                InputMessagesList().add_msg(msg)
 

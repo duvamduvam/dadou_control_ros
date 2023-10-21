@@ -39,7 +39,7 @@ class TestInputDevices(unittest.TestCase):
             messages = InputMessagesList().pop_dict()
             if messages:
                 logging.info(messages)
-                ControlFactory().message.send_multi_ws(messages)
+                InputMessagesList().add_msg(messages)
 
             time.sleep(0.02)
 

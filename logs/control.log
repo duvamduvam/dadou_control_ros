@@ -1,13 +1,842 @@
-2023-10-04 23:18:37,794 - root - ERROR - ws_client.py - __init__ : 24 - device robot ws://didier.local:4421 down
-2023-10-04 23:18:42,847 - root - ERROR - ws_client.py - __init__ : 24 - device sceno ws://sceno.local:4421 down
-2023-10-04 23:18:47,906 - root - ERROR - ws_client.py - __init__ : 24 - device harddrive ws://disk.local:4421 down
-2023-10-04 23:18:47,989 - root - INFO - main.py - <module> : 21 - Starting control device gp
-2023-10-04 23:18:48,003 - root - ERROR - main.py - main : 34 - No module named 'digitalio'
-Traceback (most recent call last):
-  File "/home/dadou/Nextcloud/Didier/python/dadou_control/main.py", line 28, in main
-    from dadoucontrol.gui.gamepad import GamePadGui
-  File "/home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/gui/gamepad.py", line 10, in <module>
-    from dadoucontrol.buttons.gp_buttons import GPButtons
-  File "/home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/buttons/gp_buttons.py", line 4, in <module>
-    import digitalio
-ModuleNotFoundError: No module named 'digitalio'
+2023-10-21 15:28:58,621 - root - INFO - serial_device.py - connect : 38 - serial connected  : joystick
+2023-10-21 15:28:58,622 - root - INFO - serial_devices_manager.py - add_device : 50 - add device joystick
+2023-10-21 15:28:58,858 - root - INFO - ws_client.py - __init__ : 27 - device robot ws://didier.local:4421 listening
+2023-10-21 15:29:03,894 - root - ERROR - ws_client.py - __init__ : 24 - device sceno ws://sceno.local:4421 down
+2023-10-21 15:29:08,958 - root - ERROR - ws_client.py - __init__ : 24 - device harddrive ws://disk.local:4421 down
+2023-10-21 15:29:09,036 - root - INFO - main.py - <module> : 21 - Starting control device left
+2023-10-21 15:29:09,219 - root - INFO - serial_device.py - connect : 38 - serial connected  : joystick
+2023-10-21 15:29:09,219 - root - INFO - serial_devices_manager.py - add_device : 50 - add device joystick
+2023-10-21 15:29:09,472 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : ����co
+2023-10-21 15:29:12,784 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : button
+2023-10-21 15:29:12,885 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:29:12,885 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:29:12,904 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:29:12,985 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:29:12,986 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:29:13,005 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:29:13,086 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:29:13,086 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:29:13,106 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:29:13,186 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:29:13,187 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:29:13,206 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:29:13,286 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:29:13,286 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:29:13,306 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:29:13,386 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:29:13,387 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:29:13,406 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:29:13,486 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5471>
+2023-10-21 15:29:13,487 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 37}
+2023-10-21 15:29:13,506 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 37}} to robot
+2023-10-21 15:29:13,587 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:29:13,588 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:29:13,607 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:29:13,687 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:29:13,687 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:29:13,707 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:29:13,787 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:29:13,788 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:29:13,807 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:29:13,888 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:29:13,888 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:29:13,907 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:29:13,988 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:29:13,988 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:29:14,007 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:29:14,088 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:29:14,089 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:29:14,108 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:29:14,188 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:29:14,189 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:29:14,208 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:29:14,289 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:29:14,289 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:29:14,309 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:29:14,389 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <4710>
+2023-10-21 15:29:14,389 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -17, 'Y': -100}
+2023-10-21 15:29:14,408 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -17, 'Y': -100}} to robot
+2023-10-21 15:29:14,489 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1510>
+2023-10-21 15:29:14,489 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -89, 'Y': -100}
+2023-10-21 15:29:14,509 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -89, 'Y': -100}} to robot
+2023-10-21 15:29:14,589 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1610>
+2023-10-21 15:29:14,589 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -87, 'Y': -100}
+2023-10-21 15:29:14,609 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -87, 'Y': -100}} to robot
+2023-10-21 15:29:14,689 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:29:14,690 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:29:14,709 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:29:14,790 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:29:14,790 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:29:14,810 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:29:14,890 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:29:14,891 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:29:14,910 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:29:14,991 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5455>
+2023-10-21 15:29:14,991 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 1}
+2023-10-21 15:29:15,011 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 1}} to robot
+2023-10-21 15:29:15,091 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : button
+2023-10-21 15:30:10,295 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : button
+2023-10-21 15:30:10,396 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:30:10,396 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:30:10,412 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:30:10,596 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:30:10,596 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:30:10,613 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:30:10,696 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:30:10,696 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:30:10,713 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:30:10,796 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:30:10,796 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:30:10,813 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:30:10,896 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:30:10,897 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:30:10,913 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:30:10,997 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:30:10,997 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:30:11,013 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:30:11,097 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:30:11,097 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:30:11,113 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:30:11,197 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:30:11,197 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:30:11,213 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:30:11,297 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5399>
+2023-10-21 15:30:11,297 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -4, 'Y': 100}
+2023-10-21 15:30:11,314 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -4, 'Y': 100}} to robot
+2023-10-21 15:30:11,397 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1087>
+2023-10-21 15:30:11,398 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 73}
+2023-10-21 15:30:11,414 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 73}} to robot
+2023-10-21 15:30:11,497 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1054>
+2023-10-21 15:30:11,498 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': -2}
+2023-10-21 15:30:11,514 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': -2}} to robot
+2023-10-21 15:30:11,598 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:30:11,598 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:30:11,614 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:30:11,698 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:30:11,698 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:30:11,714 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:30:11,798 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:30:11,798 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:30:11,814 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:30:11,898 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:30:11,898 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:30:11,915 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:30:11,998 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : button
+2023-10-21 15:31:42,112 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : button
+2023-10-21 15:31:42,213 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:31:42,213 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:31:42,232 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:31:42,313 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:31:42,314 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:31:42,333 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:31:42,413 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:31:42,414 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:31:42,433 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:31:42,514 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:31:42,515 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:31:42,533 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:31:42,614 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:31:42,615 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:31:42,633 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:31:42,715 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:31:42,716 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:31:42,734 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:31:42,815 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:31:42,816 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:31:42,834 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:31:42,915 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:31:42,916 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:31:42,934 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:31:43,016 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:31:43,016 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:31:43,035 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:31:43,116 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5799>
+2023-10-21 15:31:43,116 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': 5, 'Y': 100}
+2023-10-21 15:31:43,135 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': 5, 'Y': 100}} to robot
+2023-10-21 15:31:43,216 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:31:43,216 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:31:43,235 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:31:43,317 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:31:43,317 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:31:43,335 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:31:43,417 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:31:43,418 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:31:43,435 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:31:43,517 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:31:43,518 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:31:43,536 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:31:43,618 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:31:43,618 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:31:43,636 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:31:43,718 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:31:43,718 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:31:43,736 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:31:43,818 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:31:43,818 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:31:43,836 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:31:43,919 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : button
+2023-10-21 15:38:53,435 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : button
+2023-10-21 15:38:53,535 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:38:53,536 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:38:53,548 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:38:53,635 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:38:53,636 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:38:53,648 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:38:53,736 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:38:53,736 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:38:53,749 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:38:53,836 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:38:53,836 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:38:53,849 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:38:53,936 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:38:53,936 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:38:53,949 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:38:54,036 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:38:54,036 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:38:54,049 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:38:54,136 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:38:54,137 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:38:54,150 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:38:54,237 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:38:54,237 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:38:54,250 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:38:54,337 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:38:54,337 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:38:54,350 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:38:54,437 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:38:54,438 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:38:54,450 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:38:54,537 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5474>
+2023-10-21 15:38:54,538 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 43}
+2023-10-21 15:38:54,551 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 43}} to robot
+2023-10-21 15:38:54,637 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:38:54,638 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:38:54,650 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:38:54,738 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:38:54,738 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:38:54,751 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:38:54,838 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:38:54,838 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:38:54,851 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:38:54,938 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:38:54,939 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:38:54,951 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:38:55,038 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:38:55,039 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:38:55,051 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:38:55,138 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:38:55,139 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:38:55,151 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:38:55,239 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : button
+2023-10-21 15:39:37,645 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : button
+2023-10-21 15:39:37,746 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:39:37,746 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:39:37,760 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:39:37,846 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:39:37,846 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:39:37,861 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:39:37,946 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:39:37,947 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:39:37,961 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:39:38,047 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:39:38,047 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:39:38,061 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:39:38,146 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:39:38,147 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:39:38,161 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:39:38,247 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:39:38,247 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:39:38,261 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:39:38,347 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:39:38,347 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:39:38,361 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:39:38,447 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:39:38,447 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:39:38,462 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:39:38,547 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:39:38,548 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:39:38,562 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:39:38,647 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:39:38,648 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:39:38,662 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:39:38,748 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:39:38,748 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:39:38,762 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:39:38,848 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:39:38,848 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:39:38,863 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:39:38,948 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:39:38,949 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:39:38,963 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:39:39,048 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:39:39,049 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:39:39,063 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:39:39,149 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:39:39,149 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:39:39,163 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:39:39,249 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:39:39,249 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:39:39,264 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:39:39,349 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5453>
+2023-10-21 15:39:39,349 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -4}
+2023-10-21 15:39:39,364 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -4}} to robot
+2023-10-21 15:39:39,449 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:39:39,450 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:39:39,464 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:39:39,549 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:39:39,550 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:39:39,564 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:39:39,650 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:39:39,650 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:39:39,665 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:39:39,750 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:39:39,751 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:39:39,765 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:39:39,850 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:39:39,851 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:39:39,865 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:39:39,951 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:39:39,951 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:39:39,965 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:39:40,051 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:39:40,051 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:39:40,066 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:39:40,151 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : button
+2023-10-21 15:40:59,647 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : button
+2023-10-21 15:40:59,747 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5461>
+2023-10-21 15:40:59,747 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 14}
+2023-10-21 15:40:59,762 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 14}} to robot
+2023-10-21 15:40:59,847 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:40:59,848 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:40:59,863 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:40:59,947 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:40:59,947 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:40:59,963 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:00,048 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:00,048 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:00,063 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:00,148 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:00,148 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:00,163 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:00,248 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:00,249 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:00,263 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:00,348 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:00,349 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:00,363 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:00,449 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:00,449 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:00,464 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:00,549 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <6599>
+2023-10-21 15:41:00,549 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': 23, 'Y': 100}
+2023-10-21 15:41:00,564 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': 23, 'Y': 100}} to robot
+2023-10-21 15:41:00,649 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <6599>
+2023-10-21 15:41:00,649 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': 23, 'Y': 100}
+2023-10-21 15:41:00,664 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': 23, 'Y': 100}} to robot
+2023-10-21 15:41:00,749 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <6599>
+2023-10-21 15:41:00,750 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': 23, 'Y': 100}
+2023-10-21 15:41:00,765 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': 23, 'Y': 100}} to robot
+2023-10-21 15:41:00,849 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <6599>
+2023-10-21 15:41:00,850 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': 23, 'Y': 100}
+2023-10-21 15:41:00,865 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': 23, 'Y': 100}} to robot
+2023-10-21 15:41:00,950 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <6199>
+2023-10-21 15:41:00,950 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': 14, 'Y': 100}
+2023-10-21 15:41:00,965 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': 14, 'Y': 100}} to robot
+2023-10-21 15:41:01,050 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:01,050 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:01,065 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:01,150 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:01,151 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:01,165 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:01,250 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:01,251 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:01,266 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:01,350 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:01,351 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:01,366 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:01,451 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:01,451 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:01,466 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:01,551 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5446>
+2023-10-21 15:41:01,551 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -20}
+2023-10-21 15:41:01,566 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -20}} to robot
+2023-10-21 15:41:01,651 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5410>
+2023-10-21 15:41:01,652 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -100}
+2023-10-21 15:41:01,666 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -100}} to robot
+2023-10-21 15:41:01,751 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5410>
+2023-10-21 15:41:01,752 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -100}
+2023-10-21 15:41:01,767 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -100}} to robot
+2023-10-21 15:41:01,852 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5510>
+2023-10-21 15:41:01,852 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': 1, 'Y': -100}
+2023-10-21 15:41:01,866 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': 1, 'Y': -100}} to robot
+2023-10-21 15:41:01,952 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5410>
+2023-10-21 15:41:01,952 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -100}
+2023-10-21 15:41:01,967 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -100}} to robot
+2023-10-21 15:41:02,052 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5430>
+2023-10-21 15:41:02,052 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -56}
+2023-10-21 15:41:02,067 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -56}} to robot
+2023-10-21 15:41:02,152 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:02,153 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:02,168 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:02,353 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <9999>
+2023-10-21 15:41:02,353 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': 100, 'Y': 100}
+2023-10-21 15:41:02,368 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': 100, 'Y': 100}} to robot
+2023-10-21 15:41:02,453 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:41:02,454 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:41:02,468 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:41:02,553 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <4673>
+2023-10-21 15:41:02,554 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -20, 'Y': 41}
+2023-10-21 15:41:02,569 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -20, 'Y': 41}} to robot
+2023-10-21 15:41:02,654 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1077>
+2023-10-21 15:41:02,654 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 50}
+2023-10-21 15:41:02,669 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 50}} to robot
+2023-10-21 15:41:02,754 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1077>
+2023-10-21 15:41:02,754 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 50}
+2023-10-21 15:41:02,769 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 50}} to robot
+2023-10-21 15:41:02,854 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1084>
+2023-10-21 15:41:02,854 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 66}
+2023-10-21 15:41:02,869 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 66}} to robot
+2023-10-21 15:41:02,954 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5485>
+2023-10-21 15:41:02,954 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 68}
+2023-10-21 15:41:02,969 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 68}} to robot
+2023-10-21 15:41:03,054 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:03,055 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:03,070 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:03,154 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:03,155 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:03,170 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:03,255 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:03,255 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:03,270 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:03,355 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:03,355 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:03,370 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:03,455 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:03,456 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:03,470 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:03,555 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : button
+2023-10-21 15:41:07,565 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : button
+2023-10-21 15:41:07,665 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:07,666 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:07,686 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:07,766 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:07,766 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:07,786 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:07,866 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:07,866 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:07,887 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:07,966 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:07,967 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:07,987 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:08,066 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:08,067 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:08,087 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:08,167 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:08,167 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:08,188 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:08,267 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:08,267 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:08,288 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:08,367 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:08,367 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:08,388 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:08,467 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:08,468 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:08,488 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:08,568 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:08,568 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:08,588 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:08,668 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:08,668 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:08,688 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:08,768 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:08,768 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:08,789 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:08,868 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:08,869 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:08,888 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:08,968 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:08,969 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:08,989 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:09,068 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:09,069 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:09,089 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:09,169 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:09,169 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:09,189 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:09,269 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:09,270 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:09,289 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:09,369 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:09,370 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:09,390 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:09,470 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:09,470 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:09,490 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:09,570 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:09,570 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:09,590 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:09,670 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:09,670 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:09,690 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:09,770 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:09,771 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:09,791 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:09,870 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:09,871 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:09,891 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:09,970 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:09,971 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:09,991 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:10,071 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:10,071 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:10,091 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:10,171 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:10,171 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:10,191 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:10,271 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:10,271 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:10,292 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:10,371 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:10,372 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:10,392 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:10,472 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:10,472 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:10,492 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:10,572 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : button
+2023-10-21 15:41:15,485 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : button
+2023-10-21 15:41:15,585 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5453>
+2023-10-21 15:41:15,586 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -4}
+2023-10-21 15:41:15,607 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -4}} to robot
+2023-10-21 15:41:15,685 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:15,686 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:15,708 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:15,786 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:15,786 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:15,808 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:15,886 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:15,886 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:15,908 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:15,986 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5480>
+2023-10-21 15:41:15,986 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 57}
+2023-10-21 15:41:16,008 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 57}} to robot
+2023-10-21 15:41:16,086 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:41:16,087 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:41:16,108 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:41:16,186 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:41:16,187 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:41:16,209 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:41:16,287 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:41:16,287 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:41:16,309 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:41:16,387 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:41:16,387 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:41:16,409 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:41:16,487 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:41:16,487 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:41:16,509 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:41:16,587 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:41:16,588 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:41:16,610 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:41:16,687 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:41:16,688 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:41:16,710 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:41:16,788 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5399>
+2023-10-21 15:41:16,788 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -4, 'Y': 100}
+2023-10-21 15:41:16,810 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -4, 'Y': 100}} to robot
+2023-10-21 15:41:16,988 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:41:16,988 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:41:17,011 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:41:17,088 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:41:17,089 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:41:17,111 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:41:17,189 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:41:17,189 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:41:17,211 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:41:17,289 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:41:17,289 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:41:17,311 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:41:17,389 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:41:17,389 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:41:17,411 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:41:17,489 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:41:17,490 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:41:17,512 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:41:17,589 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:41:17,590 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:41:17,612 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:41:17,690 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:41:17,690 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:41:17,712 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:41:17,790 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:41:17,790 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:41:17,812 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:41:17,890 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <7499>
+2023-10-21 15:41:17,890 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': 43, 'Y': 100}
+2023-10-21 15:41:17,912 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': 43, 'Y': 100}} to robot
+2023-10-21 15:41:17,990 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : button
+2023-10-21 15:41:31,524 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : button
+2023-10-21 15:41:31,625 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:31,625 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:31,646 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:31,725 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:31,725 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:31,747 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:31,825 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:31,826 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:31,847 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:31,925 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:31,926 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:31,947 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:32,026 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:32,026 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:32,048 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:32,126 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:32,126 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:32,147 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:32,226 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:32,226 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:32,248 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:32,326 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:32,326 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:32,348 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:32,427 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:32,427 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:32,448 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:32,527 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:32,527 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:32,549 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:32,627 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:32,628 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:32,649 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:32,727 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:32,727 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:32,749 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:32,928 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:32,928 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:32,949 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:33,028 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : button
+2023-10-21 15:41:37,139 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : button
+2023-10-21 15:41:37,239 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:37,239 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:37,260 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:37,339 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:37,340 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:37,361 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:37,440 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:37,440 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:37,461 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:37,540 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:37,540 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:37,561 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:37,640 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:37,640 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:37,661 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:37,840 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5154>
+2023-10-21 15:41:37,841 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -8, 'Y': -2}
+2023-10-21 15:41:37,862 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -8, 'Y': -2}} to robot
+2023-10-21 15:41:37,941 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1060>
+2023-10-21 15:41:37,941 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 12}
+2023-10-21 15:41:37,962 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 12}} to robot
+2023-10-21 15:41:38,041 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1075>
+2023-10-21 15:41:38,041 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 46}
+2023-10-21 15:41:38,062 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 46}} to robot
+2023-10-21 15:41:38,141 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1080>
+2023-10-21 15:41:38,141 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 57}
+2023-10-21 15:41:38,162 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 57}} to robot
+2023-10-21 15:41:38,241 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1081>
+2023-10-21 15:41:38,242 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 59}
+2023-10-21 15:41:38,263 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 59}} to robot
+2023-10-21 15:41:38,341 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1081>
+2023-10-21 15:41:38,342 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 59}
+2023-10-21 15:41:38,362 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 59}} to robot
+2023-10-21 15:41:38,442 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1081>
+2023-10-21 15:41:38,442 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 59}
+2023-10-21 15:41:38,463 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 59}} to robot
+2023-10-21 15:41:38,543 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1081>
+2023-10-21 15:41:38,543 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 59}
+2023-10-21 15:41:38,563 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 59}} to robot
+2023-10-21 15:41:38,642 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1081>
+2023-10-21 15:41:38,643 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 59}
+2023-10-21 15:41:38,663 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 59}} to robot
+2023-10-21 15:41:38,743 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1081>
+2023-10-21 15:41:38,743 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 59}
+2023-10-21 15:41:38,764 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 59}} to robot
+2023-10-21 15:41:38,843 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1081>
+2023-10-21 15:41:38,843 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 59}
+2023-10-21 15:41:38,864 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 59}} to robot
+2023-10-21 15:41:38,943 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1081>
+2023-10-21 15:41:38,943 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 59}
+2023-10-21 15:41:38,964 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 59}} to robot
+2023-10-21 15:41:39,043 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1081>
+2023-10-21 15:41:39,044 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 59}
+2023-10-21 15:41:39,064 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 59}} to robot
+2023-10-21 15:41:39,144 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1081>
+2023-10-21 15:41:39,144 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 59}
+2023-10-21 15:41:39,164 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 59}} to robot
+2023-10-21 15:41:39,244 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1081>
+2023-10-21 15:41:39,244 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 59}
+2023-10-21 15:41:39,265 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 59}} to robot
+2023-10-21 15:41:39,344 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1081>
+2023-10-21 15:41:39,345 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 59}
+2023-10-21 15:41:39,365 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 59}} to robot
+2023-10-21 15:41:39,444 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1081>
+2023-10-21 15:41:39,444 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 59}
+2023-10-21 15:41:39,465 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 59}} to robot
+2023-10-21 15:41:39,545 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1081>
+2023-10-21 15:41:39,545 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 59}
+2023-10-21 15:41:39,565 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 59}} to robot
+2023-10-21 15:41:39,645 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1081>
+2023-10-21 15:41:39,645 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 59}
+2023-10-21 15:41:39,665 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 59}} to robot
+2023-10-21 15:41:39,745 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1081>
+2023-10-21 15:41:39,745 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 59}
+2023-10-21 15:41:39,765 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 59}} to robot
+2023-10-21 15:41:39,845 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1081>
+2023-10-21 15:41:39,846 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 59}
+2023-10-21 15:41:39,866 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 59}} to robot
+2023-10-21 15:41:39,946 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1081>
+2023-10-21 15:41:39,946 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 59}
+2023-10-21 15:41:39,966 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 59}} to robot
+2023-10-21 15:41:40,046 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1081>
+2023-10-21 15:41:40,046 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 59}
+2023-10-21 15:41:40,067 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 59}} to robot
+2023-10-21 15:41:40,146 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1081>
+2023-10-21 15:41:40,147 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 59}
+2023-10-21 15:41:40,167 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 59}} to robot
+2023-10-21 15:41:40,246 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1081>
+2023-10-21 15:41:40,247 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 59}
+2023-10-21 15:41:40,267 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 59}} to robot
+2023-10-21 15:41:40,347 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1081>
+2023-10-21 15:41:40,347 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 59}
+2023-10-21 15:41:40,367 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 59}} to robot
+2023-10-21 15:41:40,447 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1081>
+2023-10-21 15:41:40,447 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 59}
+2023-10-21 15:41:40,467 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 59}} to robot
+2023-10-21 15:41:40,547 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:40,547 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:40,568 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:40,651 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:40,652 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:40,668 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:40,751 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <9954>
+2023-10-21 15:41:40,751 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': 100, 'Y': -2}
+2023-10-21 15:41:40,768 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': 100, 'Y': -2}} to robot
+2023-10-21 15:41:40,859 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <9954>
+2023-10-21 15:41:40,859 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': 100, 'Y': -2}
+2023-10-21 15:41:40,869 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': 100, 'Y': -2}} to robot
+2023-10-21 15:41:40,959 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <9954>
+2023-10-21 15:41:40,959 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': 100, 'Y': -2}
+2023-10-21 15:41:40,968 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': 100, 'Y': -2}} to robot
+2023-10-21 15:41:41,059 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <9954>
+2023-10-21 15:41:41,059 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': 100, 'Y': -2}
+2023-10-21 15:41:41,069 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': 100, 'Y': -2}} to robot
+2023-10-21 15:41:41,159 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <9954>
+2023-10-21 15:41:41,160 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': 100, 'Y': -2}
+2023-10-21 15:41:41,169 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': 100, 'Y': -2}} to robot
+2023-10-21 15:41:41,259 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <9954>
+2023-10-21 15:41:41,259 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': 100, 'Y': -2}
+2023-10-21 15:41:41,269 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': 100, 'Y': -2}} to robot
+2023-10-21 15:41:41,360 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <9954>
+2023-10-21 15:41:41,360 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': 100, 'Y': -2}
+2023-10-21 15:41:41,369 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': 100, 'Y': -2}} to robot
+2023-10-21 15:41:41,460 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <9954>
+2023-10-21 15:41:41,460 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': 100, 'Y': -2}
+2023-10-21 15:41:41,469 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': 100, 'Y': -2}} to robot
+2023-10-21 15:41:41,560 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <9954>
+2023-10-21 15:41:41,560 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': 100, 'Y': -2}
+2023-10-21 15:41:41,570 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': 100, 'Y': -2}} to robot
+2023-10-21 15:41:41,660 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <9954>
+2023-10-21 15:41:41,660 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': 100, 'Y': -2}
+2023-10-21 15:41:41,669 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': 100, 'Y': -2}} to robot
+2023-10-21 15:41:41,760 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <9954>
+2023-10-21 15:41:41,761 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': 100, 'Y': -2}
+2023-10-21 15:41:41,770 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': 100, 'Y': -2}} to robot
+2023-10-21 15:41:41,861 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <9954>
+2023-10-21 15:41:41,861 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': 100, 'Y': -2}
+2023-10-21 15:41:41,870 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': 100, 'Y': -2}} to robot
+2023-10-21 15:41:41,961 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:41,961 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:41,970 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:42,061 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5456>
+2023-10-21 15:41:42,062 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 3}
+2023-10-21 15:41:42,071 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 3}} to robot
+2023-10-21 15:41:42,161 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5493>
+2023-10-21 15:41:42,162 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 86}
+2023-10-21 15:41:42,171 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 86}} to robot
+2023-10-21 15:41:42,262 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:41:42,262 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:41:42,271 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:41:42,362 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:41:42,362 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:41:42,371 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:41:42,462 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:41:42,463 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:41:42,472 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:41:42,663 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:41:42,663 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:41:42,672 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:41:42,763 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:41:42,763 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:41:42,772 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:41:42,863 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:41:42,864 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:41:42,873 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:41:42,963 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:41:42,964 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:41:42,973 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:41:43,064 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5499>
+2023-10-21 15:41:43,064 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': 100}
+2023-10-21 15:41:43,073 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': 100}} to robot
+2023-10-21 15:41:43,164 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5399>
+2023-10-21 15:41:43,164 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -4, 'Y': 100}
+2023-10-21 15:41:43,173 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -4, 'Y': 100}} to robot
+2023-10-21 15:41:43,264 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <3299>
+2023-10-21 15:41:43,265 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -51, 'Y': 100}
+2023-10-21 15:41:43,273 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -51, 'Y': 100}} to robot
+2023-10-21 15:41:43,364 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1099>
+2023-10-21 15:41:43,364 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 100}
+2023-10-21 15:41:43,373 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 100}} to robot
+2023-10-21 15:41:43,464 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1085>
+2023-10-21 15:41:43,464 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 68}
+2023-10-21 15:41:43,473 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 68}} to robot
+2023-10-21 15:41:43,565 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1055>
+2023-10-21 15:41:43,565 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': 1}
+2023-10-21 15:41:43,574 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': 1}} to robot
+2023-10-21 15:41:43,665 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <1054>
+2023-10-21 15:41:43,665 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -100, 'Y': -2}
+2023-10-21 15:41:43,674 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -100, 'Y': -2}} to robot
+2023-10-21 15:41:43,765 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <3748>
+2023-10-21 15:41:43,766 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -40, 'Y': -15}
+2023-10-21 15:41:43,774 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -40, 'Y': -15}} to robot
+2023-10-21 15:41:43,865 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5128>
+2023-10-21 15:41:43,866 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -8, 'Y': -60}
+2023-10-21 15:41:43,875 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -8, 'Y': -60}} to robot
+2023-10-21 15:41:43,965 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5414>
+2023-10-21 15:41:43,966 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -92}
+2023-10-21 15:41:43,975 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -92}} to robot
+2023-10-21 15:41:44,066 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5410>
+2023-10-21 15:41:44,067 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -100}
+2023-10-21 15:41:44,075 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -100}} to robot
+2023-10-21 15:41:44,166 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <8210>
+2023-10-21 15:41:44,166 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': 61, 'Y': -100}
+2023-10-21 15:41:44,175 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': 61, 'Y': -100}} to robot
+2023-10-21 15:41:44,266 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <9920>
+2023-10-21 15:41:44,267 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': 100, 'Y': -78}
+2023-10-21 15:41:44,276 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': 100, 'Y': -78}} to robot
+2023-10-21 15:41:44,366 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <6454>
+2023-10-21 15:41:44,367 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': 21, 'Y': -2}
+2023-10-21 15:41:44,375 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': 21, 'Y': -2}} to robot
+2023-10-21 15:41:44,467 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:44,467 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:44,476 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:44,567 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:44,567 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:44,576 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:44,667 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:44,668 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:44,676 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:44,767 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : <5454>
+2023-10-21 15:41:44,768 - root - INFO - serial_inputs.py - check_input_type : 41 - input joystick : {'X': -2, 'Y': -2}
+2023-10-21 15:41:44,776 - root - INFO - ws_client.py - send : 51 - send {'device': 'joystick', 'joystick': {'X': -2, 'Y': -2}} to robot
+2023-10-21 15:41:44,868 - root - INFO - serial_device.py - get_msg : 62 - received from joystick : button
