@@ -18,9 +18,9 @@ class WheelsTests(unittest.TestCase):
     base_path = os.path.dirname(__file__)
     base_path = os.path.abspath(os.path.join(base_path, os.pardir))
     control_json_manager = ControlJsonManager(base_path, JSON_DIRECTORY, JSON_CONFIG)
-    device_manager = SerialDeviceManager(control_json_manager.get_config_item(DEVICES))
+    devices_manager = SerialDeviceManager(control_json_manager.get_config_item(DEVICES))
     ws_client = WsClient(control_json_manager.get_config_item(WS_CLIENT))
-    robot_msg = RobotMessage(ws_client, device_manager)
+    robot_msg = RobotMessage(ws_client, devices_manager)
 
     def test_move(self):
 

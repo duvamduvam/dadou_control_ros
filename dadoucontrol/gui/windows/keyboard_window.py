@@ -15,7 +15,9 @@ class KeyboardWindow(tk.Frame):
     def __init__(self, parent, *args, **kwargs):
         tk.Frame.__init__(self, parent, *args, **kwargs)
         self.mod = 'A'
-        self.deviceManager = ControlFactory().device_manager
+        #logging.info("Control factory : {} {} {}".format(ControlFactory(), ControlFactory().__dict__, dir(ControlFactory())))
+
+        self.deviceManager = ControlFactory().devices_manager
 
         self.devices = None
         self.sliders = None

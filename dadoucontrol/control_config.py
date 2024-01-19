@@ -13,7 +13,8 @@ from dadou_utils.utils_static import AUDIOS_DIRECTORY, BUTTON_GRID, EYES, RPI_TY
     PLAYLIST_PLAY, PLAYLIST_STOP, PURPLE, BORDEAUX, YELLOW, ORANGE, CYAN, FONT1, FONT2, FONT3, SYSTEM, \
     RPI_LOGGING_CONFIG_FILE, LAPTOP_LOGGING_CONFIG_FILE, JSON_LIGHTS_METHODS, WS_CLIENTS, WS_PORT, LOGGING_FILE_NAME, \
     BAUD_RATE, ICONS, CONFIG, LOG_FILE, HOST_NAME, UP, WHEELS, FORWARD, DOWN, BACKWARD, LEFT, RIGHT, ANIMATION, A, B, X, \
-    Y, BUTTON, MSG, BL, BR, START, SELECT, ALL, LEFT_ARM, RIGHT_ARM, NECK, RIGHT_EYE, LEFT_EYE, JOYSTICK, INPUT_KEY
+    Y, BUTTON, MSG, BL, BR, START, SELECT, ALL, LEFT_ARM, RIGHT_ARM, NECK, RIGHT_EYE, LEFT_EYE, JOYSTICK, INPUT_KEY, \
+    DOCKER_LOGGING_CONFIG_FILE
 
 config = {}
 
@@ -46,6 +47,7 @@ config[BASE_PATH] = os.path.dirname(__file__)
 config[AUDIOS_DIRECTORY] = '/audios/'
 config[RPI_LOGGING_CONFIG_FILE] = '/../conf/logging-pi.conf'
 config[LAPTOP_LOGGING_CONFIG_FILE] = '/../conf/logging-laptop.conf'
+config[DOCKER_LOGGING_CONFIG_FILE] = '/../conf/logging-docker.conf'
 config[JSON_DIRECTORY] = '/../json/'
 config[PLAYLIST_PATH] = '/../json/playlists/'
 config[SEQUENCES_DIRECTORY] = '/sequences/'
@@ -98,7 +100,7 @@ config[DEVICES] = [
             SERIAL_ID: 'usb-Raspberry_Pi_Pico_E66250758B6A3721-if00',
             MSG: "br",
             MSG_SIZE: 0,
-            TYPE: BUTTON,
+            TYPE: INPUT_KEY,
             BAUD_RATE: 115200
         },
         {
@@ -182,6 +184,8 @@ config[SYSTEM] = Misc.get_system_type()
 
 if Misc.is_raspberrypi():
     config[LOGGING_CONFIG_FILE] = config[BASE_PATH] + config[RPI_LOGGING_CONFIG_FILE]
+elif Misc.is_docker():
+    config[LOGGING_CONFIG_FILE] = config[BASE_PATH] + config[DOCKER_LOGGING_CONFIG_FILE]
 else:
     config[LOGGING_CONFIG_FILE] = config[BASE_PATH] + config[LAPTOP_LOGGING_CONFIG_FILE]
 #else:

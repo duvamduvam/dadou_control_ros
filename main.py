@@ -6,6 +6,7 @@ import sys
 import logging
 import os
 
+from dadou_utils.misc import Misc
 from dadoucontrol.control_factory import ControlFactory
 from dadoucontrol.gui.normal_gui import NormalGui
 from dadoucontrol.gui.small_gui import SmallGui
@@ -22,7 +23,7 @@ logging.info("Starting control device {}".format(device))
 
 def main():
     try:
-        if "right" in device or "left" in device:
+        if "right" in device or "left" in device or Misc.is_docker():
             gui = SmallGui()
         elif "gp" in device or "gamepad" in device:
             from dadoucontrol.gui.gamepad import GamePadGui

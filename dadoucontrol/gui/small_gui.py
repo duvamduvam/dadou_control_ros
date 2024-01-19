@@ -19,7 +19,8 @@ from dadoucontrol.gui.windows.small.small_playlist import SmallPlaylist
 from dadoucontrol.input.serial_inputs import SerialInputs
 
 MESSAGE_INPUT_TIMEOUT = 1000
-MENU = [CONTROL, PLAYLIST, CONFIG]
+#MENU = [CONTROL, PLAYLIST, CONFIG]
+MENU = [PLAYLIST, CONFIG]
 
 class SmallGui(tk.Tk):
     def __init__(self, tkMessageBox=None, *args, **kwargs):
@@ -46,7 +47,7 @@ class SmallGui(tk.Tk):
         self.mod_button = tk.Button(self.menu, text="M", width=2, font=FONT_DROPDOWN, command=lambda: self.change_window(MODE, None))
         self.mod_button.pack(side=LEFT)
 
-        self.icons_widget = IconsWidget(self, menu=self.menu, device_manager=ControlFactory().devices_manager, serial_inputs=self.serial_inputs)
+        self.icons_widget = IconsWidget(self, menu=self.menu, devices_manager=ControlFactory().devices_manager, serial_inputs=self.serial_inputs)
 
         self.main = None
         self.change_window(PLAYLIST, DEFAULT)

@@ -12,7 +12,7 @@ from dadou_utils.utils_static import DEVICES, INPUT_KEY, BUTTON
 
 
 class TestInputDevices(unittest.TestCase):
-    device_manager = SerialDeviceManager(config[DEVICES], [BUTTON])
+    devices_manager = SerialDeviceManager(config[DEVICES], [BUTTON])
 
     def test_buttons(self):
 
@@ -20,15 +20,15 @@ class TestInputDevices(unittest.TestCase):
 
         while not TimeUtils.is_time(last_time=current_time, time_out=60000):
 
-            self.device_manager.check_buttons(BUTTONS_MAPPING)
+            self.devices_manager.check_buttons(BUTTONS_MAPPING)
             while InputMessagesList().has_msg():
                 print(InputMessagesList().pop_msg())
             time.sleep(0.01)
 
     def test_buttons2(self):
 
-        device_manager = SerialDeviceManager(config[DEVICES], [BUTTON])
-        input_buttons = GPButtons(device_manager)
+        devices_manager = SerialDeviceManager(config[DEVICES], [BUTTON])
+        input_buttons = GPButtons(devices_manager)
 
         current_time = TimeUtils.current_milli_time()
         while not TimeUtils.is_time(last_time=current_time, time_out=60000):

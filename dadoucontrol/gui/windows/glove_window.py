@@ -1,7 +1,7 @@
 import logging
 import tkinter as tk
 
-from dadoucontrol.com.serial_device_manager import SerialDeviceManager
+from dadoucontrol.com.serial_devices_manager import SerialDeviceManager
 from dadoucontrol.control_factory import ControlFactory
 
 

@@ -13,20 +13,20 @@ GLOVE_FEEDBACK_TIMEOUT = 3000
 
 
 class IconsWidget:
-    def __init__(self, parent, menu, device_manager, serial_inputs):
+    def __init__(self, parent, menu, devices_manager, serial_inputs):
 
         self.parent = parent
         self.menu = menu
-        self.device_manager = device_manager
+        self.devices_manager = devices_manager
         self.glove_feedback_time = 0
 
 
         ##### feedback icons
         icon_pos = 2
-        if self.device_manager.input_connected(serial_inputs.serial_devices[INPUT_KEY], "glove"):
+        if self.devices_manager.input_connected(serial_inputs.serial_devices[INPUT_KEY], "glove"):
             self.hand_label, self.hand_icon, self.hand_image = self.create_label_icon("hand.png")
 
-        if self.device_manager.input_connected(serial_inputs.serial_devices[SLIDERS], "slider"):
+        if self.devices_manager.input_connected(serial_inputs.serial_devices[SLIDERS], "slider"):
             self.slider_label, self.slider_icon, self.hand_image = self.create_label_icon("sliders.png")
 
         if ControlFactory().ws_device_connected('sceno'):

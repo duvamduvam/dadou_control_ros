@@ -61,8 +61,8 @@ class SmallPlaylist(tk.Frame):
         #button_top_frame.pack(side=TOP)
         self.send_button = tk.Button(self.main, bg=config[BORDEAUX], text='send', width=15, height=button_width, font=FONT_BUTTON, command=self.click_send)
         self.send_button.pack(side=TOP)
-        #self.play_button = tk.Button(button_top_frame, bg=config[BORDEAUX], text='play', width=5, height=button_width, font=config[FONT3], command=self.click_play)
-        #self.play_button.pack(side=RIGHT)
+        #self.play_button = tk.Button(self.main, bg=config[BORDEAUX], text='play', width=5, height=button_width, font=config[FONT3], command=self.click_play)
+        #self.play_button.pack(side=TOP)
 
         self.stop_button = tk.Button(self.main, bg=config[YELLOW], text='stop', width=15, height=button_width, font=FONT_BUTTON, command=self.click_stop)
         self.stop_button.pack(side=TOP)
@@ -88,7 +88,8 @@ class SmallPlaylist(tk.Frame):
         self.files.append(filepath)
 
     def playlist_click(self, evt):
-        self.current_pos = self.playlist_listbox.curselection()[0]
+        if len(self.playlist_listbox.curselection())>0:
+            self.current_pos = self.playlist_listbox.curselection()[0]
 
     @staticmethod
     async def async_playsound(audio_path):
@@ -99,6 +100,7 @@ class SmallPlaylist(tk.Frame):
         #audio.play()
         playlist_num = self.playlist_listbox.curselection()[0]
         audio_params = list(self.playlist_data.values())[playlist_num]
+        logging.info(audio_params)
         audio_path = config[BASE_PATH] + '/..' + config[AUDIOS_DIRECTORY] + audio_params[AUDIO]
         if os.path.isfile(audio_path):
 

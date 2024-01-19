@@ -104,4 +104,4 @@ class NormalGui(tk.Tk):
 
     def scheduler(self):
         #self.after(5000, self.scheduler)
-        ControlFactory().device_manager.update_devices()
+        ControlFactory().devices_manager.update_devices()

@@ -22,8 +22,8 @@ mapping = {SELECT: board.D4, UP: board.D5, DOWN: board.D6, B: board.D12, LEFT: b
 
 class GPButtons:
 
-    def __init__(self, device_manager):
-        self.device_manager = device_manager
+    def __init__(self, devices_manager):
+        self.devices_manager = devices_manager
 
     buttons = []
     for key in mapping.keys():
@@ -40,6 +40,6 @@ class GPButtons:
                 logging.info("{} pressed with value {}".format(button[KEY], current_mapping[button[KEY]]))
 
     def check_external(self, mode):
-        self.device_manager.check_buttons(BUTTONS_MAPPING[mode])
+        self.devices_manager.check_buttons(BUTTONS_MAPPING[mode])
 
 

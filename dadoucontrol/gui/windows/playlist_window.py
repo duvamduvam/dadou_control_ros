@@ -22,11 +22,11 @@ from dadoucontrol.control_config import config, RESTART_APP
 class PlaylistWindow(tk.Frame):
     def __init__(self, parent, *args, **kwargs):
 
-        self.devices = None
+        self.input_keys = None
         self.sliders = None
 
         self.control_json = ControlFactory().control_json_manager
-        self.deviceManager = ControlFactory().device_manager
+        self.deviceManager = ControlFactory().devices_manager
         self.input_key_play = config[PLAYLIST_PLAY]
         self.input_key_stop = config[PLAYLIST_STOP]
         self.input_key_restart_app = RESTART_APP
@@ -211,8 +211,8 @@ class PlaylistWindow(tk.Frame):
         self.playlist_listbox.select_set(self.current_pos)
 
     def check_devices(self):
-        self.after(3000, self.check_glove_input)
-        self.devices = self.deviceManager.get_device_type(INPUT_KEY)
+        self.after(3000, self.check_devices)
+        self.input_keys = self.deviceManager.get_device_type(INPUT_KEY)
         self.sliders = self.deviceManager.get_device(SLIDERS)
 
     def check_sliders_input(self):
@@ -226,7 +226,7 @@ class PlaylistWindow(tk.Frame):
     def check_glove_input(self):
         self.after(100, self.check_glove_input)
 
-        for device in self.devices:
+        for device in self.input_keys:
             msg = device.get_msg_separator()
             if msg:
                 if msg in self.input_key_play:

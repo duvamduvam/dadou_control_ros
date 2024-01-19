@@ -25,6 +25,7 @@ pyglet==2.0.7
 pyparsing==3.0.9
 pyserial~=3.5
 python-dateutil~=2.8.1
+python-vlc~=3.0.18122
 pyudev==0.24.1
 schedule==1.2.0
 setuptools==67.8.0
@@ -34,4 +35,3 @@ websocket-client==1.6.0
 websockets==11.0.3
 websocket~=0.2.1
 xmltodict~=0.13.0
-python-vlc~=3.0.18122

@@ -39,8 +39,8 @@ class GamePadGui(tk.Tk):
         screen_width = self.winfo_screenwidth()
         self.attributes("-fullscreen", True)
 
-        self.device_manager = SerialDeviceManager(config[DEVICES], [BUTTON])
-        self.input_buttons = GPButtons(self.device_manager)
+        self.devices_manager = SerialDeviceManager(config[DEVICES], [BUTTON])
+        self.input_buttons = GPButtons(self.devices_manager)
 
         self.canvas = tk.Canvas(self, bg='white')
         self.canvas.pack(fill=BOTH)

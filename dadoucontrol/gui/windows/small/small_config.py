@@ -65,5 +65,5 @@ class SmallConfig(tk.Frame):
         os.system("sudo reboot")
 
     def reload_usb(self):
-        ControlFactory().device_manager.update_devices()
+        ControlFactory().devices_manager.update_devices()
     

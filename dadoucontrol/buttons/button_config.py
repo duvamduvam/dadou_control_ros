@@ -24,7 +24,7 @@ KEYS_MAPPING = {'a': IHL, 'b': IML, 'c': IBL, 'd': MHL, 'e': MML, 'f': MBL, 'g':
 #(("x", "w", "v"), ("r", "q", "p"), ("o", "n", "m"), ("u", "t", "s")),
 
 CONTROL_CONFIG = [[DEFAULT, PLAYLIST, "VIDE"], ["VIDE", "VIDE", "VIDE"], ["VIDE", "VIDE", "VIDE"]]
-PLAYLIST_CONFIG = [["didier20_bis", "playlist3"]]
+PLAYLIST_CONFIG = [["didier20_bis", "grandlieu", "eternel-short"], ["pub1", "VIDE", "VIDE"],]
 
 base = {
     IHL: {NAME: "vo off", CMD: {RELAY: "off", ANIMATION: False}},

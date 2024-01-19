@@ -12,12 +12,12 @@ from dadou_utils.com.serial_devices_manager import SerialDeviceManager
 class SerialInputs:
 
     def __init__(self):
-        self.device_manager = SerialDeviceManager(config[DEVICES])
+        self.devices_manager = SerialDeviceManager(config[DEVICES])
         self.serial_devices = {
-            INPUT_KEY: self.device_manager.get_device_type(INPUT_KEY),
-            BUTTON: self.device_manager.get_device_type(BUTTON),
-            SLIDERS: self.device_manager.get_device_type(SLIDERS),
-            JOYSTICK: self.device_manager.get_device_type(JOYSTICK)
+            INPUT_KEY: self.devices_manager.get_device_type(INPUT_KEY),
+            BUTTON: self.devices_manager.get_device_type(BUTTON),
+            SLIDERS: self.devices_manager.get_device_type(SLIDERS),
+            JOYSTICK: self.devices_manager.get_device_type(JOYSTICK)
         }
         self.input_key = None
         self.last_prompt = None
@@ -40,7 +40,9 @@ class SerialInputs:
                         msg = self.send_joystick(msg)
                     logging.info("input {} : {}".format(serial_input, msg))
                     if add_to_list:
-                        InputMessagesList().add_msg({DEVICE: device.name, serial_input: msg})
+                        #InputMessagesList().add_msg({DEVICE: device.name, serial_input: msg})
+                        InputMessagesList().add_msg({DEVICE: device.name})
+                        InputMessagesList().add_msg(msg)
                     self.last_prompt = msg
                     has_msg = True
             return has_msg
@@ -60,7 +62,7 @@ class SerialInputs:
 
     def send_sliders(self, msg: str):
         if len(msg) == 2:
-            return {NECK: msg}
+            return {NECK: int(msg)}
         elif len(msg) == 4:
             left = Misc.mapping(int(msg[0:2]), 10, 99, -100, 100)
             right = Misc.mapping(int(msg[2:4]), 10, 99, -100, 100)
