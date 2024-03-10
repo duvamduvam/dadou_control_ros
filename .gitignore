@@ -5,4 +5,4 @@ response.mp3
 venv/
 logs/
 .idea/
-conf/secret
+secret
