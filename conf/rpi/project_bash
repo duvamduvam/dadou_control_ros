@@ -1,1 +1,10 @@
 ################# PROJECT PARAMS ###################
+
+alias s='source ~/.bashrc'
+alias b='cd ~/ros2_ws && colcon build && s'
+
+alias start='/home/pi/scripts/compose-up.sh'
+alias stop='service robot stop'
+alias restart='stop && start'
+
+alias ll='ls -alh'

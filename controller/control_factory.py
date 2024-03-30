@@ -30,7 +30,8 @@ class ControlFactory(metaclass=SingletonMeta):
         print("config file {}".format(config[LOGGING_CONFIG_FILE]))
         #TODO improve process file name
         #logging.config.dictConfig(LoggingConf.get(config[LOGGING_FILE_NAME], "main"))
-        logging.config.fileConfig(config[LOGGING_CONFIG_FILE], disable_existing_loggers=False)
+        logging.config.dictConfig(LoggingConf.get(config[LOGGING_FILE_NAME], "controller"))
+#        logging.config.fileConfig(config[LOGGING_CONFIG_FILE], disable_existing_loggers=False)
 
         self.control_json_manager = ControlJsonManager() 
 

@@ -23,7 +23,7 @@ class GloveWindow(tk.Frame):
         self.top_right.pack(ipadx=10, ipady=10, fill='x', expand=True, side='right')
 
         self.glove_left = tk.Label(self, bg='blue')
-        #keyboard input command
+        #keyboard input command_root
         input_command_frame = tk.Frame(self.glove_left)
         input_command_frame.pack(fill='x', side='top')
 
@@ -63,7 +63,7 @@ class GloveWindow(tk.Frame):
 
     def sendText(self):
         command = self.free_text.get("1.0",'end-1c')
-        logging.info("input command "+command)
+        logging.info("input command_root "+command)
         ControlFactory().ws_client.send(command)
 
 

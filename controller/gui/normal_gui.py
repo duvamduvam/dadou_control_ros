@@ -54,10 +54,10 @@ class NormalGui(tk.Tk):
         tk.Button(menu, text='Keyboard', bg=config[BORDEAUX], font=config[FONT1], command=lambda: self.show_frame(self.KEYBOARD_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
         tk.Button(menu, text='Playlist', bg=config[YELLOW], font=config[FONT1], command=lambda: self.show_frame(self.PLAYLIST_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
         """if screen_width > 1000:
-            tk.Button(menu, text='Sequence', bg=config[ORANGE], font=config[FONT1], command=lambda: self.show_frame(self.SEQUENCE_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
-            tk.Button(menu, text='Expression', bg=config[CYAN], font=config[FONT1], command=lambda: self.show_frame(self.EXPRESSION_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
-            tk.Button(menu, text='Lights', bg=config[PURPLE], font=config[FONT1], command=lambda: self.show_frame(self.LIGHTS_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
-            tk.Button(menu, text='Remote', bg=config[ORANGE], font=config[FONT1], command=lambda: self.show_frame(self.REMOTE_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
+            tk.Button(menu, text='Sequence', bg=config[ORANGE], font=config[FONT1], command_root=lambda: self.show_frame(self.SEQUENCE_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
+            tk.Button(menu, text='Expression', bg=config[CYAN], font=config[FONT1], command_root=lambda: self.show_frame(self.EXPRESSION_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
+            tk.Button(menu, text='Lights', bg=config[PURPLE], font=config[FONT1], command_root=lambda: self.show_frame(self.LIGHTS_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
+            tk.Button(menu, text='Remote', bg=config[ORANGE], font=config[FONT1], command_root=lambda: self.show_frame(self.REMOTE_FRAME)).pack(ipadx=5, ipady=20, fill='x', expand=True, side='left')
         """
         #self.main = tk.Frame(self, bg='yellow')
 

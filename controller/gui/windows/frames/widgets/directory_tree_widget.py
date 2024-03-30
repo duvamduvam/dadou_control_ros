@@ -27,7 +27,7 @@ class DirectoryTreeWidget(tk.Frame):
         self.type = type
         self.tv = ttk.Treeview(self, show='tree')
         #ybar = tk.Scrollbar(self, orient=tk.VERTICAL,
-        #                    command=self.tv.yview)
+        #                    command_root=self.tv.yview)
         #self.tv.configure(yscroll=ybar.set)
         #self.tv.heading('#0', text='Dir：' + directory, anchor='w')
         self.tv.bind("<Button-1>", self.view_dir)

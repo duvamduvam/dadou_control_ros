@@ -50,7 +50,7 @@ class ExpressionWindow(tk.Frame):
         self.expression_duration.set('0')
         tk.Label(top_frame, textvariable=self.expression_duration, width=5).grid(row=2, column=8)
 
-        #tk.Button(top_frame, text='load', command=self.load).grid(row=3, column=6, padx=10)
+        #tk.Button(top_frame, text='load', command_root=self.load).grid(row=3, column=6, padx=10)
         tk.Button(top_frame, text='save', command=self.save).grid(row=3, column=6, padx=10)
         tk.Button(top_frame, text='new', command=self.add).grid(row=3, column=7, padx=10)
         tk.Button(top_frame, text='delete', command=self.delete).grid(row=3, column=8, padx=10)

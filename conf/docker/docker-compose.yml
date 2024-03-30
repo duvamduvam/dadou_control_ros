@@ -1,11 +1,23 @@
-version: '3'
 services:
   dadou-control:
-    build: ../..
+    container_name: dadou-controller-container
+    image: dadouuu/dadou-controller:latest
+    build: ../../
+    #context: ../../
     environment:
       - DISPLAY=${DISPLAY}
+    #ports:
+    #  - "80:80"
+    #  - "8000-9000:8000-9000"
+    network_mode: "host"
+
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
+      - ../../conf:/home/ros2_ws/src/controller/conf
+      - ../../controller:/home/ros2_ws/src/controller/controller
+      - ../../dadou_utils:/home/ros2_ws/src/controller/dadou_utils
+      - ../../json:/home/ros2_ws/src/controller/json
+      - ../../medias:/home/ros2_ws/src/controller/medias
     #  - /dev/:/dev
     #  - /dev/null:/folder/fileToBeExcluded
     #accès device ACMO gpio serial by id disque etc ...

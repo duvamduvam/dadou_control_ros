@@ -90,7 +90,7 @@ def username():
 def takeCommand():
     r = sr.Recognizer()
 
-    logging.info('before take command')
+    logging.info('before take command_root')
 
     l = sr.Microphone.list_microphone_names()
     logging.debug(l)
@@ -101,7 +101,7 @@ def takeCommand():
 
     #with sr.Microphone(device_index=6) as source:
     with sr.Microphone(device_index=9) as source:
-        logging.info('take command')
+        logging.info('take command_root')
         print("Listening...")
         r.pause_threshold = 1
         audio = r.listen(source)
@@ -134,7 +134,7 @@ if __name__ == '__main__':
     clear = lambda: os.system('clear')
 
     # This Function will clean any
-    # command before execution of this dadoutils file
+    # command_root before execution of this dadoutils file
     clear()
     wishMe()
     username()
@@ -146,7 +146,7 @@ if __name__ == '__main__':
         # All the commands said by user will be
         # stored here in 'query' and will be
         # converted to lower case for easily
-        # recognition of command
+        # recognition of command_root
         if 'wikipedia' in query:
             speak('Searching Wikipedia...')
             query = query.replace("wikipedia", "")
