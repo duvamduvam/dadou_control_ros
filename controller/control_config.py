@@ -33,7 +33,7 @@ config[WS_CLIENTS] = {ALL: {'controller': 'didier.local', 'sceno': 'sceno.local'
 #config[WS_CLIENT] = {'sceno': 'ws://192.168.1.220:4421', 'sceno': 'ws://192.168.1.220:4421'}
 ############## JSON FILES ##############
 
-#config[LOGGING_FILE_NAME] = "logs/controller.log"
+
 
 config[JSON_CONFIG] = 'control_config.json'
 config[JSON_EXPRESSIONS] = 'expressions.json'
@@ -45,7 +45,16 @@ config[JSON_SPEECHS] = 'speechs.json'
 ############### PATHS ###############
 
 #config[BASE_PATH] = os.path.dirname(__file__)
-config[BASE_PATH] = "/home/david/ros2_ws/"
+
+config[SYSTEM] = Misc.get_system_type()
+
+if Misc.is_raspberrypi():
+    config[BASE_PATH] = "/home/pi/ros2_ws/"
+elif Misc.is_docker():
+    config[BASE_PATH] = "/home/ros2_ws/"
+else:
+    config[BASE_PATH] = "/home/ros2_ws/"
+
 
 config[SRC_DIRECTORY] = config[BASE_PATH] + "src/"
 config[PROJECT_DIRECTORY] = config[SRC_DIRECTORY] + 'controller/'
@@ -55,18 +64,33 @@ config[MEDIAS_DIRECTORY] = config[PROJECT_DIRECTORY] + 'medias/'
 config[CONFIG_DIRECTORY] = config[PROJECT_DIRECTORY] + 'conf/'
 config[JSON_DIRECTORY] = config[PROJECT_DIRECTORY] + 'json/'
 
-config[LOGGING_DIRECTORY] = config[CONFIG_DIRECTORY] + 'logging/'
-
 config[PLAYLIST_PATH] = config[JSON_DIRECTORY] + 'playlists/'
 config[SEQUENCES_DIRECTORY] = config[JSON_DIRECTORY] + 'sequences/'
 config[PROJECT_LIGHTS_DIRECTORY] = config[JSON_DIRECTORY] + 'projects_lights/'
 
 config[VISUAL_DIRECTORY] = config[MEDIAS_DIRECTORY] + 'visuals/'
 
+config[LOGGING_DIRECTORY] = config[CONFIG_DIRECTORY] + 'logging/'
 config[RPI_LOGGING_CONFIG_FILE] = config[LOGGING_DIRECTORY] + 'logging-pi.conf'
 config[LAPTOP_LOGGING_CONFIG_FILE] = config[LOGGING_DIRECTORY] + 'logging-laptop.conf'
-config[DOCKER_LOGGING_CONFIG_FILE] = config[LOGGING_DIRECTORY] + 'logging-docker.conf'
-config[DOCKER_LOGGING_CONFIG_FILE] = config[LOGGING_DIRECTORY] + 'logging-docker.conf'
+config[DOCKER_LOGGING_CONFIG_FILE] = config[LOGGING_DIRECTORY] + 'logging-docker-arm64.conf'
+config[DOCKER_LOGGING_CONFIG_FILE] = config[LOGGING_DIRECTORY] + 'logging-docker-arm64.conf'
+
+if Misc.is_raspberrypi():
+    config[LOGGING_CONFIG_FILE] = config[RPI_LOGGING_CONFIG_FILE]
+    config[LOGGING_FILE_NAME] = "/home/pi/ros2_ws/log/controller.log"
+elif Misc.is_docker():
+    config[LOGGING_CONFIG_FILE] = config[DOCKER_LOGGING_CONFIG_FILE]
+    config[LOGGING_FILE_NAME] = "/home/ros2_ws/log/controller.log"
+else:
+    config[LOGGING_CONFIG_FILE] = config[LAPTOP_LOGGING_CONFIG_FILE]
+    config[LOGGING_FILE_NAME] = "/home//ros2_ws/log/controller.log"
+
+
+
+
+
+config[RPI_LOGGING_CONFIG_FILE]
 
 config[PATHS] = {
         VISUALS: config[VISUAL_DIRECTORY] + "visuals/",
@@ -92,7 +116,7 @@ config[FONT1] = "Helvetica 30 italic bold" #None tkfont.Font(family='Helvetica',
 config[FONT2] = "Helvetica 17 italic bold" #None tkfont.Font(family='Helvetica', size=15, weight="bold", slant="italic")
 config[FONT3] = "Helvetica 15 italic bold" #None tkfont.Font(family='Helvetica', size=12, weight="bold", slant="italic")
 
-FONT_DROPDOWN = "Helvetica 30 italic bold"
+FONT_DROPDOWN = "Helvetica 34 italic bold"
 FONT_BUTTON = "Helvetica 34 italic bold"
 
 config[BUTTON_GRID] = "Helvetica 31 italic bold" #None tkfont.Font(family='Helvetica', size=18, weight="bold", slant="italic")
@@ -198,14 +222,7 @@ config[DEVICES] = [
     ]
 
 
-config[SYSTEM] = Misc.get_system_type()
 
-if Misc.is_raspberrypi():
-    config[LOGGING_CONFIG_FILE] = config[RPI_LOGGING_CONFIG_FILE]
-elif Misc.is_docker():
-    config[LOGGING_CONFIG_FILE] = config[DOCKER_LOGGING_CONFIG_FILE]
-else:
-    config[LOGGING_CONFIG_FILE] = config[LAPTOP_LOGGING_CONFIG_FILE]
 #else:
 #    logging.error("can't find system type {}".format(config[SYSTEM]))
 

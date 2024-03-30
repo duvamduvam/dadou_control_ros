@@ -72,10 +72,10 @@ class PlaylistWindow(tk.Frame):
         # scroll we use yscrollcommand
         #self.playlist_listbox.config(yscrollcommand=scrollbar.set)
 
-        # setting scrollbar command parameter
+        # setting scrollbar command_root parameter
         # to listbox.yview method its yview because
         # we need to have a vertical view
-        #œscrollbar.config(command=listbox.yview)
+        #œscrollbar.config(command_root=listbox.yview)
 
         self.add_button = tk.Button(self.main, text='add', width=15, height=2, font=config[FONT1], command=self.click_add)
         self.add_button.grid(row=0, column=4, sticky='new')

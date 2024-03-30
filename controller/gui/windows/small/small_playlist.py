@@ -63,7 +63,7 @@ class SmallPlaylist(tk.Frame):
         #button_top_frame.pack(side=TOP)
         self.send_button = tk.Button(self.main, bg=config[BORDEAUX], text='send', width=15, height=button_width, font=FONT_BUTTON, command=self.click_send)
         self.send_button.pack(side=TOP)
-        #self.play_button = tk.Button(self.main, bg=config[BORDEAUX], text='play', width=5, height=button_width, font=config[FONT3], command=self.click_play)
+        #self.play_button = tk.Button(self.main, bg=config[BORDEAUX], text='play', width=5, height=button_width, font=config[FONT3], command_root=self.click_play)
         #self.play_button.pack(side=TOP)
 
         self.stop_button = tk.Button(self.main, bg=config[YELLOW], text='stop', width=15, height=button_width, font=FONT_BUTTON, command=self.click_stop)

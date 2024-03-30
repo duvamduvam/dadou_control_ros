@@ -27,7 +27,7 @@ class ConfigWindow(tk.Frame):
         #volume_frame = tk.Frame(self)
         #volume_label = tk.Label(volume_frame, text="Volume")
         #volume_label.pack(fill=X, side=LEFT)
-        #self.volume_scale = tk.Scale(volume_frame, from_=0, to=100, length=500, resolution=1, command=self.update_volume(), orient=HORIZONTAL)
+        #self.volume_scale = tk.Scale(volume_frame, from_=0, to=100, length=500, resolution=1, command_root=self.update_volume(), orient=HORIZONTAL)
         #self.volume_scale.pack(fill=X, side=LEFT)
         #volume_frame.pack(fill=X, side=TOP)
 

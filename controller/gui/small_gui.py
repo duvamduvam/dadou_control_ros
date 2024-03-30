@@ -44,7 +44,7 @@ class SmallGui(tk.Tk):
         self.new_msg = False
         self.popup_closing = False
 
-        self.listCombo, self.selected_menu = self.create_menu(MENU, 7)
+        self.listCombo, self.selected_menu = self.create_menu(MENU, 9)
         self.listCombo.bind('<<ComboboxSelected>>', self.menu_changed)
         self.mod_button = tk.Button(self.menu, text="M", width=2, font=FONT_DROPDOWN, command=lambda: self.change_window(MODE, None))
         self.mod_button.pack(side=LEFT)
