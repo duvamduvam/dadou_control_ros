@@ -31,6 +31,8 @@ RUN mkdir /home/ros2_ws/src/controller
 RUN mkdir /home/ros2_ws/src/controller/resource
 #RUN mkdir /home/ros2_ws/src/controller/dadou_utils
 
+WORKDIR /home/ros2_ws/
+
 COPY controller/test.py /home/ros2_ws/
 COPY controller /home/ros2_ws/src/controller/controller/
 
@@ -61,8 +63,6 @@ RUN apt-get update && cat /home/ros2_ws/src/controller/conf/packages.txt | xargs
 ENV PYTHONPATH "${PYTHONPATH}:/home/ros2_ws/src"
 #RUN python3 -m venv /home/venv
 #ENV PATH "/home/venv/bin:$PATH"
-
-WORKDIR /home/ros2_ws/
 
 #RUN apt-get update && apt-get install -y tree
 #RUN tree -L 2 > tree_output.txt

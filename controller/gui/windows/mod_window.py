@@ -12,8 +12,11 @@ from controller.gui.windows.small.small_playlist import SmallPlaylist
 
 
 class ModWindow(tk.Frame):
-    def __init__(self, parent, *args, **kwargs):
+    def __init__(self, parent, node, *args, **kwargs):
+        #tk.Frame.__init__(self, parent, *args, **kwargs)
+        self.node = node
         tk.Frame.__init__(self, parent, *args, **kwargs)
+
         self.parent = parent
         buttons_names = []
         if isinstance(parent.main, SmallControl):

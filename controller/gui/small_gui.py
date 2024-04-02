@@ -30,7 +30,8 @@ class SmallGui(tk.Tk):
 
         self.serial_inputs = SerialInputs()
 
-        self.geometry("480x320")
+        #self.geometry("480x320")
+        self.geometry("640x480")
         if config[HOST_NAME] != 'dadou':
             self.wm_attributes('-type', 'splash')
         self.bind('<Escape>', lambda e: self.destroy())
@@ -44,9 +45,16 @@ class SmallGui(tk.Tk):
         self.new_msg = False
         self.popup_closing = False
 
-        self.listCombo, self.selected_menu = self.create_menu(MENU, 9)
-        self.listCombo.bind('<<ComboboxSelected>>', self.menu_changed)
-        self.mod_button = tk.Button(self.menu, text="M", width=2, font=FONT_DROPDOWN, command=lambda: self.change_window(MODE, None))
+        #self.listCombo, self.selected_menu = self.create_menu(MENU, 7)
+        #self.listCombo.bind('<<ComboboxSelected>>', self.menu_changed)
+
+        self.playlist_button = tk.Button(self.menu, text="P", width=1, font=FONT_DROPDOWN, command=lambda: self.change_window(PLAYLIST, DEFAULT))
+        self.playlist_button.pack(side=LEFT)
+
+        self.config_button = tk.Button(self.menu, text="C", width=1, font=FONT_DROPDOWN, command=lambda: self.change_window(CONFIG, DEFAULT))
+        self.config_button.pack(side=LEFT)
+
+        self.mod_button = tk.Button(self.menu, text="M", width=1, font=FONT_DROPDOWN, command=lambda: self.change_window(MODE, None))
         self.mod_button.pack(side=LEFT)
 
         self.icons_widget = IconsWidget(self, menu=self.menu, devices_manager=ControlFactory().devices_manager, serial_inputs=self.serial_inputs)

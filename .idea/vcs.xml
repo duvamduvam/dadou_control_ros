@@ -2,7 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dadou_utils2" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dadou_utils2/dadou_utils_ros" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dadou_utils" vcs="Git" />
   </component>
 </project>

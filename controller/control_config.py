@@ -15,7 +15,7 @@ from dadou_utils.utils_static import AUDIOS_DIRECTORY, BUTTON_GRID, EYES, RPI_TY
     BAUD_RATE, ICONS, CONFIG, LOG_FILE, HOST_NAME, UP, WHEELS, FORWARD, DOWN, BACKWARD, LEFT, RIGHT, ANIMATION, A, B, X, \
     Y, BUTTON, MSG, BL, BR, START, SELECT, ALL, LEFT_ARM, RIGHT_ARM, NECK, RIGHT_EYE, LEFT_EYE, JOYSTICK, INPUT_KEY, \
     DOCKER_LOGGING_CONFIG_FILE, MEDIAS_DIRECTORY, PROJECT_DIRECTORY, SRC_DIRECTORY, VISUAL_DIRECTORY, \
-    LOGGING_DIRECTORY, CONFIG_DIRECTORY
+    LOGGING_DIRECTORY, CONFIG_DIRECTORY, FONT22
 
 config = {}
 
@@ -115,6 +115,8 @@ config[CYAN] = '#0f4c5c'
 config[FONT1] = "Helvetica 30 italic bold" #None tkfont.Font(family='Helvetica', size=18, weight="bold", slant="italic")
 config[FONT2] = "Helvetica 17 italic bold" #None tkfont.Font(family='Helvetica', size=15, weight="bold", slant="italic")
 config[FONT3] = "Helvetica 15 italic bold" #None tkfont.Font(family='Helvetica', size=12, weight="bold", slant="italic")
+
+config[FONT22] = "Helvetica 22 italic bold" #None tkfont.Font(family='Helvetica', size=18, weight="bold", slant="italic")
 
 FONT_DROPDOWN = "Helvetica 34 italic bold"
 FONT_BUTTON = "Helvetica 34 italic bold"

@@ -1,8 +1,10 @@
 services:
   dadou-control:
     container_name: dadou-controller-container
-    image: dadouuu/dadou-controller:latest
-    build: ../../
+    image: dadouuu/dadou-controller-x86:latest
+    build:
+      context: ../../..
+      dockerfile: conf/docker/x86/Dockerfile-x86
     #context: ../../
     environment:
       - DISPLAY=${DISPLAY}
@@ -13,11 +15,11 @@ services:
 
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
-      - ../../conf:/home/ros2_ws/src/controller/conf
-      - ../../controller:/home/ros2_ws/src/controller/controller
-      - ../../dadou_utils:/home/ros2_ws/src/controller/dadou_utils
-      - ../../json:/home/ros2_ws/src/controller/json
-      - ../../medias:/home/ros2_ws/src/controller/medias
+      - ../../../conf:/home/ros2_ws/src/controller/conf
+      - ../../../controller:/home/ros2_ws/src/controller/controller
+      - ../../../dadou_utils:/home/ros2_ws/src/controller/dadou_utils
+      - ../../../json:/home/ros2_ws/src/controller/json
+      - ../../../medias:/home/ros2_ws/src/controller/medias
     #  - /dev/:/dev
     #  - /dev/null:/folder/fileToBeExcluded
     #accès device ACMO gpio serial by id disque etc ...
