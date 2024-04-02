@@ -37,7 +37,7 @@ class ControlFactory(metaclass=SingletonMeta):
 
         self.audio_nav = AudioNav()
         self.sequence_management = SequencesManagement(self.control_json_manager)
-        self.devices_manager = None #SerialDeviceManager(config[DEVICES])
+        self.devices_manager = SerialDeviceManager(config[DEVICES])
         logging.info(self.devices_manager)
         #wait for network
         #if not Misc.internet_connected():

@@ -7,46 +7,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e737f4f3-4117-4ba7-a7c5-4eb5247e9199" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/docker/compose-up-local.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/docker/compose-up.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/packages-docker.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/packages.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/rpi/config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/rpi/run_docker.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/scripts/run-docker.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/secret" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker_compose_build.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packges-docker.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="e737f4f3-4117-4ba7-a7c5-4eb5247e9199" name="Changes" comment="update ansible">
+      <change afterPath="$PROJECT_DIR$/conf/docker/arm/Dockerfile-arm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/docker/arm/docker-compose-arm.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dadou_utils/anisble/roles/root_ssh/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dadou_utils/anisble/roles/start-scripts/tasks/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/docker/docker_build.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/docker/docker_run.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/logging/logging-docker.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/logging/logging-docker.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/logging/logging-pi.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/logging/logging-pi.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/x86/Dockerfile-x86" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/docker/compose-up-local.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/compose-up-local.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/docker/compose-up.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/compose-up-pi.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/x86/docker-compose-x86.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/rpi/project_bash" beforeDir="false" afterPath="$PROJECT_DIR$/conf/rpi/project_bash" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/rpi/remote.desktop" beforeDir="false" afterPath="$PROJECT_DIR$/conf/rpi/remote.desktop" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/scripts/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/deploy.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/scripts/run-laptop.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/run-laptop.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/scripts/run-pi.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/run-pi.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/scripts/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/rpi/run_docker.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/deploy.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/run-docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/run-docker.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/run-pi.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/run.sh" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/control_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/control_config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/control_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/control_factory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/gui/normal_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/normal_gui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/small_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/small_gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/gui/windows/config_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/config_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/gui/windows/expression_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/expression_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/directory_tree_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/directory_tree_widget.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/gui/windows/glove_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/glove_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/gui/windows/playlist_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/playlist_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/mod_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/mod_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/small/small_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/small/small_config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/small/small_playlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/small/small_playlist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/speech/assistant.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/speech/assistant.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/deploy-controller-ubuntu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/deploy-controller-ubuntu.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/hosts" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/hosts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/install-controller-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/install-controller-pios.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/install-controller-ubuntu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/install-controller-ubuntu.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/install-robot-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/install-robot-pios.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/install-robot-ubuntu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/install-robot-ubuntu.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/roles/dir_struct/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/roles/dir_struct/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/roles/packages/defaults/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/roles/packages/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/roles/packages/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/roles/python/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/roles/python/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/roles/ros_humble_base/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/roles/ros_humble_base/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/roles/services/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/roles/services/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/roles/set-bashrc/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/roles/set-bashrc/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/roles/synchronise/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/roles/synchronise/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/vars/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils/lcd/LCD_1inch8.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/lcd/LCD_1inch8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/misc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils/scripts/deploy/deploy-utils.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/scripts/deploy/deploy-utils.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils/scripts/deploy/install-docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/scripts/deploy/install-docker.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils/scripts/deploy/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/scripts/deploy/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils/utils/shutdown_restart.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/utils/shutdown_restart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils/utils/status.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/utils/status.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils/utils_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/utils_static.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +80,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/dadou_utils" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -105,30 +111,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Python.get-pacakges-from-url.executor&quot;: &quot;Run&quot;,
-    &quot;Python.local control gl.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/dadou/Nextcloud/Didier/python/dadou_utils_ros&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;/home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/control_static.py&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "Python.get-pacakges-from-url.executor": "Run",
+    "Python.local control gl.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/dadou/Nextcloud/Didier/python/dadou_control_ros/conf/docker/x86",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "two.files.diff.last.used.file": "/home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/control_static.py",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="dadou_control" is-module-sdk="true">
@@ -139,18 +145,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/conf/docker/x86" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/.." />
       <recent name="$PROJECT_DIR$/conf/ros2" />
       <recent name="$PROJECT_DIR$/dadou_utils" />
-      <recent name="$PROJECT_DIR$/audios/eternel-short" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/conf/docker/arm" />
+      <recent name="$PROJECT_DIR$/conf/docker/x86" />
       <recent name="$PROJECT_DIR$/conf/docker" />
+      <recent name="$PROJECT_DIR$/conf/scripts" />
       <recent name="$PROJECT_DIR$/dadou_utils/anisble/roles/docker" />
-      <recent name="$PROJECT_DIR$/dadou_utils/anisble/roles" />
-      <recent name="$PROJECT_DIR$/conf" />
-      <recent name="$PROJECT_DIR$/conf/logging" />
     </key>
   </component>
   <component name="RunManager" selected="Python.get-docker-packages-from-url">
@@ -275,10 +281,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="docker: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+    <configuration name="x86/docker-compose-x86.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
-          <option name="sourceFilePath" value="conf/docker/docker-compose.yml" />
+          <option name="sourceFilePath" value="conf/docker/x86/docker-compose-x86.yml" />
         </settings>
       </deployment>
       <method v="2" />
@@ -332,7 +338,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Docker.docker: Compose Deployment" />
+      <item itemvalue="Docker.x86/docker-compose-x86.yml: Compose Deployment" />
       <item itemvalue="Python.local control gl" />
       <item itemvalue="Python.local control" />
       <item itemvalue="Python.local gp" />
@@ -345,7 +351,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.get-docker-packages-from-url" />
-        <item itemvalue="Docker.docker: Compose Deployment" />
+        <item itemvalue="Docker.x86/docker-compose-x86.yml: Compose Deployment" />
         <item itemvalue="Python tests.Python tests for test_input_messsages.MyTestCase.test_input_messages" />
         <item itemvalue="Python tests.Python tests for test_input_devices.TestInputDevices.test_buttons2" />
         <item itemvalue="Python tests.Python tests for test_input_devices.TestInputDevices.test_buttons" />
@@ -799,7 +805,26 @@
       <workItem from="1711734225370" duration="7898000" />
       <workItem from="1711785341843" duration="945000" />
       <workItem from="1711786619003" duration="10158000" />
-      <workItem from="1711796883652" duration="6541000" />
+      <workItem from="1711796883652" duration="14444000" />
+      <workItem from="1711892833019" duration="3308000" />
+      <workItem from="1711904377811" duration="2903000" />
+      <workItem from="1711908874349" duration="5996000" />
+      <workItem from="1711960309906" duration="19000" />
+      <workItem from="1711960350099" duration="340000" />
+      <workItem from="1711962312451" duration="12000" />
+      <workItem from="1711962846189" duration="64000" />
+      <workItem from="1711962959540" duration="6000" />
+      <workItem from="1711970898113" duration="13000" />
+      <workItem from="1711970923465" duration="8000" />
+      <workItem from="1711996121705" duration="140000" />
+      <workItem from="1712004951895" duration="39000" />
+      <workItem from="1712005001214" duration="325000" />
+      <workItem from="1712005383564" duration="688000" />
+      <workItem from="1712006092012" duration="69000" />
+      <workItem from="1712006165966" duration="136000" />
+      <workItem from="1712006448774" duration="14000" />
+      <workItem from="1712006604992" duration="1351000" />
+      <workItem from="1712008074893" duration="1226000" />
     </task>
     <task id="LOCAL-00001" summary="i don't know ...">
       <created>1654844930851</created>
@@ -1073,7 +1098,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710091538377</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="update ansible">
+      <option name="closed" value="true" />
+      <created>1711825373539</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1711825373539</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1133,7 +1166,8 @@
     <MESSAGE value="add joystick input" />
     <MESSAGE value="changing to ros" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="update ansible" />
+    <option name="LAST_COMMIT_MESSAGE" value="update ansible" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1229,12 +1263,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/controller/gui/small_gui.py</url>
-          <line>110</line>
+          <line>118</line>
           <option name="timeStamp" value="195" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/controller/gui/windows/small/small_playlist.py</url>
-          <line>178</line>
+          <line>179</line>
           <option name="timeStamp" value="197" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1249,7 +1283,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/controller/control_config.py</url>
-          <line>216</line>
+          <line>218</line>
           <option name="timeStamp" value="206" />
         </line-breakpoint>
       </breakpoints>

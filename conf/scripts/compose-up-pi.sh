@@ -9,6 +9,7 @@ LOG_FILE=docker_$DATE.log
 LOG_PATH=
 DOCKER_COMPOSE_FILE=
 
+sudo docker compose -f $DOCKER_COMPOSE_FILE pull
 #sudo docker compose -f $DOCKER_COMPOSE_FILE up
 sudo docker compose -f $DOCKER_COMPOSE_FILE up | sudo tee -a "$LOG_PATH/$LOG_FILE"
 #docker-arm64 compose up --build | tee -a docker_compose_build.log

@@ -23,6 +23,7 @@ from controller.control_config import config, RESTART_APP, FONT_DROPDOWN, FONT_B
 MENU = [CONTROL, PLAYLIST, CONFIG]
 PLAYLIST_CMD_INTERVAL = 1000
 
+
 class SmallPlaylist(tk.Frame):
     def __init__(self, parent, mode, node, *args, **kwargs):
 
@@ -56,7 +57,7 @@ class SmallPlaylist(tk.Frame):
 
         self.playlist_listbox = tk.Listbox(self.main, listvariable=self.playlist_var, selectbackground=config[BORDEAUX], width=22, font=config[FONT2])
         self.playlist_listbox.bind("<<ListboxSelect>>", self.playlist_click)
-        self.playlist_listbox.pack(side=LEFT)
+        self.playlist_listbox.pack(fill=Y, expand=True, side=LEFT)
 
         button_width = 1
         #button_top_frame = tk.Frame(self.main)
