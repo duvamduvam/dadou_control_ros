@@ -1,7 +1,7 @@
 import logging
 import tkinter as tk
 
-from dadou_utils.misc import Misc
+from dadou_utils_ros.misc import Misc
 
 from controller.control_factory import ControlFactory
 from controller.gui.windows.frames.abstract.rectangle_highlighted import HighlightedRectangle

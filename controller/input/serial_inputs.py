@@ -1,18 +1,18 @@
 import copy
 import logging
 
-from dadou_utils.com.input_messages_list import InputMessagesList
-from dadou_utils.misc import Misc
-from dadou_utils.utils_static import DEVICES, INPUT_KEY, BUTTON, SLIDERS, JOYSTICK, DEVICE, MSG, DIDIER, ALL, NECK, \
+from dadou_utils_ros.com.input_messages_list import InputMessagesList
+from dadou_utils_ros.misc import Misc
+from dadou_utils_ros.utils_static import DEVICES, INPUT_KEY, BUTTON, SLIDERS, JOYSTICK, DEVICE, MSG, DIDIER, ALL, NECK, \
     WHEEL_LEFT, WHEEL_RIGHT, ROBOT, X, Y
 from controller.control_config import config
-from dadou_utils.com.serial_devices_manager import SerialDeviceManager
+from dadou_utils_ros.com.serial_devices_manager import SerialDeviceManager
 
 
 class SerialInputs:
 
     def __init__(self):
-        self.devices_manager = SerialDeviceManager(config[DEVICES])
+        self.devices_manager = SerialDeviceManager(config[DEVICES], [INPUT_KEY, BUTTON, SLIDERS, JOYSTICK])
         self.serial_devices = {
             INPUT_KEY: self.devices_manager.get_device_type(INPUT_KEY),
             BUTTON: self.devices_manager.get_device_type(BUTTON),
@@ -22,11 +22,18 @@ class SerialInputs:
         self.input_key = None
         self.last_prompt = None
 
+    def device_connected(self, name):
+        return self.devices_manager.get_device(name)
+
     def check_inputs(self):
         if self.check_input_type(serial_input=INPUT_KEY, add_to_list=False):
             self.input_key = self.last_prompt
         if self.check_input_type(serial_input=JOYSTICK) or self.check_input_type(serial_input=SLIDERS):
             return self.last_prompt
+
+    def get_group(self, group):
+        if group in self.serial_devices:
+            return self.serial_devices[group]
 
     def check_input_type(self, serial_input, add_to_list=True):
         if self.serial_devices[serial_input] and len(self.serial_devices[serial_input]) > 0:

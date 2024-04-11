@@ -3,7 +3,7 @@ import os
 import tkinter as tk
 from tkinter import filedialog as fd
 
-from dadou_utils.utils.time_utils import TimeUtils
+from dadou_utils_ros.utils.time_utils import TimeUtils
 
 from controller.control_factory import ControlFactory
 from controller.control_config import ControlStatic

@@ -2,7 +2,7 @@ import logging
 import time
 import tkinter as tk
 
-from dadou_utils.utils_static import BORDEAUX, CONTROL, PLAYLIST, CONFIG, FONT2
+from dadou_utils_ros.utils_static import BORDEAUX, CONTROL, PLAYLIST, CONFIG, FONT2
 from controller.buttons.button_config import CONTROL_CONFIG, PLAYLIST_CONFIG
 from controller.control_config import config, FONT_BUTTON, SINGLE_GLOVE, DUAL_GLOVE_9DOF_LEFT, DUAL_GLOVE_9DOF_RIGHT, \
     DUAL_GLOVE_LEFT

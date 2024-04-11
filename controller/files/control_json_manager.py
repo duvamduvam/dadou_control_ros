@@ -1,6 +1,6 @@
-from dadou_utils.utils_static import JSON_LIGHTS_BASE, JSON_LIGHTS_METHODS, SEQUENCES_DIRECTORY, JSON_EXPRESSIONS, JSON_LIGHTS, JSON_SPEECHS, \
+from dadou_utils_ros.utils_static import JSON_LIGHTS_BASE, JSON_LIGHTS_METHODS, SEQUENCES_DIRECTORY, JSON_EXPRESSIONS, JSON_LIGHTS, JSON_SPEECHS, \
     JSON_AUDIOS
-from dadou_utils.files.abstract_json_manager import AbstractJsonManager
+from dadou_utils_ros.files.abstract_json_manager import AbstractJsonManager
 
 from controller.control_config import config
 

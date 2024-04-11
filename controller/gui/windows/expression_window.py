@@ -2,7 +2,7 @@ import logging
 import tkinter as tk
 from tkinter import BOTH, TOP, LEFT
 
-from dadou_utils.utils_static import DURATION, LOOP, KEYS, STOP, PURPLE, YELLOW, ORANGE, BORDEAUX, CYAN, PLAY, PAUSE, \
+from dadou_utils_ros.utils_static import DURATION, LOOP, KEYS, STOP, PURPLE, YELLOW, ORANGE, BORDEAUX, CYAN, PLAY, PAUSE, \
     IMAGE, JSON_EXPRESSIONS, NAME
 
 from controller.gui.windows.frames.widgets.directory_tree_widget import DirectoryTreeWidget

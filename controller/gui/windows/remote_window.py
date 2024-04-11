@@ -2,7 +2,7 @@ import logging
 import tkinter as tk
 from tkinter import BOTH, TOP
 
-from dadou_utils.misc import Misc
+from dadou_utils_ros.misc import Misc
 
 from controller.control_config import CYAN
 

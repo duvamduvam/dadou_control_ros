@@ -3,9 +3,9 @@ import unittest
 
 from coverage.annotate import os
 
-from dadou_utils.com.serial_devices_manager import SerialDeviceManager
-from dadou_utils.com.ws_client import WsClient
-from dadou_utils.utils_static import WS_CLIENT, WHEEL_LEFT, WHEEL_RIGHT
+from dadou_utils_ros.com.serial_devices_manager import SerialDeviceManager
+from dadou_utils_ros.com.ws_client import WsClient
+from dadou_utils_ros.utils_static import WS_CLIENT, WHEEL_LEFT, WHEEL_RIGHT
 
 from controller.files.control_json_manager import ControlJsonManager
 

@@ -2,8 +2,8 @@ import logging
 import tkinter as tk
 from tkinter import TOP, X, BOTH
 
-from dadou_utils.com.input_messages_list import InputMessagesList
-from dadou_utils.utils_static import CYAN, YELLOW, \
+from dadou_utils_ros.com.input_messages_list import InputMessagesList
+from dadou_utils_ros.utils_static import CYAN, YELLOW, \
     PURPLE, NAME, CMD, FONT2, MSG, DEVICE
 from controller.buttons.button_config import INPUT_KEYS, BUTTONS_LAYOUT, Buttons
 

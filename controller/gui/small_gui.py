@@ -3,9 +3,9 @@ import tkinter as tk
 import time
 from tkinter import TOP, BOTH, ttk, LEFT
 
-from dadou_utils.com.input_messages_list import InputMessagesList
-from dadou_utils.utils.time_utils import TimeUtils
-from dadou_utils.utils_static import (BORDEAUX, YELLOW, FONT1, PURPLE,
+from dadou_utils_ros.com.input_messages_list import InputMessagesList
+from dadou_utils_ros.utils.time_utils import TimeUtils
+from dadou_utils_ros.utils_static import (BORDEAUX, YELLOW, FONT1, PURPLE,
                                       DEVICE, MSG, MODE, CONTROL, PLAYLIST, CONFIG, DEFAULT, FONT2, HOST_NAME)
 
 from controller.control_config import config, FONT_DROPDOWN
@@ -57,7 +57,7 @@ class SmallGui(tk.Tk):
         self.mod_button = tk.Button(self.menu, text="M", width=1, font=FONT_DROPDOWN, command=lambda: self.change_window(MODE, None))
         self.mod_button.pack(side=LEFT)
 
-        self.icons_widget = IconsWidget(self, menu=self.menu, devices_manager=ControlFactory().devices_manager, serial_inputs=self.serial_inputs)
+        self.icons_widget = IconsWidget(self, menu=self.menu, serial_inputs=self.serial_inputs)
 
         self.main = None
         self.change_window(PLAYLIST, DEFAULT)

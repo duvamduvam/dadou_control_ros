@@ -3,9 +3,9 @@ import logging
 import os
 import socket
 
-from dadou_utils.misc import Misc
+from dadou_utils_ros.misc import Misc
 
-from dadou_utils.utils_static import AUDIOS_DIRECTORY, BUTTON_GRID, EYES, RPI_TYPE, LAPTOP_TYPE, NAME, SERIAL_ID, \
+from dadou_utils_ros.utils_static import AUDIOS_DIRECTORY, BUTTON_GRID, EYES, RPI_TYPE, LAPTOP_TYPE, NAME, SERIAL_ID, \
     MSG_SIZE, TYPE, PATH, SEQUENCES, \
     MOUTH, VISUALS, VISUALS, LAPTOP_TYPE, RPI_TYPE, BASE_PATH, WS_CLIENT, JSON_EXPRESSIONS, JSON_LIGHTS, JSON_DIRECTORY, \
     SEQUENCES_DIRECTORY, AUDIO_NAME, AUDIO_PATH, DEVICES, PATHS, LOGGING_CONFIG_FILE, JSON_CONFIG, JSON_LIGHTS_BASE, \
@@ -49,7 +49,8 @@ config[JSON_SPEECHS] = 'speechs.json'
 config[SYSTEM] = Misc.get_system_type()
 
 if Misc.is_raspberrypi():
-    config[BASE_PATH] = "/home/pi/ros2_ws/"
+    #TODO FIX RPI PATH
+    config[BASE_PATH] = "/home/ros2_ws/"
 elif Misc.is_docker():
     config[BASE_PATH] = "/home/ros2_ws/"
 else:
@@ -78,19 +79,13 @@ config[DOCKER_LOGGING_CONFIG_FILE] = config[LOGGING_DIRECTORY] + 'logging-docker
 
 if Misc.is_raspberrypi():
     config[LOGGING_CONFIG_FILE] = config[RPI_LOGGING_CONFIG_FILE]
-    config[LOGGING_FILE_NAME] = "/home/pi/ros2_ws/log/controller.log"
+    config[LOGGING_FILE_NAME] = "/home/ros2_ws/log/controller.log"
 elif Misc.is_docker():
     config[LOGGING_CONFIG_FILE] = config[DOCKER_LOGGING_CONFIG_FILE]
     config[LOGGING_FILE_NAME] = "/home/ros2_ws/log/controller.log"
 else:
     config[LOGGING_CONFIG_FILE] = config[LAPTOP_LOGGING_CONFIG_FILE]
-    config[LOGGING_FILE_NAME] = "/home//ros2_ws/log/controller.log"
-
-
-
-
-
-config[RPI_LOGGING_CONFIG_FILE]
+    config[LOGGING_FILE_NAME] = "/home/ros2_ws/log/controller.log"
 
 config[PATHS] = {
         VISUALS: config[VISUAL_DIRECTORY] + "visuals/",

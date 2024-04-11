@@ -1,4 +1,4 @@
-from dadou_utils.utils_static import AUDIO
+from dadou_utils_ros.utils_static import AUDIO
 
 from controller.gui.windows.frames.abstract.abstract_sequence_frame import AbstractSequenceFrame
 from controller.gui.windows.frames.widgets.time_line_bar import TimeLineBar

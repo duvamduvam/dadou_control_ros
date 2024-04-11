@@ -1,6 +1,6 @@
 import logging
 
-from dadou_utils.utils_static import KEY, ANGLO
+from dadou_utils_ros.utils_static import KEY, ANGLO
 
 
 class GloveMessage:

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/dadou_control.iml" filepath="$PROJECT_DIR$/.idea/dadou_control.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dadou_control_ros.iml" filepath="$PROJECT_DIR$/.idea/dadou_control_ros.iml" />
     </modules>
   </component>
 </project>

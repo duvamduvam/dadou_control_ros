@@ -5,7 +5,7 @@ from tkinter import TOP
 from controller.control_config import config
 
 from controller.gui.windows.frames.widgets.time_line_bar import TimeLineBar
-from dadou_utils.utils_static import DATAS, FONT2
+from dadou_utils_ros.utils_static import DATAS, FONT2
 
 
 class AbstractSequenceFrame(tk.Frame):

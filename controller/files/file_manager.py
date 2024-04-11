@@ -4,7 +4,7 @@ import traceback
 from os import listdir
 from os.path import isfile, join
 
-from dadou_utils.utils_static import PATHS, BASE_PATH
+from dadou_utils_ros.utils_static import PATHS, BASE_PATH
 
 from controller.control_config import config
 from controller.control_factory import ControlFactory

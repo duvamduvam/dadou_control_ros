@@ -6,9 +6,9 @@ import digitalio
 from controller.buttons.button_config import KEYS_MAPPING
 from controller.control_config import BUTTONS_MAPPING
 from controller.control_factory import ControlFactory
-from dadou_utils.com.input_messages_list import InputMessagesList
-from dadou_utils.com.serial_devices_manager import SerialDeviceManager
-from dadou_utils.utils_static import SELECT, START, X, BL, A, RIGHT, LEFT, Y, B, DOWN, UP, DEVICES, INPUT_KEY, KEY, \
+from dadou_utils_ros.com.input_messages_list import InputMessagesList
+from dadou_utils_ros.com.serial_devices_manager import SerialDeviceManager
+from dadou_utils_ros.utils_static import SELECT, START, X, BL, A, RIGHT, LEFT, Y, B, DOWN, UP, DEVICES, INPUT_KEY, KEY, \
     BUTTON, BR
 
 mapping = {SELECT: board.D4, UP: board.D5, DOWN: board.D6, B: board.D12, LEFT: board.D13,

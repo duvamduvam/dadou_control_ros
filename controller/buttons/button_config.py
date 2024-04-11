@@ -1,8 +1,8 @@
 import copy
 import logging
 
-from dadou_utils.singleton import SingletonMeta
-from dadou_utils.utils_static import AUDIO, ANGLO, BACKWARD, EYES, FORWARD, LEFT, LONG, MODE, MOUTH, NEXT, PLAYLIST, \
+from dadou_utils_ros.singleton import SingletonMeta
+from dadou_utils_ros.utils_static import AUDIO, ANGLO, BACKWARD, EYES, FORWARD, LEFT, LONG, MODE, MOUTH, NEXT, PLAYLIST, \
     RIGHT, \
     SHORT, WHEELS, NECK, ARMS, LEFT_ARM, RIGHT_ARM, DOWN, UP, NAME, CMD, KEY, FACE, ANIMATION, CONFIG, LIGHTS, STOP, \
     DEFAULT, SPEAK, INCLINO, RIGHT_EYE, LEFT_EYE
@@ -36,8 +36,8 @@ base = {
     AHL: {NAME: "wh for", CMD: {WHEELS: FORWARD}},
     AML: {NAME: "wh back", CMD: {WHEELS: BACKWARD}},
     ABL: {NAME: "no vo", CMD: {RELAY: "normal_voice"}},
-    OHL: {NAME: "mute", CMD: {"mute": "mute"}},
-    OML: {NAME: "prout", CMD: {AUDIO: 'prout'}},
+    OHL: {NAME: "arm r down", CMD: {RIGHT_ARM: DOWN}},
+    OML: {NAME: "arm r up", CMD: {RIGHT_ARM: UP}},
     OBL: {NAME: "stop", CMD: {AUDIO: STOP}},
 
     IHR: {NAME: "Inclino", CMD: {}},

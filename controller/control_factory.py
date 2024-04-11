@@ -3,22 +3,22 @@ import logging.config
 import time
 import platform
 
-from dadou_utils.com.message import Message
-from dadou_utils.com.serial_devices_manager import SerialDeviceManager
-from dadou_utils.logging_conf import LoggingConf
-from dadou_utils.misc import Misc
-from dadou_utils.utils_static import BASE_PATH, LOGGING_CONFIG_FILE, DEVICES, JSON_DIRECTORY, WS_CLIENT, \
+from dadou_utils_ros.com.message import Message
+from dadou_utils_ros.com.serial_devices_manager import SerialDeviceManager
+from dadou_utils_ros.logging_conf import LoggingConf
+from dadou_utils_ros.misc import Misc
+from dadou_utils_ros.utils_static import BASE_PATH, LOGGING_CONFIG_FILE, DEVICES, JSON_DIRECTORY, WS_CLIENT, \
     LOGGING_FILE_NAME, INPUT_KEY, SLIDERS, NAME, LOG_FILE, BUTTON, MSG, ALL, JOYSTICK
 
-from dadou_utils.com.ws_client import WsClient
-from dadou_utils.singleton import SingletonMeta
+from dadou_utils_ros.com.ws_client import WsClient
+from dadou_utils_ros.singleton import SingletonMeta
 
 from controller.audio.audio_navigation import AudioNav
 from controller.control_config import config
 from controller.files.control_json_manager import ControlJsonManager
 from controller.logic.sequences.sequences_manager import SequencesManagement
 
-from dadou_utils.utils_static import WS_CLIENTS, WS_PORT
+from dadou_utils_ros.utils_static import WS_CLIENTS, WS_PORT
 
 
 class ControlFactory(metaclass=SingletonMeta):
@@ -37,8 +37,8 @@ class ControlFactory(metaclass=SingletonMeta):
 
         self.audio_nav = AudioNav()
         self.sequence_management = SequencesManagement(self.control_json_manager)
-        self.devices_manager = SerialDeviceManager(config[DEVICES])
-        logging.info(self.devices_manager)
+        #self.devices_manager = SerialDeviceManager(config[DEVICES])
+        #logging.info(self.devices_manager)
         #wait for network
         #if not Misc.internet_connected():
         #    logging.error("no network waiting")
@@ -54,7 +54,7 @@ class ControlFactory(metaclass=SingletonMeta):
         #for key, value in ws_devices_conf.items():
         #    self.ws_clients.append(WsClient(value, config[WS_PORT], key))
 
-        self.message = Message(self.ws_clients, self.devices_manager)
+        #self.message = Message(self.ws_clients, self.devices_manager)
 
     def ws_device_connected(self, device):
         connected = False

@@ -1,8 +1,8 @@
 import tkinter as tk
 from tkinter import TOP, BOTH, ttk
 
-from dadou_utils.com.input_messages_list import InputMessagesList
-from dadou_utils.utils_static import ORANGE, BORDEAUX, YELLOW, CYAN, FONT1, PURPLE, FONT3
+from dadou_utils_ros.com.input_messages_list import InputMessagesList
+from dadou_utils_ros.utils_static import ORANGE, BORDEAUX, YELLOW, CYAN, FONT1, PURPLE, FONT3
 
 from controller.control_config import config
 from controller.control_factory import ControlFactory

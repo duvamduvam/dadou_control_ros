@@ -8,13 +8,13 @@ from tkinter import BOTH, TOP, filedialog, LEFT, X, Y, RIGHT, END
 from playsound import playsound
 import vlc
 
-from dadou_utils.com.input_messages_list import InputMessagesList
-from dadou_utils.utils.time_utils import TimeUtils
-from dadou_utils.files.files_utils import FilesUtils
-from dadou_utils.utils_static import NAME, PLAYLISTS, AUDIO, STOP, INPUT_KEY, KEY, PLAYLIST_PLAY, BASE_PATH, BORDEAUX, \
+from dadou_utils_ros.com.input_messages_list import InputMessagesList
+from dadou_utils_ros.utils.time_utils import TimeUtils
+from dadou_utils_ros.files.files_utils import FilesUtils
+from dadou_utils_ros.utils_static import NAME, PLAYLISTS, AUDIO, STOP, INPUT_KEY, KEY, PLAYLIST_PLAY, BASE_PATH, BORDEAUX, \
     PLAYLIST_PATH, CYAN, AUDIOS_DIRECTORY, FONT1, FONT2, ANIMATION, PLAYLIST_STOP, SLIDERS, WHEELS, ORANGE, YELLOW, \
     DEVICE, MSG, CMD, PLAYLIST, NEXT, CONTROL, CONFIG, DEFAULT, FONT3, GLOVE
-from dadou_utils.audios.sound_object import SoundObject
+from dadou_utils_ros.audios.sound_object import SoundObject
 from controller.buttons.button_config import KEYS_MAPPING, BUTTONS_LAYOUT, PLAYLIST_CONFIG, Buttons
 
 from controller.control_factory import ControlFactory
