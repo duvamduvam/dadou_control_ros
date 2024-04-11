@@ -2,8 +2,8 @@ import logging
 import tkinter as tk
 from tkinter import TOP, X, BOTH
 
-from dadou_utils.com.input_messages_list import InputMessagesList
-from dadou_utils.utils_static import BUTTON_GRID, INPUT_KEY, KEY, LORA, JOYSTICK, SLIDERS, CYAN, BORDEAUX, FONT1, YELLOW, \
+from dadou_utils_ros.com.input_messages_list import InputMessagesList
+from dadou_utils_ros.utils_static import BUTTON_GRID, INPUT_KEY, KEY, LORA, JOYSTICK, SLIDERS, CYAN, BORDEAUX, FONT1, YELLOW, \
     PURPLE, \
     GLOVE_LEFT, GLOVE_RIGHT, ORANGE, WHEELS, STOP
 

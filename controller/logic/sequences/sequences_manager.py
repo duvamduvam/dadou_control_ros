@@ -1,7 +1,7 @@
 import logging
 
-from dadou_utils.audios.sound_object import SoundObject
-from dadou_utils.utils_static import AUDIOS_DIRECTORY, NAME, PATH, LENGTH, KEYS, AUDIOS, SEQUENCES_DIRECTORY
+from dadou_utils_ros.audios.sound_object import SoundObject
+from dadou_utils_ros.utils_static import AUDIOS_DIRECTORY, NAME, PATH, LENGTH, KEYS, AUDIOS, SEQUENCES_DIRECTORY
 
 from controller.control_config import config
 

@@ -1,1300 +1,246 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="ANALYZE_INJECTED_CODE" value="false" />
-  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e737f4f3-4117-4ba7-a7c5-4eb5247e9199" name="Changes" comment="update ansible">
-      <change afterPath="$PROJECT_DIR$/conf/docker/arm/Dockerfile-arm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/docker/arm/docker-compose-arm.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/anisble/roles/root_ssh/tasks/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils/anisble/roles/start-scripts/tasks/main.yml" afterDir="false" />
+    <list default="true" id="9de8dbe2-a8bd-4d96-ba64-13880b4eab0a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/msg/HardwareStatus.msg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/msg/LedState.msg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/msg/StringTime.msg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/msg/TurtleTuple.msg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/package.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/srv/ComputeRectangleArea.srv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/srv/SetLedPanel.srv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/usb-audio/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dadou_control.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/x86/Dockerfile-x86" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/docker/compose-up-local.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/compose-up-local.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/docker/compose-up.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/compose-up-pi.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/x86/docker-compose-x86.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/docker/arm/Dockerfile-arm" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/arm/Dockerfile-arm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/docker/arm/docker-compose-arm.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/arm/docker-compose-arm.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/docker/x86/Dockerfile-x86" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/x86/Dockerfile-x86" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/docker/x86/docker-compose-x86.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/x86/docker-compose-x86.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/logging/logging-laptop.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/logging/logging-laptop.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/ros2/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/ros2/package.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/rpi/project_bash" beforeDir="false" afterPath="$PROJECT_DIR$/conf/rpi/project_bash" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/rpi/run_docker.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/scripts/deploy.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/scripts/run-docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/run-docker.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/scripts/run-pi.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/scripts/run.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/compose-up-local.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/compose-up-local.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/compose-up-pi.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/compose-up-pi.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/device-deploy/control-deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/device-deploy/control-deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/device-deploy/gl-deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/device-deploy/gl-deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/device-deploy/gp-deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/device-deploy/gp-deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/device-deploy/gr-deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/device-deploy/gr-deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/device-deploy/tiny-deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/device-deploy/tiny-deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/audio/audio_navigation.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/audio/audio_navigation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/buttons/button_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/buttons/button_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/buttons/gp_buttons.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/buttons/gp_buttons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/com/glove_message.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/com/glove_message.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/control_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/control_config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/control_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/control_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/files/control_json_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/files/control_json_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/files/file_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/files/file_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/expression_duration.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/expression_duration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/gamepad.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/gamepad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/gui_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/gui_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/normal_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/normal_gui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/small_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/small_gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/visuals_object/visual_eye.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/visuals_object/visual_eye.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/visuals_object/visual_mouth.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/visuals_object/visual_mouth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/config_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/config_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/expression_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/expression_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/abstract_sequence_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/abstract_sequence_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/rectangle_highlighted.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/rectangle_highlighted.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/rectangle_image2.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/rectangle_image2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/rectangle_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/rectangle_text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/music_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/music_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/neck_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/neck_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/timeline_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/timeline_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/wheels_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/wheels_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/directory_tree_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/directory_tree_widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/galley_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/galley_widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/icons_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/icons_widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/sequences_manager_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/sequences_manager_widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/sequences_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/sequences_widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/time_line_bar.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/time_line_bar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/keyboard_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/keyboard_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/lights_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/lights_window.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/mod_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/mod_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/playlist_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/playlist_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/remote_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/remote_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/sequences_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/sequences_window.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/small/small_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/small/small_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/small/small_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/small/small_control.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/small/small_playlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/small/small_playlist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/deploy-controller-ubuntu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/deploy-controller-ubuntu.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/hosts" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/hosts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/install-controller-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/install-controller-pios.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/install-controller-ubuntu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/install-controller-ubuntu.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/install-robot-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/install-robot-pios.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/install-robot-ubuntu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/install-robot-ubuntu.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/roles/dir_struct/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/roles/dir_struct/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/roles/packages/defaults/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/roles/packages/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/roles/packages/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/roles/python/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/roles/python/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/roles/ros_humble_base/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/roles/ros_humble_base/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/roles/services/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/roles/services/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/roles/set-bashrc/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/roles/set-bashrc/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/roles/synchronise/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/roles/synchronise/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/anisble/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/anisble/vars/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/lcd/LCD_1inch8.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/lcd/LCD_1inch8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/misc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/scripts/deploy/deploy-utils.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/scripts/deploy/deploy-utils.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/scripts/deploy/install-docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/scripts/deploy/install-docker.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/scripts/deploy/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/scripts/deploy/run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/utils/shutdown_restart.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/utils/shutdown_restart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/utils/status.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/utils/status.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils/utils_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils/utils_static.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/input/serial_inputs.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/input/serial_inputs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/logic/sequences/sequences_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/logic/sequences/sequences_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/main_ros.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/main_ros.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/tests/test_input_devices.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/tests/test_input_devices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/tests/test_wheels.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/tests/test_wheels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/install-robot-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/install-robot-pios.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/start-scripts/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/start-scripts/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/logging_conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/logging_conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/misc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/utils/status.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/utils/status.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" show_ignored="true" />
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Unit Test" />
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
-  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
-    <envs>
-      <env key="FLASK_APP" value="app" />
-    </envs>
-    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
-    <option name="myEnvs">
-      <map>
-        <entry key="FLASK_APP" value="app" />
-      </map>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/dadou_utils" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/dadoucontrol/audio/audio_navigation.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/dadoucontrol/control_factory.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/dadoucontrol/gui/tkinter_gui.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/dadoucontrol/gui/windows/frames/abstract/rectangle_text.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/dadoucontrol/gui/windows/frames/music_frame.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/navigation_widget.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/dadoucontrol/gui/windows/frames/widgets/time_line_bar.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/dadoucontrol/gui/windows/keyboard_window.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/dadoucontrol/gui/windows/lights_window.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/dadoucontrol/gui/windows/sequences_window.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../dadou_utils/audios/time_singleton.py" root0="FORCE_HIGHLIGHTING" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 2
 }</component>
-  <component name="ProjectId" id="2A5LFS0mA3tGiyxzc6OqvcJlu2f" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2ea4SInN0FxHwRuNw1aAL9AQRgV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
-    "Python.get-pacakges-from-url.executor": "Run",
-    "Python.local control gl.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/dadou/Nextcloud/Didier/python/dadou_control_ros/conf/docker/x86",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "two.files.diff.last.used.file": "/home/dadou/Nextcloud/Didier/python/dadou_control/dadoucontrol/control_static.py",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.pytest for test_input_devices.TestInputDevices.test_glove_plugged.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dadou/Nextcloud/Didier/python/dadou_control_ros/controller&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <console-settings module-name="dadou_control" is-module-sdk="true">
-        <option name="myUseModuleSdk" value="true" />
-        <option name="myModuleName" value="dadou_control" />
-      </console-settings>
-    </option>
-  </component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/conf/docker/x86" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/.." />
-      <recent name="$PROJECT_DIR$/conf/ros2" />
-      <recent name="$PROJECT_DIR$/dadou_utils" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/conf/docker/arm" />
-      <recent name="$PROJECT_DIR$/conf/docker/x86" />
-      <recent name="$PROJECT_DIR$/conf/docker" />
-      <recent name="$PROJECT_DIR$/conf/scripts" />
-      <recent name="$PROJECT_DIR$/dadou_utils/anisble/roles/docker" />
+      <recent name="$PROJECT_DIR$/controller" />
+      <recent name="$PROJECT_DIR$/conf/ros2_dependencies" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.get-docker-packages-from-url">
-    <configuration name="get-docker-packages-from-url" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="dadou_control" />
+  <component name="RunManager">
+    <configuration name="pytest for test_input_devices.TestInputDevices.test_glove_plugged" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="dadou_control_ros" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dadou_utils/anisble/python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/conf/docker/get-docker-packages-from-url.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="local control gl" type="PythonConfigurationType" factoryName="Python">
-      <module name="dadou_control" />
-      <selectedOptions>
-        <option name="environmentVariables" visible="false" />
-      </selectedOptions>
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="left" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="local control" type="PythonConfigurationType" factoryName="Python">
-      <module name="dadou_control" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="local gp" type="PythonConfigurationType" factoryName="Python">
-      <module name="dadou_control" />
-      <selectedOptions>
-        <option name="environmentVariables" visible="false" />
-      </selectedOptions>
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="gp" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="remote control" type="PythonConfigurationType" factoryName="Python">
-      <module name="dadou_control" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dadoucontrol/gui/windows/audio" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="x86/docker-compose-x86.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="conf/docker/x86/docker-compose-x86.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_input_devices.TestInputDevices.test_buttons" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="dadou_control" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="/usr/bin/python3" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/controller/tests" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_input_devices.TestInputDevices.test_buttons&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_input_devices.TestInputDevices.test_buttons2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="dadou_control" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="/usr/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/controller/tests" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_input_devices.TestInputDevices.test_buttons2&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_input_messsages.MyTestCase.test_input_messages" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="dadou_control" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dadou_utils/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_input_messsages.MyTestCase.test_input_messages&quot;" />
+      <option name="_new_target" value="&quot;test_input_devices.TestInputDevices.test_glove_plugged&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Docker.x86/docker-compose-x86.yml: Compose Deployment" />
-      <item itemvalue="Python.local control gl" />
-      <item itemvalue="Python.local control" />
-      <item itemvalue="Python.local gp" />
-      <item itemvalue="Python.remote control" />
-      <item itemvalue="Python.get-docker-packages-from-url" />
-      <item itemvalue="Python tests.Python tests for test_input_devices.TestInputDevices.test_buttons2" />
-      <item itemvalue="Python tests.Python tests for test_input_devices.TestInputDevices.test_buttons" />
-      <item itemvalue="Python tests.Python tests for test_input_messsages.MyTestCase.test_input_messages" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.get-docker-packages-from-url" />
-        <item itemvalue="Docker.x86/docker-compose-x86.yml: Compose Deployment" />
-        <item itemvalue="Python tests.Python tests for test_input_messsages.MyTestCase.test_input_messages" />
-        <item itemvalue="Python tests.Python tests for test_input_devices.TestInputDevices.test_buttons2" />
-        <item itemvalue="Python tests.Python tests for test_input_devices.TestInputDevices.test_buttons" />
+        <item itemvalue="Python tests.pytest for test_input_devices.TestInputDevices.test_glove_plugged" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+        <option value="bundled-python-sdk-09665e90c3a7-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.15026.15" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SshConsoleOptionsProvider">
-    <option name="myEncoding" value="UTF-8" />
-    <option name="myConnectionType" value="NONE" />
-    <option name="myConnectionId" value="" />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e737f4f3-4117-4ba7-a7c5-4eb5247e9199" name="Changes" comment="" />
-      <created>1654294395475</created>
+      <changelist id="9de8dbe2-a8bd-4d96-ba64-13880b4eab0a" name="Changes" comment="" />
+      <created>1712129355466</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1654294395475</updated>
-      <workItem from="1654294396553" duration="334000" />
-      <workItem from="1654298619665" duration="845000" />
-      <workItem from="1666346938471" duration="4637000" />
-      <workItem from="1666355871643" duration="5632000" />
-      <workItem from="1666376222924" duration="49300000" />
-      <workItem from="1666520591899" duration="1738000" />
-      <workItem from="1666522421209" duration="3806000" />
-      <workItem from="1666545505803" duration="21236000" />
-      <workItem from="1666631172504" duration="206000" />
-      <workItem from="1666631394689" duration="157000" />
-      <workItem from="1666631630563" duration="141000" />
-      <workItem from="1666631919671" duration="1001000" />
-      <workItem from="1666633090136" duration="343000" />
-      <workItem from="1666633473029" duration="1058000" />
-      <workItem from="1666634566106" duration="1201000" />
-      <workItem from="1666635843769" duration="1163000" />
-      <workItem from="1666638156929" duration="199000" />
-      <workItem from="1666640192941" duration="490000" />
-      <workItem from="1666641535207" duration="722000" />
-      <workItem from="1666644359803" duration="4245000" />
-      <workItem from="1666649635122" duration="346000" />
-      <workItem from="1666650174061" duration="634000" />
-      <workItem from="1666650980200" duration="116000" />
-      <workItem from="1666651343038" duration="103000" />
-      <workItem from="1666652333139" duration="61000" />
-      <workItem from="1666713059791" duration="4141000" />
-      <workItem from="1666718494951" duration="84000" />
-      <workItem from="1666726613031" duration="1647000" />
-      <workItem from="1666732780928" duration="263000" />
-      <workItem from="1666733072332" duration="181000" />
-      <workItem from="1666733403476" duration="23000" />
-      <workItem from="1666733464153" duration="251000" />
-      <workItem from="1666733721359" duration="134000" />
-      <workItem from="1666733959592" duration="578000" />
-      <workItem from="1666735140826" duration="525000" />
-      <workItem from="1666735722831" duration="99000" />
-      <workItem from="1666735939342" duration="328000" />
-      <workItem from="1666736642999" duration="130000" />
-      <workItem from="1666737248713" duration="87000" />
-      <workItem from="1666738894240" duration="344000" />
-      <workItem from="1666739286975" duration="156000" />
-      <workItem from="1666739514359" duration="272000" />
-      <workItem from="1666806437596" duration="140000" />
-      <workItem from="1666815957387" duration="646000" />
-      <workItem from="1666816807285" duration="293000" />
-      <workItem from="1666902464826" duration="369000" />
-      <workItem from="1666903499126" duration="490000" />
-      <workItem from="1666904232665" duration="1693000" />
-      <workItem from="1666955549644" duration="52000" />
-      <workItem from="1666960301503" duration="149000" />
-      <workItem from="1666960582037" duration="665000" />
-      <workItem from="1667047560070" duration="53000" />
-      <workItem from="1667391405948" duration="2579000" />
-      <workItem from="1667511102679" duration="11325000" />
-      <workItem from="1667605246599" duration="3140000" />
-      <workItem from="1667819871739" duration="324000" />
-      <workItem from="1668003328935" duration="975000" />
-      <workItem from="1668004910266" duration="184000" />
-      <workItem from="1668005176831" duration="705000" />
-      <workItem from="1668037749772" duration="469000" />
-      <workItem from="1668122641255" duration="185000" />
-      <workItem from="1668122959514" duration="1247000" />
-      <workItem from="1668338799232" duration="796000" />
-      <workItem from="1668554090889" duration="2337000" />
-      <workItem from="1668556512938" duration="82000" />
-      <workItem from="1668556605515" duration="288000" />
-      <workItem from="1668557043291" duration="11000" />
-      <workItem from="1668557063328" duration="1140000" />
-      <workItem from="1668558552270" duration="1289000" />
-      <workItem from="1668560030087" duration="713000" />
-      <workItem from="1668560763350" duration="150000" />
-      <workItem from="1668585232799" duration="4000" />
-      <workItem from="1668585400671" duration="114000" />
-      <workItem from="1668588354749" duration="32000" />
-      <workItem from="1668588422831" duration="47000" />
-      <workItem from="1668588635197" duration="90000" />
-      <workItem from="1668589274739" duration="21000" />
-      <workItem from="1668589310845" duration="285000" />
-      <workItem from="1668589637425" duration="27000" />
-      <workItem from="1668589692398" duration="296000" />
-      <workItem from="1668590002642" duration="13000" />
-      <workItem from="1668590090966" duration="85000" />
-      <workItem from="1668590387388" duration="370000" />
-      <workItem from="1668590810669" duration="307000" />
-      <workItem from="1668591153898" duration="33000" />
-      <workItem from="1668591440624" duration="431000" />
-      <workItem from="1668591880313" duration="101000" />
-      <workItem from="1668598305150" duration="5184000" />
-      <workItem from="1668613614063" duration="345000" />
-      <workItem from="1668615785886" duration="210000" />
-      <workItem from="1668616774208" duration="2673000" />
-      <workItem from="1668619463665" duration="282000" />
-      <workItem from="1668619894507" duration="206000" />
-      <workItem from="1668622650919" duration="65000" />
-      <workItem from="1668685759008" duration="74000" />
-      <workItem from="1668685883072" duration="430000" />
-      <workItem from="1668698672387" duration="118000" />
-      <workItem from="1668715886802" duration="2664000" />
-      <workItem from="1668987421389" duration="2550000" />
-      <workItem from="1669062412897" duration="469000" />
-      <workItem from="1669243428047" duration="124000" />
-      <workItem from="1669318615901" duration="334000" />
-      <workItem from="1669318965170" duration="2030000" />
-      <workItem from="1670006912708" duration="4007000" />
-      <workItem from="1670011123515" duration="2363000" />
-      <workItem from="1670090723317" duration="115000" />
-      <workItem from="1670891831839" duration="6358000" />
-      <workItem from="1671133980766" duration="8000" />
-      <workItem from="1671135075303" duration="795000" />
-      <workItem from="1671217908959" duration="5935000" />
-      <workItem from="1671230869946" duration="8758000" />
-      <workItem from="1671281696873" duration="7901000" />
-      <workItem from="1671313183070" duration="10641000" />
-      <workItem from="1671349295926" duration="33550000" />
-      <workItem from="1671532238374" duration="1214000" />
-      <workItem from="1671545928794" duration="7010000" />
-      <workItem from="1671656344134" duration="6267000" />
-      <workItem from="1671717605293" duration="650000" />
-      <workItem from="1672134458002" duration="21000" />
-      <workItem from="1672267552846" duration="5837000" />
-      <workItem from="1672273715495" duration="4005000" />
-      <workItem from="1672353039738" duration="7740000" />
-      <workItem from="1672432868160" duration="2397000" />
-      <workItem from="1672474851487" duration="521000" />
-      <workItem from="1672607019851" duration="9513000" />
-      <workItem from="1672699104529" duration="6418000" />
-      <workItem from="1672783290900" duration="16127000" />
-      <workItem from="1672956296095" duration="12458000" />
-      <workItem from="1673209665064" duration="3855000" />
-      <workItem from="1673301198707" duration="9777000" />
-      <workItem from="1673644709553" duration="12192000" />
-      <workItem from="1673736793823" duration="3658000" />
-      <workItem from="1673822213518" duration="5838000" />
-      <workItem from="1673908410436" duration="824000" />
-      <workItem from="1675712471017" duration="66000" />
-      <workItem from="1675894353193" duration="4971000" />
-      <workItem from="1675984263837" duration="13749000" />
-      <workItem from="1676295415975" duration="821000" />
-      <workItem from="1676296483495" duration="65000" />
-      <workItem from="1676709324012" duration="5242000" />
-      <workItem from="1676716729061" duration="3786000" />
-      <workItem from="1676798635042" duration="8000" />
-      <workItem from="1677174708692" duration="74000" />
-      <workItem from="1677174866386" duration="56000" />
-      <workItem from="1677277699538" duration="1870000" />
-      <workItem from="1677279719724" duration="373000" />
-      <workItem from="1677280104360" duration="4271000" />
-      <workItem from="1677538617662" duration="3518000" />
-      <workItem from="1677543203717" duration="57000" />
-      <workItem from="1677588570913" duration="219000" />
-      <workItem from="1677588940598" duration="105000" />
-      <workItem from="1677589061001" duration="3716000" />
-      <workItem from="1677711497966" duration="10000" />
-      <workItem from="1677712382950" duration="361000" />
-      <workItem from="1677712873179" duration="335000" />
-      <workItem from="1677799267825" duration="206000" />
-      <workItem from="1677799641574" duration="104000" />
-      <workItem from="1677799963017" duration="2855000" />
-      <workItem from="1677884904072" duration="482000" />
-      <workItem from="1677887419230" duration="1743000" />
-      <workItem from="1677889244853" duration="461000" />
-      <workItem from="1677889835887" duration="382000" />
-      <workItem from="1677890344798" duration="99000" />
-      <workItem from="1677912831190" duration="12000" />
-      <workItem from="1678052857707" duration="1576000" />
-      <workItem from="1678054634708" duration="4144000" />
-      <workItem from="1678059848242" duration="2543000" />
-      <workItem from="1678062757264" duration="209000" />
-      <workItem from="1678063509716" duration="230000" />
-      <workItem from="1678086359331" duration="3816000" />
-      <workItem from="1678134256149" duration="7000" />
-      <workItem from="1678135323401" duration="3658000" />
-      <workItem from="1678139535808" duration="85000" />
-      <workItem from="1678139657011" duration="331000" />
-      <workItem from="1678140023992" duration="1934000" />
-      <workItem from="1678176060469" duration="1152000" />
-      <workItem from="1678178300483" duration="129000" />
-      <workItem from="1678178441359" duration="62000" />
-      <workItem from="1678178617036" duration="10000" />
-      <workItem from="1678179108236" duration="644000" />
-      <workItem from="1678179861957" duration="2785000" />
-      <workItem from="1678228217606" duration="4931000" />
-      <workItem from="1678284907280" duration="775000" />
-      <workItem from="1678296143614" duration="631000" />
-      <workItem from="1678303172422" duration="30000" />
-      <workItem from="1678310544936" duration="602000" />
-      <workItem from="1678317598337" duration="2465000" />
-      <workItem from="1678320076524" duration="5000" />
-      <workItem from="1678393483284" duration="3213000" />
-      <workItem from="1678399418148" duration="3275000" />
-      <workItem from="1678524136233" duration="8858000" />
-      <workItem from="1678654580547" duration="858000" />
-      <workItem from="1678658328185" duration="240000" />
-      <workItem from="1678658610093" duration="1648000" />
-      <workItem from="1678959734679" duration="1459000" />
-      <workItem from="1679008872231" duration="6440000" />
-      <workItem from="1679044724667" duration="2446000" />
-      <workItem from="1679146925542" duration="18000" />
-      <workItem from="1679163066588" duration="617000" />
-      <workItem from="1679231952045" duration="2919000" />
-      <workItem from="1679349814071" duration="10526000" />
-      <workItem from="1679402352864" duration="11977000" />
-      <workItem from="1679444508851" duration="12408000" />
-      <workItem from="1679602851926" duration="215000" />
-      <workItem from="1679609818514" duration="625000" />
-      <workItem from="1679782188619" duration="21000" />
-      <workItem from="1680044869624" duration="13663000" />
-      <workItem from="1680087719527" duration="3920000" />
-      <workItem from="1680095568872" duration="16240000" />
-      <workItem from="1680128669463" duration="4576000" />
-      <workItem from="1680158084708" duration="23079000" />
-      <workItem from="1680197550184" duration="16124000" />
-      <workItem from="1680282339423" duration="794000" />
-      <workItem from="1680285026864" duration="101000" />
-      <workItem from="1680651737138" duration="7905000" />
-      <workItem from="1680698257282" duration="967000" />
-      <workItem from="1680717403208" duration="8000" />
-      <workItem from="1680803890146" duration="6839000" />
-      <workItem from="1680813022072" duration="3414000" />
-      <workItem from="1680816592723" duration="12497000" />
-      <workItem from="1680943434012" duration="8000" />
-      <workItem from="1680943449304" duration="3206000" />
-      <workItem from="1680965087587" duration="1235000" />
-      <workItem from="1680996065340" duration="3606000" />
-      <workItem from="1681023152282" duration="5455000" />
-      <workItem from="1681077487581" duration="28000" />
-      <workItem from="1681079338612" duration="2780000" />
-      <workItem from="1681476431489" duration="944000" />
-      <workItem from="1681477415493" duration="3052000" />
-      <workItem from="1681592020449" duration="976000" />
-      <workItem from="1681738712838" duration="1913000" />
-      <workItem from="1681803695243" duration="932000" />
-      <workItem from="1681805689530" duration="2915000" />
-      <workItem from="1681827821541" duration="2340000" />
-      <workItem from="1681856009433" duration="39000" />
-      <workItem from="1681856143324" duration="1119000" />
-      <workItem from="1681857658738" duration="1616000" />
-      <workItem from="1681859915844" duration="3291000" />
-      <workItem from="1681889902714" duration="4884000" />
-      <workItem from="1681896562761" duration="2727000" />
-      <workItem from="1681925170244" duration="1659000" />
-      <workItem from="1681927249762" duration="4308000" />
-      <workItem from="1681940071343" duration="1025000" />
-      <workItem from="1681945434673" duration="599000" />
-      <workItem from="1681946840604" duration="978000" />
-      <workItem from="1681978109970" duration="13000" />
-      <workItem from="1682029723739" duration="357000" />
-      <workItem from="1682031737610" duration="10400000" />
-      <workItem from="1682074852700" duration="2703000" />
-      <workItem from="1682285386358" duration="257000" />
-      <workItem from="1682290823100" duration="24000" />
-      <workItem from="1682634965406" duration="861000" />
-      <workItem from="1683640103892" duration="190000" />
-      <workItem from="1691911047775" duration="1115000" />
-      <workItem from="1692000716978" duration="2000" />
-      <workItem from="1692089500467" duration="4000" />
-      <workItem from="1692134562388" duration="5000" />
-      <workItem from="1692256409733" duration="32000" />
-      <workItem from="1692312832900" duration="23000" />
-      <workItem from="1692312901557" duration="1069000" />
-      <workItem from="1692871534897" duration="1353000" />
-      <workItem from="1693469954444" duration="14000" />
-      <workItem from="1693772843125" duration="1979000" />
-      <workItem from="1693774832663" duration="3368000" />
-      <workItem from="1693780918065" duration="3620000" />
-      <workItem from="1693786492576" duration="1357000" />
-      <workItem from="1693849319364" duration="1425000" />
-      <workItem from="1693939403962" duration="2261000" />
-      <workItem from="1693941673631" duration="5798000" />
-      <workItem from="1693950268290" duration="8246000" />
-      <workItem from="1693988755849" duration="1671000" />
-      <workItem from="1694024070568" duration="1909000" />
-      <workItem from="1694211219219" duration="624000" />
-      <workItem from="1694558956878" duration="2778000" />
-      <workItem from="1694591374036" duration="153000" />
-      <workItem from="1694592046667" duration="2969000" />
-      <workItem from="1694595046608" duration="2304000" />
-      <workItem from="1694597422213" duration="3463000" />
-      <workItem from="1694601080284" duration="103000" />
-      <workItem from="1694638980924" duration="57000" />
-      <workItem from="1695599474268" duration="1804000" />
-      <workItem from="1695685800203" duration="821000" />
-      <workItem from="1695764378013" duration="2902000" />
-      <workItem from="1695816950338" duration="1690000" />
-      <workItem from="1695919197817" duration="2925000" />
-      <workItem from="1695971938406" duration="2000" />
-      <workItem from="1696068738243" duration="5605000" />
-      <workItem from="1696077399570" duration="1130000" />
-      <workItem from="1696079374415" duration="92000" />
-      <workItem from="1696097502077" duration="862000" />
-      <workItem from="1696101281205" duration="5475000" />
-      <workItem from="1696151001050" duration="16979000" />
-      <workItem from="1696246505472" duration="1000" />
-      <workItem from="1696317417953" duration="20000" />
-      <workItem from="1696333385335" duration="839000" />
-      <workItem from="1696339627752" duration="1675000" />
-      <workItem from="1696341488408" duration="37000" />
-      <workItem from="1696346019664" duration="115000" />
-      <workItem from="1696442919580" duration="13302000" />
-      <workItem from="1696458273687" duration="2914000" />
-      <workItem from="1696574360203" duration="986000" />
-      <workItem from="1696575452148" duration="1384000" />
-      <workItem from="1696580519093" duration="561000" />
-      <workItem from="1696581591324" duration="68000" />
-      <workItem from="1696666415040" duration="210000" />
-      <workItem from="1696667437375" duration="23000" />
-      <workItem from="1696703235443" duration="1666000" />
-      <workItem from="1696791828747" duration="5338000" />
-      <workItem from="1696828231085" duration="3664000" />
-      <workItem from="1696832519458" duration="534000" />
-      <workItem from="1696834263210" duration="2112000" />
-      <workItem from="1696911956052" duration="3000" />
-      <workItem from="1696914367838" duration="209000" />
-      <workItem from="1697023408863" duration="97000" />
-      <workItem from="1697023622538" duration="174000" />
-      <workItem from="1697221432159" duration="1058000" />
-      <workItem from="1697230124369" duration="112000" />
-      <workItem from="1697451335262" duration="669000" />
-      <workItem from="1697452180126" duration="1013000" />
-      <workItem from="1697466268215" duration="4000" />
-      <workItem from="1697486731906" duration="2689000" />
-      <workItem from="1697489560985" duration="118000" />
-      <workItem from="1697492501919" duration="90000" />
-      <workItem from="1697535868621" duration="68000" />
-      <workItem from="1697536010551" duration="134000" />
-      <workItem from="1697536301365" duration="99000" />
-      <workItem from="1697537135334" duration="2025000" />
-      <workItem from="1697539273093" duration="136000" />
-      <workItem from="1697539626743" duration="91000" />
-      <workItem from="1697540149674" duration="4766000" />
-      <workItem from="1697624077990" duration="9000" />
-      <workItem from="1697624877019" duration="304000" />
-      <workItem from="1697625290357" duration="286000" />
-      <workItem from="1697796677104" duration="3931000" />
-      <workItem from="1697814841384" duration="3732000" />
-      <workItem from="1697874735518" duration="5740000" />
-      <workItem from="1697881705711" duration="652000" />
-      <workItem from="1697882417896" duration="3850000" />
-      <workItem from="1697894888408" duration="828000" />
-      <workItem from="1697970998567" duration="2000" />
-      <workItem from="1698592564284" duration="599000" />
-      <workItem from="1698684551610" duration="11000" />
-      <workItem from="1698684579011" duration="2774000" />
-      <workItem from="1698691958339" duration="1038000" />
-      <workItem from="1698694328761" duration="2190000" />
-      <workItem from="1699025402919" duration="1833000" />
-      <workItem from="1699048239943" duration="296000" />
-      <workItem from="1699259329113" duration="817000" />
-      <workItem from="1700129083947" duration="524000" />
-      <workItem from="1701128032238" duration="13303000" />
-      <workItem from="1701206117607" duration="17000" />
-      <workItem from="1704531215458" duration="3329000" />
-      <workItem from="1704557316270" duration="599000" />
-      <workItem from="1704889066714" duration="2000" />
-      <workItem from="1705019476451" duration="742000" />
-      <workItem from="1705102779901" duration="3312000" />
-      <workItem from="1705141795946" duration="4327000" />
-      <workItem from="1705181687573" duration="653000" />
-      <workItem from="1705186496032" duration="5000" />
-      <workItem from="1705256142765" duration="480000" />
-      <workItem from="1705256634599" duration="6989000" />
-      <workItem from="1705267453277" duration="5608000" />
-      <workItem from="1705273386459" duration="3833000" />
-      <workItem from="1705590150441" duration="33000" />
-      <workItem from="1705590206735" duration="18000" />
-      <workItem from="1705620120540" duration="306000" />
-      <workItem from="1705620608656" duration="66000" />
-      <workItem from="1705622496582" duration="404000" />
-      <workItem from="1707951425440" duration="75000" />
-      <workItem from="1707952035287" duration="5000" />
-      <workItem from="1708029489268" duration="1452000" />
-      <workItem from="1708030964500" duration="8000" />
-      <workItem from="1709503938052" duration="3544000" />
-      <workItem from="1709507690297" duration="54000" />
-      <workItem from="1709507752346" duration="1090000" />
-      <workItem from="1709671631939" duration="1000" />
-      <workItem from="1709677315849" duration="1867000" />
-      <workItem from="1709679198701" duration="1386000" />
-      <workItem from="1709681689059" duration="29000" />
-      <workItem from="1709681726220" duration="13000" />
-      <workItem from="1709681746861" duration="686000" />
-      <workItem from="1709759608042" duration="624000" />
-      <workItem from="1709850524571" duration="883000" />
-      <workItem from="1709851434331" duration="657000" />
-      <workItem from="1709852912972" duration="1514000" />
-      <workItem from="1709854468115" duration="628000" />
-      <workItem from="1709855140537" duration="668000" />
-      <workItem from="1709855821704" duration="245000" />
-      <workItem from="1709856131067" duration="1147000" />
-      <workItem from="1709857290280" duration="10000" />
-      <workItem from="1709918328171" duration="3203000" />
-      <workItem from="1709921646892" duration="5903000" />
-      <workItem from="1710015897308" duration="780000" />
-      <workItem from="1710023274368" duration="14000" />
-      <workItem from="1710023313054" duration="1864000" />
-      <workItem from="1710025202644" duration="80000" />
-      <workItem from="1710025322311" duration="1055000" />
-      <workItem from="1710067449138" duration="2831000" />
-      <workItem from="1710090328624" duration="316000" />
-      <workItem from="1710091486807" duration="17000" />
-      <workItem from="1710091515739" duration="160000" />
-      <workItem from="1710091683772" duration="642000" />
-      <workItem from="1710185790603" duration="623000" />
-      <workItem from="1710281900866" duration="97000" />
-      <workItem from="1710282022227" duration="1180000" />
-      <workItem from="1710313698822" duration="14285000" />
-      <workItem from="1710332281528" duration="3129000" />
-      <workItem from="1710368076073" duration="7341000" />
-      <workItem from="1710453753241" duration="10496000" />
-      <workItem from="1710541590897" duration="972000" />
-      <workItem from="1710542626440" duration="11000" />
-      <workItem from="1710542654921" duration="558000" />
-      <workItem from="1710543228969" duration="4408000" />
-      <workItem from="1710710911218" duration="767000" />
-      <workItem from="1711221756332" duration="8259000" />
-      <workItem from="1711444087482" duration="684000" />
-      <workItem from="1711444785279" duration="1405000" />
-      <workItem from="1711458876628" duration="11989000" />
-      <workItem from="1711491857287" duration="2896000" />
-      <workItem from="1711496425281" duration="6598000" />
-      <workItem from="1711574036635" duration="641000" />
-      <workItem from="1711576402230" duration="1483000" />
-      <workItem from="1711577995790" duration="1740000" />
-      <workItem from="1711709900067" duration="3129000" />
-      <workItem from="1711734225370" duration="7898000" />
-      <workItem from="1711785341843" duration="945000" />
-      <workItem from="1711786619003" duration="10158000" />
-      <workItem from="1711796883652" duration="14444000" />
-      <workItem from="1711892833019" duration="3308000" />
-      <workItem from="1711904377811" duration="2903000" />
-      <workItem from="1711908874349" duration="5996000" />
-      <workItem from="1711960309906" duration="19000" />
-      <workItem from="1711960350099" duration="340000" />
-      <workItem from="1711962312451" duration="12000" />
-      <workItem from="1711962846189" duration="64000" />
-      <workItem from="1711962959540" duration="6000" />
-      <workItem from="1711970898113" duration="13000" />
-      <workItem from="1711970923465" duration="8000" />
-      <workItem from="1711996121705" duration="140000" />
-      <workItem from="1712004951895" duration="39000" />
-      <workItem from="1712005001214" duration="325000" />
-      <workItem from="1712005383564" duration="688000" />
-      <workItem from="1712006092012" duration="69000" />
-      <workItem from="1712006165966" duration="136000" />
-      <workItem from="1712006448774" duration="14000" />
-      <workItem from="1712006604992" duration="1351000" />
-      <workItem from="1712008074893" duration="1226000" />
+      <updated>1712129355466</updated>
+      <workItem from="1712129357300" duration="1489000" />
+      <workItem from="1712131016329" duration="579000" />
+      <workItem from="1712154149636" duration="2585000" />
+      <workItem from="1712167284345" duration="7961000" />
+      <workItem from="1712269450152" duration="421000" />
+      <workItem from="1712271454457" duration="18000" />
+      <workItem from="1712346403416" duration="55000" />
+      <workItem from="1712346963806" duration="25000" />
+      <workItem from="1712352243885" duration="593000" />
+      <workItem from="1712352850552" duration="42000" />
+      <workItem from="1712352923465" duration="407000" />
+      <workItem from="1712353342800" duration="1356000" />
+      <workItem from="1712383420242" duration="38000" />
+      <workItem from="1712383476515" duration="818000" />
+      <workItem from="1712395799015" duration="13000" />
+      <workItem from="1712397685527" duration="540000" />
+      <workItem from="1712403298634" duration="41000" />
+      <workItem from="1712404670317" duration="161000" />
+      <workItem from="1712554086055" duration="57000" />
+      <workItem from="1712701303477" duration="15000" />
+      <workItem from="1712706349186" duration="254000" />
+      <workItem from="1712707531334" duration="18000" />
+      <workItem from="1712707564866" duration="44000" />
+      <workItem from="1712707624939" duration="63000" />
+      <workItem from="1712707712699" duration="69000" />
+      <workItem from="1712707804871" duration="120000" />
+      <workItem from="1712728492153" duration="444000" />
+      <workItem from="1712728952573" duration="844000" />
+      <workItem from="1712729974523" duration="276000" />
+      <workItem from="1712788139135" duration="1258000" />
+      <workItem from="1712789424883" duration="779000" />
+      <workItem from="1712790218307" duration="2436000" />
+      <workItem from="1712861729345" duration="227000" />
+      <workItem from="1712861986162" duration="17000" />
+      <workItem from="1712862011161" duration="181000" />
+      <workItem from="1712862215357" duration="520000" />
+      <workItem from="1712862790721" duration="1728000" />
+      <workItem from="1712865947212" duration="719000" />
+      <workItem from="1712867992195" duration="246000" />
+      <workItem from="1712868520853" duration="526000" />
     </task>
-    <task id="LOCAL-00001" summary="i don't know ...">
-      <created>1654844930851</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1654844930851</updated>
-    </task>
-    <task id="LOCAL-00002" summary="i don't know ...">
-      <created>1657972390507</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1657972390507</updated>
-    </task>
-    <task id="LOCAL-00003" summary="i don't know ...">
-      <created>1658367232786</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1658367232786</updated>
-    </task>
-    <task id="LOCAL-00004" summary="expression frame working">
-      <created>1658392059196</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1658392059196</updated>
-    </task>
-    <task id="LOCAL-00005" summary="expression frame working">
-      <created>1661681102961</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1661681102961</updated>
-    </task>
-    <task id="LOCAL-00006" summary="expression frame working">
-      <created>1661681356988</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1661681356988</updated>
-    </task>
-    <task id="LOCAL-00007" summary="expression frame working">
-      <created>1663188083911</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1663188083911</updated>
-    </task>
-    <task id="LOCAL-00008" summary="update json structure">
-      <created>1663276847157</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1663276847157</updated>
-    </task>
-    <task id="LOCAL-00009" summary="update json structure">
-      <created>1663278777186</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1663278777186</updated>
-    </task>
-    <task id="LOCAL-00010" summary="update json structure">
-      <created>1663278790761</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1663278790761</updated>
-    </task>
-    <task id="LOCAL-00011" summary="light window working">
-      <created>1663283088869</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1663283088869</updated>
-    </task>
-    <task id="LOCAL-00012" summary="timeline moving again">
-      <created>1663451844552</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1663451844552</updated>
-    </task>
-    <task id="LOCAL-00013" summary="rpi remote control">
-      <created>1666438268405</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1666438268405</updated>
-    </task>
-    <task id="LOCAL-00014" summary="rpi remote control">
-      <created>1666633424732</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1666633424732</updated>
-    </task>
-    <task id="LOCAL-00015" summary="ws message working">
-      <created>1666646645954</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1666646645954</updated>
-    </task>
-    <task id="LOCAL-00016" summary="ws message working">
-      <created>1666646692715</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1666646692715</updated>
-    </task>
-    <task id="LOCAL-00017" summary="ws message working">
-      <created>1666652345848</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1666652345848</updated>
-    </task>
-    <task id="LOCAL-00018" summary="update">
-      <created>1667519341447</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1667519341447</updated>
-    </task>
-    <task id="LOCAL-00019" summary="expression images management">
-      <created>1672273620746</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1672273620746</updated>
-    </task>
-    <task id="LOCAL-00020" summary="update">
-      <created>1673210697091</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1673210697091</updated>
-    </task>
-    <task id="LOCAL-00021" summary="update">
-      <created>1676711928193</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1676711928193</updated>
-    </task>
-    <task id="LOCAL-00022" summary="update">
-      <created>1676711936909</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1676711936909</updated>
-    </task>
-    <task id="LOCAL-00023" summary="update">
-      <created>1676712008237</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1676712008237</updated>
-    </task>
-    <task id="LOCAL-00024" summary="update first show">
-      <created>1678524164189</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1678524164189</updated>
-    </task>
-    <task id="LOCAL-00025" summary="refactor config and deploy">
-      <created>1679046644542</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1679046644542</updated>
-    </task>
-    <task id="LOCAL-00026" summary="refactor config and deploy">
-      <created>1679046709832</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1679046709832</updated>
-    </task>
-    <task id="LOCAL-00027" summary="refactor config and deploy">
-      <created>1679046857394</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1679046857394</updated>
-    </task>
-    <task id="LOCAL-00028" summary="improve deployment">
-      <created>1679603042132</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1679603042132</updated>
-    </task>
-    <task id="LOCAL-00029" summary="change config and deploy">
-      <created>1680285058632</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1680285058632</updated>
-    </task>
-    <task id="LOCAL-00030" summary="update">
-      <created>1681077502490</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1681077502490</updated>
-    </task>
-    <task id="LOCAL-00031" summary="update">
-      <created>1681940197699</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1681940197699</updated>
-    </task>
-    <task id="LOCAL-00032" summary="update">
-      <created>1682090288762</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1682090288762</updated>
-    </task>
-    <task id="LOCAL-00033" summary="update">
-      <option name="closed" value="true" />
-      <created>1696575289106</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1696575289106</updated>
-    </task>
-    <task id="LOCAL-00034" summary="update">
-      <option name="closed" value="true" />
-      <created>1696666442208</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1696666442208</updated>
-    </task>
-    <task id="LOCAL-00035" summary="changing to ros">
-      <option name="closed" value="true" />
-      <created>1710015927851</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1710015927851</updated>
-    </task>
-    <task id="LOCAL-00036" summary="update">
-      <option name="closed" value="true" />
-      <created>1710090446262</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1710090446262</updated>
-    </task>
-    <task id="LOCAL-00037" summary="update">
-      <option name="closed" value="true" />
-      <created>1710090574494</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1710090574494</updated>
-    </task>
-    <task id="LOCAL-00038" summary="update">
-      <option name="closed" value="true" />
-      <created>1710091538377</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1710091538377</updated>
-    </task>
-    <task id="LOCAL-00039" summary="update ansible">
-      <option name="closed" value="true" />
-      <created>1711825373539</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1711825373539</updated>
-    </task>
-    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ID_ORDER">
-      <list>
-        <option value="Default.Root" />
-        <option value="Default.Author" />
-        <option value="Default.Date" />
-        <option value="Default.Subject" />
-        <option value="Space.CommitStatus" />
-      </list>
-    </option>
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="i don't know ..." />
-    <MESSAGE value="expression frame working" />
-    <MESSAGE value="update json structure" />
-    <MESSAGE value="light window working" />
-    <MESSAGE value="timeline moving again" />
-    <MESSAGE value="rpi remote control" />
-    <MESSAGE value="ws message working" />
-    <MESSAGE value="expression images management" />
-    <MESSAGE value="update first show" />
-    <MESSAGE value="refactor config and deploy" />
-    <MESSAGE value="improve deployment" />
-    <MESSAGE value="change config and deploy" />
-    <MESSAGE value="add joystick input" />
-    <MESSAGE value="changing to ros" />
-    <MESSAGE value="update" />
-    <MESSAGE value="update ansible" />
-    <option name="LAST_COMMIT_MESSAGE" value="update ansible" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file:///usr/local/lib/python3.9/dist-packages/dadou_utils/files/abstract_json_manager.py</url>
-          <line>74</line>
-          <option name="timeStamp" value="99" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/controller/gui/windows/lights_window.py</url>
-          <line>191</line>
-          <option name="timeStamp" value="115" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/controller/gui/windows/lights_window.py</url>
-          <line>280</line>
-          <option name="timeStamp" value="137" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/controller/gui/windows/lights_window.py</url>
-          <line>321</line>
-          <option name="timeStamp" value="138" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/controller/gui/windows/lights_window.py</url>
-          <line>217</line>
-          <option name="timeStamp" value="139" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/controller/gui/windows/lights_window.py</url>
-          <line>245</line>
-          <option name="timeStamp" value="146" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/controller/gui/windows/lights_window.py</url>
-          <line>306</line>
-          <option name="timeStamp" value="147" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/controller/gui/windows/sequences_window.py</url>
-          <line>37</line>
-          <option name="timeStamp" value="159" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/controller/gui/windows/sequences_window.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="160" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../dadou_utils/com/ws_server.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="161" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../dadou_utils/com/ws_server.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="162" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/controller/gui/windows/keyboard_window.py</url>
-          <line>97</line>
-          <option name="timeStamp" value="163" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/controller/gui/windows/playlist_window.py</url>
-          <line>105</line>
-          <option name="timeStamp" value="166" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../dadou_robot/dadourobot/actions/face.py</url>
-          <line>134</line>
-          <option name="timeStamp" value="167" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/controller/control_factory.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="169" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/controller/gui/gamepad.py</url>
-          <option name="timeStamp" value="171" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/controller/gui/gamepad.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="172" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/controller/tests/test_input_devices.py</url>
-          <line>40</line>
-          <option name="timeStamp" value="183" />
+          <line>18</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/controller/gui/small_gui.py</url>
-          <line>118</line>
-          <option name="timeStamp" value="195" />
+          <url>file://$PROJECT_DIR$/../dadou_utils_ros/com/serial_devices_manager.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/controller/gui/windows/small/small_playlist.py</url>
-          <line>179</line>
-          <option name="timeStamp" value="197" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/controller/gui/windows/small/small_control.py</url>
-          <line>63</line>
-          <option name="timeStamp" value="201" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/controller/gui/windows/playlist_window.py</url>
-          <line>221</line>
-          <option name="timeStamp" value="204" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/controller/control_config.py</url>
-          <line>218</line>
-          <option name="timeStamp" value="206" />
+          <url>file://$PROJECT_DIR$/../dadou_utils_ros/com/serial_devices_manager.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/dadou_control$.coverage" NAME=" Coverage Results" MODIFIED="1696449166821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadou_utils/tests" />
-    <SUITE FILE_PATH="coverage/dadou_control$local_control_gl.coverage" NAME="local control gl Coverage Results" MODIFIED="1705274614959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
-    <SUITE FILE_PATH="coverage/dadou_control$local_gp.coverage" NAME="local gp Coverage Results" MODIFIED="1696454312277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
-    <SUITE FILE_PATH="coverage/dadou_control$local_control.coverage" NAME="local control Coverage Results" MODIFIED="1695919246538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
-    <SUITE FILE_PATH="coverage/dadou_control$remote_control.coverage" NAME="remote control Coverage Results" MODIFIED="1693773645558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadoucontrol/gui/windows/audio" />
-    <SUITE FILE_PATH="coverage/dadou_control_ros$get_pacakges_from_url.coverage" NAME="get-pacakges-from-url Coverage Results" MODIFIED="1710458706099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dadou_utils/anisble/python" />
+    <SUITE FILE_PATH="coverage/dadou_control_ros$pytest_for_test_input_devices_TestInputDevices_test_glove_plugged.coverage" NAME="pytest for test_input_devices.TestInputDevices.test_glove_plugged Coverage Results" MODIFIED="1712170441171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/tests" />
   </component>
 </project>

@@ -5,7 +5,7 @@ from tkinter import BOTH, TOP, X, HORIZONTAL, LEFT, RIGHT
 
 import tkinter as tk
 
-from dadou_utils.utils_static import BORDEAUX, FONT1, ORANGE
+from dadou_utils_ros.utils_static import BORDEAUX, FONT1, ORANGE
 
 from controller.control_config import config
 

@@ -4,7 +4,7 @@
 
 export PROJECT_NAME="dadoucontrol"
 export PROJECT_PATH=~/Nextcloud/Didier/python/dadou_control
-export UTILS_PROJECT=~/Nextcloud/Didier/python/dadou_utils
+export UTILS_PROJECT=~/Nextcloud/Didier/python/dadou_utils_ros
 
 export USER_HOST="gp"
 export ROOT_HOST="gpr"
@@ -30,7 +30,7 @@ export LOG_FILE="control.log"
 export RPI_HOME=/home/didier
 export LOCAL_HOME=~
 
-export UTILS_PROJECT=$LOCAL_HOME/Nextcloud/Didier/python/dadou_utils
+export UTILS_PROJECT=$LOCAL_HOME/Nextcloud/Didier/python/dadou_utils_ros
 export UTILS_SCRIPTS=$UTILS_PROJECT/scripts/deploy
 
 declare -A PROJECT_DEPENDENCIES

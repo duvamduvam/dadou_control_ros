@@ -5,9 +5,9 @@ from tkinter import BOTH, TOP, X, HORIZONTAL, LEFT, RIGHT
 
 import tkinter as tk
 
-from dadou_utils.com.input_messages_list import InputMessagesList
-from dadou_utils.misc import Misc
-from dadou_utils.utils_static import BORDEAUX, FONT1, FONT22, ORANGE, PURPLE, YELLOW, CYAN, CONFIG, SPEED, BRIGHTNESS, \
+from dadou_utils_ros.com.input_messages_list import InputMessagesList
+from dadou_utils_ros.misc import Misc
+from dadou_utils_ros.utils_static import BORDEAUX, FONT1, FONT22, ORANGE, PURPLE, YELLOW, CYAN, CONFIG, SPEED, BRIGHTNESS, \
     WHEELS, ROBOT_LIGHTS, RANDOM
 
 from controller.control_config import config

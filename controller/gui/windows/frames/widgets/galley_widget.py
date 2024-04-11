@@ -8,7 +8,7 @@ from controller.gui.gui_utils import GuiUtils
 from controller.gui.visuals_object.visual_eye import VisualEye
 from controller.gui.visuals_object.visual_mouth import VisualMouth
 
-from dadou_utils.utils_static import EYE, MOUTH, VISUALS, ICON
+from dadou_utils_ros.utils_static import EYE, MOUTH, VISUALS, ICON
 
 
 class GalleryWidget(tkinter.Canvas):

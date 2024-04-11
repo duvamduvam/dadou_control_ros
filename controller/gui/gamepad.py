@@ -6,12 +6,12 @@ import time
 from tkinter import TOP, BOTH, ttk, LEFT
 from tkinter.messagebox import showinfo
 
-from dadou_utils.com.serial_devices_manager import SerialDeviceManager
+from dadou_utils_ros.com.serial_devices_manager import SerialDeviceManager
 from controller.buttons.gp_buttons import GPButtons
-from dadou_utils.com.input_messages_list import InputMessagesList
-from dadou_utils.misc import Misc
-from dadou_utils.utils.time_utils import TimeUtils
-from dadou_utils.utils_static import ORANGE, BORDEAUX, YELLOW, CYAN, FONT1, PURPLE, FONT3, BASE_PATH, PATHS, ICONS, \
+from dadou_utils_ros.com.input_messages_list import InputMessagesList
+from dadou_utils_ros.misc import Misc
+from dadou_utils_ros.utils.time_utils import TimeUtils
+from dadou_utils_ros.utils_static import ORANGE, BORDEAUX, YELLOW, CYAN, FONT1, PURPLE, FONT3, BASE_PATH, PATHS, ICONS, \
     BUTTON_GRID, CMD, DEVICE, MSG, MODE, CONTROL, PLAYLIST, CONFIG, DEFAULT, FONT2, HOST_NAME, ERROR, UP, DOWN, RIGHT, \
     Y, X, A, B, DEVICES, BUTTON, BL, BR, SELECT
 

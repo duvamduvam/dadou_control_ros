@@ -4,8 +4,8 @@ import tkinter as tk
 from enum import Enum
 from tkinter import TOP
 
-from dadou_utils.utils.time_utils import TimeUtils
-from dadou_utils.utils_static import PURPLE, BORDEAUX
+from dadou_utils_ros.utils.time_utils import TimeUtils
+from dadou_utils_ros.utils_static import PURPLE, BORDEAUX
 
 from controller.control_config import config
 

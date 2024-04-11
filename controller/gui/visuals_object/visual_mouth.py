@@ -1,5 +1,5 @@
 from controller.gui.visuals_object.visual_object import VisualObject
-from dadou_utils.utils_static import MOUTH
+from dadou_utils_ros.utils_static import MOUTH
 
 
 class VisualMouth(VisualObject):

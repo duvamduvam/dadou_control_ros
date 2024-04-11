@@ -2,8 +2,8 @@ import logging
 import tkinter as tk
 from tkinter import TOP
 
-from dadou_utils.misc import Misc
-from dadou_utils.utils_static import DATAS
+from dadou_utils_ros.misc import Misc
+from dadou_utils_ros.utils_static import DATAS
 
 from controller.gui.gui_utils import GuiUtils
 from controller.gui.windows.expression_window import ExpressionDuration

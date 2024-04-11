@@ -1,5 +1,5 @@
-from dadou_utils.misc import Misc
-from dadou_utils.singleton import SingletonMeta
+from dadou_utils_ros.misc import Misc
+from dadou_utils_ros.singleton import SingletonMeta
 
 
 class HighlightedRectangle(metaclass=SingletonMeta):

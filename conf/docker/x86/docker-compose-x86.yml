@@ -14,12 +14,15 @@ services:
     network_mode: "host"
 
     volumes:
+      - /dev:/dev
       - /tmp/.X11-unix:/tmp/.X11-unix
       - ../../../conf:/home/ros2_ws/src/controller/conf
       - ../../../controller:/home/ros2_ws/src/controller/controller
-      - ../../../dadou_utils:/home/ros2_ws/src/controller/dadou_utils
+      - ../../../dadou_utils_ros:/home/ros2_ws/src/controller/dadou_utils_ros
       - ../../../json:/home/ros2_ws/src/controller/json
       - ../../../medias:/home/ros2_ws/src/controller/medias
+      - ../../../conf/ros2_dependencies/robot_interfaces:/home/ros2_ws/src/robot_interfaces
+      - /home/dadou/tmp/controller_logs:/home/ros2_ws/log
     #  - /dev/:/dev
     #  - /dev/null:/folder/fileToBeExcluded
     #accès device ACMO gpio serial by id disque etc ...
