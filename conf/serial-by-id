@@ -33,7 +33,6 @@ ENV{.ID_PORT}=="?*", SYMLINK+="serial/by-id/$env{ID_BUS}-$env{ID_USB_SERIAL}-if$
 
 LABEL="serial_end"
 
-
 ####################################################################
 
 After that do

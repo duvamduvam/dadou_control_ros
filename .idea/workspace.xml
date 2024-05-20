@@ -7,7 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9de8dbe2-a8bd-4d96-ba64-13880b4eab0a" name="Changes" comment="Update" />
+    <list default="true" id="9de8dbe2-a8bd-4d96-ba64-13880b4eab0a" name="Changes" comment="Update">
+      <change beforePath="$PROJECT_DIR$/conf/serial-by-id" beforeDir="false" afterPath="$PROJECT_DIR$/conf/serial-by-id" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -234,7 +236,7 @@
       <workItem from="1715969532142" duration="14928000" />
       <workItem from="1715988302622" duration="21250000" />
       <workItem from="1716155778316" duration="6000" />
-      <workItem from="1716220671830" duration="2255000" />
+      <workItem from="1716220671830" duration="2478000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <option name="closed" value="true" />
