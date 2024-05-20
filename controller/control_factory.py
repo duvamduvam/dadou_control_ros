@@ -10,7 +10,7 @@ from dadou_utils_ros.misc import Misc
 from dadou_utils_ros.utils_static import BASE_PATH, LOGGING_CONFIG_FILE, DEVICES, JSON_DIRECTORY, WS_CLIENT, \
     LOGGING_FILE_NAME, INPUT_KEY, SLIDERS, NAME, LOG_FILE, BUTTON, MSG, ALL, JOYSTICK
 
-from dadou_utils_ros.com.ws_client import WsClient
+#from dadou_utils_ros.com.ws_client import WsClient
 from dadou_utils_ros.singleton import SingletonMeta
 
 from controller.audio.audio_navigation import AudioNav
@@ -27,9 +27,7 @@ class ControlFactory(metaclass=SingletonMeta):
         self.VisualMouth = None
         self.VisualEye = None
 
-        print("config file {}".format(config[LOGGING_CONFIG_FILE]))
         #TODO improve process file name
-        #logging.config.dictConfig(LoggingConf.get(config[LOGGING_FILE_NAME], "main"))
         logging.config.dictConfig(LoggingConf.get(config[LOGGING_FILE_NAME], "controller"))
 #        logging.config.fileConfig(config[LOGGING_CONFIG_FILE], disable_existing_loggers=False)
 

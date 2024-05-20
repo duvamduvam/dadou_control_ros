@@ -4,14 +4,15 @@ import logging
 from dadou_utils_ros.com.input_messages_list import InputMessagesList
 from dadou_utils_ros.misc import Misc
 from dadou_utils_ros.utils_static import DEVICES, INPUT_KEY, BUTTON, SLIDERS, JOYSTICK, DEVICE, MSG, DIDIER, ALL, NECK, \
-    WHEEL_LEFT, WHEEL_RIGHT, ROBOT, X, Y
+    WHEEL_LEFT, WHEEL_RIGHT, ROBOT, X, Y, WHEELS, LEFT, RIGHT
 from controller.control_config import config
 from dadou_utils_ros.com.serial_devices_manager import SerialDeviceManager
 
 
 class SerialInputs:
 
-    def __init__(self):
+    def __init__(self, node):
+        self.node = node
         self.devices_manager = SerialDeviceManager(config[DEVICES], [INPUT_KEY, BUTTON, SLIDERS, JOYSTICK])
         self.serial_devices = {
             INPUT_KEY: self.devices_manager.get_device_type(INPUT_KEY),
@@ -73,4 +74,4 @@ class SerialInputs:
         elif len(msg) == 4:
             left = Misc.mapping(int(msg[0:2]), 10, 99, -100, 100)
             right = Misc.mapping(int(msg[2:4]), 10, 99, -100, 100)
-            return {WHEEL_LEFT: left, WHEEL_RIGHT: right}
+            return {WHEELS : {LEFT: left, RIGHT: right}}

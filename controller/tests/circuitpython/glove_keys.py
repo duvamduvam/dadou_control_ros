@@ -1,3 +1,5 @@
+import logging
+
 import adafruit_matrixkeypad
 import board
 import digitalio
@@ -31,3 +33,14 @@ class GloveKeys:
             #print("Pressed: ", keys[0])
             return keys
         return []
+
+def main(args=None):
+    keyboard = GloveKeys((("c", "b", "a"), ("f", "e", "d"), ("i", "h", "g"), ("l", "k", "j")),
+                         (board.GP16, board.GP20, board.GP21),
+                         (board.GP6, board.GP13, board.GP19, board.GP26))
+
+    while True:
+        keys = keyboard.check()
+        if len(keys) > 0:
+            logging.info(keys[0])
+        time.sleep(0.01)

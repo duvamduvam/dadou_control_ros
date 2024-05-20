@@ -5,10 +5,10 @@ from dadou_utils_ros.singleton import SingletonMeta
 from dadou_utils_ros.utils_static import AUDIO, ANGLO, BACKWARD, EYES, FORWARD, LEFT, LONG, MODE, MOUTH, NEXT, PLAYLIST, \
     RIGHT, \
     SHORT, WHEELS, NECK, ARMS, LEFT_ARM, RIGHT_ARM, DOWN, UP, NAME, CMD, KEY, FACE, ANIMATION, CONFIG, LIGHTS, STOP, \
-    DEFAULT, SPEAK, INCLINO, RIGHT_EYE, LEFT_EYE
+    DEFAULT, SPEAK, INCLINO, RIGHT_EYE, LEFT_EYE, PLAYLIST_LIST
 from controller.control_config import SINGLE_GLOVE_9DOF, SINGLE_GLOVE, \
     DUAL_GLOVE_9DOF_LEFT, DUAL_GLOVE_9DOF_RIGHT, DUAL_GLOVE_LEFT, DUAL_GLOVE_RIGHT, IHL, IML, IHR, IMR, IBR, MHL, MHR, \
-    MML, MMR, MBL, MBR, AHL, AHR, AML, AMR, ABL, ABR, OHL, OHR, OML, OMR, OBL, OBR, IBL
+    MML, MMR, MBL, MBR, AHL, AHR, AML, AMR, ABL, ABR, OHL, OHR, OML, OMR, OBL, OBR, IBL, config
 
 BUTTONS = "buttons"
 RELAY = "relay"
@@ -21,10 +21,8 @@ INPUT_KEYS = [[IBL, MBL, ABL, OBL],
 KEYS_MAPPING = {'a': IHL, 'b': IML, 'c': IBL, 'd': MHL, 'e': MML, 'f': MBL, 'g': AHL, 'h': AML, 'i': ABL, 'j': OHL, 'k': OML, 'l': OBL,
                 'm': IHR, 'n': IMR, 'o': IBR, 'p': MHR, 'q': MMR, 'r': MBR, 's': AHR, 't': AMR, 'u': ABR, 'v': OHR, 'w': OMR, 'x': OBR}
 
-#(("x", "w", "v"), ("r", "q", "p"), ("o", "n", "m"), ("u", "t", "s")),
-
 CONTROL_CONFIG = [[DEFAULT, PLAYLIST, "VIDE"], ["VIDE", "VIDE", "VIDE"], ["VIDE", "VIDE", "VIDE"]]
-PLAYLIST_CONFIG = [["didier20_bis", "grandlieu", "eternel-short"], ["pub1", "VIDE", "VIDE"],]
+PLAYLIST_CONFIG = [config[PLAYLIST_LIST], ["pub1", "VIDE", "VIDE"]]
 
 base = {
     IHL: {NAME: "vo off", CMD: {RELAY: "off", ANIMATION: False}},

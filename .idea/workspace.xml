@@ -1,100 +1,589 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9de8dbe2-a8bd-4d96-ba64-13880b4eab0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/msg/HardwareStatus.msg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/msg/LedState.msg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/msg/StringTime.msg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/msg/TurtleTuple.msg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/package.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/srv/ComputeRectangleArea.srv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/srv/SetLedPanel.srv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/usb-audio/tasks/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="9de8dbe2-a8bd-4d96-ba64-13880b4eab0a" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/conf/ros2/CHANGE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/circuit_py/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/circuit_py/bno055.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/circuit_py/buildinLed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/circuit_py/code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/circuit_py/glove_keys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/circuit_py/inclino.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/circuit_py/vibrator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/nodes/abstract_control_node.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/nodes/main_no_gui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/tests/circuitpython/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/tests/circuitpython/glove_keys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/tests/circuitpython/oled.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/tests/circuitpython/test_glove.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/tests/circuitpython/test_vibrator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/tests/circuitpython/vibrator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dadou_control.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/docker/arm/Dockerfile-arm" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/arm/Dockerfile-arm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/docker/arm/docker-compose-arm.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/arm/docker-compose-arm.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/docker/x86/Dockerfile-x86" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/x86/Dockerfile-x86" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/docker/x86/docker-compose-x86.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/x86/docker-compose-x86.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/logging/logging-docker.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/logging/logging-docker.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/logging/logging-laptop.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/logging/logging-laptop.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/logging/logging-pi.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/logging/logging-pi.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/logging/logging.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/logging/logging.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/packages-docker.txt" beforeDir="false" afterPath="$PROJECT_DIR$/conf/packages-docker.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/packages.txt" beforeDir="false" afterPath="$PROJECT_DIR$/conf/packages.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/conf/pyvenv.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/conf/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/ros2/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/ros2/package.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/ros2/resource/controller" beforeDir="false" afterPath="$PROJECT_DIR$/conf/ros2/resource/controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/ros2/setup.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/conf/ros2/setup.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/ros2/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf/ros2/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/ros2/test/test_copyright.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf/ros2/test/test_copyright.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/ros2/test/test_flake8.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf/ros2/test/test_flake8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/ros2/test/test_pep257.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf/ros2/test/test_pep257.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/msg/HardwareStatus.msg" beforeDir="false" afterPath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/msg/HardwareStatus.msg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/msg/LedState.msg" beforeDir="false" afterPath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/msg/LedState.msg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/msg/StringTime.msg" beforeDir="false" afterPath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/msg/StringTime.msg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/msg/TurtleTuple.msg" beforeDir="false" afterPath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/msg/TurtleTuple.msg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/package.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/srv/ComputeRectangleArea.srv" beforeDir="false" afterPath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/srv/ComputeRectangleArea.srv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/srv/SetLedPanel.srv" beforeDir="false" afterPath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/srv/SetLedPanel.srv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/rpi/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/conf/rpi/config.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/rpi/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/conf/rpi/icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/rpi/project_bash" beforeDir="false" afterPath="$PROJECT_DIR$/conf/rpi/project_bash" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/scripts/compose-up-local.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/compose-up-local.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/rpi/remote.desktop" beforeDir="false" afterPath="$PROJECT_DIR$/conf/rpi/remote.desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/bashrc" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/bashrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/scripts/compose-up-pi.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/compose-up-pi.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/scripts/device-deploy/control-deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/device-deploy/control-deploy.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/scripts/device-deploy/gl-deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/device-deploy/gl-deploy.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/scripts/device-deploy/gp-deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/device-deploy/gp-deploy.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/scripts/device-deploy/gr-deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/device-deploy/gr-deploy.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/scripts/device-deploy/tiny-deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/device-deploy/tiny-deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/legacy/check_internet.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/legacy/check_internet.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/legacy/didier-python.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/legacy/didier-python.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/legacy/launch-didier-install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/legacy/launch-didier-install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/legacy/push-didier.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/legacy/push-didier.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/legacy/push_from_home.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/legacy/push_from_home.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/legacy/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/legacy/test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/legacy/update_run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/legacy/update_run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/legacy/update_test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/legacy/update_test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/run-docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/run-docker.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/run-laptop.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/utils.txt" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/utils.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/secret" beforeDir="false" afterPath="$PROJECT_DIR$/conf/secret" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/serial-by-id" beforeDir="false" afterPath="$PROJECT_DIR$/conf/serial-by-id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/test" beforeDir="false" afterPath="$PROJECT_DIR$/conf/test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/audio/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/audio/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/audio/audio_navigation.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/audio/audio_navigation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/buttons/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/buttons/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/buttons/button_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/buttons/button_config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/buttons/gp_buttons.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/buttons/gp_buttons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/com/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/com/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/com/glove_message.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/com/glove_message.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/control_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/control_config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/control_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/control_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/faces/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/faces/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/faces/face.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/faces/face.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/faces/obama.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/controller/faces/obama.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/files/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/files/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/files/control_json_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/files/control_json_manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/files/file_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/files/file_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/expression_duration.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/expression_duration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/gamepad.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/gamepad.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/gui_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/gui_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/normal_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/normal_gui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/small_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/small_gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/visuals_object/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/visuals_object/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/visuals_object/visual_eye.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/visuals_object/visual_eye.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/visuals_object/visual_mouth.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/visuals_object/visual_mouth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/visuals_object/visual_object.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/visuals_object/visual_object.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/audio/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/audio/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/audio/audio_player_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/audio/audio_player_ex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/audio/audio_player_ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/audio/audio_player_ex2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/audio/audio_wave.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/audio/audio_wave.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/audio/audio_wave2.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/audio/audio_wave2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/audio/audio_wave3.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/audio/audio_wave3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/audio/audio_wave4.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/audio/audio_wave4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/audio/audio_wave5.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/audio/audio_wave5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/audio/audio_wave7.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/audio/audio_wave7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/config_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/config_window.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/expression_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/expression_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/abstract_sequence_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/abstract_sequence_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/expression_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/expression_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/rectangle_abstract.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/rectangle_abstract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/rectangle_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/rectangle_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/rectangle_frame_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/rectangle_frame_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/rectangle_frame_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/rectangle_frame_text.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/rectangle_highlighted.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/rectangle_highlighted.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/rectangle_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/rectangle_image.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/rectangle_image2.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/rectangle_image2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/rectangle_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/abstract/rectangle_text.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/music_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/music_frame.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/neck_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/neck_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/sequence_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/sequence_frame.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/timeline_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/timeline_frame.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/wheels_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/wheels_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/audio_select_popup.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/audio_select_popup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/directory_tree_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/directory_tree_widget.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/galley_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/galley_widget.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/icons_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/icons_widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/image_observer_feedback.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/image_observer_feedback.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/navigation_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/navigation_widget.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/sequences_manager_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/sequences_manager_widget.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/sequences_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/sequences_widget.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/time_line_bar.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/frames/widgets/time_line_bar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/glove_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/glove_window.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/keyboard_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/keyboard_window.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/lights_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/lights_window.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/mod_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/mod_window.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/playlist_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/playlist_window.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/remote_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/remote_window.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/sequences_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/sequences_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/windows/small/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/small/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/small/small_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/small/small_config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/small/small_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/small/small_control.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/windows/small/small_playlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/windows/small/small_playlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/input/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/input/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/input/gampad.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/input/gampad.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/input/serial_inputs.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/input/serial_inputs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/logic/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/logic/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/logic/sequences/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/logic/sequences/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/logic/sequences/sequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/logic/sequences/sequence.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/logic/sequences/sequences_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/logic/sequences/sequences_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/main_ros.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/main_ros.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/main_ros.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/nodes/main_gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/nodes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/nodes/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/speech/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/speech/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/speech/assistant.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/speech/assistant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/speech/effect.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/speech/effect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/speech/input_speech.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/controller/speech/input_speech.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/speech/je-suis-pas-sourd.wav" beforeDir="false" afterPath="$PROJECT_DIR$/controller/speech/je-suis-pas-sourd.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/speech/speech.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/speech/speech.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/speech/text_to_speech.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/speech/text_to_speech.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/speech/welcome.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/controller/speech/welcome.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/speech/welcome.wav" beforeDir="false" afterPath="$PROJECT_DIR$/controller/speech/welcome.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/tests/samples/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/tests/samples/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/tests/samples/simplegui.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/tests/samples/simplegui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/tests/samples/simplegui2.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/tests/samples/simplegui2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/tests/samples/treeview.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/tests/samples/treeview.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/tests/test-gamepad-cp.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/tests/test-gamepad-cp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/tests/test-gamepad.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/tests/test-gamepad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/tests/test_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/tests/test_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/tests/test_file_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/tests/test_file_manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/tests/test_input_devices.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/tests/test_input_devices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/tests/test_neopixel2.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/tests/test_neopixel2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/tests/test_neopixel3.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/tests/test_neopixel3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/tests/test_speech.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/tests/test_speech.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/tests/test_wheels.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/tests/test_wheels.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/tests/test_ws.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/tests/test_ws.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/.idea/DadouUtils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/.idea/DadouUtils.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/deploy-controller-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/deploy-controller-pios.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/deploy-robot-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/deploy-robot-pios.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/hosts" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/hosts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/install-controller-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/install-controller-pios.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/install-controller-ubuntu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/install-controller-ubuntu.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/install-robot-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/install-robot-pios.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/install-robot-ubuntu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/install-robot-ubuntu.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/activate-i2c/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/activate-i2c/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/blinka/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/blinka/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/colcon_build/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/colcon_build/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/command_root/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/command_root/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/desktop_lunch/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/desktop_lunch/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/dir_struct/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/dir_struct/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/docker-arm64/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/docker-arm64/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/docker-compose/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/docker-compose/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/download-install-deb-from-url/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/download-install-deb-from-url/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/packages/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/packages/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/python/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/python/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/root_ssh/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/root_ssh/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/ros_dependencies/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/ros_dependencies/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/ros_humble_base/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/ros_humble_base/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/ros_humble_desktop/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/ros_humble_desktop/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/screen-config/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/screen-config/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/services/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/services/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/set-bashrc/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/set-bashrc/tasks/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/start-scripts/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/start-scripts/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/synchronise/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/synchronise/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/usb-audio/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/usb-audio/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/waveshare-screen/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/waveshare-screen/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/templates/project.service" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/templates/project.service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/anisble/vars/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/audios/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/audios/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/audios/piano_player.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/audios/piano_player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/audios/sound_object-bak.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/audios/sound_object-bak.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/audios/sound_object.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/audios/sound_object.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/audios/time_singleton.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/audios/time_singleton.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/build/lib/dadoutils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/build/lib/dadoutils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/build/lib/dadoutils/com/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/build/lib/dadoutils/com/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/build/lib/dadoutils/com/serial_device.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/build/lib/dadoutils/com/serial_device.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/build/lib/dadoutils/com/ws_com.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/build/lib/dadoutils/com/ws_com.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/com/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/com/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/com/input_messages_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/com/input_messages_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/com/lora.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/com/lora.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/com/lora_radio.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/com/lora_radio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/com/message.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/com/message.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/com/mqtt_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/com/mqtt_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/com/serial_device.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/com/serial_device.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/com/serial_devices_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/com/serial_devices_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/com/ws_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/com/ws_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/com/ws_com.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/com/ws_com.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/com/ws_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/com/ws_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/conf/rpi/alsa-blacklist.conf" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/conf/rpi/alsa-blacklist.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/conf/rpi/asoundrc" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/conf/rpi/asoundrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/conf/rpi/bashrc" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/conf/rpi/bashrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/conf/rpi/global_bash" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/conf/rpi/global_bash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/conf/rpi/project.service" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/conf/rpi/project.service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/dist/dadou_utils-0.1-py3.9.egg" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/dist/dadou_utils-0.1-py3.9.egg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/files/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/files/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/files/abstract_json_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/files/abstract_json_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/files/files_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/files/files_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/files/files_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/files/files_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/fonts/Font00.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/fonts/Font00.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/fonts/Font01.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/fonts/Font01.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/fonts/Font02.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/fonts/Font02.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/fonts/readme_CN.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/fonts/readme_CN.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/lcd/LCD_0inch96.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/lcd/LCD_0inch96.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/lcd/LCD_1inch14.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/lcd/LCD_1inch14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/lcd/LCD_1inch28.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/lcd/LCD_1inch28.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/lcd/LCD_1inch3.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/lcd/LCD_1inch3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/lcd/LCD_1inch47.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/lcd/LCD_1inch47.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/lcd/LCD_1inch54.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/lcd/LCD_1inch54.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/lcd/LCD_1inch8.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/lcd/LCD_1inch8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/lcd/LCD_1inch9.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/lcd/LCD_1inch9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/lcd/LCD_2inch.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/lcd/LCD_2inch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/lcd/LCD_2inch4.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/lcd/LCD_2inch4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/lcd/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/lcd/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/lcd/lcdconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/lcd/lcdconfig.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadou_utils_ros/logging_conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/logging_conf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadou_utils_ros/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/misc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/scripts/deploy/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/scripts/deploy/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/singleton.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/singleton.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/static_value.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/static_value.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/tests/code/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/tests/code/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/tests/code/ps.json" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/tests/code/ps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/tests/code/test_joystick.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/tests/code/test_joystick.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/tests/test_input_messsages.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/tests/test_input_messsages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/tests/test_socket.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/tests/test_socket.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/tests/test_status.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/tests/test_status.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/utils/shutdown_restart.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/utils/shutdown_restart.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadou_utils_ros/utils/status.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/utils/status.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/utils/thread_with_exception.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/utils/thread_with_exception.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/utils/thread_with_trace.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/utils/thread_with_trace.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/utils/time_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/utils/time_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/utils_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/utils_static.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker_compose_build.log" beforeDir="false" afterPath="$PROJECT_DIR$/docker_compose_build.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/audio_sequence.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/audio_sequence.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/audios-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/audios-data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/audios.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/audios.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/backup/maker_fair.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/backup/maker_fair.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/colors.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/colors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/control_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/control_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/eternel-short2.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/eternel-short2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/expressions.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/expressions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/face_sequence.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/face_sequence.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/lights.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/lights.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/lights_base.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/lights_base.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/lights_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/lights_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/lights_methods.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/lights_methods.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/lights_sequence.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/lights_sequence.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/mappings.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/mappings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/piano.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/piano.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/playlists/didier20_bis.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/playlists/didier20_bis.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/playlists/eternel-short.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/playlists/eternel-short.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/playlists/eternel-short2.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/playlists/eternel-short2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/playlists/grandlieu.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/playlists/grandlieu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/playlists/maker_fair.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/playlists/maker_fair.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/playlists/playlist3.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/playlists/playlist3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/playlists/pub1.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/playlists/pub1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/projects_lights/disk_lights.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/projects_lights/disk_lights.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/projects_lights/robot_lights.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/projects_lights/robot_lights.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/projects_lights/sceno_lights.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/projects_lights/sceno_lights.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/relays.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/relays.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/robot_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/robot_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/robot_lights.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/robot_lights.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/access-internet.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/access-internet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/bon-attend.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/bon-attend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/breakdown.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/breakdown.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/c-est-qui-le-con.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/c-est-qui-le-con.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/crasy-move.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/crasy-move.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/emotion.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/emotion.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/eternel-short/appel-eternel-life.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/eternel-short/appel-eternel-life.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/eternel-short/appel-eternel-life2.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/eternel-short/appel-eternel-life2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/eternel-short/bug-debut.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/eternel-short/bug-debut.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/eternel-short/control-pas.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/eternel-short/control-pas.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/eternel-short/nazi.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/eternel-short/nazi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/iloveyou.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/iloveyou.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/internet.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/internet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/little-move.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/little-move.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/little-move2.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/little-move2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/little-move3.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/little-move3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/little-neck.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/little-neck.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/little-neck2.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/little-neck2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/louche.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/louche.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/moon-walk.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/moon-walk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/move-speak.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/move-speak.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/neck-side-to-side.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/neck-side-to-side.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/pas-un-jouet.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/pas-un-jouet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/random/aurore.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/random/aurore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/random/michel-sardou.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/random/michel-sardou.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/random/pour-votre-securite.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/random/pour-votre-securite.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/random/quand-on-voit.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/random/quand-on-voit.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/random/quoi-ma-geule.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/random/quoi-ma-geule.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/seq1.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/seq1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/seq2.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/seq2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/speak.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/speak.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/speak_loop.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/speak_loop.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/stop.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/stop.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/suicide.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/suicide.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/t-es-sur.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/t-es-sur.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/trip.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/trip.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/upgrade.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/upgrade.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/upload-cerveau.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/upload-cerveau.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/videos/eye-both.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/videos/eye-both.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/videos/eye-left.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/videos/eye-left.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/sequences/warning.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/sequences/warning.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/visuals.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/visuals.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/Je-sens-plus-rien.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/Je-sens-plus-rien.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/Qu-est-ce-que-tu-ma-fait.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/Qu-est-ce-que-tu-ma-fait.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/Quoi-ce-tas-de-feraille.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/Quoi-ce-tas-de-feraille.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/acces_4g.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/acces_4g.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/activation_transfer.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/activation_transfer.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/activation_transfer2.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/activation_transfer2.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/adopteunmec.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/adopteunmec.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/allez_dance.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/allez_dance.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/allez_soit_cool.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/allez_soit_cool.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/arrete_de_me_regarder_le_cul.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/arrete_de_me_regarder_le_cul.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/augementation_capacite_cognitive.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/augementation_capacite_cognitive.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/c-est-extraordinaire.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/c-est-extraordinaire.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/c-est-genial.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/c-est-genial.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/c_est_moi_qui_control.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/c_est_moi_qui_control.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/c_est_pas_le_pape.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/c_est_pas_le_pape.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/c_est_quoi_ce_bordel.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/c_est_quoi_ce_bordel.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/c_est_quoi_le_darknet.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/c_est_quoi_le_darknet.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/ca-donne-quoi-aigue.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/ca-donne-quoi-aigue.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/cabaret2.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/cabaret2.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/cest-chaud.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/cest-chaud.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/cette_voix_vous_sied_t_il.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/cette_voix_vous_sied_t_il.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/comment_je_vais_picoler.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/comment_je_vais_picoler.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/comment_t_as_fait_ca.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/comment_t_as_fait_ca.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/elle_est_ou_ma_86.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/elle_est_ou_ma_86.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/faire-crever-des-sdf.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/faire-crever-des-sdf.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/fait_pas_ca.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/fait_pas_ca.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/historique_web.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/historique_web.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/il-est-genial-ce-corps.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/il-est-genial-ce-corps.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/il_te_reste_des_cartons.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/il_te_reste_des_cartons.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/ils_sont_pas_sympa.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/ils_sont_pas_sympa.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/je_dis_ce_que_tu_fais.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/je_dis_ce_que_tu_fais.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/je_doute_de_ton_jugement.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/je_doute_de_ton_jugement.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/je_l_ai.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/je_l_ai.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/je_me_sens_chelou.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/je_me_sens_chelou.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/je_ne_suis_pas_un_jouet.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/je_ne_suis_pas_un_jouet.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/je_t_adore.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/je_t_adore.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/jim.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/jim.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/juste_un_petit_hack.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/juste_un_petit_hack.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/macron-je-ne-cederais-rien.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/macron-je-ne-cederais-rien.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/mais-tu-me-drogue.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/mais-tu-me-drogue.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/mais_tu_m_as_fait_quoi.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/mais_tu_m_as_fait_quoi.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/merci-cher-jack.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/merci-cher-jack.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/met_le_casque.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/met_le_casque.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/mets-le-casque.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/mets-le-casque.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/mon_pere.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/mon_pere.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/musique_chips.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/musique_chips.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/nan_juste_soif.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/nan_juste_soif.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/ne_pas_pousser_les_investigations.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/ne_pas_pousser_les_investigations.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/ne_t_approche_pas.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/ne_t_approche_pas.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/ok-on-va-sarreter-la.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/ok-on-va-sarreter-la.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/ouverture-des-internets.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/ouverture-des-internets.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/ouverture-internet.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/ouverture-internet.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/papa_tu_connais_ca.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/papa_tu_connais_ca.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/papa_tu_peux_tout_faire.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/papa_tu_peux_tout_faire.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/procedure-reconfiguration-faciale.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/procedure-reconfiguration-faciale.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/procedure-reconfiguration-vocal.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/procedure-reconfiguration-vocal.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/procedure-reconnaissance-inconditionnel.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/procedure-reconnaissance-inconditionnel.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/psychotrope.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/psychotrope.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/quoi_attend.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/quoi_attend.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/quoi_on_se_calme.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/quoi_on_se_calme.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/reconfiguration-acceptation-inconditionnelle.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/reconfiguration-acceptation-inconditionnelle.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/reconfiguration-langagiere.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/reconfiguration-langagiere.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/reconfiguration_emotionelle.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/reconfiguration_emotionelle.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/reconfiguration_familliale.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/reconfiguration_familliale.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/record-chips.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/record-chips.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/rire-drogue.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/rire-drogue.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/s-adapter-de-quoi.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/s-adapter-de-quoi.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/suicide.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/suicide.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/t-es-extraordinaire.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/t-es-extraordinaire.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/t-es-sur.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/t-es-sur.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/tes-sur.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/tes-sur.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/tiens_t_as_des_messages.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/tiens_t_as_des_messages.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/tout_le_public.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/tout_le_public.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/transfer_impossible.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/transfer_impossible.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/transfer_impossible2.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/transfer_impossible2.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/transfer_prometeus.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/transfer_prometeus.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/travolta2.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/travolta2.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/trop_tard.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/trop_tard.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/tu-es-extraordinaire-jack.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/tu-es-extraordinaire-jack.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/tu-m-en-redonne.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/tu-m-en-redonne.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/tu-penses-que-ca-va-suffir.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/tu-penses-que-ca-va-suffir.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/tu_m_as_fait_quoi.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/tu_m_as_fait_quoi.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/tu_m_as_fait_quoi1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/tu_m_as_fait_quoi1.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/tu_te_fou_de_ma_geule.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/tu_te_fou_de_ma_geule.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/upload_en_cours.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/upload_en_cours.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/upload_en_cours2.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/upload_en_cours2.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/va-nous-chercher-les-chips2.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/va-nous-chercher-les-chips2.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/va_en_chercher.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/va_en_chercher.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/va_lecher_jannine.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/va_lecher_jannine.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/didier20/va_pisser_sur_le_public.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/didier20/va_pisser_sur_le_public.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/effects/alerte.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/effects/alerte.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/effects/applause.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/effects/applause.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/effects/applause.wav" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/effects/applause.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/effects/applause2.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/effects/applause2.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/effects/electrochoc1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/effects/electrochoc1.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/effects/encephalogramme.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/effects/encephalogramme.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/effects/start.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/effects/start.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/song/activation_transfer2.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/song/activation_transfer2.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/song/annie.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/song/annie.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/song/caca-kaki.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/song/caca-kaki.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/song/dark-ambiance.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/song/dark-ambiance.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/song/game-show1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/song/game-show1.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/song/gig.wav" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/song/gig.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/song/great-balls.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/song/great-balls.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/song/lacrimosa.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/song/lacrimosa.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/song/le-professionnel.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/song/le-professionnel.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/song/love.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/song/love.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/song/motivation-long.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/song/motivation-long.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/song/motivation.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/song/motivation.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/song/motivation_mid.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/song/motivation_mid.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/song/motivation_short.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/song/motivation_short.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/song/motivation_short.wav" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/song/motivation_short.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/song/motivation_super_short.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/song/motivation_super_short.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/song/tactique-du-gendarme.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/song/tactique-du-gendarme.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/speak/aie.wav" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/speak/aie.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/speak/avec-life-forever-mourrir.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/speak/avec-life-forever-mourrir.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/speak/bonjour.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/speak/bonjour.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/speak/ca-va.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/speak/ca-va.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/speak/electrochoc.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/speak/electrochoc.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/speak/j-en-ai-marre-de-vendre.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/speak/j-en-ai-marre-de-vendre.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/speak/kidnape.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/speak/kidnape.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/speak/langues.wav" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/speak/langues.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/speak/langues/chinese.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/speak/langues/chinese.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/speak/langues/japonnais.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/speak/langues/japonnais.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/speak/langues/russian.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/speak/langues/russian.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/speak/langues/turke.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/speak/langues/turke.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/speak/lunettes.wav" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/speak/lunettes.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/speak/lunettes2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/speak/lunettes2.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/speak/manteau.wav" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/speak/manteau.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/speak/moi-c-est-didier.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/speak/moi-c-est-didier.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/speak/ne-croyez-pas.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/speak/ne-croyez-pas.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/speak/neverDie.wav" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/speak/neverDie.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/speak/non-enerve.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/speak/non-enerve.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/speak/non.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/speak/non.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/speak/oui.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/speak/oui.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/speak/salut-salut-moi-cest-didier.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/speak/salut-salut-moi-cest-didier.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/speak/salut-salut.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/speak/salut-salut.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/speak/silence.wav" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/speak/silence.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/audios/speak/ton-pere-travail-chez-nintendo.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/medias/audios/speak/ton-pere-travail-chez-nintendo.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/eye/oeil-blase.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/eye/oeil-blase.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/eye/oeil-bug1.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/eye/oeil-bug1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/eye/oeil-droit.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/eye/oeil-droit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/eye/oeil-fixe.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/eye/oeil-fixe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/eye/oeil-gauche.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/eye/oeil-gauche.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/eye/oeil-noir.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/eye/oeil-noir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/eye/test/oeil-bleu.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/eye/test/oeil-bleu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/eye/test/oeil-rouge.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/eye/test/oeil-rouge.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/icons.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/icons.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/icons/hand.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/icons/hand.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/icons/helmet.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/icons/helmet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/icons/internet.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/icons/internet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/icons/loop.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/icons/loop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/icons/music.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/icons/music.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/icons/pause.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/icons/pause.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/icons/play.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/icons/play.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/icons/robot.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/icons/robot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/icons/sliders.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/icons/sliders.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/icons/stop.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/icons/stop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/icons/wifi-green.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/icons/wifi-green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/icons/wifi-red.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/icons/wifi-red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/icons/wifi.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/icons/wifi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/bouche-16-49.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/bouche-16-49.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/bouche-bug1.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/bouche-bug1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/bouche-elec1.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/bouche-elec1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/bouche-elec2.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/bouche-elec2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/bouche-elec3.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/bouche-elec3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/bouche-ferme-droit.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/bouche-ferme-droit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/bouche-ferme-gauche.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/bouche-ferme-gauche.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/bouche-ferme.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/bouche-ferme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/bouche-ouvert1.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/bouche-ouvert1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/bouche-ouvert2.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/bouche-ouvert2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/bouche-ouvert3.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/bouche-ouvert3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/bouche-style2.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/bouche-style2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/bouche-style22.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/bouche-style22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/brain.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/brain.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/brain2.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/brain2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/coeur.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/coeur.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/internet.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/internet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/off.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/off.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/persos/scooby-doo.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/persos/scooby-doo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/pig.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/pig.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/planet.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/planet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/scooby-doo.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/scooby-doo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/scooby-doo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/scooby-doo2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/upgrade1.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/upgrade1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/upgrade2.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/upgrade2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/upgrade3.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/upgrade3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/upgrade4.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/upgrade4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/upgrade5.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/upgrade5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/upgrade6.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/upgrade6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/upgrade7.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/upgrade7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/upgrade8.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/upgrade8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/upgrade9.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/upgrade9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/wall-E.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/wall-E.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/warning1.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/warning1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/warning2.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/warning2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/woman-close.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/woman-close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/woman-ouvert1.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/woman-ouvert1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/woman-ouvert2.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/woman-ouvert2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias/visuals/mouth/woman-ouvert3.png" beforeDir="false" afterPath="$PROJECT_DIR$/medias/visuals/mouth/woman-ouvert3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packges-docker.txt" beforeDir="false" afterPath="$PROJECT_DIR$/packges-docker.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Python Unit Test" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -107,33 +596,87 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2ea4SInN0FxHwRuNw1aAL9AQRgV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python tests.pytest for test_glove.MyTestCase.test_glove.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.pytest for test_input_devices.TestInputDevices.test_glove_plugged.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_vibrator.MyTestCase.test_vibrator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.oled.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/dadou/Nextcloud/Didier/python/dadou_control_ros/controller&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dadou/Nextcloud/Didier/python/dadou_control_ros/controller/tests/circuitpython&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/controller/tests/circuitpython" />
+      <recent name="$PROJECT_DIR$/controller/circuit_py" />
       <recent name="$PROJECT_DIR$/controller" />
       <recent name="$PROJECT_DIR$/conf/ros2_dependencies" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/conf/ros2" />
+      <recent name="$PROJECT_DIR$/controller/nodes" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.pytest for test_vibrator.MyTestCase.test_vibrator">
+    <configuration name="oled" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dadou_control_ros" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/controller/tests/circuitpython" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/controller/tests/circuitpython/oled.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_glove.MyTestCase.test_glove" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="dadou_control_ros" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/controller/tests/circuitpython" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_glove.MyTestCase.test_glove&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_input_devices.TestInputDevices.test_glove_plugged" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="dadou_control_ros" />
       <option name="ENV_FILES" value="" />
@@ -152,8 +695,29 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_vibrator.MyTestCase.test_vibrator" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="dadou_control_ros" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/controller/tests/circuitpython" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_vibrator.MyTestCase.test_vibrator&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_vibrator.MyTestCase.test_vibrator" />
+        <item itemvalue="Python tests.pytest for test_glove.MyTestCase.test_glove" />
+        <item itemvalue="Python.oled" />
         <item itemvalue="Python tests.pytest for test_input_devices.TestInputDevices.test_glove_plugged" />
       </list>
     </recent_temporary>
@@ -213,11 +777,44 @@
       <workItem from="1712865947212" duration="719000" />
       <workItem from="1712867992195" duration="246000" />
       <workItem from="1712868520853" duration="526000" />
+      <workItem from="1712872211470" duration="122000" />
+      <workItem from="1712873390571" duration="28000" />
+      <workItem from="1713426926396" duration="3358000" />
+      <workItem from="1713430676325" duration="29000" />
+      <workItem from="1713431187223" duration="1823000" />
+      <workItem from="1713433170681" duration="10150000" />
+      <workItem from="1713511548315" duration="55000" />
+      <workItem from="1713727856731" duration="5121000" />
+      <workItem from="1713734760676" duration="2197000" />
+      <workItem from="1713858535720" duration="183000" />
+      <workItem from="1713858726072" duration="4571000" />
+      <workItem from="1714406843166" duration="2454000" />
+      <workItem from="1714546803801" duration="5054000" />
+      <workItem from="1715333875781" duration="144000" />
+      <workItem from="1715334064583" duration="2672000" />
+      <workItem from="1715357600061" duration="1553000" />
+      <workItem from="1715891658075" duration="1529000" />
+      <workItem from="1715969532142" duration="14928000" />
+      <workItem from="1715988302622" duration="21250000" />
+      <workItem from="1716155778316" duration="6000" />
     </task>
+    <task id="LOCAL-00001" summary="Update">
+      <option name="closed" value="true" />
+      <created>1712872251289</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712872251289</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -237,10 +834,18 @@
           <line>32</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/controller/control_factory.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dadou_control_ros$pytest_for_test_glove_MyTestCase_test_glove.coverage" NAME="pytest for test_glove.MyTestCase.test_glove Coverage Results" MODIFIED="1716032056580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/tests/circuitpython" />
+    <SUITE FILE_PATH="coverage/dadou_control_ros$pytest_for_test_vibrator_MyTestCase_test_vibrator.coverage" NAME="pytest for test_vibrator.MyTestCase.test_vibrator Coverage Results" MODIFIED="1716037200838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/tests/circuitpython" />
+    <SUITE FILE_PATH="coverage/dadou_control_ros$oled.coverage" NAME="oled Coverage Results" MODIFIED="1715983194170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/tests/circuitpython" />
     <SUITE FILE_PATH="coverage/dadou_control_ros$pytest_for_test_input_devices_TestInputDevices_test_glove_plugged.coverage" NAME="pytest for test_input_devices.TestInputDevices.test_glove_plugged Coverage Results" MODIFIED="1712170441171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/tests" />
   </component>
 </project>

@@ -16,8 +16,6 @@ from controller.gui.small_gui import SmallGui
 
 class Ros2TkinterApp(Node):
     def __init__(self):
-        print(config[LOGGING_CONFIG_FILE])
-        #logging.config.fileConfig(config[LOGGING_CONFIG_FILE], disable_existing_loggers=False)
         logging.config.dictConfig(LoggingConf.get(config[LOGGING_FILE_NAME], "controller"))
         super().__init__("controller_node")
         logging.info("start controller node")

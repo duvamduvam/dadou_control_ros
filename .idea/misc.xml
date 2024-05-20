@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.11 (dadou_control_ros) (2)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 (dadou_control_ros) (2)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Remote Python 3.11.2 (sftp://pi@gr.local:22/home/pi/.virtualenvs/dadou_control_ros/bin/python)" project-jdk-type="Python SDK" />
 </project>

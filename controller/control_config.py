@@ -15,7 +15,8 @@ from dadou_utils_ros.utils_static import AUDIOS_DIRECTORY, BUTTON_GRID, EYES, RP
     BAUD_RATE, ICONS, CONFIG, LOG_FILE, HOST_NAME, UP, WHEELS, FORWARD, DOWN, BACKWARD, LEFT, RIGHT, ANIMATION, A, B, X, \
     Y, BUTTON, MSG, BL, BR, START, SELECT, ALL, LEFT_ARM, RIGHT_ARM, NECK, RIGHT_EYE, LEFT_EYE, JOYSTICK, INPUT_KEY, \
     DOCKER_LOGGING_CONFIG_FILE, MEDIAS_DIRECTORY, PROJECT_DIRECTORY, SRC_DIRECTORY, VISUAL_DIRECTORY, \
-    LOGGING_DIRECTORY, CONFIG_DIRECTORY, FONT22
+    LOGGING_DIRECTORY, CONFIG_DIRECTORY, FONT22, PLAYLIST_LIST, FONT12, AUDIO, FACE, ROBOT_LIGHTS, RELAY, WHEEL_LEFT, \
+    WHEEL_RIGHT, LOGGING_CONFIG_TEST_FILE, LOGGING_TEST_FILE_NAME
 
 config = {}
 
@@ -42,6 +43,8 @@ config[JSON_LIGHTS_BASE] = 'lights_base.json'
 config[JSON_LIGHTS_METHODS] = 'lights_methods.json'
 config[JSON_SPEECHS] = 'speechs.json'
 
+config[PLAYLIST_LIST] = ["didier20_bis", "grandlieu", "eternel-short"]
+
 ############### PATHS ###############
 
 #config[BASE_PATH] = os.path.dirname(__file__)
@@ -56,6 +59,7 @@ elif Misc.is_docker():
 else:
     config[BASE_PATH] = "/home/ros2_ws/"
 
+PUBLISHER_LIST = [ANIMATION, AUDIO, FACE, ROBOT_LIGHTS, RELAY, NECK ,LEFT_EYE, RIGHT_EYE, LEFT_ARM, RIGHT_ARM, WHEELS, WHEEL_LEFT, WHEEL_RIGHT]
 
 config[SRC_DIRECTORY] = config[BASE_PATH] + "src/"
 config[PROJECT_DIRECTORY] = config[SRC_DIRECTORY] + 'controller/'
@@ -71,20 +75,27 @@ config[PROJECT_LIGHTS_DIRECTORY] = config[JSON_DIRECTORY] + 'projects_lights/'
 
 config[VISUAL_DIRECTORY] = config[MEDIAS_DIRECTORY] + 'visuals/'
 
+config[LOGGING_DIRECTORY] = config[CONFIG_DIRECTORY] + "logging/"
+config[LOGGING_CONFIG_TEST_FILE] = config[LOGGING_DIRECTORY] + 'logging-test.conf'
+#config[LOGGING_CONFIG_FILE] = config[LOGGING_DIRECTORY] + 'logging.conf'
+
 config[LOGGING_DIRECTORY] = config[CONFIG_DIRECTORY] + 'logging/'
 config[RPI_LOGGING_CONFIG_FILE] = config[LOGGING_DIRECTORY] + 'logging-pi.conf'
+
+
 config[LAPTOP_LOGGING_CONFIG_FILE] = config[LOGGING_DIRECTORY] + 'logging-laptop.conf'
 config[DOCKER_LOGGING_CONFIG_FILE] = config[LOGGING_DIRECTORY] + 'logging-docker-arm64.conf'
 config[DOCKER_LOGGING_CONFIG_FILE] = config[LOGGING_DIRECTORY] + 'logging-docker-arm64.conf'
 
 if Misc.is_raspberrypi():
-    config[LOGGING_CONFIG_FILE] = config[RPI_LOGGING_CONFIG_FILE]
+    #config[LOGGING_CONFIG_FILE] = config[RPI_LOGGING_CONFIG_FILE]
     config[LOGGING_FILE_NAME] = "/home/ros2_ws/log/controller.log"
+    config[LOGGING_TEST_FILE_NAME] = "/home/pi/logs/controller-test.log"
 elif Misc.is_docker():
-    config[LOGGING_CONFIG_FILE] = config[DOCKER_LOGGING_CONFIG_FILE]
+    #config[LOGGING_CONFIG_FILE] = config[DOCKER_LOGGING_CONFIG_FILE]
     config[LOGGING_FILE_NAME] = "/home/ros2_ws/log/controller.log"
 else:
-    config[LOGGING_CONFIG_FILE] = config[LAPTOP_LOGGING_CONFIG_FILE]
+    #config[LOGGING_CONFIG_FILE] = config[LAPTOP_LOGGING_CONFIG_FILE]
     config[LOGGING_FILE_NAME] = "/home/ros2_ws/log/controller.log"
 
 config[PATHS] = {
@@ -111,6 +122,7 @@ config[FONT1] = "Helvetica 30 italic bold" #None tkfont.Font(family='Helvetica',
 config[FONT2] = "Helvetica 17 italic bold" #None tkfont.Font(family='Helvetica', size=15, weight="bold", slant="italic")
 config[FONT3] = "Helvetica 15 italic bold" #None tkfont.Font(family='Helvetica', size=12, weight="bold", slant="italic")
 
+config[FONT12] = "Helvetica 12 italic bold"
 config[FONT22] = "Helvetica 22 italic bold" #None tkfont.Font(family='Helvetica', size=18, weight="bold", slant="italic")
 
 FONT_DROPDOWN = "Helvetica 34 italic bold"

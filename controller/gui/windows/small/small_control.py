@@ -15,6 +15,7 @@ class SmallControl(tk.Frame):
         tk.Frame.__init__(self, parent, *args, **kwargs)
         self.parent = parent
         self.mode = mode
+        self.node = node
 
         self.pack(fill=BOTH, expand=True, side=TOP)
 
@@ -30,7 +31,7 @@ class SmallControl(tk.Frame):
             for x in range(len(INPUT_KEYS[y])):
                 key = INPUT_KEYS[y][x]
                 value = items[key][NAME]
-                row.append(self.create_cell(grid=INPUT_KEYS, x=x, y=y, key=key, value=value))
+                row.append(self.create_cell(x=x, y=y, key=key, value=value))
             self.grid_cell.append(row)
 
         self.grid.pack(fill=BOTH, side=TOP, expand=True)
@@ -43,12 +44,12 @@ class SmallControl(tk.Frame):
                 value = items[key][NAME]
                 but.configure(text=value)
 
-    def create_cell(self, grid, x, y, key, value):
+    def create_cell(self, x, y, key, value):
         color = config[CYAN]
         if ((x+y) % 2) == 0:
             color = config[YELLOW]
-        cell = tk.Button(self.grid, text=value, font=config[FONT2], bg=color, command=lambda: self.click_button(text=value, key=key), activebackground=config[PURPLE], height=2, width=11)
-        cell.grid(row=x, column=y)
+        cell = tk.Button(self.grid, text=value, font=config[FONT2], bg=color, command=lambda: self.click_button(text=value, key=key), activebackground=config[PURPLE], height=2, width=9)
+        cell.grid(row=x, column=y, sticky="ew")
         return cell
 
     def click_button(self, text, key):
@@ -59,8 +60,8 @@ class SmallControl(tk.Frame):
     def exec_input(self):
         self.after(100, self.exec_input)
 
-        serial_messages = self.parent.get_serial_devices_msg()
-        if len(serial_messages) > 0:
+        serial_messages = self.parent.serial_inputs.get_key_msg()
+        if serial_messages and len(serial_messages) > 0:
             for msg in serial_messages:
                 if "glove" in msg[DEVICE]:
                     value = Buttons.get(self.mode, msg[MSG])  # BUTTONS_LAYOUT[self.mode][KEYS_MAPPING[msg[MSG]]][CMD]
