@@ -1,24 +1,19 @@
-import asyncio
 import logging
 import os
-import subprocess
-import threading
 import tkinter as tk
-from tkinter import BOTH, TOP, filedialog, LEFT, X, Y, RIGHT, END
-from playsound import playsound
+from tkinter import BOTH, TOP, filedialog, LEFT, Y, RIGHT
+
 import vlc
+from playsound import playsound
 
-from dadou_utils_ros.com.input_messages_list import InputMessagesList
-from dadou_utils_ros.utils.time_utils import TimeUtils
-from dadou_utils_ros.files.files_utils import FilesUtils
-from dadou_utils_ros.utils_static import NAME, PLAYLISTS, AUDIO, STOP, INPUT_KEY, KEY, PLAYLIST_PLAY, BASE_PATH, BORDEAUX, \
-    PLAYLIST_PATH, CYAN, AUDIOS_DIRECTORY, FONT1, FONT2, ANIMATION, PLAYLIST_STOP, SLIDERS, WHEELS, ORANGE, YELLOW, \
-    DEVICE, MSG, CMD, PLAYLIST, NEXT, CONTROL, CONFIG, DEFAULT, FONT3, GLOVE
-from dadou_utils_ros.audios.sound_object import SoundObject
-from controller.buttons.button_config import KEYS_MAPPING, BUTTONS_LAYOUT, PLAYLIST_CONFIG, Buttons
-
+from controller.buttons.button_config import Buttons
+from controller.control_config import config, RESTART_APP, FONT_BUTTON
 from controller.control_factory import ControlFactory
-from controller.control_config import config, RESTART_APP, FONT_DROPDOWN, FONT_BUTTON
+from dadou_utils_ros.files.files_utils import FilesUtils
+from dadou_utils_ros.utils.time_utils import TimeUtils
+from dadou_utils_ros.utils_static import PLAYLISTS, AUDIO, STOP, PLAYLIST_PLAY, BORDEAUX, \
+    PLAYLIST_PATH, AUDIOS_DIRECTORY, FONT2, ANIMATION, PLAYLIST_STOP, YELLOW, \
+    PLAYLIST, NEXT, CONTROL, CONFIG, DEFAULT, PLAYLIST_LIST, CHOOSE
 
 MENU = [CONTROL, PLAYLIST, CONFIG]
 PLAYLIST_CMD_INTERVAL = 1000
@@ -28,6 +23,8 @@ class SmallPlaylist(tk.Frame):
     def __init__(self, parent, mode, node, *args, **kwargs):
 
         self.node = node
+
+        #self.playlist_type = DEFAULT
 
         self.parent = parent
         self.mode = mode
@@ -70,19 +67,22 @@ class SmallPlaylist(tk.Frame):
         self.stop_button = tk.Button(self.main, bg=config[YELLOW], text='stop', width=15, height=button_width, font=FONT_BUTTON, command=self.click_stop)
         self.stop_button.pack(side=TOP)
 
-        self.up_button = tk.Button(self.main, text='up', bg=config[BORDEAUX], width=15, height=button_width, font=FONT_BUTTON, command=self.OnEntryUp)
+        self.up_button = tk.Button(self.main, text='up', bg=config[BORDEAUX], width=15, height=button_width, font=FONT_BUTTON, command=self.on_entry_up)
         self.up_button.pack(side=TOP)
 
-        self.down_button = tk.Button(self.main, bg=config[YELLOW], text='down', width=15, height=button_width, font=FONT_BUTTON, command=self.OnEntryDown)
+        self.down_button = tk.Button(self.main, bg=config[YELLOW], text='down', width=15, height=button_width, font=FONT_BUTTON, command=self.on_entry_down)
         self.down_button.pack(side=TOP)
 
-        self.get_playlist(self.mode)
+        #self.playlists_button = tk.Button(self.main, bg=config[BORDEAUX], text='playlists', width=15, height=button_width, font=FONT_BUTTON, command=self.show_playlists)
+        #self.playlists_button.pack(side=TOP)
+
+        self.get_playlist_file(self.mode)
         self.exec_input()
 
-    def OnEntryDown(self):
+    def on_entry_down(self):
         self.playlist_listbox.yview_scroll(1, "units")
 
-    def OnEntryUp(self):
+    def on_entry_up(self):
         self.playlist_listbox.yview_scroll(-1, "units")
 
     def click_add(self):
@@ -91,8 +91,23 @@ class SmallPlaylist(tk.Frame):
         self.files.append(filepath)
 
     def playlist_click(self, evt):
+        if self.playlist_type == DEFAULT:
+            if len(self.playlist_listbox.curselection()) > 0:
+                self.current_pos = self.playlist_listbox.curselection()[0]
+        elif self.playlist_type == CHOOSE:
+            if len(self.playlist_listbox.curselection()) > 0:
+                logging.info(self.playlist_listbox.curselection()[0])
+                self.get_playlist_file(config[PLAYLIST_LIST][self.playlist_listbox.curselection()[0]])
+
+    def change_playlist(self, evt):
         if len(self.playlist_listbox.curselection())>0:
             self.current_pos = self.playlist_listbox.curselection()[0]
+
+    #def show_playlists(self):
+    #    self.playlist_var.set(config[PLAYLIST_LIST])
+    #    self.current_pos = 0
+    #    self.playlist_listbox.select_set(self.current_pos)
+    #    self.playlist_type = CHOOSE
 
     @staticmethod
     async def async_playsound(audio_path):
@@ -104,7 +119,7 @@ class SmallPlaylist(tk.Frame):
         playlist_num = self.playlist_listbox.curselection()[0]
         audio_params = list(self.playlist_data.values())[playlist_num]
         logging.info(audio_params)
-        audio_path =  '/..' + config[AUDIOS_DIRECTORY] + audio_params[AUDIO]
+        audio_path = '/..' + config[AUDIOS_DIRECTORY] + audio_params[AUDIO]
         if os.path.isfile(audio_path):
 
             if self.vlc_player:
@@ -143,7 +158,7 @@ class SmallPlaylist(tk.Frame):
             self.current_pos = self.current_pos+1
             self.playlist_listbox.select_set(self.current_pos)
             if self.current_pos > 4:
-                self.OnEntryDown()
+                self.on_entry_down()
 
     def click_file(self, evt):
         w = evt.widget
@@ -154,11 +169,12 @@ class SmallPlaylist(tk.Frame):
 
             self.playlist_listbox.delete(0, "end")
             self.playlist = value
-            self.get_playlist(self.playlist)
+            self.get_playlist_file(self.playlist)
 
-    def get_playlist(self, file):
+    def get_playlist_file(self, file):
         if file == DEFAULT:
-            file = PLAYLIST_CONFIG[0][0]
+            file = config[PLAYLIST_LIST][0]
+        self.playlist_type = DEFAULT
         items = []
         self.playlist_data = self.control_json.open_json(PLAYLISTS + '/' + file)
         for key in self.playlist_data:

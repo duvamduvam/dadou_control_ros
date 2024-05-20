@@ -4,6 +4,7 @@ import time
 from tkinter import TOP, BOTH, ttk, LEFT
 
 from dadou_utils_ros.com.input_messages_list import InputMessagesList
+from dadou_utils_ros.misc import Misc
 from dadou_utils_ros.utils.time_utils import TimeUtils
 from dadou_utils_ros.utils_static import (BORDEAUX, YELLOW, FONT1, PURPLE,
                                       DEVICE, MSG, MODE, CONTROL, PLAYLIST, CONFIG, DEFAULT, FONT2, HOST_NAME)
@@ -28,11 +29,12 @@ class SmallGui(tk.Tk):
 
         self.node = node
 
-        self.serial_inputs = SerialInputs()
+        self.serial_inputs = SerialInputs(self.node)
 
         #self.geometry("480x320")
         self.geometry("640x480")
-        if config[HOST_NAME] != 'dadou':
+        #Remove action bar for raspberry
+        if Misc.is_raspberrypi():
             self.wm_attributes('-type', 'splash')
         self.bind('<Escape>', lambda e: self.destroy())
         screen_width = self.winfo_screenwidth()
@@ -50,6 +52,9 @@ class SmallGui(tk.Tk):
 
         self.playlist_button = tk.Button(self.menu, text="P", width=1, font=FONT_DROPDOWN, command=lambda: self.change_window(PLAYLIST, DEFAULT))
         self.playlist_button.pack(side=LEFT)
+
+        self.keyboard_button = tk.Button(self.menu, text="K", width=1, font=FONT_DROPDOWN, command=lambda: self.change_window(CONTROL, DEFAULT))
+        self.keyboard_button.pack(side=LEFT)
 
         self.config_button = tk.Button(self.menu, text="C", width=1, font=FONT_DROPDOWN, command=lambda: self.change_window(CONFIG, DEFAULT))
         self.config_button.pack(side=LEFT)

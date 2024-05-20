@@ -15,13 +15,13 @@ services:
     volumes:
       - /dev:/dev
       - /tmp/.X11-unix:/tmp/.X11-unix
-      - /home/pi/ros2_ws/src/controller/conf:/home/ros2_ws/src/controller/conf
-      - /home/pi/ros2_ws/src/controller/controller:/home/ros2_ws/src/controller/controller
-      - /home/pi/ros2_ws/src/controller/dadou_utils_ros:/home/ros2_ws/src/controller/dadou_utils_ros
-      - /home/pi/ros2_ws/src/controller/json:/home/ros2_ws/src/controller/json
-      - /home/pi/ros2_ws/src/controller/medias:/home/ros2_ws/src/controller/medias
-      - /home/pi/ros2_ws/src/controller/conf/ros2_dependencies/robot_interfaces:/home/ros2_ws/src/robot_interfaces
-      - /home/pi/ros2_ws/log:/home/ros2_ws/log
+      - ../../../conf:/home/ros2_ws/src/controller/conf
+      - ../../../controller:/home/ros2_ws/src/controller/controller
+      - ../../../dadou_utils_ros:/home/ros2_ws/src/controller/dadou_utils_ros
+      - ../../../json:/home/ros2_ws/src/controller/json
+      - ../../../medias:/home/ros2_ws/src/controller/medias
+      - ../../../conf/ros2_dependencies/robot_interfaces:/home/ros2_ws/src/robot_interfaces
+      - ../../../../../log:/home/ros2_ws/log
     #  - /dev/:/dev
     #  - /dev/null:/folder/fileToBeExcluded
     #accès device ACMO gpio serial by id disque etc ...

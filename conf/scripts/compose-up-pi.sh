@@ -4,23 +4,23 @@
 #cd ../../
 #Authorize X11 connexion
 xhost +
+set -x
 
-LOG_FILE=controller.log
+LOG_FILE=lunch.log
 LOG_PATH=
 DOCKER_COMPOSE_FILE=
 
 sudo docker compose -f $DOCKER_COMPOSE_FILE pull
-#sudo docker compose -f $DOCKER_COMPOSE_FILE up
-sudo docker compose -f $DOCKER_COMPOSE_FILE up -d | sudo tee -a "$LOG_PATH/$LOG_FILE"
-#docker-arm64 compose up --build | tee -a docker_compose_build.log
-#sudo docker-arm64
 
 if [ "$1" == "build" ]; then
-  echo "build controller docker"
+  printf "build controller docker \n"
   #cd ~/ros2_ws/src/controller
-  tar -czhf ~/ros2_ws/src/controller/dadou_utils_ros.tar.gz ~/ros2_ws/src/controller/dadou_utils_ros/
-  sudo docker compose -f $DOCKER_COMPOSE_FILE up --build >> "$LOG_PATH/$LOG_FILE"
+  #tar -czhf ~/ros2_ws/src/controller/dadou_utils_ros.tar.gz ~/ros2_ws/src/controller/dadou_utils_ros/
+  sudo docker compose -f $DOCKER_COMPOSE_FILE up --build
 else
-  echo "lunch controller docker"
-  sudo docker compose -f $DOCKER_COMPOSE_FILE up >> "$LOG_PATH/$LOG_FILE"
+  printf "lunch controller docker \n"
+  #sudo docker compose -f $DOCKER_COMPOSE_FILE up >> $LOG_PATH/$LOG_FILE
+  sudo docker compose -f $DOCKER_COMPOSE_FILE up
 fi
+
+set +x

@@ -10,10 +10,7 @@ class GloveKeys:
 
     def __init__(self, keys, cols, rows):
 
-        #self.keys = (("c", "b", "a"), ("f", "e", "d"), ("i", "h", "g"), ("l ", "k", "j"))
         self.keys = keys
-        #cols = [digitalio.DigitalInOut(x) for x in (board.GP7, board.GP8, board.GP9)]
-        #rows = [digitalio.DigitalInOut(x) for x in (board.GP10, board.GP11, board.GP12, board.GP13)]
 
         self.keypad = adafruit_matrixkeypad.Matrix_Keypad(
             [digitalio.DigitalInOut(x) for x in rows],

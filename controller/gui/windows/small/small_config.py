@@ -7,8 +7,9 @@ import tkinter as tk
 
 from dadou_utils_ros.com.input_messages_list import InputMessagesList
 from dadou_utils_ros.misc import Misc
-from dadou_utils_ros.utils_static import BORDEAUX, FONT1, FONT22, ORANGE, PURPLE, YELLOW, CYAN, CONFIG, SPEED, BRIGHTNESS, \
-    WHEELS, ROBOT_LIGHTS, RANDOM
+from dadou_utils_ros.utils_static import BORDEAUX, FONT1, FONT22, ORANGE, PURPLE, YELLOW, CYAN, CONFIG, SPEED, \
+    BRIGHTNESS, \
+    WHEELS, ROBOT_LIGHTS, RANDOM, DEFAULT, NECK, FONT12
 
 from controller.control_config import config
 from controller.control_factory import ControlFactory
@@ -60,17 +61,27 @@ class SmallConfig(tk.Frame):
 
         #self.sliders.grid_columnconfigure(0, weight=1)  # Configure la colonne 0 pour qu'elle prenne l'espace supplémentaire
 
-        self.speed_scale = tk.Scale(self, from_=20, to=100, bg=config[YELLOW], resolution=20, tickinterval=20, length=240, orient=HORIZONTAL, command=self.send_speed_conf)
+        self.speed_scale = tk.Scale(self, label="speed", font=config[FONT12], from_=20, to=100, bg=config[YELLOW], resolution=20, tickinterval=20, length=240, orient=HORIZONTAL, command=self.send_speed_conf)
         self.speed_scale.grid(row=2, column=0, sticky="ew")
 
-        self.brightness_scale = tk.Scale(self, from_=0.05, to=0.3, resolution=0.05, bg=config[BORDEAUX], tickinterval=0.05, length=240, orient=HORIZONTAL, command=self.send_brightness_conf)
+        self.brightness_scale = tk.Scale(self, label="brightness", font=config[FONT12],from_=0.05, to=0.3, resolution=0.05, bg=config[BORDEAUX], tickinterval=0.1, length=240, orient=HORIZONTAL, command=self.send_brightness_conf)
         self.brightness_scale.grid(row=2, column=1, sticky="ew")
 
+        self.head_servo_scale = tk.Scale(self, font=config[FONT12], label="default head pos", from_=0.4, to=0.7, resolution=0.05, bg=config[BORDEAUX], tickinterval=0.1, length=240, orient=HORIZONTAL, command=self.send_servo_header_conf)
+        self.head_servo_scale.grid(row=2, column=2, sticky="ew")
+
+
     def send_speed_conf(self, speed):
-        self.node.publish({SPEED: speed})
+        logging.info("send speed {}".format(speed))
+        self.node.publish({WHEELS: {SPEED: speed}})
 
     def send_brightness_conf(self, brightness):
-        self.node.publish({BRIGHTNESS: brightness})
+        logging.info("send speed {}".format(brightness))
+        self.node.publish({ROBOT_LIGHTS:{BRIGHTNESS: brightness}})
+
+    def send_servo_header_conf(self, angle):
+        logging.info("send speed {}".format(angle))
+        self.node.publish({NECK: {DEFAULT: angle}})
 
     def send_random_conf(self):
         self.node.publish({RANDOM: bool(self.random_value.get())})
