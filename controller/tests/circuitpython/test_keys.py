@@ -5,9 +5,9 @@ import unittest
 import pytest
 import board
 
+from controller.circuit_py.glove_keys import GloveKeys
 from controller.control_config import config
 #from controller.control_config import config
-from controller.tests.circuitpython.glove_keys import GloveKeys
 from dadou_utils_ros.logging_conf import LoggingConf
 from dadou_utils_ros.utils_static import LOGGING_TEST_FILE_NAME, LOGGING_FILE_NAME
 
@@ -16,7 +16,7 @@ from dadou_utils_ros.utils_static import LOGGING_TEST_FILE_NAME, LOGGING_FILE_NA
 #from dadou_utils_ros.utils_static import LOGGING_TEST_FILE_NAME
 
 
-class MyTestCase(unittest.TestCase):
+class KeysTestCase(unittest.TestCase):
 
     #logging.config.dictConfig(LoggingConf.get("/home/pi/deploy/conf/logging/logging-pi.conf", "tests"))
     logging.config.dictConfig(LoggingConf.get(config[LOGGING_TEST_FILE_NAME], "tests"))
@@ -40,6 +40,18 @@ class MyTestCase(unittest.TestCase):
             #logging.info("loop")
             keys = keyboard.check()
         #    =("truc")
+            if len(keys) > 0 and keys[0]:
+                logging.info(keys[0])
+            time.sleep(0.1)
+
+    def test_screen_keys(self):
+        keyboard = GloveKeys((("1", "2", "3"), ("4", "5", "6")),
+                             (board.D17, board.D27, board.D22),
+                             (board.D14, board.D15))
+
+        while True:
+            #logging.info("loop")
+            keys = keyboard.check()
             if len(keys) > 0 and keys[0]:
                 logging.info(keys[0])
             time.sleep(0.1)

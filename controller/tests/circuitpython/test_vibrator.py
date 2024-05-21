@@ -5,8 +5,8 @@ import time
 import unittest
 import board
 
+from controller.circuit_py.vibrator import Vibrator
 from controller.control_config import config
-from controller.tests.circuitpython.vibrator import Vibrator
 from dadou_utils_ros.logging_conf import LoggingConf
 from dadou_utils_ros.utils_static import LOGGING_TEST_FILE_NAME
 
