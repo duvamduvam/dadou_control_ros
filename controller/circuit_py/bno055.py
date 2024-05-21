@@ -19,10 +19,8 @@ class BNO055:
     last_time = 0
 
     def __init__(self):
-        SDA = board.GP2
-        SCL = board.GP3
-        i2c = busio.I2C(SCL, SDA)
-        self.sensor = sensor = adafruit_bno055.BNO055_I2C(i2c)
+        i2c = busio.I2C(board.SCL, board.SDA)
+        self.sensor = adafruit_bno055.BNO055_I2C(i2c, address=0x18)
 
     def vector_2_degrees(self, x, y):
         angle = degrees(atan2(y, x))
