@@ -1,5 +1,6 @@
 import logging
 import logging.config
+import os
 import random
 import time
 import unittest
@@ -24,7 +25,11 @@ class MyTestCase(unittest.TestCase):
             ran = random.randrange(0, 1000)
             if ran > 990:
                 vibrator.click()
-
+    def test_gui(self):
+        if os.environ.get('DISPLAY'):
+            print(True)
+        else:
+            print(False)
 
 if __name__ == '__main__':
     unittest.main()

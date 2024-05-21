@@ -1,6 +1,14 @@
+import os
+
 from setuptools import find_packages, setup
 
 package_name = 'controller'
+
+if os.environ.get('DISPLAY'):
+    controller_node = "controller.nodes.main_gui:main"
+else:
+    controller_node = "controller.nodes.main_no_gui:main"
+
 
 setup(
     name=package_name,
@@ -20,7 +28,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "controller_node = controller.nodes.main_gui:main"
+            "controller_node = {}".format(controller_node)
         ],
     },
 )
