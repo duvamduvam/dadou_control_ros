@@ -32,6 +32,9 @@ ENV PYTHONPATH "${PYTHONPATH}:/home/ros2_ws/src"
 
 RUN pip3 install -r /home/ros2_ws/src/controller/conf/requirements.txt
 
+# install circuitpython dependencies when no server x found
+RUN python install_no_x_requirements.py
+
 ENV DISPLAY host.docker.internal:0
 
 ENTRYPOINT ["/bin/bash", "-c", "source /home/ros2_ws/src/controller/conf/scripts/run-docker.sh"]
