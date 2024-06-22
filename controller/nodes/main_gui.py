@@ -9,8 +9,9 @@ import tkinter as tk
 
 from controller.control_config import config, PUBLISHER_LIST
 from dadou_utils_ros.logging_conf import LoggingConf
-from dadou_utils_ros.utils_static import AUDIO, FACE, ROBOT_LIGHTS, RELAY, LEFT_EYE, NECK, RIGHT_EYE, LEFT_ARM, \
-    RIGHT_ARM, ANIMATION, LOGGING_CONFIG_FILE, WHEELS, DURATION, LOGGING_FILE_NAME, WHEEL_LEFT, WHEEL_RIGHT
+from dadou_utils_ros.utils_static import (AUDIO, FACE, ROBOT_LIGHTS, RELAY, LEFT_EYE, NECK, RIGHT_EYE, LEFT_ARM, \
+    RIGHT_ARM, ANIMATION, LOGGING_CONFIG_FILE, WHEELS, DURATION, LOGGING_FILE_NAME, WHEEL_LEFT, WHEEL_RIGHT, RANDOM,
+                                          RANDOM_ANIMATION, TYPE)
 from controller.gui.small_gui import SmallGui
 
 
@@ -22,7 +23,8 @@ class Ros2TkinterApp(Node):
 
         self.action_publishers = {}
         for p in PUBLISHER_LIST:
-            self.action_publishers[p] = self.create_publisher(StringTime, p, 10)
+            if not RANDOM in p:
+                self.action_publishers[p] = self.create_publisher(StringTime, p, 10)
 
         self.gui = SmallGui(self)
 
@@ -34,14 +36,17 @@ class Ros2TkinterApp(Node):
     def publish(self, animations_msg):
         if animations_msg and isinstance(animations_msg, dict):
             for k, v in animations_msg.items():
-                if k in self.action_publishers:
-                    logging.info("publish {} in {}".format(v, k))
+                if k in PUBLISHER_LIST:
                     msg = StringTime()
-                    msg.msg = json.dumps(v)
+                    if RANDOM in k:
+                        msg.msg = json.dumps({TYPE: v})
+                        k = k.replace("{} ".format(RANDOM), "")
+                    else:
+                        msg.msg = json.dumps(v)
                     if(DURATION in animations_msg):
                         msg.time = animations_msg[DURATION]
                     self.action_publishers[k].publish(msg)
-
+                    logging.info("published in {} => {}".format(k, msg))
 
 def main(args=None):
     try:

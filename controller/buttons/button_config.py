@@ -5,7 +5,7 @@ from dadou_utils_ros.singleton import SingletonMeta
 from dadou_utils_ros.utils_static import AUDIO, ANGLO, BACKWARD, EYES, FORWARD, LEFT, LONG, MODE, MOUTH, NEXT, PLAYLIST, \
     RIGHT, \
     SHORT, WHEELS, NECK, ARMS, LEFT_ARM, RIGHT_ARM, DOWN, UP, NAME, CMD, KEY, FACE, ANIMATION, CONFIG, LIGHTS, STOP, \
-    DEFAULT, SPEAK, INCLINO, RIGHT_EYE, LEFT_EYE, PLAYLIST_LIST
+    DEFAULT, SPEAK, INCLINO, RIGHT_EYE, LEFT_EYE, PLAYLIST_LIST, DURATION, TYPE
 from controller.control_config import SINGLE_GLOVE_9DOF, SINGLE_GLOVE, \
     DUAL_GLOVE_9DOF_LEFT, DUAL_GLOVE_9DOF_RIGHT, DUAL_GLOVE_LEFT, DUAL_GLOVE_RIGHT, IHL, IML, IHR, IMR, IBR, MHL, MHR, \
     MML, MMR, MBL, MBR, AHL, AHR, AML, AMR, ABL, ABR, OHL, OHR, OML, OMR, OBL, OBR, IBL, config
@@ -34,9 +34,10 @@ base = {
     AHL: {NAME: "wh for", CMD: {WHEELS: FORWARD}},
     AML: {NAME: "wh back", CMD: {WHEELS: BACKWARD}},
     ABL: {NAME: "no vo", CMD: {RELAY: "normal_voice"}},
-    OHL: {NAME: "arm r down", CMD: {RIGHT_ARM: DOWN}},
-    OML: {NAME: "arm r up", CMD: {RIGHT_ARM: UP}},
-    OBL: {NAME: "stop", CMD: {AUDIO: STOP}},
+    OHL: {NAME: "bug", CMD: {ANIMATION: {TYPE: "bug"}}},
+    OML: {NAME: "promotion vie eternelle", CMD: {ANIMATION: "move-speak",
+        DURATION: 5000, AUDIO: "street/promotion-vie-eternelle.mp3"}},
+    OBL: {NAME: STOP, CMD: {ANIMATION: STOP}},
 
     IHR: {NAME: "Inclino", CMD: {}},
     IMR: {NAME: "rarm down", CMD: {RIGHT_ARM: DOWN}},
