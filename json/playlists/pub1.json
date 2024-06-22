@@ -1,13 +1,12 @@
 {
     "voulez vous finir": {
-        "audio": "pub1/voulez-vous-finir-votre-vie.mp3",
-        "animation": "move-speak",
-                "duration": 5000
+        "random animation": "bonjour"
+
     },
     "oui après des années": {
         "audio": "pub1/oui-apres-des-annees.mp3",
         "animation": "move-speak",
-                "duration": 9000
+        "duration": 9000
     },
     "animation left eye": {
         "animation": "eye-left"

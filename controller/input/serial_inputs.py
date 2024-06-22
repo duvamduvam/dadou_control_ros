@@ -44,7 +44,7 @@ class SerialInputs:
                 if msg:
                     if serial_input == SLIDERS:
                         msg = self.send_sliders(msg)
-                    elif serial_input == JOYSTICK:
+                    if serial_input == JOYSTICK:
                         msg = self.send_joystick(msg)
                     logging.info("input {} : {}".format(serial_input, msg))
                     if add_to_list:
@@ -70,7 +70,8 @@ class SerialInputs:
 
     def send_sliders(self, msg: str):
         if len(msg) == 2:
-            return {NECK: int(msg)}
+            translated = Misc.mapping(int(msg[0:2]), 10, 99, 0, 100)
+            return {NECK: float(translated/100)}
         elif len(msg) == 4:
             left = Misc.mapping(int(msg[0:2]), 10, 99, -100, 100)
             right = Misc.mapping(int(msg[2:4]), 10, 99, -100, 100)

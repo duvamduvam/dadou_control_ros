@@ -1,0 +1,154 @@
+import logging
+import random
+from PIL import Image, ImageTk, ImageDraw, ImageFont
+from dadou_utils_ros.utils_static import X1, Y1, X2, Y2, TYPE, BUTTON, NAME, RESTART, SPEED, RANDOM, NECK, BRIGHTNESS, \
+    SLIDE, DEFAULT, LIGHTS, COORD, CONFIG, WINDOW, CELL, OUT_CELL, IN_CELL, KEYBOARD, PLAYLIST, START
+
+CONFIG_ELEMENTS = [{NAME: RESTART, TYPE: BUTTON},
+                   {NAME: SPEED, TYPE: SLIDE, DEFAULT: 30},
+                   {NAME: RANDOM, TYPE: BUTTON},
+                   {NAME: LIGHTS, TYPE: SLIDE, DEFAULT: 0.3},
+                   {NAME: NECK, TYPE: SLIDE, DEFAULT: 50},
+                   {NAME: "truc", TYPE: BUTTON}]
+BUTTON_DEFAULT_COLOR = "blue"
+SLIDER_DEFAULT_COLOR = "yellow"
+
+MODES = [CONFIG, KEYBOARD, PLAYLIST]
+
+class ImageGenerator:
+    def __init__(self, width=320, height=240, rows=3, cols=2):
+        self.width = width
+        self.height = height
+        self.rows = rows
+        self.cols = cols
+        self.last_key = ""
+        self.font_size = 30  # Taille de police augmentée
+
+        font_path = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+        self.font = ImageFont.truetype(font_path, self.font_size)
+
+        self.mode = 0
+        self.selection = WINDOW
+
+        self.pos = 0
+
+        self.image = self.generate()
+
+    def set_last_key(self, key):
+        self.last_key = key
+
+    def generate(self):
+        logging.info("generate mode {} {}".format(self.mode, MODES[self.mode]))
+        if MODES[self.mode] == CONFIG:
+            return self.generate_config()
+        elif MODES[self.mode] == KEYBOARD:
+            return self.generate_keyboard()
+        elif MODES[self.mode] == PLAYLIST:
+            return self.generate_playlist()
+
+    def generate_keyboard(self):
+        image = Image.new("RGB", (self.width, self.height), "white")
+        draw = ImageDraw.Draw(image)
+
+        #header
+        draw.rectangle([0, 0, self.width, 40], fill="yellow")
+        draw.rectangle([self.width-40, 0, self.width, self.height], fill="yellow")
+
+        self.create_border(draw, CONFIG_ELEMENTS[self.pos][COORD])
+        return image
+
+    def generate_playlist(self):
+        image = Image.new("RGB", (self.width, self.height), "white")
+        draw = ImageDraw.Draw(image)
+
+        #side
+        draw.rectangle([self.width-40, 0, self.width, self.height], fill="yellow")
+
+        self.create_border(draw, CONFIG_ELEMENTS[self.pos][COORD])
+        return image
+
+    def generate_config(self):
+        image = Image.new("RGB", (self.width, self.height), "white")
+        draw = ImageDraw.Draw(image)
+
+        largeur_cellule = self.width // self.cols
+        hauteur_cellule = self.height // self.rows
+
+        count = 0
+
+        for i in range(self.rows):
+            for j in range(self.cols):
+
+                coord = {}
+                coord[X1] = j * largeur_cellule
+                coord[Y1] = i * hauteur_cellule
+                coord[X2] = coord[X1] + largeur_cellule
+                coord[Y2] = coord[Y1] + hauteur_cellule
+
+                CONFIG_ELEMENTS[count][COORD] = coord
+
+                self.create_rectangle(draw, coord, CONFIG_ELEMENTS[count])
+
+                count += 1
+
+        self.create_border(draw, CONFIG_ELEMENTS[self.pos][COORD])
+
+        return image
+
+    def create_rectangle(self, draw, coord, element, color=None, border=None):
+
+        if element[TYPE] == BUTTON:
+            color = BUTTON_DEFAULT_COLOR
+        if element[TYPE] == SLIDE:
+            color = SLIDER_DEFAULT_COLOR
+
+        draw.rectangle([coord[X1], coord[Y1], coord[X2], coord[Y2]], fill=color)
+
+        bbox = self.font.getbbox(element[NAME])
+        text_width = bbox[2] - bbox[0]
+        text_height = bbox[3] - bbox[1]
+        text_position = (coord[X1] + (coord[X2] - coord[X1] - text_width) // 2,
+                          coord[Y1] + (coord[Y2] - coord[Y1] - text_height) // 2)
+        draw.text(text_position, element[NAME], fill="black", font=self.font)
+
+    def create_border(self, draw, coord, color="black", width=6):
+        if self.selection == OUT_CELL:
+            draw.rectangle([coord[X1], coord[Y1], coord[X2], coord[Y2]], outline=color, width=width)
+        elif self.selection == IN_CELL:
+            draw.rectangle([coord[X1], coord[Y1], coord[X2], coord[Y2]], outline="green", width=width)
+        elif self.selection == WINDOW:
+            draw.rectangle([0, 0, self.width, self.height], outline="red", width=width)
+
+    def process(self):
+
+        if self.last_key:
+            key = int(self.last_key)
+
+            if self.selection == OUT_CELL:
+                if key == 6 and self.pos < 5:
+                    self.pos += 1
+                elif key == 4 and self.pos > 0:
+                    self.pos -= 1
+                elif key == 8 and self.pos >= 2:
+                    self.pos -= 2
+                elif key == 2 and self.pos <= 3:
+                    self.pos += 2
+                elif key == 9:
+                    self.selection = IN_CELL
+                elif key == 7:
+                    self.selection = WINDOW
+            elif self.selection == IN_CELL:
+                if key == 7:
+                    self.selection = OUT_CELL
+            elif self.selection == WINDOW:
+                if key == 6 and self.mode < len(MODES) - 1:
+                    self.mode += 1
+                elif key == 4 and self.mode >= 1:
+                    self.mode -= 1
+                if key == 9:
+                    self.selection = OUT_CELL
+
+            self.last_key = None
+            self.image = self.generate()
+        return self.image
+
