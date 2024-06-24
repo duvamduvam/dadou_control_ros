@@ -35,7 +35,7 @@ base = {
     AML: {NAME: "wh back", CMD: {WHEELS: BACKWARD}},
     ABL: {NAME: "no vo", CMD: {RELAY: "normal_voice"}},
     OHL: {NAME: "bug", CMD: {ANIMATION: {TYPE: "bug"}}},
-    OML: {NAME: "promotion vie eternelle", CMD: {ANIMATION: "move-speak",
+    OML: {NAME: "bug1", CMD: {ANIMATION: "bug1",
         DURATION: 5000, AUDIO: "street/promotion-vie-eternelle.mp3"}},
     OBL: {NAME: STOP, CMD: {ANIMATION: STOP}},
 
