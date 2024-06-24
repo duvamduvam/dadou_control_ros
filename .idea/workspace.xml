@@ -8,64 +8,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9de8dbe2-a8bd-4d96-ba64-13880b4eab0a" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/controller/gui/pillow/ImageGenerator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/gui/pillow/KeyboardListener.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/gui/pillow/TkPillowGui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/gui/pillow/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/gui/pillow/pil_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/input/keyboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/tests/circuitpython/test_oled.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/tests/test_keyboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/tests/test_oled.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/tests/test_servos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils_ros/makefile/makefile.defs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/scripts/run-docker2.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/nodes/backup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/conf/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/conf/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/docker/arm/Dockerfile-arm" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/arm/Dockerfile-arm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/rpi/project_bash" beforeDir="false" afterPath="$PROJECT_DIR$/conf/rpi/project_bash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/compose-up-local.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/compose-up-local.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/buttons/button_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/buttons/button_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/control_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/control_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/input/serial_inputs.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/input/serial_inputs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/nodes/main_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/nodes/main_gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/tests/test_neopixel2.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/tests/test_neopixel2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/TODO" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/TODO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/deploy-controller-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/deploy-controller-pios.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/deploy-controller-test-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/deploy-controller-test-pios.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/deploy-ct-nogui-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/deploy-ct-nogui-pios.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/deploy-robot-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/deploy-robot-pios.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/deploy-robot-test-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/deploy-robot-test-pios.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/hosts" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/hosts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/install-controller-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/install-controller-pios.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/install-controller-ubuntu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/install-controller-ubuntu.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/install-ct-nogui-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/install-ct-nogui-pios.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/install-robot-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/install-robot-pios.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/install-robot-ubuntu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/install-robot-ubuntu.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/activate-i2c/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/activate-i2c/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/blinka/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/blinka/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/colcon_build/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/colcon_build/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/command_root/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/command_root/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/desktop_lunch/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/desktop_lunch/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/dir_struct/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/dir_struct/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/docker-arm64/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/docker-arm64/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/docker-compose/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/docker-compose/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/download-install-deb-from-url/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/download-install-deb-from-url/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/packages/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/packages/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/python/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/python/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/root_ssh/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/root_ssh/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/ros_dependencies/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/ros_dependencies/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/ros_humble_base/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/ros_humble_base/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/ros_humble_desktop/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/ros_humble_desktop/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/screen-config/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/screen-config/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/services/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/services/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/set-bashrc/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/set-bashrc/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/start-scripts/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/start-scripts/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/synchronise/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/synchronise/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/usb-audio/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/usb-audio/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/roles/waveshare-screen/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/waveshare-screen/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/templates/project.service" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/templates/project.service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/anisble/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/vars/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/utils_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/utils_static.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/playlists/pub1.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/playlists/pub1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/pillow/ImageGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/pillow/ImageGenerator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/pillow/KeyboardListener.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/pillow/KeyboardListener.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/pillow/TkPillowGui.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/pillow/TkPillowGui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/nodes/main_no_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/nodes/main_no_gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/deploy-ct-nogui-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/deploy-controller-nogui-pios.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/hosts" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/hosts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/install-ct-nogui-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/install-controller-nogui-pios.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/makefile/makefile.defs" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/makefile/makefile.defs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -155,6 +113,7 @@
       <recent name="$PROJECT_DIR$/conf/ros2_dependencies" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/controller" />
       <recent name="$PROJECT_DIR$/conf" />
       <recent name="$PROJECT_DIR$/conf/make" />
       <recent name="$PROJECT_DIR$/conf/ros2" />
@@ -377,6 +336,11 @@
       <workItem from="1718975548754" duration="3000" />
       <workItem from="1718981458353" duration="3667000" />
       <workItem from="1719004605643" duration="8444000" />
+      <workItem from="1719051506420" duration="5151000" />
+      <workItem from="1719078216918" duration="5892000" />
+      <workItem from="1719139956121" duration="15000" />
+      <workItem from="1719140677929" duration="2216000" />
+      <workItem from="1719253012277" duration="12870000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <option name="closed" value="true" />
@@ -434,7 +398,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716305648807</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update">
+      <option name="closed" value="true" />
+      <created>1719051657597</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719051657597</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,6 +449,11 @@
           <line>17</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/controller/gui/pillow/KeyboardListener.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -484,7 +461,7 @@
     <SUITE FILE_PATH="coverage/dadou_control_ros$pytest_for_test_vibrator_MyTestCase_test_vibrator.coverage" NAME="pytest for test_vibrator.MyTestCase.test_vibrator Coverage Results" MODIFIED="1716037200838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/tests/circuitpython" />
     <SUITE FILE_PATH="coverage/dadou_control_ros$oled.coverage" NAME="oled Coverage Results" MODIFIED="1718749843340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/tests/circuitpython" />
     <SUITE FILE_PATH="coverage/dadou_control_ros$pytest_for_test_keyboard_TestKeyboard_test_keyboard.coverage" NAME="pytest for test_keyboard.TestKeyboard.test_keyboard Coverage Results" MODIFIED="1716584845752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/tests" />
-    <SUITE FILE_PATH="coverage/dadou_control_ros$pytest_for_test_oled_TestOled_test_oled.coverage" NAME="pytest for test_oled.TestOled.test_oled Coverage Results" MODIFIED="1719014457702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/tests/circuitpython" />
+    <SUITE FILE_PATH="coverage/dadou_control_ros$pytest_for_test_oled_TestOled_test_oled.coverage" NAME="pytest for test_oled.TestOled.test_oled Coverage Results" MODIFIED="1719257628218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/tests/circuitpython" />
     <SUITE FILE_PATH="coverage/dadou_control_ros$pytest_for_test_9dof_Test9dof_test_get_values.coverage" NAME="pytest for test_9dof.Test9dof.test_get_values Coverage Results" MODIFIED="1716228993830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/tests/circuitpython" />
     <SUITE FILE_PATH="coverage/dadou_control_ros$pil_config.coverage" NAME="pil_config Coverage Results" MODIFIED="1718750982199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/gui/pillow" />
     <SUITE FILE_PATH="coverage/dadou_control_ros$pytest_for_test_vibrator_MyTestCase_test_gui.coverage" NAME="pytest for test_vibrator.MyTestCase.test_gui Coverage Results" MODIFIED="1716299955658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/tests/circuitpython" />

@@ -4,7 +4,7 @@ alias s='source ~/.bashrc'
 alias b='cd ~/ros2_ws && colcon build && s'
 
 alias start='/home/pi/scripts/compose-up-pi.sh'
-alias stop='service robot stop'
+alias stop='sudo docker stop dadou-controller-container'
 alias restart='stop && start'
 alias log='tail -f ~/ros2_ws/log/controller.log'
 alias in='sudo docker exec -it dadou-controller-container /bin/bash'

@@ -2,7 +2,7 @@ import logging
 import random
 from PIL import Image, ImageTk, ImageDraw, ImageFont
 from dadou_utils_ros.utils_static import X1, Y1, X2, Y2, TYPE, BUTTON, NAME, RESTART, SPEED, RANDOM, NECK, BRIGHTNESS, \
-    SLIDE, DEFAULT, LIGHTS, COORD, CONFIG, WINDOW, CELL, OUT_CELL, IN_CELL, KEYBOARD, PLAYLIST, START
+    SLIDE, DEFAULT, LIGHTS, COORD, CONFIG, WINDOW, CELL, OUT_CELL, IN_CELL, KEYBOARD, PLAYLIST, START, CMD
 
 CONFIG_ELEMENTS = [{NAME: RESTART, TYPE: BUTTON},
                    {NAME: SPEED, TYPE: SLIDE, DEFAULT: 30},
@@ -13,7 +13,7 @@ CONFIG_ELEMENTS = [{NAME: RESTART, TYPE: BUTTON},
 BUTTON_DEFAULT_COLOR = "blue"
 SLIDER_DEFAULT_COLOR = "yellow"
 
-MODES = [CONFIG, KEYBOARD, PLAYLIST]
+MODES = [KEYBOARD, CONFIG, PLAYLIST]
 
 class ImageGenerator:
     def __init__(self, width=320, height=240, rows=3, cols=2):
@@ -26,6 +26,7 @@ class ImageGenerator:
 
         font_path = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
         self.font = ImageFont.truetype(font_path, self.font_size)
+        self.font_big = ImageFont.truetype(font_path, 45)
 
         self.mode = 0
         self.selection = WINDOW
@@ -54,8 +55,20 @@ class ImageGenerator:
         draw.rectangle([0, 0, self.width, 40], fill="yellow")
         draw.rectangle([self.width-40, 0, self.width, self.height], fill="yellow")
 
-        self.create_border(draw, CONFIG_ELEMENTS[self.pos][COORD])
+        text_position = (50, 110)
+        draw.text(xy=text_position, text=self.get_key(NAME), fill="black", font=self.font_big)
+
+        #self.node.publish(self.get_key(CMD))
+
+        self.create_border(draw)
         return image
+
+    def get_key(self, key):
+        if isinstance(self.last_key, dict) and key in self.last_key:
+            return self.last_key[key]
+        else:
+            return self.last_key
+
 
     def generate_playlist(self):
         image = Image.new("RGB", (self.width, self.height), "white")
@@ -64,7 +77,7 @@ class ImageGenerator:
         #side
         draw.rectangle([self.width-40, 0, self.width, self.height], fill="yellow")
 
-        self.create_border(draw, CONFIG_ELEMENTS[self.pos][COORD])
+        self.create_border(draw)
         return image
 
     def generate_config(self):
@@ -111,7 +124,7 @@ class ImageGenerator:
                           coord[Y1] + (coord[Y2] - coord[Y1] - text_height) // 2)
         draw.text(text_position, element[NAME], fill="black", font=self.font)
 
-    def create_border(self, draw, coord, color="black", width=6):
+    def create_border(self, draw, coord=None, color="black", width=6):
         if self.selection == OUT_CELL:
             draw.rectangle([coord[X1], coord[Y1], coord[X2], coord[Y2]], outline=color, width=width)
         elif self.selection == IN_CELL:
@@ -119,36 +132,38 @@ class ImageGenerator:
         elif self.selection == WINDOW:
             draw.rectangle([0, 0, self.width, self.height], outline="red", width=width)
 
+    def navigation(self, key):
+        if self.selection == OUT_CELL:
+            if key == 6 and self.pos < 5:
+                self.pos += 1
+            elif key == 4 and self.pos > 0:
+                self.pos -= 1
+            elif key == 8 and self.pos >= 2:
+                self.pos -= 2
+            elif key == 2 and self.pos <= 3:
+                self.pos += 2
+            elif key == 9:
+                self.selection = IN_CELL
+            elif key == 7:
+                self.selection = WINDOW
+        elif self.selection == IN_CELL:
+            if key == 7:
+                self.selection = OUT_CELL
+        elif self.selection == WINDOW:
+            if key == 6 and self.mode < len(MODES) - 1:
+                self.mode += 1
+            elif key == 4 and self.mode >= 1:
+                self.mode -= 1
+            if key == 9:
+                self.selection = OUT_CELL
+
     def process(self):
-
         if self.last_key:
-            key = int(self.last_key)
+            logging.info(" key {}".format(self.last_key))
+            if isinstance(self.last_key, str) and self.last_key.isnumeric():
+                self.navigation(int(self.last_key))
 
-            if self.selection == OUT_CELL:
-                if key == 6 and self.pos < 5:
-                    self.pos += 1
-                elif key == 4 and self.pos > 0:
-                    self.pos -= 1
-                elif key == 8 and self.pos >= 2:
-                    self.pos -= 2
-                elif key == 2 and self.pos <= 3:
-                    self.pos += 2
-                elif key == 9:
-                    self.selection = IN_CELL
-                elif key == 7:
-                    self.selection = WINDOW
-            elif self.selection == IN_CELL:
-                if key == 7:
-                    self.selection = OUT_CELL
-            elif self.selection == WINDOW:
-                if key == 6 and self.mode < len(MODES) - 1:
-                    self.mode += 1
-                elif key == 4 and self.mode >= 1:
-                    self.mode -= 1
-                if key == 9:
-                    self.selection = OUT_CELL
-
-            self.last_key = None
             self.image = self.generate()
+            self.last_key = None
         return self.image
 
