@@ -1,10 +1,13 @@
 services:
   dadou-control:
-    container_name: dadou-controller-container
+    #container_name: dadou-controller-container
+    container_name: ${CONTAINER_NAME:-dadou-controller-container}
     image: dadouuu/dadou-controller-x86:latest
     build:
       context: ../../..
       dockerfile: conf/docker/x86/Dockerfile-x86
+      args:
+        GUI: ${GUI}
     #context: ../../
     environment:
       - DISPLAY=${DISPLAY}

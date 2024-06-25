@@ -8,22 +8,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9de8dbe2-a8bd-4d96-ba64-13880b4eab0a" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/conf/scripts/run-docker2.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/nodes/backup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/rpi/project.service" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/scripts/docker-stop.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/conf/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/docker/arm/Dockerfile-arm" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/arm/Dockerfile-arm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/rpi/project_bash" beforeDir="false" afterPath="$PROJECT_DIR$/conf/rpi/project_bash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/docker/arm/docker-compose-arm.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/arm/docker-compose-arm.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/docker/x86/Dockerfile-x86" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/x86/Dockerfile-x86" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/docker/x86/docker-compose-x86.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/x86/docker-compose-x86.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/conf/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/ros2/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf/ros2/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/scripts/compose-up-local.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/compose-up-local.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/buttons/button_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/buttons/button_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/gui/pillow/ImageGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/pillow/ImageGenerator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/gui/pillow/KeyboardListener.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/pillow/KeyboardListener.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/gui/pillow/TkPillowGui.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/pillow/TkPillowGui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/nodes/main_no_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/nodes/main_no_gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/deploy-ct-nogui-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/deploy-controller-nogui-pios.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/run-docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/run-docker.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/run-docker2.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/run-docker2.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/change" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/deploy-controller-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/deploy-controller-pios.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/hosts" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/hosts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/install-ct-nogui-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/install-controller-nogui-pios.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/makefile/makefile.defs" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/makefile/makefile.defs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/install-controller-nogui-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/install-controller-nogui-pios.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/install-controller-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/install-controller-pios.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/services/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/services/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,35 +70,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.pytest for test_9dof.Test9dof.test_get_values.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_glove.MyTestCase.test_glove.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_input_devices.TestInputDevices.test_glove_plugged.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_keyboard.TestKeyboard.test_keyboard.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_keys.KeysTestCase.test_screen_keys.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_oled.TestOled.test_oled.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_vibrator.MyTestCase.test_gui.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_vibrator.MyTestCase.test_vibrator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TkPillowGui.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.oled.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pil-gui.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pil_config.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tk-pillow-gui.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/dadou/Nextcloud/Didier/python/dadou_control_ros/controller/tests/circuitpython&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.pytest for test_9dof.Test9dof.test_get_values.executor": "Run",
+    "Python tests.pytest for test_glove.MyTestCase.test_glove.executor": "Run",
+    "Python tests.pytest for test_input_devices.TestInputDevices.test_glove_plugged.executor": "Run",
+    "Python tests.pytest for test_keyboard.TestKeyboard.test_keyboard.executor": "Run",
+    "Python tests.pytest for test_keys.KeysTestCase.test_screen_keys.executor": "Run",
+    "Python tests.pytest for test_oled.TestOled.test_oled.executor": "Run",
+    "Python tests.pytest for test_vibrator.MyTestCase.test_gui.executor": "Run",
+    "Python tests.pytest for test_vibrator.MyTestCase.test_vibrator.executor": "Run",
+    "Python.TkPillowGui.executor": "Debug",
+    "Python.oled.executor": "Run",
+    "Python.pil-gui.executor": "Run",
+    "Python.pil_config.executor": "Run",
+    "Python.tk-pillow-gui.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/dadou/Nextcloud/Didier/python/dadou_control_ros/conf/rpi",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="dadou_control_ros" is-module-sdk="true">
@@ -106,11 +109,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/conf/rpi" />
+      <recent name="$PROJECT_DIR$/conf/scripts" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/controller/tests/circuitpython" />
       <recent name="$PROJECT_DIR$/conf" />
-      <recent name="$PROJECT_DIR$/controller/circuit_py" />
-      <recent name="$PROJECT_DIR$/controller" />
-      <recent name="$PROJECT_DIR$/conf/ros2_dependencies" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/controller" />
@@ -340,7 +343,7 @@
       <workItem from="1719078216918" duration="5892000" />
       <workItem from="1719139956121" duration="15000" />
       <workItem from="1719140677929" duration="2216000" />
-      <workItem from="1719253012277" duration="12870000" />
+      <workItem from="1719253012277" duration="33267000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <option name="closed" value="true" />
@@ -406,7 +409,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719051657597</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update">
+      <option name="closed" value="true" />
+      <created>1719268746940</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719268746940</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update">
+      <option name="closed" value="true" />
+      <created>1719269004741</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719269004741</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -9,14 +9,15 @@ filetype==1.2.0
 numpy==1.24.3
 #opencv-python==4.7.0.72
 #pip==23.1.2
-pillow
+pillow~=10.3.0
 playsound~=1.3.0
 psutil==5.9.5
 pydub~=0.25.1
 pyserial~=3.5
 #pygame==2.4.0
 #python-dateutil~=2.8.1
-python-vlc
+python-vlc~=3.0.20123
+pynput~=1.7.7
 #pyudev==0.24.1
 #schedule==1.2.0
 #ros2 humble setuptools
