@@ -1,6 +1,7 @@
 services:
   dadou-control:
-    container_name: dadou-controller-container
+    #container_name: dadou-controller-container
+    container_name: ${CONTAINER_NAME:-dadou-controller-container}
     image: dadouuu/dadou-controller-arm:latest
     build:
       context: ../../..

@@ -2,6 +2,8 @@ FROM ros:humble-ros-base
 
 LABEL authors="dadouuu"
 
+ARG GUI
+
 EXPOSE 4421
 
 RUN mkdir /home/ros2_ws
@@ -27,12 +29,11 @@ RUN tar -xzhf /home/ros2_ws/src/controller/dadou_utils_ros.tar.gz -C /home/ros2_
     rm /home/ros2_ws/src/controller/dadou_utils_ros.tar.gz
 
 RUN apt-get update && cat /home/ros2_ws/src/controller/conf/packages.txt | xargs apt-get install -y
-
-ENV PYTHONPATH "${PYTHONPATH}:/home/ros2_ws/src"
-
 RUN pip3 install -r /home/ros2_ws/src/controller/conf/requirements.txt
 
+ENV PYTHONPATH "${PYTHONPATH}:/home/ros2_ws/src"
 ENV DISPLAY host.docker.internal:0
+ENV GUI ${GUI}
 
 ENTRYPOINT ["/bin/bash", "-c", "source /home/ros2_ws/src/controller/conf/scripts/run-docker.sh"]
 
