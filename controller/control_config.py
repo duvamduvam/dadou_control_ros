@@ -91,7 +91,7 @@ config[DOCKER_LOGGING_CONFIG_FILE] = config[LOGGING_DIRECTORY] + 'logging-docker
 if Misc.is_raspberrypi():
     #config[LOGGING_CONFIG_FILE] = config[RPI_LOGGING_CONFIG_FILE]
     config[LOGGING_FILE_NAME] = "/home/ros2_ws/log/controller.log"
-    config[LOGGING_TEST_FILE_NAME] = "/home/pi/logs/controller-test.log"
+    config[LOGGING_TEST_FILE_NAME] = "/home/pi/test/logs/controller-test.log"
 elif Misc.is_docker():
     #config[LOGGING_CONFIG_FILE] = config[DOCKER_LOGGING_CONFIG_FILE]
     config[LOGGING_FILE_NAME] = "/home/ros2_ws/log/controller.log"

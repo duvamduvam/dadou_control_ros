@@ -1,59 +1,34 @@
-    #https://www.waveshare.com/wiki/2inch_LCD_Module?Amazon
-# spidev
-# numpy
-# gpiozero
-# pillow
-
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 #import chardet
 import os
-import sys
+import sys 
 import time
 import logging
 import spidev as SPI
-#sys.path.append("..")
-from lib import LCD_2inch
+sys.path.append("..")
+from lib import LCD_2inch4
 from PIL import Image,ImageDraw,ImageFont
 
 # Raspberry Pi pin configuration:
-#din MOSI -> 19
-
-
-#origin 27 -> 26
-#RST = 24
-#DC = 25
-#origin 18 -> 9
-#BL = 9
-#bus = 0
-#device = 0
-
-#MOSI 19
-#MISO 21
-#SLCK 23
-
-RST = 24
+RST = 27
 DC = 25
-BL = 9
-bus = 0
-device = 0
-
-
+BL = 18
+bus = 0 
+device = 0 
 logging.basicConfig(level=logging.DEBUG)
 try:
     # display with hardware SPI:
     ''' Warning!!!Don't  creation of multiple displayer objects!!! '''
-    disp = LCD_2inch.LCD_2inch(spi=SPI.SpiDev(bus, device),spi_freq=10000000,rst=RST,dc=DC,bl=BL)
-    #disp = LCD_2inch.LCD_2inch()
+    #disp = LCD_2inch4.LCD_2inch4(spi=SPI.SpiDev(bus, device),spi_freq=10000000,rst=RST,dc=DC,bl=BL)
+    disp = LCD_2inch4.LCD_2inch4()
     # Initialize library.
     disp.Init()
     # Clear display.
     disp.clear()
-    #Set the backlight to 100
-    disp.bl_DutyCycle(50)
 
     # Create blank image for drawing.
-    image1 = Image.new("RGB", (disp.height, disp.width ), "WHITE")
+    image1 = Image.new("RGB", (disp.width, disp.height ), "WHITE")
     draw = ImageDraw.Draw(image1)
 
     logging.info("draw point")
@@ -89,18 +64,19 @@ try:
     draw.text((5, 160), '1234567890', fill = "GREEN",font=Font3)
     text= u"微雪电子"
     draw.text((5, 200),text, fill = "BLUE",font=Font3)
-    image1=image1.rotate(180)
+    image1=image1.rotate(0)
     disp.ShowImage(image1)
     time.sleep(3)
     logging.info("show image")
-    image = Image.open('pic/LCD_2inch.jpg')
-    image = image.rotate(180)
+    image = Image.open('pic/LCD_2inch4.jpg')
+    image = image.rotate(0)
     disp.ShowImage(image)
     time.sleep(3)
     disp.module_exit()
     logging.info("quit:")
 except IOError as e:
-    logging.info(e)
+    logging.info(e)    
 except KeyboardInterrupt:
     disp.module_exit()
     logging.info("quit:")
+    exit()

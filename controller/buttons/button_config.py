@@ -33,7 +33,7 @@ base = {
     MBL: {NAME: "ro vo", CMD: {RELAY: "pitched_voice", ANIMATION: "speak"}},
     AHL: {NAME: "wh for", CMD: {WHEELS: FORWARD}},
     AML: {NAME: "wh back", CMD: {WHEELS: BACKWARD}},
-    ABL: {NAME: "no vo", CMD: {RELAY: "normal_voice"}},
+    ABL: {NAME: "klaxon", CMD: {RELAY: "klaxon"}},
     OHL: {NAME: "bug", CMD: {ANIMATION: {TYPE: "bug"}}},
     OML: {NAME: "bug1", CMD: {ANIMATION: "bug1",
         DURATION: 5000, AUDIO: "street/promotion-vie-eternelle.mp3"}},
