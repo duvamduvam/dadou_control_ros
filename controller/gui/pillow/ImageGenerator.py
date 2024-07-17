@@ -1,6 +1,6 @@
 import logging
 import random
-from PIL import Image, ImageTk, ImageDraw, ImageFont
+from PIL import Image, ImageOps, ImageDraw, ImageFont
 from dadou_utils_ros.utils_static import X1, Y1, X2, Y2, TYPE, BUTTON, NAME, RESTART, SPEED, RANDOM, NECK, BRIGHTNESS, \
     SLIDE, DEFAULT, LIGHTS, COORD, CONFIG, WINDOW, CELL, OUT_CELL, IN_CELL, KEYBOARD, PLAYLIST, START, CMD
 
@@ -32,11 +32,12 @@ class ImageGenerator:
         self.selection = WINDOW
 
         self.pos = 0
-
+        self.has_change = True
         self.image = self.generate()
 
     def set_last_key(self, key):
         self.last_key = key
+        self.has_change = True
 
     def generate(self):
         logging.info("generate mode {} {}".format(self.mode, MODES[self.mode]))
@@ -48,15 +49,16 @@ class ImageGenerator:
             return self.generate_playlist()
 
     def generate_keyboard(self):
-        image = Image.new("RGB", (self.width, self.height), "white")
+        image = Image.new("RGB", (self.width, self.height), "red")
         draw = ImageDraw.Draw(image)
 
         #header
         draw.rectangle([0, 0, self.width, 40], fill="yellow")
         draw.rectangle([self.width-40, 0, self.width, self.height], fill="yellow")
 
-        text_position = (50, 110)
-        draw.text(xy=text_position, text=self.get_key(NAME), fill="black", font=self.font_big)
+        if self.last_key:
+            text_position = (50, 110)
+            draw.text(xy=text_position, text=self.get_key(NAME), fill="black", font=self.font_big)
 
         #self.node.publish(self.get_key(CMD))
 
@@ -81,7 +83,7 @@ class ImageGenerator:
         return image
 
     def generate_config(self):
-        image = Image.new("RGB", (self.width, self.height), "white")
+        image = Image.new("RGB", (self.width, self.height), "blue")
         draw = ImageDraw.Draw(image)
 
         largeur_cellule = self.width // self.cols
@@ -132,6 +134,7 @@ class ImageGenerator:
         elif self.selection == WINDOW:
             draw.rectangle([0, 0, self.width, self.height], outline="red", width=width)
 
+
     def navigation(self, key):
         if self.selection == OUT_CELL:
             if key == 6 and self.pos < 5:
@@ -163,7 +166,10 @@ class ImageGenerator:
             if isinstance(self.last_key, str) and self.last_key.isnumeric():
                 self.navigation(int(self.last_key))
 
+        if self.has_change:
             self.image = self.generate()
+            self.image = ImageOps.mirror(self.image)
+            self.has_change = False
             self.last_key = None
-        return self.image
+            return self.image
 

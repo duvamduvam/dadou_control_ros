@@ -17,14 +17,28 @@ from lib import LCD_2inch
 from PIL import Image,ImageDraw,ImageFont
 
 # Raspberry Pi pin configuration:
+#din MOSI -> 19
+
 
 #origin 27 -> 26
+#RST = 24
+#DC = 25
+#origin 18 -> 9
+#BL = 9
+#bus = 0
+#device = 0
+
+#MOSI 19
+#MISO 21
+#SLCK 23
+
 RST = 24
 DC = 25
-#origin 18 -> 9
 BL = 9
 bus = 0
 device = 0
+
+
 logging.basicConfig(level=logging.DEBUG)
 try:
     # display with hardware SPI:

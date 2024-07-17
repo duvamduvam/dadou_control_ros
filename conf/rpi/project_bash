@@ -1,4 +1,4 @@
-################# PROJECT PARAMS ###################
+################# PROJECT ALIAS ###################
 
 alias s='source ~/.bashrc'
 alias b='cd ~/ros2_ws && colcon build && s'
@@ -7,6 +7,10 @@ alias start='/home/pi/scripts/compose-up-pi.sh'
 alias stop='sudo docker stop dadou-controller-container'
 alias restart='stop && start'
 alias log='tail -f ~/ros2_ws/log/controller.log'
+alias lt='tail -f ~/test/logs/controller-test.log'
 alias in='sudo docker exec -it dadou-controller-container /bin/bash'
+alias build='~/scripts/compose-up-pi.sh build'
+
+alias r='sudo reboot'
 
 alias ll='ls -alh'

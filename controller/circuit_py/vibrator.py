@@ -11,7 +11,7 @@ class Vibrator:
     vibrating = False
     ascending = True
     last_vibration = 0
-    vibration_time_step = 0.003
+    vibration_time_step = 0.03
 
     def __init__(self, pin):
         self.vibrator = pwmio.PWMOut(pin, frequency=50)

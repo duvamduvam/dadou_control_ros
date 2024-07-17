@@ -28,12 +28,15 @@ RUN tar -xzhf /home/ros2_ws/src/controller/dadou_utils_ros.tar.gz -C /home/ros2_
 
 RUN apt-get update && cat /home/ros2_ws/src/controller/conf/packages.txt | xargs apt-get install -y
 
+RUN ln -fs /usr/share/zoneinfo/Europe/Paris /etc/localtime && \
+    dpkg-reconfigure -f noninteractive tzdata
+
 ENV PYTHONPATH "${PYTHONPATH}:/home/ros2_ws/src"
 
 RUN pip3 install -r /home/ros2_ws/src/controller/conf/requirements.txt
 
 # install circuitpython dependencies when no server x found
-RUN python /home/ros2_ws/src/controller/conf/scripts/install_no_x_requirements.py
+#RUN python /home/ros2_ws/src/controller/conf/scripts/install_no_x_requirements.py
 
 ENV DISPLAY host.docker.internal:0
 

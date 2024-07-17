@@ -1,6 +1,7 @@
 import json
 import logging
 import logging.config
+import os
 
 import rclpy
 from rclpy.node import Node
@@ -8,6 +9,7 @@ from robot_interfaces.msg._string_time import StringTime
 import tkinter as tk
 
 from controller.control_config import config, PUBLISHER_LIST
+from controller.gui.pillow.TkPillowGui import PillowGuiApp
 from dadou_utils_ros.logging_conf import LoggingConf
 from dadou_utils_ros.utils_static import (AUDIO, FACE, ROBOT_LIGHTS, RELAY, LEFT_EYE, NECK, RIGHT_EYE, LEFT_ARM, \
     RIGHT_ARM, ANIMATION, LOGGING_CONFIG_FILE, WHEELS, DURATION, LOGGING_FILE_NAME, WHEEL_LEFT, WHEEL_RIGHT, RANDOM,
@@ -26,7 +28,10 @@ class Ros2TkinterApp(Node):
             if not RANDOM in p:
                 self.action_publishers[p] = self.create_publisher(StringTime, p, 10)
 
-        self.gui = SmallGui(self)
+        if os.environ.get('DISPLAY'):
+            self.gui = SmallGui(self)
+        else:
+            self.gui = PillowGuiApp(self)
 
         self.timer = self.create_timer(0.1, self.timer_callback)
 

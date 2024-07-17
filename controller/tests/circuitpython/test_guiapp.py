@@ -1,5 +1,6 @@
 import logging
 import logging.config
+import time
 import unittest
 from os import wait
 
@@ -13,9 +14,10 @@ class TestOled(unittest.TestCase):
 
     logging.config.dictConfig(LoggingConf.get(config[LOGGING_TEST_FILE_NAME], "tests"))
     def test_oled(self):
-        app = PillowGuiApp()
+        app = PillowGuiApp(None)
         while True:
-            wait(1)
+            app.process()
+            time.sleep(0.1)
 
 
 if __name__ == '__main__':
