@@ -80,10 +80,10 @@ class SmallGui(tk.Tk):
             ControlFactory().message.send(InputMessagesList().pop_msg())
 
     def check_inputs(self):
-        self.after(100, self.check_inputs)
-        input = self.serial_inputs.check_inputs()
-        if input:
-            self.show_popup(input)
+        self.after(50, self.check_inputs)
+        press = self.serial_inputs.check_inputs()
+        if press:
+            self.show_popup(press)
 
     def create_menu(self, items, width):
         selected_menu = tk.StringVar()

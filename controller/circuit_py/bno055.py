@@ -6,11 +6,13 @@ read Accelerometer and report mouse movement.
 ref:
 https://docs.circuitpython.org/projects/hid/en/latest/_modules/adafruit_hid/mouse.html
 """
+import logging
 import time
 from math import atan2, degrees
 import board
-import adafruit_bno055
+
 import busio
+from controller.circuit_py.adafruit_bno055_bis import BNO055_I2C
 
 
 class BNO055:
@@ -20,7 +22,7 @@ class BNO055:
 
     def __init__(self):
         i2c = busio.I2C(board.SCL, board.SDA)
-        self.sensor = adafruit_bno055.BNO055_I2C(i2c, address=0x18)
+        self.sensor = BNO055_I2C(i2c, address=0x18)
 
     def vector_2_degrees(self, x, y):
         angle = degrees(atan2(y, x))
@@ -60,8 +62,8 @@ class BNO055:
             #euler : 0 (y -> rotation latéral) | 2 (z bas / haut)
             self.mesure = self.sensor.euler
 
-            #print("Gyroscope (rad/sec): {}".format(self.sensor.gyro))
-            #print("Euler angle: {}".format(self.sensor.euler))
+            logging.info("Gyroscope (rad/sec): {}".format(self.sensor.gyro))
+            logging.info("Euler angle: {}".format(self.sensor.euler))
             self.last_time = round(time.time() * 1000)
             return {"turn": self.mesure[1], "speed": self.mesure[2]}
         except Exception as e:

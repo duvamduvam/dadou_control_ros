@@ -1,7 +1,6 @@
 import logging
 import os
 import time
-from PIL import Image, ImageDraw, ImageFont
 import spidev as SPI
 
 from controller.circuit_py.glove_keys import GloveKeys
@@ -20,7 +19,6 @@ class PillowGuiApp:
 
         if os.environ.get('DISPLAY'):
             import tkinter as tk
-            from controller.gui.pillow.KeyboardListener import KeyboardListener
 
             self.root = tk.Tk()
             self.init_tkinter()
@@ -31,15 +29,22 @@ class PillowGuiApp:
             import board
             #print(dir(board))
             #self.glove_keys = GloveKeys((("x", "w", "v"), ("r", "q", "p"), ("o", "n", "m"), ("u", "t", "s")),
-            #        (board.D16, board.D20, board.D21),
-            #         (board.D6, board.D13, board.D19, board.D26))
-            self.glove_keys = GloveKeys((("droite", "bas", "gauche"), ("haut", "back", "enter")),
+            self.glove_keys = GloveKeys(((11, 12, 13), (14, 15, 16), (17, 18, 19), (20, 21, 22)),
+                    (board.D16, board.D20, board.D21),
+                     (board.D6, board.D13, board.D19, board.D26))
+            self.control_keys = GloveKeys(((2, 4, 6), (9, 8, 7)),
                     (board.D17, board.D27, board.D22),
                     (board.D15, board.D18))
 
             self.vibrator = Vibrator(board.D14)
             self.oled = self.init_oled()
             self.process_oled()
+
+    def get_key(self):
+        key = self.glove_keys.check()
+        if not key:
+            key = self.control_keys.check()
+        return key
 
     def init_tkinter(self):
         self.canvas = tk.Canvas(self.root, width=SCREEN_WIDTH, height=SCREEN_HEIGHT)
@@ -68,6 +73,7 @@ class PillowGuiApp:
 
     def update(self):
         self.process()
+        #pass
 
 
     def process_test(self):
@@ -86,7 +92,7 @@ class PillowGuiApp:
 
     def process_oled(self):
         try:
-            key = self.glove_keys.check()
+            key = self.get_key()
             if key:
                 self.vibrator.click()
                 self.image_generator.set_last_key(key[0])

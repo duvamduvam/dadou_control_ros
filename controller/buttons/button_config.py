@@ -25,7 +25,7 @@ CONTROL_CONFIG = [[DEFAULT, PLAYLIST, "VIDE"], ["VIDE", "VIDE", "VIDE"], ["VIDE"
 PLAYLIST_CONFIG = [config[PLAYLIST_LIST], ["pub1", "VIDE", "VIDE"]]
 
 base = {
-    IHL: {NAME: "vo off", CMD: {RELAY: "off", ANIMATION: False}},
+    IHL: {NAME: "vo off", CMD: {RELAY: "off"}},
     IML: {NAME: "ca va", CMD: {AUDIO: 'ca-va'}},
     IBL: {NAME: "sympa toi", CMD: {ANIMATION: 'crazy'}},
     MHL: {NAME: "wh right", CMD: {WHEELS: RIGHT}},

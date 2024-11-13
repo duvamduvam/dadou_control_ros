@@ -23,9 +23,15 @@ services:
       - ../../../medias:/home/ros2_ws/src/controller/medias
       - ../../../conf/ros2_dependencies/robot_interfaces:/home/ros2_ws/src/robot_interfaces
       - ../../../../../log:/home/ros2_ws/log
-    #  - /dev/:/dev
+      - ../../../../../build:/home/ros2_ws/build
+      - ../../../../../install:/home/ros2_ws/install
+      #- /usr/include/linux/spi:/usr/include/linux/spi/
+      #- /usr/lib/modules:/usr/lib/modules
+      #- /usr/lib/python3/dist-packages:/usr/lib/python3/dist-packages
+
+      #- /home/pi/ros2_ws/python-lib:/usr/local/lib/python3.10/dist-packages
+      #fix spidev missing after restart /usr/local/lib/python3.10/dist-packages
+      #- /home/pi/ros2_ws/python-lib:/usr/local/lib/python3.10/dist-packages
     #  - /dev/null:/folder/fileToBeExcluded
-    #accès device ACMO gpio serial by id disque etc ...
     privileged: true
- #   devices:
- #    - /dev
+

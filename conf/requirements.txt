@@ -1,20 +1,12 @@
-#### circuit-python
-adafruit-circuitpython-bno055
-adafruit-circuitpython-matrixkeypad
-spidev~=3.6
-RPi.GPIO
-
-#board~=1.0
-colorlog==6.8.2
-filetype==1.2.0
+colorlog~=6.8.2
+filetype~=1.2.0
 #gTTS==2.3.2
 #imageio==2.31.1
-numpy==2.0.0
+numpy~=2.0.1
 #opencv-python==4.7.0.72
 #pip==23.1.2
-pillow~=10.3.0
 playsound~=1.3.0
-psutil==6.0.0
+psutil~=6.0.0
 pydub~=0.25.1
 pyserial~=3.5
 #pygame==2.4.0
@@ -26,10 +18,4 @@ pynput~=1.7.7
 #ros2 humble setuptools
 setuptools==70.1.1
 simpleaudio~=1.0.4
-
 tk
-#uvloop==0.17.0
-#websocket-client==1.6.0
-#websockets==11.0.3
-#websocket~=0.2.1
-#xmltodict~=0.13.0

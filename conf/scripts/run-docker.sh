@@ -4,6 +4,10 @@ CHANGE_FILE=/home/ros2_ws/src/controller/controller/change
 
 source /opt/ros/humble/setup.sh
 
+#TODO improve quickfix spidev missing after reboot
+#pip3 install spidev
+
+
 #le fihcier n'est pas trouvé alors qu'il existe
 #source /opt/ros/humble/setup.sh
 if [ -f "$CHANGE_FILE" ]; then

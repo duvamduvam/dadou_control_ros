@@ -9,7 +9,7 @@ from robot_interfaces.msg._string_time import StringTime
 import tkinter as tk
 
 from controller.control_config import config, PUBLISHER_LIST
-from controller.gui.pillow.TkPillowGui import PillowGuiApp
+#from controller.gui.pillow.TkPillowGui import PillowGuiApp
 from dadou_utils_ros.logging_conf import LoggingConf
 from dadou_utils_ros.utils_static import (AUDIO, FACE, ROBOT_LIGHTS, RELAY, LEFT_EYE, NECK, RIGHT_EYE, LEFT_ARM, \
     RIGHT_ARM, ANIMATION, LOGGING_CONFIG_FILE, WHEELS, DURATION, LOGGING_FILE_NAME, WHEEL_LEFT, WHEEL_RIGHT, RANDOM,
@@ -31,11 +31,13 @@ class Ros2TkinterApp(Node):
         if os.environ.get('DISPLAY'):
             self.gui = SmallGui(self)
         else:
-            self.gui = PillowGuiApp(self)
+            pass
+            #self.gui = PillowGuiApp(self)
 
         self.timer = self.create_timer(0.1, self.timer_callback)
 
     def timer_callback(self):
+        #pass
         self.gui.update()
 
     def publish(self, animations_msg):

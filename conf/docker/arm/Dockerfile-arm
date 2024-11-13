@@ -4,43 +4,48 @@ LABEL authors="dadouuu"
 
 EXPOSE 4421
 
-RUN mkdir /home/ros2_ws
-RUN mkdir /home/ros2_ws/src
-RUN mkdir /home/ros2_ws/src/controller
-RUN mkdir /home/ros2_ws/src/controller/resource
+# Créer les répertoires nécessaires
+RUN mkdir -p /home/ros2_ws/src/controller/resource
 
+# Définir le répertoire de travail
 WORKDIR /home/ros2_ws/
 
+# Copier les fichiers et répertoires nécessaires
 COPY controller /home/ros2_ws/src/controller/controller/
 COPY conf/ /home/ros2_ws/src/controller/conf/
 COPY json/ /home/ros2_ws/src/controller/json/
 COPY medias/ /home/ros2_ws/src/controller/medias/
-
 COPY conf/ros2/setup.py /home/ros2_ws/src/controller/
 COPY conf/ros2/package.xml /home/ros2_ws/src/controller/
 COPY conf/ros2/setup.cfg /home/ros2_ws/src/controller/
 COPY conf/ros2/resource/controller /home/ros2_ws/src/controller/resource
 COPY conf/ros2_dependencies/ /home/ros2_ws/src/
-
 COPY dadou_utils_ros.tar.gz /home/ros2_ws/src/controller/
+
+# Extraire l'archive et la supprimer
 RUN tar -xzhf /home/ros2_ws/src/controller/dadou_utils_ros.tar.gz -C /home/ros2_ws/src/controller/ && \
     rm /home/ros2_ws/src/controller/dadou_utils_ros.tar.gz
 
-RUN apt-get update && cat /home/ros2_ws/src/controller/conf/packages.txt | xargs apt-get install -y
+# Mettre à jour les paquets et installer les dépendances
+RUN apt-get update && \
+    xargs -a /home/ros2_ws/src/controller/conf/packages.txt apt-get install -y
 
+# Configurer le fuseau horaire
 RUN ln -fs /usr/share/zoneinfo/Europe/Paris /etc/localtime && \
     dpkg-reconfigure -f noninteractive tzdata
 
+# Définir PYTHONPATH
 ENV PYTHONPATH "${PYTHONPATH}:/home/ros2_ws/src"
 
-RUN pip3 install -r /home/ros2_ws/src/controller/conf/requirements.txt
+# Installer les dépendances Python
+RUN python3 -m pip install --upgrade pip
+RUN pip3 install -r /home/ros2_ws/src/controller/conf/requirements-no-gui.txt
 
-# install circuitpython dependencies when no server x found
-#RUN python /home/ros2_ws/src/controller/conf/scripts/install_no_x_requirements.py
+# Commande pour installer les dépendances CircuitPython
+#CMD ["/usr/bin/python3", "/home/ros2_ws/src/controller/conf/scripts/install_no_x_requirements.py"]
 
+# Définir l'affichage pour les applications GUI
 ENV DISPLAY host.docker.internal:0
 
+# Script d'entrée pour lancer le conteneur
 ENTRYPOINT ["/bin/bash", "-c", "source /home/ros2_ws/src/controller/conf/scripts/run-docker.sh"]
-
-#COPY controller/test.py .
-#ENTRYPOINT ["python3", "test.py"]
