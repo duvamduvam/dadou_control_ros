@@ -8,43 +8,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9de8dbe2-a8bd-4d96-ba64-13880b4eab0a" name="Changes" comment="Create config for X11 and no X11 controller">
-      <change afterPath="$PROJECT_DIR$/conf/scripts/update-requirements.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/lib/LCD_2inch4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/lib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/lib/lcdconfig.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/tests/circuitpython/2inch4_LCD_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/deploy-controller-nogui-test-pios.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/deploy-test-test-pios.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medias/oled/LCD_2inch4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/requirements-gpio.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/conf/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/docker/arm/Dockerfile-arm" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/arm/Dockerfile-arm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/packages.txt" beforeDir="false" afterPath="$PROJECT_DIR$/conf/packages.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/docker/arm/docker-compose-arm.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/arm/docker-compose-arm.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/docker/x86/Dockerfile-x86" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/x86/Dockerfile-x86" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/requirement-gpio.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/conf/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/msg/StringTime.msg" beforeDir="false" afterPath="$PROJECT_DIR$/conf/ros2_dependencies/robot_interfaces/msg/StringTime.msg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/rpi/project_bash" beforeDir="false" afterPath="$PROJECT_DIR$/conf/rpi/project_bash" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/scripts/bashrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/compose-up-local.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/compose-up-local.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/compose-up-pi.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/compose-up-pi.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/install_no_x_requirements.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/install_no_x_requirements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/run-docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/run-docker.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/buttons/button_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/buttons/button_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/circuit_py/vibrator.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/circuit_py/vibrator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/circuit_py/bno055.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/circuit_py/bno055.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/control_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/control_config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/pillow/ImageGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/pillow/ImageGenerator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/gui/pillow/TkPillowGui.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/pillow/TkPillowGui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/gui/small_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/small_gui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/nodes/main_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/nodes/main_gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/tests/circuitpython/oled.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/tests/circuitpython/oled.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/tests/circuitpython/test_oled.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/tests/circuitpython/test_guiapp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/TODO" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/TODO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/deploy-controller-nogui-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/deploy-controller-nogui-pios.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/deploy-controller-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/deploy-controller-pios.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/deploy-controller-test-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/deploy-controller-test-pios.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/deploy-robot-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/deploy-robot-pios.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/hosts" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/hosts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/install-controller-nogui-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/install-controller-nogui-pios.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/install-controller-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/install-controller-pios.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/install-robot-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/install-robot-pios.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/services/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/services/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/usb-audio/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/usb-audio/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/utils/status.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/utils/status.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/tests/circuitpython/test_9dof.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/tests/circuitpython/test_9dof.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/utils_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/utils_static.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +76,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Python tests.pytest for test_9dof.Test9dof.test_get_values.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_9dof.Test9dof.test_get_values2.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.pytest for test_glove.MyTestCase.test_glove.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.pytest for test_guiapp.TestOled.test_oled.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.pytest for test_input_devices.TestInputDevices.test_glove_plugged.executor&quot;: &quot;Run&quot;,
@@ -99,6 +85,7 @@
     &quot;Python tests.pytest for test_oled.TestOled.test_oled.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.pytest for test_vibrator.MyTestCase.test_gui.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.pytest for test_vibrator.MyTestCase.test_vibrator.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_9dof.py.executor&quot;: &quot;Run&quot;,
     &quot;Python.2inch4_LCD_test.executor&quot;: &quot;Run&quot;,
     &quot;Python.TkPillowGui.executor&quot;: &quot;Debug&quot;,
     &quot;Python.oled.executor&quot;: &quot;Run&quot;,
@@ -108,14 +95,14 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/dadou/Nextcloud/Didier/python/dadou_control_ros/medias/oled&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dadou/Nextcloud/Didier/python/dadou_utils_ros&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ssh.settings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -129,11 +116,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/activate-spi" />
       <recent name="$PROJECT_DIR$/medias/oled" />
       <recent name="$PROJECT_DIR$/controller/lib" />
       <recent name="$PROJECT_DIR$/controller/tests/circuitpython" />
       <recent name="$PROJECT_DIR$/conf/scripts" />
-      <recent name="$PROJECT_DIR$/conf/rpi" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/controller" />
@@ -144,73 +131,40 @@
     </key>
   </component>
   <component name="RunManager" selected="Python tests.pytest for test_guiapp.TestOled.test_oled">
-    <configuration name="2inch4_LCD_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_9dof.Test9dof.test_get_values" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="dadou_control_ros" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/controller/tests/circuitpython" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/controller/tests/circuitpython/2inch4_LCD_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_9dof.Test9dof.test_get_values&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="TkPillowGui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_9dof.Test9dof.test_get_values2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="dadou_control_ros" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/controller/gui/pillow" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/controller/gui/pillow/TkPillowGui.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="oled" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="dadou_control_ros" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/controller/tests/circuitpython" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/controller/tests/circuitpython/oled.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_9dof.Test9dof.test_get_values2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_guiapp.TestOled.test_oled" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -249,13 +203,31 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_9dof.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="dadou_control_ros" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/controller/tests/circuitpython" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/controller/tests/circuitpython/test_9dof.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest for test_guiapp.TestOled.test_oled" />
+        <item itemvalue="Python tests.pytest for test_9dof.Test9dof.test_get_values" />
+        <item itemvalue="Python tests.pytest for test_9dof.Test9dof.test_get_values2" />
+        <item itemvalue="Python tests.pytest in test_9dof.py" />
         <item itemvalue="Python tests.pytest for test_vibrator.MyTestCase.test_vibrator" />
-        <item itemvalue="Python.TkPillowGui" />
-        <item itemvalue="Python.oled" />
-        <item itemvalue="Python.2inch4_LCD_test" />
       </list>
     </recent_temporary>
   </component>
@@ -369,7 +341,31 @@
       <workItem from="1721051018289" duration="7615000" />
       <workItem from="1721082978042" duration="1515000" />
       <workItem from="1721174320845" duration="9647000" />
-      <workItem from="1721252601767" duration="1016000" />
+      <workItem from="1721252601767" duration="2464000" />
+      <workItem from="1721305767578" duration="2758000" />
+      <workItem from="1721328207280" duration="4510000" />
+      <workItem from="1721340531186" duration="1728000" />
+      <workItem from="1721515789893" duration="2760000" />
+      <workItem from="1721558339986" duration="601000" />
+      <workItem from="1721570979401" duration="1181000" />
+      <workItem from="1721592858261" duration="6841000" />
+      <workItem from="1721718164684" duration="1698000" />
+      <workItem from="1721941971544" duration="6106000" />
+      <workItem from="1722001632719" duration="8000" />
+      <workItem from="1722007834218" duration="8784000" />
+      <workItem from="1722037120623" duration="9361000" />
+      <workItem from="1722102140171" duration="822000" />
+      <workItem from="1722109030590" duration="337000" />
+      <workItem from="1722160173906" duration="1134000" />
+      <workItem from="1722205218019" duration="1797000" />
+      <workItem from="1723119979610" duration="14000" />
+      <workItem from="1723230891527" duration="1441000" />
+      <workItem from="1724142264881" duration="46000" />
+      <workItem from="1728658269981" duration="711000" />
+      <workItem from="1728685970300" duration="646000" />
+      <workItem from="1728757125149" duration="1222000" />
+      <workItem from="1728769162148" duration="665000" />
+      <workItem from="1731535180154" duration="591000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <option name="closed" value="true" />
@@ -467,7 +463,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719327071433</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Create config for X11 and no X11 controller">
+      <option name="closed" value="true" />
+      <created>1721253722792</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1721253722792</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,7 +507,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/controller/nodes/main_gui.py</url>
-          <line>45</line>
+          <line>47</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -512,9 +516,9 @@
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/controller/gui/pillow/TkPillowGui.py</url>
-          <line>91</line>
-          <option name="timeStamp" value="34" />
+          <url>file://$PROJECT_DIR$/controller/gui/pillow/ImageGenerator.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -525,15 +529,17 @@
     <SUITE FILE_PATH="coverage/dadou_control_ros$pytest_for_test_keyboard_TestKeyboard_test_keyboard.coverage" NAME="pytest for test_keyboard.TestKeyboard.test_keyboard Coverage Results" MODIFIED="1716584845752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/tests" />
     <SUITE FILE_PATH="coverage/dadou_control_ros$pytest_for_test_oled_TestOled_test_oled.coverage" NAME="pytest for test_oled.TestOled.test_oled Coverage Results" MODIFIED="1719257628218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/tests/circuitpython" />
     <SUITE FILE_PATH="coverage/dadou_control_ros$TkPillowGui.coverage" NAME="TkPillowGui Coverage Results" MODIFIED="1721058938330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/gui/pillow" />
-    <SUITE FILE_PATH="coverage/dadou_control_ros$pytest_for_test_9dof_Test9dof_test_get_values.coverage" NAME="pytest for test_9dof.Test9dof.test_get_values Coverage Results" MODIFIED="1716228993830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/tests/circuitpython" />
+    <SUITE FILE_PATH="coverage/dadou_control_ros$pytest_for_test_9dof_Test9dof_test_get_values.coverage" NAME="pytest for test_9dof.Test9dof.test_get_values Coverage Results" MODIFIED="1721516962243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/tests/circuitpython" />
     <SUITE FILE_PATH="coverage/dadou_control_ros$pil_config.coverage" NAME="pil_config Coverage Results" MODIFIED="1718750982199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/gui/pillow" />
     <SUITE FILE_PATH="coverage/dadou_control_ros$pytest_for_test_vibrator_MyTestCase_test_gui.coverage" NAME="pytest for test_vibrator.MyTestCase.test_gui Coverage Results" MODIFIED="1716299955658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/tests/circuitpython" />
+    <SUITE FILE_PATH="coverage/dadou_control_ros$pytest_in_test_9dof_py.coverage" NAME="pytest in test_9dof.py Coverage Results" MODIFIED="1721339475013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/tests/circuitpython" />
     <SUITE FILE_PATH="coverage/dadou_control_ros$pil_gui.coverage" NAME="pil-gui Coverage Results" MODIFIED="1718750694621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/gui/pillow" />
     <SUITE FILE_PATH="coverage/dadou_control_ros$tk_pillow_gui.coverage" NAME="TkPillowGui Coverage Results" MODIFIED="1718922034867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/gui/pillow" />
     <SUITE FILE_PATH="coverage/dadou_control_ros$pytest_for_test_glove_MyTestCase_test_glove.coverage" NAME="pytest for test_glove.MyTestCase.test_glove Coverage Results" MODIFIED="1716032056580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/tests/circuitpython" />
     <SUITE FILE_PATH="coverage/dadou_control_ros$2inch4_LCD_test.coverage" NAME="2inch4_LCD_test Coverage Results" MODIFIED="1720825091209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/tests/circuitpython" />
     <SUITE FILE_PATH="coverage/dadou_control_ros$pytest_for_test_input_devices_TestInputDevices_test_glove_plugged.coverage" NAME="pytest for test_input_devices.TestInputDevices.test_glove_plugged Coverage Results" MODIFIED="1712170441171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/tests" />
     <SUITE FILE_PATH="coverage/dadou_control_ros$pytest_for_test_keys_KeysTestCase_test_screen_keys.coverage" NAME="pytest for test_keys.KeysTestCase.test_screen_keys Coverage Results" MODIFIED="1716231934114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/tests/circuitpython" />
-    <SUITE FILE_PATH="coverage/dadou_control_ros$pytest_for_test_guiapp_TestOled_test_oled.coverage" NAME="pytest for test_guiapp.TestOled.test_oled Coverage Results" MODIFIED="1721252951409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/tests/circuitpython" />
+    <SUITE FILE_PATH="coverage/dadou_control_ros$pytest_for_test_9dof_Test9dof_test_get_values2.coverage" NAME="pytest for test_9dof.Test9dof.test_get_values2 Coverage Results" MODIFIED="1721340382448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/tests/circuitpython" />
+    <SUITE FILE_PATH="coverage/dadou_control_ros$pytest_for_test_guiapp_TestOled_test_oled.coverage" NAME="pytest for test_guiapp.TestOled.test_oled Coverage Results" MODIFIED="1721943557284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controller/tests/circuitpython" />
   </component>
 </project>

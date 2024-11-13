@@ -19,3 +19,9 @@ pynput~=1.7.7
 setuptools==70.1.1
 simpleaudio~=1.0.4
 tk
+# circuit-python
+pillow~=10.3.0
+adafruit-circuitpython-bno055
+adafruit-circuitpython-matrixkeypad
+RPi.GPIO
+spidev~=3.6

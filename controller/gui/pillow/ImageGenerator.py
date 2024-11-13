@@ -10,6 +10,20 @@ CONFIG_ELEMENTS = [{NAME: RESTART, TYPE: BUTTON},
                    {NAME: LIGHTS, TYPE: SLIDE, DEFAULT: 0.3},
                    {NAME: NECK, TYPE: SLIDE, DEFAULT: 50},
                    {NAME: "truc", TYPE: BUTTON}]
+
+CONFIG_BUTTONS = {11: {NAME: "test1"},
+                  12: {NAME: "test2"},
+                  13: {NAME: "test3"},
+                  14: {NAME: "test4"},
+                  15: {NAME: "test5"},
+                  16: {NAME: "test6"},
+                  17: {NAME: "test7"},
+                  18: {NAME: "test8"},
+                  19: {NAME: "test9"},
+                  20: {NAME: "test10"},
+                  21: {NAME: "test11"},
+                  22: {NAME: "test12"}}
+
 BUTTON_DEFAULT_COLOR = "blue"
 SLIDER_DEFAULT_COLOR = "yellow"
 
@@ -58,16 +72,19 @@ class ImageGenerator:
 
         if self.last_key:
             text_position = (50, 110)
-            draw.text(xy=text_position, text=self.get_key(NAME), fill="black", font=self.font_big)
+            draw.text(xy=text_position, text=str(self.get_key()), fill="black", font=self.font_big)
 
         #self.node.publish(self.get_key(CMD))
 
         self.create_border(draw)
         return image
 
-    def get_key(self, key):
-        if isinstance(self.last_key, dict) and key in self.last_key:
-            return self.last_key[key]
+    def get_key(self):
+        #if isinstance(self.last_key, dict) and key in self.last_key:
+        #    return self.last_key[key]
+        #else:
+        if self.last_key in CONFIG_BUTTONS:
+            return CONFIG_BUTTONS[self.last_key][NAME]
         else:
             return self.last_key
 
@@ -163,8 +180,8 @@ class ImageGenerator:
     def process(self):
         if self.last_key:
             logging.info(" key {}".format(self.last_key))
-            if isinstance(self.last_key, str) and self.last_key.isnumeric():
-                self.navigation(int(self.last_key))
+            if isinstance(self.last_key, int): # and self.last_key.isnumeric():
+                self.navigation(self.last_key)
 
         if self.has_change:
             self.image = self.generate()

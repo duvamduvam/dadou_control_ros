@@ -20,7 +20,7 @@ if [ "$1" == "build" ]; then
 else
   printf "lunch controller docker \n"
   #sudo docker compose -f $DOCKER_COMPOSE_FILE up >> $LOG_PATH/$LOG_FILE
-  sudo docker compose -f $DOCKER_COMPOSE_FILE up
+  sudo docker compose -f $DOCKER_COMPOSE_FILE up --no-recreate
 fi
 
 set +x

@@ -26,6 +26,6 @@ if [ "$MODE" == "build" ]; then
   sudo CONTAINER_NAME=$CONTAINER_NAME GUI=$GUI docker compose -f /home/dadou/Nextcloud/Didier/python/dadou_control_ros/conf/docker/x86/docker-compose-x86.yml up --build
 else
   echo "lunch docker container $CONTAINER_NAME GUI=$GUI"
-  sudo CONTAINER_NAME=$CONTAINER_NAME GUI=$GUI docker compose -f /home/dadou/Nextcloud/Didier/python/dadou_control_ros/conf/docker/x86/docker-compose-x86.yml up
+  sudo CONTAINER_NAME=$CONTAINER_NAME GUI=$GUI docker compose -f /home/dadou/Nextcloud/Didier/python/dadou_control_ros/conf/docker/x86/docker-compose-x86.yml up --no-recreate
 fi
 

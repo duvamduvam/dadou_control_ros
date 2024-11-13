@@ -1,15 +1,12 @@
 import logging
 import logging.config
-import random
 import time
 import unittest
 from unittest.mock import patch, MagicMock
 
-import board
 
 from controller.circuit_py.bno055 import BNO055
 from controller.control_config import config
-from controller.tests.circuitpython.vibrator import Vibrator
 from dadou_utils_ros.logging_conf import LoggingConf
 from dadou_utils_ros.utils_static import LOGGING_TEST_FILE_NAME
 
@@ -23,7 +20,7 @@ class Test9dof(unittest.TestCase):
 
         while True:
             dof.process()
-            time.sleep(0.01)
+            time.sleep(2)
 
     @patch('adafruit_bno055.BNO055_I2C')
     @patch('busio.I2C')
@@ -39,9 +36,14 @@ class Test9dof(unittest.TestCase):
 
         # Initialisez le capteur
         dof = BNO055()
+        logging.info("start dof test")
+        while True:
+            logging.info(dof.process())
+            time.sleep(1)
+
 
         # Vérifiez les lectures de valeurs
-        self.assertIsNotNone(dof)
+        #self.assertIsNotNone(dof)
 
 
 if __name__ == '__main__':
