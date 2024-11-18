@@ -8,28 +8,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9de8dbe2-a8bd-4d96-ba64-13880b4eab0a" name="Changes" comment="Create config for X11 and no X11 controller">
-      <change afterPath="$PROJECT_DIR$/conf/requirements-gpio.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/templates/rpi/cmdline.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/conf/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/docker/arm/Dockerfile-arm" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/arm/Dockerfile-arm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/docker/arm/docker-compose-arm.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/arm/docker-compose-arm.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/docker/x86/Dockerfile-x86" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/x86/Dockerfile-x86" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/requirement-gpio.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/conf/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/rpi/project_bash" beforeDir="false" afterPath="$PROJECT_DIR$/conf/rpi/project_bash" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/scripts/compose-up-local.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/compose-up-local.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/scripts/compose-up-pi.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/compose-up-pi.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/scripts/install_no_x_requirements.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/install_no_x_requirements.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/scripts/run-docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/run-docker.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/rpi/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/conf/rpi/config.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/buttons/button_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/buttons/button_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/circuit_py/bno055.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/circuit_py/bno055.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/control_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/control_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/gui/pillow/ImageGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/pillow/ImageGenerator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/gui/pillow/TkPillowGui.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/pillow/TkPillowGui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/gui/small_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/small_gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/nodes/main_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/nodes/main_gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/tests/circuitpython/test_9dof.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/tests/circuitpython/test_9dof.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/utils_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/utils_static.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/install-controller-pios.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/install-controller-pios.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/dir_struct/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/dir_struct/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/screen-config/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/screen-config/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/usb-audio/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/roles/usb-audio/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/templates/rpi/project_bash" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/templates/rpi/project_bash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/com/serial_device.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/com/serial_device.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +45,21 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/dadou_utils_ros" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -102,7 +105,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ssh.settings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -366,6 +369,14 @@
       <workItem from="1728757125149" duration="1222000" />
       <workItem from="1728769162148" duration="665000" />
       <workItem from="1731535180154" duration="591000" />
+      <workItem from="1731535868919" duration="216000" />
+      <workItem from="1731537881506" duration="2013000" />
+      <workItem from="1731663222792" duration="152000" />
+      <workItem from="1731780099980" duration="822000" />
+      <workItem from="1731781205920" duration="29000" />
+      <workItem from="1731871756083" duration="307000" />
+      <workItem from="1731872267724" duration="2020000" />
+      <workItem from="1731881444405" duration="7585000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <option name="closed" value="true" />
@@ -471,7 +482,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721253722792</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Create config for X11 and no X11 controller">
+      <option name="closed" value="true" />
+      <created>1731535932700</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1731535932700</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

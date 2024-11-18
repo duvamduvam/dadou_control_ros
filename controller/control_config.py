@@ -204,7 +204,7 @@ config[DEVICES] = [
         },
         {
             NAME: GLOVE_LEFT,
-            SERIAL_ID: 'usb-Raspberry_Pi_Pico_E4627857633F1933-if00',
+            SERIAL_ID: 'usb-Raspberry_Pi_Pico_E4624881D3300730-if00',
             MSG_SIZE: 0,
             TYPE: INPUT_KEY,
             BAUD_RATE: 115200
