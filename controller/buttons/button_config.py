@@ -18,7 +18,7 @@ INPUT_KEYS = [[IBL, MBL, ABL, OBL],
         [IML, MML, AML, OML],
         [IHL, MHL, AHL, OHL]]
 
-KEYS_MAPPING = {'a': IHL, 'b': IML, 'c': IBL, 'd': MHL, 'e': MML, 'f': MBL, 'g': AHL, 'h': AML, 'i': ABL, 'j': OHL, 'k': OML, 'l': OBL,
+KEYS_MAPPING = {'2': IHL, '1': IML, '12': IBL, '5': MHL, '4': MML, '3': MBL, '8': AHL, '7': AML, '6': ABL, '11': OHL, '10': OML, '9': OBL,
                 'm': IHR, 'n': IMR, 'o': IBR, 'p': MHR, 'q': MMR, 'r': MBR, 's': AHR, 't': AMR, 'u': ABR, 'v': OHR, 'w': OMR, 'x': OBR}
 
 CONTROL_CONFIG = [[DEFAULT, PLAYLIST, "VIDE"], ["VIDE", "VIDE", "VIDE"], ["VIDE", "VIDE", "VIDE"]]
