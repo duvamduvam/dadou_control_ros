@@ -28,9 +28,19 @@ COPY dadou_utils_ros.tar.gz /home/ros2_ws/src/controller/
 RUN tar -xzhf /home/ros2_ws/src/controller/dadou_utils_ros.tar.gz -C /home/ros2_ws/src/controller/ && \
     rm /home/ros2_ws/src/controller/dadou_utils_ros.tar.gz
 
-RUN apt-get update && cat /home/ros2_ws/src/controller/conf/packages.txt | xargs apt-get install -y
-RUN python -m pip install --upgrade pip
+#RUN apt-get update && cat /home/ros2_ws/src/controller/conf/packages.txt | xargs apt-get install -y
+#RUN python -m pip install --upgrade pip
+#RUN pip3 install -r /home/ros2_ws/src/controller/conf/requirements-no-gui.txt
+RUN apt-get update && apt-get install -y software-properties-common
+RUN add-apt-repository universe && apt-get update
+
+RUN cat /home/ros2_ws/src/controller/conf/packages.txt | xargs apt-get install -y
+
+RUN apt-get update && apt-get install -y python3-tk python3-pil python3-pil.imagetk
+RUN pip install --no-cache-dir --upgrade --force-reinstall pillow
+
 RUN pip3 install -r /home/ros2_ws/src/controller/conf/requirements-no-gui.txt
+RUN pip3 install -r /home/ros2_ws/src/controller/conf/requirements.txt
 
 ENV PYTHONPATH "${PYTHONPATH}:/home/ros2_ws/src"
 ENV DISPLAY host.docker.internal:0

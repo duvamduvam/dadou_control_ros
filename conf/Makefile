@@ -14,6 +14,8 @@ s:
 
 d:
 	echo "change" > $(ROBOT_ROS_DIR)/controller/change
+	echo "change" > $(ROBOT_ROS_DIR)/controller/change
+	echo "$(SERVER)" > $(ROBOT_ROS_DIR)/controller/$(SERVER)
 	cat $(ROBOT_ROS_DIR)/conf/requirements.txt >  $(ROBOT_ROS_DIR)/conf/requirements-no-gui.txt
 	cat $(ROBOT_ROS_DIR)/conf/requirements-gpio.txt >>  $(ROBOT_ROS_DIR)/conf/requirements-no-gui.txt
 	ansible-playbook $(UTILS_DIR)/ansible/deploy-${ANSIBLE}-pios.yml -i $(UTILS_DIR)/ansible/hosts
@@ -23,6 +25,7 @@ dt:
 
 i:
 	echo "change" > $(ROBOT_ROS_DIR)/controller/change
+	echo "$(SERVER)" > $(ROBOT_ROS_DIR)/controller/$(SERVER)
 	ansible-playbook $(UTILS_DIR)/ansible/install-${ANSIBLE}-pios.yml -i $(UTILS_DIR)/ansible/hosts -e "target_hosts=$(SERVER)"
 
 sr:
@@ -37,8 +40,8 @@ run:
 
 build:
 	echo "change" > $(ROBOT_ROS_DIR)/controller/change
-	cat $(ROBOT_ROS_DIR)/conf/requirements.txt >  $(ROBOT_ROS_DIR)/conf/requirements-no-gui.txt
-	cat $(ROBOT_ROS_DIR)/conf/requirements-gpio.txt >>  $(ROBOT_ROS_DIR)/conf/requirements-no-gui.txt
+	#cat $(ROBOT_ROS_DIR)/conf/requirements.txt >  $(ROBOT_ROS_DIR)/conf/requirements-no-gui.txt
+	#cat $(ROBOT_ROS_DIR)/conf/requirements-gpio.txt >>  $(ROBOT_ROS_DIR)/conf/requirements-no-gui.txt
 	sudo CONTAINER_NAME=dadou-$(SERVER)-container GUI=$(GUI) MODE=build $(ROBOT_ROS_DIR)/conf/scripts/compose-up-local.sh
 
 in:

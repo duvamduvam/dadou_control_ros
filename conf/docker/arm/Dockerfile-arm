@@ -5,6 +5,7 @@ LABEL authors="dadouuu"
 EXPOSE 4421
 
 # Créer les répertoires nécessaires
+RUN mkdir /home/scripts/
 RUN mkdir -p /home/ros2_ws/src/controller/resource
 
 # Définir le répertoire de travail
@@ -28,7 +29,9 @@ RUN tar -xzhf /home/ros2_ws/src/controller/dadou_utils_ros.tar.gz -C /home/ros2_
 
 # Mettre à jour les paquets et installer les dépendances
 RUN apt-get update && \
-    xargs -a /home/ros2_ws/src/controller/conf/packages.txt apt-get install -y
+xargs -a /home/ros2_ws/src/controller/conf/packages.txt apt-get install -y
+
+#RUN rosdep update && rosdep install --from-paths /home/ros2_ws/ --ignore-src -r -y
 
 # Configurer le fuseau horaire
 RUN ln -fs /usr/share/zoneinfo/Europe/Paris /etc/localtime && \
@@ -39,13 +42,17 @@ ENV PYTHONPATH "${PYTHONPATH}:/home/ros2_ws/src"
 
 # Installer les dépendances Python
 RUN python3 -m pip install --upgrade pip
-RUN pip3 install -r /home/ros2_ws/src/controller/conf/requirements-no-gui.txt
+RUN pip3 install --no-cache-dir -r /home/ros2_ws/src/controller/conf/requirements.txt
+RUN pip3 install --no-cache-dir -r /home/ros2_ws/src/controller/conf/requirements-gpio.txt
 
 # Commande pour installer les dépendances CircuitPython
 #CMD ["/usr/bin/python3", "/home/ros2_ws/src/controller/conf/scripts/install_no_x_requirements.py"]
 
 # Définir l'affichage pour les applications GUI
-ENV DISPLAY host.docker.internal:0
+#ENV DISPLAY host.docker.internal:0
+
+#CMD ["python3", "-c", "import tkinter; import spidev; import numpy; print('Tous les imports sont OK !')"]
 
 # Script d'entrée pour lancer le conteneur
-ENTRYPOINT ["/bin/bash", "-c", "source /home/ros2_ws/src/controller/conf/scripts/run-docker.sh"]
+ENTRYPOINT ["/bin/bash", "-c", "source /home/ros2_ws/src/controller/conf/scripts/launch-ros-in-docker.sh"]
+#ENTRYPOINT ["python3", "/home/ros2_ws/src/controller/controller/test.py"]

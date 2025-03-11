@@ -2,12 +2,14 @@ services:
   dadou-control:
     #container_name: dadou-controller-container
     container_name: ${CONTAINER_NAME:-dadou-controller-container}
-    image: dadouuu/dadou-controller-arm:latest
+    image: dadouuu/dadou-controller-arm:local
     build:
       context: ../../..
       dockerfile: conf/docker/arm/Dockerfile-arm
     environment:
-      - DISPLAY=${DISPLAY}
+      - DISPLAY=:0
+      - QT_X11_NO_MITSHM=1
+      - XAUTHORITY=/tmp/.docker.xauth
     #ports:
     #  - "80:80"
     #  - "8000-9000:8000-9000"
@@ -15,16 +17,23 @@ services:
 
     volumes:
       - /dev:/dev
+      - /proc:/proc
       - /tmp/.X11-unix:/tmp/.X11-unix
+      - ~/.Xauthority:/root/.Xauthority
       - ../../../conf:/home/ros2_ws/src/controller/conf
       - ../../../controller:/home/ros2_ws/src/controller/controller
       - ../../../dadou_utils_ros:/home/ros2_ws/src/controller/dadou_utils_ros
       - ../../../json:/home/ros2_ws/src/controller/json
       - ../../../medias:/home/ros2_ws/src/controller/medias
       - ../../../conf/ros2_dependencies/robot_interfaces:/home/ros2_ws/src/robot_interfaces
+      #- ../../../../robot_bringup:/home/ros2_ws/src/robot_bringup
       - ../../../../../log:/home/ros2_ws/log
       - ../../../../../build:/home/ros2_ws/build
       - ../../../../../install:/home/ros2_ws/install
+      #- ../../../../../python-lib:/home/ros2_ws/python-lib
+      #- ../../../../../python-lib/site-packages:/usr/local/lib/python3.10/site-packages
+      #- ../../../../../python-lib/local:/usr/local/lib/python3.10/dist-packages
+
       #- /usr/include/linux/spi:/usr/include/linux/spi/
       #- /usr/lib/modules:/usr/lib/modules
       #- /usr/lib/python3/dist-packages:/usr/lib/python3/dist-packages
