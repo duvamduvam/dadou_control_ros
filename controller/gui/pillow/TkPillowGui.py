@@ -1,12 +1,22 @@
 import logging
 import os
+import sys
 import time
 import spidev as SPI
 
+import board
+from controller.lib.LCD_2inch4 import LCD_2inch4
 from controller.circuit_py.glove_keys import GloveKeys
 from controller.circuit_py.vibrator import Vibrator
+
+import PIL
+from PIL import ImageTk
+
+if 'unittest' in sys.modules:
+    import tkinter as tk
+
 from controller.gui.pillow.ImageGenerator import ImageGenerator
-from controller.lib.LCD_2inch4 import LCD_2inch4
+#from controller.gui.pillow.KeyboardListener import KeyboardListener
 
 SCREEN_WIDTH = 320
 SCREEN_HEIGHT = 240
@@ -17,28 +27,34 @@ class PillowGuiApp:
         self.node = node
         self.image_generator = ImageGenerator()
 
-        if os.environ.get('DISPLAY'):
-            import tkinter as tk
+        self.last_image = None
+        self.new_key = False
 
-            self.root = tk.Tk()
-            self.init_tkinter()
-            self.process_test()
-            self.root.mainloop()
+        #if os.environ.get('DISPLAY'):
+        #
+        #    self.root = tk.Tk()
+        #    self.init_tkinter()
+        #    self.process_test()
+        #    self.root.mainloop()
 
-        else:
-            import board
-            #print(dir(board))
-            #self.glove_keys = GloveKeys((("x", "w", "v"), ("r", "q", "p"), ("o", "n", "m"), ("u", "t", "s")),
-            self.glove_keys = GloveKeys(((11, 12, 13), (14, 15, 16), (17, 18, 19), (20, 21, 22)),
+        #else:
+        #import board
+        #from controller.lib.LCD_2inch4 import LCD_2inch4
+        #from controller.circuit_py.glove_keys import GloveKeys
+        #from controller.circuit_py.vibrator import Vibrator
+
+        #print(dir(board))
+        #self.glove_keys = GloveKeys((("x", "w", "v"), ("r", "q", "p"), ("o", "n", "m"), ("u", "t", "s")),
+        self.glove_keys = GloveKeys(((11, 12, 13), (14, 15, 16), (17, 18, 19), (20, 21, 22)),
                     (board.D16, board.D20, board.D21),
                      (board.D6, board.D13, board.D19, board.D26))
-            self.control_keys = GloveKeys(((2, 4, 6), (9, 8, 7)),
+        self.control_keys = GloveKeys(((2, 4, 6), (9, 8, 7)),
                     (board.D17, board.D27, board.D22),
                     (board.D15, board.D18))
 
-            self.vibrator = Vibrator(board.D14)
-            self.oled = self.init_oled()
-            self.process_oled()
+        self.vibrator = Vibrator(board.D14)
+        self.oled = self.init_oled()
+        self.process_oled()
 
     def get_key(self):
         key = self.glove_keys.check()
@@ -50,7 +66,7 @@ class PillowGuiApp:
         self.canvas = tk.Canvas(self.root, width=SCREEN_WIDTH, height=SCREEN_HEIGHT)
         self.canvas.pack()
 
-        self.keyboard_listener = KeyboardListener(self.image_generator)
+        #self.keyboard_listener = KeyboardListener(self.image_generator)
 
     def init_oled(self):
         RST = 24
@@ -66,10 +82,10 @@ class PillowGuiApp:
         return oled
 
     def process(self):
-        if os.environ.get('DISPLAY'):
-            self.process_test()
-        else:
-            self.process_oled()
+        #if os.environ.get('DISPLAY'):
+        #    self.process_test()
+        #else:
+        self.process_oled()
 
     def update(self):
         self.process()
@@ -78,14 +94,19 @@ class PillowGuiApp:
 
     def process_test(self):
         try:
+            self.new_key = False
             key = self.keyboard_listener.get_key()
             if key:
+                logging.info("new key: %s" % key)
                 self.image_generator.set_last_key(key)
+                self.new_key = True
 
-            image = self.image_generator.process()
-            photo = ImageTk.PhotoImage(image)
-            self.canvas.create_image(0, 0, anchor=tk.NW, image=photo)
-            self.canvas.image = photo
+            if self.new_key or not self.last_image:
+                self.last_image = self.image_generator.process()
+                self.last_image.save("/home/dadou/tmp/pil-image.jpg", "JPEG")
+                photo = ImageTk.PhotoImage(self.last_image)
+                self.canvas.create_image(0, 0, anchor=tk.NW, image=photo)
+                self.canvas.image = photo
             self.root.after(100, self.process_test)
         except Exception as e:
             logging.error(e, exc_info=True)

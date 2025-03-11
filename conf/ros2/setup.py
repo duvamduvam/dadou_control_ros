@@ -8,12 +8,12 @@ package_name = 'controller'
 # Vérifier la variable d'environnement DISPLAY et l'argument --use-gui
 use_gui = os.environ.get('GUI') and os.environ.get('GUI') == "yes"
 has_display = os.environ.get('DISPLAY')
-if has_display and use_gui:
-    controller_node = "controller.nodes.main_gui:main"
-else:
-    controller_node = "controller.nodes.main_no_gui:main"
+#if has_display and use_gui:
+#    controller_node = "controller.nodes.main_gui:main"
+#else:
+#    controller_node = "controller.nodes.main_no_gui:main"
 
-#controller_node = "controller.nodes.main_gui:main"
+controller_node = "controller.nodes.main_gui:main"
 
 setup(
     name=package_name,
@@ -29,7 +29,11 @@ setup(
     maintainer_email='pi@todo.todo',
     description='TODO: Package description',
     license='TODO: License declaration',
-    tests_require=['pytest'],
+    tests_require=[
+        'pytest',
+        'numpy',
+        'spidev'
+    ],
     entry_points={
         'console_scripts': [
             "controller_node = {}".format(controller_node)
