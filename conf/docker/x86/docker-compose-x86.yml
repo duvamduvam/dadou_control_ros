@@ -8,9 +8,12 @@ services:
       dockerfile: conf/docker/x86/Dockerfile-x86
       args:
         GUI: ${GUI}
+        CONTAINER_NAME: ${CONTAINER_NAME}
     #context: ../../
     environment:
       - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+      - XAUTHORITY=/tmp/.docker.xauth
     #ports:
     #  - "80:80"
     #  - "8000-9000:8000-9000"

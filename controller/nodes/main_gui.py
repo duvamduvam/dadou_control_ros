@@ -2,6 +2,7 @@ import json
 import logging
 import logging.config
 import os
+import socket
 import sys
 
 import rclpy
@@ -27,22 +28,21 @@ class Ros2TkinterApp(Node):
         else:
             logging.config.dictConfig(LoggingConf.get(config[LOGGING_FILE_NAME], "controller"))
         super().__init__("controller_node")
-        logging.info("start controller node")
+        hostname = socket.gethostname()
+        logging.info("start controller node {}".format(hostname))
 
         self.action_publishers = {}
         for p in PUBLISHER_LIST:
             if not RANDOM in p:
                 self.action_publishers[p] = self.create_publisher(StringTime, p, 10)
 
-        #repertoire_courant = os.getcwd()
-        #logging.info("Répertoire courant : {}", repertoire_courant)
-        if not os.path.isfile('src/controller/controller/gr'):
+        if "gl" in hostname or not Misc.is_raspberrypi():
             #    os.environ.get('DISPLAY')):
             logging.info("start small gui")
             self.gui = SmallGui(self)
         else:
-            from controller.gui.pillow.TkPillowGui import PillowGuiApp
             logging.info("start pillow gui")
+            from controller.gui.pillow.TkPillowGui import PillowGuiApp
             self.gui = PillowGuiApp(self)
 
         self.timer = self.create_timer(0.1, self.timer_callback)
