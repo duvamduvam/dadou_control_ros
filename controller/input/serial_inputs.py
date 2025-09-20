@@ -45,7 +45,7 @@ class SerialInputs:
                     if serial_input == SLIDERS:
                         msg = self.send_sliders(msg)
                     if serial_input == JOYSTICK:
-                        msg = self.send_joystick(msg)
+                        msg = self.send_gamepad(msg)
                     logging.info("input {} : {}".format(serial_input, msg))
                     if add_to_list:
                         #self.node.publish({DEVICE: device.name, serial_input: msg})
@@ -60,7 +60,7 @@ class SerialInputs:
         self.input_key = None
         return msg
 
-    def send_joystick(self, msg: str):
+    def send_gamepad(self, msg: str):
         if len(msg) == 4:
             x = Misc.mapping(int(msg[0:2]), 10, 99, -100, 100)
             y = Misc.mapping(int(msg[2:4]), 10, 99, -100, 100)

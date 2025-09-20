@@ -3,6 +3,7 @@ import tkinter as tk
 import time
 from tkinter import TOP, BOTH, ttk, LEFT
 
+from controller.input.usb_gamepad import USBGamepad
 from dadou_utils_ros.com.input_messages_list import InputMessagesList
 from dadou_utils_ros.misc import Misc
 from dadou_utils_ros.utils.time_utils import TimeUtils
@@ -30,6 +31,7 @@ class SmallGui(tk.Tk):
         self.node = node
 
         self.serial_inputs = SerialInputs(self.node)
+        self.usb_gamepad = USBGamepad()
 
         #self.geometry("480x320")
         self.geometry("640x480")
@@ -82,6 +84,8 @@ class SmallGui(tk.Tk):
     def check_inputs(self):
         self.after(50, self.check_inputs)
         press = self.serial_inputs.check_inputs()
+        if not press:
+            press = self.usb_gamepad.check_inputs()
         if press:
             self.show_popup(press)
 

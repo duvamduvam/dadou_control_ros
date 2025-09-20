@@ -89,6 +89,11 @@ config[DOCKER_LOGGING_CONFIG_FILE] = config[LOGGING_DIRECTORY] + 'logging-docker
 config[DOCKER_LOGGING_CONFIG_FILE] = config[LOGGING_DIRECTORY] + 'logging-docker-arm64.conf'
 
 if Misc.is_raspberrypi():
+    config[LOGGING_TEST_FILE_NAME] = '/home/pi/test/logs/robot-test.log'
+else:
+    config[LOGGING_TEST_FILE_NAME] = '/home/dadou/Nextcloud/Didier/python/dadou_control_ros/test_logs/control-test.log'
+
+if Misc.is_raspberrypi():
     #config[LOGGING_CONFIG_FILE] = config[RPI_LOGGING_CONFIG_FILE]
     config[LOGGING_FILE_NAME] = "/home/ros2_ws/log/controller.log"
     config[LOGGING_TEST_FILE_NAME] = "/home/pi/test/logs/controller-test.log"
@@ -97,8 +102,13 @@ elif Misc.is_docker():
     config[LOGGING_FILE_NAME] = "/home/ros2_ws/log/controller.log"
 else:
     #config[LOGGING_CONFIG_FILE] = config[LAPTOP_LOGGING_CONFIG_FILE]
-    config[LOGGING_FILE_NAME] = "/home/ros2_ws/log/controller.log"
-    config[LOGGING_TEST_FILE_NAME] = "/home/dadou/tmp/controller-test.log"
+     config[LOGGING_FILE_NAME] = "/home/ros2_ws/log/controller.log"
+    # Write test logs inside the repository to avoid permission issues
+# try:
+#        cwd = os.getcwd()
+#    except Exception:
+#        cwd = "."
+#    config[LOGGING_TEST_FILE_NAME] = os.path.join(cwd, "test_logs", "controller-test.log")
 
 config[PATHS] = {
         VISUALS: config[VISUAL_DIRECTORY] + "visuals/",
@@ -236,4 +246,3 @@ config[DEVICES] = [
 
 #else:
 #    logging.error("can't find system type {}".format(config[SYSTEM]))
-

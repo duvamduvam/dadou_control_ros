@@ -77,7 +77,7 @@ class KeyboardWindow(tk.Frame):
         self.check_plugged_device()
         self.check_internet()
         self.check_glove_input()
-        #self.check_joystick_input()
+        #self.check_self.gamepad_input()
         self.check_sliders_input()
 
     def create_cell(self, grid, x, y, name):
@@ -144,8 +144,8 @@ class KeyboardWindow(tk.Frame):
     #            self.right_panel_middle.config(text=msg)
     #            ControlFactory().message.send_multi_ws({KEY: msg})
 
-    """def check_joystick_input(self):
-        self.after(100, self.check_joystick_input)
+    """def check_self.gamepad_input(self):
+        self.after(100, self.check_self.gamepad_input)
         joy = self.deviceManager.get_device(JOY)
         if joy:
             msg = joy.get_msg_separator()

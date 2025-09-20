@@ -45,8 +45,8 @@ RUN pip3 install -r /home/ros2_ws/src/controller/conf/requirements.txt
 ENV PYTHONPATH "${PYTHONPATH}:/home/ros2_ws/src"
 ENV DISPLAY host.docker.internal:0
 ENV GUI ${GUI}
+ENV CONTAINER_NAME ${CONTAINER_NAME}
 
-ENTRYPOINT ["/bin/bash", "-c", "source /home/ros2_ws/src/controller/conf/scripts/run-docker.sh"]
+ENTRYPOINT ["/bin/bash", "-c", "source /home/ros2_ws/src/controller/conf/scripts/launch-local-docker.sh"]
+#ENTRYPOINT ["python3", "/home/ros2_ws/src/controller/controller/test.py"]
 
-#COPY controller/test.py .
-#ENTRYPOINT ["python3", "test.py"]
