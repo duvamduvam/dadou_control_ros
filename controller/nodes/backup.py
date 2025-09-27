@@ -17,7 +17,7 @@ from controller.input.serial_inputs import SerialInputs
 from controller.nodes.abstract_control_node import AbstractControllerNode
 from dadou_utils_ros.logging_conf import LoggingConf
 from dadou_utils_ros.utils_static import NECK, HEAD_PWM_NB, DEFAULT_POS, I2C_ENABLED, PWM_CHANNELS_ENABLED, \
-    SERVOS, MAX_POS, SERVO, NAME, LOGGING_FILE_NAME, DURATION, CONTROL, DEFAULT
+    SERVOS, MAX_POS, SERVO, NAME, LOGGING_FILE_NAME, DURATION, CONTROL, DEFAULT, GLOVE
 from robot.actions.servo import Servo
 from robot.robot_config import config
 
@@ -32,10 +32,10 @@ class ControlNoGuiNode(AbstractControllerNode):
         for p in PUBLISHER_LIST:
             self.action_publishers[p] = self.create_publisher(StringTime, p, 10)
 
-        self.glove_keys = GloveKeys(((Buttons.get(DEFAULT, "x"), Buttons.get(DEFAULT, "w"), Buttons.get(DEFAULT, "v")),
-                                (Buttons.get(DEFAULT, "r"), Buttons.get(DEFAULT, "q"), Buttons.get(DEFAULT, "p")),
-                                (Buttons.get(DEFAULT, "o"), Buttons.get(DEFAULT, "n"), Buttons.get(DEFAULT, "m")),
-                                (Buttons.get(DEFAULT, "u"), Buttons.get(DEFAULT, "t"), Buttons.get(DEFAULT, "s"))),
+        self.glove_keys = GloveKeys(((Buttons.get(GLOVE, "x"), Buttons.get(GLOVE, "w"), Buttons.get(GLOVE, "v")),
+                                (Buttons.get(GLOVE, "r"), Buttons.get(GLOVE, "q"), Buttons.get(GLOVE, "p")),
+                                (Buttons.get(GLOVE, "o"), Buttons.get(GLOVE, "n"), Buttons.get(GLOVE, "m")),
+                                (Buttons.get(GLOVE, "u"), Buttons.get(GLOVE, "t"), Buttons.get(GLOVE, "s"))),
                              (board.GP10, board.GP11, board.GP12),
                              (board.GP6, board.GP7, board.GP8, board.GP9))
 

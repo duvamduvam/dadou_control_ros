@@ -3,7 +3,7 @@ import logging
 import board
 import digitalio
 
-from controller.buttons.button_config import KEYS_MAPPING
+from controller.buttons.button_config import GLOVE_MAPPING
 from controller.control_config import BUTTONS_MAPPING
 from controller.control_factory import ControlFactory
 from dadou_utils_ros.com.input_messages_list import InputMessagesList
