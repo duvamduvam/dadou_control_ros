@@ -62,6 +62,6 @@ class TestUSBGamePad(unittest.TestCase):
 
     def test_active_inputs(self):
         for _ in range(200):
-            result = self.usb_gamepad.active_inputs()
+            result = self.usb_gamepad.check_inputs()
             time.sleep(0.1)
 

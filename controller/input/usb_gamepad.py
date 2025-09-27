@@ -1,160 +1,87 @@
 import os
 import pygame
-import time
 import logging
-from dataclasses import dataclass
-from typing import Optional, Dict, List, Any
-from dadou_utils_ros.utils_static import USB_GAMEPAD
+from typing import Optional, Dict, Any
 
-@dataclass
-class ControllerMapping:
-    # Required
-    a_button: int
-    lx_axis: int
-    ly_axis: int
-    # Optional buttons
-    b_button: Optional[int] = None
-    x_button: Optional[int] = None
-    y_button: Optional[int] = None
-    start_button: Optional[int] = None
-    select_button: Optional[int] = None
-    l1_button: Optional[int] = None
-    r1_button: Optional[int] = None
-    l2_button: Optional[int] = None
-    r2_button: Optional[int] = None
-    # Optional axes
-    rx_axis: Optional[int] = None
-    ry_axis: Optional[int] = None
-    l2_axis: Optional[int] = None
-    r2_axis: Optional[int] = None
-    # Axis orientation
-    invert_ly: bool = True
-    invert_ry: bool = True
+from controller.buttons.button_config import Buttons, XBOX_MAPPING, GamepadMapping, GAMEPAD_MAPPING
+from dadou_utils_ros.utils_static import GAMEPAD, A, B, X, Y, L1, L2, R1, R2, START, SELECT, UP, DOWN, \
+    LEFT, RIGHT, LX, LY, RX, RY, CONNECTED, XBOX, MODE
 
 
-MAPPINGS: Dict[str, ControllerMapping] = {
-    # Xbox-like (souvent A=0, B=1, X=2, Y=3)
-    "xbox": ControllerMapping(
-        a_button=0,
-        b_button=1,
-        x_button=2,
-        y_button=4,
-        start_button=7,
-        select_button=6,
-        l1_button=40,
-        r1_button=5,
-        # L2/R2 analog triggers commonly on axes 2 and 5
-        l2_axis=2,
-        r2_axis=5,
-        lx_axis=0,
-        ly_axis=1,
-        rx_axis=3,
-        ry_axis=4,
-    ),
-    # PlayStation (souvent Cross/X=0, Circle=1, Square=2, Triangle=3)
-    # Ici, on mappe:
-    #   A -> Cross (0), B -> Circle (1), X -> Square (2), Y -> Triangle (3)
-    #   START -> Options (9), SELECT -> Share (8)
-    "playstation": ControllerMapping(
-        a_button=0,
-        b_button=1,
-        x_button=2,
-        y_button=3,
-        start_button=9,
-        select_button=8,
-        l1_button=4,
-        r1_button=5,
-        # DS4/DS5 often expose L2/R2 as axes; choose indices avoiding rx/ry
-        l2_axis=3,
-        r2_axis=4,
-        lx_axis=0,
-        ly_axis=1,
-        rx_axis=2,
-        ry_axis=5,
-    ),
-    # Nintendo/Switch-Pro (souvent B=0, A=1, Y=2, X=3)
-    # On mappe la touche "A" logique sur index 1.
-    # START -> Plus (+) = 9, SELECT -> Moins (-) = 8
-    "switch": ControllerMapping(
-        a_button=1,
-        b_button=0,
-        x_button=3,
-        y_button=2,
-        start_button=9,
-        select_button=8,
-        l1_button=4,
-        r1_button=5,
-        l2_axis=4,
-        r2_axis=5,
-        lx_axis=0,
-        ly_axis=1,
-        rx_axis=2,
-        ry_axis=3,
-    ),
-    # GameCube via adaptateur (varie selon drivers; hypothèse courante)
-    "gamecube": ControllerMapping(
-        a_button=0,
-        b_button=1,
-        x_button=3,
-        y_button=2,
-        start_button=7,
-        select_button=None,
-        l1_button=None,
-        r1_button=None,
-        l2_axis=4,
-        r2_axis=5,
-        lx_axis=0,
-        ly_axis=1,
-        rx_axis=2,
-        ry_axis=3,
-    ),
-    # Fallback générique
-    "generic": ControllerMapping(
-        a_button=0,
-        b_button=1,
-        x_button=2,
-        y_button=3,
-        start_button=7,
-        select_button=6,
-        l1_button=4,
-        r1_button=5,
-        l2_axis=2,
-        r2_axis=5,
-        lx_axis=0,
-        ly_axis=1,
-        rx_axis=2,
-        ry_axis=3,
-    ),
+def _normalize_button_name(symbol: str) -> str:
+    if isinstance(symbol, str):
+        return symbol.upper()
+    return str(symbol)
+
+
+def _normalize_axis_name(symbol: str) -> str:
+    if isinstance(symbol, str):
+        return symbol.upper()
+    return str(symbol)
+
+
+BUTTON_NAME_MAP = {
+    A: _normalize_button_name(A),
+    B: _normalize_button_name(B),
+    X: _normalize_button_name(X),
+    Y: _normalize_button_name(Y),
+    L1: _normalize_button_name(L1),
+    L2: _normalize_button_name(L2),
+    R1: _normalize_button_name(R1),
+    R2: _normalize_button_name(R2),
+    START: _normalize_button_name(START),
+    SELECT: _normalize_button_name(SELECT),
+    MODE : _normalize_button_name(MODE),
+    UP: _normalize_button_name(UP),
+    DOWN: _normalize_button_name(DOWN),
+    LEFT: _normalize_button_name(LEFT),
+    RIGHT: _normalize_button_name(RIGHT),
 }
 
+JOYSTICK_NAME_MAP = {
+    LX: _normalize_axis_name(LX),
+    LY: _normalize_axis_name(LY),
+    RX: _normalize_axis_name(RX),
+    RY: _normalize_axis_name(RY),
+}
 
-BUTTON_KEYS = (
-    "A",
-    "B",
-    "X",
-    "Y",
-    "L1",
-    "L2",
-    "R1",
-    "R2",
-    "START",
-    "SELECT",
-    "UP",
-    "DOWN",
-    "LEFT",
-    "RIGHT",
-)
+BUTTON_KEYS = tuple(BUTTON_NAME_MAP.values())
+JOYSTICK_KEYS = tuple(JOYSTICK_NAME_MAP.values())
+CONNECTED_KEY = str(CONNECTED)
 
-JOYSTICK_KEYS = ("LX", "LY", "RX", "RY")
+BUTTON_ATTR_MAP = {
+    BUTTON_NAME_MAP[A]: "a_button",
+    BUTTON_NAME_MAP[B]: "b_button",
+    BUTTON_NAME_MAP[X]: "x_button",
+    BUTTON_NAME_MAP[Y]: "y_button",
+    BUTTON_NAME_MAP[L1]: "l1_button",
+    BUTTON_NAME_MAP[L2]: "l2_button",
+    BUTTON_NAME_MAP[R1]: "r1_button",
+    BUTTON_NAME_MAP[R2]: "r2_button",
+    BUTTON_NAME_MAP[START]: "start_button",
+    BUTTON_NAME_MAP[SELECT]: "select_button",
+    BUTTON_NAME_MAP[MODE]: "mode_button",
+}
 
+AXIS_ATTR_MAP = {
+    JOYSTICK_NAME_MAP[LX]: "lx_axis",
+    JOYSTICK_NAME_MAP[LY]: "ly_axis",
+    JOYSTICK_NAME_MAP[RX]: "rx_axis",
+    JOYSTICK_NAME_MAP[RY]: "ry_axis",
+}
+
+TRIGGER_AXIS_ATTR_MAP = {
+    BUTTON_NAME_MAP[L2]: "l2_axis",
+    BUTTON_NAME_MAP[R2]: "r2_axis",
+}
 
 class USBGamepad:
-    logger = logging.getLogger()
 
-    def __init__(self, controller_type: str = "auto"):
+    def __init__(self, node=None, controller_type: str = "auto"):
         os.environ["SDL_AUDIODRIVER"] = "dummy"
         os.environ["SDL_VIDEODRIVER"] = "dummy"
         pygame.init()
+        self.node = node
         #if pygame.mixer.get_init():
         #    pygame.mixer.quit()
         #try:
@@ -162,16 +89,21 @@ class USBGamepad:
         #except Exception:
         #    pass
         #pygame.joystick.init()
-
+        self.raw_state = {}
         self.gamepad: Optional[pygame.joystick.Joystick] = None
         self._warned_no_gamepad = False
         self.controller_type = controller_type.lower() if controller_type else "auto"
-        self.mapping: ControllerMapping = MAPPINGS["generic"]
         # Neutral references to filter hardware bias/drift
         self._axis_neutral: Dict[str, Optional[int]] = {axis: None for axis in JOYSTICK_KEYS}
         self._axis_neutral_snap = 4
-        self._trigger_neutral: Dict[str, Optional[float]] = {"L2": None, "R2": None}
+        self._trigger_neutral: Dict[str, Optional[float]] = {
+            BUTTON_NAME_MAP[L2]: None,
+            BUTTON_NAME_MAP[R2]: None,
+        }
         self._trigger_threshold = 0.25
+        self._raw_axis_log_threshold = 0.2
+        self.mapping: GamepadMapping = XBOX_MAPPING
+        self._prev_raw_logged = None
 
         if pygame.joystick.get_count() == 0:
             logging.info("Aucune manette détectée.")
@@ -183,13 +115,44 @@ class USBGamepad:
         logging.info(f"Manette détectée : {name}")
 
         detected_type = self._detect_type_from_name(name) if self.controller_type == "auto" else self.controller_type
-        self.mapping = MAPPINGS.get(detected_type, MAPPINGS["generic"])
+        self.mapping = GAMEPAD_MAPPING.get(detected_type, XBOX_MAPPING)
+        if detected_type not in GAMEPAD_MAPPING:
+            logging.error("gamepad not regcognized {}".format(detected_type))
         logging.info(f"Profil manette: {detected_type}")
+        self._log_mapping_details(self.mapping)
+
+    def _log_mapping_details(self, mapping: Optional[GamepadMapping]) -> None:
+        if not mapping:
+            logging.warning("Aucun mapping de manette disponible: utilisation du profil xbox par défaut")
+            return
+
+        button_lines = [
+            f"A={mapping.a_button}",
+            f"B={mapping.b_button}",
+            f"X={mapping.x_button}",
+            f"Y={mapping.y_button}",
+            f"START={mapping.start_button}",
+            f"SELECT={mapping.select_button}",
+            f"MODE={mapping.mode_button}",
+            f"L1={mapping.l1_button}",
+            f"R1={mapping.r1_button}",
+            f"L2={mapping.l2_button}",
+            f"R2={mapping.r2_button}",
+        ]
+        axis_lines = [
+            f"LX={mapping.lx_axis}",
+            f"LY={mapping.ly_axis} (invert={mapping.invert_ly})",
+            f"RX={mapping.rx_axis}",
+            f"RY={mapping.ry_axis} (invert={mapping.invert_ry})"
+        ]
+
+        logging.info("Indices mapping boutons: %s", ", ".join(button_lines))
+        logging.info("Indices mapping axes: %s", ", ".join(axis_lines))
 
     def _detect_type_from_name(self, name: str) -> str:
         n = name.lower()
-        if any(k in n for k in ["xbox", "x-input", "xinput", "x-box", "shanwan"]):
-            return "xbox"
+        if any(k in n for k in [XBOX, "x-input", "xinput", "x-box", "shanwan"]):
+            return XBOX
         if any(k in n for k in ["playstation", "dualshock", "dual sense", "dualsense", "sony"]):
             return "playstation"
         if any(k in n for k in ["switch", "nintendo", "pro controller"]):
@@ -246,39 +209,22 @@ class USBGamepad:
 
     def get_normalized_state(self) -> Optional[Dict[str, int]]:
         if not self.gamepad:
-            return {
-                "connected": 0,
-                "A": 0,
-                "B": 0,
-                "X": 0,
-                "Y": 0,
-                "L1": 0,
-                "L2": 0,
-                "R1": 0,
-                "R2": 0,
-                "START": 0,
-                "SELECT": 0,
-                "UP": 0,
-                "DOWN": 0,
-                "LEFT": 0,
-                "RIGHT": 0,
-                "LX": 0,
-                "LY": 0,
-                "RX": 0,
-                "RY": 0,
+            empty_state = {
+                CONNECTED_KEY: 0,
             }
+            empty_state.update({name: 0 for name in BUTTON_KEYS})
+            empty_state.update({name: 0 for name in JOYSTICK_KEYS})
+            return empty_state
         try:
             pygame.event.pump()
         except Exception:
             return None
 
-        state = (
-            "Pad %s | buttons=%s | axes=%s | hats=%s",
-            self.gamepad.get_name(),
-            list(map(self.gamepad.get_button, range(self.gamepad.get_numbuttons()))),
-            [f"{self.gamepad.get_axis(i):+.2f}" for i in range(self.gamepad.get_numaxes())],
-            list(map(self.gamepad.get_hat, range(self.gamepad.get_numhats())))
-        )
+        self.raw_state = {
+            'axes': [self.gamepad.get_axis(i) for i in range(self.gamepad.get_numaxes())],
+            'buttons': [self.gamepad.get_button(i) for i in range(self.gamepad.get_numbuttons())],
+            'hats': [self.gamepad.get_hat(i) for i in range(self.gamepad.get_numhats())],
+        }
 
         m = self.mapping
 
@@ -296,6 +242,7 @@ class USBGamepad:
         btnY = get_button(m.y_button)
         btnSTART = get_button(m.start_button)
         btnSELECT = get_button(m.select_button)
+        btnMODE = get_button(m.mode_button)
         btnL1 = get_button(m.l1_button)
         btnR1 = get_button(m.r1_button)
         # L2/R2 can be on buttons or axes; pressed if either is active
@@ -320,7 +267,8 @@ class USBGamepad:
         if m.invert_ry:
             ry = 99 - ry
 
-        for axis_name, axis_value in ("LX", lx), ("LY", ly), ("RX", rx), ("RY", ry):
+        for axis_symbol, axis_value in ((LX, lx), (LY, ly), (RX, rx), (RY, ry)):
+            axis_name = JOYSTICK_NAME_MAP.get(axis_symbol, str(axis_symbol))
             self._update_axis_neutral(axis_name, axis_value)
 
         # D-Pad via HAT si disponible
@@ -335,29 +283,30 @@ class USBGamepad:
         except Exception:
             pass
 
-        btnL2 = btnL2_b or self._trigger_from_axis(m.l2_axis, "L2")
-        btnR2 = btnR2_b or self._trigger_from_axis(m.r2_axis, "R2")
+        btnL2 = btnL2_b or self._trigger_from_axis(m.l2_axis, BUTTON_NAME_MAP[L2])
+        btnR2 = btnR2_b or self._trigger_from_axis(m.r2_axis, BUTTON_NAME_MAP[R2])
 
         return {
-            "connected": 1,
-            "A": btnA,
-            "B": btnB,
-            "X": btnX,
-            "Y": btnY,
-            "L1": btnL1,
-            "L2": btnL2,
-            "R1": btnR1,
-            "R2": btnR2,
-            "START": btnSTART,
-            "SELECT": btnSELECT,
-            "UP": up,
-            "DOWN": down,
-            "LEFT": left,
-            "RIGHT": right,
-            "LX": lx,
-            "LY": ly,
-            "RX": rx,
-            "RY": ry,
+            CONNECTED_KEY: 1,
+            BUTTON_NAME_MAP[A]: btnA,
+            BUTTON_NAME_MAP[B]: btnB,
+            BUTTON_NAME_MAP[X]: btnX,
+            BUTTON_NAME_MAP[Y]: btnY,
+            BUTTON_NAME_MAP[L1]: btnL1,
+            BUTTON_NAME_MAP[L2]: btnL2,
+            BUTTON_NAME_MAP[R1]: btnR1,
+            BUTTON_NAME_MAP[R2]: btnR2,
+            BUTTON_NAME_MAP[START]: btnSTART,
+            BUTTON_NAME_MAP[SELECT]: btnSELECT,
+            BUTTON_NAME_MAP[MODE]: btnMODE,
+            BUTTON_NAME_MAP[UP]: up,
+            BUTTON_NAME_MAP[DOWN]: down,
+            BUTTON_NAME_MAP[LEFT]: left,
+            BUTTON_NAME_MAP[RIGHT]: right,
+            JOYSTICK_NAME_MAP[LX]: lx,
+            JOYSTICK_NAME_MAP[LY]: ly,
+            JOYSTICK_NAME_MAP[RX]: rx,
+            JOYSTICK_NAME_MAP[RY]: ry,
         }
 
     def active_inputs(
@@ -371,18 +320,18 @@ class USBGamepad:
         if state is None:
             return None
 
-        self._update_neutral_from_state(state)
-
         buttons = [btn for btn in BUTTON_KEYS if state.get(btn) == 1]
 
         active_axes: Dict[str, int] = {}
-        for axis in JOYSTICK_KEYS:
-            value = state.get(axis)
-            if not isinstance(value, int):
-                continue
-            neutral = self._neutral_value(axis)
-            if abs(value - neutral) >= deadzone:
-                active_axes[axis] = value
+
+        #for axis in JOYSTICK_KEYS:
+        #    value = state.get(axis)
+        #    if not isinstance(value, int):
+        #        continue
+        #    if abs(value - 50) >= deadzone:
+        #        active_axes[axis] = value
+
+        self._update_neutral_from_state(state)
 
         return {"buttons": buttons, "joysticks": active_axes}
 
@@ -394,20 +343,38 @@ class USBGamepad:
             return
 
         state = self.get_normalized_state()
+
         if state is None:
             return None
 
         active_inputs = self.active_inputs(state) or {"buttons": [], "joysticks": {}}
 
         if active_inputs["buttons"] or active_inputs["joysticks"]:
+            logging.info(self.raw_state)
             buttons_str = ", ".join(active_inputs["buttons"]) or "aucun"
             joystick_details = (
                 ", ".join(f"{axis}={value}" for axis, value in active_inputs["joysticks"].items())
                 or "aucun"
             )
-            logging.info(
-                "Entrées actives : boutons [%s], joysticks [%s]",
-                buttons_str,
-                joystick_details,
-            )
-            return {USB_GAMEPAD : active_inputs}
+            results = {}
+            for input in active_inputs["buttons"]:
+                results[input] = Buttons.get(GAMEPAD, input)
+                if self.node and results[input] is not None:
+                    self.node.publish(results[input])
+            return results
+
+    #def print(self, msg):
+
+
+        #logging.info(
+        #    "Entrées brutes: boutons=%s axes=%s hats=%s | mapping_boutons=%s | mapping_axes=%s | mapping_triggers=%s | index->boutons=%s | index->axes=%s | index->triggers=%s",
+        #    list(active_buttons),
+        #    axes_log,
+        #    hats_log,
+        #    button_indices,
+        #    axis_indices,
+        #    trigger_axis_indices,
+        #    raw_to_buttons,
+        #    raw_to_axes,
+        #    raw_to_triggers,
+        #)

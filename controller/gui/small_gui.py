@@ -31,7 +31,7 @@ class SmallGui(tk.Tk):
         self.node = node
 
         self.serial_inputs = SerialInputs(self.node)
-        self.usb_gamepad = USBGamepad()
+        self.usb_gamepad = USBGamepad(self.node)
 
         #self.geometry("480x320")
         self.geometry("640x480")
