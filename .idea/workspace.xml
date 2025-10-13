@@ -9,14 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9de8dbe2-a8bd-4d96-ba64-13880b4eab0a" name="Changes" comment="Fix deploy 2 controller">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/buttons/button_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/buttons/button_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/buttons/gp_buttons.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/buttons/gp_buttons.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/gui/small_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/gui/small_gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/input/usb_gamepad.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/input/usb_gamepad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/nodes/backup.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/nodes/backup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/tests/test_usb_gamepad.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/tests/test_usb_gamepad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/logging_conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/logging_conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/utils_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/utils_static.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/conf/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -429,6 +422,7 @@
       <workItem from="1758867041665" duration="23309000" />
       <workItem from="1758983073499" duration="113000" />
       <workItem from="1758984049987" duration="20000" />
+      <workItem from="1758985455551" duration="1044000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <option name="closed" value="true" />
