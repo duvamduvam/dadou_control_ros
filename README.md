@@ -1,80 +1,37 @@
-dadou_control_ros
-=================
+# Dadou Controller (ROS 2)
 
-Contrôleur ROS2 et outils associés pour piloter le robot (interfaces d’entrée, mapping manette USB, configuration, UI, logs, etc.). Ce dépôt contient un module Python `controller` ainsi qu’un workspace ROS2 minimal (`ros2_ws`).
+Software running on the handheld controller for the Dadou theatrical robot. It aggregates multiple input devices (USB gamepad, RP2040 glove, GUI) and publishes ROS 2 commands to the robot runtime.
 
-Fonctionnalités
----------------
-- Entrées: gestion d’une manette USB via `pygame` (`controller/input/usb_gamepad.py`).
-- Configuration centralisée: `controller/control_config.py` (chemins, logs, playlists, mappings…).
-- Tests unitaires: `unittest` dans `controller/tests`.
-- Intégration ROS2: workspace `ros2_ws` (sources côté contrôleur/robot).
+## Documentation
+Comprehensive documentation lives under [`docs/`](docs/):
+- [`docs/architecture.md`](docs/architecture.md): high-level architecture and repository interplay.
+- [`docs/setup.md`](docs/setup.md): environment bootstrap and local testing without hardware.
+- [`docs/interfaces.md`](docs/interfaces.md): ROS topics, configuration files, and input sources.
+- [`docs/testing.md`](docs/testing.md): automated tests, hardware-in-the-loop checklist, troubleshooting.
 
-Prérequis
----------
-- Python 3.11+
-- Virtualenv recommandé
-- (Optionnel) ROS2 installé pour l’exécution complète côté robot
+Related repositories:
+- [`../dadou_robot_ros`](../dadou_robot_ros) — robot runtime and actuators.
+- [`../dadou_utils_ros`](../dadou_utils_ros) — shared modules, logging, deployment.
 
-Installation rapide
--------------------
-```
-# 1) Cloner le dépôt
-# git clone https://github.com/<votre-org>/dadou_control_ros.git
-cd dadou_control_ros
-
-# 2) Créer un environnement virtuel
+## Quick Start
+```bash
 python3 -m venv venv
 source venv/bin/activate
-
-# 3) Installer les dépendances
 pip install -U pip
 pip install -r requirements.txt
+python -m unittest -v -s controller/tests
 ```
 
-Exécuter les tests
-------------------
-- Tous les tests:
-```
-python -m unittest -v -s controller/tests -p "test_*.py"
-```
-- Une classe précise:
-```
-python -m unittest -v controller.tests.test_usb_gamepad.TestUSBGamePad
-```
-- Une méthode précise:
-```
-python -m unittest -v controller.tests.test_usb_gamepad.TestUSBGamePad.test_check
-```
+## Repository Layout
+- `controller/`: core Python modules (input devices, GUI, button mappings, ROS nodes).
+- `ros2_ws/`: minimal ROS 2 workspace embedding the controller package for deployment under `/home/ros2_ws`.
+- `conf/`, `json/`, `medias/`: configuration and assets.
+- `test_logs/`: local log directory.
 
-Astuce VS Code: la configuration est fournie dans `.vscode/settings.json` (découverte `unittest` pointant sur `controller/tests`, top-level sur la racine du repo).
+## Contributing
+1. Run the tests before committing.
+2. Update the relevant documentation pages (`docs/`) when introducing new behaviour or dependencies.
+3. Follow the logging conventions provided by `dadou_utils_ros.logging_conf`.
 
-Utilisation (manette USB)
--------------------------
-Le module `USBGamepad` initialisera `pygame` et listera les contrôleurs disponibles. En l’absence de manette, il reste silencieux et ne génère pas d’erreur bloquante, ce qui permet d’exécuter les tests en environnement CI/headless.
-
-Fichier principal: `controller/input/usb_gamepad.py`.
-
-Structure du projet
--------------------
-- `controller/`: code source Python
-  - `input/usb_gamepad.py`: gestion manette USB via `pygame`
-  - `control_config.py`: configuration du contrôleur (chemins, logs…)
-  - `tests/`: tests unitaires
-- `ros2_ws/`: workspace ROS2 (sources complémentaires)
-- `conf/`, `json/`, `medias/`: assets et configs
-- `test_logs/`: dossier cible pour les logs de test
-
-Développement
--------------
-- Format: suivre le style existant.
-- Tests: ajouter des tests dans `controller/tests`.
-- Logs: les tests écrivent dans `test_logs/controller-test.log` (évite les permissions système).
-
-Contributions
--------------
-- Issues et PR bienvenues. Merci de décrire clairement le contexte et la reproduction.
-
-Licence
--------
-- À définir par le propriétaire du dépôt.
+## License
+To be defined by the project owner.
