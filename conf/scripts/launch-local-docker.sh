@@ -17,7 +17,16 @@ fi
 
 # Setup ROS 2 et build du workspace
 cd /home/ros2_ws/
-source /opt/ros/humble/setup.bash
+
+# Sélectionne automatiquement la distro ROS disponible dans l'image
+if [ -f /opt/ros/jazzy/setup.bash ]; then
+  source /opt/ros/jazzy/setup.bash
+elif [ -f /opt/ros/humble/setup.bash ]; then
+  source /opt/ros/humble/setup.bash
+else
+  echo "[❌] Impossible de trouver setup.bash pour ROS 2 (jazzy ou humble)."
+  exit 1
+fi
 
 echo "[🔧] Compilation du workspace ROS 2..."
 colcon build
