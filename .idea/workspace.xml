@@ -9,7 +9,15 @@
   <component name="ChangeListManager">
     <list default="true" id="9de8dbe2-a8bd-4d96-ba64-13880b4eab0a" name="Changes" comment="Fix deploy 2 controller">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/conf/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/conf/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/docker/arm/Dockerfile-arm" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/arm/Dockerfile-arm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/docker/x86/Dockerfile-x86" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/x86/Dockerfile-x86" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/docker/x86/docker-compose-x86.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/docker/x86/docker-compose-x86.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/packages.txt" beforeDir="false" afterPath="$PROJECT_DIR$/conf/packages.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/compose-up-local.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/compose-up-local.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scripts/launch-local-docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scripts/launch-local-docker.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dadou_utils_ros/ansible/templates/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/dadou_utils_ros/ansible/templates/Makefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -423,6 +431,13 @@
       <workItem from="1758983073499" duration="113000" />
       <workItem from="1758984049987" duration="20000" />
       <workItem from="1758985455551" duration="1044000" />
+      <workItem from="1761522257466" duration="1356000" />
+      <workItem from="1761551505424" duration="1206000" />
+      <workItem from="1761565826777" duration="1812000" />
+      <workItem from="1761587231718" duration="37000" />
+      <workItem from="1761588586192" duration="363000" />
+      <workItem from="1761606463662" duration="599000" />
+      <workItem from="1762038861666" duration="135000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <option name="closed" value="true" />

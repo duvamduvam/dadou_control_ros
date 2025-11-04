@@ -39,11 +39,12 @@ RUN ln -fs /usr/share/zoneinfo/Europe/Paris /etc/localtime && \
 
 # Définir PYTHONPATH
 ENV PYTHONPATH "${PYTHONPATH}:/home/ros2_ws/src"
+ENV PIP_BREAK_SYSTEM_PACKAGES=1
 
 # Installer les dépendances Python
 RUN python3 -m pip install --upgrade pip
-RUN pip3 install --no-cache-dir -r /home/ros2_ws/src/controller/conf/requirements.txt
-RUN pip3 install --no-cache-dir -r /home/ros2_ws/src/controller/conf/requirements-gpio.txt
+RUN pip3 install --no-cache-dir --ignore-installed -r /home/ros2_ws/src/controller/conf/requirements.txt
+RUN pip3 install --no-cache-dir --ignore-installed -r /home/ros2_ws/src/controller/conf/requirements-gpio.txt
 
 # Commande pour installer les dépendances CircuitPython
 #CMD ["/usr/bin/python3", "/home/ros2_ws/src/controller/conf/scripts/install_no_x_requirements.py"]

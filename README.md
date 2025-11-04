@@ -33,5 +33,10 @@ python -m unittest -v -s controller/tests
 2. Update the relevant documentation pages (`docs/`) when introducing new behaviour or dependencies.
 3. Follow the logging conventions provided by `dadou_utils_ros.logging_conf`.
 
+## For AI Assistants
+- Local setup and Docker usage: [`docs/setup.md`](docs/setup.md)
+- Automated tests and troubleshooting: [`docs/testing.md`](docs/testing.md)
+- Topic/interface reference and cross-repo context: [`docs/interfaces.md`](docs/interfaces.md), [`docs/architecture.md`](docs/architecture.md)
+
 ## License
 To be defined by the project owner.

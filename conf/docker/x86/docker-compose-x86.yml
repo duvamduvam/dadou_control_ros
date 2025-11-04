@@ -1,9 +1,12 @@
+# Compose stack used to run the controller inside a desktop-enabled ROS container.
 services:
   dadou-control:
     #container_name: dadou-controller-container
     container_name: ${CONTAINER_NAME:-dadou-controller-container}
+    platform: linux/amd64
     image: dadouuu/dadou-controller-x86:latest
     build:
+      # Build in monorepo root so all sources are available to the Dockerfile.
       context: ../../..
       dockerfile: conf/docker/x86/Dockerfile-x86
       args:
@@ -11,17 +14,20 @@ services:
         CONTAINER_NAME: ${CONTAINER_NAME}
     #context: ../../
     environment:
+      # Pass display variables to allow Qt apps (RViz, joint_state_publisher_gui) to open on host.
       - DISPLAY=${DISPLAY}
       - QT_X11_NO_MITSHM=1
-      - XAUTHORITY=/tmp/.docker.xauth
+      - XAUTHORITY=${XAUTHORITY:-/tmp/.docker.xauth}
     #ports:
     #  - "80:80"
     #  - "8000-9000:8000-9000"
     network_mode: "host"
 
     volumes:
+      # Share devices and workspaces; mount host X11 socket + Xauthority for GUI access.
       - /dev:/dev
-      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - ${XAUTHORITY:-/tmp/.docker.xauth}:${XAUTHORITY:-/tmp/.docker.xauth}:rw
       - ../../../conf:/home/ros2_ws/src/controller/conf
       - ../../../controller:/home/ros2_ws/src/controller/controller
       - ../../../dadou_utils_ros:/home/ros2_ws/src/controller/dadou_utils_ros
