@@ -1,10 +1,10 @@
-# Agents Template
+# Modèle d'agents
 
 ## Instructions
-- Respond in English in the chat and use English for all code, comments, and variable names.
-- Maintain exceptional attention to project structure and readability to ease long-term maintenance.
+- Répondre en français dans le chat tout en utilisant exclusivement l'anglais pour le code, les commentaires et les noms de variables.
+- Maintenir une vigilance accrue sur la structure et la lisibilité du projet afin de faciliter la maintenance à long terme.
 
 ## Notes
-- Extend this template with additional agent configuration details when available.
-- Commit every change after each modification performed by Codex.
-- Use a clear, appropriate commit message for each save.
+- Étendre ce modèle avec des informations supplémentaires de configuration d'agents lorsqu'elles sont disponibles.
+- Committer tous les changements après chaque modification effectuée par Codex.
+- Utiliser un message de commit clair et approprié pour chaque enregistrement.
