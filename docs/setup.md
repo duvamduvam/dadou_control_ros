@@ -35,5 +35,10 @@ python -m unittest -v -s controller/tests -p "test_*.py"
 ## Notes for Remote Deployment
 - The Ansible playbooks live in `dadou_utils_ros/ansible`. Use them to deploy the controller onto a Raspberry Pi-based remote.
 - To trigger a remote build, create/update the `controller/change` file before running the playbook (`make i` in the corresponding `conf/Makefile`).
+- Jenkins/Sonar: the Jenkins container already includes OpenJDK 21, but SonarScanner must use it.
+  - If the analysis fails with `Could not find 'java' executable`, install or refresh the JRE inside the container: `sudo docker exec --user root jenkins bash -lc "apt-get update && apt-get install -y openjdk-21-jre-headless"`.
+  - Remove the bundled JRE under `/var/jenkins_home/tools/hudson.plugins.sonar.SonarRunnerInstallation/.../jre` (Ansible does this automatically) so the scanner falls back to `/opt/java/openjdk/bin/java`.
+  - Si Jenkins affiche « Warning: JENKINS-41339 », fixe `JAVA_HOME` et `PATH+JAVA=/opt/java/openjdk/bin` dans *Manage Jenkins → Configure System* pour tous les jobs.
+  - Redéploie Jenkins via Ansible ou redémarre le conteneur avant de relancer `dadou_robot_sonar`.
 
 More operational recipes are documented in [`testing.md`](testing.md).
