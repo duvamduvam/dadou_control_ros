@@ -1,9 +1,10 @@
 # Agents Template
 
 ## Instructions
-- Respond in French in the chat but use only English for code, comments, and variable names.
+- Respond in English in the chat and use English for all code, comments, and variable names.
+- Maintain exceptional attention to project structure and readability to ease long-term maintenance.
 
 ## Notes
 - Extend this template with additional agent configuration details when available.
-- Committer tous les changements après chaque modification effectuée par Codex.
-- Utiliser un message de commit clair et approprié à chaque enregistrement.
+- Commit every change after each modification performed by Codex.
+- Use a clear, appropriate commit message for each save.
