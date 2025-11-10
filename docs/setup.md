@@ -40,5 +40,11 @@ python -m unittest -v -s controller/tests -p "test_*.py"
   - Remove the bundled JRE under `/var/jenkins_home/tools/hudson.plugins.sonar.SonarRunnerInstallation/.../jre` (Ansible does this automatically) so the scanner falls back to `/opt/java/openjdk/bin/java`.
   - Si Jenkins affiche « Warning: JENKINS-41339 », fixe `JAVA_HOME` et `PATH+JAVA=/opt/java/openjdk/bin` dans *Manage Jenkins → Configure System* pour tous les jobs.
   - Redéploie Jenkins via Ansible ou redémarre le conteneur avant de relancer `dadou_robot_sonar`.
+- GitHub Commit Status depuis Jenkins:
+  - Les jobs `dadou_robot_ci` et `debug_github_notify` n'utilisent plus le plugin `githubNotify`; ils publient directement le statut via l'API REST avec `curl`.
+  - Crée un credential Jenkins `Secret text` (ID `github-token4`) contenant un PAT disposant au minimum du scope `repo:status`.
+  - Dans *Manage Jenkins → Configure System → GitHub*, déclare un serveur `https://api.github.com` et associe ce credential (le bouton *Test connection* doit afficher le quota restant).
+  - Les variables `GITHUB_NOTIFY_ACCOUNT/REPO/CREDENTIALS_ID` reçoivent des valeurs par défaut (`duvamduvam`, `dadou_robot_ros`, `github-token4`) mais peuvent être surchargées via les paramètres de job si besoin.
+  - En cas d'échec API, relance simplement le job; aucune dépendance supplémentaire n'est nécessaire côté Jenkins car l'appel curl est autogéré.
 
 More operational recipes are documented in [`testing.md`](testing.md).
