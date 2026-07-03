@@ -1,7 +1,6 @@
 import tkinter as tk
 from tkinter import TOP, BOTH, ttk
 
-from dadou_utils_ros.com.input_messages_list import InputMessagesList
 from dadou_utils_ros.utils_static import ORANGE, BORDEAUX, YELLOW, CYAN, FONT1, PURPLE, FONT3
 
 from controller.control_config import config
@@ -66,12 +65,6 @@ class NormalGui(tk.Tk):
         self.main.pack(fill=BOTH, expand=True, side=TOP)
         #self.scheduler()
 
-        self.send_messages()
-
-    def send_messages(self):
-        self.after(100, self.send_messages)
-        if InputMessagesList().has_msg():
-            ControlFactory().message.send(InputMessagesList().pop_msg())
 
     def show_frame(self, frame_name):
 
