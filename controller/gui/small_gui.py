@@ -4,14 +4,12 @@ import time
 from tkinter import TOP, BOTH, ttk, LEFT
 
 from controller.input.usb_gamepad import USBGamepad
-from dadou_utils_ros.com.input_messages_list import InputMessagesList
 from dadou_utils_ros.misc import Misc
 from dadou_utils_ros.utils.time_utils import TimeUtils
 from dadou_utils_ros.utils_static import (BORDEAUX, YELLOW, FONT1, PURPLE,
                                       DEVICE, MSG, MODE, CONTROL, PLAYLIST, CONFIG, DEFAULT, FONT2, HOST_NAME)
 
 from controller.control_config import config, FONT_DROPDOWN
-from controller.control_factory import ControlFactory
 from controller.gui.windows.frames.widgets.icons_widget import IconsWidget
 from controller.gui.windows.mod_window import ModWindow
 
@@ -74,12 +72,6 @@ class SmallGui(tk.Tk):
 
         self.check_inputs()
         self.check_remove_feedback_msg()
-        self.send_messages()
-
-    def send_messages(self):
-        self.after(100, self.send_messages)
-        if InputMessagesList().has_msg():
-            ControlFactory().message.send(InputMessagesList().pop_msg())
 
     def check_inputs(self):
         self.after(50, self.check_inputs)

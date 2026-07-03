@@ -8,3 +8,7 @@ logs/
 secret
 /dadou_utils_ros.tar.gz
 /controller/change
+
+__pycache__/
+*.pyc
+test_logs/
