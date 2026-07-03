@@ -7,4 +7,5 @@
 ## Notes
 - Extend this template with additional agent configuration details whenever they become available.
 - Commit every change after each modification performed by Codex.
+- Jenkins uses the Jenkinsfiles stored in `dadou_utils_ros`; any pipeline change must be committed and pushed before it is picked up remotely.
 - Use a clear, appropriate commit message for each save.
