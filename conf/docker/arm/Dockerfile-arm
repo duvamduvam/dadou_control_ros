@@ -28,10 +28,11 @@ RUN tar -xzhf /home/ros2_ws/src/controller/dadou_utils_ros.tar.gz -C /home/ros2_
     rm /home/ros2_ws/src/controller/dadou_utils_ros.tar.gz
 
 # Mettre à jour les paquets et installer les dépendances.
-# Filtrer commentaires et lignes vides : apt essaierait d'installer les mots
-# des commentaires (même piège corrigé sur les Dockerfiles robot et x86).
+# sed tronque les commentaires (pleine ligne ET en fin de ligne : packages.txt
+# en contient) sinon apt essaie d'installer les mots des commentaires ;
+# xargs -r ne lance rien si la liste est vide.
 RUN apt-get update && \
-grep -vE '^\s*(#|$)' /home/ros2_ws/src/controller/conf/packages.txt | xargs apt-get install -y
+sed -E 's/#.*$//' /home/ros2_ws/src/controller/conf/packages.txt | xargs -r apt-get install -y
 
 #RUN rosdep update && rosdep install --from-paths /home/ros2_ws/ --ignore-src -r -y
 
