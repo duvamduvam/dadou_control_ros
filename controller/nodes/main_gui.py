@@ -36,12 +36,15 @@ class Ros2TkinterApp(Node):
             if not RANDOM in p:
                 self.action_publishers[p] = self.create_publisher(StringTime, p, 10)
 
-        if "gl" in hostname or not Misc.is_raspberrypi():
-            #    os.environ.get('DISPLAY')):
-            logging.info("start small gui")
+        # Choix de l'interface : un DISPLAY X11 disponible => GUI Tkinter (écran
+        # HDMI, cas du Pi "control" et du PC). Sans DISPLAY => rendu Pillow sur
+        # LCD SPI (ancien setup OS Lite sans bureau). Les gants ("gl") gardent
+        # leur petite GUI.
+        if "gl" in hostname or not Misc.is_raspberrypi() or os.environ.get('DISPLAY'):
+            logging.info("start small gui (tkinter, DISPLAY={})".format(os.environ.get('DISPLAY')))
             self.gui = SmallGui(self)
         else:
-            logging.info("start pillow gui")
+            logging.info("start pillow gui (LCD SPI, pas de DISPLAY)")
             from controller.gui.pillow.TkPillowGui import PillowGuiApp
             self.gui = PillowGuiApp(self)
 
