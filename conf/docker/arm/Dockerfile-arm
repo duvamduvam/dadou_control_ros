@@ -44,8 +44,10 @@ RUN ln -fs /usr/share/zoneinfo/Europe/Paris /etc/localtime && \
 ENV PYTHONPATH "${PYTHONPATH}:/home/ros2_ws/src"
 ENV PIP_BREAK_SYSTEM_PACKAGES=1
 
-# Installer les dépendances Python
-RUN python3 -m pip install --upgrade pip
+# Installer les dépendances Python.
+# PAS de "pip install --upgrade pip" : sur Jazzy/Ubuntu 24.04 le pip système
+# est géré par dpkg ("Cannot uninstall pip 24.0, RECORD file not found") —
+# même piège que sur le Dockerfile robot, la version de l'image suffit.
 RUN pip3 install --no-cache-dir --ignore-installed -r /home/ros2_ws/src/controller/conf/requirements.txt
 RUN pip3 install --no-cache-dir --ignore-installed -r /home/ros2_ws/src/controller/conf/requirements-gpio.txt
 
