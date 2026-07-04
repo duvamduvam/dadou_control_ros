@@ -27,9 +27,11 @@ COPY dadou_utils_ros.tar.gz /home/ros2_ws/src/controller/
 RUN tar -xzhf /home/ros2_ws/src/controller/dadou_utils_ros.tar.gz -C /home/ros2_ws/src/controller/ && \
     rm /home/ros2_ws/src/controller/dadou_utils_ros.tar.gz
 
-# Mettre à jour les paquets et installer les dépendances
+# Mettre à jour les paquets et installer les dépendances.
+# Filtrer commentaires et lignes vides : apt essaierait d'installer les mots
+# des commentaires (même piège corrigé sur les Dockerfiles robot et x86).
 RUN apt-get update && \
-xargs -a /home/ros2_ws/src/controller/conf/packages.txt apt-get install -y
+grep -vE '^\s*(#|$)' /home/ros2_ws/src/controller/conf/packages.txt | xargs apt-get install -y
 
 #RUN rosdep update && rosdep install --from-paths /home/ros2_ws/ --ignore-src -r -y
 
