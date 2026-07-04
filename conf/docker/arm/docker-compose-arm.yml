@@ -9,7 +9,9 @@ services:
     environment:
       - DISPLAY=:0
       - QT_X11_NO_MITSHM=1
-      - XAUTHORITY=/tmp/.docker.xauth
+      # PAS de XAUTHORITY : pointer vers un fichier inexistant fait échouer
+      # toute connexion X. Sans la variable, Xlib retombe sur /root/.Xauthority
+      # (monté ci-dessous depuis ~/.Xauthority de pi : cookie valide).
       - ROS_DOMAIN_ID=${ROS_DOMAIN_ID:-42}
     #ports:
     #  - "80:80"
