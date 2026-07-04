@@ -22,7 +22,10 @@ services:
       - /dev:/dev
       - /proc:/proc
       - /tmp/.X11-unix:/tmp/.X11-unix
-      - ~/.Xauthority:/root/.Xauthority
+      # Chemin ABSOLU obligatoire : compose est lancé via sudo, donc "~" se
+      # serait étendu en /root (inexistant -> docker crée un répertoire vide
+      # à la place du cookie et toute connexion X échoue).
+      - /home/pi/.Xauthority:/root/.Xauthority
       - ../../../conf:/home/ros2_ws/src/controller/conf
       - ../../../controller:/home/ros2_ws/src/controller/controller
       - ../../../dadou_utils_ros:/home/ros2_ws/src/controller/dadou_utils_ros
