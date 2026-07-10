@@ -9,7 +9,8 @@ from tkinter import X, TOP, ttk, NW
 import PIL
 from PIL import ImageTk
 from PIL.Image import Image
-from dadou_utils_ros.utils_static import CYAN, EYE, ICON, MOUTH, X, YELLOW, FONT3, IMAGE
+from dadou_utils_ros.utils_static import MOUTH, X
+from controller.control_static import CYAN, EYE, ICON, YELLOW, FONT3, IMAGE
 
 from controller.gui.windows.frames.abstract.rectangle_highlighted import HighlightedRectangle
 from controller.gui.visuals_object.visual_mouth import VisualMouth

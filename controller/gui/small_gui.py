@@ -6,8 +6,10 @@ from tkinter import TOP, BOTH, ttk, LEFT
 from controller.input.usb_gamepad import USBGamepad
 from dadou_utils_ros.misc import Misc
 from dadou_utils_ros.utils.time_utils import TimeUtils
-from dadou_utils_ros.utils_static import (BORDEAUX, YELLOW, FONT1, PURPLE,
-                                      DEVICE, MSG, MODE, CONTROL, PLAYLIST, CONFIG, DEFAULT, FONT2, HOST_NAME)
+from dadou_utils_ros.utils_static import MODE, DEFAULT
+from controller.control_static import (
+    BORDEAUX, YELLOW, FONT1, PURPLE, DEVICE, MSG, CONTROL, PLAYLIST, CONFIG, FONT2, HOST_NAME,
+)
 
 from controller.control_config import config, FONT_DROPDOWN
 from controller.gui.windows.frames.widgets.icons_widget import IconsWidget

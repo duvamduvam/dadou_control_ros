@@ -4,7 +4,8 @@ import tkinter as tk
 from tkinter import filedialog as fd, TOP
 
 from dadou_utils_ros.utils.time_utils import TimeUtils
-from dadou_utils_ros.utils_static import SEQUENCES, KEYS, FACES, LIGHTS, NECKS, WHEELS
+from dadou_utils_ros.utils_static import SEQUENCES, KEYS, FACES, LIGHTS, WHEELS
+from controller.control_static import NECKS
 
 from controller.control_factory import ControlFactory
 from controller.control_config import CYAN

@@ -1,8 +1,11 @@
 import logging
 import random
 from PIL import Image, ImageOps, ImageDraw, ImageFont
-from dadou_utils_ros.utils_static import X1, Y1, X2, Y2, TYPE, BUTTON, NAME, RESTART, SPEED, RANDOM, NECK, BRIGHTNESS, \
-    SLIDE, DEFAULT, LIGHTS, COORD, CONFIG, WINDOW, CELL, OUT_CELL, IN_CELL, KEYBOARD, PLAYLIST, START, CMD
+from dadou_utils_ros.utils_static import TYPE, NAME, SPEED, RANDOM, NECK, BRIGHTNESS, DEFAULT, LIGHTS
+from controller.control_static import (
+    X1, Y1, X2, Y2, BUTTON, RESTART, SLIDE, COORD, CONFIG, WINDOW, CELL, OUT_CELL, IN_CELL, KEYBOARD, PLAYLIST,
+    START, CMD,
+)
 
 CONFIG_ELEMENTS = [{NAME: RESTART, TYPE: BUTTON},
                    {NAME: SPEED, TYPE: SLIDE, DEFAULT: 30},

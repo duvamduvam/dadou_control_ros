@@ -1,4 +1,5 @@
-from dadou_utils_ros.utils_static import WHEELS, DATAS
+from dadou_utils_ros.utils_static import WHEELS
+from controller.control_static import DATAS
 
 from controller.gui.windows.frames.abstract.abstract_sequence_frame import AbstractSequenceFrame
 

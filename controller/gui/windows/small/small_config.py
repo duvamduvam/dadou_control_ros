@@ -7,9 +7,8 @@ import tkinter as tk
 
 from dadou_utils_ros.com.input_messages_list import InputMessagesList
 from dadou_utils_ros.misc import Misc
-from dadou_utils_ros.utils_static import BORDEAUX, FONT1, FONT22, ORANGE, PURPLE, YELLOW, CYAN, CONFIG, SPEED, \
-    BRIGHTNESS, \
-    WHEELS, ROBOT_LIGHTS, RANDOM, DEFAULT, NECK, FONT12
+from dadou_utils_ros.utils_static import ORANGE, SPEED, BRIGHTNESS, WHEELS, ROBOT_LIGHTS, RANDOM, DEFAULT, NECK
+from controller.control_static import BORDEAUX, FONT1, FONT22, PURPLE, YELLOW, CYAN, CONFIG, FONT12
 
 from controller.control_config import config
 from controller.control_factory import ControlFactory

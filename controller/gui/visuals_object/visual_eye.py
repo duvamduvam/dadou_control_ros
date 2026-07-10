@@ -1,5 +1,5 @@
 from controller.gui.visuals_object.visual_object import VisualObject
-from dadou_utils_ros.utils_static import EYE, EYES
+from controller.control_static import EYE, EYES
 
 
 class VisualEye(VisualObject):

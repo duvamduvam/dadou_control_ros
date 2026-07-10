@@ -2,8 +2,8 @@ import logging
 import tkinter as tk
 from tkinter import BOTH, TOP, LEFT
 
-from dadou_utils_ros.utils_static import DURATION, LOOP, KEYS, STOP, PURPLE, YELLOW, ORANGE, BORDEAUX, CYAN, PLAY, PAUSE, \
-    IMAGE, JSON_EXPRESSIONS, NAME
+from dadou_utils_ros.utils_static import DURATION, LOOP, KEYS, STOP, ORANGE, JSON_EXPRESSIONS, NAME
+from controller.control_static import PURPLE, YELLOW, BORDEAUX, CYAN, PLAY, PAUSE, IMAGE
 
 from controller.gui.windows.frames.widgets.directory_tree_widget import DirectoryTreeWidget
 from controller.control_config import config
@@ -30,7 +30,7 @@ class ExpressionWindow(tk.Frame):
         left_menu = tk.Frame(self, width=50, bg=CYAN)
         left_menu.pack(fill='y', ipadx=20, side=LEFT)
 
-        DirectoryTreeWidget(left_menu, "/home/dadou/Nextcloud/Didier/python/dadou_control/visuals", IMAGE)
+        DirectoryTreeWidget(left_menu, "/home/dadou/Nextcloud/dev/didier/python/dadou_control/visuals", IMAGE)
 
         top_frame = tk.Frame(self, width=800, bg=CYAN)
         self.top_canvas = tk.Canvas(top_frame, height=300, bg=PURPLE)

@@ -1,7 +1,7 @@
 from PIL import Image, ImageDraw
 
 from controller.control_config import config
-from dadou_utils_ros.utils_static import PURPLE
+from controller.control_static import PURPLE
 
 
 class PillowConfig:

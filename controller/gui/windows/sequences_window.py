@@ -2,8 +2,8 @@ import logging
 import tkinter as tk
 from tkinter import BOTH, TOP, font
 
-from dadou_utils_ros.utils_static import FACE, LIGHTS, WHEELS, NECK, CYAN, BORDEAUX, PURPLE, YELLOW, ORANGE, FONT1, NAME, \
-    FONT2, JSON_EXPRESSIONS, JSON_LIGHTS
+from dadou_utils_ros.utils_static import FACE, LIGHTS, WHEELS, NECK, ORANGE, NAME, JSON_EXPRESSIONS, JSON_LIGHTS
+from controller.control_static import CYAN, BORDEAUX, PURPLE, YELLOW, FONT1, FONT2
 
 from controller.control_config import config
 from controller.control_factory import ControlFactory

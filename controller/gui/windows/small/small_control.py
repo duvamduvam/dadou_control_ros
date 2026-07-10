@@ -3,8 +3,8 @@ import tkinter as tk
 from tkinter import TOP, X, BOTH
 
 from dadou_utils_ros.com.input_messages_list import InputMessagesList
-from dadou_utils_ros.utils_static import CYAN, YELLOW, \
-    PURPLE, NAME, CMD, FONT2, MSG, DEVICE
+from dadou_utils_ros.utils_static import NAME
+from controller.control_static import CYAN, YELLOW, PURPLE, CMD, FONT2, MSG, DEVICE
 from controller.buttons.button_config import INPUT_KEYS, BUTTONS_LAYOUT, Buttons
 
 from controller.control_config import config

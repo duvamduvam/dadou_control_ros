@@ -4,7 +4,8 @@ from tkinter import NW
 import PIL
 from PIL import Image, ImageTk
 from dadou_utils_ros.misc import Misc
-from dadou_utils_ros.utils_static import CLEAN, X, Y, BASE_PATH, PATHS, RANDOM_COLOR
+from dadou_utils_ros.utils_static import X, Y, BASE_PATH
+from controller.control_static import CLEAN, PATHS, RANDOM_COLOR
 
 from controller.control_config import config
 

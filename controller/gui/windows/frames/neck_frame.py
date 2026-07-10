@@ -1,4 +1,5 @@
-from dadou_utils_ros.utils_static import NECK, NECKS, DATAS
+from dadou_utils_ros.utils_static import NECK
+from controller.control_static import NECKS, DATAS
 
 from controller.gui.windows.frames.abstract.abstract_sequence_frame import AbstractSequenceFrame
 

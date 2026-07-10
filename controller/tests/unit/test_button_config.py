@@ -5,7 +5,8 @@ et ignore silencieusement les autres : ce test garantit qu'aucune commande de
 BUTTONS_LAYOUT ne vise un topic inconnu (sauf commandes locales assumées).
 """
 
-from dadou_utils_ros.utils_static import CMD, DURATION, NAME, PLAYLIST
+from dadou_utils_ros.utils_static import DURATION, NAME
+from controller.control_static import CMD, PLAYLIST
 from controller.buttons.button_config import BUTTONS_LAYOUT, KEYS_MAPPING
 from controller.control_config import PUBLISHER_LIST
 

@@ -7,7 +7,7 @@ class AudioPopupWidget:
 
     def __init__(self, parent):
 
-        self.AUDIO_FOLDER = '/home/dadoutils/Nextcloud/Didier/dadoutils/DadouControl/audios'
+        self.AUDIO_FOLDER = '/home/dadoutils/Nextcloud/dev/didier/dadoutils/DadouControl/audios'
 
         self.parent = parent
         self.top = tk.Toplevel(self.parent)

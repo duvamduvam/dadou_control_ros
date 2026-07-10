@@ -3,8 +3,8 @@ import logging
 
 from dadou_utils_ros.com.input_messages_list import InputMessagesList
 from dadou_utils_ros.misc import Misc
-from dadou_utils_ros.utils_static import DEVICES, INPUT_KEY, BUTTON, SLIDERS, JOYSTICK, DEVICE, MSG, DIDIER, ALL, NECK, \
-    WHEEL_LEFT, WHEEL_RIGHT, ROBOT, X, Y, WHEELS, LEFT, RIGHT
+from dadou_utils_ros.utils_static import DEVICES, JOYSTICK, NECK, WHEEL_LEFT, WHEEL_RIGHT, X, Y, WHEELS, LEFT, RIGHT
+from controller.control_static import INPUT_KEY, BUTTON, SLIDERS, DEVICE, MSG, DIDIER, ALL, ROBOT
 from controller.control_config import config
 from dadou_utils_ros.com.serial_devices_manager import SerialDeviceManager
 
