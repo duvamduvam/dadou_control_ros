@@ -11,9 +11,11 @@ from controller.control_config import config, RESTART_APP, FONT_BUTTON
 from controller.control_factory import ControlFactory
 from dadou_utils_ros.files.files_utils import FilesUtils
 from dadou_utils_ros.utils.time_utils import TimeUtils
-from dadou_utils_ros.utils_static import PLAYLISTS, AUDIO, STOP, PLAYLIST_PLAY, BORDEAUX, \
-    PLAYLIST_PATH, AUDIOS_DIRECTORY, FONT2, ANIMATION, PLAYLIST_STOP, YELLOW, \
-    PLAYLIST, NEXT, CONTROL, CONFIG, DEFAULT, PLAYLIST_LIST, CHOOSE
+from dadou_utils_ros.utils_static import AUDIO, STOP, AUDIOS_DIRECTORY, ANIMATION, DEFAULT
+from controller.control_static import (
+    PLAYLISTS, PLAYLIST_PLAY, BORDEAUX, PLAYLIST_PATH, FONT2, PLAYLIST_STOP, YELLOW, PLAYLIST, NEXT, CONTROL,
+    CONFIG, PLAYLIST_LIST, CHOOSE,
+)
 
 MENU = [CONTROL, PLAYLIST, CONFIG]
 PLAYLIST_CMD_INTERVAL = 1000

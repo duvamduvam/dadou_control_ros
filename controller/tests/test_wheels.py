@@ -5,7 +5,8 @@ from coverage.annotate import os
 
 from dadou_utils_ros.com.serial_devices_manager import SerialDeviceManager
 from dadou_utils_ros.com.ws_client import WsClient
-from dadou_utils_ros.utils_static import WS_CLIENT, WHEEL_LEFT, WHEEL_RIGHT
+from dadou_utils_ros.utils_static import WHEEL_LEFT, WHEEL_RIGHT
+from controller.control_static import WS_CLIENT
 
 from controller.files.control_json_manager import ControlJsonManager
 

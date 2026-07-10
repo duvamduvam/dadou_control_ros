@@ -6,7 +6,8 @@ import tkinter as tk
 
 from dadou_utils_ros.misc import Misc
 from dadou_utils_ros.utils.time_utils import TimeUtils
-from dadou_utils_ros.utils_static import BASE_PATH, PATHS, ICONS, INPUT_KEY, SLIDERS, GLOVE_LEFT
+from dadou_utils_ros.utils_static import BASE_PATH
+from controller.control_static import PATHS, ICONS, INPUT_KEY, SLIDERS, GLOVE_LEFT
 from controller.control_config import config
 from controller.control_factory import ControlFactory
 

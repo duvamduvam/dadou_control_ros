@@ -10,9 +10,11 @@ import tkinter as tk
 from controller.control_config import config, PUBLISHER_LIST
 from controller.gui.pillow.TkPillowGui import PillowGuiApp
 from dadou_utils_ros.logging_conf import LoggingConf
-from dadou_utils_ros.utils_static import (AUDIO, FACE, ROBOT_LIGHTS, RELAY, LEFT_EYE, NECK, RIGHT_EYE, LEFT_ARM, \
-    RIGHT_ARM, ANIMATION, LOGGING_CONFIG_FILE, WHEELS, DURATION, LOGGING_FILE_NAME, WHEEL_LEFT, WHEEL_RIGHT, RANDOM,
-                                          RANDOM_ANIMATION, TYPE)
+from dadou_utils_ros.utils_static import (
+    AUDIO, FACE, ROBOT_LIGHTS, RELAY, LEFT_EYE, NECK, RIGHT_EYE, LEFT_ARM, RIGHT_ARM, ANIMATION,
+    LOGGING_CONFIG_FILE, WHEELS, DURATION, LOGGING_FILE_NAME, WHEEL_LEFT, WHEEL_RIGHT, RANDOM, TYPE,
+)
+from controller.control_static import RANDOM_ANIMATION
 from controller.gui.small_gui import SmallGui
 
 

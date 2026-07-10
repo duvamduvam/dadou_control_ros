@@ -8,8 +8,8 @@ from controller.control_config import BUTTONS_MAPPING
 from controller.control_factory import ControlFactory
 from dadou_utils_ros.com.input_messages_list import InputMessagesList
 from dadou_utils_ros.com.serial_devices_manager import SerialDeviceManager
-from dadou_utils_ros.utils_static import SELECT, START, X, BL, A, RIGHT, LEFT, Y, B, DOWN, UP, DEVICES, INPUT_KEY, KEY, \
-    BUTTON, BR
+from dadou_utils_ros.utils_static import X, A, RIGHT, LEFT, Y, B, DOWN, UP, DEVICES, KEY
+from controller.control_static import SELECT, START, BL, INPUT_KEY, BUTTON, BR
 
 mapping = {SELECT: board.D4, UP: board.D5, DOWN: board.D6, B: board.D12, LEFT: board.D13,
            X: board.D16, BR: board.D18, RIGHT: board.D19, Y: board.D20,

@@ -8,7 +8,7 @@ tv=ttk.Treeview(f,show='tree')
 ybar=tk.Scrollbar(f,orient=tk.VERTICAL,
                   command=tv.yview)
 tv.configure(yscroll=ybar.set)
-directory='/home/dadou/Nextcloud/Didier/python/dadou_control/visuals'
+directory='/home/dadou/Nextcloud/dev/didier/python/dadou_control/visuals'
 tv.heading('#0',text='Dir：'+directory,anchor='w')
 path=os.path.abspath(directory)
 node=tv.insert('','end',text=path,open=True)

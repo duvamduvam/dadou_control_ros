@@ -6,8 +6,10 @@ from tkinter import HORIZONTAL, DISABLED, ACTIVE, W, YES, NW, LEFT, TOP, RIGHT, 
 from tkinter.colorchooser import askcolor
 
 from dadou_utils_ros.files.files_utils import FilesUtils
-from dadou_utils_ros.utils_static import JSON_LIGHTS_BASE, CYAN, YELLOW, ORANGE, JSON_LIGHTS_METHODS, BASE, METHOD, COLOR, \
-    NAME, STATE, BASE_PATH, JSON_DIRECTORY, PROJECT_LIGHTS_DIRECTORY, SEQUENCES, LOOP, DURATION, KEYS
+from dadou_utils_ros.utils_static import (
+    JSON_LIGHTS_BASE, ORANGE, METHOD, COLOR, NAME, BASE_PATH, JSON_DIRECTORY, SEQUENCES, LOOP, DURATION, KEYS,
+)
+from controller.control_static import CYAN, YELLOW, JSON_LIGHTS_METHODS, BASE, STATE, PROJECT_LIGHTS_DIRECTORY
 
 from controller.control_config import config
 from controller.control_factory import ControlFactory

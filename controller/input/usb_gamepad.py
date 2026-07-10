@@ -4,8 +4,8 @@ import logging
 from typing import Optional, Dict, Any
 
 from controller.buttons.button_config import Buttons, XBOX_MAPPING, GamepadMapping, GAMEPAD_MAPPING
-from dadou_utils_ros.utils_static import GAMEPAD, A, B, X, Y, L1, L2, R1, R2, START, SELECT, UP, DOWN, \
-    LEFT, RIGHT, LX, LY, RX, RY, CONNECTED, XBOX, MODE
+from dadou_utils_ros.utils_static import A, B, X, Y, UP, DOWN, LEFT, RIGHT, MODE
+from controller.control_static import GAMEPAD, L1, L2, R1, R2, START, SELECT, LX, LY, RX, RY, CONNECTED, XBOX
 
 
 def _normalize_button_name(symbol: str) -> str:

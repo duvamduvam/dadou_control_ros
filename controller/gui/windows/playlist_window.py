@@ -11,8 +11,10 @@ import vlc
 from dadou_utils_ros.com.input_messages_list import InputMessagesList
 from dadou_utils_ros.utils.time_utils import TimeUtils
 from dadou_utils_ros.files.files_utils import FilesUtils
-from dadou_utils_ros.utils_static import NAME, PLAYLISTS, AUDIO, STOP, INPUT_KEY, KEY, PLAYLIST_PLAY, BASE_PATH, BORDEAUX, \
-    PLAYLIST_PATH, CYAN, AUDIOS_DIRECTORY, FONT1, FONT2, ANIMATION, PLAYLIST_STOP, SLIDERS, WHEELS
+from dadou_utils_ros.utils_static import NAME, AUDIO, STOP, KEY, BASE_PATH, AUDIOS_DIRECTORY, ANIMATION, WHEELS
+from controller.control_static import (
+    PLAYLISTS, INPUT_KEY, PLAYLIST_PLAY, BORDEAUX, PLAYLIST_PATH, CYAN, FONT1, FONT2, PLAYLIST_STOP, SLIDERS,
+)
 from dadou_utils_ros.audios.sound_object import SoundObject
 
 from controller.control_factory import ControlFactory

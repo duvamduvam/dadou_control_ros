@@ -8,7 +8,8 @@ from controller.control_config import config, BUTTONS_MAPPING
 from dadou_utils_ros.com.input_messages_list import InputMessagesList
 from dadou_utils_ros.com.serial_devices_manager import SerialDeviceManager
 from dadou_utils_ros.utils.time_utils import TimeUtils
-from dadou_utils_ros.utils_static import DEVICES, INPUT_KEY, BUTTON, GLOVE_LEFT
+from dadou_utils_ros.utils_static import DEVICES
+from controller.control_static import INPUT_KEY, BUTTON, GLOVE_LEFT
 from controller.input.serial_inputs import SerialInputs
 
 

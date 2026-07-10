@@ -7,8 +7,10 @@ from dadou_utils_ros.com.message import Message
 from dadou_utils_ros.com.serial_devices_manager import SerialDeviceManager
 from dadou_utils_ros.logging_conf import LoggingConf
 from dadou_utils_ros.misc import Misc
-from dadou_utils_ros.utils_static import BASE_PATH, LOGGING_CONFIG_FILE, DEVICES, JSON_DIRECTORY, WS_CLIENT, \
-    LOGGING_FILE_NAME, INPUT_KEY, SLIDERS, NAME, LOG_FILE, BUTTON, MSG, ALL, JOYSTICK
+from dadou_utils_ros.utils_static import (
+    BASE_PATH, LOGGING_CONFIG_FILE, DEVICES, JSON_DIRECTORY, LOGGING_FILE_NAME, NAME, JOYSTICK,
+)
+from controller.control_static import WS_CLIENT, INPUT_KEY, SLIDERS, LOG_FILE, BUTTON, MSG, ALL
 
 #from dadou_utils_ros.com.ws_client import WsClient
 from dadou_utils_ros.singleton import SingletonMeta
@@ -18,7 +20,7 @@ from controller.control_config import config
 from controller.files.control_json_manager import ControlJsonManager
 from controller.logic.sequences.sequences_manager import SequencesManagement
 
-from dadou_utils_ros.utils_static import WS_CLIENTS, WS_PORT
+from controller.control_static import WS_CLIENTS, WS_PORT
 
 
 class ControlFactory(metaclass=SingletonMeta):

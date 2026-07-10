@@ -14,10 +14,12 @@ from controller.control_config import config, PUBLISHER_LIST
 
 from dadou_utils_ros.logging_conf import LoggingConf
 from dadou_utils_ros.misc import Misc
-from dadou_utils_ros.utils_static import (AUDIO, FACE, ROBOT_LIGHTS, RELAY, LEFT_EYE, NECK, RIGHT_EYE, LEFT_ARM, \
-                                          RIGHT_ARM, ANIMATION, LOGGING_CONFIG_FILE, WHEELS, DURATION,
-                                          LOGGING_FILE_NAME, WHEEL_LEFT, WHEEL_RIGHT, RANDOM,
-                                          RANDOM_ANIMATION, TYPE, LOGGING_TEST_FILE_NAME)
+from dadou_utils_ros.utils_static import (
+    AUDIO, FACE, ROBOT_LIGHTS, RELAY, LEFT_EYE, NECK, RIGHT_EYE, LEFT_ARM, RIGHT_ARM, ANIMATION,
+    LOGGING_CONFIG_FILE, WHEELS, DURATION, LOGGING_FILE_NAME, WHEEL_LEFT, WHEEL_RIGHT, RANDOM, TYPE,
+    LOGGING_TEST_FILE_NAME,
+)
+from controller.control_static import RANDOM_ANIMATION
 from controller.gui.small_gui import SmallGui
 
 
