@@ -6,6 +6,9 @@ services:
     build:
       context: ../../..
       dockerfile: conf/docker/arm/Dockerfile-arm
+    # Supervision par le démon Docker (même assainissement que le robot,
+    # 2026-07-11) : le service systemd n'est qu'un interrupteur up -d / stop.
+    restart: unless-stopped
     environment:
       - DISPLAY=:0
       - QT_X11_NO_MITSHM=1
