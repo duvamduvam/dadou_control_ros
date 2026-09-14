@@ -5,7 +5,7 @@ et ignore silencieusement les autres : ce test garantit qu'aucune commande de
 BUTTONS_LAYOUT ne vise un topic inconnu (sauf commandes locales assumées).
 """
 
-from dadou_utils_ros.utils_static import DEFAULT, DURATION, NAME
+from dadou_utils_ros.utils_static import DEFAULT, DURATION, MODE, NAME
 from controller.control_static import CMD, DESIGNATE, FOLLOW, PLAYLIST, SELECT, START
 from controller.buttons.button_config import BUTTONS_LAYOUT, INPUT_KEYS, KEYS_MAPPING
 from controller.control_config import (
@@ -62,6 +62,15 @@ def test_designate_button_is_wired():
         assert entry[CMD].get(DESIGNATE) == "on", \
             "{}[IHR] devrait publier {{'{}': 'on'}}, trouvé {!r}".format(
                 mode, DESIGNATE, entry[CMD])
+
+
+def test_designation_can_be_released():
+    """« C'est moi » ne doit pas être une porte à SENS UNIQUE : sans
+    relâchement, Didier resterait verrouillé sur David et ne pourrait plus
+    regarder le public autrement qu'en ligne de commande."""
+    layout = BUTTONS_LAYOUT[DEFAULT]
+    assert layout[MODE][CMD].get(DESIGNATE) == "off", \
+        "aucun bouton ne relâche la désignation : « c'est moi » est sans retour"
 
 
 def test_follow_is_two_explicit_buttons_not_a_toggle():

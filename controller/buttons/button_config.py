@@ -144,7 +144,16 @@ base = {
     # follow 20), donc conduire à la main écrase le suivi à tout instant.
     START: {NAME: "suis-moi", CMD: {FOLLOW: "on"}},
     SELECT: {NAME: "stop suivi", CMD: {FOLLOW: "off"}},
-    MODE: 0,
+    # Relâchement de la désignation. Sans lui, « c'est moi » serait une porte à
+    # SENS UNIQUE : une fois verrouillé sur David, Didier ne pourrait plus
+    # revenir au regard libre (la personne la plus proche) autrement qu'en ligne
+    # de commande. Or l'étude interaction a tranché que Didier parle AUSSI au
+    # public — regarder ailleurs que David doit rester jouable.
+    # ⚠️ ERGONOMIE À ARBITRER AVEC DAVID : armer se fait au GANT (IHR) et
+    # relâcher à la MANETTE, ce qui est bancal en jeu. C'est faute de second
+    # bouton libre sur le gant — les 24 sont pris. Si le relâchement doit vivre
+    # au gant, il faudra libérer une touche en déplaçant une autre fonction.
+    MODE: {NAME: "regard libre", CMD: {DESIGNATE: "off"}},
     UP: {NAME: "wh for", CMD: {WHEELS: UP}},
     DOWN: {NAME: "wh back", CMD: {WHEELS: DOWN}},
     LEFT: {NAME: "wh left", CMD: {WHEELS: LEFT}},
