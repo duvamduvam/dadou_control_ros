@@ -19,6 +19,7 @@ from controller.control_static import (
     BORDEAUX, YELLOW, CYAN, FONT1, FONT2, FONT3, RPI_LOGGING_CONFIG_FILE, LAPTOP_LOGGING_CONFIG_FILE,
     JSON_LIGHTS_METHODS, WS_CLIENTS, WS_PORT, BAUD_RATE, ICONS, CONFIG, LOG_FILE, HOST_NAME, BUTTON, MSG, BL, BR,
     START, SELECT, ALL, INPUT_KEY, DOCKER_LOGGING_CONFIG_FILE, FONT22, PLAYLIST_LIST, FONT12, RANDOM_ANIMATION,
+    DESIGNATE, FOLLOW,
 )
 
 config = {}
@@ -62,8 +63,13 @@ elif Misc.is_docker():
 else:
     config[BASE_PATH] = "/home/ros2_ws/"
 
+# ⚠️ PUBLISHER_LIST est le FILTRE de publication : Ros2TkinterApp.publish()
+# ignore silencieusement toute clé de commande absente de cette liste. Un bouton
+# dont la commande n'est pas listée ici ne fait donc RIEN, sans erreur — c'est ce
+# qui rendait `follow` inatteignable depuis la télécommande jusqu'au 14/09.
 PUBLISHER_LIST = [RANDOM_ANIMATION, ANIMATION, AUDIO, FACE, ROBOT_LIGHTS, RELAY, NECK ,LEFT_EYE,
-                  RIGHT_EYE, LEFT_ARM, RIGHT_ARM, WHEELS, WHEEL_LEFT, WHEEL_RIGHT]
+                  RIGHT_EYE, LEFT_ARM, RIGHT_ARM, WHEELS, WHEEL_LEFT, WHEEL_RIGHT,
+                  DESIGNATE, FOLLOW]
 
 config[SRC_DIRECTORY] = config[BASE_PATH] + "src/"
 config[PROJECT_DIRECTORY] = config[SRC_DIRECTORY] + 'controller/'

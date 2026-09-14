@@ -10,7 +10,7 @@ from dadou_utils_ros.utils_static import (
 )
 from controller.control_static import (
     EYES, LONG, NEXT, PLAYLIST, SHORT, ARMS, CMD, CONFIG, PLAYLIST_LIST, GLOVE, GAMEPAD, L1, L2, R1, R2, START,
-    SELECT, LX, LY, RX, RY, XBOX,
+    SELECT, LX, LY, RX, RY, XBOX, DESIGNATE, FOLLOW,
 )
 from controller.control_config import SINGLE_GLOVE_9DOF, SINGLE_GLOVE, \
     DUAL_GLOVE_9DOF_LEFT, DUAL_GLOVE_9DOF_RIGHT, DUAL_GLOVE_LEFT, DUAL_GLOVE_RIGHT, IHL, IML, IHR, IMR, IBR, MHL, MHR, \
@@ -97,7 +97,17 @@ base = {
         DURATION: 5000, AUDIO: "street/promotion-vie-eternelle.mp3"}},
     OBL: {NAME: STOP, CMD: {ANIMATION: STOP}},
 
-    IHR: {NAME: "Inclino", CMD: {}},
+    # « C'est moi » (2026-09-14). IHR portait le libellé MORT "Inclino" avec une
+    # commande VIDE : un bouton câblé qui ne faisait rien. L'inclinomètre du gant
+    # 9DOF ne passe pas par là (Buttons.get intercepte les trames série dont le
+    # premier caractère est "I", bien avant KEYS_MAPPING) — réaffecter IHR ne
+    # casse donc rien.
+    # Geste : David se plante devant Didier et appuie. Le suivi se VERROUILLE sur
+    # la personne la plus CENTRÉE (pas la plus grosse : la plus centrée est la
+    # seule que David contrôle, même si un badaud est plus près). Sans ça, en rue,
+    # Didier fixe systématiquement le spectateur du premier rang.
+    # Ne touche AUCUN actionneur : pure perception, donc aucun enjeu roues.
+    IHR: {NAME: "c'est moi", CMD: {DESIGNATE: "on"}},
     IMR: {NAME: "rarm down", CMD: {RIGHT_ARM: DOWN}},
     IBR: {NAME: "rarm up", CMD: {RIGHT_ARM: UP}},
     MHR: {NAME: "neck right", CMD: {NECK: DOWN}},
@@ -119,8 +129,21 @@ base = {
     L2: {NAME: "larm down", CMD: {LEFT_ARM: UP}},
     R1: {NAME: "neck left", CMD: {NECK: DOWN}},
     R2: {NAME: "larm down", CMD: {LEFT_ARM: DOWN}},
-    START: 0,
-    SELECT: 0,
+    # « Suis-moi » (2026-09-14) : activation du suivi de personne AUX ROUES.
+    # DEUX boutons distincts, PAS une bascule : la bascule oblige à connaître
+    # l'état courant pour savoir ce qu'un appui va faire. Pour une commande qui
+    # met 50 kg en mouvement tout seuls, explicite vaut mieux que malin —
+    # SELECT arrête, toujours, quel que soit l'état.
+    # SUR LE GAMEPAD ET PAS SUR LE GANT, DÉLIBÉRÉMENT : le gant n'a qu'un seul
+    # bouton libre (IHR) et il va à « c'est moi », qui est sans danger. Le suivi
+    # roues, lui, reste SIM-ONLY tant que le test scénique au sol et le protocole
+    # caméra roues hors sol n'ont pas eu lieu (docs/chantiers.md) : il n'a rien à
+    # faire à portée de pouce pendant un spectacle. À déplacer sur le gant APRÈS
+    # ces deux étapes, si David le souhaite.
+    # Rappel : la télécommande garde la priorité absolue (twist_mux remote 100 >
+    # follow 20), donc conduire à la main écrase le suivi à tout instant.
+    START: {NAME: "suis-moi", CMD: {FOLLOW: "on"}},
+    SELECT: {NAME: "stop suivi", CMD: {FOLLOW: "off"}},
     MODE: 0,
     UP: {NAME: "wh for", CMD: {WHEELS: UP}},
     DOWN: {NAME: "wh back", CMD: {WHEELS: DOWN}},

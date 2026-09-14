@@ -5,10 +5,12 @@ et ignore silencieusement les autres : ce test garantit qu'aucune commande de
 BUTTONS_LAYOUT ne vise un topic inconnu (sauf commandes locales assumées).
 """
 
-from dadou_utils_ros.utils_static import DURATION, NAME
-from controller.control_static import CMD, PLAYLIST
-from controller.buttons.button_config import BUTTONS_LAYOUT, KEYS_MAPPING
-from controller.control_config import PUBLISHER_LIST
+from dadou_utils_ros.utils_static import DEFAULT, DURATION, NAME
+from controller.control_static import CMD, DESIGNATE, FOLLOW, PLAYLIST, SELECT, START
+from controller.buttons.button_config import BUTTONS_LAYOUT, INPUT_KEYS, KEYS_MAPPING
+from controller.control_config import (
+    PUBLISHER_LIST, IHR, IMR, IBR, MHR, MMR, MBR, AHR, AMR, ABR, OHR, OMR, OBR,
+)
 
 # Commandes traitées localement par la GUI, jamais publiées vers le robot.
 LOCAL_COMMANDS = {PLAYLIST, DURATION, "mute"}
@@ -44,3 +46,49 @@ def test_keyboard_mapping_points_to_existing_buttons():
         for mode, layout in BUTTONS_LAYOUT.items():
             assert button_id in layout, \
                 "touche '{}' -> bouton {} absent du layout {}".format(key, button_id, mode)
+
+
+# --- Boutons ajoutés le 2026-09-14 (voir docs/etude-identification-acteur.md
+#     et docs/etude-suivi-personne.md du dépôt dadou_robot_ros) ------------------
+
+def test_designate_button_is_wired():
+    """IHR = « c'est moi ». Il a porté pendant longtemps le libellé mort
+    "Inclino" avec une commande VIDE — un bouton câblé qui ne faisait rien.
+    Ce test interdit le retour en arrière."""
+    for mode, layout in BUTTONS_LAYOUT.items():
+        entry = layout[IHR]
+        assert entry[CMD], \
+            "{}[IHR] : commande VIDE — c'est la régression 'Inclino'".format(mode)
+        assert entry[CMD].get(DESIGNATE) == "on", \
+            "{}[IHR] devrait publier {{'{}': 'on'}}, trouvé {!r}".format(
+                mode, DESIGNATE, entry[CMD])
+
+
+def test_follow_is_two_explicit_buttons_not_a_toggle():
+    """Le suivi roues met 50 kg en mouvement tout seuls : on veut savoir ce
+    qu'un appui va faire SANS connaître l'état courant. Donc deux boutons
+    distincts, jamais une bascule."""
+    layout = BUTTONS_LAYOUT[DEFAULT]
+    assert layout[START][CMD].get(FOLLOW) == "on"
+    assert layout[SELECT][CMD].get(FOLLOW) == "off"
+
+
+def test_follow_is_not_reachable_from_the_glove():
+    """DÉCISION du 14/09, pas un oubli : le suivi aux roues reste SIM-ONLY tant
+    que le test scénique au sol et le protocole caméra roues hors sol n'ont pas
+    eu lieu. Il n'a donc rien à faire à portée de pouce pendant un spectacle —
+    le gant ne doit pas pouvoir le déclencher.
+
+    Si ce test casse parce que quelqu'un a déplacé « suis-moi » sur le gant :
+    vérifier d'abord que les deux étapes ci-dessus sont FAITES, puis supprimer
+    ce test en l'expliquant au commit. Ne pas le contourner."""
+    glove_ids = [button_id for row in INPUT_KEYS for button_id in row]
+    glove_ids += [IHR, IMR, IBR, MHR, MMR, MBR, AHR, AMR, ABR, OHR, OMR, OBR]
+    for mode, layout in BUTTONS_LAYOUT.items():
+        for button_id in glove_ids:
+            entry = layout.get(button_id)
+            if not isinstance(entry, dict):
+                continue
+            assert FOLLOW not in entry[CMD], \
+                "{}[{}] '{}' déclenche le suivi roues depuis le GANT".format(
+                    mode, button_id, entry[NAME])

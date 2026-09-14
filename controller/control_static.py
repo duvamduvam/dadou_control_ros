@@ -58,6 +58,15 @@ DIDIER = "didier"
 DOCKER_LOGGING_CONFIG_FILE = 'docker-arm64 logging config file'
 EYE = 'eye'
 EYES = 'eyes'
+# --- Topics de perception/autonomie pilotés depuis la télécommande (2026-09-14)
+# Déclarés ICI et non dans la lib partagée dadou_utils_ros : les deux
+# consommateurs (person_tracker côté vision, person_follower côté robot)
+# déclarent déjà leur nom de topic en dur de leur côté. Passer par la lib
+# partagée, qui n'a pas de versionnage, ferait porter un risque à trois dépôts
+# pour deux chaînes de caractères.
+DESIGNATE = 'designate'   # "on" = « c'est moi » : verrouille le suivi sur la
+                          # personne la plus CENTRÉE dans l'image ; "off" relâche.
+FOLLOW = 'follow'         # "on"/"off" : suivi de personne AUX ROUES.
 FONT1 = 'font1'
 FONT2 = 'font2'
 FONT12 = 'font12'
