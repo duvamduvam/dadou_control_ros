@@ -19,7 +19,7 @@ from controller.control_static import (
     BORDEAUX, YELLOW, CYAN, FONT1, FONT2, FONT3, RPI_LOGGING_CONFIG_FILE, LAPTOP_LOGGING_CONFIG_FILE,
     JSON_LIGHTS_METHODS, WS_CLIENTS, WS_PORT, BAUD_RATE, ICONS, CONFIG, LOG_FILE, HOST_NAME, BUTTON, MSG, BL, BR,
     START, SELECT, ALL, INPUT_KEY, DOCKER_LOGGING_CONFIG_FILE, FONT22, PLAYLIST_LIST, FONT12, RANDOM_ANIMATION,
-    DESIGNATE, FOLLOW,
+    DESIGNATE, FOLLOW, ROUTE_SPEED, SLIDERS_PROFILE,
 )
 
 config = {}
@@ -69,7 +69,12 @@ else:
 # qui rendait `follow` inatteignable depuis la télécommande jusqu'au 14/09.
 PUBLISHER_LIST = [RANDOM_ANIMATION, ANIMATION, AUDIO, FACE, ROBOT_LIGHTS, RELAY, NECK ,LEFT_EYE,
                   RIGHT_EYE, LEFT_ARM, RIGHT_ARM, WHEELS, WHEEL_LEFT, WHEEL_RIGHT,
-                  DESIGNATE, FOLLOW]
+                  DESIGNATE, FOLLOW, ROUTE_SPEED]
+
+# Profil du boîtier de faders : variable d'environnement SLIDERS_PROFILE (passée
+# par les compose arm/x86), défaut "default" (comportement historique). Validé
+# au démarrage par SerialInputs (refus explicite d'un nom inconnu).
+config[SLIDERS_PROFILE] = os.environ.get("SLIDERS_PROFILE", "default")
 
 config[SRC_DIRECTORY] = config[BASE_PATH] + "src/"
 config[PROJECT_DIRECTORY] = config[SRC_DIRECTORY] + 'controller/'

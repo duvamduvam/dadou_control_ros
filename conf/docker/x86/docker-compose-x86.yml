@@ -19,6 +19,11 @@ services:
       - QT_X11_NO_MITSHM=1
       - XAUTHORITY=${XAUTHORITY:-/tmp/.docker.xauth}
       - ROS_DOMAIN_ID=${ROS_DOMAIN_ID:-42}
+      # Profil du boîtier de faders (controller/input/sliders_mapping.py) :
+      # "default" (cou / roues, historique) ou "repetition" (fader 1 = vitesse du
+      # cheminement de Didier en salle de répétition simulée — à utiliser AVEC
+      # ROS_DOMAIN_ID=43, jamais seul sur le vrai robot).
+      - SLIDERS_PROFILE=${SLIDERS_PROFILE:-default}
     #ports:
     #  - "80:80"
     #  - "8000-9000:8000-9000"

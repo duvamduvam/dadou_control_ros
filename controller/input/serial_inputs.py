@@ -4,8 +4,9 @@ import logging
 from dadou_utils_ros.com.input_messages_list import InputMessagesList
 from dadou_utils_ros.misc import Misc
 from dadou_utils_ros.utils_static import DEVICES, JOYSTICK, NECK, WHEEL_LEFT, WHEEL_RIGHT, X, Y, WHEELS, LEFT, RIGHT
-from controller.control_static import INPUT_KEY, BUTTON, SLIDERS, DEVICE, MSG, DIDIER, ALL, ROBOT
+from controller.control_static import INPUT_KEY, BUTTON, SLIDERS, DEVICE, MSG, DIDIER, ALL, ROBOT, SLIDERS_PROFILE
 from controller.control_config import config
+from controller.input.sliders_mapping import decode_sliders, resolve_profile
 from dadou_utils_ros.com.serial_devices_manager import SerialDeviceManager
 
 
@@ -22,6 +23,11 @@ class SerialInputs:
         }
         self.input_key = None
         self.last_prompt = None
+        # Profil de décodage des faders (SLIDERS_PROFILE du compose) : validé
+        # ICI, au démarrage — un nom inconnu refuse de démarrer plutôt que de
+        # retomber en silence sur le comportement par défaut.
+        self.sliders_profile = resolve_profile(config.get(SLIDERS_PROFILE))
+        logging.info("sliders : profil « {} »".format(self.sliders_profile))
 
     def device_connected(self, name):
         return self.devices_manager.get_device(name)
@@ -69,10 +75,7 @@ class SerialInputs:
             logging.error("wrong msg size {}".format(msg))
 
     def send_sliders(self, msg: str):
-        if len(msg) == 2:
-            translated = Misc.mapping(int(msg[0:2]), 10, 99, 0, 100)
-            return {NECK: float(translated/100)}
-        elif len(msg) == 4:
-            left = Misc.mapping(int(msg[0:2]), 10, 99, -100, 100)
-            right = Misc.mapping(int(msg[2:4]), 10, 99, -100, 100)
-            return {WHEELS : {LEFT: left, RIGHT: right}}
+        # Décodage par profil (controller/input/sliders_mapping.py) : "default"
+        # = l'ancien mapping en dur (cou / roues), "repetition" = vitesse du
+        # cheminement de Didier en salle de répétition simulée.
+        return decode_sliders(msg, self.sliders_profile)
