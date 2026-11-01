@@ -4,8 +4,8 @@ ANSIBLE ?= controller
 SERVER ?= gl
 GUI ?= yes
 
-UTILS_DIR=/home/dadou/Nextcloud/Didier/python/dadou_utils_ros  # Shared tooling repo.
-ROBOT_ROS_DIR=/home/dadou/Nextcloud/Didier/python/dadou_control_ros  # Root of this project.
+UTILS_DIR=/home/dadou/Nextcloud/dev/didier/python/dadou_utils_ros  # Shared tooling repo.
+ROBOT_ROS_DIR=/home/dadou/Nextcloud/dev/didier/python/dadou_control_ros  # Root of this project.
 
 LOCAL_TEST_LOG= ~/tmp/controller-test.log
 

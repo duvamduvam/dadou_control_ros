@@ -3,7 +3,7 @@
 ## Repository Layout
 Clone the three repositories side by side to keep relative paths consistent:
 ```
-~/Nextcloud/Didier/python/
+~/Nextcloud/dev/didier/python/
 ├── dadou_control_ros
 ├── dadou_robot_ros
 └── dadou_utils_ros

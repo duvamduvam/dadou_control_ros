@@ -55,7 +55,7 @@ else
   echo -e "${RED}La commande xauth est introuvable. Les applications X11 peuvent échouer.${NC}"
 fi
 
-cd /home/dadou/Nextcloud/Didier/python/dadou_control_ros/
+cd /home/dadou/Nextcloud/dev/didier/python/dadou_control_ros/
 
 # Refresh bundled utilities so the image sees the latest sources.
 tar -czhf dadou_utils_ros.tar.gz dadou_utils_ros/
@@ -65,11 +65,11 @@ export TYPE=value
 
 if [ "$MODE" == "build" ]; then
   echo "build docker container $CONTAINER_NAME GUI=$GUI"
-  cd /home/dadou/Nextcloud/Didier/python/dadou_control_ros
+  cd /home/dadou/Nextcloud/dev/didier/python/dadou_control_ros
   tar -czhf dadou_utils_ros.tar.gz dadou_utils_ros/
-  sudo DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY QT_X11_NO_MITSHM=1 CONTAINER_NAME=$CONTAINER_NAME GUI=$GUI docker compose -f /home/dadou/Nextcloud/Didier/python/dadou_control_ros/conf/docker/x86/docker-compose-x86.yml up --build
+  sudo DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY QT_X11_NO_MITSHM=1 CONTAINER_NAME=$CONTAINER_NAME GUI=$GUI docker compose -f /home/dadou/Nextcloud/dev/didier/python/dadou_control_ros/conf/docker/x86/docker-compose-x86.yml up --build
 else
   echo "lunch docker container $CONTAINER_NAME GUI=$GUI"
-  #sudo CONTAINER_NAME=$CONTAINER_NAME GUI=$GUI docker compose -f /home/dadou/Nextcloud/Didier/python/dadou_control_ros/conf/docker/x86/docker-compose-x86.yml up --no-recreate
-  sudo DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY QT_X11_NO_MITSHM=1 CONTAINER_NAME=$CONTAINER_NAME GUI=$GUI docker compose -f /home/dadou/Nextcloud/Didier/python/dadou_control_ros/conf/docker/x86/docker-compose-x86.yml up --no-recreate
+  #sudo CONTAINER_NAME=$CONTAINER_NAME GUI=$GUI docker compose -f /home/dadou/Nextcloud/dev/didier/python/dadou_control_ros/conf/docker/x86/docker-compose-x86.yml up --no-recreate
+  sudo DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY QT_X11_NO_MITSHM=1 CONTAINER_NAME=$CONTAINER_NAME GUI=$GUI docker compose -f /home/dadou/Nextcloud/dev/didier/python/dadou_control_ros/conf/docker/x86/docker-compose-x86.yml up --no-recreate
 fi
