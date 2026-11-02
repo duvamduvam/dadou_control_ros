@@ -1,3 +1,7 @@
+> ⚠️ **DÉPÔT ARCHIVÉ le 2026-11-02.** Le code vit désormais dans le mono-dépôt
+> [`theatre-robot`](https://github.com/duvamduvam/theatre-robot) (`legacy/dadou_control_ros/` pendant la
+> migration, puis `packages/`). Plus aucun commit ici. Historique conservé dans le mono-dépôt (`git subtree`).
+
 # Dadou Controller (ROS 2)
 
 Software running on the handheld controller for the Dadou theatrical robot. It aggregates multiple input devices (USB gamepad, RP2040 glove, GUI) and publishes ROS 2 commands to the robot runtime.
